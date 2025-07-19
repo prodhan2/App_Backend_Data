@@ -840,6 +840,366 @@
 				],
 				"answer": "list",
 				"explanation": "Lists are mutable, while tuples, strings, and frozensets are immutable."
+			},
+			{
+				"id": 71,
+				"question": "What is a Python decorator?",
+				"options": [
+					"A function that modifies another function",
+					"A type of loop",
+					"A data type",
+					"A module"
+				],
+				"answer": "A function that modifies another function",
+				"explanation": "Decorator হলো এমন একটি ফাংশন যা অন্য একটি ফাংশনকে ইনপুট হিসেবে নিয়ে তার আচরণ পরিবর্তন করে।"
+			},
+			{
+				"id": 72,
+				"question": "What does the `@staticmethod` decorator do in a Python class?",
+				"options": [
+					"Defines a method that doesn’t access instance or class data",
+					"Defines a method that accesses only instance data",
+					"Defines a method that accesses only class data",
+					"Defines an abstract method"
+				],
+				"answer": "Defines a method that doesn’t access instance or class data",
+				"explanation": "`@staticmethod` দিয়ে ডিফাইন করা মেথড ক্লাস বা ইনস্ট্যান্স ডেটার সাথে কাজ করে না।"
+			},
+			{
+				"id": 73,
+				"question": "What is the difference between `list` and `tuple` in Python?",
+				"options": [
+					"List is mutable; tuple is immutable",
+					"Both are mutable",
+					"Both are immutable",
+					"Tuple is mutable; list is immutable"
+				],
+				"answer": "List is mutable; tuple is immutable",
+				"explanation": "List পরিবর্তনশীল (mutable), tuple অপরিবর্তনীয় (immutable)।"
+			},
+			{
+				"id": 74,
+				"question": "Which of the following is used to handle exceptions in Python?",
+				"options": [
+					"try-except",
+					"if-else",
+					"for-while",
+					"switch-case"
+				],
+				"answer": "try-except",
+				"explanation": "Exception handling এর জন্য `try-except` ব্লক ব্যবহার করা হয়।"
+			},
+			{
+				"id": 75,
+				"question": "What is a Python generator?",
+				"options": [
+					"A function that returns an iterator and yields values",
+					"A module",
+					"A special class",
+					"A loop"
+				],
+				"answer": "A function that returns an iterator and yields values",
+				"explanation": "Generator ফাংশন `yield` দিয়ে মান রিটার্ন করে এবং ইটারেটর হিসেবে কাজ করে।"
+			},
+			{
+				"id": 76,
+				"question": "How do you create a virtual environment in Python?",
+				"options": [
+					"python -m venv env_name",
+					"python create env env_name",
+					"virtualenv create env_name",
+					"python make env env_name"
+				],
+				"answer": "python -m venv env_name",
+				"explanation": "Virtual environment তৈরি করতে `python -m venv env_name` কমান্ড ব্যবহার হয়।"
+			},
+			{
+				"id": 77,
+				"question": "What is the output of `bool([])` in Python?",
+				"options": [
+					"False",
+					"True",
+					"Error",
+					"None"
+				],
+				"answer": "False",
+				"explanation": "ফাঁকা লিস্টের Boolean মান False হয়।"
+			},
+			{
+				"id": 78,
+				"question": "What is the purpose of `self` in Python class methods?",
+				"options": [
+					"It represents the instance calling the method",
+					"It is a keyword",
+					"It represents the class itself",
+					"It is a global variable"
+				],
+				"answer": "It represents the instance calling the method",
+				"explanation": "`self` মেথড কল করার সময় ওই অবজেক্টের রেফারেন্স বহন করে।"
+			},
+			{
+				"id": 79,
+				"question": "Which data type is immutable in Python?",
+				"options": [
+					"tuple",
+					"list",
+					"dict",
+					"set"
+				],
+				"answer": "tuple",
+				"explanation": "Tuple অপরিবর্তনীয় (immutable) whereas list, dict, set mutable।"
+			},
+			{
+				"id": 80,
+				"question": "What is the output of the following code?\n\n`print(type(lambda x: x))`",
+				"options": [
+					"<class 'function'>",
+					"<class 'lambda'>",
+					"<class 'generator'>",
+					"<class 'object'>"
+				],
+				"answer": "<class 'function'>",
+				"explanation": "Lambda expressions Python-এ ফাংশনের একটি অ্যানোনিমাস টাইপ, তাই টাইপ ফাংশন ফাংশন দেখায়।"
+			},
+			{
+				"id": 81,
+				"question": "How to check if a key exists in a Python dictionary?",
+				"options": [
+					"`key in dict`",
+					"`dict.has_key(key)`",
+					"`dict.contains(key)`",
+					"`key.exists()`"
+				],
+				"answer": "`key in dict`",
+				"explanation": "`in` অপারেটর দিয়ে চেক করা হয় একটি key ডিকশনারিতে আছে কি না।"
+			},
+			{
+				"id": 82,
+				"question": "What is list comprehension?",
+				"options": [
+					"A concise way to create lists",
+					"A function to append elements",
+					"A loop type",
+					"A method of list"
+				],
+				"answer": "A concise way to create lists",
+				"explanation": "List comprehension দিয়ে সংক্ষিপ্তভাবে লিস্ট তৈরি করা হয়।"
+			},
+			{
+				"id": 83,
+				"question": "What is the difference between `is` and `==` operators?",
+				"options": [
+					"`is` checks identity, `==` checks equality",
+					"`is` checks equality, `==` checks identity",
+					"Both check equality",
+					"Both check identity"
+				],
+				"answer": "`is` checks identity, `==` checks equality",
+				"explanation": "`is` চেক করে দুইটি অবজেক্ট একই কি না, আর `==` মানের তুলনা করে।"
+			},
+			{
+				"id": 84,
+				"question": "How to reverse a list in Python?",
+				"options": [
+					"list.reverse()",
+					"reverse(list)",
+					"list.reversed()",
+					"list[::-1]"
+				],
+				"answer": "list.reverse()",
+				"explanation": "`list.reverse()` মেথড লিস্টকে ইন-জায়গায় উল্টে দেয়।"
+			},
+			{
+				"id": 85,
+				"question": "Which keyword is used to create a generator in Python?",
+				"options": [
+					"yield",
+					"return",
+					"generate",
+					"produce"
+				],
+				"answer": "yield",
+				"explanation": "`yield` কীওয়ার্ড দিয়ে ফাংশন জেনারেটর তৈরি করে।"
+			},
+			{
+				"id": 86,
+				"question": "What will be the output of `print([1,2,3]*3)`?",
+				"options": [
+					"[1, 2, 3, 1, 2, 3, 1, 2, 3]",
+					"[3, 6, 9]",
+					"[1, 2, 3, 3]",
+					"Error"
+				],
+				"answer": "[1, 2, 3, 1, 2, 3, 1, 2, 3]",
+				"explanation": "List multiplication একটি লিস্টকে পুনরায় নির্দিষ্ট বার পুনরাবৃত্তি করে।"
+			},
+			{
+				"id": 87,
+				"question": "Which built-in function returns the length of an object?",
+				"options": [
+					"len()",
+					"size()",
+					"length()",
+					"count()"
+				],
+				"answer": "len()",
+				"explanation": "`len()` ফাংশন দিয়ে যেকোনো সিকোয়েন্স বা কালেকশনের দৈর্ঘ্য পাওয়া যায়।"
+			},
+			{
+				"id": 88,
+				"question": "How to handle multiple exceptions in a single `except` block?",
+				"options": [
+					"except (Exception1, Exception2):",
+					"except Exception1, Exception2:",
+					"except Exception1 | Exception2:",
+					"except Exception1 & Exception2:"
+				],
+				"answer": "except (Exception1, Exception2):",
+				"explanation": "একাধিক এক্সেপশন একসাথে হ্যান্ডল করতে টাপল ব্যবহার করা হয়।"
+			},
+			{
+				"id": 89,
+				"question": "What does the `with` statement do?",
+				"options": [
+					"Manages resources with context management",
+					"Starts a loop",
+					"Defines a function",
+					"Imports a module"
+				],
+				"answer": "Manages resources with context management",
+				"explanation": "`with` স্টেটমেন্ট রিসোর্স ব্যবস্থাপনা সহজ করে, যেমন ফাইল ওপেন এবং ক্লোজ করা।"
+			},
+			{
+				"id": 90,
+				"question": "What is the difference between `deepcopy` and `copy`?",
+				"options": [
+					"deepcopy copies nested objects; copy is shallow",
+					"copy copies nested objects; deepcopy is shallow",
+					"Both are shallow copies",
+					"Both are deep copies"
+				],
+				"answer": "deepcopy copies nested objects; copy is shallow",
+				"explanation": "`deepcopy` পুরো অবজেক্ট ও নেস্টেড অবজেক্ট কপি করে, আর `copy` শুধু শ্যালো কপি করে।"
+			},
+			{
+				"id": 91,
+				"question": "What is the output of `print(set([1,2,2,3]))`?",
+				"options": [
+					"{1, 2, 3}",
+					"[1, 2, 2, 3]",
+					"(1, 2, 3)",
+					"Error"
+				],
+				"answer": "{1, 2, 3}",
+				"explanation": "Set ডুপ্লিকেট এলিমেন্ট সরিয়ে ইউনিক মান রাখে।"
+			},
+			{
+				"id": 92,
+				"question": "Which module is used for regular expressions in Python?",
+				"options": [
+					"re",
+					"regex",
+					"pyregex",
+					"regexp"
+				],
+				"answer": "re",
+				"explanation": "`re` মডিউল দিয়ে পাইটনে রেগুলার এক্সপ্রেশন কাজ করা হয়।"
+			},
+			{
+				"id": 93,
+				"question": "How to open a file in Python for reading?",
+				"options": [
+					"open('file.txt', 'r')",
+					"open('file.txt', 'w')",
+					"open('file.txt', 'a')",
+					"open('file.txt', 'x')"
+				],
+				"answer": "open('file.txt', 'r')",
+				"explanation": "'r' মোড ফাইল পড়ার জন্য ব্যবহার হয়।"
+			},
+			{
+				"id": 94,
+				"question": "What is the difference between `append()` and `extend()` methods of a list?",
+				"options": [
+					"`append()` adds single element; `extend()` adds elements from iterable",
+					"Both do the same",
+					"`append()` adds multiple elements; `extend()` adds one element",
+					"None of these"
+				],
+				"answer": "`append()` adds single element; `extend()` adds elements from iterable",
+				"explanation": "`append()` একটি আইটেম যোগ করে, `extend()` অন্য iterable এর সব আইটেম যোগ করে।"
+			},
+			{
+				"id": 95,
+				"question": "What is the output of `print(type([]) is list)`?",
+				"options": [
+					"True",
+					"False",
+					"Error",
+					"None"
+				],
+				"answer": "True",
+				"explanation": "List এর টাইপ `list` হওয়ায় identity চেক করলে True হয়।"
+			},
+			{
+				"id": 96,
+				"question": "What does the `global` keyword do?",
+				"options": [
+					"Declares a variable as global inside a function",
+					"Creates a new variable",
+					"Deletes a variable",
+					"Defines a function"
+				],
+				"answer": "Declares a variable as global inside a function",
+				"explanation": "`global` দিয়ে ফাংশনের ভিতরে গ্লোবাল ভেরিয়েবল ব্যবহার করতে হয়।"
+			},
+			{
+				"id": 97,
+				"question": "Which of the following is NOT a valid Python data type?",
+				"options": [
+					"char",
+					"int",
+					"list",
+					"dict"
+				],
+				"answer": "char",
+				"explanation": "Python এ `char` ডাটা টাইপ নেই, একক অক্ষর `str` হিসাবে থাকে।"
+			},
+			{
+				"id": 98,
+				"question": "What will be the output of `print(0.1 + 0.2 == 0.3)`?",
+				"options": [
+					"False",
+					"True",
+					"Error",
+					"None"
+				],
+				"answer": "False",
+				"explanation": "Floating point precision এর কারণে 0.1 + 0.2 ঠিক 0.3 না, তাই False।"
+			},
+			{
+				"id": 99,
+				"question": "Which statement is used to import modules in Python?",
+				"options": [
+					"import",
+					"include",
+					"using",
+					"require"
+				],
+				"answer": "import",
+				"explanation": "`import` স্টেটমেন্ট দিয়ে Python এ মডিউল ইমপোর্ট করা হয়।"
+			},
+			{
+				"id": 100,
+				"question": "How to convert a string to an integer in Python?",
+				"options": [
+					"int('string')",
+					"str('string')",
+					"float('string')",
+					"convert('string')"
+				],
+				"answer": "int('string')",
+				"explanation": "`int()` ফাংশন দিয়ে স্ট্রিংকে পূর্ণসংখ্যায় রূপান্তর করা হয়।"
 			}
 		],
 		"JavaScript": [
@@ -5650,7 +6010,1208 @@
 				"explanation": "`raw()` মেথড দিয়ে কাঁচা SQL কোয়েরি করা যায়।"
 			}
 		],
-		"Laravel": [],
+		"Laravel": [
+			{
+				"id": 1,
+				"question": "What is Laravel?",
+				"options": [
+					"A PHP web framework",
+					"A JavaScript library",
+					"A database system",
+					"An operating system"
+				],
+				"answer": "A PHP web framework",
+				"explanation": "Laravel হলো একটি জনপ্রিয় PHP ভিত্তিক ওয়েব ফ্রেমওয়ার্ক।"
+			},
+			{
+				"id": 2,
+				"question": "Which architectural pattern does Laravel follow?",
+				"options": [
+					"MVC",
+					"MVP",
+					"MVVM",
+					"MVT"
+				],
+				"answer": "MVC",
+				"explanation": "Laravel MVC (Model-View-Controller) আর্কিটেকচার অনুসরণ করে।"
+			},
+			{
+				"id": 3,
+				"question": "What is Artisan in Laravel?",
+				"options": [
+					"A command-line interface tool",
+					"A database",
+					"A template engine",
+					"A routing system"
+				],
+				"answer": "A command-line interface tool",
+				"explanation": "Artisan হলো Laravel-এর কমান্ড লাইন টুল যা ডেভেলপমেন্ট সহজ করে।"
+			},
+			{
+				"id": 4,
+				"question": "How do you create a new Laravel project?",
+				"options": [
+					"laravel new projectname",
+					"php artisan new project",
+					"composer create-project laravel/laravel projectname",
+					"php new laravel project"
+				],
+				"answer": "composer create-project laravel/laravel projectname",
+				"explanation": "নতুন Laravel প্রজেক্ট তৈরির জন্য সাধারণত `composer create-project laravel/laravel projectname` ব্যবহার হয়।"
+			},
+			{
+				"id": 5,
+				"question": "What is Eloquent in Laravel?",
+				"options": [
+					"Laravel’s ORM for database operations",
+					"A templating engine",
+					"A middleware",
+					"A testing tool"
+				],
+				"answer": "Laravel’s ORM for database operations",
+				"explanation": "Eloquent হলো Laravel এর ORM যা ডাটাবেসের সাথে সহজে কাজ করতে সাহায্য করে।"
+			},
+			{
+				"id": 6,
+				"question": "How do you define a route in Laravel?",
+				"options": [
+					"Using Route::get() or Route::post()",
+					"Using URL::route()",
+					"Using Route::define()",
+					"Using route_define()"
+				],
+				"answer": "Using Route::get() or Route::post()",
+				"explanation": "Laravel এ রাউট ডিফাইন করতে `Route::get()` বা `Route::post()` মেথড ব্যবহার করা হয়।"
+			},
+			{
+				"id": 7,
+				"question": "What is the purpose of Laravel middleware?",
+				"options": [
+					"To filter HTTP requests",
+					"To manage database",
+					"To send emails",
+					"To create views"
+				],
+				"answer": "To filter HTTP requests",
+				"explanation": "Middleware HTTP রিকোয়েস্টের মধ্যে ইন্টারসেপ্ট করে কাজ করে, যেমন অথেনটিকেশন।"
+			},
+			{
+				"id": 8,
+				"question": "How do you create a new controller in Laravel?",
+				"options": [
+					"php artisan make:controller ControllerName",
+					"php artisan controller:create ControllerName",
+					"laravel controller new ControllerName",
+					"php controller create ControllerName"
+				],
+				"answer": "php artisan make:controller ControllerName",
+				"explanation": "নতুন কন্ট্রোলার তৈরির জন্য `php artisan make:controller ControllerName` কমান্ড ব্যবহার হয়।"
+			},
+			{
+				"id": 9,
+				"question": "Where do you configure database connection settings in Laravel?",
+				"options": [
+					".env file",
+					"config/database.php",
+					"Both .env and config/database.php",
+					"routes/web.php"
+				],
+				"answer": "Both .env and config/database.php",
+				"explanation": "`.env` ফাইল এবং `config/database.php` ফাইলে ডাটাবেস সেটিংস কনফিগার করা হয়।"
+			},
+			{
+				"id": 10,
+				"question": "What is a migration in Laravel?",
+				"options": [
+					"A way to version control database schema",
+					"A type of controller",
+					"A routing method",
+					"A view template"
+				],
+				"answer": "A way to version control database schema",
+				"explanation": "Migration ডাটাবেস স্কিমার পরিবর্তন গুলো নিয়ন্ত্রণ ও ভার্সনিং করার উপায়।"
+			},
+			{
+				"id": 11,
+				"question": "How to create a migration file in Laravel?",
+				"options": [
+					"php artisan make:migration create_table_name",
+					"php artisan migration:create",
+					"php artisan new:migration",
+					"php artisan create:migration"
+				],
+				"answer": "php artisan make:migration create_table_name",
+				"explanation": "মাইগ্রেশন তৈরি করতে `php artisan make:migration create_table_name` ব্যবহার হয়।"
+			},
+			{
+				"id": 12,
+				"question": "What is the command to run migrations?",
+				"options": [
+					"php artisan migrate",
+					"php artisan run:migrations",
+					"php artisan db:migrate",
+					"php artisan migrate:run"
+				],
+				"answer": "php artisan migrate",
+				"explanation": "মাইগ্রেশন চালানোর জন্য `php artisan migrate` কমান্ড ব্যবহার করা হয়।"
+			},
+			{
+				"id": 13,
+				"question": "What is CSRF protection in Laravel?",
+				"options": [
+					"Security against cross-site request forgery",
+					"A database feature",
+					"A routing feature",
+					"A templating engine"
+				],
+				"answer": "Security against cross-site request forgery",
+				"explanation": "CSRF সিকিউরিটি হলো cross-site request forgery থেকে রক্ষা করার ব্যবস্থা।"
+			},
+			{
+				"id": 14,
+				"question": "How do you enable CSRF protection in forms?",
+				"options": [
+					"Using `@csrf` Blade directive",
+					"Adding hidden inputs manually",
+					"Using `csrf_token()` function",
+					"Laravel enables it by default"
+				],
+				"answer": "Using `@csrf` Blade directive",
+				"explanation": "ফর্মে CSRF টোকেন যোগ করতে Blade টেমপ্লেটে `@csrf` ডিরেক্টিভ ব্যবহার করা হয়।"
+			},
+			{
+				"id": 15,
+				"question": "What is the Blade template engine?",
+				"options": [
+					"Laravel’s templating engine",
+					"A database tool",
+					"A routing method",
+					"A testing framework"
+				],
+				"answer": "Laravel’s templating engine",
+				"explanation": "Blade হলো Laravel এর ইনবিল্ট টেমপ্লেট ইঞ্জিন।"
+			},
+			{
+				"id": 16,
+				"question": "How do you pass data to a Blade view?",
+				"options": [
+					"Using `return view('viewname', ['key' => 'value'])`",
+					"Using `echo` statement",
+					"Using `print()` function",
+					"Using `return` only"
+				],
+				"answer": "Using `return view('viewname', ['key' => 'value'])`",
+				"explanation": "ডেটা পাঠাতে `return view()` ফাংশনের দ্বিতীয় প্যারামিটার হিসেবে অ্যাসোসিয়েটিভ অ্যারে পাঠানো হয়।"
+			},
+			{
+				"id": 17,
+				"question": "What is the purpose of `artisan serve` command?",
+				"options": [
+					"To run Laravel's development server",
+					"To create migrations",
+					"To clear cache",
+					"To deploy the app"
+				],
+				"answer": "To run Laravel's development server",
+				"explanation": "`php artisan serve` দিয়ে লোকাল ডেভেলপমেন্ট সার্ভার চালানো যায়।"
+			},
+			{
+				"id": 18,
+				"question": "How to create a model in Laravel?",
+				"options": [
+					"php artisan make:model ModelName",
+					"php artisan create:model ModelName",
+					"php artisan new:model ModelName",
+					"php artisan generate:model ModelName"
+				],
+				"answer": "php artisan make:model ModelName",
+				"explanation": "নতুন মডেল তৈরির জন্য `php artisan make:model ModelName` ব্যবহার হয়।"
+			},
+			{
+				"id": 19,
+				"question": "What is the default primary key field in Laravel models?",
+				"options": [
+					"id",
+					"primary_id",
+					"key",
+					"uuid"
+				],
+				"answer": "id",
+				"explanation": "Laravel মডেলে ডিফল্ট প্রাইমারি কী হলো `id`।"
+			},
+			{
+				"id": 20,
+				"question": "How to define a one-to-many relationship in Laravel?",
+				"options": [
+					"Using `hasMany` and `belongsTo` methods",
+					"Using `hasOne` method",
+					"Using `belongsToMany` method",
+					"Using `manyToMany` method"
+				],
+				"answer": "Using `hasMany` and `belongsTo` methods",
+				"explanation": "এক থেকে অনেক সম্পর্ক তৈরির জন্য `hasMany` এবং `belongsTo` মেথড ব্যবহার হয়।"
+			},
+			{
+				"id": 21,
+				"question": "What is Laravel Passport?",
+				"options": [
+					"API authentication package",
+					"Database migration tool",
+					"Routing system",
+					"Template engine"
+				],
+				"answer": "API authentication package",
+				"explanation": "Laravel Passport API অথেনটিকেশনের জন্য ব্যবহৃত প্যাকেজ।"
+			},
+			{
+				"id": 22,
+				"question": "How to validate form data in Laravel?",
+				"options": [
+					"Using `$request->validate()` method",
+					"Using PHP built-in functions",
+					"Using JavaScript validation",
+					"Using HTML5 attributes"
+				],
+				"answer": "Using `$request->validate()` method",
+				"explanation": "Laravel এ ভ্যালিডেশনের জন্য `$request->validate()` মেথড ব্যবহার হয়।"
+			},
+			{
+				"id": 23,
+				"question": "How to send an email in Laravel?",
+				"options": [
+					"Using Laravel Mail facade",
+					"Using PHP mail() function",
+					"Using SMTP server directly",
+					"Using Artisan command"
+				],
+				"answer": "Using Laravel Mail facade",
+				"explanation": "Laravel Mail ফেসাদ ব্যবহার করে সহজে ইমেইল পাঠানো যায়।"
+			},
+			{
+				"id": 24,
+				"question": "What is a Service Provider in Laravel?",
+				"options": [
+					"A class to register services and bindings",
+					"A database model",
+					"A controller type",
+					"A routing class"
+				],
+				"answer": "A class to register services and bindings",
+				"explanation": "Service Provider সার্ভিস রেজিস্ট্রেশন এবং বাইন্ডিংয়ের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 25,
+				"question": "Where are the route definitions stored by default?",
+				"options": [
+					"routes/web.php",
+					"app/Http/Controllers",
+					"resources/views",
+					"config/routes.php"
+				],
+				"answer": "routes/web.php",
+				"explanation": "Laravel এ রুট ডিফাইন করা হয় `routes/web.php` ফাইলে।"
+			},
+			{
+				"id": 26,
+				"question": "What is the use of `composer` in Laravel?",
+				"options": [
+					"Dependency management",
+					"Running migrations",
+					"Running server",
+					"Generating models"
+				],
+				"answer": "Dependency management",
+				"explanation": "Composer প্যাকেজ এবং ডিপেন্ডেন্সি ম্যানেজমেন্টের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 27,
+				"question": "How to clear cache in Laravel?",
+				"options": [
+					"php artisan cache:clear",
+					"php artisan clear:cache",
+					"php artisan clearcache",
+					"php artisan cache-clear"
+				],
+				"answer": "php artisan cache:clear",
+				"explanation": "ক্যাশ ক্লিয়ার করার জন্য `php artisan cache:clear` কমান্ড ব্যবহার হয়।"
+			},
+			{
+				"id": 28,
+				"question": "What is the default directory for Laravel views?",
+				"options": [
+					"resources/views",
+					"app/views",
+					"public/views",
+					"storage/views"
+				],
+				"answer": "resources/views",
+				"explanation": "Laravel এ ভিউ ফাইলগুলি `resources/views` ফোল্ডারে থাকে।"
+			},
+			{
+				"id": 29,
+				"question": "Which file contains environment-specific settings in Laravel?",
+				"options": [
+					".env",
+					"config/app.php",
+					"routes/web.php",
+					"artisan"
+				],
+				"answer": ".env",
+				"explanation": "`.env` ফাইলে পরিবেশ-নির্দিষ্ট সেটিংস থাকে।"
+			},
+			{
+				"id": 30,
+				"question": "How do you install Laravel dependencies?",
+				"options": [
+					"composer install",
+					"npm install",
+					"php artisan install",
+					"laravel install"
+				],
+				"answer": "composer install",
+				"explanation": "Laravel ডিপেন্ডেন্সি ইন্সটল করতে `composer install` ব্যবহার করা হয়।"
+			},
+			{
+				"id": 31,
+				"question": "What is the purpose of the `boot()` method in a Laravel service provider?",
+				"options": [
+					"To perform actions after all services are registered",
+					"To register bindings",
+					"To run database migrations",
+					"To handle HTTP requests"
+				],
+				"answer": "To perform actions after all services are registered",
+				"explanation": "`boot()` মেথড সার্ভিস প্রোভাইডারে সমস্ত সার্ভিস রেজিস্ট্রেশন শেষ হওয়ার পর রান হয়।"
+			},
+			{
+				"id": 32,
+				"question": "How can you run database seeders in Laravel?",
+				"options": [
+					"php artisan db:seed",
+					"php artisan seed:run",
+					"php artisan migrate:seed",
+					"php artisan run:seed"
+				],
+				"answer": "php artisan db:seed",
+				"explanation": "Seeder চালাতে `php artisan db:seed` কমান্ড ব্যবহার হয়।"
+			},
+			{
+				"id": 33,
+				"question": "Which command is used to rollback the last database migration?",
+				"options": [
+					"php artisan migrate:rollback",
+					"php artisan migrate:reset",
+					"php artisan rollback",
+					"php artisan reset:migrate"
+				],
+				"answer": "php artisan migrate:rollback",
+				"explanation": "শেষ মাইগ্রেশন ফিরিয়ে আনতে `php artisan migrate:rollback` কমান্ড ব্যবহৃত হয়।"
+			},
+			{
+				"id": 34,
+				"question": "What is the default session driver in Laravel?",
+				"options": [
+					"file",
+					"database",
+					"cookie",
+					"redis"
+				],
+				"answer": "file",
+				"explanation": "Laravel এ ডিফল্ট সেশন ড্রাইভার হলো `file`।"
+			},
+			{
+				"id": 35,
+				"question": "How to enable debug mode in Laravel?",
+				"options": [
+					"Set `APP_DEBUG=true` in .env",
+					"Run `php artisan debug:on`",
+					"Set debug=true in config/app.php",
+					"Run `php artisan enable:debug`"
+				],
+				"answer": "Set `APP_DEBUG=true` in .env",
+				"explanation": "ডিবাগ মোড চালু করতে `.env` ফাইলে `APP_DEBUG=true` সেট করা হয়।"
+			},
+			{
+				"id": 36,
+				"question": "What is the command to create a new middleware in Laravel?",
+				"options": [
+					"php artisan make:middleware MiddlewareName",
+					"php artisan middleware:create MiddlewareName",
+					"php artisan new:middleware MiddlewareName",
+					"php artisan create:middleware MiddlewareName"
+				],
+				"answer": "php artisan make:middleware MiddlewareName",
+				"explanation": "নতুন মিডলওয়্যার তৈরির জন্য `php artisan make:middleware MiddlewareName` ব্যবহার হয়।"
+			},
+			{
+				"id": 37,
+				"question": "How do you register middleware in Laravel?",
+				"options": [
+					"In `app/Http/Kernel.php`",
+					"In `routes/web.php`",
+					"In `.env` file",
+					"In `config/app.php`"
+				],
+				"answer": "In `app/Http/Kernel.php`",
+				"explanation": "Middleware কে `app/Http/Kernel.php` ফাইলে রেজিস্টার করতে হয়।"
+			},
+			{
+				"id": 38,
+				"question": "What is route model binding in Laravel?",
+				"options": [
+					"Automatically injecting model instances into routes",
+					"Binding routes to controllers",
+					"Attaching middleware to routes",
+					"Caching routes"
+				],
+				"answer": "Automatically injecting model instances into routes",
+				"explanation": "Route Model Binding দিয়ে রাউটে স্বয়ংক্রিয়ভাবে মডেল অবজেক্ট ইনজেক্ট করা হয়।"
+			},
+			{
+				"id": 39,
+				"question": "How to cache routes in Laravel?",
+				"options": [
+					"php artisan route:cache",
+					"php artisan cache:routes",
+					"php artisan cache:route",
+					"php artisan route:clear"
+				],
+				"answer": "php artisan route:cache",
+				"explanation": "রাউট ক্যাশ করতে `php artisan route:cache` কমান্ড ব্যবহার হয়।"
+			},
+			{
+				"id": 40,
+				"question": "What is the purpose of `config/cache.php` in Laravel?",
+				"options": [
+					"Configuration for caching system",
+					"Configuration for routing",
+					"Configuration for database",
+					"Configuration for views"
+				],
+				"answer": "Configuration for caching system",
+				"explanation": "`config/cache.php` ফাইলে ক্যাশিং সম্পর্কিত সেটিংস থাকে।"
+			},
+			{
+				"id": 41,
+				"question": "Which method is used to send JSON responses in Laravel?",
+				"options": [
+					"return response()->json()",
+					"return json()",
+					"return Response::json()",
+					"return json_response()"
+				],
+				"answer": "return response()->json()",
+				"explanation": "JSON রেসপন্স পাঠাতে `response()->json()` মেথড ব্যবহার হয়।"
+			},
+			{
+				"id": 42,
+				"question": "How do you define route groups in Laravel?",
+				"options": [
+					"Using `Route::group()` method",
+					"Using `Route::setGroup()`",
+					"Using `Route::bindGroup()`",
+					"Using `Route::createGroup()`"
+				],
+				"answer": "Using `Route::group()` method",
+				"explanation": "Route group ডিফাইন করতে `Route::group()` ব্যবহার করা হয়।"
+			},
+			{
+				"id": 43,
+				"question": "What is Laravel Mix?",
+				"options": [
+					"A tool for compiling assets like CSS and JS",
+					"A database migration tool",
+					"A routing package",
+					"A testing framework"
+				],
+				"answer": "A tool for compiling assets like CSS and JS",
+				"explanation": "Laravel Mix দিয়ে অ্যাসেট যেমন CSS, JS কম্পাইল ও ম্যানেজ করা হয়।"
+			},
+			{
+				"id": 44,
+				"question": "How to create API routes in Laravel?",
+				"options": [
+					"Define routes in `routes/api.php`",
+					"Define routes in `routes/web.php`",
+					"Use `Route::api()`",
+					"Use `Route::web()`"
+				],
+				"answer": "Define routes in `routes/api.php`",
+				"explanation": "API রাউটগুলো `routes/api.php` ফাইলে ডিফাইন করা হয়।"
+			},
+			{
+				"id": 45,
+				"question": "What is the default authentication guard in Laravel?",
+				"options": [
+					"web",
+					"api",
+					"session",
+					"token"
+				],
+				"answer": "web",
+				"explanation": "Laravel এ ডিফল্ট অথেনটিকেশন গার্ড হলো `web`।"
+			},
+			{
+				"id": 46,
+				"question": "How do you generate a unique API token in Laravel?",
+				"options": [
+					"Using `Str::random(60)`",
+					"Using `uniqid()`",
+					"Using `md5()`",
+					"Using `token_generate()`"
+				],
+				"answer": "Using `Str::random(60)`",
+				"explanation": "`Str::random(60)` দিয়ে ৬০ ক্যারেক্টারের র্যান্ডম স্ট্রিং জেনারেট করা যায়।"
+			},
+			{
+				"id": 47,
+				"question": "How to create an event in Laravel?",
+				"options": [
+					"php artisan make:event EventName",
+					"php artisan event:create EventName",
+					"php artisan new:event EventName",
+					"php artisan generate:event EventName"
+				],
+				"answer": "php artisan make:event EventName",
+				"explanation": "নতুন ইভেন্ট তৈরির জন্য `php artisan make:event EventName` কমান্ড ব্যবহার হয়।"
+			},
+			{
+				"id": 48,
+				"question": "What is Laravel Horizon?",
+				"options": [
+					"A dashboard for managing Redis queues",
+					"A testing tool",
+					"A routing system",
+					"An ORM"
+				],
+				"answer": "A dashboard for managing Redis queues",
+				"explanation": "Horizon Redis queue ম্যানেজমেন্টের জন্য লারাভেলের অফিসিয়াল ড্যাশবোর্ড।"
+			},
+			{
+				"id": 49,
+				"question": "How to send notifications in Laravel?",
+				"options": [
+					"Using Notification facade",
+					"Using Mail facade",
+					"Using Event facade",
+					"Using Queue facade"
+				],
+				"answer": "Using Notification facade",
+				"explanation": "Laravel Notification ফ্যাসাদ দিয়ে নোটিফিকেশন পাঠানো হয়।"
+			},
+			{
+				"id": 50,
+				"question": "How to schedule tasks in Laravel?",
+				"options": [
+					"Using Laravel Task Scheduling in `app/Console/Kernel.php`",
+					"Using cron jobs manually",
+					"Using PHP `sleep()` function",
+					"Using Laravel Scheduler facade"
+				],
+				"answer": "Using Laravel Task Scheduling in `app/Console/Kernel.php`",
+				"explanation": "Laravel এ শিডিউলড টাস্ক `app/Console/Kernel.php`-তে ডিফাইন করা হয়।"
+			},
+			{
+				"id": 51,
+				"question": "What is the purpose of the `abort()` function in Laravel?",
+				"options": [
+					"To throw an HTTP exception",
+					"To stop the script silently",
+					"To restart the application",
+					"To clear cache"
+				],
+				"answer": "To throw an HTTP exception",
+				"explanation": "`abort()` ফাংশন দিয়ে HTTP এরর রেসপন্স তৈরি করা হয়।"
+			},
+			{
+				"id": 52,
+				"question": "How can you protect routes with authentication in Laravel?",
+				"options": [
+					"Using `auth` middleware",
+					"Using `guest` middleware",
+					"Using `verified` middleware",
+					"Using `throttle` middleware"
+				],
+				"answer": "Using `auth` middleware",
+				"explanation": "রাউট অথেনটিকেশন করতে `auth` middleware ব্যবহার হয়।"
+			},
+			{
+				"id": 53,
+				"question": "How to add pagination in Laravel Eloquent queries?",
+				"options": [
+					"Using `paginate()` method",
+					"Using `limit()` method",
+					"Using `offset()` method",
+					"Using `chunk()` method"
+				],
+				"answer": "Using `paginate()` method",
+				"explanation": "`paginate()` মেথড দিয়ে ইলোকুয়েন্টে পেজিনেশন করা হয়।"
+			},
+			{
+				"id": 54,
+				"question": "What is the use of `pluck()` method in Eloquent?",
+				"options": [
+					"To retrieve a list of values from a column",
+					"To insert multiple rows",
+					"To delete records",
+					"To update records"
+				],
+				"answer": "To retrieve a list of values from a column",
+				"explanation": "`pluck()` দিয়ে নির্দিষ্ট কলামের মানগুলো তালিকা হিসেবে পাওয়া যায়।"
+			},
+			{
+				"id": 55,
+				"question": "How to perform soft deletes in Laravel?",
+				"options": [
+					"Use `SoftDeletes` trait in model",
+					"Use `Delete` method",
+					"Use `forceDelete` method",
+					"Set `deleted_at` manually"
+				],
+				"answer": "Use `SoftDeletes` trait in model",
+				"explanation": "সফট ডিলিট করতে মডেলে `SoftDeletes` ট্রেইট ব্যবহার করতে হয়।"
+			},
+			{
+				"id": 56,
+				"question": "How do you disable mass assignment protection in Laravel?",
+				"options": [
+					"Set `$guarded = []` in model",
+					"Set `$fillable = []` in model",
+					"Use `massAssign(false)`",
+					"Disable in config/app.php"
+				],
+				"answer": "Set `$guarded = []` in model",
+				"explanation": "ম্যাস অ্যাসাইনমেন্ট প্রোটেকশন বন্ধ করতে `$guarded` প্রপার্টি খালি করতে হয়।"
+			},
+			{
+				"id": 57,
+				"question": "What is the use of `with()` method in Eloquent?",
+				"options": [
+					"To eager load relationships",
+					"To add new columns",
+					"To filter data",
+					"To paginate results"
+				],
+				"answer": "To eager load relationships",
+				"explanation": "`with()` মেথড রিলেশনশিপ প্রলোড করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 58,
+				"question": "What is the difference between `get()` and `first()` in Eloquent?",
+				"options": [
+					"`get()` returns a collection, `first()` returns a single model",
+					"`get()` returns one record, `first()` returns many",
+					"No difference",
+					"`get()` deletes records, `first()` updates"
+				],
+				"answer": "`get()` returns a collection, `first()` returns a single model",
+				"explanation": "`get()` সব মিলে কনেকশন দেয়, `first()` শুধুমাত্র প্রথম রেকর্ড দেয়।"
+			},
+			{
+				"id": 59,
+				"question": "How to enable HTTPS redirect in Laravel?",
+				"options": [
+					"Using middleware or setting `APP_URL` with https",
+					"Using `.htaccess` only",
+					"Using `php.ini`",
+					"Laravel does not support HTTPS"
+				],
+				"answer": "Using middleware or setting `APP_URL` with https",
+				"explanation": "HTTPS রিডিরেক্ট করার জন্য মিডলওয়্যার বা `.env` ফাইলে `APP_URL` https সেট করতে হয়।"
+			},
+			{
+				"id": 60,
+				"question": "What is the use of `abort_if()` function in Laravel?",
+				"options": [
+					"To throw HTTP exception if condition is true",
+					"To abort script unconditionally",
+					"To restart the app",
+					"To clear cache"
+				],
+				"answer": "To throw HTTP exception if condition is true",
+				"explanation": "`abort_if()` কন্ডিশন সত্য হলে HTTP এক্সেপশন থ্রো করে।"
+			},
+			{
+				"id": 61,
+				"question": "How to implement many-to-many relationships in Laravel?",
+				"options": [
+					"Using `belongsToMany` method",
+					"Using `hasMany` method",
+					"Using `hasOne` method",
+					"Using `belongsTo` method"
+				],
+				"answer": "Using `belongsToMany` method",
+				"explanation": "মেনি-টু-মেনি রিলেশনশিপের জন্য `belongsToMany` ব্যবহার হয়।"
+			},
+			{
+				"id": 62,
+				"question": "What does the `firstOrCreate()` method do in Eloquent?",
+				"options": [
+					"Fetches first record or creates it if not exists",
+					"Creates a new record only",
+					"Deletes first record",
+					"Updates first record"
+				],
+				"answer": "Fetches first record or creates it if not exists",
+				"explanation": "`firstOrCreate()` প্রথম রেকর্ড নিয়ে আসে না থাকলে নতুন তৈরি করে।"
+			},
+			{
+				"id": 63,
+				"question": "How to queue jobs in Laravel?",
+				"options": [
+					"Implement `ShouldQueue` interface and dispatch job",
+					"Use `dispatch_now()`",
+					"Use `run_job()`",
+					"Use `queue_job()`"
+				],
+				"answer": "Implement `ShouldQueue` interface and dispatch job",
+				"explanation": "জব কিউ করার জন্য `ShouldQueue` ইন্টারফেস ইমপ্লিমেন্ট করে ডিসপ্যাচ করতে হয়।"
+			},
+			{
+				"id": 64,
+				"question": "What is the use of `env()` helper in Laravel?",
+				"options": [
+					"To get environment variables",
+					"To define routes",
+					"To cache config",
+					"To clear cache"
+				],
+				"answer": "To get environment variables",
+				"explanation": "`env()` দিয়ে `.env` ফাইলের মান পাওয়া যায়।"
+			},
+			{
+				"id": 65,
+				"question": "What is the difference between `get()` and `all()` in Eloquent?",
+				"options": [
+					"`get()` fetches filtered records, `all()` fetches all records",
+					"`get()` fetches all records, `all()` fetches filtered",
+					"No difference",
+					"`get()` updates, `all()` deletes"
+				],
+				"answer": "`get()` fetches filtered records, `all()` fetches all records",
+				"explanation": "`get()` কুয়েরি অনুযায়ী রেকর্ড আনে, `all()` সব রেকর্ড আনে।"
+			},
+			{
+				"id": 66,
+				"question": "How do you define an accessor in a Laravel model?",
+				"options": [
+					"Create a method `getAttributeNameAttribute()`",
+					"Use `setAttribute()` method",
+					"Define in controller",
+					"Use middleware"
+				],
+				"answer": "Create a method `getAttributeNameAttribute()`",
+				"explanation": "অ্যাকসেসর ডিফাইন করতে মডেলে `get{AttributeName}Attribute()` মেথড তৈরি করতে হয়।"
+			},
+			{
+				"id": 67,
+				"question": "What is the purpose of `policy` classes in Laravel?",
+				"options": [
+					"To manage authorization logic",
+					"To handle routes",
+					"To manage sessions",
+					"To validate forms"
+				],
+				"answer": "To manage authorization logic",
+				"explanation": "Policy ক্লাসগুলো অথরাইজেশন বা অনুমতি যাচাইয়ের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 68,
+				"question": "How do you generate a controller with resource methods in Laravel?",
+				"options": [
+					"php artisan make:controller ControllerName --resource",
+					"php artisan make:controller ControllerName",
+					"php artisan make:resource ControllerName",
+					"php artisan generate:controller ControllerName"
+				],
+				"answer": "php artisan make:controller ControllerName --resource",
+				"explanation": "রিসোর্স কন্ট্রোলার তৈরির জন্য `--resource` ফ্ল্যাগ ব্যবহার হয়।"
+			},
+			{
+				"id": 69,
+				"question": "What is the use of `middleware groups` in Laravel?",
+				"options": [
+					"To group middleware for routes",
+					"To group controllers",
+					"To group models",
+					"To group migrations"
+				],
+				"answer": "To group middleware for routes",
+				"explanation": "Middleware group দিয়ে একসাথে একাধিক middleware রাউটের জন্য গ্রুপ করা যায়।"
+			},
+			{
+				"id": 70,
+				"question": "How can you clear compiled views in Laravel?",
+				"options": [
+					"php artisan view:clear",
+					"php artisan clear:view",
+					"php artisan cache:clear",
+					"php artisan clear:compiled"
+				],
+				"answer": "php artisan view:clear",
+				"explanation": "কম্পাইল্ড ভিউ ক্লিয়ার করতে `php artisan view:clear` কমান্ড ব্যবহার হয়।"
+			},
+			{
+				"id": 71,
+				"question": "How do you validate request data in a Laravel controller?",
+				"options": [
+					"Using `$request->validate()` method",
+					"Using `validateRequest()` method",
+					"Using `checkValidation()` method",
+					"Using middleware only"
+				],
+				"answer": "Using `$request->validate()` method",
+				"explanation": "কন্ট্রোলারে রিকোয়েস্ট ভ্যালিডেট করতে `$request->validate()` ব্যবহার করা হয়।"
+			},
+			{
+				"id": 72,
+				"question": "What is the purpose of the `remember()` method in Laravel caching?",
+				"options": [
+					"To store and retrieve cache if available",
+					"To delete cache",
+					"To clear all cache",
+					"To check cache expiry"
+				],
+				"answer": "To store and retrieve cache if available",
+				"explanation": "`remember()` মেথড ক্যাশে ডাটা সংরক্ষণ এবং পাওয়া সহজ করে।"
+			},
+			{
+				"id": 73,
+				"question": "How to handle file uploads in Laravel?",
+				"options": [
+					"Using `$request->file('input_name')->store()`",
+					"Using `uploadFile()` method",
+					"Using `saveFile()` method",
+					"Using `moveFile()` method"
+				],
+				"answer": "Using `$request->file('input_name')->store()`",
+				"explanation": "Laravel এ ফাইল আপলোড করতে `$request->file('input_name')->store()` ব্যবহার হয়।"
+			},
+			{
+				"id": 74,
+				"question": "What is the role of `FormRequest` classes in Laravel?",
+				"options": [
+					"To handle validation logic",
+					"To handle routing",
+					"To manage middleware",
+					"To send emails"
+				],
+				"answer": "To handle validation logic",
+				"explanation": "`FormRequest` ক্লাস ভ্যালিডেশন আলাদা করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 75,
+				"question": "How can you protect routes from CSRF attacks in Laravel?",
+				"options": [
+					"Using `VerifyCsrfToken` middleware",
+					"Using `auth` middleware",
+					"Using `throttle` middleware",
+					"By disabling CSRF protection"
+				],
+				"answer": "Using `VerifyCsrfToken` middleware",
+				"explanation": "`VerifyCsrfToken` middleware CSRF আক্রমণ থেকে রক্ষা করে।"
+			},
+			{
+				"id": 76,
+				"question": "How do you specify fillable fields in a Laravel model?",
+				"options": [
+					"Using the `$fillable` property",
+					"Using the `$guarded` property",
+					"Using `fillable()` method",
+					"Using `guard()` method"
+				],
+				"answer": "Using the `$fillable` property",
+				"explanation": "`$fillable` প্রপার্টি দিয়ে মাস অ্যাসাইনমেন্টে অনুমোদিত ফিল্ড নির্ধারণ করা হয়।"
+			},
+			{
+				"id": 77,
+				"question": "How do you define a one-to-many relationship in Laravel?",
+				"options": [
+					"Using `hasMany` and `belongsTo` methods",
+					"Using `belongsToMany` method",
+					"Using `hasOne` method",
+					"Using `hasAndBelongsToMany` method"
+				],
+				"answer": "Using `hasMany` and `belongsTo` methods",
+				"explanation": "One-to-many রিলেশনশিপে `hasMany` এবং `belongsTo` মেথড ব্যবহার হয়।"
+			},
+			{
+				"id": 78,
+				"question": "What is the purpose of the `old()` helper in Laravel Blade templates?",
+				"options": [
+					"To retrieve old input data after form submission",
+					"To clear form data",
+					"To generate old-style HTML",
+					"To fetch old database records"
+				],
+				"answer": "To retrieve old input data after form submission",
+				"explanation": "`old()` হেল্পার ফর্ম সাবমিশনের পরে আগের ইনপুট ডাটা ফিরিয়ে আনে।"
+			},
+			{
+				"id": 79,
+				"question": "How can you disable query logging in Laravel?",
+				"options": [
+					"Set `DB::disableQueryLog()`",
+					"Set `DB::enableQueryLog(false)`",
+					"Remove database config",
+					"No way to disable"
+				],
+				"answer": "Set `DB::disableQueryLog()`",
+				"explanation": "কুয়েরি লগ বন্ধ করতে `DB::disableQueryLog()` ব্যবহার করা হয়।"
+			},
+			{
+				"id": 80,
+				"question": "What does the `queue()` method do in Laravel?",
+				"options": [
+					"Dispatches a job to the queue system",
+					"Executes a job immediately",
+					"Creates a queue table",
+					"Removes jobs from the queue"
+				],
+				"answer": "Dispatches a job to the queue system",
+				"explanation": "`queue()` মেথড দিয়ে জব কিউতে পাঠানো হয়।"
+			},
+			{
+				"id": 81,
+				"question": "How do you enable HTTPS in Laravel application?",
+				"options": [
+					"Force HTTPS in middleware or set URL to https",
+					"Change .env APP_PROTOCOL",
+					"Modify Apache config only",
+					"Laravel does not support HTTPS"
+				],
+				"answer": "Force HTTPS in middleware or set URL to https",
+				"explanation": "HTTPS চালু করতে middleware অথবা `.env`-এ `APP_URL` https সেট করা হয়।"
+			},
+			{
+				"id": 82,
+				"question": "What is the use of `broadcasting` in Laravel?",
+				"options": [
+					"To send real-time events to clients",
+					"To send emails",
+					"To create APIs",
+					"To handle file uploads"
+				],
+				"answer": "To send real-time events to clients",
+				"explanation": "Laravel broadcasting দিয়ে রিয়েল টাইম ইভেন্ট ক্লায়েন্টে পাঠানো হয়।"
+			},
+			{
+				"id": 83,
+				"question": "How can you encrypt data in Laravel?",
+				"options": [
+					"Using `Crypt` facade",
+					"Using `Encrypt` middleware",
+					"Using `Hash` facade",
+					"Using `Secure` helper"
+				],
+				"answer": "Using `Crypt` facade",
+				"explanation": "`Crypt` ফ্যাসাদ দিয়ে ডাটা এনক্রিপ্ট ও ডিক্রিপ্ট করা যায়।"
+			},
+			{
+				"id": 84,
+				"question": "How to create a custom helper function in Laravel?",
+				"options": [
+					"Create a PHP file and load it via `composer.json` autoload",
+					"Define function in Controller",
+					"Define in routes/web.php",
+					"Use Laravel helper generator"
+				],
+				"answer": "Create a PHP file and load it via `composer.json` autoload",
+				"explanation": "কাস্টম হেল্পার বানাতে আলাদা PHP ফাইল তৈরি করে `composer.json` এ অটোলোড করতে হয়।"
+			},
+			{
+				"id": 85,
+				"question": "What is the role of the `.env` file in Laravel?",
+				"options": [
+					"To store environment-specific configuration",
+					"To store routes",
+					"To store views",
+					"To store migrations"
+				],
+				"answer": "To store environment-specific configuration",
+				"explanation": "`.env` ফাইলে পরিবেশভিত্তিক সেটিংস রাখা হয়।"
+			},
+			{
+				"id": 86,
+				"question": "How do you schedule a task to run every hour in Laravel?",
+				"options": [
+					"Using `$schedule->hourly()` in `app/Console/Kernel.php`",
+					"Using cron only",
+					"Using `schedule->everyHour()`",
+					"Using `TaskScheduler` package"
+				],
+				"answer": "Using `$schedule->hourly()` in `app/Console/Kernel.php`",
+				"explanation": "শিডিউল টাস্ক hourly চালাতে `$schedule->hourly()` ব্যবহার হয়।"
+			},
+			{
+				"id": 87,
+				"question": "How can you get the currently authenticated user in Laravel?",
+				"options": [
+					"Using `Auth::user()`",
+					"Using `$request->user()` only",
+					"Using `auth()->id()`",
+					"Using `User::current()`"
+				],
+				"answer": "Using `Auth::user()`",
+				"explanation": "বর্তমান লগ ইন ইউজার পেতে `Auth::user()` ব্যবহার করা হয়।"
+			},
+			{
+				"id": 88,
+				"question": "What is the use of `optional()` helper in Laravel?",
+				"options": [
+					"To avoid errors when accessing properties on null objects",
+					"To make variables optional",
+					"To validate optional fields",
+					"To mark routes optional"
+				],
+				"answer": "To avoid errors when accessing properties on null objects",
+				"explanation": "`optional()` null অবজেক্টের প্রোপার্টিতে নিরাপদ অ্যাক্সেস দেয়।"
+			},
+			{
+				"id": 89,
+				"question": "How to customize error pages in Laravel?",
+				"options": [
+					"Create blade files in `resources/views/errors` folder",
+					"Edit `config/errors.php`",
+					"Edit `.env` file",
+					"Use middleware"
+				],
+				"answer": "Create blade files in `resources/views/errors` folder",
+				"explanation": "কাস্টম এরর পেজ বানাতে `resources/views/errors` এ ব্লেড ফাইল তৈরি করতে হয়।"
+			},
+			{
+				"id": 90,
+				"question": "How do you add custom validation rules in Laravel?",
+				"options": [
+					"Using `Validator::extend()` method",
+					"Using `validateCustom()` method",
+					"Defining rules in .env",
+					"Using middleware"
+				],
+				"answer": "Using `Validator::extend()` method",
+				"explanation": "কাস্টম ভ্যালিডেশন যোগ করতে `Validator::extend()` ব্যবহার হয়।"
+			},
+			{
+				"id": 91,
+				"question": "What is the use of `@csrf` directive in Blade templates?",
+				"options": [
+					"To insert CSRF token field in forms",
+					"To include CSS files",
+					"To create loops",
+					"To display variables"
+				],
+				"answer": "To insert CSRF token field in forms",
+				"explanation": "`@csrf` ডিরেক্টিভ ফর্মে CSRF টোকেন যোগ করে।"
+			},
+			{
+				"id": 92,
+				"question": "How do you implement API authentication in Laravel?",
+				"options": [
+					"Using Laravel Sanctum or Passport",
+					"Using basic auth only",
+					"Using middleware only",
+					"Using session"
+				],
+				"answer": "Using Laravel Sanctum or Passport",
+				"explanation": "API অথেনটিকেশনের জন্য Laravel Sanctum বা Passport ব্যবহৃত হয়।"
+			},
+			{
+				"id": 93,
+				"question": "What is the use of `policy` methods like `view()`, `update()` in Laravel?",
+				"options": [
+					"To authorize user actions",
+					"To validate inputs",
+					"To handle routes",
+					"To send emails"
+				],
+				"answer": "To authorize user actions",
+				"explanation": "Policy মেথড ইউজারের অনুমতি যাচাই করে।"
+			},
+			{
+				"id": 94,
+				"question": "How can you share data with all views in Laravel?",
+				"options": [
+					"Using `View::share()` method",
+					"Passing data to each view manually",
+					"Using middleware",
+					"Using controller constructor"
+				],
+				"answer": "Using `View::share()` method",
+				"explanation": "`View::share()` দিয়ে সব ভিউতে ডাটা শেয়ার করা যায়।"
+			},
+			{
+				"id": 95,
+				"question": "How to flush cache in Laravel?",
+				"options": [
+					"php artisan cache:clear",
+					"php artisan cache:flush",
+					"php artisan clear:cache",
+					"php artisan flush:cache"
+				],
+				"answer": "php artisan cache:clear",
+				"explanation": "ক্যাশ ক্লিয়ার করতে `php artisan cache:clear` ব্যবহার হয়।"
+			},
+			{
+				"id": 96,
+				"question": "What is the use of `firstOrFail()` in Eloquent?",
+				"options": [
+					"Return first record or throw 404 error",
+					"Return first record or null",
+					"Delete first record",
+					"Update first record"
+				],
+				"answer": "Return first record or throw 404 error",
+				"explanation": "`firstOrFail()` প্রথম রেকর্ড পায় না গেলে ৪০৪ এক্সেপশন দেয়।"
+			},
+			{
+				"id": 97,
+				"question": "How do you make a model event listener in Laravel?",
+				"options": [
+					"Define methods like `creating()`, `updating()` in model",
+					"Define events in controller",
+					"Use middleware",
+					"Use observer package only"
+				],
+				"answer": "Define methods like `creating()`, `updating()` in model",
+				"explanation": "মডেলে `creating()`, `updating()` ইত্যাদি মেথড দিয়ে ইভেন্ট লিসেনার তৈরি হয়।"
+			},
+			{
+				"id": 98,
+				"question": "How to use soft deletes with relations in Laravel?",
+				"options": [
+					"Use `withTrashed()` to include soft deleted models",
+					"Soft deletes don't work with relations",
+					"Use `onlyTrashed()` only",
+					"Use forceDelete() always"
+				],
+				"answer": "Use `withTrashed()` to include soft deleted models",
+				"explanation": "রিলেশনে সফট ডিলেটেড মডেল দেখতে `withTrashed()` ব্যবহার হয়।"
+			},
+			{
+				"id": 99,
+				"question": "How to call a controller method from a route in Laravel?",
+				"options": [
+					"Using `Route::get('/url', [Controller::class, 'method'])`",
+					"Using `Route::controller()` only",
+					"Using `Route::call()`",
+					"Using `Route::action()`"
+				],
+				"answer": "Using `Route::get('/url', [Controller::class, 'method'])`",
+				"explanation": "রাউটে কন্ট্রোলারের মেথড কল করতে এভাবে লিখতে হয়।"
+			},
+			{
+				"id": 100,
+				"question": "What is the purpose of `mix()` helper in Laravel?",
+				"options": [
+					"To load versioned assets compiled by Laravel Mix",
+					"To load database migrations",
+					"To cache views",
+					"To load config files"
+				],
+				"answer": "To load versioned assets compiled by Laravel Mix",
+				"explanation": "`mix()` হেল্পার অ্যাসেট ফাইল ভার্সনিংসহ লোড করে।"
+			}
+		],
 		"PHP": [
 			{
 				"id": 1,
