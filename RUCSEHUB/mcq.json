@@ -1,4 +1,3 @@
-
 {
 	"mcqs": {
 		"Python": [
@@ -4449,7 +4448,1208 @@
 				"explanation": "'Toast' উইজেটের উদ্দেশ্য হল ব্যবহারকারীর জন্য একটি সংক্ষিপ্ত বার্তা দেখানো।"
 			}
 		],
-		"Django": [],
+		"Django": [
+			{
+				"id": 1,
+				"question": "What is Django?",
+				"options": [
+					"A web framework for Python",
+					"A JavaScript library",
+					"A database system",
+					"An operating system"
+				],
+				"answer": "A web framework for Python",
+				"explanation": "Django হল একটি ওপেন সোর্স ওয়েব ফ্রেমওয়ার্ক যা পাইথনে তৈরি।"
+			},
+			{
+				"id": 2,
+				"question": "Which architecture does Django follow?",
+				"options": [
+					"MVC",
+					"MVVM",
+					"MVT",
+					"MVP"
+				],
+				"answer": "MVT",
+				"explanation": "Django MVT (Model-View-Template) আর্কিটেকচার অনুসরণ করে।"
+			},
+			{
+				"id": 3,
+				"question": "What is the purpose of Django's ORM?",
+				"options": [
+					"To send emails",
+					"To connect frontend with backend",
+					"To interact with the database using Python code",
+					"To render templates"
+				],
+				"answer": "To interact with the database using Python code",
+				"explanation": "Django ORM ব্যবহার করে ডাটাবেসের সাথে পাইথনের কোড দিয়ে কাজ করা যায়।"
+			},
+			{
+				"id": 4,
+				"question": "Which command is used to start a new Django project?",
+				"options": [
+					"django-startproject",
+					"django-admin startproject",
+					"create-django",
+					"python start django"
+				],
+				"answer": "django-admin startproject",
+				"explanation": "`django-admin startproject` কমান্ডটি একটি নতুন Django প্রজেক্ট তৈরি করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 5,
+				"question": "What is the default database used by Django?",
+				"options": [
+					"MySQL",
+					"PostgreSQL",
+					"SQLite",
+					"MongoDB"
+				],
+				"answer": "SQLite",
+				"explanation": "Django ডিফল্টভাবে SQLite ডাটাবেস ব্যবহার করে।"
+			},
+			{
+				"id": 6,
+				"question": "What file contains the settings for a Django project?",
+				"options": [
+					"manage.py",
+					"urls.py",
+					"settings.py",
+					"apps.py"
+				],
+				"answer": "settings.py",
+				"explanation": "`settings.py` ফাইলে Django প্রজেক্টের সমস্ত কনফিগারেশন থাকে।"
+			},
+			{
+				"id": 7,
+				"question": "Which file is responsible for routing URLs in Django?",
+				"options": [
+					"views.py",
+					"models.py",
+					"urls.py",
+					"admin.py"
+				],
+				"answer": "urls.py",
+				"explanation": "`urls.py` ফাইলে URL কনফিগারেশন ও রাউটিং করা হয়।"
+			},
+			{
+				"id": 8,
+				"question": "What is the purpose of views in Django?",
+				"options": [
+					"To design the database schema",
+					"To control the admin panel",
+					"To process requests and return responses",
+					"To install apps"
+				],
+				"answer": "To process requests and return responses",
+				"explanation": "Django views ব্যবহারকারীর রিকোয়েস্ট প্রক্রিয়া করে এবং রেসপন্স রিটার্ন করে।"
+			},
+			{
+				"id": 9,
+				"question": "What command creates a new app in Django?",
+				"options": [
+					"python manage.py newapp",
+					"django-admin createapp",
+					"python manage.py startapp",
+					"start django app"
+				],
+				"answer": "python manage.py startapp",
+				"explanation": "`python manage.py startapp` কমান্ড দিয়ে একটি নতুন Django অ্যাপ তৈরি করা যায়।"
+			},
+			{
+				"id": 10,
+				"question": "Where are Django models defined?",
+				"options": [
+					"views.py",
+					"urls.py",
+					"models.py",
+					"forms.py"
+				],
+				"answer": "models.py",
+				"explanation": "Django মডেলগুলো `models.py` ফাইলে ডিফাইন করা হয়।"
+			},
+			{
+				"id": 11,
+				"question": "What does the `makemigrations` command do?",
+				"options": [
+					"Creates a new project",
+					"Runs the development server",
+					"Creates new database migration files",
+					"Deletes the database"
+				],
+				"answer": "Creates new database migration files",
+				"explanation": "`makemigrations` কমান্ড নতুন মাইগ্রেশন ফাইল তৈরি করে।"
+			},
+			{
+				"id": 12,
+				"question": "Which command applies migrations to the database?",
+				"options": [
+					"python manage.py syncdb",
+					"python manage.py migrate",
+					"python manage.py apply",
+					"python manage.py updatedb"
+				],
+				"answer": "python manage.py migrate",
+				"explanation": "`migrate` কমান্ড দিয়ে মাইগ্রেশন ডাটাবেসে প্রয়োগ করা হয়।"
+			},
+			{
+				"id": 13,
+				"question": "What is the role of the `admin.py` file in Django?",
+				"options": [
+					"To control user logins",
+					"To register models with the admin site",
+					"To create database",
+					"To connect URLs"
+				],
+				"answer": "To register models with the admin site",
+				"explanation": "`admin.py` ফাইলে মডেলগুলো Django admin সাইটে রেজিস্টার করা হয়।"
+			},
+			{
+				"id": 14,
+				"question": "What is the use of `render()` in Django?",
+				"options": [
+					"To create a database",
+					"To display a template with context",
+					"To send email",
+					"To connect models"
+				],
+				"answer": "To display a template with context",
+				"explanation": "`render()` ফাংশন টেমপ্লেটের সাথে ডাটা প্রেরণ করে রেসপন্স তৈরি করে।"
+			},
+			{
+				"id": 15,
+				"question": "What is the use of `request` in Django views?",
+				"options": [
+					"To store database queries",
+					"To receive data from templates",
+					"To handle HTTP request data",
+					"To validate forms"
+				],
+				"answer": "To handle HTTP request data",
+				"explanation": "`request` ব্যবহার করে ব্যবহারকারীর HTTP অনুরোধ ডাটা সংগ্রহ করা হয়।"
+			},
+			{
+				"id": 16,
+				"question": "Which of the following is a valid Django field type?",
+				"options": [
+					"CharField",
+					"IntText",
+					"NumberField",
+					"DateAndTime"
+				],
+				"answer": "CharField",
+				"explanation": "Django-র একটি বৈধ ফিল্ড টাইপ হলো `CharField`।"
+			},
+			{
+				"id": 17,
+				"question": "How do you run the Django development server?",
+				"options": [
+					"python manage.py server",
+					"python runserver",
+					"django-admin run",
+					"python manage.py runserver"
+				],
+				"answer": "python manage.py runserver",
+				"explanation": "`python manage.py runserver` কমান্ড দিয়ে লোকাল সার্ভারে Django চালু করা হয়।"
+			},
+			{
+				"id": 18,
+				"question": "What does `__str__` method do in Django models?",
+				"options": [
+					"It saves the model",
+					"It defines how the object is displayed as a string",
+					"It returns object ID",
+					"It filters data"
+				],
+				"answer": "It defines how the object is displayed as a string",
+				"explanation": "`__str__()` মেথডটি নির্ধারণ করে অবজেক্টটি স্ট্রিং হিসেবে কিভাবে দেখানো হবে।"
+			},
+			{
+				"id": 19,
+				"question": "Which of the following is used to handle forms in Django?",
+				"options": [
+					"FormBuilder",
+					"FormField",
+					"DjangoForms",
+					"forms.Form"
+				],
+				"answer": "forms.Form",
+				"explanation": "`forms.Form` ক্লাস Django তে ফর্ম হ্যান্ডেল করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 20,
+				"question": "What is the purpose of `csrf_token` in Django templates?",
+				"options": [
+					"To secure forms from CSRF attacks",
+					"To connect models",
+					"To store cookies",
+					"To validate users"
+				],
+				"answer": "To secure forms from CSRF attacks",
+				"explanation": "`csrf_token` টেমপ্লেট ট্যাগটি ফর্মকে CSRF আক্রমণ থেকে সুরক্ষা দেয়।"
+			},
+			{
+				"id": 21,
+				"question": "Which command creates a superuser in Django?",
+				"options": [
+					"python manage.py makesuperuser",
+					"django-admin createuser",
+					"python manage.py createsuperuser",
+					"manage.py superuser"
+				],
+				"answer": "python manage.py createsuperuser",
+				"explanation": "`createsuperuser` কমান্ড Django অ্যাডমিন প্যানেলের জন্য একটি সুপারইউজার তৈরি করে।"
+			},
+			{
+				"id": 22,
+				"question": "Which file is used to define Django models?",
+				"options": [
+					"views.py",
+					"admin.py",
+					"models.py",
+					"urls.py"
+				],
+				"answer": "models.py",
+				"explanation": "`models.py` ফাইলে Django মডেল তৈরি করা হয়।"
+			},
+			{
+				"id": 23,
+				"question": "How to register a model in the admin interface?",
+				"options": [
+					"admin.create()",
+					"admin.register()",
+					"admin.site.register()",
+					"admin.add()"
+				],
+				"answer": "admin.site.register()",
+				"explanation": "মডেলকে অ্যাডমিন প্যানেলে দেখাতে `admin.site.register()` ব্যবহার করা হয়।"
+			},
+			{
+				"id": 24,
+				"question": "What is `slug` in Django?",
+				"options": [
+					"A type of template",
+					"A CSS class",
+					"A short label for URLs",
+					"A database engine"
+				],
+				"answer": "A short label for URLs",
+				"explanation": "`slug` হলো URL বান্ধব একটি টেক্সট যা প্রায়শই শিরোনাম বা নাম থেকে তৈরি হয়।"
+			},
+			{
+				"id": 25,
+				"question": "What is middleware in Django?",
+				"options": [
+					"A CSS style",
+					"A template",
+					"A layer to process request/response",
+					"A type of model"
+				],
+				"answer": "A layer to process request/response",
+				"explanation": "Middleware হলো একটি প্রসেসিং লেয়ার যা অনুরোধ ও প্রতিক্রিয়ার মাঝে কাজ করে।"
+			},
+			{
+				"id": 26,
+				"question": "Which command is used to collect static files?",
+				"options": [
+					"python manage.py collectfiles",
+					"python manage.py collectstatic",
+					"django-admin collect",
+					"python manage.py getstatic"
+				],
+				"answer": "python manage.py collectstatic",
+				"explanation": "`collectstatic` কমান্ড সব স্ট্যাটিক ফাইল সংগ্রহ করে এক জায়গায় রাখে।"
+			},
+			{
+				"id": 27,
+				"question": "Which template language is used by default in Django?",
+				"options": [
+					"Jinja2",
+					"Django Template Language",
+					"PHP",
+					"Handlebars"
+				],
+				"answer": "Django Template Language",
+				"explanation": "Django ডিফল্টভাবে Django Template Language (DTL) ব্যবহার করে।"
+			},
+			{
+				"id": 28,
+				"question": "What is `context` in Django templates?",
+				"options": [
+					"A Python file",
+					"A way to send data to templates",
+					"A model field",
+					"A decorator"
+				],
+				"answer": "A way to send data to templates",
+				"explanation": "`context` দ্বারা টেমপ্লেটে ডাটা পাঠানো হয়।"
+			},
+			{
+				"id": 29,
+				"question": "What is the use of `get_object_or_404()`?",
+				"options": [
+					"To return 500 error",
+					"To create a model object",
+					"To retrieve an object or raise 404 error",
+					"To redirect user"
+				],
+				"answer": "To retrieve an object or raise 404 error",
+				"explanation": "`get_object_or_404()` নির্দিষ্ট অবজেক্ট না পাওয়া গেলে 404 রিটার্ন করে।"
+			},
+			{
+				"id": 30,
+				"question": "What is the use of `reverse()` in Django?",
+				"options": [
+					"To reverse strings",
+					"To get URL from view name",
+					"To delete model",
+					"To undo changes"
+				],
+				"answer": "To get URL from view name",
+				"explanation": "`reverse()` ফাংশন দিয়ে ভিউয়ের নাম থেকে ইউআরএল তৈরি করা যায়।"
+			},
+			{
+				"id": 31,
+				"question": "Which decorator is used for class-based views in Django?",
+				"options": [
+					"@classmethod",
+					"@cbv",
+					"@method_decorator",
+					"@staticmethod"
+				],
+				"answer": "@method_decorator",
+				"explanation": "Class-based views-এ ডেকোরেটর ব্যবহার করতে `@method_decorator` লাগে।"
+			},
+			{
+				"id": 32,
+				"question": "How do you define a URL pattern?",
+				"options": [
+					"Using url() or path() in urls.py",
+					"Using admin.py",
+					"In models.py",
+					"In templates"
+				],
+				"answer": "Using url() or path() in urls.py",
+				"explanation": "`urls.py` ফাইলে `url()` বা `path()` ফাংশনের মাধ্যমে URL প্যাটার্ন ডিফাইন করা হয়।"
+			},
+			{
+				"id": 33,
+				"question": "What is `ModelForm` in Django?",
+				"options": [
+					"A form for views",
+					"A form for database models",
+					"A form to handle users",
+					"A template class"
+				],
+				"answer": "A form for database models",
+				"explanation": "`ModelForm` হলো এমন একটি ফর্ম যা ডাটাবেস মডেলের উপর ভিত্তি করে তৈরি হয়।"
+			},
+			{
+				"id": 34,
+				"question": "What is the purpose of `media` in Django?",
+				"options": [
+					"For CSS files",
+					"For JavaScript files",
+					"For handling user uploaded files",
+					"For template rendering"
+				],
+				"answer": "For handling user uploaded files",
+				"explanation": "`media` ডিরেক্টরি ব্যবহারকারীর আপলোডকৃত ফাইল সংরক্ষণে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 35,
+				"question": "What is `request.POST` used for?",
+				"options": [
+					"To get URL",
+					"To fetch database",
+					"To access submitted form data",
+					"To serve static files"
+				],
+				"answer": "To access submitted form data",
+				"explanation": "`request.POST` দ্বারা সাবমিটকৃত ফর্ম ডাটা অ্যাক্সেস করা যায়।"
+			},
+			{
+				"id": 36,
+				"question": "What does `static` tag do in Django templates?",
+				"options": [
+					"Loads CSS/JS files",
+					"Creates models",
+					"Renders views",
+					"Registers app"
+				],
+				"answer": "Loads CSS/JS files",
+				"explanation": "`static` ট্যাগ Django টেমপ্লেটে স্ট্যাটিক ফাইল লোড করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 37,
+				"question": "Which method is used to save a model instance?",
+				"options": [
+					"update()",
+					"save()",
+					"store()",
+					"create()"
+				],
+				"answer": "save()",
+				"explanation": "`save()` মেথড দিয়ে মডেল ইনস্ট্যান্স ডাটাবেসে সংরক্ষণ করা হয়।"
+			},
+			{
+				"id": 38,
+				"question": "What is the role of `as_view()` in Django?",
+				"options": [
+					"To apply view settings",
+					"To render a template",
+					"To convert a class into a view function",
+					"To validate a form"
+				],
+				"answer": "To convert a class into a view function",
+				"explanation": "`as_view()` একটি class-based view কে callable view function এ রূপান্তর করে।"
+			},
+			{
+				"id": 39,
+				"question": "How can you redirect in Django?",
+				"options": [
+					"return redirect('url_name')",
+					"return render('url_name')",
+					"return forward('url')",
+					"return link('url')"
+				],
+				"answer": "return redirect('url_name')",
+				"explanation": "`redirect()` ব্যবহার করে ইউজারকে অন্য পেইজে পাঠানো হয়।"
+			},
+			{
+				"id": 40,
+				"question": "What is the main purpose of `apps.py`?",
+				"options": [
+					"To define templates",
+					"To configure app settings",
+					"To store views",
+					"To register users"
+				],
+				"answer": "To configure app settings",
+				"explanation": "`apps.py` ফাইলে অ্যাপ কনফিগারেশন সেট করা হয়।"
+			},
+			{
+				"id": 41,
+				"question": "What is `HttpResponse` in Django?",
+				"options": [
+					"Database connector",
+					"A class to return HTTP responses",
+					"Template manager",
+					"Static file loader"
+				],
+				"answer": "A class to return HTTP responses",
+				"explanation": "`HttpResponse` হলো একটি ক্লাস যা HTTP response রিটার্ন করে।"
+			},
+			{
+				"id": 42,
+				"question": "Which command lists all Django commands?",
+				"options": [
+					"django commands",
+					"python manage.py --help",
+					"manage commands",
+					"python manage.py commands"
+				],
+				"answer": "python manage.py --help",
+				"explanation": "`--help` দিয়ে সব available Django command লিস্ট দেখা যায়।"
+			},
+			{
+				"id": 43,
+				"question": "What does `@login_required` decorator do?",
+				"options": [
+					"Checks form validation",
+					"Ensures only logged in users can access the view",
+					"Registers user to admin",
+					"Logs out user"
+				],
+				"answer": "Ensures only logged in users can access the view",
+				"explanation": "`@login_required` ডেকোরেটর ভিউতে লগইন ইউজার ছাড়া এক্সেস রোধ করে।"
+			},
+			{
+				"id": 44,
+				"question": "Where do you define static file settings?",
+				"options": [
+					"urls.py",
+					"models.py",
+					"views.py",
+					"settings.py"
+				],
+				"answer": "settings.py",
+				"explanation": "স্ট্যাটিক ফাইলের কনফিগারেশন `settings.py` ফাইলে করা হয়।"
+			},
+			{
+				"id": 45,
+				"question": "Which HTTP method is used by default in Django forms?",
+				"options": [
+					"GET",
+					"POST",
+					"PUT",
+					"DELETE"
+				],
+				"answer": "POST",
+				"explanation": "Django form ডিফল্টভাবে POST method ব্যবহার করে সাবমিশনের জন্য।"
+			},
+			{
+				"id": 46,
+				"question": "What is `template inheritance` in Django?",
+				"options": [
+					"Copying models",
+					"Extending from base templates",
+					"Creating forms",
+					"Importing views"
+				],
+				"answer": "Extending from base templates",
+				"explanation": "`template inheritance` দ্বারা মূল টেমপ্লেট থেকে child টেমপ্লেট তৈরি করা যায়।"
+			},
+			{
+				"id": 47,
+				"question": "Which is NOT a valid Django model field?",
+				"options": [
+					"CharField",
+					"IntegerField",
+					"DateTimeField",
+					"ColorField"
+				],
+				"answer": "ColorField",
+				"explanation": "`ColorField` Django ডিফল্ট ফিল্ড নয় (থার্ড পার্টি প্যাকেজে পাওয়া যায়)।"
+			},
+			{
+				"id": 48,
+				"question": "What is `{{ variable }}` in Django template?",
+				"options": [
+					"Comment",
+					"Template tag",
+					"Variable interpolation",
+					"Database query"
+				],
+				"answer": "Variable interpolation",
+				"explanation": "`{{ variable }}` দ্বারা টেমপ্লেটে ভ্যারিয়েবল প্রদর্শন করা হয়।"
+			},
+			{
+				"id": 49,
+				"question": "What does `{% block content %}` do?",
+				"options": [
+					"Imports content",
+					"Defines a placeholder in template",
+					"Saves model",
+					"Displays database"
+				],
+				"answer": "Defines a placeholder in template",
+				"explanation": "`{% block content %}` টেমপ্লেট ইনহেরিটেন্সে ডাটা প্লেস করার স্থান নির্ধারণ করে।"
+			},
+			{
+				"id": 50,
+				"question": "Which command updates the database schema?",
+				"options": [
+					"python manage.py upgrade",
+					"python manage.py schema",
+					"python manage.py migrate",
+					"python manage.py update"
+				],
+				"answer": "python manage.py migrate",
+				"explanation": "`migrate` কমান্ড ডাটাবেসে মডেল অনুযায়ী টেবিল আপডেট করে।"
+			},
+			{
+				"id": 51,
+				"question": "What is `signals` in Django?",
+				"options": [
+					"A way to send notifications",
+					"Functions called on certain actions/events",
+					"CSS files",
+					"Database migrations"
+				],
+				"answer": "Functions called on certain actions/events",
+				"explanation": "Django signals হলো ফাংশন যা নির্দিষ্ট ইভেন্ট ঘটলে স্বয়ংক্রিয়ভাবে কল হয়।"
+			},
+			{
+				"id": 52,
+				"question": "Which method handles GET requests in a class-based view?",
+				"options": [
+					"get()",
+					"post()",
+					"handle()",
+					"fetch()"
+				],
+				"answer": "get()",
+				"explanation": "Class-based view-এ GET রিকোয়েস্ট `get()` মেথড দ্বারা হ্যান্ডেল করা হয়।"
+			},
+			{
+				"id": 53,
+				"question": "How to enable Django Debug Toolbar?",
+				"options": [
+					"Add to INSTALLED_APPS and MIDDLEWARE",
+					"Run `manage.py debug`",
+					"Import in views.py",
+					"Add to urls.py only"
+				],
+				"answer": "Add to INSTALLED_APPS and MIDDLEWARE",
+				"explanation": "ডিবাগ টুলবার ব্যবহার করতে সেটিংসে `INSTALLED_APPS` ও `MIDDLEWARE`-এ যুক্ত করতে হয়।"
+			},
+			{
+				"id": 54,
+				"question": "What is `manage.py`?",
+				"options": [
+					"Python interpreter",
+					"Django project management script",
+					"A database file",
+					"Template engine"
+				],
+				"answer": "Django project management script",
+				"explanation": "`manage.py` দিয়ে Django প্রজেক্টের বিভিন্ন কমান্ড চালানো হয়।"
+			},
+			{
+				"id": 55,
+				"question": "Which method handles POST requests in class-based views?",
+				"options": [
+					"post()",
+					"get()",
+					"fetch()",
+					"handle()"
+				],
+				"answer": "post()",
+				"explanation": "Class-based view-এ POST রিকোয়েস্ট `post()` মেথড দিয়ে প্রক্রিয়াজাত হয়।"
+			},
+			{
+				"id": 56,
+				"question": "How to enable internationalization (i18n) in Django?",
+				"options": [
+					"Set USE_I18N=True in settings.py",
+					"Add languages to urls.py",
+					"Install django-i18n package",
+					"Use external translation software"
+				],
+				"answer": "Set USE_I18N=True in settings.py",
+				"explanation": "`settings.py` এ `USE_I18N=True` সেট করে Django তে আন্তর্জাতিককরণ সক্রিয় করা হয়।"
+			},
+			{
+				"id": 57,
+				"question": "What does `db.sqlite3` represent in Django?",
+				"options": [
+					"Default SQLite database file",
+					"Migration file",
+					"Static file",
+					"Template file"
+				],
+				"answer": "Default SQLite database file",
+				"explanation": "ডিফল্ট SQLite ডাটাবেস ফাইল হচ্ছে `db.sqlite3`।"
+			},
+			{
+				"id": 58,
+				"question": "What is the use of `migrations` folder?",
+				"options": [
+					"Store migration files for database schema changes",
+					"Store templates",
+					"Store static files",
+					"Store admin settings"
+				],
+				"answer": "Store migration files for database schema changes",
+				"explanation": "`migrations` ফোল্ডারে ডাটাবেস স্কিমার পরিবর্তনের ফাইলগুলো থাকে।"
+			},
+			{
+				"id": 59,
+				"question": "What does `blank=True` in model fields mean?",
+				"options": [
+					"Field is optional in forms",
+					"Field is required",
+					"Field is primary key",
+					"Field is read-only"
+				],
+				"answer": "Field is optional in forms",
+				"explanation": "`blank=True` দিলে ফিল্ডটি ফর্মে খালি থাকতে পারে।"
+			},
+			{
+				"id": 60,
+				"question": "What does `null=True` mean in model fields?",
+				"options": [
+					"Field can be NULL in database",
+					"Field is mandatory",
+					"Field is unique",
+					"Field has default value"
+				],
+				"answer": "Field can be NULL in database",
+				"explanation": "`null=True` সেট করলে ডাটাবেসে ফিল্ডের মান NULL হতে পারে।"
+			},
+			{
+				"id": 61,
+				"question": "Which template tag is used for comments?",
+				"options": [
+					"{# comment #}",
+					"<!-- comment -->",
+					"// comment",
+					"/* comment */"
+				],
+				"answer": "{# comment #}",
+				"explanation": "Django টেমপ্লেটে `{# comment #}` দিয়ে কমেন্ট লেখা হয়।"
+			},
+			{
+				"id": 62,
+				"question": "What is the default port for Django development server?",
+				"options": [
+					"8000",
+					"8080",
+					"80",
+					"443"
+				],
+				"answer": "8000",
+				"explanation": "Django ডেভেলপমেন্ট সার্ভার ডিফল্টভাবে ৮০০০ পোর্টে চলে।"
+			},
+			{
+				"id": 63,
+				"question": "Which package is used to handle static files in production?",
+				"options": [
+					"whitenoise",
+					"staticfiles",
+					"django-static",
+					"statichandler"
+				],
+				"answer": "whitenoise",
+				"explanation": "প্রোডাকশনে `whitenoise` প্যাকেজ স্ট্যাটিক ফাইল সরবরাহে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 64,
+				"question": "What is the function of `get_queryset()` in class-based views?",
+				"options": [
+					"Return queryset for the view",
+					"Render template",
+					"Process POST data",
+					"Handle URLs"
+				],
+				"answer": "Return queryset for the view",
+				"explanation": "`get_queryset()` মেথড ভিউর জন্য ডেটার কোয়েরি সেট রিটার্ন করে।"
+			},
+			{
+				"id": 65,
+				"question": "How do you specify a primary key in Django model?",
+				"options": [
+					"primary_key=True",
+					"pk=True",
+					"key=True",
+					"main_key=True"
+				],
+				"answer": "primary_key=True",
+				"explanation": "`primary_key=True` দিয়ে মডেল ফিল্ডকে প্রাইমারি কী করা হয়।"
+			},
+			{
+				"id": 66,
+				"question": "Which command creates migrations based on model changes?",
+				"options": [
+					"python manage.py makemigrations",
+					"python manage.py migrate",
+					"python manage.py create",
+					"python manage.py build"
+				],
+				"answer": "python manage.py makemigrations",
+				"explanation": "`makemigrations` কমান্ড মডেল পরিবর্তনের জন্য মাইগ্রেশন তৈরি করে।"
+			},
+			{
+				"id": 67,
+				"question": "How to make a field unique in Django model?",
+				"options": [
+					"unique=True",
+					"unique_field=True",
+					"is_unique=True",
+					"unique_key=True"
+				],
+				"answer": "unique=True",
+				"explanation": "`unique=True` দিলে ফিল্ডের মান ইউনিক হতে বাধ্য হয়।"
+			},
+			{
+				"id": 68,
+				"question": "What is the use of `order_by()` in QuerySets?",
+				"options": [
+					"Sort results",
+					"Filter results",
+					"Delete results",
+					"Count results"
+				],
+				"answer": "Sort results",
+				"explanation": "`order_by()` দিয়ে কুয়েরির ফলাফল নির্দিষ্ট ক্রমে সাজানো হয়।"
+			},
+			{
+				"id": 69,
+				"question": "What is the base class for all Django models?",
+				"options": [
+					"models.Model",
+					"ModelBase",
+					"BaseModel",
+					"django.Model"
+				],
+				"answer": "models.Model",
+				"explanation": "সকল Django মডেল `models.Model` থেকে উত্তরাধিকার সূত্রে পাওয়া হয়।"
+			},
+			{
+				"id": 70,
+				"question": "Which method deletes a model instance?",
+				"options": [
+					"remove()",
+					"delete()",
+					"destroy()",
+					"discard()"
+				],
+				"answer": "delete()",
+				"explanation": "`delete()` মেথড দিয়ে মডেল ইনস্ট্যান্স ডাটাবেস থেকে মুছে ফেলা যায়।"
+			},
+			{
+				"id": 71,
+				"question": "What does `select_related()` do?",
+				"options": [
+					"Joins related models in one query",
+					"Deletes related objects",
+					"Filters related models",
+					"Creates new models"
+				],
+				"answer": "Joins related models in one query",
+				"explanation": "`select_related()` ন+১ প্রশ্ন সমস্যা কমাতে সম্পর্কিত মডেলগুলো একসাথে নিয়ে আসে।"
+			},
+			{
+				"id": 72,
+				"question": "How to specify default value for a model field?",
+				"options": [
+					"default=value",
+					"value=default",
+					"initial=value",
+					"start=value"
+				],
+				"answer": "default=value",
+				"explanation": "`default` আর্গুমেন্ট দিয়ে মডেল ফিল্ডের ডিফল্ট মান নির্ধারণ করা হয়।"
+			},
+			{
+				"id": 73,
+				"question": "What is `HttpResponseRedirect`?",
+				"options": [
+					"Redirect response class",
+					"Template renderer",
+					"Form validator",
+					"Database connection"
+				],
+				"answer": "Redirect response class",
+				"explanation": "`HttpResponseRedirect` ক্লাস দিয়ে অন্য URL এ রিডিরেক্ট করা হয়।"
+			},
+			{
+				"id": 74,
+				"question": "How do you access POST data in Django views?",
+				"options": [
+					"request.POST",
+					"request.GET",
+					"request.DATA",
+					"request.FORM"
+				],
+				"answer": "request.POST",
+				"explanation": "`request.POST` ব্যবহার করে ফর্মের সাবমিটকৃত ডেটা পাওয়া যায়।"
+			},
+			{
+				"id": 75,
+				"question": "What does `forms.ModelForm` do?",
+				"options": [
+					"Creates a form from a model",
+					"Creates a model from a form",
+					"Handles static files",
+					"Handles sessions"
+				],
+				"answer": "Creates a form from a model",
+				"explanation": "`forms.ModelForm` মডেল থেকে স্বয়ংক্রিয় ফর্ম তৈরির জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 76,
+				"question": "What is the use of `csrf_exempt` decorator?",
+				"options": [
+					"Disable CSRF protection on a view",
+					"Enable CSRF protection",
+					"Enable CORS",
+					"Enable authentication"
+				],
+				"answer": "Disable CSRF protection on a view",
+				"explanation": "`csrf_exempt` ডেকোরেটর দিয়ে কোনো ভিউতে CSRF চেক বাদ দেওয়া যায়।"
+			},
+			{
+				"id": 77,
+				"question": "What is `request.session` used for?",
+				"options": [
+					"Store temporary user data",
+					"Handle forms",
+					"Render templates",
+					"Manage URLs"
+				],
+				"answer": "Store temporary user data",
+				"explanation": "`request.session` দিয়ে ইউজারভিত্তিক সাময়িক ডেটা সংরক্ষণ করা হয়।"
+			},
+			{
+				"id": 78,
+				"question": "Which setting controls allowed hosts?",
+				"options": [
+					"ALLOWED_HOSTS",
+					"HOSTS",
+					"PERMITTED_HOSTS",
+					"VALID_HOSTS"
+				],
+				"answer": "ALLOWED_HOSTS",
+				"explanation": "`ALLOWED_HOSTS`-এ ডোমেইন বা IP লিখে Django অ্যাক্সেস নিয়ন্ত্রণ করে।"
+			},
+			{
+				"id": 79,
+				"question": "What is Django's default user model?",
+				"options": [
+					"auth.User",
+					"user.Model",
+					"default.User",
+					"accounts.User"
+				],
+				"answer": "auth.User",
+				"explanation": "Django ডিফল্ট ইউজার মডেল হলো `django.contrib.auth.models.User`।"
+			},
+			{
+				"id": 80,
+				"question": "How do you create a custom user model?",
+				"options": [
+					"Inherit AbstractBaseUser and BaseUserManager",
+					"Modify auth.User directly",
+					"Use forms.UserForm",
+					"Use models.User"
+				],
+				"answer": "Inherit AbstractBaseUser and BaseUserManager",
+				"explanation": "কাস্টম ইউজার মডেল তৈরির জন্য `AbstractBaseUser` এবং `BaseUserManager` উত্তরাধিকার সূত্রে নিতে হয়।"
+			},
+			{
+				"id": 81,
+				"question": "What is the role of `forms.py`?",
+				"options": [
+					"Define form classes",
+					"Define models",
+					"Define URLs",
+					"Define views"
+				],
+				"answer": "Define form classes",
+				"explanation": "`forms.py`-এ ফর্ম সংক্রান্ত ক্লাসগুলো ডিফাইন করা হয়।"
+			},
+			{
+				"id": 82,
+				"question": "Which setting controls the timezone in Django?",
+				"options": [
+					"TIME_ZONE",
+					"ZONE_TIME",
+					"TIMEZONE",
+					"ZONE"
+				],
+				"answer": "TIME_ZONE",
+				"explanation": "`TIME_ZONE` সেটিং Django প্রজেক্টের টাইমজোন নির্ধারণ করে।"
+			},
+			{
+				"id": 83,
+				"question": "How do you disable Django's debug mode?",
+				"options": [
+					"Set DEBUG=False in settings.py",
+					"Remove debug toolbar",
+					"Set DEBUG=True",
+					"Delete debug.py"
+				],
+				"answer": "Set DEBUG=False in settings.py",
+				"explanation": "`settings.py`-এ `DEBUG=False` করলে ডিবাগ মোড বন্ধ হয়।"
+			},
+			{
+				"id": 84,
+				"question": "What is Django Rest Framework (DRF)?",
+				"options": [
+					"A toolkit for building Web APIs",
+					"A CSS framework",
+					"A database system",
+					"A template engine"
+				],
+				"answer": "A toolkit for building Web APIs",
+				"explanation": "DRF হলো Django এর জন্য ওয়েব API তৈরির একটি জনপ্রিয় টুলকিট।"
+			},
+			{
+				"id": 85,
+				"question": "How to create API views in DRF?",
+				"options": [
+					"Use APIView or ViewSets",
+					"Use forms.Form",
+					"Use models.Model",
+					"Use admin.site"
+				],
+				"answer": "Use APIView or ViewSets",
+				"explanation": "DRF-এ API ভিউ তৈরির জন্য `APIView` অথবা `ViewSets` ব্যবহার হয়।"
+			},
+			{
+				"id": 86,
+				"question": "What is the default authentication method in DRF?",
+				"options": [
+					"SessionAuthentication",
+					"TokenAuthentication",
+					"OAuth",
+					"BasicAuthentication"
+				],
+				"answer": "SessionAuthentication",
+				"explanation": "DRF ডিফল্টভাবে `SessionAuthentication` ব্যবহার করে।"
+			},
+			{
+				"id": 87,
+				"question": "How to paginate results in Django Rest Framework?",
+				"options": [
+					"Use pagination classes in settings.py",
+					"Use limit and offset manually",
+					"Paginate in template",
+					"Use forms.Form"
+				],
+				"answer": "Use pagination classes in settings.py",
+				"explanation": "DRF-এ পেজিনেশন সক্রিয় করতে সেটিংসে পেজিনেশন ক্লাস যোগ করতে হয়।"
+			},
+			{
+				"id": 88,
+				"question": "What is a serializer in Django Rest Framework?",
+				"options": [
+					"Class to convert complex data to JSON",
+					"Model field",
+					"Form",
+					"View"
+				],
+				"answer": "Class to convert complex data to JSON",
+				"explanation": "Serializer ডাটা সিরিয়ালাইজ (JSON এ রূপান্তর) করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 89,
+				"question": "Which file is used to configure URLs in DRF?",
+				"options": [
+					"urls.py",
+					"views.py",
+					"serializers.py",
+					"settings.py"
+				],
+				"answer": "urls.py",
+				"explanation": "DRF URL কনফিগারেশন `urls.py` ফাইলে হয়।"
+			},
+			{
+				"id": 90,
+				"question": "What is `@api_view` decorator?",
+				"options": [
+					"Decorator for function based API views",
+					"Decorator for templates",
+					"Decorator for models",
+					"Decorator for admin"
+				],
+				"answer": "Decorator for function based API views",
+				"explanation": "`@api_view` ফাংশন বেসড API ভিউ তৈরিতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 91,
+				"question": "How to install Django Rest Framework?",
+				"options": [
+					"pip install djangorestframework",
+					"pip install django-api",
+					"pip install drf",
+					"pip install django-rest"
+				],
+				"answer": "pip install djangorestframework",
+				"explanation": "DRF ইন্সটল করতে `pip install djangorestframework` ব্যবহার করতে হয়।"
+			},
+			{
+				"id": 92,
+				"question": "What does `@permission_classes` do in DRF?",
+				"options": [
+					"Set permission for API views",
+					"Validate forms",
+					"Register models",
+					"Handle URLs"
+				],
+				"answer": "Set permission for API views",
+				"explanation": "`@permission_classes` API ভিউয়ের অনুমতি নিয়ন্ত্রণ করে।"
+			},
+			{
+				"id": 93,
+				"question": "What is a queryset in Django?",
+				"options": [
+					"Collection of database records",
+					"Form data",
+					"Template context",
+					"URL pattern"
+				],
+				"answer": "Collection of database records",
+				"explanation": "QuerySet হলো মডেল ডাটাবেস থেকে রেকর্ডের সংগ্রহ।"
+			},
+			{
+				"id": 94,
+				"question": "Which method is used to filter QuerySet?",
+				"options": [
+					"filter()",
+					"get()",
+					"exclude()",
+					"order_by()"
+				],
+				"answer": "filter()",
+				"explanation": "`filter()` দিয়ে নির্দিষ্ট শর্তে কুয়েরি ফিল্টার করা হয়।"
+			},
+			{
+				"id": 95,
+				"question": "What does `distinct()` do in QuerySets?",
+				"options": [
+					"Removes duplicate results",
+					"Deletes records",
+					"Sorts records",
+					"Limits results"
+				],
+				"answer": "Removes duplicate results",
+				"explanation": "`distinct()` ডুপ্লিকেট রেকর্ড সরিয়ে দেয়।"
+			},
+			{
+				"id": 96,
+				"question": "How to create a many-to-many relationship in models?",
+				"options": [
+					"ManyToManyField",
+					"ForeignKey",
+					"OneToOneField",
+					"RelationField"
+				],
+				"answer": "ManyToManyField",
+				"explanation": "অনেক থেকে অনেক সম্পর্কের জন্য `ManyToManyField` ব্যবহার হয়।"
+			},
+			{
+				"id": 97,
+				"question": "What is `ForeignKey` used for?",
+				"options": [
+					"One-to-many relationship",
+					"Many-to-many relationship",
+					"One-to-one relationship",
+					"To create forms"
+				],
+				"answer": "One-to-many relationship",
+				"explanation": "`ForeignKey` ব্যবহার করে এক-থেকে-অনেক সম্পর্ক তৈরি করা হয়।"
+			},
+			{
+				"id": 98,
+				"question": "How to implement pagination in Django views?",
+				"options": [
+					"Use Paginator class",
+					"Use paginate decorator",
+					"Use PageView class",
+					"Use PaginationField"
+				],
+				"answer": "Use Paginator class",
+				"explanation": "Django তে pagination এর জন্য `Paginator` ক্লাস ব্যবহার করা হয়।"
+			},
+			{
+				"id": 99,
+				"question": "What is `prefetch_related()` used for?",
+				"options": [
+					"Fetch related objects with separate queries",
+					"Join related models in one query",
+					"Delete related objects",
+					"Filter related models"
+				],
+				"answer": "Fetch related objects with separate queries",
+				"explanation": "`prefetch_related()` সম্পর্কিত মডেল আলাদা কুয়েরি দিয়ে নিয়ে আসে।"
+			},
+			{
+				"id": 100,
+				"question": "How to perform raw SQL queries in Django?",
+				"options": [
+					"Model.objects.raw()",
+					"execute_raw()",
+					"db.raw()",
+					"sql_query()"
+				],
+				"answer": "Model.objects.raw()",
+				"explanation": "`raw()` মেথড দিয়ে কাঁচা SQL কোয়েরি করা যায়।"
+			}
+		],
 		"Laravel": [],
 		"PHP": [
 			{
