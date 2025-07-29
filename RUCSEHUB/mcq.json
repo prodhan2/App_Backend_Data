@@ -9616,6 +9616,1208 @@
 				"answer": "Establishes a link between the data in two tables",
 				"explanation": "'FOREIGN KEY' সীমাবদ্ধতা দুটি টেবিলের মধ্যে ডেটার মধ্যে একটি সংযোগ স্থাপন করে।"
 			}
+		],
+		"PyTorch": [
+			{
+				"id": 1,
+				"question": "What is PyTorch primarily used for?",
+				"options": [
+					"Web development",
+					"Machine Learning and Deep Learning",
+					"Database Management",
+					"Operating System Development"
+				],
+				"answer": "Machine Learning and Deep Learning",
+				"explanation": "PyTorch মূলত মেশিন লার্নিং ও ডিপ লার্নিং মডেল তৈরি ও ট্রেইন করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 2,
+				"question": "Which function is used to check GPU availability in PyTorch?",
+				"options": [
+					"torch.cuda.is_available()",
+					"torch.gpu.check()",
+					"torch.device()",
+					"torch.cuda.enable()"
+				],
+				"answer": "torch.cuda.is_available()",
+				"explanation": "torch.cuda.is_available() ফাংশনটি ব্যবহার করে দেখা যায় GPU অ্যাক্সেসযোগ্য কি না।"
+			},
+			{
+				"id": 3,
+				"question": "Which module is used to create neural network layers?",
+				"options": [
+					"torch.nn",
+					"torch.utils",
+					"torch.math",
+					"torch.gpu"
+				],
+				"answer": "torch.nn",
+				"explanation": "torch.nn মডিউলটি নিউরাল নেটওয়ার্ক তৈরি ও ট্রেইন করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 4,
+				"question": "Which object is used to define a linear layer?",
+				"options": [
+					"nn.Linear",
+					"nn.Conv2d",
+					"nn.RNN",
+					"nn.MSELoss"
+				],
+				"answer": "nn.Linear",
+				"explanation": "nn.Linear লেয়ারটি একটি ফিড-ফরোয়ার্ড ফুলি কানেক্টেড লেয়ার।"
+			},
+			{
+				"id": 5,
+				"question": "Which module is used for optimization algorithms?",
+				"options": [
+					"torch.optimize",
+					"torch.opt",
+					"torch.nn",
+					"torch.optim"
+				],
+				"answer": "torch.optim",
+				"explanation": "torch.optim PyTorch এর অপ্টিমাইজার মডিউল যাতে SGD, Adam ইত্যাদি অপ্টিমাইজার থাকে।"
+			},
+			{
+				"id": 6,
+				"question": "What does the parameter `requires_grad=True` do?",
+				"options": [
+					"Disables gradient",
+					"Tells PyTorch to track gradient",
+					"Saves model",
+					"Loads dataset"
+				],
+				"answer": "Tells PyTorch to track gradient",
+				"explanation": "`requires_grad=True` দিলে PyTorch সেই টেনসরের জন্য গ্রেডিয়েন্ট ট্র্যাক করে।"
+			},
+			{
+				"id": 7,
+				"question": "Which of the following is a loss function?",
+				"options": [
+					"nn.Linear",
+					"nn.MSELoss",
+					"optim.SGD",
+					"DataLoader"
+				],
+				"answer": "nn.MSELoss",
+				"explanation": "nn.MSELoss একটি লস ফাংশন যা Mean Squared Error হিসাব করে।"
+			},
+			{
+				"id": 8,
+				"question": "Which optimizer is commonly used with neural networks?",
+				"options": [
+					"torch.nn.SGD",
+					"torch.optim.SGD",
+					"torch.gpu.SGD",
+					"torch.module.SGD"
+				],
+				"answer": "torch.optim.SGD",
+				"explanation": "torch.optim.SGD হলো স্টোকাস্টিক গ্রেডিয়েন্ট ডিজেন্ট অপ্টিমাইজার।"
+			},
+			{
+				"id": 9,
+				"question": "Which command converts a tensor to NumPy?",
+				"options": [
+					"tensor.numpy()",
+					"tensor.to_numpy()",
+					"numpy.tensor()",
+					"tensor.asnumpy()"
+				],
+				"answer": "tensor.numpy()",
+				"explanation": "PyTorch টেনসরকে `.numpy()` দিয়ে NumPy array-তে রূপান্তর করা যায়।"
+			},
+			{
+				"id": 10,
+				"question": "Which activation function is most commonly used?",
+				"options": [
+					"Sigmoid",
+					"Tanh",
+					"ReLU",
+					"Softmax"
+				],
+				"answer": "ReLU",
+				"explanation": "ReLU (Rectified Linear Unit) ডিপ লার্নিংয়ে সবচেয়ে বেশি ব্যবহৃত অ্যাক্টিভেশন ফাংশন।"
+			},
+			{
+				"id": 11,
+				"question": "Which module is used to create convolutional layers?",
+				"options": [
+					"nn.Linear",
+					"nn.Conv2d",
+					"nn.ReLU",
+					"nn.BatchNorm"
+				],
+				"answer": "nn.Conv2d",
+				"explanation": "nn.Conv2d 2D কনভলিউশন লেয়ার তৈরি করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 12,
+				"question": "What is the default datatype of PyTorch tensors?",
+				"options": [
+					"int",
+					"float",
+					"torch.float32",
+					"torch.int32"
+				],
+				"answer": "torch.float32",
+				"explanation": "PyTorch-এ টেনসরের ডিফল্ট ডেটাটাইপ হলো float32।"
+			},
+			{
+				"id": 13,
+				"question": "Which function performs backpropagation?",
+				"options": [
+					"model.backward()",
+					"loss.backward()",
+					"optimizer.backward()",
+					"gradient.backward()"
+				],
+				"answer": "loss.backward()",
+				"explanation": "`loss.backward()` ফাংশনটি ব্যাকপ্রোপাগেশন সম্পন্ন করে।"
+			},
+			{
+				"id": 14,
+				"question": "What does `optimizer.step()` do?",
+				"options": [
+					"Saves model",
+					"Initializes parameters",
+					"Updates weights",
+					"Calculates loss"
+				],
+				"answer": "Updates weights",
+				"explanation": "`optimizer.step()` ব্যবহার করে মডেলের ওজন আপডেট করা হয়।"
+			},
+			{
+				"id": 15,
+				"question": "What is `DataLoader` used for?",
+				"options": [
+					"Model training",
+					"Model saving",
+					"Batching and shuffling data",
+					"Computing gradients"
+				],
+				"answer": "Batching and shuffling data",
+				"explanation": "`DataLoader` ডেটা লোড করে ব্যাচিং ও শাফলিং করে।"
+			},
+			{
+				"id": 16,
+				"question": "Which function is used to move a tensor to GPU?",
+				"options": [
+					"to('gpu')",
+					"tensor.cuda()",
+					"tensor.gpu()",
+					"tensor.move()"
+				],
+				"answer": "tensor.cuda()",
+				"explanation": "tensor.cuda() ব্যবহার করে টেনসরকে GPU তে নেওয়া হয়।"
+			},
+			{
+				"id": 17,
+				"question": "What is a tensor?",
+				"options": [
+					"Single number",
+					"Array of numbers",
+					"Multidimensional array",
+					"Matrix only"
+				],
+				"answer": "Multidimensional array",
+				"explanation": "Tensor হলো মাল্টিডাইমেনশনাল অ্যারে যা ডিপ লার্নিংয়ের ভিত্তি।"
+			},
+			{
+				"id": 18,
+				"question": "Which method disables gradient calculation?",
+				"options": [
+					"with torch.no_grad()",
+					"torch.stop_grad()",
+					"no_gradient()",
+					"disable_grad()"
+				],
+				"answer": "with torch.no_grad()",
+				"explanation": "`with torch.no_grad()` ব্লকটি ব্যবহার করে গ্রেডিয়েন্ট বন্ধ রাখা যায়।"
+			},
+			{
+				"id": 19,
+				"question": "Which function creates a tensor of all zeros?",
+				"options": [
+					"torch.zeros()",
+					"torch.ones()",
+					"torch.fill(0)",
+					"torch.empty()"
+				],
+				"answer": "torch.zeros()",
+				"explanation": "torch.zeros() ফাংশন একটি শূন্য দিয়ে পূর্ণ টেনসর তৈরি করে।"
+			},
+			{
+				"id": 20,
+				"question": "How do you define a custom neural network in PyTorch?",
+				"options": [
+					"Inherit nn.Module",
+					"Use torch.Tensor",
+					"Define torch.Model",
+					"Use nn.Function"
+				],
+				"answer": "Inherit nn.Module",
+				"explanation": "Custom মডেল তৈরি করতে nn.Module ক্লাস ইনহেরিট করতে হয়।"
+			},
+			{
+				"id": 21,
+				"question": "What does `model.eval()` do?",
+				"options": [
+					"Train the model",
+					"Turn off dropout/batchnorm",
+					"Save model",
+					"Calculate accuracy"
+				],
+				"answer": "Turn off dropout/batchnorm",
+				"explanation": "`model.eval()` মডেলকে ইভ্যালুয়েশন মোডে নিয়ে যায় যেখানে ড্রপআউট ও ব্যাচনর্ম বন্ধ থাকে।"
+			},
+			{
+				"id": 22,
+				"question": "Which loss function is best for classification?",
+				"options": [
+					"MSELoss",
+					"CrossEntropyLoss",
+					"L1Loss",
+					"BinaryLoss"
+				],
+				"answer": "CrossEntropyLoss",
+				"explanation": "Classification এর জন্য `CrossEntropyLoss` সবচেয়ে উপযুক্ত।"
+			},
+			{
+				"id": 23,
+				"question": "Which optimizer adapts learning rates automatically?",
+				"options": [
+					"SGD",
+					"Adam",
+					"RMSprop",
+					"GradientDescent"
+				],
+				"answer": "Adam",
+				"explanation": "Adam অপ্টিমাইজার নিজে থেকেই লার্নিং রেট অ্যাডজাস্ট করে।"
+			},
+			{
+				"id": 24,
+				"question": "Which function saves a model?",
+				"options": [
+					"torch.save()",
+					"model.save()",
+					"torch.store()",
+					"torch.model.save()"
+				],
+				"answer": "torch.save()",
+				"explanation": "torch.save() ফাংশন দিয়ে PyTorch মডেল বা টেনসর সংরক্ষণ করা যায়।"
+			},
+			{
+				"id": 25,
+				"question": "Which function loads a saved model?",
+				"options": [
+					"torch.load()",
+					"model.load()",
+					"torch.model()",
+					"torch.get()"
+				],
+				"answer": "torch.load()",
+				"explanation": "torch.load() দিয়ে সংরক্ষিত PyTorch অবজেক্ট লোড করা যায়।"
+			},
+			{
+				"id": 26,
+				"question": "What is the output of ReLU if input is -3?",
+				"options": [
+					"0",
+					"-3",
+					"3",
+					"1"
+				],
+				"answer": "0",
+				"explanation": "ReLU(x) = max(0, x)। তাই x = -3 হলে আউটপুট 0।"
+			},
+			{
+				"id": 27,
+				"question": "What is the shape of a tensor created by `torch.rand(2,3)`?",
+				"options": [
+					"2",
+					"3",
+					"(2,3)",
+					"(3,2)"
+				],
+				"answer": "(2,3)",
+				"explanation": "torch.rand(2,3) একটি 2 সারি ও 3 কলামের র‍্যান্ডম ভ্যালু টেনসর তৈরি করে।"
+			},
+			{
+				"id": 28,
+				"question": "Which method sets model to training mode?",
+				"options": [
+					"model.train()",
+					"model.eval()",
+					"model.activate()",
+					"model.start()"
+				],
+				"answer": "model.train()",
+				"explanation": "`model.train()` মডেলকে ট্রেইনিং মোডে নিয়ে যায়।"
+			},
+			{
+				"id": 29,
+				"question": "What does `torch.manual_seed()` do?",
+				"options": [
+					"Sets seed for random generator",
+					"Trains model",
+					"Saves model",
+					"Checks GPU"
+				],
+				"answer": "Sets seed for random generator",
+				"explanation": "`torch.manual_seed()` দিয়ে র‍্যান্ডম নাম্বারের জন্য নির্দিষ্ট seed সেট করা যায়।"
+			},
+			{
+				"id": 30,
+				"question": "Which of the following is used to flatten a tensor?",
+				"options": [
+					"torch.flatten()",
+					"torch.squeeze()",
+					"torch.reshape(-1)",
+					"torch.view()"
+				],
+				"answer": "torch.flatten()",
+				"explanation": "`torch.flatten()` ফাংশন টেনসরকে 1D করে ফ্ল্যাট করে।"
+			},
+			{
+				"id": 31,
+				"question": "What does `.view()` do in PyTorch?",
+				"options": [
+					"Changes tensor values",
+					"Flattens tensor",
+					"Reshapes tensor",
+					"Inverts tensor"
+				],
+				"answer": "Reshapes tensor",
+				"explanation": "`.view()` মেথডটি টেনসরের শেপ পরিবর্তন করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 32,
+				"question": "Which class is used to define sequential models?",
+				"options": [
+					"nn.Sequential",
+					"nn.ModuleList",
+					"nn.Linear",
+					"nn.Trainer"
+				],
+				"answer": "nn.Sequential",
+				"explanation": "nn.Sequential ব্যবহৃত হয় একের পর এক লেয়ার যুক্ত মডেল তৈরি করতে।"
+			},
+			{
+				"id": 33,
+				"question": "Which class is used to create datasets from arrays or tensors?",
+				"options": [
+					"TensorDataset",
+					"ArrayLoader",
+					"DataList",
+					"TensorLoader"
+				],
+				"answer": "TensorDataset",
+				"explanation": "`TensorDataset` দিয়ে array বা tensor থেকে কাস্টম dataset তৈরি করা যায়।"
+			},
+			{
+				"id": 34,
+				"question": "Which layer is useful for image classification?",
+				"options": [
+					"nn.Conv2d",
+					"nn.Linear",
+					"nn.BatchNorm2d",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Image classification এ Conv2d, Linear, ও BatchNorm সবগুলোই ব্যবহৃত হয়।"
+			},
+			{
+				"id": 35,
+				"question": "What does `dim` parameter do in PyTorch functions?",
+				"options": [
+					"Selects layer",
+					"Indicates dimension",
+					"Defines output size",
+					"Measures memory"
+				],
+				"answer": "Indicates dimension",
+				"explanation": "`dim` প্যারামিটারটি নির্দিষ্ট করে কোন dimension-এ অপারেশন হবে।"
+			},
+			{
+				"id": 36,
+				"question": "Which of the following can prevent overfitting?",
+				"options": [
+					"Dropout",
+					"More layers",
+					"Lower learning rate",
+					"BatchNorm"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout লেয়ার নোডের কিছু অংশ ট্রেইনিং এ বাদ দিয়ে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 37,
+				"question": "Which type of tensor operation is element-wise?",
+				"options": [
+					"Addition",
+					"Matrix multiplication",
+					"Concatenation",
+					"Stacking"
+				],
+				"answer": "Addition",
+				"explanation": "Tensor addition একটি এলিমেন্ট-ওয়াইজ অপারেশন।"
+			},
+			{
+				"id": 38,
+				"question": "Which of the following is NOT a tensor creation method?",
+				"options": [
+					"torch.tensor()",
+					"torch.rand()",
+					"torch.ones()",
+					"torch.math()"
+				],
+				"answer": "torch.math()",
+				"explanation": "`torch.math()` নামে কোনো tensor creation ফাংশন নেই।"
+			},
+			{
+				"id": 39,
+				"question": "Which method sets the gradient to zero before backpropagation?",
+				"options": [
+					"optimizer.zero_grad()",
+					"optimizer.clear()",
+					"loss.zero()",
+					"model.zero_grad()"
+				],
+				"answer": "optimizer.zero_grad()",
+				"explanation": "`optimizer.zero_grad()` ব্যাকপ্রোপাগেশন করার আগে গ্রেডিয়েন্ট রিসেট করে।"
+			},
+			{
+				"id": 40,
+				"question": "What does `detach()` do in PyTorch?",
+				"options": [
+					"Deletes tensor",
+					"Stops gradient tracking",
+					"Clones tensor",
+					"Moves tensor to CPU"
+				],
+				"answer": "Stops gradient tracking",
+				"explanation": "`detach()` দিয়ে টেনসর থেকে গ্রেডিয়েন্ট ট্র্যাকিং বন্ধ করা যায়।"
+			},
+			{
+				"id": 41,
+				"question": "Which optimizer is usually better for sparse data?",
+				"options": [
+					"SGD",
+					"Adam",
+					"Adagrad",
+					"RMSprop"
+				],
+				"answer": "Adagrad",
+				"explanation": "Adagrad অপ্টিমাইজার sparse বা বিরল ডেটার জন্য ভালো কাজ করে।"
+			},
+			{
+				"id": 42,
+				"question": "Which of the following is a recurrent neural network?",
+				"options": [
+					"CNN",
+					"RNN",
+					"GAN",
+					"DNN"
+				],
+				"answer": "RNN",
+				"explanation": "RNN (Recurrent Neural Network) সিকোয়েন্স ডেটা প্রসেস করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 43,
+				"question": "Which loss function is used for binary classification?",
+				"options": [
+					"CrossEntropyLoss",
+					"BCELoss",
+					"MSELoss",
+					"SmoothL1Loss"
+				],
+				"answer": "BCELoss",
+				"explanation": "Binary classification এর জন্য Binary Cross Entropy Loss (BCELoss) ব্যবহৃত হয়।"
+			},
+			{
+				"id": 44,
+				"question": "What is the function of `torch.cat()`?",
+				"options": [
+					"Splits tensors",
+					"Adds tensors",
+					"Concatenates tensors",
+					"Multiplies tensors"
+				],
+				"answer": "Concatenates tensors",
+				"explanation": "`torch.cat()` ফাংশন দুটি বা তার বেশি টেনসর একত্র করে।"
+			},
+			{
+				"id": 45,
+				"question": "What does `unsqueeze()` do?",
+				"options": [
+					"Adds a dimension",
+					"Removes a dimension",
+					"Sorts tensor",
+					"Normalizes tensor"
+				],
+				"answer": "Adds a dimension",
+				"explanation": "`unsqueeze()` ব্যবহার করে একটি নতুন dimension যোগ করা হয়।"
+			},
+			{
+				"id": 46,
+				"question": "What is the default learning rate of Adam in PyTorch?",
+				"options": [
+					"0.01",
+					"0.001",
+					"0.1",
+					"0.05"
+				],
+				"answer": "0.001",
+				"explanation": "Adam অপ্টিমাইজারের ডিফল্ট লার্নিং রেট হলো 0.001।"
+			},
+			{
+				"id": 47,
+				"question": "Which is not an activation function?",
+				"options": [
+					"ReLU",
+					"Tanh",
+					"Sigmoid",
+					"LinearRegression"
+				],
+				"answer": "LinearRegression",
+				"explanation": "LinearRegression একটি মডেল, এটি অ্যাক্টিভেশন ফাংশন নয়।"
+			},
+			{
+				"id": 48,
+				"question": "What is the output of `torch.arange(0,5)`?",
+				"options": [
+					"[0,1,2,3,4]",
+					"[1,2,3,4,5]",
+					"[0,1,2,3,4,5]",
+					"[0,2,4]"
+				],
+				"answer": "[0,1,2,3,4]",
+				"explanation": "`torch.arange(0,5)` 0 থেকে 5 পর্যন্ত ইনটিজার তৈরি করে কিন্তু 5 বাদ দেয়।"
+			},
+			{
+				"id": 49,
+				"question": "Which one is faster for large datasets?",
+				"options": [
+					"Manual batching",
+					"DataLoader",
+					"Single image loading",
+					"Nested loops"
+				],
+				"answer": "DataLoader",
+				"explanation": "DataLoader বড় ডেটাসেট দ্রুত ও কার্যকরভাবে লোড করতে সাহায্য করে।"
+			},
+			{
+				"id": 50,
+				"question": "What is the purpose of `cross_entropy()` function?",
+				"options": [
+					"Loss for regression",
+					"Loss for binary class",
+					"Loss for classification",
+					"Loss for GAN"
+				],
+				"answer": "Loss for classification",
+				"explanation": "`cross_entropy()` classification প্রোবলেমের জন্য loss হিসেব করে।"
+			},
+			{
+				"id": 51,
+				"question": "Which function returns the number of elements in a tensor?",
+				"options": [
+					"tensor.size()",
+					"tensor.length()",
+					"tensor.numel()",
+					"tensor.shape()"
+				],
+				"answer": "tensor.numel()",
+				"explanation": "`tensor.numel()` একটি টেনসরে মোট কতটি এলিমেন্ট আছে তা জানায়।"
+			},
+			{
+				"id": 52,
+				"question": "What does `squeeze()` do?",
+				"options": [
+					"Flattens tensor",
+					"Removes dimensions of size 1",
+					"Adds a new dimension",
+					"Copies tensor"
+				],
+				"answer": "Removes dimensions of size 1",
+				"explanation": "`squeeze()` ফাংশন টেনসরের একক (1) ডাইমেনশন মুছে ফেলে।"
+			},
+			{
+				"id": 53,
+				"question": "Which function is used to convert tensor type?",
+				"options": [
+					"tensor.cast()",
+					"tensor.astype()",
+					"tensor.type()",
+					"tensor.change()"
+				],
+				"answer": "tensor.type()",
+				"explanation": "`tensor.type()` দিয়ে tensor-এর ডেটাটাইপ পরিবর্তন করা যায়।"
+			},
+			{
+				"id": 54,
+				"question": "How can we clone a tensor?",
+				"options": [
+					"tensor.copy()",
+					"tensor.clone()",
+					"tensor.replicate()",
+					"tensor.duplicate()"
+				],
+				"answer": "tensor.clone()",
+				"explanation": "`clone()` ফাংশন দিয়ে tensor-এর কপি তৈরি করা যায়।"
+			},
+			{
+				"id": 55,
+				"question": "Which function stacks tensors along a new dimension?",
+				"options": [
+					"torch.cat()",
+					"torch.stack()",
+					"torch.add()",
+					"torch.group()"
+				],
+				"answer": "torch.stack()",
+				"explanation": "`torch.stack()` ফাংশন নতুন dimension তৈরি করে টেনসর স্ট্যাক করে।"
+			},
+			{
+				"id": 56,
+				"question": "Which function normalizes inputs?",
+				"options": [
+					"torch.norm()",
+					"torch.normalize()",
+					"torch.scale()",
+					"torch.standardize()"
+				],
+				"answer": "torch.normalize()",
+				"explanation": "`torch.normalize()` ভেক্টর বা ইনপুটকে নরমালাইজ করে দেয়।"
+			},
+			{
+				"id": 57,
+				"question": "Which function computes dot product?",
+				"options": [
+					"torch.mul()",
+					"torch.mm()",
+					"torch.dot()",
+					"torch.add()"
+				],
+				"answer": "torch.dot()",
+				"explanation": "`torch.dot()` ফাংশন দুটি 1D টেনসরের ডট প্রোডাক্ট হিসাব করে।"
+			},
+			{
+				"id": 58,
+				"question": "What is the use of `torch.nn.functional`?",
+				"options": [
+					"Helper methods for nn",
+					"Data saving",
+					"Tensor math",
+					"Data preprocessing"
+				],
+				"answer": "Helper methods for nn",
+				"explanation": "`torch.nn.functional` তে বিভিন্ন nn-এর ফাংশন যেমন relu, softmax থাকে।"
+			},
+			{
+				"id": 59,
+				"question": "What does `torch.argmax()` do?",
+				"options": [
+					"Finds max value",
+					"Finds index of max value",
+					"Sorts values",
+					"Finds min value"
+				],
+				"answer": "Finds index of max value",
+				"explanation": "`torch.argmax()` সর্বোচ্চ মানের ইনডেক্স প্রদান করে।"
+			},
+			{
+				"id": 60,
+				"question": "Which parameter controls the randomness in DataLoader?",
+				"options": [
+					"shuffle",
+					"random",
+					"batch_size",
+					"num_workers"
+				],
+				"answer": "shuffle",
+				"explanation": "`shuffle=True` দিলে DataLoader ডেটা এলোমেলো করে দেয়।"
+			},
+			{
+				"id": 61,
+				"question": "What is `num_workers` in DataLoader?",
+				"options": [
+					"Number of epochs",
+					"Number of tensors",
+					"Number of parallel threads",
+					"Batch size"
+				],
+				"answer": "Number of parallel threads",
+				"explanation": "`num_workers` কতটি থ্রেডে ডেটা লোড হবে তা নির্ধারণ করে।"
+			},
+			{
+				"id": 62,
+				"question": "Which module contains loss functions?",
+				"options": [
+					"torch.loss",
+					"torch.nn",
+					"torch.utils",
+					"torch.data"
+				],
+				"answer": "torch.nn",
+				"explanation": "Loss functions যেমন MSELoss, CrossEntropyLoss `torch.nn` এ থাকে।"
+			},
+			{
+				"id": 63,
+				"question": "What is one epoch?",
+				"options": [
+					"One batch",
+					"All data once passed through model",
+					"A single layer",
+					"Loss function"
+				],
+				"answer": "All data once passed through model",
+				"explanation": "Epoch মানে সম্পূর্ণ ডেটাসেট একবার মডেলের মাধ্যমে যাওয়া।"
+			},
+			{
+				"id": 64,
+				"question": "Which is used for weight initialization?",
+				"options": [
+					"torch.init()",
+					"torch.nn.init",
+					"torch.weights()",
+					"torch.setup()"
+				],
+				"answer": "torch.nn.init",
+				"explanation": "`torch.nn.init` ব্যবহার করে মডেলের ওজন ইনিশিয়ালাইজ করা যায়।"
+			},
+			{
+				"id": 65,
+				"question": "Which function applies softmax activation?",
+				"options": [
+					"F.relu()",
+					"F.softmax()",
+					"F.sigmoid()",
+					"F.tanh()"
+				],
+				"answer": "F.softmax()",
+				"explanation": "`F.softmax()` একাধিক ক্লাসের মধ্যে প্রোবাবিলিটি তৈরি করে।"
+			},
+			{
+				"id": 66,
+				"question": "Which module is usually imported as `F`?",
+				"options": [
+					"torch.functional",
+					"torch.nn.functional",
+					"torch.nn.F",
+					"torch.F"
+				],
+				"answer": "torch.nn.functional",
+				"explanation": "`torch.nn.functional` সাধারণভাবে `F` নামে ইমপোর্ট করা হয়।"
+			},
+			{
+				"id": 67,
+				"question": "Which function computes mean of tensor?",
+				"options": [
+					"torch.mean()",
+					"tensor.avg()",
+					"tensor.mean()",
+					"mean(tensor)"
+				],
+				"answer": "tensor.mean()",
+				"explanation": "টেনসরের গড় বের করতে `.mean()` ব্যবহার করা হয়।"
+			},
+			{
+				"id": 68,
+				"question": "What is gradient clipping used for?",
+				"options": [
+					"Prevent gradient explosion",
+					"Improve accuracy",
+					"Reduce loss",
+					"Faster training"
+				],
+				"answer": "Prevent gradient explosion",
+				"explanation": "Gradient clipping বেশি gradient মান কেটে দেয় যেন training instable না হয়।"
+			},
+			{
+				"id": 69,
+				"question": "Which tool is used for model visualization?",
+				"options": [
+					"TensorBoard",
+					"PyBoard",
+					"TorchBoard",
+					"ModelViewer"
+				],
+				"answer": "TensorBoard",
+				"explanation": "TensorBoard দিয়ে মডেল ট্রেইনিং ও গ্রাফ দেখানো যায়।"
+			},
+			{
+				"id": 70,
+				"question": "Which method loads a custom dataset?",
+				"options": [
+					"CustomDataset()",
+					"DatasetLoader",
+					"ExtDataset",
+					"Inherit torch.utils.data.Dataset"
+				],
+				"answer": "Inherit torch.utils.data.Dataset",
+				"explanation": "Custom ডেটাসেট তৈরি করতে `torch.utils.data.Dataset` ক্লাস ইনহেরিট করতে হয়।"
+			},
+			{
+				"id": 71,
+				"question": "Which function is used to freeze model parameters during training?",
+				"options": [
+					"param.requires_grad = False",
+					"param.freeze()",
+					"model.freeze()",
+					"param.no_grad()"
+				],
+				"answer": "param.requires_grad = False",
+				"explanation": "কোনো মডেলের প্যারামিটার ট্রেইনিং থেকে বাদ দিতে `requires_grad=False` করা হয়।"
+			},
+			{
+				"id": 72,
+				"question": "What is the output shape of `nn.Conv2d(3, 16, 3)` on input of shape (1, 3, 32, 32)?",
+				"options": [
+					"(1, 16, 30, 30)",
+					"(1, 3, 30, 30)",
+					"(1, 16, 32, 32)",
+					"(1, 3, 32, 32)"
+				],
+				"answer": "(1, 16, 30, 30)",
+				"explanation": "3x3 kernel ব্যবহার করলে আউটপুট স্পেশাল ডাইমেনশন 32-3+1=30 হয়।"
+			},
+			{
+				"id": 73,
+				"question": "Which of the following is NOT an optimizer in PyTorch?",
+				"options": [
+					"Adam",
+					"SGD",
+					"RMSprop",
+					"KerasOptimizer"
+				],
+				"answer": "KerasOptimizer",
+				"explanation": "KerasOptimizer PyTorch এর optimizer নয়, এটি Keras ফ্রেমওয়ার্কের।"
+			},
+			{
+				"id": 74,
+				"question": "What does the `batch_size` parameter control?",
+				"options": [
+					"Number of epochs",
+					"Number of samples per training step",
+					"Learning rate",
+					"Number of layers"
+				],
+				"answer": "Number of samples per training step",
+				"explanation": "`batch_size` নির্ধারণ করে প্রতি স্টেপে কতগুলো ডেটা নমুনা পাঠানো হবে।"
+			},
+			{
+				"id": 75,
+				"question": "Which layer normalizes inputs to speed up training?",
+				"options": [
+					"BatchNorm",
+					"Dropout",
+					"Linear",
+					"Pooling"
+				],
+				"answer": "BatchNorm",
+				"explanation": "Batch Normalization ইনপুটগুলো নরমালাইজ করে ট্রেইনিং দ্রুত ও স্থিতিশীল করে।"
+			},
+			{
+				"id": 76,
+				"question": "What is the main purpose of `torch.no_grad()` context?",
+				"options": [
+					"Speed up inference by disabling gradients",
+					"Save model",
+					"Clear GPU memory",
+					"Visualize tensor"
+				],
+				"answer": "Speed up inference by disabling gradients",
+				"explanation": "`torch.no_grad()` ব্যবহার করলে গ্রেডিয়েন্ট ক্যালকুলেশন বন্ধ হয়ে ইনফারেন্স দ্রুত হয়।"
+			},
+			{
+				"id": 77,
+				"question": "Which function is used to save the entire model?",
+				"options": [
+					"torch.save(model.state_dict())",
+					"torch.save(model)",
+					"model.save()",
+					"model.save_state()"
+				],
+				"answer": "torch.save(model)",
+				"explanation": "`torch.save(model)` দিয়ে পুরো মডেল সেভ করা যায়, কিন্তু বেশি ব্যবহৃত হয় state_dict।"
+			},
+			{
+				"id": 78,
+				"question": "Which function returns the shape of a tensor?",
+				"options": [
+					"tensor.shape",
+					"tensor.size",
+					"tensor.dim",
+					"tensor.length"
+				],
+				"answer": "tensor.shape",
+				"explanation": "`tensor.shape` টেনসরের আকার বা ডাইমেনশন দেয়।"
+			},
+			{
+				"id": 79,
+				"question": "Which function converts PyTorch tensor to Python scalar?",
+				"options": [
+					"tensor.item()",
+					"tensor.scalar()",
+					"tensor.to_scalar()",
+					"tensor.as_scalar()"
+				],
+				"answer": "tensor.item()",
+				"explanation": "`tensor.item()` একটি একক মানকে পাইথন স্কেলার এ রূপান্তর করে।"
+			},
+			{
+				"id": 80,
+				"question": "What is the role of `forward()` method in nn.Module?",
+				"options": [
+					"Defines model computation",
+					"Saves model",
+					"Loads model",
+					"Resets gradients"
+				],
+				"answer": "Defines model computation",
+				"explanation": "`forward()` মেথডে মডেলের ফরওয়ার্ড পাসের লজিক লেখা হয়।"
+			},
+			{
+				"id": 81,
+				"question": "Which function concatenates tensors along a specified dimension?",
+				"options": [
+					"torch.cat()",
+					"torch.stack()",
+					"torch.merge()",
+					"torch.append()"
+				],
+				"answer": "torch.cat()",
+				"explanation": "`torch.cat()` টেনসরগুলোকে নির্দিষ্ট ডাইমেনশন বরাবর একত্রিত করে।"
+			},
+			{
+				"id": 82,
+				"question": "Which PyTorch module helps with dataset handling?",
+				"options": [
+					"torch.utils.data",
+					"torch.dataset",
+					"torch.datautils",
+					"torch.utils.dataset"
+				],
+				"answer": "torch.utils.data",
+				"explanation": "`torch.utils.data` ডেটাসেট ও ডেটালোডার পরিচালনা করে।"
+			},
+			{
+				"id": 83,
+				"question": "What does the function `torch.randn()` generate?",
+				"options": [
+					"Random integers",
+					"Random numbers from normal distribution",
+					"Zeros",
+					"Ones"
+				],
+				"answer": "Random numbers from normal distribution",
+				"explanation": "`torch.randn()` সাধারণ গড় ও স্ট্যান্ডার্ড ডেভিয়েশনের সঙ্গে র‍্যান্ডম নম্বর তৈরি করে।"
+			},
+			{
+				"id": 84,
+				"question": "Which function converts tensor to list?",
+				"options": [
+					"tensor.tolist()",
+					"tensor.to_list()",
+					"tensor.list()",
+					"tensor.toPythonList()"
+				],
+				"answer": "tensor.tolist()",
+				"explanation": "`tensor.tolist()` দিয়ে টেনসরের ডেটা পাইথনের লিস্টে রূপান্তর করা যায়।"
+			},
+			{
+				"id": 85,
+				"question": "Which activation function outputs values between 0 and 1?",
+				"options": [
+					"ReLU",
+					"Sigmoid",
+					"Tanh",
+					"Softmax"
+				],
+				"answer": "Sigmoid",
+				"explanation": "Sigmoid ফাংশন 0 থেকে 1 এর মধ্যে আউটপুট দেয়।"
+			},
+			{
+				"id": 86,
+				"question": "What does `torch.save()` save by default?",
+				"options": [
+					"Model architecture",
+					"Model parameters and buffers",
+					"Loss values",
+					"Optimizer state only"
+				],
+				"answer": "Model parameters and buffers",
+				"explanation": "`torch.save()` সাধারণত মডেলের প্যারামিটার ও বাফার গুলো সংরক্ষণ করে।"
+			},
+			{
+				"id": 87,
+				"question": "Which method is used to load a saved state dictionary into a model?",
+				"options": [
+					"model.load_state_dict()",
+					"torch.load_state()",
+					"model.load()",
+					"model.restore_state()"
+				],
+				"answer": "model.load_state_dict()",
+				"explanation": "`model.load_state_dict()` দিয়ে সেভ করা ওজন মডেলে লোড করা হয়।"
+			},
+			{
+				"id": 88,
+				"question": "What type of object is returned by `DataLoader`?",
+				"options": [
+					"Iterable",
+					"Tensor",
+					"Dictionary",
+					"Model"
+				],
+				"answer": "Iterable",
+				"explanation": "`DataLoader` একটি iterable অবজেক্ট যা ব্যাচ অনুযায়ী ডেটা দেয়।"
+			},
+			{
+				"id": 89,
+				"question": "Which of the following is NOT a PyTorch tensor operation?",
+				"options": [
+					"add()",
+					"multiply()",
+					"reshape()",
+					"compile()"
+				],
+				"answer": "compile()",
+				"explanation": "`compile()` PyTorch টেনসর অপারেশন নয়, এটি সাধারণত অন্যান্য ফ্রেমওয়ার্কে ব্যবহৃত।"
+			},
+			{
+				"id": 90,
+				"question": "Which method disables dropout during evaluation?",
+				"options": [
+					"model.eval()",
+					"model.train()",
+					"model.freeze()",
+					"model.no_dropout()"
+				],
+				"answer": "model.eval()",
+				"explanation": "`model.eval()` ড্রপআউট ও ব্যাচনর্ম ইত্যাদি evaluation মোডে নিয়ে যায়।"
+			},
+			{
+				"id": 91,
+				"question": "How do you move a model to GPU?",
+				"options": [
+					"model.cuda()",
+					"model.to_gpu()",
+					"model.gpu()",
+					"model.move()"
+				],
+				"answer": "model.cuda()",
+				"explanation": "`model.cuda()` দিয়ে মডেল GPU তে স্থানান্তরিত হয়।"
+			},
+			{
+				"id": 92,
+				"question": "Which function creates a tensor filled with ones?",
+				"options": [
+					"torch.ones()",
+					"torch.ones_like()",
+					"torch.fill(1)",
+					"torch.ones_tensor()"
+				],
+				"answer": "torch.ones()",
+				"explanation": "`torch.ones()` ফাংশন একটি টেনসর যা সব ভ্যালু 1 দিয়ে পূর্ণ।"
+			},
+			{
+				"id": 93,
+				"question": "What is the use of `torch.jit`?",
+				"options": [
+					"Just-In-Time compilation",
+					"Tensor operations",
+					"Data loading",
+					"Visualization"
+				],
+				"answer": "Just-In-Time compilation",
+				"explanation": "`torch.jit` মডেলকে JIT কম্পাইল করে পারফরম্যান্স উন্নত করে।"
+			},
+			{
+				"id": 94,
+				"question": "Which function returns the transpose of a tensor?",
+				"options": [
+					"tensor.t()",
+					"tensor.transpose()",
+					"tensor.swap()",
+					"tensor.flip()"
+				],
+				"answer": "tensor.t()",
+				"explanation": "`tensor.t()` ফাংশন 2D টেনসরের ট্রান্সপোজ দেয়।"
+			},
+			{
+				"id": 95,
+				"question": "What does `torch.device('cpu')` do?",
+				"options": [
+					"Sets tensor to CPU",
+					"Moves model to GPU",
+					"Disables GPU",
+					"Creates GPU tensor"
+				],
+				"answer": "Sets tensor to CPU",
+				"explanation": "`torch.device('cpu')` ব্যবহার করে টেনসর বা মডেল CPU-তে রাখা হয়।"
+			},
+			{
+				"id": 96,
+				"question": "Which function normalizes the input batch in CNNs?",
+				"options": [
+					"BatchNorm2d",
+					"LayerNorm",
+					"InstanceNorm",
+					"GroupNorm"
+				],
+				"answer": "BatchNorm2d",
+				"explanation": "BatchNorm2d কনভলিউশনাল লেয়ারের ইনপুট ব্যাচ নরমালাইজ করে।"
+			},
+			{
+				"id": 97,
+				"question": "Which of these layers is typically used for downsampling in CNNs?",
+				"options": [
+					"MaxPool2d",
+					"Conv2d",
+					"Linear",
+					"BatchNorm2d"
+				],
+				"answer": "MaxPool2d",
+				"explanation": "MaxPool2d লেয়ার ইনপুটের স্পেশাল ডাইমেনশন কমায়।"
+			},
+			{
+				"id": 98,
+				"question": "What does `torch.manual_seed()` affect?",
+				"options": [
+					"Random number generation",
+					"Model accuracy",
+					"GPU availability",
+					"Learning rate"
+				],
+				"answer": "Random number generation",
+				"explanation": "`torch.manual_seed()` র‍্যান্ডম নাম্বার জেনারেশন নিয়ন্ত্রণ করে।"
+			},
+			{
+				"id": 99,
+				"question": "Which method converts a tensor to a CPU tensor?",
+				"options": [
+					"tensor.cpu()",
+					"tensor.to_cpu()",
+					"tensor.move_cpu()",
+					"tensor.detach_cpu()"
+				],
+				"answer": "tensor.cpu()",
+				"explanation": "`tensor.cpu()` GPU টেনসরকে CPU তে নিয়ে আসে।"
+			},
+			{
+				"id": 100,
+				"question": "Which of the following is NOT a tensor shape attribute?",
+				"options": [
+					"shape",
+					"size",
+					"dim",
+					"length"
+				],
+				"answer": "length",
+				"explanation": "`length` PyTorch টেনসরের শেপ সংক্রান্ত কোনো অ্যাট্রিবিউট নয়।"
+			}
 		]
 	}
 }
