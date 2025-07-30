@@ -10818,6 +10818,6252 @@
 				"answer": "length",
 				"explanation": "`length` PyTorch টেনসরের শেপ সংক্রান্ত কোনো অ্যাট্রিবিউট নয়।"
 			}
+		],
+		"TensorFlow": [
+			{
+				"id": 1,
+				"question": "What is TensorFlow primarily used for?",
+				"options": [
+					"Web development",
+					"Machine Learning and Deep Learning",
+					"Database Management",
+					"Operating System Development"
+				],
+				"answer": "Machine Learning and Deep Learning",
+				"explanation": "TensorFlow মূলত মেশিন লার্নিং এবং ডিপ লার্নিং মডেল তৈরি ও ট্রেইন করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 2,
+				"question": "Who developed TensorFlow?",
+				"options": [
+					"Facebook",
+					"Google Brain Team",
+					"Microsoft",
+					"OpenAI"
+				],
+				"answer": "Google Brain Team",
+				"explanation": "TensorFlow গুগলের ব্রেন টিম দ্বারা তৈরি ও উন্নত করা হয়েছে।"
+			},
+			{
+				"id": 3,
+				"question": "Which programming language is primarily used with TensorFlow?",
+				"options": [
+					"JavaScript",
+					"Python",
+					"Java",
+					"C++"
+				],
+				"answer": "Python",
+				"explanation": "TensorFlow এর প্রধান প্রোগ্রামিং ভাষা হলো পাইথন, যদিও অন্যান্য ভাষাও সমর্থন করে।"
+			},
+			{
+				"id": 4,
+				"question": "What kind of data structure does TensorFlow use to represent data flow graphs?",
+				"options": [
+					"Tensors",
+					"Arrays",
+					"DataFrames",
+					"Lists"
+				],
+				"answer": "Tensors",
+				"explanation": "TensorFlow ডেটা ফ্লো গ্রাফ তৈরির জন্য টেনসর নামক মাল্টিডাইমেনশনাল অ্যারের মতো ডেটা ব্যবহার করে।"
+			},
+			{
+				"id": 5,
+				"question": "Which of the following is NOT a core component of TensorFlow?",
+				"options": [
+					"TensorBoard",
+					"Keras",
+					"NumPy",
+					"Estimator"
+				],
+				"answer": "NumPy",
+				"explanation": "NumPy একটি আলাদা প্যাকেজ, TensorFlow এর মূল অংশ নয়। TensorBoard, Keras ও Estimator TensorFlow এর অংশ।"
+			},
+			{
+				"id": 6,
+				"question": "What is TensorBoard used for in TensorFlow?",
+				"options": [
+					"Data preprocessing",
+					"Model visualization and debugging",
+					"Training optimization",
+					"Deployment"
+				],
+				"answer": "Model visualization and debugging",
+				"explanation": "TensorBoard মডেলের ট্রেনিং প্রক্রিয়া ভিজ্যুয়ালাইজ এবং ডিবাগ করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 7,
+				"question": "Which TensorFlow API is designed to provide a high-level interface for building neural networks?",
+				"options": [
+					"Estimator API",
+					"Keras API",
+					"TensorBoard",
+					"TF Lite"
+				],
+				"answer": "Keras API",
+				"explanation": "Keras হলো TensorFlow এর উচ্চ-স্তরের API, যা সহজে নিউরাল নেটওয়ার্ক তৈরি করতে দেয়।"
+			},
+			{
+				"id": 8,
+				"question": "What is a ‘Tensor’ in TensorFlow?",
+				"options": [
+					"A type of neural network",
+					"A multidimensional array",
+					"A loss function",
+					"An optimization algorithm"
+				],
+				"answer": "A multidimensional array",
+				"explanation": "টেনসর হলো মাল্টিডাইমেনশনাল অ্যারের মত ডেটা স্ট্রাকচার যা TensorFlow এ ব্যবহৃত হয়।"
+			},
+			{
+				"id": 9,
+				"question": "Which function is commonly used to define a computational graph in TensorFlow 1.x?",
+				"options": [
+					"tf.Session()",
+					"tf.Graph()",
+					"tf.constant()",
+					"tf.Variable()"
+				],
+				"answer": "tf.Graph()",
+				"explanation": "TensorFlow 1.x এ computational graph তৈরি করতে tf.Graph() ব্যবহৃত হয়।"
+			},
+			{
+				"id": 10,
+				"question": "What is eager execution in TensorFlow?",
+				"options": [
+					"Running operations immediately without building graphs",
+					"A way to speed up training",
+					"A method for distributed computing",
+					"A technique for data augmentation"
+				],
+				"answer": "Running operations immediately without building graphs",
+				"explanation": "Eager execution মুডে অপারেশনগুলি তাৎক্ষণিকভাবে রান হয়, গ্রাফ তৈরি হয় না।"
+			},
+			{
+				"id": 11,
+				"question": "Which TensorFlow module is optimized for mobile and embedded devices?",
+				"options": [
+					"TensorFlow Hub",
+					"TensorFlow Lite",
+					"TensorFlow Extended",
+					"TensorFlow Serving"
+				],
+				"answer": "TensorFlow Lite",
+				"explanation": "TensorFlow Lite মোবাইল ও এমবেডেড ডিভাইসের জন্য লাইটওয়েট মডেল রান করার জন্য ডিজাইন।"
+			},
+			{
+				"id": 12,
+				"question": "What is the purpose of the ‘tf.data’ API in TensorFlow?",
+				"options": [
+					"Model evaluation",
+					"Data input pipeline building",
+					"Training optimizers",
+					"Graph visualization"
+				],
+				"answer": "Data input pipeline building",
+				"explanation": "tf.data API ডেটা লোড এবং প্রিপ্রসেসিং এর জন্য ইনপুট পাইপলাইন তৈরি করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 13,
+				"question": "Which TensorFlow component helps in serving machine learning models in production?",
+				"options": [
+					"TensorFlow Lite",
+					"TensorFlow Hub",
+					"TensorFlow Serving",
+					"TensorBoard"
+				],
+				"answer": "TensorFlow Serving",
+				"explanation": "TensorFlow Serving মডেল প্রোডাকশনে ডিপ্লয় ও সার্ভ করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 14,
+				"question": "Which loss function is commonly used for binary classification in TensorFlow?",
+				"options": [
+					"Mean Squared Error",
+					"Sparse Categorical Crossentropy",
+					"Binary Crossentropy",
+					"Categorical Hinge"
+				],
+				"answer": "Binary Crossentropy",
+				"explanation": "Binary classification এর জন্য Binary Crossentropy loss ফাংশন সাধারণত ব্যবহৃত হয়।"
+			},
+			{
+				"id": 15,
+				"question": "How do you initialize variables in TensorFlow 1.x?",
+				"options": [
+					"tf.global_variables_initializer()",
+					"tf.initialize_all_variables()",
+					"tf.start_variables()",
+					"No initialization needed"
+				],
+				"answer": "tf.global_variables_initializer()",
+				"explanation": "TensorFlow 1.x এ ভেরিয়েবল ব্যবহার করার আগে tf.global_variables_initializer() দিয়ে ইনিশিয়ালাইজ করতে হয়।"
+			},
+			{
+				"id": 16,
+				"question": "Which optimizer is NOT available in TensorFlow’s core optimizers?",
+				"options": [
+					"Adam",
+					"SGD",
+					"RMSprop",
+					"K-Means"
+				],
+				"answer": "K-Means",
+				"explanation": "K-Means clustering এলগরিদম, এটি অপটিমাইজার নয় এবং TensorFlow এর অপটিমাইজার তালিকায় নেই।"
+			},
+			{
+				"id": 17,
+				"question": "What is the role of tf.Variable in TensorFlow?",
+				"options": [
+					"To hold constant values",
+					"To store model parameters that can be updated",
+					"To perform mathematical operations",
+					"To visualize the graph"
+				],
+				"answer": "To store model parameters that can be updated",
+				"explanation": "tf.Variable হলো পরিবর্তনশীল ডেটা যা মডেলের ওজন ও প্যারামিটার স্টোর করে।"
+			},
+			{
+				"id": 18,
+				"question": "Which command runs the computational graph in TensorFlow 1.x?",
+				"options": [
+					"tf.run()",
+					"tf.execute()",
+					"sess.run()",
+					"graph.run()"
+				],
+				"answer": "sess.run()",
+				"explanation": "TensorFlow 1.x এ computational graph চালাতে sess.run() ব্যবহার করা হয়।"
+			},
+			{
+				"id": 19,
+				"question": "What is TensorFlow Hub used for?",
+				"options": [
+					"Downloading pre-trained models",
+					"Data preprocessing",
+					"Building custom optimizers",
+					"Serving models in production"
+				],
+				"answer": "Downloading pre-trained models",
+				"explanation": "TensorFlow Hub হলো pre-trained মডেল শেয়ার এবং পুনঃব্যবহারের জন্য প্ল্যাটফর্ম।"
+			},
+			{
+				"id": 20,
+				"question": "Which version of TensorFlow introduced eager execution as default?",
+				"options": [
+					"TensorFlow 1.0",
+					"TensorFlow 1.5",
+					"TensorFlow 2.0",
+					"TensorFlow 3.0"
+				],
+				"answer": "TensorFlow 2.0",
+				"explanation": "TensorFlow 2.0 থেকে eager execution ডিফল্ট হিসেবে চালু হয়েছে।"
+			},
+			{
+				"id": 21,
+				"question": "Which of the following is used for model serialization in TensorFlow?",
+				"options": [
+					"pickle",
+					"joblib",
+					"SavedModel",
+					"model.json"
+				],
+				"answer": "SavedModel",
+				"explanation": "TensorFlow মডেল সংরক্ষণের জন্য 'SavedModel' ফরম্যাট ব্যবহার করে। এটি ফ্রেমওয়ার্ক-নিরপেক্ষ ও প্রোডাকশন-রেডি।"
+			},
+			{
+				"id": 22,
+				"question": "Which function is used to create a constant tensor?",
+				"options": [
+					"tf.variable()",
+					"tf.constant()",
+					"tf.create()",
+					"tf.input()"
+				],
+				"answer": "tf.constant()",
+				"explanation": "tf.constant() ফাংশনটি একটি অপরিবর্তনীয় টেনসর তৈরি করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 23,
+				"question": "Which feature of TensorFlow allows for running on multiple GPUs?",
+				"options": [
+					"tf.config",
+					"tf.distribute",
+					"tf.parallel",
+					"tf.gpu"
+				],
+				"answer": "tf.distribute",
+				"explanation": "tf.distribute API দিয়ে TensorFlow মডেল মাল্টিপল GPU বা ডিস্ট্রিবিউটেড সিস্টেমে রান করা যায়।"
+			},
+			{
+				"id": 24,
+				"question": "What does the tf.shape() function do?",
+				"options": [
+					"Changes the shape of tensor",
+					"Returns the shape of tensor",
+					"Initializes a tensor",
+					"Removes dimensions from tensor"
+				],
+				"answer": "Returns the shape of tensor",
+				"explanation": "tf.shape() ফাংশন টেনসরের বর্তমান আকৃতি (shape) রিটার্ন করে।"
+			},
+			{
+				"id": 25,
+				"question": "Which function is used to train a model in Keras?",
+				"options": [
+					"model.evaluate()",
+					"model.predict()",
+					"model.compile()",
+					"model.fit()"
+				],
+				"answer": "model.fit()",
+				"explanation": "model.fit() ফাংশন Keras মডেল ট্রেইন করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 26,
+				"question": "What is the role of model.compile() in Keras?",
+				"options": [
+					"To test the model",
+					"To train the model",
+					"To configure the model for training",
+					"To deploy the model"
+				],
+				"answer": "To configure the model for training",
+				"explanation": "model.compile() ফাংশন মডেল ট্রেইনিংয়ের জন্য অপটিমাইজার, লস ফাংশন এবং মেট্রিক নির্ধারণ করে।"
+			},
+			{
+				"id": 27,
+				"question": "What does the term 'epoch' mean in training?",
+				"options": [
+					"One complete forward pass",
+					"One complete pass through the training data",
+					"Single batch update",
+					"Loss calculation step"
+				],
+				"answer": "One complete pass through the training data",
+				"explanation": "একটি epoch মানে পুরো ট্রেইনিং ডেটার উপর একটি সম্পূর্ণ ট্রেইনিং সাইকেল।"
+			},
+			{
+				"id": 28,
+				"question": "What does 'batch size' mean in model training?",
+				"options": [
+					"Total data used",
+					"Number of layers",
+					"Number of samples per weight update",
+					"Number of epochs"
+				],
+				"answer": "Number of samples per weight update",
+				"explanation": "Batch size নির্ধারণ করে একবারে কতগুলো ডেটা দিয়ে ওজন আপডেট হবে।"
+			},
+			{
+				"id": 29,
+				"question": "What is the purpose of an activation function?",
+				"options": [
+					"To normalize input data",
+					"To introduce non-linearity",
+					"To initialize weights",
+					"To reduce loss"
+				],
+				"answer": "To introduce non-linearity",
+				"explanation": "Activation function ডেটার মধ্যে নন-লিনিয়ারিটি আনে, যা নিউরাল নেটওয়ার্ককে জটিল সম্পর্ক শিখতে সাহায্য করে।"
+			},
+			{
+				"id": 30,
+				"question": "Which of the following is NOT an activation function?",
+				"options": [
+					"ReLU",
+					"Sigmoid",
+					"Tanh",
+					"Dropout"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout একটি রেগুলারাইজেশন টেকনিক, এটি activation function নয়।"
+			},
+			{
+				"id": 31,
+				"question": "Which optimizer adapts the learning rate during training?",
+				"options": [
+					"SGD",
+					"Momentum",
+					"Adam",
+					"Gradient Descent"
+				],
+				"answer": "Adam",
+				"explanation": "Adam অপটিমাইজার প্রতিটি প্যারামিটারের জন্য আলাদা লার্নিং রেট অ্যাডজাস্ট করে।"
+			},
+			{
+				"id": 32,
+				"question": "What does overfitting mean?",
+				"options": [
+					"Model learns only training data well",
+					"Model performs well on new data",
+					"Model is undertrained",
+					"Loss increases constantly"
+				],
+				"answer": "Model learns only training data well",
+				"explanation": "Overfitting মানে মডেল ট্রেইনিং ডেটাকে খুব ভালোভাবে শিখে কিন্তু নতুন ডেটায় ভালো করে না।"
+			},
+			{
+				"id": 33,
+				"question": "Which technique is commonly used to prevent overfitting?",
+				"options": [
+					"Increasing epochs",
+					"Using Dropout",
+					"Using smaller batch size",
+					"Increasing learning rate"
+				],
+				"answer": "Using Dropout",
+				"explanation": "Dropout একটি জনপ্রিয় ও কার্যকর রেগুলারাইজেশন টেকনিক যা ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 34,
+				"question": "What does the model.evaluate() function do?",
+				"options": [
+					"Predicts outcomes",
+					"Tests the model performance on unseen data",
+					"Trains the model",
+					"Normalizes input"
+				],
+				"answer": "Tests the model performance on unseen data",
+				"explanation": "model.evaluate() নতুন বা ভ্যালিডেশন ডেটায় মডেলের পারফরম্যান্স যাচাই করে।"
+			},
+			{
+				"id": 35,
+				"question": "Which Keras layer is used for flattening the input?",
+				"options": [
+					"Dense",
+					"Conv2D",
+					"Flatten",
+					"Reshape"
+				],
+				"answer": "Flatten",
+				"explanation": "Flatten লেয়ার মাল্টি-ডাইমেনশনাল ইনপুটকে এক মাত্রায় রূপান্তর করে।"
+			},
+			{
+				"id": 36,
+				"question": "Which of the following layers is used in CNN?",
+				"options": [
+					"Dense",
+					"Flatten",
+					"Conv2D",
+					"Dropout"
+				],
+				"answer": "Conv2D",
+				"explanation": "Conv2D হলো convolutional neural network এ ব্যবহৃত মূল লেয়ার যা ইমেজ থেকে ফিচার এক্সট্র্যাক্ট করে।"
+			},
+			{
+				"id": 37,
+				"question": "What is padding in CNN?",
+				"options": [
+					"Adding noise to image",
+					"Adding borders to maintain dimension",
+					"Cropping image",
+					"Normalizing input"
+				],
+				"answer": "Adding borders to maintain dimension",
+				"explanation": "Padding মানে ইনপুটের চারপাশে অতিরিক্ত পিক্সেল যোগ করা যাতে আউটপুটের ডাইমেনশন ঠিক থাকে।"
+			},
+			{
+				"id": 38,
+				"question": "What does pooling do in CNN?",
+				"options": [
+					"Increases accuracy",
+					"Reduces dimensionality",
+					"Adds layers",
+					"Normalizes data"
+				],
+				"answer": "Reduces dimensionality",
+				"explanation": "Pooling operation ডেটার ডাইমেনশন কমায় এবং computation কমায়।"
+			},
+			{
+				"id": 39,
+				"question": "Which type of pooling is commonly used?",
+				"options": [
+					"Average Pooling",
+					"Max Pooling",
+					"Min Pooling",
+					"Global Pooling"
+				],
+				"answer": "Max Pooling",
+				"explanation": "Max Pooling সাধারণত সবচেয়ে বেশি ব্যবহৃত হয় কারণ এটি গুরুত্বপূর্ণ ফিচার ধরে রাখে।"
+			},
+			{
+				"id": 40,
+				"question": "What is a callback in Keras?",
+				"options": [
+					"A model layer",
+					"A loss function",
+					"A way to monitor training",
+					"An optimizer"
+				],
+				"answer": "A way to monitor training",
+				"explanation": "Callback হলো একটি ফাংশন যা ট্রেইনিং এর সময় নির্দিষ্ট পর্যায়ে কাজ করে যেমন early stopping, model checkpoint।"
+			},
+			{
+				"id": 41,
+				"question": "Which TensorFlow version integrated Keras tightly into the main API?",
+				"options": [
+					"1.0",
+					"1.10",
+					"2.0",
+					"3.0"
+				],
+				"answer": "2.0",
+				"explanation": "TensorFlow 2.0 থেকে tf.keras মূল API-র অংশ হয়ে যায়।"
+			},
+			{
+				"id": 42,
+				"question": "Which layer in Keras is used to define a fully connected neural network layer?",
+				"options": [
+					"Dense",
+					"Flatten",
+					"Input",
+					"Reshape"
+				],
+				"answer": "Dense",
+				"explanation": "Dense লেয়ার হল ফুলি কানেক্টেড লেয়ার যা প্রতিটি ইনপুটকে প্রতিটি আউটপুটে সংযুক্ত করে।"
+			},
+			{
+				"id": 43,
+				"question": "What is the use of 'validation_split' in model.fit()?",
+				"options": [
+					"To split dataset into training and validation sets",
+					"To split layers",
+					"To shuffle batches",
+					"To stop training early"
+				],
+				"answer": "To split dataset into training and validation sets",
+				"explanation": "validation_split দিয়ে ট্রেইনিং ডেটার একটি অংশ ভ্যালিডেশনে ব্যবহার করা যায়।"
+			},
+			{
+				"id": 44,
+				"question": "What does EarlyStopping callback do?",
+				"options": [
+					"Starts training early",
+					"Stops training if validation loss doesn’t improve",
+					"Speeds up training",
+					"Changes learning rate"
+				],
+				"answer": "Stops training if validation loss doesn’t improve",
+				"explanation": "EarlyStopping callback নির্দিষ্ট সময় validation loss না কমলে ট্রেইনিং বন্ধ করে দেয়।"
+			},
+			{
+				"id": 45,
+				"question": "Which loss function is suitable for multi-class classification?",
+				"options": [
+					"Binary Crossentropy",
+					"Mean Absolute Error",
+					"Categorical Crossentropy",
+					"Hinge Loss"
+				],
+				"answer": "Categorical Crossentropy",
+				"explanation": "Multi-class classification এর জন্য Categorical Crossentropy loss ব্যবহার করা হয়।"
+			},
+			{
+				"id": 46,
+				"question": "What does the 'input_shape' argument specify?",
+				"options": [
+					"Output format",
+					"Loss function",
+					"Shape of input data",
+					"Number of epochs"
+				],
+				"answer": "Shape of input data",
+				"explanation": "input_shape দিয়ে মডেলে ইনপুট ডেটার শেপ নির্ধারণ করা হয়।"
+			},
+			{
+				"id": 47,
+				"question": "What is the purpose of tf.keras.utils.to_categorical()?",
+				"options": [
+					"Converts model to graph",
+					"Converts labels to one-hot encoding",
+					"Converts loss to metrics",
+					"Normalizes input data"
+				],
+				"answer": "Converts labels to one-hot encoding",
+				"explanation": "to_categorical() লেবেলকে ওয়ান-হট এনকোডিং ফরম্যাটে রূপান্তর করে।"
+			},
+			{
+				"id": 48,
+				"question": "Which layer is commonly used after Conv2D in CNN?",
+				"options": [
+					"Dense",
+					"Flatten",
+					"MaxPooling2D",
+					"Reshape"
+				],
+				"answer": "MaxPooling2D",
+				"explanation": "Conv2D এর পরে সাধারণত MaxPooling2D ব্যবহৃত হয় ডাইমেনশন কমাতে।"
+			},
+			{
+				"id": 49,
+				"question": "What is model.predict() used for?",
+				"options": [
+					"Train model",
+					"Evaluate model",
+					"Generate predictions",
+					"Save model"
+				],
+				"answer": "Generate predictions",
+				"explanation": "model.predict() নতুন ডেটার উপর ভিত্তি করে পূর্বাভাস বা prediction তৈরি করে।"
+			},
+			{
+				"id": 50,
+				"question": "Which API is used for building input pipelines in TensorFlow?",
+				"options": [
+					"tf.train",
+					"tf.image",
+					"tf.io",
+					"tf.data"
+				],
+				"answer": "tf.data",
+				"explanation": "tf.data API ইনপুট পাইপলাইন তৈরির জন্য ব্যবহৃত হয় যা efficient এবং scalable।"
+			},
+			{
+				"id": 51,
+				"question": "What is the use of tf.keras.Model.save()?",
+				"options": [
+					"To compile the model",
+					"To visualize the model",
+					"To save the entire model",
+					"To predict using the model"
+				],
+				"answer": "To save the entire model",
+				"explanation": "tf.keras.Model.save() দিয়ে সম্পূর্ণ মডেল (আর্কিটেকচার, ওজন, অপ্টিমাইজার) সংরক্ষণ করা যায়।"
+			},
+			{
+				"id": 52,
+				"question": "Which method is used to load a saved model?",
+				"options": [
+					"tf.load()",
+					"tf.keras.load_model()",
+					"tf.keras.models.load_model()",
+					"tf.models.load()"
+				],
+				"answer": "tf.keras.models.load_model()",
+				"explanation": "tf.keras.models.load_model() ফাংশন একটি সংরক্ষিত Keras মডেল পুনরায় লোড করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 53,
+				"question": "Which regularization method randomly disables neurons during training?",
+				"options": [
+					"L1 Regularization",
+					"Dropout",
+					"BatchNormalization",
+					"L2 Regularization"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout পদ্ধতিতে ট্রেনিং এর সময় কিছু নিউরন র‍্যান্ডমলি বন্ধ করে দেওয়া হয় যাতে ওভারফিটিং কমে।"
+			},
+			{
+				"id": 54,
+				"question": "Which function is used to reshape a tensor?",
+				"options": [
+					"tf.shape()",
+					"tf.reshape()",
+					"tf.cast()",
+					"tf.size()"
+				],
+				"answer": "tf.reshape()",
+				"explanation": "tf.reshape() ফাংশন টেনসরের শেপ পরিবর্তনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 55,
+				"question": "Which function is used to cast a tensor to another data type?",
+				"options": [
+					"tf.change()",
+					"tf.astype()",
+					"tf.cast()",
+					"tf.transform()"
+				],
+				"answer": "tf.cast()",
+				"explanation": "tf.cast() একটি টেনসরকে একটি নির্দিষ্ট টাইপে রূপান্তর করে, যেমন float32 → int32।"
+			},
+			{
+				"id": 56,
+				"question": "Which of the following is NOT a data type in TensorFlow?",
+				"options": [
+					"tf.float32",
+					"tf.int16",
+					"tf.uint128",
+					"tf.bool"
+				],
+				"answer": "tf.uint128",
+				"explanation": "TensorFlow tf.uint128 নামের কোনো ডেটা টাইপ সাপোর্ট করে না।"
+			},
+			{
+				"id": 57,
+				"question": "What is tf.ones() used for?",
+				"options": [
+					"Create a tensor filled with ones",
+					"Create a random tensor",
+					"Create a tensor of zeros",
+					"Normalize a tensor"
+				],
+				"answer": "Create a tensor filled with ones",
+				"explanation": "tf.ones() একটি নির্দিষ্ট শেপের টেনসর তৈরি করে যেটির প্রতিটি ভ্যালু হবে ১।"
+			},
+			{
+				"id": 58,
+				"question": "Which layer is used to normalize inputs across the batch?",
+				"options": [
+					"BatchNormalization",
+					"Dropout",
+					"Dense",
+					"ReLU"
+				],
+				"answer": "BatchNormalization",
+				"explanation": "BatchNormalization লেয়ার ইনপুট ফিচারগুলিকে ব্যাচ ভিত্তিকভাবে নর্মালাইজ করে।"
+			},
+			{
+				"id": 59,
+				"question": "Which function generates random values from a normal distribution?",
+				"options": [
+					"tf.random.uniform()",
+					"tf.random.normal()",
+					"tf.random.truncated()",
+					"tf.random.seed()"
+				],
+				"answer": "tf.random.normal()",
+				"explanation": "tf.random.normal() একটি normal (Gaussian) distribution থেকে র‍্যান্ডম ভ্যালু তৈরি করে।"
+			},
+			{
+				"id": 60,
+				"question": "Which of the following is a common metric for classification?",
+				"options": [
+					"mean_squared_error",
+					"categorical_accuracy",
+					"mean_absolute_error",
+					"log_loss"
+				],
+				"answer": "categorical_accuracy",
+				"explanation": "Classification মডেলের জন্য categorical_accuracy একটি সাধারণভাবে ব্যবহৃত মেট্রিক।"
+			},
+			{
+				"id": 61,
+				"question": "Which function is used to concatenate tensors along a specific axis?",
+				"options": [
+					"tf.concat()",
+					"tf.merge()",
+					"tf.add()",
+					"tf.stack()"
+				],
+				"answer": "tf.concat()",
+				"explanation": "tf.concat() দিয়ে একাধিক টেনসর নির্দিষ্ট axis বরাবর জোড়া যায়।"
+			},
+			{
+				"id": 62,
+				"question": "What is tf.reduce_mean() used for?",
+				"options": [
+					"To calculate sum of a tensor",
+					"To calculate product of elements",
+					"To calculate mean of tensor elements",
+					"To find maximum value"
+				],
+				"answer": "To calculate mean of tensor elements",
+				"explanation": "tf.reduce_mean() টেনসরের সকল উপাদানের গড় মান বের করে।"
+			},
+			{
+				"id": 63,
+				"question": "What is the default data type for tf.constant()?",
+				"options": [
+					"int32",
+					"float32",
+					"float64",
+					"int64"
+				],
+				"answer": "float32",
+				"explanation": "tf.constant() এ ডিফল্ট ডেটা টাইপ হিসেবে float32 ব্যবহৃত হয়।"
+			},
+			{
+				"id": 64,
+				"question": "Which API is used in TensorFlow for model quantization?",
+				"options": [
+					"TensorFlow Lite",
+					"TensorFlow Serving",
+					"TensorFlow Addons",
+					"TensorFlow Graph"
+				],
+				"answer": "TensorFlow Lite",
+				"explanation": "TensorFlow Lite মডেল কম্প্রেশন এবং কোয়ান্টাইজেশনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 65,
+				"question": "Which loss function is best suited for regression tasks?",
+				"options": [
+					"Binary Crossentropy",
+					"Categorical Crossentropy",
+					"Mean Squared Error",
+					"Hinge Loss"
+				],
+				"answer": "Mean Squared Error",
+				"explanation": "Regression মডেলের জন্য Mean Squared Error একটি স্ট্যান্ডার্ড লস ফাংশন।"
+			},
+			{
+				"id": 66,
+				"question": "Which of the following functions helps to split a dataset into batches?",
+				"options": [
+					"dataset.shuffle()",
+					"dataset.batch()",
+					"dataset.map()",
+					"dataset.repeat()"
+				],
+				"answer": "dataset.batch()",
+				"explanation": "dataset.batch() ইনপুট ডেটাকে নির্দিষ্ট আকারের ব্যাচে ভাগ করে।"
+			},
+			{
+				"id": 67,
+				"question": "Which API provides modular and reusable layers and models?",
+				"options": [
+					"tf.keras",
+					"tf.lite",
+					"tf.module",
+					"tf.hub"
+				],
+				"answer": "tf.hub",
+				"explanation": "tf.hub পূর্ব-প্রশিক্ষিত মডেল ও লেয়ার ব্যবহার করার জন্য একটি পুনঃব্যবহারযোগ্য মডিউল সরবরাহ করে।"
+			},
+			{
+				"id": 68,
+				"question": "Which method sets random seed globally in TensorFlow?",
+				"options": [
+					"tf.set_seed()",
+					"tf.random.set_seed()",
+					"tf.seed()",
+					"tf.random.seed_global()"
+				],
+				"answer": "tf.random.set_seed()",
+				"explanation": "tf.random.set_seed() দিয়ে TensorFlow এ গ্লোবাল র‍্যান্ডম সিড সেট করা যায়।"
+			},
+			{
+				"id": 69,
+				"question": "What is the main benefit of using GPU with TensorFlow?",
+				"options": [
+					"More storage",
+					"Faster training and computation",
+					"Better visualization",
+					"Smaller model size"
+				],
+				"answer": "Faster training and computation",
+				"explanation": "GPU ব্যবহার করলে নিউরাল নেটওয়ার্ক ট্রেইনিং ও ম্যাট্রিক্স অপারেশন অনেক দ্রুত হয়।"
+			},
+			{
+				"id": 70,
+				"question": "Which TensorFlow object is used to create datasets from tensors?",
+				"options": [
+					"tf.keras.Dataset",
+					"tf.tensor_dataset()",
+					"tf.data.Dataset.from_tensor_slices()",
+					"tf.create_dataset()"
+				],
+				"answer": "tf.data.Dataset.from_tensor_slices()",
+				"explanation": "tf.data.Dataset.from_tensor_slices() দিয়ে টেনসর থেকে ডেটাসেট তৈরি করা যায়।"
+			},
+			{
+				"id": 71,
+				"question": "Which tool in TensorFlow allows visualization of training progress?",
+				"options": [
+					"TensorLite",
+					"TensorLog",
+					"TensorBoard",
+					"TensorCore"
+				],
+				"answer": "TensorBoard",
+				"explanation": "TensorBoard ব্যবহার করে ট্রেইনিং সময়কার মেট্রিক, লস, একিউরেসি ইত্যাদি ভিজ্যুয়ালাইজ করা যায়।"
+			},
+			{
+				"id": 72,
+				"question": "What is tf.function used for?",
+				"options": [
+					"Convert a Python function into a TensorFlow graph",
+					"Create a Keras model",
+					"Optimize GPU",
+					"Log training metrics"
+				],
+				"answer": "Convert a Python function into a TensorFlow graph",
+				"explanation": "tf.function একটি পাইথন ফাংশনকে TensorFlow গ্রাফে রূপান্তর করে, যা দ্রুত রান হয়।"
+			},
+			{
+				"id": 73,
+				"question": "Which file format is typically used to export a model in TensorFlow?",
+				"options": [
+					".pt",
+					".h5",
+					".joblib",
+					".sav"
+				],
+				"answer": ".h5",
+				"explanation": "TensorFlow Keras মডেল সাধারণত .h5 (HDF5 format) ফাইলে সংরক্ষণ করা যায়।"
+			},
+			{
+				"id": 74,
+				"question": "Which of the following is used for hyperparameter tuning in TensorFlow?",
+				"options": [
+					"TensorBoard",
+					"TensorLite",
+					"Keras Tuner",
+					"TensorLog"
+				],
+				"answer": "Keras Tuner",
+				"explanation": "Keras Tuner ব্যবহার করে মডেলের হাইপারপ্যারামিটার যেমন লেয়ার, ইউনিট, লার্নিং রেট ইত্যাদি টিউন করা যায়।"
+			},
+			{
+				"id": 75,
+				"question": "Which feature allows TensorFlow to run on mobile devices?",
+				"options": [
+					"TensorFlow Hub",
+					"TensorFlow Mobile",
+					"TensorFlow Lite",
+					"TensorFlow Portable"
+				],
+				"answer": "TensorFlow Lite",
+				"explanation": "TensorFlow Lite মোবাইল এবং এমবেডেড ডিভাইসের জন্য অপ্টিমাইজড সংস্করণ।"
+			},
+			{
+				"id": 76,
+				"question": "Which layer type is suitable for text sequence processing?",
+				"options": [
+					"Dense",
+					"Conv2D",
+					"LSTM",
+					"Dropout"
+				],
+				"answer": "LSTM",
+				"explanation": "LSTM লেয়ার টাইম সিরিজ ও টেক্সট সিকোয়েন্স প্রসেসিং এর জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 77,
+				"question": "Which API is used for image preprocessing?",
+				"options": [
+					"tf.image",
+					"tf.io",
+					"tf.preprocessing",
+					"tf.random"
+				],
+				"answer": "tf.image",
+				"explanation": "tf.image API ইমেজ রিসাইজ, রোটেশন, ফ্লিপ ইত্যাদির জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 78,
+				"question": "What does tf.keras.preprocessing.sequence.pad_sequences() do?",
+				"options": [
+					"Encodes text into tokens",
+					"Converts sequences to integers",
+					"Pads sequences to same length",
+					"Normalizes sequence data"
+				],
+				"answer": "Pads sequences to same length",
+				"explanation": "pad_sequences() ভিন্ন দৈর্ঘ্যের সিকোয়েন্সকে সমান দৈর্ঘ্যে রূপান্তর করে।"
+			},
+			{
+				"id": 79,
+				"question": "Which type of layer is used to output class probabilities?",
+				"options": [
+					"ReLU",
+					"Sigmoid",
+					"Softmax",
+					"Tanh"
+				],
+				"answer": "Softmax",
+				"explanation": "Softmax লেয়ার একাধিক ক্লাসের জন্য probability output দেয়।"
+			},
+			{
+				"id": 80,
+				"question": "Which method is used to freeze layers during fine-tuning?",
+				"options": [
+					"layer.trainable = False",
+					"layer.freeze()",
+					"model.freeze()",
+					"tf.keras.freeze_layer()"
+				],
+				"answer": "layer.trainable = False",
+				"explanation": "layer.trainable = False দিয়ে নির্দিষ্ট লেয়ার ফ্রিজ করে ফাইন টিউনিং করা যায়।"
+			},
+			{
+				"id": 91,
+				"question": "What is `@tf.function` used for in TensorFlow?",
+				"options": [
+					"To run code in a separate thread",
+					"To convert Python functions into TensorFlow graph",
+					"To compile model",
+					"To visualize data"
+				],
+				"answer": "To convert Python functions into TensorFlow graph",
+				"explanation": "`@tf.function` ব্যবহার করলে একটি পাইথন ফাংশনকে টেনসরফ্লো গ্রাফে রূপান্তর করে, যা পারফরম্যান্স বাড়ায়।"
+			},
+			{
+				"id": 92,
+				"question": "Which command installs TensorFlow via pip?",
+				"options": [
+					"pip install tf",
+					"pip install tensorflow",
+					"pip get tensorflow",
+					"install tensorflow"
+				],
+				"answer": "pip install tensorflow",
+				"explanation": "TensorFlow ইনস্টল করার জন্য `pip install tensorflow` কমান্ড ব্যবহার করা হয়।"
+			},
+			{
+				"id": 93,
+				"question": "What is a tensor in TensorFlow?",
+				"options": [
+					"A scalar only",
+					"A data container that holds multi-dimensional arrays",
+					"Only 1-D arrays",
+					"A TensorBoard graph"
+				],
+				"answer": "A data container that holds multi-dimensional arrays",
+				"explanation": "Tensor হলো বহু-মাত্রিক ডেটা ধারণকারী কন্টেইনার যা টেনসরফ্লোতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 94,
+				"question": "Which function is used to reshape tensors?",
+				"options": [
+					"tf.convert()",
+					"tf.shape()",
+					"tf.reshape()",
+					"tf.resize()"
+				],
+				"answer": "tf.reshape()",
+				"explanation": "`tf.reshape()` ফাংশন ব্যবহার করে টেনসরকে নতুন আকার দেওয়া হয়।"
+			},
+			{
+				"id": 95,
+				"question": "What does `tf.keras.layers.Dense` represent?",
+				"options": [
+					"A convolution layer",
+					"A recurrent layer",
+					"A fully connected layer",
+					"A dropout layer"
+				],
+				"answer": "A fully connected layer",
+				"explanation": "`Dense` হলো একটি সম্পূর্ণ সংযুক্ত নিউরাল লেয়ার যা প্রতিটি ইনপুটকে প্রতিটি আউটপুটে সংযুক্ত করে।"
+			},
+			{
+				"id": 96,
+				"question": "What does 'epoch' mean in training?",
+				"options": [
+					"One model evaluation",
+					"One batch of data",
+					"One full pass through training data",
+					"One test cycle"
+				],
+				"answer": "One full pass through training data",
+				"explanation": "Epoch অর্থ হচ্ছে ট্রেইনিং ডেটার উপর একবার সম্পূর্ণ ট্রেনিং প্রসেস সম্পন্ন হওয়া।"
+			},
+			{
+				"id": 97,
+				"question": "Which activation function is mostly used in output layer for binary classification?",
+				"options": [
+					"ReLU",
+					"Softmax",
+					"Sigmoid",
+					"Tanh"
+				],
+				"answer": "Sigmoid",
+				"explanation": "Binary classification এর জন্য Sigmoid ব্যবহার করা হয়, কারণ এটি আউটপুট ০ এবং ১ এর মধ্যে দেয়।"
+			},
+			{
+				"id": 98,
+				"question": "Which optimizer adjusts learning rate dynamically?",
+				"options": [
+					"SGD",
+					"Adam",
+					"RMSProp",
+					"Adagrad"
+				],
+				"answer": "Adam",
+				"explanation": "Adam অপ্টিমাইজার লার্নিং রেট স্বয়ংক্রিয়ভাবে অ্যাডজাস্ট করতে পারে।"
+			},
+			{
+				"id": 99,
+				"question": "Which function is used to save model weights?",
+				"options": [
+					"model.dump_weights()",
+					"model.write_weights()",
+					"model.save_weights()",
+					"model.store_weights()"
+				],
+				"answer": "model.save_weights()",
+				"explanation": "`save_weights()` ফাংশনের মাধ্যমে মডেলের ওজন আলাদাভাবে সংরক্ষণ করা যায়।"
+			},
+			{
+				"id": 100,
+				"question": "What is a common use of `tf.data.Dataset`?",
+				"options": [
+					"Model visualization",
+					"Data loading and pipeline building",
+					"Tensor reshaping",
+					"Loss calculation"
+				],
+				"answer": "Data loading and pipeline building",
+				"explanation": "`tf.data.Dataset` ব্যবহার করে ডেটা efficiently লোড ও প্রসেস করা যায়।"
+			},
+			{
+				"id": 101,
+				"question": "What does 'ReLU' stand for?",
+				"options": [
+					"Rectified Linear Unit",
+					"Reduced Linear Unit",
+					"Reverse Logistic Unit",
+					"Rectangular Logic Unit"
+				],
+				"answer": "Rectified Linear Unit",
+				"explanation": "`ReLU` অর্থ Rectified Linear Unit, যা একটি জনপ্রিয় activation function।"
+			},
+			{
+				"id": 102,
+				"question": "What is the default backend engine of TensorFlow?",
+				"options": [
+					"CUDA",
+					"TensorBoard",
+					"XLA",
+					"Eigen"
+				],
+				"answer": "Eigen",
+				"explanation": "TensorFlow মূলত Eigen লাইব্রেরি ব্যাকএন্ড হিসেবে ব্যবহার করে।"
+			},
+			{
+				"id": 103,
+				"question": "Which method compiles the Keras model?",
+				"options": [
+					"model.start()",
+					"model.build()",
+					"model.compile()",
+					"model.fit()"
+				],
+				"answer": "model.compile()",
+				"explanation": "`model.compile()` ব্যবহার করে মডেল কনফিগার করা হয় optimizer, loss function ইত্যাদি দিয়ে।"
+			},
+			{
+				"id": 104,
+				"question": "Which method is used to train a Keras model?",
+				"options": [
+					"model.train()",
+					"model.compile()",
+					"model.fit()",
+					"model.learn()"
+				],
+				"answer": "model.fit()",
+				"explanation": "`model.fit()` ফাংশন মডেলকে ডেটা দিয়ে ট্রেইন করার জন্য ব্যবহার হয়।"
+			},
+			{
+				"id": 105,
+				"question": "What does `validation_split` parameter do?",
+				"options": [
+					"Splits training into multiple epochs",
+					"Splits training data into training and validation set",
+					"Splits model into layers",
+					"Splits data into testing and training"
+				],
+				"answer": "Splits training data into training and validation set",
+				"explanation": "`validation_split` ব্যবহার করে কিছু অংশ validation set হিসেবে আলাদা করা হয়।"
+			},
+			{
+				"id": 106,
+				"question": "Which TensorFlow feature helps visualize model training?",
+				"options": [
+					"tf.visualizer",
+					"tf.image",
+					"TensorBoard",
+					"ModelBoard"
+				],
+				"answer": "TensorBoard",
+				"explanation": "`TensorBoard` ব্যবহার করে ট্রেইনিং প্রসেস visualization করা যায় যেমন accuracy, loss ইত্যাদি।"
+			},
+			{
+				"id": 107,
+				"question": "Which of the following is NOT an activation function?",
+				"options": [
+					"ReLU",
+					"Sigmoid",
+					"Softmax",
+					"Dropout"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout একটি regularization technique, এটি activation function নয়।"
+			},
+			{
+				"id": 108,
+				"question": "What does a loss function do?",
+				"options": [
+					"Generates predictions",
+					"Evaluates performance",
+					"Calculates prediction error",
+					"Visualizes model"
+				],
+				"answer": "Calculates prediction error",
+				"explanation": "Loss function ভবিষ্যদ্বাণী ও আসল ফলাফলের মধ্যে পার্থক্য নির্ণয় করে।"
+			},
+			{
+				"id": 109,
+				"question": "Which file extension is common for saving Keras models?",
+				"options": [
+					".model",
+					".pb",
+					".h5",
+					".tf"
+				],
+				"answer": ".h5",
+				"explanation": "`h5` বা HDF5 ফাইল ফরম্যাট সাধারণত Keras মডেল সংরক্ষণের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 110,
+				"question": "Which function converts numpy array to tensor?",
+				"options": [
+					"tf.convert_to_tensor()",
+					"np.to_tensor()",
+					"tensor.numpy()",
+					"tf.to_array()"
+				],
+				"answer": "tf.convert_to_tensor()",
+				"explanation": "`tf.convert_to_tensor()` ফাংশন ব্যবহার করে numpy অ্যারে কে টেনসর বানানো যায়।"
+			},
+			{
+				"id": 111,
+				"question": "Which TensorFlow module is used for high-level APIs?",
+				"options": [
+					"tf.math",
+					"tf.keras",
+					"tf.train",
+					"tf.data"
+				],
+				"answer": "tf.keras",
+				"explanation": "tf.keras হল TensorFlow এর হাই-লেভেল API, যা সহজভাবে নিউরাল নেটওয়ার্ক তৈরি ও ট্রেইন করতে সাহায্য করে।"
+			},
+			{
+				"id": 112,
+				"question": "What does 'eager execution' mean in TensorFlow?",
+				"options": [
+					"Delayed computation",
+					"Static computation graph",
+					"Immediate execution of operations",
+					"Only runs on GPU"
+				],
+				"answer": "Immediate execution of operations",
+				"explanation": "Eager execution মানে হল অপারেশনগুলো সাথে সাথেই এক্সিকিউট হয়, গ্রাফ তৈরি করার দরকার হয় না।"
+			},
+			{
+				"id": 113,
+				"question": "Which function is used to create a constant tensor in TensorFlow?",
+				"options": [
+					"tf.variable()",
+					"tf.constant()",
+					"tf.placeholder()",
+					"tf.convert_to_tensor()"
+				],
+				"answer": "tf.constant()",
+				"explanation": "tf.constant() ফাংশন ব্যবহার করে কনস্ট্যান্ট টেনসর তৈরি করা হয়।"
+			},
+			{
+				"id": 114,
+				"question": "Which optimizer is commonly used for training deep learning models?",
+				"options": [
+					"tf.optimizers.SGD",
+					"tf.optimizers.Adam",
+					"tf.optimizers.RMSprop",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "SGD, Adam ও RMSprop — তিনটি অপ্টিমাইজারই ডিপ লার্নিং মডেল ট্রেইনিংয়ে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 115,
+				"question": "Which activation function is used for binary classification?",
+				"options": [
+					"ReLU",
+					"Sigmoid",
+					"Tanh",
+					"Softmax"
+				],
+				"answer": "Sigmoid",
+				"explanation": "Sigmoid এক্টিভেশন ফাংশন ব্যবহার করা হয় যখন আউটপুট দুইটি ক্লাসের মধ্যে হয়, যেমন: 0 বা 1।"
+			},
+			{
+				"id": 116,
+				"question": "What does `model.compile()` do in TensorFlow Keras?",
+				"options": [
+					"Creates layers",
+					"Starts training",
+					"Configures model for training",
+					"Saves the model"
+				],
+				"answer": "Configures model for training",
+				"explanation": "model.compile() মডেলকে ট্রেইন করার জন্য প্রস্তুত করে, যেমন: লস ফাংশন, অপ্টিমাইজার নির্ধারণ।"
+			},
+			{
+				"id": 117,
+				"question": "Which function is used to train a Keras model?",
+				"options": [
+					"model.evaluate()",
+					"model.compile()",
+					"model.predict()",
+					"model.fit()"
+				],
+				"answer": "model.fit()",
+				"explanation": "model.fit() ব্যবহার করে ডেটাসেট দিয়ে মডেল ট্রেইন করা হয়।"
+			},
+			{
+				"id": 118,
+				"question": "What does `tf.data.Dataset.from_tensor_slices()` do?",
+				"options": [
+					"Converts model to slices",
+					"Splits a tensor into dataset format",
+					"Slices a layer",
+					"None"
+				],
+				"answer": "Splits a tensor into dataset format",
+				"explanation": "এই ফাংশনটি টেনসর থেকে একটি ডেটাসেট তৈরি করে, যাতে তা ট্রেইনিংয়ে ব্যবহার করা যায়।"
+			},
+			{
+				"id": 119,
+				"question": "What is the default backend for tf.keras?",
+				"options": [
+					"CNTK",
+					"Theano",
+					"TensorFlow",
+					"PyTorch"
+				],
+				"answer": "TensorFlow",
+				"explanation": "tf.keras মূলত TensorFlow ব্যাকএন্ড ব্যবহার করে, যদিও কেরাস আলাদা ব্যাকএন্ড সমর্থন করে।"
+			},
+			{
+				"id": 120,
+				"question": "Which function is used to evaluate model performance?",
+				"options": [
+					"model.evaluate()",
+					"model.predict()",
+					"model.summary()",
+					"model.compile()"
+				],
+				"answer": "model.evaluate()",
+				"explanation": "model.evaluate() ফাংশন দিয়ে মডেলের পারফর্ম্যান্স যাচাই করা হয় টেস্ট ডেটা দিয়ে।"
+			},
+			{
+				"id": 121,
+				"question": "Which method saves a TensorFlow Keras model?",
+				"options": [
+					"model.load()",
+					"model.write()",
+					"model.save()",
+					"model.dump()"
+				],
+				"answer": "model.save()",
+				"explanation": "model.save() ফাংশন ব্যবহার করে Keras মডেল ডিস্কে সংরক্ষণ করা যায়।"
+			},
+			{
+				"id": 122,
+				"question": "What is `tf.function` used for?",
+				"options": [
+					"Declaring classes",
+					"Converting Python code to graph",
+					"Creating optimizers",
+					"Training a model"
+				],
+				"answer": "Converting Python code to graph",
+				"explanation": "`tf.function` ডেকোরেটর ব্যবহার করে পাইথন ফাংশনকে টেনসরফ্লো গ্রাফে রূপান্তর করা হয়।"
+			},
+			{
+				"id": 123,
+				"question": "Which API is used for distributed training in TensorFlow?",
+				"options": [
+					"tf.distribute",
+					"tf.parallel",
+					"tf.train",
+					"tf.data"
+				],
+				"answer": "tf.distribute",
+				"explanation": "tf.distribute API ডিস্ট্রিবিউটেড ট্রেইনিংয়ের জন্য ব্যবহৃত হয়, যেমন multiple GPU বা TPU তে।"
+			},
+			{
+				"id": 124,
+				"question": "Which function is used to load a saved model?",
+				"options": [
+					"tf.keras.models.load_model()",
+					"tf.load_model()",
+					"model.restore()",
+					"tf.keras.restore_model()"
+				],
+				"answer": "tf.keras.models.load_model()",
+				"explanation": "tf.keras.models.load_model() দিয়ে আগের সেভ করা মডেল পুনরায় লোড করা যায়।"
+			},
+			{
+				"id": 125,
+				"question": "Which TensorFlow API is used to process image datasets?",
+				"options": [
+					"tf.image",
+					"tf.io",
+					"tf.keras.datasets",
+					"tf.random"
+				],
+				"answer": "tf.image",
+				"explanation": "tf.image API ইমেজ ডেটা প্রসেস করার জন্য ব্যবহৃত হয়, যেমন রিসাইজ, ফ্লিপ ইত্যাদি।"
+			},
+			{
+				"id": 126,
+				"question": "What is the use of tf.reduce_mean()?",
+				"options": [
+					"Finds max value",
+					"Finds mean of tensor elements",
+					"Increases tensor shape",
+					"Reduces learning rate"
+				],
+				"answer": "Finds mean of tensor elements",
+				"explanation": "tf.reduce_mean() দিয়ে টেনসরের সকল উপাদানের গড় মান বের করা যায়।"
+			},
+			{
+				"id": 127,
+				"question": "Which layer is used to flatten input data?",
+				"options": [
+					"Dense",
+					"Reshape",
+					"Flatten",
+					"Dropout"
+				],
+				"answer": "Flatten",
+				"explanation": "Flatten লেয়ার মাল্টি-ডাইমেনশনাল ইনপুটকে ১-ডাইমেনশনাল ভেক্টরে রূপান্তর করে।"
+			},
+			{
+				"id": 128,
+				"question": "What is the purpose of Dropout layer?",
+				"options": [
+					"Increase accuracy",
+					"Prevent overfitting",
+					"Add neurons",
+					"Reduce dataset size"
+				],
+				"answer": "Prevent overfitting",
+				"explanation": "Dropout লেয়ার র‍্যান্ডমলি কিছু নিউরন বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 129,
+				"question": "Which function is used to create a variable in TensorFlow?",
+				"options": [
+					"tf.constant()",
+					"tf.tensor()",
+					"tf.Variable()",
+					"tf.init()"
+				],
+				"answer": "tf.Variable()",
+				"explanation": "tf.Variable() দিয়ে একটি পরিবর্তনশীল টেনসর তৈরি করা যায় যা ট্রেইনিং চলাকালীন আপডেট হয়।"
+			},
+			{
+				"id": 130,
+				"question": "What does model.summary() do?",
+				"options": [
+					"Predicts output",
+					"Shows model structure",
+					"Deletes model",
+					"Visualizes dataset"
+				],
+				"answer": "Shows model structure",
+				"explanation": "model.summary() মডেলের লেয়ার, আউটপুট শেপ, এবং প্যারামিটার সংখ্যা দেখায়।"
+			}
+		],
+		"ImageProcessing": [
+			{
+				"id": 1,
+				"question": "What is the primary goal of image processing?",
+				"options": [
+					"Compress data",
+					"Improve image quality or extract useful information",
+					"Build websites",
+					"Translate languages"
+				],
+				"answer": "Improve image quality or extract useful information",
+				"explanation": "ইমেজ প্রসেসিংয়ের প্রধান উদ্দেশ্য হলো ইমেজের গুণগত মান উন্নয়ন করা অথবা ইমেজ থেকে গুরুত্বপূর্ণ তথ্য বের করে আনা।"
+			},
+			{
+				"id": 2,
+				"question": "Which of the following is a common image processing operation?",
+				"options": [
+					"Filtering",
+					"Compiling",
+					"Debugging",
+					"Tokenizing"
+				],
+				"answer": "Filtering",
+				"explanation": "ফিল্টারিং একটি সাধারণ ইমেজ প্রসেসিং টেকনিক যা ইমেজ থেকে নয়েজ রিমুভ বা ফিচার এনহান্স করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 3,
+				"question": "Which color model is most commonly used in digital image processing?",
+				"options": [
+					"CMYK",
+					"RGB",
+					"YUV",
+					"HSV"
+				],
+				"answer": "RGB",
+				"explanation": "RGB (Red, Green, Blue) কালার মডেল ডিজিটাল ইমেজ প্রসেসিং-এ সবচেয়ে বেশি ব্যবহৃত হয়।"
+			},
+			{
+				"id": 4,
+				"question": "What does 'grayscale image' mean?",
+				"options": [
+					"Image with multiple colors",
+					"Image in black and white shades",
+					"3D image",
+					"Encrypted image"
+				],
+				"answer": "Image in black and white shades",
+				"explanation": "গ্রেস্কেল ইমেজ হলো এমন একটি ইমেজ যাতে শুধুমাত্র কালো থেকে সাদা পর্যন্ত বিভিন্ন শেড থাকে।"
+			},
+			{
+				"id": 5,
+				"question": "Which technique is used to reduce noise in an image?",
+				"options": [
+					"Histogram Equalization",
+					"Gaussian Blur",
+					"Edge Detection",
+					"Fourier Transform"
+				],
+				"answer": "Gaussian Blur",
+				"explanation": "গসিয়ান ব্লার একটি স্মুথিং ফিল্টার যা ইমেজে থাকা নয়েজ হ্রাস করতে সাহায্য করে।"
+			},
+			{
+				"id": 6,
+				"question": "What is edge detection used for in image processing?",
+				"options": [
+					"Detecting boundaries of objects",
+					"Adding colors",
+					"Compressing images",
+					"Encrypting images"
+				],
+				"answer": "Detecting boundaries of objects",
+				"explanation": "এজ ডিটেকশন মূলত ইমেজে অবজেক্টের সীমানা বা বাউন্ডারি নির্ধারণে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 7,
+				"question": "Which method is used to convert a color image to grayscale?",
+				"options": [
+					"Using only Red channel",
+					"Averaging RGB channels",
+					"Using Blue channel only",
+					"Extracting Hue"
+				],
+				"answer": "Averaging RGB channels",
+				"explanation": "গ্রেস্কেল ইমেজ তৈরি করতে সাধারণত RGB চ্যানেলগুলোর গড় ব্যবহার করা হয়।"
+			},
+			{
+				"id": 8,
+				"question": "What does the term 'segmentation' mean in image processing?",
+				"options": [
+					"Dividing image into meaningful parts",
+					"Encrypting image",
+					"Changing file format",
+					"Zooming the image"
+				],
+				"answer": "Dividing image into meaningful parts",
+				"explanation": "সেগমেন্টেশন মানে ইমেজকে বিভিন্ন অর্থবহ অঞ্চলে ভাগ করা, যেমন অবজেক্ট আলাদা করা।"
+			},
+			{
+				"id": 9,
+				"question": "Which algorithm is widely used for edge detection?",
+				"options": [
+					"K-means",
+					"Canny",
+					"PCA",
+					"SVM"
+				],
+				"answer": "Canny",
+				"explanation": "Canny edge detection একটি শক্তিশালী এবং বহুল ব্যবহৃত এলগরিদম যা ইমেজের এজ নির্ধারণে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 10,
+				"question": "Which domain is used in Fourier Transform for image processing?",
+				"options": [
+					"Spatial domain",
+					"Frequency domain",
+					"Time domain",
+					"Color domain"
+				],
+				"answer": "Frequency domain",
+				"explanation": "Fourier Transform মূলত Frequency Domain-এ ইমেজ এনালাইসিসের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 11,
+				"question": "What is a pixel?",
+				"options": [
+					"A camera device",
+					"A single point in an image",
+					"A color filter",
+					"A noise remover"
+				],
+				"answer": "A single point in an image",
+				"explanation": "পিক্সেল হলো ইমেজের ক্ষুদ্রতম একক, যা একটি নির্দিষ্ট রঙ বা উজ্জ্বলতা ধারণ করে।"
+			},
+			{
+				"id": 12,
+				"question": "Which image format uses lossy compression?",
+				"options": [
+					"PNG",
+					"JPEG",
+					"BMP",
+					"TIFF"
+				],
+				"answer": "JPEG",
+				"explanation": "JPEG ফরম্যাট লসী কম্প্রেশন ব্যবহার করে, যার ফলে কিছু তথ্য হারিয়ে যায়।"
+			},
+			{
+				"id": 13,
+				"question": "Which image transformation rotates the image?",
+				"options": [
+					"Translation",
+					"Rotation",
+					"Scaling",
+					"Cropping"
+				],
+				"answer": "Rotation",
+				"explanation": "Rotation একটি ট্রান্সফরমেশন যা ইমেজকে নির্দিষ্ট কোণে ঘোরায়।"
+			},
+			{
+				"id": 14,
+				"question": "Which filter is best for preserving edges while smoothing?",
+				"options": [
+					"Mean filter",
+					"Gaussian filter",
+					"Median filter",
+					"High-pass filter"
+				],
+				"answer": "Median filter",
+				"explanation": "মিডিয়ান ফিল্টার নয়েজ রিমুভ করেও এজ ভালোভাবে সংরক্ষণ করতে পারে।"
+			},
+			{
+				"id": 15,
+				"question": "Which of the following is used to adjust brightness and contrast?",
+				"options": [
+					"Histogram Equalization",
+					"Edge Detection",
+					"Thresholding",
+					"Segmentation"
+				],
+				"answer": "Histogram Equalization",
+				"explanation": "Histogram Equalization একটি টেকনিক যা ইমেজের উজ্জ্বলতা ও কনট্রাস্ট উন্নত করে।"
+			},
+			{
+				"id": 16,
+				"question": "Which image processing library is commonly used in Python?",
+				"options": [
+					"NumPy",
+					"OpenCV",
+					"Pandas",
+					"Matplotlib"
+				],
+				"answer": "OpenCV",
+				"explanation": "OpenCV হলো একটি জনপ্রিয় পাইথন লাইব্রেরি যা ইমেজ প্রসেসিং-এর জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 17,
+				"question": "What is thresholding in image processing?",
+				"options": [
+					"Smoothing image",
+					"Removing color",
+					"Converting grayscale image to binary",
+					"Increasing file size"
+				],
+				"answer": "Converting grayscale image to binary",
+				"explanation": "Thresholding একটি টেকনিক যা গ্রেস্কেল ইমেজকে ব্ল্যাক ও হোয়াইট (বাইনারি) ইমেজে রূপান্তর করে।"
+			},
+			{
+				"id": 18,
+				"question": "Which of the following is used to reduce the size of an image file?",
+				"options": [
+					"Edge detection",
+					"Compression",
+					"Rotation",
+					"Blurring"
+				],
+				"answer": "Compression",
+				"explanation": "কমপ্রেশন ইমেজ ফাইলের আকার ছোট করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 19,
+				"question": "What is the role of convolution in image processing?",
+				"options": [
+					"To perform addition of matrices",
+					"To apply filters over an image",
+					"To zoom images",
+					"To detect color"
+				],
+				"answer": "To apply filters over an image",
+				"explanation": "কনভলিউশন ইমেজে ফিল্টার অ্যাপ্লাই করতে ব্যবহৃত হয় যেমন ব্লার, শার্পনিং ইত্যাদি।"
+			},
+			{
+				"id": 20,
+				"question": "What does DCT stand for in image processing?",
+				"options": [
+					"Digital Color Transformation",
+					"Discrete Cosine Transform",
+					"Data Coding Technique",
+					"Depth Color Tracking"
+				],
+				"answer": "Discrete Cosine Transform",
+				"explanation": "DCT বা Discrete Cosine Transform ইমেজ কমপ্রেশনে ব্যবহৃত একটি গুরুত্বপূর্ণ টেকনিক।"
+			},
+			{
+				"id": 21,
+				"question": "What is morphological operation in image processing?",
+				"options": [
+					"Edge detection",
+					"Operations like dilation and erosion",
+					"Color conversion",
+					"Image compression"
+				],
+				"answer": "Operations like dilation and erosion",
+				"explanation": "Morphological operations যেমন dilation ও erosion অবজেক্টের আকৃতি পরিবর্তনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 22,
+				"question": "Which operation shrinks white regions in binary image?",
+				"options": [
+					"Dilation",
+					"Erosion",
+					"Opening",
+					"Closing"
+				],
+				"answer": "Erosion",
+				"explanation": "Erosion অপারেশন বাইনারি ইমেজে সাদা অংশকে সংকুচিত করে।"
+			},
+			{
+				"id": 23,
+				"question": "What does dilation in morphological processing do?",
+				"options": [
+					"Shrinks white regions",
+					"Expands white regions",
+					"Adds noise",
+					"Converts to grayscale"
+				],
+				"answer": "Expands white regions",
+				"explanation": "Dilation অপারেশনে বাইনারি ইমেজে সাদা অংশ প্রসারিত হয়।"
+			},
+			{
+				"id": 24,
+				"question": "What is histogram in image processing?",
+				"options": [
+					"A plot of pixel intensity frequencies",
+					"A filter type",
+					"A file format",
+					"A transformation"
+				],
+				"answer": "A plot of pixel intensity frequencies",
+				"explanation": "Histogram ইমেজের পিক্সেল ইন্টেনসিটির ফ্রিকোয়েন্সি প্রদর্শন করে।"
+			},
+			{
+				"id": 25,
+				"question": "What is binary thresholding?",
+				"options": [
+					"Converting image to RGB",
+					"Converting to black and white based on threshold",
+					"Blurring image",
+					"Sharpness enhancement"
+				],
+				"answer": "Converting to black and white based on threshold",
+				"explanation": "Binary thresholding একটি নির্দিষ্ট থ্রেশহোল্ডের উপরে সাদা, নিচে কালো পিক্সেলে রূপান্তর করে।"
+			},
+			{
+				"id": 26,
+				"question": "What is Otsu’s method used for?",
+				"options": [
+					"Edge detection",
+					"Automatic threshold selection",
+					"Color balancing",
+					"Scaling images"
+				],
+				"answer": "Automatic threshold selection",
+				"explanation": "Otsu পদ্ধতি স্বয়ংক্রিয়ভাবে সর্বোত্তম থ্রেশহোল্ড নির্ধারণ করে(Binary thresholding)।"
+			},
+			{
+				"id": 27,
+				"question": "What does color space conversion RGB to HSV help with?",
+				"options": [
+					"Saving disk space",
+					"Better color-based segmentation",
+					"Noise removal",
+					"Increasing brightness"
+				],
+				"answer": "Better color-based segmentation",
+				"explanation": "RGB থেকে HSV তে রূপান্তর কোয়ালিটি অনুযায়ী segmentation সহজ করে।"
+			},
+			{
+				"id": 28,
+				"question": "What is image normalization?",
+				"options": [
+					"Adjusting pixel values to a common scale",
+					"Rotating image",
+					"Cropping image",
+					"Compressing image"
+				],
+				"answer": "Adjusting pixel values to a common scale",
+				"explanation": "Normalization ইমেজে সব পিক্সেলের মান একই স্কেলে নিয়ে আসে, সাধারণত [0‑255] বা [0‑1] এর মধ্যে।"
+			},
+			{
+				"id": 29,
+				"question": "Which transform is used to analyze image frequencies?",
+				"options": [
+					"Hough Transform",
+					"Fourier Transform",
+					"Wavelet Transform",
+					"Geometric Transform"
+				],
+				"answer": "Fourier Transform",
+				"explanation": "Fourier Transform ইমেজে frequency components বিশ্লেষণ করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 30,
+				"question": "What is the Hough Transform used for?",
+				"options": [
+					"Edge detection",
+					"Line and circle detection",
+					"Color segmentation",
+					"Image resizing"
+				],
+				"answer": "Line and circle detection",
+				"explanation": "Hough Transform দ্বারা ইমেজে লাইন বা বৃত্ত শনাক্ত করা যায়।"
+			},
+			{
+				"id": 31,
+				"question": "Which filter helps reduce salt-and-pepper noise?",
+				"options": [
+					"Mean filter",
+					"Gaussian filter",
+					"Median filter",
+					"Sharp filter"
+				],
+				"answer": "Median filter",
+				"explanation": "Median filter বিশেষভাবে salt-and-pepper noise কমাতে কার্যকর।"
+			},
+			{
+				"id": 32,
+				"question": "What is non-maximum suppression used for?",
+				"options": [
+					"Edge thinning",
+					"Noise removal",
+					"Color conversion",
+					"Histogram normalization"
+				],
+				"answer": "Edge thinning",
+				"explanation": "Non-maximum suppression এজকে পাতলা করে থাকে ফলে স্পষ্ট এজ পাওয়া যায়।"
+			},
+			{
+				"id": 33,
+				"question": "What is image stitching?",
+				"options": [
+					"Combining multiple images to form panorama",
+					"Compressing images",
+					"Edge enhancement",
+					"Scaling images"
+				],
+				"answer": "Combining multiple images to form panorama",
+				"explanation": "Image stitching একাধিক ইমেজকে মিলিয়ে একটি panoramic ইমেজ তৈরি করে।"
+			},
+			{
+				"id": 34,
+				"question": "What is feature detection in image processing?",
+				"options": [
+					"Detecting edges",
+					"Detecting keypoints or corners",
+					"Compressing image",
+					"Normalizing image"
+				],
+				"answer": "Detecting keypoints or corners",
+				"explanation": "Feature detection হলো ইমেজের গুরুত্বপূর্ণ বিন্দু বা কর্ণার শনাক্তকরণ করা।"
+			},
+			{
+				"id": 35,
+				"question": "Which algorithm is used for feature detection?",
+				"options": [
+					"SIFT",
+					"K-means",
+					"Sigma",
+					"Median filter"
+				],
+				"answer": "SIFT",
+				"explanation": "SIFT (Scale‑Invariant Feature Transform) হলো শক্তিশালী ফিচার ডিটেকশন এলগরিদম।"
+			},
+			{
+				"id": 36,
+				"question": "What is image registration?",
+				"options": [
+					"Aligning two images to a reference",
+					"Compressing image",
+					"Blurring image",
+					"Edge detection"
+				],
+				"answer": "Aligning two images to a reference",
+				"explanation": "Registration দুটি বা ততোধিক ইমেজকে ঠিকভাবে মিলিয়ে বিভিন্ন দৃষ্টিকোণ থেকে পাওয়া তথ্য একত্রিত করে।"
+			},
+			{
+				"id": 37,
+				"question": "Which transform is used for multi-resolution analysis?",
+				"options": [
+					"Fourier Transform",
+					"CDF Transform",
+					"Wavelet Transform",
+					"Hough Transform"
+				],
+				"answer": "Wavelet Transform",
+				"explanation": "Wavelet Transform বিভিন্ন রেজোলিউশনে একটি ইমেজ বিশ্লেষণ করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 38,
+				"question": "What is optical flow in image processing?",
+				"options": [
+					"Change in image brightness",
+					"Motion estimation between frames",
+					"Color conversion",
+					"Image segmentation"
+				],
+				"answer": "Motion estimation between frames",
+				"explanation": "Optical flow দুটি ফ্রেমের মধ্যে পিক্সেলের গতিপথ নির্ধারণ করে।"
+			},
+			{
+				"id": 39,
+				"question": "Which technique helps enhance image sharpness?",
+				"options": [
+					"Blurring",
+					"Sharpening filter",
+					"Thresholding",
+					"Histogram equalization"
+				],
+				"answer": "Sharpening filter",
+				"explanation": "Sharpening filter ইমেজের এজ ও ডিটেইল হাইলাইট করে।"
+			},
+			{
+				"id": 40,
+				"question": "What is template matching?",
+				"options": [
+					"Finding a sub-image using a template",
+					"Color thresholding",
+					"Noise reduction",
+					"Feature detection"
+				],
+				"answer": "Finding a sub-image using a template",
+				"explanation": "Template matching দ্বারা ইমেজের মধ্যে একটি নির্দিষ্ট অংশ খুঁজে পাওয়া যায়।"
+			},
+			{
+				"id": 41,
+				"question": "Which metric measures similarity in template matching?",
+				"options": [
+					"Mean Squared Error",
+					"Cross-correlation",
+					"Entropy",
+					"Histogram"
+				],
+				"answer": "Cross-correlation",
+				"explanation": "Cross-correlation template matching-এ দুটি ইমেজের মিল পরিমাপ করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 42,
+				"question": "What is connected components labeling?",
+				"options": [
+					"Assign unique labels to connected regions",
+					"Edge detection",
+					"Noise removal",
+					"Color adjustment"
+				],
+				"answer": "Assign unique labels to connected regions",
+				"explanation": "Connected components labeling প্রতিটি সংযুক্ত অঞ্চলকে একটি ইউনিক লেবেল দেয়।"
+			},
+			{
+				"id": 43,
+				"question": "Which method is used to count objects in a binary image?",
+				"options": [
+					"Histogram equalization",
+					"Connected components analysis",
+					"Edge detection",
+					"Gaussian blur"
+				],
+				"answer": "Connected components analysis",
+				"explanation": "Binary ইমেজে অবজেক্ট সংখ্যা গণনার জন্য connected components analysis ব্যবহার করা হয়।"
+			},
+			{
+				"id": 44,
+				"question": "What is super-resolution in image processing?",
+				"options": [
+					"Reducing image size",
+					"Increasing image resolution",
+					"Compressing image",
+					"Blurring image"
+				],
+				"answer": "Increasing image resolution",
+				"explanation": "Super-resolution একটি নিম্ন রেজোলেশনের ইমেজ থেকে উচ্চ রেজোলেশনের ইমেজ তৈরি করে।"
+			},
+			{
+				"id": 45,
+				"question": "Which technique is used for image denoising using learned filters?",
+				"options": [
+					"Median filter",
+					"Bilateral filter",
+					"Denoising Autoencoder",
+					"Histogram equalization"
+				],
+				"answer": "Denoising Autoencoder",
+				"explanation": "Denoising Autoencoder নিউরাল নেটওয়ার্ক ব্যবহার করে ইমেজ থেকে নয়েজ রিমুভ করে।"
+			},
+			{
+				"id": 46,
+				"question": "Which filter preserves edges while smoothing?",
+				"options": [
+					"Gaussian filter",
+					"Bilateral filter",
+					"Mean filter",
+					"Median filter"
+				],
+				"answer": "Bilateral filter",
+				"explanation": "Bilateral filter এজ ঠিক রেখে নয়েজ হ্রাস করে।"
+			},
+			{
+				"id": 47,
+				"question": "What is color quantization?",
+				"options": [
+					"Reducing number of colors",
+					"Increasing pixel values",
+					"Color inversion",
+					"Adding noise"
+				],
+				"answer": "Reducing number of colors",
+				"explanation": "Color quantization ইমেজে ব্যবহৃত রঙের সংখ্যাকে কমিয়ে দেয়, ফলে ফাইল সাইজ কমে।"
+			},
+			{
+				"id": 48,
+				"question": "Which technique detects objects in images using bounding boxes?",
+				"options": [
+					"Image thresholding",
+					"Object detection",
+					"Edge detection",
+					"Feature detection"
+				],
+				"answer": "Object detection",
+				"explanation": "Object detection ইমেজে অবজেক্টের অবস্থান স্বয়ংক্রিয়ভাবে খুঁজে বের করে এবং বাউন্ডিং বক্স দেয়।"
+			},
+			{
+				"id": 49,
+				"question": "Which deep learning framework integrates image processing well?",
+				"options": [
+					"TensorFlow",
+					"OpenCV",
+					"Scikit-learn",
+					"Pandas"
+				],
+				"answer": "TensorFlow",
+				"explanation": "TensorFlow ‍সহ TensorFlow এর tf.image মডিউল ইমেজ প্রসেসিং এবং ডিপ লার্নিং একসাথে সারাতে সক্ষম।"
+			},
+			{
+				"id": 50,
+				"question": "What is color histogram equalization?",
+				"options": [
+					"Color quantization",
+					"Enhancing contrast by spreading out intensity values",
+					"Adding noise",
+					"Rotation"
+				],
+				"answer": "Enhancing contrast by spreading out intensity values",
+				"explanation": "Histogram equalization পিক্সেল intensity এর বিস্তৃতি বাড়িয়ে contrast উন্নত করে।"
+			},
+			{
+				"id": 51,
+				"question": "What is the primary purpose of image compression?",
+				"options": [
+					"To increase image size",
+					"To reduce image storage and transmission requirements",
+					"To change image colors",
+					"To improve image resolution"
+				],
+				"answer": "To reduce image storage and transmission requirements",
+				"explanation": "Image compression মূলত ফাইল সাইজ কমিয়ে স্টোরেজ ও ট্রান্সমিশন সহজ করে।"
+			},
+			{
+				"id": 52,
+				"question": "Which of the following is a lossless image compression format?",
+				"options": [
+					"JPEG",
+					"PNG",
+					"GIF",
+					"BMP"
+				],
+				"answer": "PNG",
+				"explanation": "PNG লসলেস কম্প্রেশন ব্যবহার করে, যার ফলে ইমেজের গুণগত মান ঠিক থাকে।"
+			},
+			{
+				"id": 53,
+				"question": "What is the basic idea behind the Laplacian filter?",
+				"options": [
+					"Smoothing images",
+					"Edge detection by second derivative",
+					"Color conversion",
+					"Image rotation"
+				],
+				"answer": "Edge detection by second derivative",
+				"explanation": "Laplacian filter মূলত ইমেজের এজ ডিটেকশনের জন্য দ্বিতীয় ডেরিভেটিভ ব্যবহার করে।"
+			},
+			{
+				"id": 54,
+				"question": "What is the effect of increasing the kernel size in convolution?",
+				"options": [
+					"Less smoothing",
+					"More smoothing",
+					"More noise",
+					"No change"
+				],
+				"answer": "More smoothing",
+				"explanation": "কনভলিউশনে বড় কের্নেল সাইজ বেশি smoothing বা ব্লার তৈরি করে।"
+			},
+			{
+				"id": 55,
+				"question": "Which type of noise is modeled as Gaussian distribution?",
+				"options": [
+					"Salt and pepper noise",
+					"Speckle noise",
+					"Gaussian noise",
+					"Poisson noise"
+				],
+				"answer": "Gaussian noise",
+				"explanation": "Gaussian noise পিক্সেল মানে গাউসিয়ান ডিস্ট্রিবিউশনে বণ্টিত নয়েজ।"
+			},
+			{
+				"id": 56,
+				"question": "What is the role of 'stride' in convolution operation?",
+				"options": [
+					"Number of filters",
+					"Step size of kernel movement",
+					"Kernel size",
+					"Padding type"
+				],
+				"answer": "Step size of kernel movement",
+				"explanation": "Stride হল কনভলিউশন কের্নেল কত ধাপে ইমেজে চলে তার মান।"
+			},
+			{
+				"id": 57,
+				"question": "What is padding in convolutional operations?",
+				"options": [
+					"Adding pixels around image border",
+					"Cropping the image",
+					"Compressing image",
+					"Blurring image"
+				],
+				"answer": "Adding pixels around image border",
+				"explanation": "Padding ইমেজের চারপাশে অতিরিক্ত পিক্সেল যোগ করে আউটপুট আকার নিয়ন্ত্রণ করে।"
+			},
+			{
+				"id": 58,
+				"question": "Which of the following is NOT a color space?",
+				"options": [
+					"RGB",
+					"HSV",
+					"CMYK",
+					"PCA"
+				],
+				"answer": "PCA",
+				"explanation": "PCA হলো ডাইমেনশনালিটি রিডাকশনের পদ্ধতি, রঙের স্পেস নয়।"
+			},
+			{
+				"id": 59,
+				"question": "What is the difference between supervised and unsupervised image segmentation?",
+				"options": [
+					"Supervised uses labeled data; unsupervised doesn't",
+					"Unsupervised uses labeled data; supervised doesn't",
+					"Both use labeled data",
+					"Neither use labeled data"
+				],
+				"answer": "Supervised uses labeled data; unsupervised doesn't",
+				"explanation": "Supervised segmentation এ লেবেলড ডেটা প্রয়োজন, Unsupervised এ না।"
+			},
+			{
+				"id": 60,
+				"question": "Which of these is a technique for image feature description?",
+				"options": [
+					"SIFT",
+					"PCA",
+					"K-means",
+					"Histogram Equalization"
+				],
+				"answer": "SIFT",
+				"explanation": "SIFT ফিচার ডিটেকশন এবং বর্ণনার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 61,
+				"question": "What is the role of Max Pooling in convolutional neural networks?",
+				"options": [
+					"Increase image size",
+					"Downsample feature maps",
+					"Add noise",
+					"Convert color spaces"
+				],
+				"answer": "Downsample feature maps",
+				"explanation": "Max Pooling ফিচার ম্যাপের আকার কমিয়ে দেয়, যাতে কম্পিউটেশন দ্রুত হয়।"
+			},
+			{
+				"id": 62,
+				"question": "Which activation function is commonly used in CNN layers?",
+				"options": [
+					"Sigmoid",
+					"ReLU",
+					"Softmax",
+					"Tanh"
+				],
+				"answer": "ReLU",
+				"explanation": "ReLU দ্রুত কনভার্জেন্স দেয় এবং Vanishing Gradient সমস্যা কমায়।"
+			},
+			{
+				"id": 63,
+				"question": "What is the typical input for a CNN?",
+				"options": [
+					"Raw image pixels",
+					"Audio signal",
+					"Text sequences",
+					"Time series data"
+				],
+				"answer": "Raw image pixels",
+				"explanation": "CNN সাধারণত কাঁচা ইমেজ পিক্সেল ইনপুট হিসেবে নেয়।"
+			},
+			{
+				"id": 64,
+				"question": "Which layer in CNN is responsible for classification?",
+				"options": [
+					"Convolutional layer",
+					"Pooling layer",
+					"Fully connected (Dense) layer",
+					"Dropout layer"
+				],
+				"answer": "Fully connected (Dense) layer",
+				"explanation": "Dense লেয়ার ক্লাসিফিকেশন আউটপুট তৈরি করে।"
+			},
+			{
+				"id": 65,
+				"question": "What does the term 'overfitting' mean in image classification?",
+				"options": [
+					"Model performs well on training but poorly on new data",
+					"Model performs well on new data",
+					"Model underfits training data",
+					"Model has no errors"
+				],
+				"answer": "Model performs well on training but poorly on new data",
+				"explanation": "Overfitting হলে মডেল শুধু ট্রেইনিং ডেটাতে ভালো কাজ করে, নতুন ডেটায় খারাপ।"
+			},
+			{
+				"id": 66,
+				"question": "Which technique can reduce overfitting in CNNs?",
+				"options": [
+					"Dropout",
+					"Increasing learning rate",
+					"Reducing dataset size",
+					"Removing layers"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout লেয়ার র‍্যান্ডমলি কিছু নিউরন বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 67,
+				"question": "What is transfer learning in image processing?",
+				"options": [
+					"Training a model from scratch",
+					"Using a pre-trained model for a new task",
+					"Using no training data",
+					"Compressing images"
+				],
+				"answer": "Using a pre-trained model for a new task",
+				"explanation": "Transfer learning পূর্বে ট্রেইন করা মডেল নতুন কাজের জন্য ব্যবহার করা।"
+			},
+			{
+				"id": 68,
+				"question": "Which of the following is NOT a popular CNN architecture?",
+				"options": [
+					"AlexNet",
+					"ResNet",
+					"VGGNet",
+					"RNN"
+				],
+				"answer": "RNN",
+				"explanation": "RNN হলো সিকোয়েন্স ডেটার জন্য, CNN নয়।"
+			},
+			{
+				"id": 69,
+				"question": "Which Python library is mainly used for image augmentation?",
+				"options": [
+					"Pandas",
+					"OpenCV",
+					"imgaug",
+					"NumPy"
+				],
+				"answer": "imgaug",
+				"explanation": "imgaug ইমেজ অগমেন্টেশন করার জন্য বিশেষায়িত লাইব্রেরি।"
+			},
+			{
+				"id": 70,
+				"question": "Which of the following is NOT a common image augmentation technique?",
+				"options": [
+					"Rotation",
+					"Scaling",
+					"Noise addition",
+					"SQL Query"
+				],
+				"answer": "SQL Query",
+				"explanation": "SQL Query ইমেজ প্রসেসিংয়ের জন্য নয়।"
+			},
+			{
+				"id": 71,
+				"question": "Which color channel is often most informative for human skin detection?",
+				"options": [
+					"Red",
+					"Blue",
+					"Green",
+					"Hue (in HSV)"
+				],
+				"answer": "Hue (in HSV)",
+				"explanation": "HSV কালার স্পেসের Hue চ্যানেল স্কিন ডিটেকশনে বেশি কার্যকর।"
+			},
+			{
+				"id": 72,
+				"question": "What is the purpose of an image pyramid?",
+				"options": [
+					"Increase image contrast",
+					"Multi-scale image representation",
+					"Change color space",
+					"Compress images"
+				],
+				"answer": "Multi-scale image representation",
+				"explanation": "Image pyramid বিভিন্ন স্কেলে ইমেজ উপস্থাপন করে।"
+			},
+			{
+				"id": 73,
+				"question": "Which of the following is a characteristic of Gaussian noise?",
+				"options": [
+					"Salt and pepper",
+					"Normally distributed",
+					"Speckle noise",
+					"Random black pixels"
+				],
+				"answer": "Normally distributed",
+				"explanation": "Gaussian noise সাধারণত Normal distribution অনুসরণ করে।"
+			},
+			{
+				"id": 74,
+				"question": "What is image inpainting?",
+				"options": [
+					"Image cropping",
+					"Restoring missing parts of image",
+					"Color conversion",
+					"Image compression"
+				],
+				"answer": "Restoring missing parts of image",
+				"explanation": "Inpainting হলো ইমেজের হারানো অংশ পুনরুদ্ধার করা।"
+			},
+			{
+				"id": 75,
+				"question": "Which is NOT an example of a spatial domain operation?",
+				"options": [
+					"Filtering",
+					"Histogram Equalization",
+					"Fourier Transform",
+					"Edge Detection"
+				],
+				"answer": "Fourier Transform",
+				"explanation": "Fourier Transform Frequency domain অপারেশন।"
+			},
+			{
+				"id": 76,
+				"question": "What is the function of the Sobel operator?",
+				"options": [
+					"Noise reduction",
+					"Edge detection",
+					"Image scaling",
+					"Color adjustment"
+				],
+				"answer": "Edge detection",
+				"explanation": "Sobel operator ইমেজে এজ বের করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 77,
+				"question": "Which of the following is a texture feature in image processing?",
+				"options": [
+					"Color histogram",
+					"Haralick features",
+					"Histogram Equalization",
+					"SIFT"
+				],
+				"answer": "Haralick features",
+				"explanation": "Haralick ফিচার টেক্সচার বিশ্লেষণে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 78,
+				"question": "Which is used to remove motion blur from images?",
+				"options": [
+					"Deconvolution",
+					"Convolution",
+					"Histogram Equalization",
+					"Fourier Transform"
+				],
+				"answer": "Deconvolution",
+				"explanation": "Deconvolution প্রয়োগ করে মোশন ব্লার কমানো যায়।"
+			},
+			{
+				"id": 79,
+				"question": "What does RGB stand for?",
+				"options": [
+					"Red, Green, Blue",
+					"Random Green Blue",
+					"Red Gray Blue",
+					"Right Green Blue"
+				],
+				"answer": "Red, Green, Blue",
+				"explanation": "RGB হলো তিনটি বেসিক কালারের সংমিশ্রণ।"
+			},
+			{
+				"id": 80,
+				"question": "Which file format supports transparency?",
+				"options": [
+					"JPEG",
+					"PNG",
+					"BMP",
+					"TIFF"
+				],
+				"answer": "PNG",
+				"explanation": "PNG ফরম্যাট ট্রান্সপারেন্সি সাপোর্ট করে।"
+			},
+			{
+				"id": 81,
+				"question": "What is the use of a mask in image processing?",
+				"options": [
+					"Filtering specific regions",
+					"Color conversion",
+					"Image rotation",
+					"Histogram generation"
+				],
+				"answer": "Filtering specific regions",
+				"explanation": "মাস্ক ব্যবহার করে ইমেজের নির্দিষ্ট অংশে ফিল্টার প্রয়োগ করা হয়।"
+			},
+			{
+				"id": 82,
+				"question": "Which algorithm is often used for image clustering?",
+				"options": [
+					"K-means",
+					"SVM",
+					"Naive Bayes",
+					"Decision Tree"
+				],
+				"answer": "K-means",
+				"explanation": "K-means ক্লাস্টারিং ইমেজ সেগমেন্টেশনে জনপ্রিয়।"
+			},
+			{
+				"id": 83,
+				"question": "What does OCR stand for?",
+				"options": [
+					"Optical Character Recognition",
+					"Online Color Rendering",
+					"Open Camera Recorder",
+					"Original Color Range"
+				],
+				"answer": "Optical Character Recognition",
+				"explanation": "OCR প্রযুক্তি ছবির লেখা টেক্সটে রূপান্তর করে।"
+			},
+			{
+				"id": 84,
+				"question": "Which process is used to remove background from images?",
+				"options": [
+					"Background subtraction",
+					"Edge detection",
+					"Noise filtering",
+					"Histogram Equalization"
+				],
+				"answer": "Background subtraction",
+				"explanation": "Background subtraction ব্যাকগ্রাউন্ড মুছে দেয়।"
+			},
+			{
+				"id": 85,
+				"question": "Which of these is a method for image segmentation?",
+				"options": [
+					"Thresholding",
+					"Clustering",
+					"Region growing",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Thresholding, clustering ও region growing সবই সেগমেন্টেশনের পদ্ধতি।"
+			},
+			{
+				"id": 86,
+				"question": "What is the function of the 'alpha channel' in images?",
+				"options": [
+					"Stores brightness",
+					"Stores transparency",
+					"Stores color info",
+					"Stores metadata"
+				],
+				"answer": "Stores transparency",
+				"explanation": "Alpha channel ইমেজের ট্রান্সপারেন্সি বা স্বচ্ছতা রাখে।"
+			},
+			{
+				"id": 87,
+				"question": "What is a Gaussian filter primarily used for?",
+				"options": [
+					"Edge detection",
+					"Noise reduction",
+					"Color enhancement",
+					"Image sharpening"
+				],
+				"answer": "Noise reduction",
+				"explanation": "Gaussian filter ইমেজ থেকে নয়েজ কমাতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 88,
+				"question": "Which method can help detect circles in images?",
+				"options": [
+					"Hough Circle Transform",
+					"Sobel Operator",
+					"Median Filter",
+					"Fourier Transform"
+				],
+				"answer": "Hough Circle Transform",
+				"explanation": "Hough Circle Transform ইমেজে বৃত্ত শনাক্ত করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 89,
+				"question": "What does 'bit depth' indicate in images?",
+				"options": [
+					"Image size",
+					"Number of colors that can be represented",
+					"Resolution",
+					"File format"
+				],
+				"answer": "Number of colors that can be represented",
+				"explanation": "Bit depth একটি ইমেজে প্রকাশিত রঙের সংখ্যা নির্ধারণ করে।"
+			},
+			{
+				"id": 90,
+				"question": "Which is NOT a step in typical image preprocessing?",
+				"options": [
+					"Resizing",
+					"Normalization",
+					"Encoding",
+					"Data augmentation"
+				],
+				"answer": "Encoding",
+				"explanation": "Encoding সাধারণত ডেটা ট্রান্সমিশনের জন্য, প্রিপ্রসেসিংয়ের অংশ নয়।"
+			},
+			{
+				"id": 91,
+				"question": "What is the purpose of color balancing?",
+				"options": [
+					"Adjust brightness",
+					"Adjust contrast",
+					"Correct color casts",
+					"Compress image"
+				],
+				"answer": "Correct color casts",
+				"explanation": "Color balancing ছবির রঙের ভারসাম্য ঠিক করে।"
+			},
+			{
+				"id": 92,
+				"question": "Which operation flips an image horizontally?",
+				"options": [
+					"Translation",
+					"Rotation",
+					"Mirroring",
+					"Cropping"
+				],
+				"answer": "Mirroring",
+				"explanation": "Mirroring ছবিটিকে হরাইজন্টালি উল্টে দেয়।"
+			},
+			{
+				"id": 93,
+				"question": "What does image histogram stretching do?",
+				"options": [
+					"Compress image",
+					"Enhance contrast",
+					"Blur image",
+					"Crop image"
+				],
+				"answer": "Enhance contrast",
+				"explanation": "Histogram stretching ইমেজের কনট্রাস্ট বাড়ায়।"
+			},
+			{
+				"id": 94,
+				"question": "What is a kernel in image processing?",
+				"options": [
+					"A small matrix used for convolution",
+					"An image file",
+					"A pixel value",
+					"An image format"
+				],
+				"answer": "A small matrix used for convolution",
+				"explanation": "Kernel হলো ছোট ম্যাট্রিক্স যা কনভলিউশনে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 95,
+				"question": "Which of the following is used for detecting edges in images?",
+				"options": [
+					"Sobel filter",
+					"Median filter",
+					"Gaussian filter",
+					"Bilateral filter"
+				],
+				"answer": "Sobel filter",
+				"explanation": "Sobel filter এজ ডিটেকশনে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 96,
+				"question": "Which of the following is a disadvantage of JPEG compression?",
+				"options": [
+					"Lossy compression leading to quality loss",
+					"Large file size",
+					"No color support",
+					"Does not support transparency"
+				],
+				"answer": "Lossy compression leading to quality loss",
+				"explanation": "JPEG হলো লসির কম্প্রেশন যা গুণগত মান কমাতে পারে।"
+			},
+			{
+				"id": 97,
+				"question": "What is the meaning of 'resolution' in digital images?",
+				"options": [
+					"Number of pixels per unit area",
+					"Color depth",
+					"File size",
+					"Number of channels"
+				],
+				"answer": "Number of pixels per unit area",
+				"explanation": "Resolution হলো নির্দিষ্ট জায়গায় পিক্সেলের সংখ্যা।"
+			},
+			{
+				"id": 98,
+				"question": "Which is the basic component of a digital image?",
+				"options": [
+					"Pixel",
+					"Kernel",
+					"Matrix",
+					"Layer"
+				],
+				"answer": "Pixel",
+				"explanation": "Pixel হলো ডিজিটাল ইমেজের সবচেয়ে ছোট উপাদান।"
+			},
+			{
+				"id": 99,
+				"question": "Which filter is best to remove Gaussian noise?",
+				"options": [
+					"Median filter",
+					"Gaussian filter",
+					"Mean filter",
+					"Bilateral filter"
+				],
+				"answer": "Gaussian filter",
+				"explanation": "Gaussian filter Gaussian noise কমাতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 100,
+				"question": "What is the difference between RGB and CMYK?",
+				"options": [
+					"RGB for screens, CMYK for printing",
+					"CMYK for screens, RGB for printing",
+					"Both same",
+					"Neither are color models"
+				],
+				"answer": "RGB for screens, CMYK for printing",
+				"explanation": "RGB কালার স্পেস মনিটর বা স্ক্রিনের জন্য; CMYK প্রিন্টিংয়ের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 101,
+				"question": "What is image segmentation?",
+				"options": [
+					"Dividing an image into regions",
+					"Compressing image",
+					"Enhancing contrast",
+					"Rotating image"
+				],
+				"answer": "Dividing an image into regions",
+				"explanation": "Image segmentation ইমেজকে বিভিন্ন অংশে ভাগ করা হয় যাতে প্রতিটি অংশ আলাদা বৈশিষ্ট্যের।"
+			},
+			{
+				"id": 102,
+				"question": "Which segmentation technique uses pixel intensity values to separate regions?",
+				"options": [
+					"Thresholding",
+					"Edge detection",
+					"Clustering",
+					"Morphological operations"
+				],
+				"answer": "Thresholding",
+				"explanation": "Thresholding পিক্সেল মান অনুযায়ী ইমেজকে বিভক্ত করে।"
+			},
+			{
+				"id": 103,
+				"question": "What is image denoising?",
+				"options": [
+					"Removing noise from an image",
+					"Adding noise to an image",
+					"Compressing image",
+					"Changing color space"
+				],
+				"answer": "Removing noise from an image",
+				"explanation": "Denoising ইমেজ থেকে অপ্রয়োজনীয় নয়েজ সরিয়ে দেয়।"
+			},
+			{
+				"id": 104,
+				"question": "Which technique is used to sharpen an image?",
+				"options": [
+					"Gaussian blur",
+					"Laplacian filter",
+					"Median filter",
+					"Scaling"
+				],
+				"answer": "Laplacian filter",
+				"explanation": "Laplacian filter ইমেজের এজগুলো স্পষ্ট করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 105,
+				"question": "What is the main advantage of the Canny edge detector?",
+				"options": [
+					"Noise suppression and accurate edge detection",
+					"Fast processing",
+					"Color enhancement",
+					"Image compression"
+				],
+				"answer": "Noise suppression and accurate edge detection",
+				"explanation": "Canny edge detector নয়েজ কমিয়ে সঠিক এজ ডিটেকশন দেয়।"
+			},
+			{
+				"id": 106,
+				"question": "What does image registration achieve?",
+				"options": [
+					"Align multiple images",
+					"Compress images",
+					"Add noise",
+					"Change resolution"
+				],
+				"answer": "Align multiple images",
+				"explanation": "Image registration অনেকগুলো ছবি একসাথে সঠিকভাবে মিলিয়ে দেয়।"
+			},
+			{
+				"id": 107,
+				"question": "Which technique uses a sliding window to detect features?",
+				"options": [
+					"Template matching",
+					"Fourier transform",
+					"Histogram equalization",
+					"Image normalization"
+				],
+				"answer": "Template matching",
+				"explanation": "Template matching একটি অংশের খোঁজে স্লাইডিং উইন্ডো ব্যবহার করে।"
+			},
+			{
+				"id": 108,
+				"question": "Which of the following is a color model used in printing?",
+				"options": [
+					"RGB",
+					"HSV",
+					"CMYK",
+					"LAB"
+				],
+				"answer": "CMYK",
+				"explanation": "CMYK কালার মডেলটি প্রিন্টিংয়ের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 109,
+				"question": "What is a pixel?",
+				"options": [
+					"Smallest unit of a digital image",
+					"Image filter",
+					"A type of noise",
+					"Color channel"
+				],
+				"answer": "Smallest unit of a digital image",
+				"explanation": "পিক্সেল হলো একটি ডিজিটাল ইমেজের সবচেয়ে ছোট উপাদান।"
+			},
+			{
+				"id": 110,
+				"question": "Which filter is best for removing salt-and-pepper noise?",
+				"options": [
+					"Mean filter",
+					"Median filter",
+					"Gaussian filter",
+					"Bilateral filter"
+				],
+				"answer": "Median filter",
+				"explanation": "Median filter salt-and-pepper noise কমাতে কার্যকর।"
+			},
+			{
+				"id": 111,
+				"question": "Which transform converts spatial domain image to frequency domain?",
+				"options": [
+					"Fourier transform",
+					"Hough transform",
+					"Wavelet transform",
+					"Radon transform"
+				],
+				"answer": "Fourier transform",
+				"explanation": "Fourier transform spatial domain থেকে frequency domain-এ রূপান্তর করে।"
+			},
+			{
+				"id": 112,
+				"question": "What is image histogram equalization used for?",
+				"options": [
+					"Improving contrast",
+					"Reducing noise",
+					"Sharpening image",
+					"Changing color space"
+				],
+				"answer": "Improving contrast",
+				"explanation": "Histogram equalization ইমেজের contrast বাড়ায়।"
+			},
+			{
+				"id": 113,
+				"question": "Which of these is NOT an image file format?",
+				"options": [
+					"JPEG",
+					"PNG",
+					"MP3",
+					"TIFF"
+				],
+				"answer": "MP3",
+				"explanation": "MP3 হলো অডিও ফাইল ফরম্যাট, ইমেজ নয়।"
+			},
+			{
+				"id": 114,
+				"question": "What is the main purpose of the Sobel operator?",
+				"options": [
+					"Noise removal",
+					"Edge detection",
+					"Image rotation",
+					"Image compression"
+				],
+				"answer": "Edge detection",
+				"explanation": "Sobel operator দিয়ে ইমেজে এজ সনাক্ত করা হয়।"
+			},
+			{
+				"id": 115,
+				"question": "What does the term 'bit depth' indicate in digital images?",
+				"options": [
+					"Number of pixels",
+					"Color resolution per pixel",
+					"Image size",
+					"Number of color channels"
+				],
+				"answer": "Color resolution per pixel",
+				"explanation": "Bit depth প্রতিটি পিক্সেলের জন্য রঙের সংখ্যা নির্দেশ করে।"
+			},
+			{
+				"id": 116,
+				"question": "Which of the following is a non-linear filter?",
+				"options": [
+					"Mean filter",
+					"Median filter",
+					"Gaussian filter",
+					"Box filter"
+				],
+				"answer": "Median filter",
+				"explanation": "Median filter একটি নন-লিনিয়ার ফিল্টার।"
+			},
+			{
+				"id": 117,
+				"question": "What is image super-resolution?",
+				"options": [
+					"Reducing image size",
+					"Generating higher resolution from low resolution",
+					"Image denoising",
+					"Color balancing"
+				],
+				"answer": "Generating higher resolution from low resolution",
+				"explanation": "Super-resolution ছোট রেজোলিউশনের ইমেজ থেকে বড় রেজোলিউশনের ছবি তৈরি করে।"
+			},
+			{
+				"id": 118,
+				"question": "What is a convolutional neural network (CNN) commonly used for?",
+				"options": [
+					"Natural language processing",
+					"Image processing and recognition",
+					"Time series prediction",
+					"Data compression"
+				],
+				"answer": "Image processing and recognition",
+				"explanation": "CNN সাধারণত ইমেজ প্রসেসিং ও রিকগনিশনে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 119,
+				"question": "What is the effect of pooling in CNN?",
+				"options": [
+					"Increases size of feature maps",
+					"Reduces spatial size of feature maps",
+					"Adds noise",
+					"Changes color channels"
+				],
+				"answer": "Reduces spatial size of feature maps",
+				"explanation": "Pooling feature maps-এর আকার কমিয়ে দেয়।"
+			},
+			{
+				"id": 120,
+				"question": "Which activation function is widely used in CNNs?",
+				"options": [
+					"Sigmoid",
+					"ReLU",
+					"Tanh",
+					"Softmax"
+				],
+				"answer": "ReLU",
+				"explanation": "ReLU দ্রুত কম্পিউটেশন করে এবং ভ্যানিশিং গ্রেডিয়েন্ট সমস্যা কমায়।"
+			},
+			{
+				"id": 121,
+				"question": "What is transfer learning?",
+				"options": [
+					"Training a model from scratch",
+					"Using a pretrained model for a new task",
+					"No training",
+					"Image compression"
+				],
+				"answer": "Using a pretrained model for a new task",
+				"explanation": "Transfer learning পূর্বে ট্রেইন করা মডেল নতুন কাজে ব্যবহার করা।"
+			},
+			{
+				"id": 122,
+				"question": "What does data augmentation do in image processing?",
+				"options": [
+					"Creates more training data by transformations",
+					"Compresses images",
+					"Reduces image size",
+					"Removes noise"
+				],
+				"answer": "Creates more training data by transformations",
+				"explanation": "Data augmentation ইমেজের বিভিন্ন রূপ তৈরি করে ডেটাসেট বাড়ায়।"
+			},
+			{
+				"id": 123,
+				"question": "What is an image feature?",
+				"options": [
+					"A pixel",
+					"Distinctive pattern or structure in image",
+					"Noise",
+					"File size"
+				],
+				"answer": "Distinctive pattern or structure in image",
+				"explanation": "Feature হলো ইমেজের এমন একটি অংশ যা আলাদা সনাক্তযোগ্য।"
+			},
+			{
+				"id": 124,
+				"question": "What is the function of the Hough transform?",
+				"options": [
+					"Edge detection",
+					"Detecting shapes like lines and circles",
+					"Color enhancement",
+					"Compression"
+				],
+				"answer": "Detecting shapes like lines and circles",
+				"explanation": "Hough transform লাইন ও বৃত্তের মতো জ্যামিতিক আকৃতি শনাক্ত করে।"
+			},
+			{
+				"id": 125,
+				"question": "What is the main function of a mask in image processing?",
+				"options": [
+					"To highlight features",
+					"To apply operations to specific regions",
+					"To compress image",
+					"To change color space"
+				],
+				"answer": "To apply operations to specific regions",
+				"explanation": "Mask নির্দিষ্ট অংশে অপারেশন প্রয়োগের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 126,
+				"question": "What is the main purpose of the Gaussian filter?",
+				"options": [
+					"Noise reduction and smoothing",
+					"Edge detection",
+					"Color correction",
+					"Compression"
+				],
+				"answer": "Noise reduction and smoothing",
+				"explanation": "Gaussian filter ইমেজের নয়েজ কমায় এবং স্নিগ্ধতা আনে।"
+			},
+			{
+				"id": 127,
+				"question": "Which file format is best suited for photographs?",
+				"options": [
+					"PNG",
+					"JPEG",
+					"BMP",
+					"TIFF"
+				],
+				"answer": "JPEG",
+				"explanation": "JPEG ফরম্যাট ফটোগ্রাফির জন্য উপযুক্ত কারণ এটি ভালো কম্প্রেশন দেয়।"
+			},
+			{
+				"id": 128,
+				"question": "What does the term 'histogram' mean in image processing?",
+				"options": [
+					"Graph of pixel intensity frequency",
+					"Filter",
+					"Kernel",
+					"Compression technique"
+				],
+				"answer": "Graph of pixel intensity frequency",
+				"explanation": "Histogram ইমেজের পিক্সেল মানের বণ্টন দেখায়।"
+			},
+			{
+				"id": 129,
+				"question": "Which method can be used to convert a color image to grayscale?",
+				"options": [
+					"Averaging RGB channels",
+					"Thresholding",
+					"Edge detection",
+					"Histogram equalization"
+				],
+				"answer": "Averaging RGB channels",
+				"explanation": "Grayscale এ রূপান্তরে RGB এর গড় মান নেওয়া হয়।"
+			},
+			{
+				"id": 130,
+				"question": "What is the effect of increasing stride in convolution?",
+				"options": [
+					"Increases output size",
+					"Decreases output size",
+					"No effect",
+					"Adds noise"
+				],
+				"answer": "Decreases output size",
+				"explanation": "Stride বেশি হলে আউটপুট ম্যাপ ছোট হয়।"
+			},
+			{
+				"id": 131,
+				"question": "Which of the following is a disadvantage of using large kernels in convolution?",
+				"options": [
+					"More computation",
+					"Better feature extraction",
+					"Faster processing",
+					"No effect"
+				],
+				"answer": "More computation",
+				"explanation": "বড় কের্নেল বেশি কম্পিউটেশন সময় নেয়।"
+			},
+			{
+				"id": 132,
+				"question": "Which library is commonly used for image processing in Python?",
+				"options": [
+					"Pandas",
+					"OpenCV",
+					"NumPy",
+					"Matplotlib"
+				],
+				"answer": "OpenCV",
+				"explanation": "OpenCV একটি জনপ্রিয় ইমেজ প্রসেসিং লাইব্রেরি।"
+			},
+			{
+				"id": 133,
+				"question": "What does a color channel represent in an image?",
+				"options": [
+					"One of the primary colors",
+					"Image size",
+					"Number of pixels",
+					"Image format"
+				],
+				"answer": "One of the primary colors",
+				"explanation": "কালার চ্যানেল হলো ছবির রঙের একটি প্রধান উপাদান।"
+			},
+			{
+				"id": 134,
+				"question": "What is the use of a contour in image processing?",
+				"options": [
+					"To find object boundaries",
+					"To smooth images",
+					"To add noise",
+					"To change colors"
+				],
+				"answer": "To find object boundaries",
+				"explanation": "Contours অবজেক্টের সীমানা চিহ্নিত করতে সাহায্য করে।"
+			},
+			{
+				"id": 135,
+				"question": "What is the purpose of morphological opening?",
+				"options": [
+					"Remove small objects and noise",
+					"Add noise",
+					"Compress image",
+					"Enhance edges"
+				],
+				"answer": "Remove small objects and noise",
+				"explanation": "Opening ইমেজ থেকে ছোট অবজেক্ট ও নয়েজ সরাতে সাহায্য করে।"
+			},
+			{
+				"id": 136,
+				"question": "Which technique is used for object tracking in videos?",
+				"options": [
+					"Optical flow",
+					"Histogram equalization",
+					"Edge detection",
+					"Image segmentation"
+				],
+				"answer": "Optical flow",
+				"explanation": "Optical flow অবজেক্টের গতিপথ নির্ধারণে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 137,
+				"question": "What is the advantage of using Wavelet Transform over Fourier Transform?",
+				"options": [
+					"Better frequency resolution",
+					"Better time-frequency localization",
+					"Simpler computation",
+					"No advantage"
+				],
+				"answer": "Better time-frequency localization",
+				"explanation": "Wavelet Transform সময় ও ফ্রিকোয়েন্সি উভয়েই ভালো বিশ্লেষণ দেয়।"
+			},
+			{
+				"id": 138,
+				"question": "What does the term 'aliasing' mean in image processing?",
+				"options": [
+					"Loss of detail due to undersampling",
+					"Noise addition",
+					"Color distortion",
+					"Image rotation"
+				],
+				"answer": "Loss of detail due to undersampling",
+				"explanation": "Aliasing তখন হয় যখন স্যাম্পলিং কম হওয়ায় ডিটেইল হারানো হয়।"
+			},
+			{
+				"id": 139,
+				"question": "Which of the following techniques is used to reduce aliasing?",
+				"options": [
+					"Anti-aliasing filters",
+					"Histogram equalization",
+					"Image rotation",
+					"Edge detection"
+				],
+				"answer": "Anti-aliasing filters",
+				"explanation": "Anti-aliasing ফিল্টার স্যাম্পলিং সমস্যা কমায়।"
+			},
+			{
+				"id": 140,
+				"question": "Which method is used for image inpainting?",
+				"options": [
+					"Restoring missing parts",
+					"Adding noise",
+					"Rotating image",
+					"Scaling image"
+				],
+				"answer": "Restoring missing parts",
+				"explanation": "Inpainting হারানো বা ক্ষতিগ্রস্ত অংশ পুনরুদ্ধারে ব্যবহৃত।"
+			},
+			{
+				"id": 141,
+				"question": "What is the use of the alpha channel in an image?",
+				"options": [
+					"Stores color",
+					"Stores brightness",
+					"Stores transparency",
+					"Stores metadata"
+				],
+				"answer": "Stores transparency",
+				"explanation": "Alpha channel ইমেজের স্বচ্ছতা (transparency) নির্দেশ করে।"
+			},
+			{
+				"id": 142,
+				"question": "What is the main purpose of image augmentation in deep learning?",
+				"options": [
+					"Increase training data diversity",
+					"Reduce image size",
+					"Compress images",
+					"Change image colors"
+				],
+				"answer": "Increase training data diversity",
+				"explanation": "Augmentation বিভিন্ন রূপে ডেটা তৈরি করে মডেলের জেনারালাইজেশন বাড়ায়।"
+			},
+			{
+				"id": 143,
+				"question": "Which of the following is a supervised learning method for image classification?",
+				"options": [
+					"K-means clustering",
+					"Support Vector Machines (SVM)",
+					"Principal Component Analysis (PCA)",
+					"Histogram equalization"
+				],
+				"answer": "Support Vector Machines (SVM)",
+				"explanation": "SVM একটি সুপারভাইজড লার্নিং অ্যালগরিদম।"
+			},
+			{
+				"id": 144,
+				"question": "Which image file format is known for lossless compression?",
+				"options": [
+					"JPEG",
+					"PNG",
+					"GIF",
+					"BMP"
+				],
+				"answer": "PNG",
+				"explanation": "PNG lossless compression ব্যবহার করে।"
+			},
+			{
+				"id": 145,
+				"question": "Which of these is NOT a part of image preprocessing?",
+				"options": [
+					"Noise removal",
+					"Resizing",
+					"Feature extraction",
+					"Color correction"
+				],
+				"answer": "Feature extraction",
+				"explanation": "Feature extraction সাধারণত প্রিপ্রসেসিংয়ের পরে হয়।"
+			},
+			{
+				"id": 146,
+				"question": "What is the primary function of histogram equalization?",
+				"options": [
+					"Reduce noise",
+					"Enhance contrast",
+					"Resize image",
+					"Detect edges"
+				],
+				"answer": "Enhance contrast",
+				"explanation": "Histogram equalization ইমেজের কনট্রাস্ট উন্নত করে।"
+			},
+			{
+				"id": 147,
+				"question": "What is image warping?",
+				"options": [
+					"Geometric transformation of images",
+					"Adding noise",
+					"Compressing images",
+					"Changing color space"
+				],
+				"answer": "Geometric transformation of images",
+				"explanation": "Warping হলো ইমেজের জ্যামিতিক রূপান্তর।"
+			},
+			{
+				"id": 148,
+				"question": "Which is the most common color space used in digital cameras?",
+				"options": [
+					"CMYK",
+					"HSV",
+					"RGB",
+					"LAB"
+				],
+				"answer": "RGB",
+				"explanation": "RGB হলো ডিজিটাল ক্যামেরায় ব্যবহৃত প্রধান রঙের স্পেস।"
+			},
+			{
+				"id": 149,
+				"question": "What is the function of a dropout layer in CNNs?",
+				"options": [
+					"Prevent overfitting",
+					"Increase model size",
+					"Add noise",
+					"Enhance features"
+				],
+				"answer": "Prevent overfitting",
+				"explanation": "Dropout র‍্যান্ডম নিউরন বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 150,
+				"question": "What does the term 'feature map' mean in CNN?",
+				"options": [
+					"Input image",
+					"Output of convolutional layer",
+					"Loss function",
+					"Pooling operation"
+				],
+				"answer": "Output of convolutional layer",
+				"explanation": "Feature map হলো কনভলিউশনাল লেয়ার থেকে পাওয়া আউটপুট।"
+			},
+			{
+				"id": 151,
+				"question": "What is the difference between interpolation and extrapolation in image resizing?",
+				"options": [
+					"Interpolation estimates values inside range; extrapolation outside",
+					"Both are same",
+					"Extrapolation estimates inside range",
+					"Neither related to image resizing"
+				],
+				"answer": "Interpolation estimates values inside range; extrapolation outside",
+				"explanation": "Interpolation ইনপুট ডেটার মধ্যে অনুমান করে, extrapolation বাইরে।"
+			},
+			{
+				"id": 152,
+				"question": "Which technique is used to reduce color bands in images?",
+				"options": [
+					"Color quantization",
+					"Histogram equalization",
+					"Edge detection",
+					"Filtering"
+				],
+				"answer": "Color quantization",
+				"explanation": "Color quantization রঙের সংখ্যা কমায়।"
+			},
+			{
+				"id": 153,
+				"question": "Which of these is a common image dataset for benchmarking?",
+				"options": [
+					"MNIST",
+					"IMDB",
+					"CIFAR-10",
+					"Both A and C"
+				],
+				"answer": "Both A and C",
+				"explanation": "MNIST ও CIFAR-10 ইমেজ ডেটাসেট।"
+			},
+			{
+				"id": 154,
+				"question": "What is the effect of zero padding in convolution?",
+				"options": [
+					"Reduce output size",
+					"Maintain output size",
+					"Add noise",
+					"Increase kernel size"
+				],
+				"answer": "Maintain output size",
+				"explanation": "Zero padding আউটপুট আকার বজায় রাখে।"
+			},
+			{
+				"id": 155,
+				"question": "Which method is used for edge thinning after edge detection?",
+				"options": [
+					"Non-maximum suppression",
+					"Gaussian smoothing",
+					"Pooling",
+					"Convolution"
+				],
+				"answer": "Non-maximum suppression",
+				"explanation": "Non-maximum suppression এজ পাতলা করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 156,
+				"question": "What is the primary purpose of the FAST algorithm?",
+				"options": [
+					"Feature detection",
+					"Noise removal",
+					"Compression",
+					"Color correction"
+				],
+				"answer": "Feature detection",
+				"explanation": "FAST দ্রুত ফিচার পয়েন্ট শনাক্ত করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 157,
+				"question": "Which is NOT a typical step in object detection?",
+				"options": [
+					"Feature extraction",
+					"Classification",
+					"Image compression",
+					"Localization"
+				],
+				"answer": "Image compression",
+				"explanation": "Object detection এ image compression সাধারণত অংশ নয়।"
+			},
+			{
+				"id": 158,
+				"question": "Which of these is used to reduce image noise while preserving edges?",
+				"options": [
+					"Median filter",
+					"Gaussian filter",
+					"Bilateral filter",
+					"Mean filter"
+				],
+				"answer": "Bilateral filter",
+				"explanation": "Bilateral filter নয়েজ কমায় ও এজ ধরে রাখে।"
+			},
+			{
+				"id": 159,
+				"question": "What is a descriptor in feature detection?",
+				"options": [
+					"Unique representation of a feature",
+					"Noise filter",
+					"Image format",
+					"Pixel value"
+				],
+				"answer": "Unique representation of a feature",
+				"explanation": "Descriptor ফিচারের ইউনিক বৈশিষ্ট্যকে বর্ণনা করে।"
+			},
+			{
+				"id": 160,
+				"question": "Which process is used to align images from different perspectives?",
+				"options": [
+					"Image registration",
+					"Edge detection",
+					"Histogram equalization",
+					"Image smoothing"
+				],
+				"answer": "Image registration",
+				"explanation": "Image registration ছবিগুলো সঠিকভাবে মিলিয়ে নেয়।"
+			},
+			{
+				"id": 161,
+				"question": "Which of the following is used to detect corners in an image?",
+				"options": [
+					"Harris corner detector",
+					"Sobel filter",
+					"Gaussian filter",
+					"Median filter"
+				],
+				"answer": "Harris corner detector",
+				"explanation": "Harris corner detector ইমেজে কর্নার বা কোণ শনাক্ত করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 162,
+				"question": "What is the purpose of non-maximum suppression in edge detection?",
+				"options": [
+					"Thin edges to single pixel width",
+					"Increase noise",
+					"Blur image",
+					"Detect colors"
+				],
+				"answer": "Thin edges to single pixel width",
+				"explanation": "Non-maximum suppression এজগুলোকে পাতলা করে একটি পিক্সেল প্রশস্ত করে।"
+			},
+			{
+				"id": 163,
+				"question": "Which of these is an example of a morphological operation?",
+				"options": [
+					"Dilation",
+					"Fourier transform",
+					"Histogram equalization",
+					"Sobel filter"
+				],
+				"answer": "Dilation",
+				"explanation": "Dilation হলো একটি মৌরফোলজিক্যাল অপারেশন যা অবজেক্ট বড় করে।"
+			},
+			{
+				"id": 164,
+				"question": "Which of the following is a type of image interpolation?",
+				"options": [
+					"Nearest neighbor",
+					"Edge detection",
+					"Histogram equalization",
+					"Filtering"
+				],
+				"answer": "Nearest neighbor",
+				"explanation": "Nearest neighbor হলো একটি সহজ ইমেজ ইন্টারপোলেশন পদ্ধতি।"
+			},
+			{
+				"id": 165,
+				"question": "What is the primary goal of image thresholding?",
+				"options": [
+					"Convert image to binary",
+					"Compress image",
+					"Detect edges",
+					"Remove noise"
+				],
+				"answer": "Convert image to binary",
+				"explanation": "Thresholding ইমেজকে দুই রঙে (বাইনারি) রূপান্তর করে।"
+			},
+			{
+				"id": 166,
+				"question": "Which algorithm is commonly used for object detection in images?",
+				"options": [
+					"YOLO",
+					"FFT",
+					"PCA",
+					"K-means"
+				],
+				"answer": "YOLO",
+				"explanation": "YOLO (You Only Look Once) একটি দ্রুত ও জনপ্রিয় অবজেক্ট ডিটেকশন অ্যালগরিদম।"
+			},
+			{
+				"id": 167,
+				"question": "What does RGB stand for?",
+				"options": [
+					"Red Green Blue",
+					"Random Green Blue",
+					"Red Gray Black",
+					"Blue Green Red"
+				],
+				"answer": "Red Green Blue",
+				"explanation": "RGB হলো Red, Green, Blue কালারের সংক্ষিপ্ত রূপ।"
+			},
+			{
+				"id": 168,
+				"question": "Which of the following is used for color space conversion?",
+				"options": [
+					"HSV",
+					"RGB",
+					"CMYK",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "HSV, RGB ও CMYK বিভিন্ন কালার স্পেস।"
+			},
+			{
+				"id": 169,
+				"question": "Which of the following best describes image normalization?",
+				"options": [
+					"Adjusting pixel values to a common scale",
+					"Compressing image",
+					"Rotating image",
+					"Changing color channels"
+				],
+				"answer": "Adjusting pixel values to a common scale",
+				"explanation": "Normalization পিক্সেল মানগুলোকে একটি নির্দিষ্ট স্কেলে নিয়ে আসে।"
+			},
+			{
+				"id": 170,
+				"question": "Which of the following is an example of spatial domain processing?",
+				"options": [
+					"Filtering directly on pixels",
+					"Fourier transform",
+					"Wavelet transform",
+					"Histogram equalization"
+				],
+				"answer": "Filtering directly on pixels",
+				"explanation": "Spatial domain processing পিক্সেল ভিত্তিক অপারেশন।"
+			},
+			{
+				"id": 171,
+				"question": "Which of the following is an example of frequency domain processing?",
+				"options": [
+					"Fourier transform",
+					"Median filtering",
+					"Thresholding",
+					"Edge detection"
+				],
+				"answer": "Fourier transform",
+				"explanation": "Frequency domain processing এ ফ্রিকোয়েন্সি ভিত্তিক অপারেশন হয়।"
+			},
+			{
+				"id": 172,
+				"question": "Which of the following filters is linear?",
+				"options": [
+					"Mean filter",
+					"Median filter",
+					"Morphological filter",
+					"Non-linear filter"
+				],
+				"answer": "Mean filter",
+				"explanation": "Mean filter একটি লিনিয়ার ফিল্টার।"
+			},
+			{
+				"id": 173,
+				"question": "What is the primary purpose of image compression?",
+				"options": [
+					"Reduce file size",
+					"Enhance edges",
+					"Remove noise",
+					"Increase resolution"
+				],
+				"answer": "Reduce file size",
+				"explanation": "ইমেজ কম্প্রেশন ফাইল সাইজ কমায়।"
+			},
+			{
+				"id": 174,
+				"question": "Which of these is an example of lossless compression?",
+				"options": [
+					"PNG",
+					"JPEG",
+					"GIF",
+					"BMP"
+				],
+				"answer": "PNG",
+				"explanation": "PNG হলো লসলেস ইমেজ ফরম্যাট।"
+			},
+			{
+				"id": 175,
+				"question": "What is the main disadvantage of lossy compression?",
+				"options": [
+					"Loss of image quality",
+					"Large file size",
+					"Slow processing",
+					"No color support"
+				],
+				"answer": "Loss of image quality",
+				"explanation": "Lossy compression এ ইমেজের কিছু গুণগত মান হারানো যায়।"
+			},
+			{
+				"id": 176,
+				"question": "Which technique is used to detect motion in video frames?",
+				"options": [
+					"Optical flow",
+					"Histogram equalization",
+					"Edge detection",
+					"Image registration"
+				],
+				"answer": "Optical flow",
+				"explanation": "Optical flow ভিডিও ফ্রেমে গতির পরিমাপ করে।"
+			},
+			{
+				"id": 177,
+				"question": "What is the purpose of image binarization?",
+				"options": [
+					"Convert image to two colors",
+					"Enhance color",
+					"Compress image",
+					"Remove noise"
+				],
+				"answer": "Convert image to two colors",
+				"explanation": "Binarization ইমেজকে দুটি রঙে রূপান্তর করে।"
+			},
+			{
+				"id": 178,
+				"question": "What is a keypoint in image processing?",
+				"options": [
+					"Significant point used for matching",
+					"Pixel value",
+					"Filter type",
+					"Noise"
+				],
+				"answer": "Significant point used for matching",
+				"explanation": "Keypoint হলো একটি গুরুত্বপূর্ণ পয়েন্ট যা ছবি মিলানোর জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 179,
+				"question": "What is the role of padding in convolutional neural networks?",
+				"options": [
+					"Control spatial size of output",
+					"Increase noise",
+					"Remove features",
+					"Change color"
+				],
+				"answer": "Control spatial size of output",
+				"explanation": "Padding আউটপুটের সাইজ নিয়ন্ত্রণ করে।"
+			},
+			{
+				"id": 180,
+				"question": "What is the common input size for images in CNNs like VGG16?",
+				"options": [
+					"224x224",
+					"128x128",
+					"256x256",
+					"512x512"
+				],
+				"answer": "224x224",
+				"explanation": "VGG16 সাধারণত 224x224 সাইজের ছবি নেয়।"
+			},
+			{
+				"id": 181,
+				"question": "What is image super-resolution?",
+				"options": [
+					"Increasing image resolution from low-res images",
+					"Decreasing image size",
+					"Adding noise",
+					"Color correction"
+				],
+				"answer": "Increasing image resolution from low-res images",
+				"explanation": "Super-resolution ছোট রেজোলিউশনের ছবি থেকে বড় রেজোলিউশনের ছবি তৈরি করে।"
+			},
+			{
+				"id": 182,
+				"question": "What is the difference between max pooling and average pooling?",
+				"options": [
+					"Max pooling selects max value; average pooling takes average",
+					"Both are same",
+					"Max pooling averages; average pooling selects max",
+					"None of the above"
+				],
+				"answer": "Max pooling selects max value; average pooling takes average",
+				"explanation": "Max pooling সর্বোচ্চ মান নেয়, average pooling গড় নেয়।"
+			},
+			{
+				"id": 183,
+				"question": "Which color space is often used for skin detection?",
+				"options": [
+					"HSV",
+					"RGB",
+					"CMYK",
+					"Grayscale"
+				],
+				"answer": "HSV",
+				"explanation": "HSV রঙের স্থান ত্বকের রঙ সনাক্তকরণে কার্যকর।"
+			},
+			{
+				"id": 184,
+				"question": "What is the main use of the Fourier Transform in image processing?",
+				"options": [
+					"Analyze frequency components",
+					"Color enhancement",
+					"Edge detection",
+					"Noise removal"
+				],
+				"answer": "Analyze frequency components",
+				"explanation": "Fourier Transform ফ্রিকোয়েন্সি বিশ্লেষণে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 185,
+				"question": "Which technique is used to detect straight lines in images?",
+				"options": [
+					"Hough Transform",
+					"Canny Edge Detector",
+					"Sobel Filter",
+					"Median Filter"
+				],
+				"answer": "Hough Transform",
+				"explanation": "Hough Transform সরলরেখা শনাক্ত করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 186,
+				"question": "What does the acronym SIFT stand for?",
+				"options": [
+					"Scale Invariant Feature Transform",
+					"Simple Image Feature Tool",
+					"Signal Image Fourier Transform",
+					"None of the above"
+				],
+				"answer": "Scale Invariant Feature Transform",
+				"explanation": "SIFT একটি ফিচার এক্সট্রাকশন অ্যালগরিদম।"
+			},
+			{
+				"id": 187,
+				"question": "Which method helps in reducing overfitting in CNN models?",
+				"options": [
+					"Dropout",
+					"Pooling",
+					"Convolution",
+					"Normalization"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout নিউরনের কিছু অংশ বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 188,
+				"question": "What is the primary use of the RANSAC algorithm?",
+				"options": [
+					"Robust model fitting with outliers",
+					"Image compression",
+					"Color correction",
+					"Edge detection"
+				],
+				"answer": "Robust model fitting with outliers",
+				"explanation": "RANSAC আউটলাইয়ারসহ মডেল ফিটিংয়ের জন্য ব্যবহৃত।"
+			},
+			{
+				"id": 189,
+				"question": "What is the advantage of batch normalization in deep learning?",
+				"options": [
+					"Speeds up training and stabilizes learning",
+					"Reduces model size",
+					"Prevents noise",
+					"Enhances features"
+				],
+				"answer": "Speeds up training and stabilizes learning",
+				"explanation": "Batch normalization ট্রেনিং দ্রুততর ও স্থিতিশীল করে।"
+			},
+			{
+				"id": 190,
+				"question": "What is the effect of increasing the number of convolutional layers in CNN?",
+				"options": [
+					"Better feature extraction",
+					"Reduced computation",
+					"Loss of information",
+					"No effect"
+				],
+				"answer": "Better feature extraction",
+				"explanation": "অধিক লেয়ার গভীর বৈশিষ্ট্য ধরতে সাহায্য করে।"
+			},
+			{
+				"id": 191,
+				"question": "Which activation function outputs values between 0 and 1?",
+				"options": [
+					"Sigmoid",
+					"ReLU",
+					"Tanh",
+					"Softmax"
+				],
+				"answer": "Sigmoid",
+				"explanation": "Sigmoid ফাংশন আউটপুটকে 0 এবং 1 এর মধ্যে সীমাবদ্ধ করে।"
+			},
+			{
+				"id": 192,
+				"question": "What is the role of a kernel in convolution?",
+				"options": [
+					"Feature extraction",
+					"Noise addition",
+					"Color correction",
+					"Image resizing"
+				],
+				"answer": "Feature extraction",
+				"explanation": "Kernel ছবি থেকে বৈশিষ্ট্য বের করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 193,
+				"question": "Which of these is an example of data augmentation?",
+				"options": [
+					"Image rotation",
+					"Image compression",
+					"Image filtering",
+					"Histogram equalization"
+				],
+				"answer": "Image rotation",
+				"explanation": "Image rotation ডেটা অগমেন্টেশনের একটি উদাহরণ।"
+			},
+			{
+				"id": 194,
+				"question": "What is the primary use of the OpenCV library?",
+				"options": [
+					"Computer vision and image processing",
+					"Database management",
+					"Web development",
+					"Operating system"
+				],
+				"answer": "Computer vision and image processing",
+				"explanation": "OpenCV একটি জনপ্রিয় কম্পিউটার ভিশন ও ইমেজ প্রসেসিং লাইব্রেরি।"
+			},
+			{
+				"id": 195,
+				"question": "Which of the following is NOT a deep learning framework?",
+				"options": [
+					"TensorFlow",
+					"PyTorch",
+					"OpenCV",
+					"Keras"
+				],
+				"answer": "OpenCV",
+				"explanation": "OpenCV একটি ইমেজ প্রসেসিং লাইব্রেরি, ডিপ লার্নিং ফ্রেমওয়ার্ক নয়।"
+			},
+			{
+				"id": 196,
+				"question": "What does the term 'backpropagation' mean in CNN training?",
+				"options": [
+					"Updating weights using error gradients",
+					"Forward pass computation",
+					"Image preprocessing",
+					"Pooling operation"
+				],
+				"answer": "Updating weights using error gradients",
+				"explanation": "Backpropagation ত্রুটি ব্যবহার করে ওজন আপডেট করে।"
+			},
+			{
+				"id": 197,
+				"question": "Which optimizer is commonly used for training CNNs?",
+				"options": [
+					"Adam",
+					"SGD",
+					"RMSprop",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Adam, SGD, ও RMSprop জনপ্রিয় অপটিমাইজার।"
+			},
+			{
+				"id": 198,
+				"question": "What is a common loss function for multi-class image classification?",
+				"options": [
+					"Cross-entropy loss",
+					"Mean squared error",
+					"Hinge loss",
+					"Absolute error"
+				],
+				"answer": "Cross-entropy loss",
+				"explanation": "Cross-entropy loss মাল্টি-ক্লাস ক্লাসিফিকেশনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 199,
+				"question": "What is the purpose of dropout in neural networks?",
+				"options": [
+					"Prevent overfitting",
+					"Increase model size",
+					"Reduce noise",
+					"Enhance features"
+				],
+				"answer": "Prevent overfitting",
+				"explanation": "Dropout ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 200,
+				"question": "Which technique can improve CNN performance by reusing features?",
+				"options": [
+					"Residual connections (ResNet)",
+					"Pooling",
+					"Dropout",
+					"Batch normalization"
+				],
+				"answer": "Residual connections (ResNet)",
+				"explanation": "Residual connections গভীর নেটওয়ার্কে ফিচার পুনরায় ব্যবহার করে।"
+			}
+		],
+		"DeepLearning": [
+			{
+				"id": 1,
+				"question": "What is Deep Learning?",
+				"options": [
+					"A type of machine learning using neural networks with many layers",
+					"A type of database",
+					"A programming language",
+					"A hardware component"
+				],
+				"answer": "A type of machine learning using neural networks with many layers",
+				"explanation": "Deep Learning হলো গভীর নিউরাল নেটওয়ার্ক ব্যবহার করে শেখার একটি মেশিন লার্নিং পদ্ধতি।"
+			},
+			{
+				"id": 2,
+				"question": "Which of the following is a common activation function in deep learning?",
+				"options": [
+					"ReLU",
+					"Linear Regression",
+					"SVM",
+					"K-Means"
+				],
+				"answer": "ReLU",
+				"explanation": "ReLU (Rectified Linear Unit) হলো একটি জনপ্রিয় অ্যাক্টিভেশন ফাংশন।"
+			},
+			{
+				"id": 3,
+				"question": "What is an epoch in deep learning?",
+				"options": [
+					"One complete pass through the entire training dataset",
+					"A type of layer",
+					"A kind of optimizer",
+					"A loss function"
+				],
+				"answer": "One complete pass through the entire training dataset",
+				"explanation": "Epoch মানে হল পুরো ডেটাসেট দিয়ে একবার মডেল ট্রেন করা।"
+			},
+			{
+				"id": 4,
+				"question": "What does backpropagation do in neural networks?",
+				"options": [
+					"Updates weights using error gradients",
+					"Creates the neural network structure",
+					"Preprocesses the input data",
+					"Tests the model"
+				],
+				"answer": "Updates weights using error gradients",
+				"explanation": "Backpropagation হলো ত্রুটি ব্যবহার করে ওজন আপডেট করার প্রক্রিয়া।"
+			},
+			{
+				"id": 5,
+				"question": "What is overfitting in deep learning?",
+				"options": [
+					"When the model performs well on training data but poorly on new data",
+					"When the model is too simple",
+					"When the data is insufficient",
+					"When the loss is zero"
+				],
+				"answer": "When the model performs well on training data but poorly on new data",
+				"explanation": "ওভারফিটিং তখন ঘটে যখন মডেল প্রশিক্ষণ ডেটায় খুব ভাল করে কিন্তু নতুন ডেটায় খারাপ করে।"
+			},
+			{
+				"id": 6,
+				"question": "Which technique is used to prevent overfitting?",
+				"options": [
+					"Dropout",
+					"Gradient descent",
+					"Batch normalization",
+					"Data normalization"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout নিউরনের কিছু অংশ র‍্যান্ডমভাবে বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 7,
+				"question": "What is a convolutional neural network (CNN) mainly used for?",
+				"options": [
+					"Image and video processing",
+					"Text translation",
+					"Database querying",
+					"Sorting algorithms"
+				],
+				"answer": "Image and video processing",
+				"explanation": "CNN বিশেষভাবে ইমেজ এবং ভিডিও প্রসেসিংয়ে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 8,
+				"question": "What is the purpose of pooling layers in CNN?",
+				"options": [
+					"Reduce spatial size and computation",
+					"Increase image size",
+					"Add noise",
+					"Normalize data"
+				],
+				"answer": "Reduce spatial size and computation",
+				"explanation": "Pooling লেয়ার স্পেশাল সাইজ কমিয়ে কম্পিউটেশন সহজ করে।"
+			},
+			{
+				"id": 9,
+				"question": "Which optimizer is widely used in deep learning?",
+				"options": [
+					"Adam",
+					"KNN",
+					"SVM",
+					"Decision Tree"
+				],
+				"answer": "Adam",
+				"explanation": "Adam হলো জনপ্রিয় অপটিমাইজার যা দ্রুত ও কার্যকরী ট্রেনিং দেয়।"
+			},
+			{
+				"id": 10,
+				"question": "What is the role of an activation function in a neural network?",
+				"options": [
+					"Introduce non-linearity",
+					"Store data",
+					"Normalize input",
+					"Reduce model size"
+				],
+				"answer": "Introduce non-linearity",
+				"explanation": "অ্যাক্টিভেশন ফাংশন নন-লিনিয়ারিটি নিয়ে আসে যা মডেলকে জটিল প্যাটার্ন শিখতে সাহায্য করে।"
+			},
+			{
+				"id": 11,
+				"question": "What does the term 'gradient descent' mean?",
+				"options": [
+					"An optimization algorithm to minimize loss",
+					"A type of activation function",
+					"A regularization technique",
+					"A dataset"
+				],
+				"answer": "An optimization algorithm to minimize loss",
+				"explanation": "Gradient descent হলো একটি অপটিমাইজেশন এলগোরিদম যা লস ফাংশন মিনিমাইজ করে।"
+			},
+			{
+				"id": 12,
+				"question": "What is batch normalization?",
+				"options": [
+					"Technique to normalize layer inputs during training",
+					"A data augmentation method",
+					"A loss function",
+					"A type of pooling"
+				],
+				"answer": "Technique to normalize layer inputs during training",
+				"explanation": "Batch normalization ট্রেনিংয়ের সময় লেয়ারের ইনপুট স্বাভাবিক করে।"
+			},
+			{
+				"id": 13,
+				"question": "Which layer is typically the last in a classification neural network?",
+				"options": [
+					"Softmax layer",
+					"Pooling layer",
+					"Convolutional layer",
+					"Dropout layer"
+				],
+				"answer": "Softmax layer",
+				"explanation": "Softmax লেয়ার মাল্টি-ক্লাস আউটপুটের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 14,
+				"question": "What is the main advantage of using GPUs in deep learning?",
+				"options": [
+					"Parallel computation speeds up training",
+					"Cheaper than CPUs",
+					"Consumes less power",
+					"Stores more data"
+				],
+				"answer": "Parallel computation speeds up training",
+				"explanation": "GPU এর প্যারালাল প্রসেসিং দ্রুত মডেল ট্রেনিং করতে সাহায্য করে।"
+			},
+			{
+				"id": 15,
+				"question": "What is transfer learning?",
+				"options": [
+					"Using a pre-trained model on a new task",
+					"Training from scratch",
+					"Data augmentation technique",
+					"Model compression"
+				],
+				"answer": "Using a pre-trained model on a new task",
+				"explanation": "ট্রান্সফার লার্নিং হলো পূর্বে ট্রেন করা মডেলকে নতুন কাজের জন্য ব্যবহার করা।"
+			},
+			{
+				"id": 16,
+				"question": "What is a recurrent neural network (RNN) mainly used for?",
+				"options": [
+					"Sequential data like time series and text",
+					"Image classification",
+					"Clustering",
+					"Reinforcement learning"
+				],
+				"answer": "Sequential data like time series and text",
+				"explanation": "RNN সিরিয়াল ডেটা যেমন টেক্সট ও টাইম সিরিজের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 17,
+				"question": "What problem does the vanishing gradient issue cause?",
+				"options": [
+					"Slow or no learning in deep layers",
+					"Overfitting",
+					"Data imbalance",
+					"Model size increase"
+				],
+				"answer": "Slow or no learning in deep layers",
+				"explanation": "Vanishing gradient ডিপ লেয়ারগুলোতে লার্নিং ধীর বা থেমে যায়।"
+			},
+			{
+				"id": 18,
+				"question": "Which activation function can help reduce vanishing gradient problems?",
+				"options": [
+					"ReLU",
+					"Sigmoid",
+					"Tanh",
+					"Softmax"
+				],
+				"answer": "ReLU",
+				"explanation": "ReLU গ্র্যাডিয়েন্ট ভ্যানিশিং সমস্যাকে কমাতে সাহায্য করে।"
+			},
+			{
+				"id": 19,
+				"question": "What is the purpose of dropout layer?",
+				"options": [
+					"Prevent overfitting by randomly dropping neurons during training",
+					"Increase network depth",
+					"Reduce training time",
+					"Enhance data"
+				],
+				"answer": "Prevent overfitting by randomly dropping neurons during training",
+				"explanation": "Dropout প্রশিক্ষণের সময় নিউরনের কিছু অংশ বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 20,
+				"question": "Which loss function is commonly used for regression problems?",
+				"options": [
+					"Mean Squared Error (MSE)",
+					"Cross-entropy",
+					"Hinge loss",
+					"Categorical loss"
+				],
+				"answer": "Mean Squared Error (MSE)",
+				"explanation": "MSE রিগ্রেশন সমস্যার জন্য সবচেয়ে জনপ্রিয় লস ফাংশন।"
+			},
+			{
+				"id": 21,
+				"question": "What is an autoencoder?",
+				"options": [
+					"A network used for unsupervised learning and data compression",
+					"A classification network",
+					"A reinforcement learning model",
+					"A type of optimizer"
+				],
+				"answer": "A network used for unsupervised learning and data compression",
+				"explanation": "অটোএনকোডার ডেটা কম্প্রেশন ও ফিচার লার্নিংয়ের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 22,
+				"question": "What does 'learning rate' control in training?",
+				"options": [
+					"Step size during weight updates",
+					"Size of the dataset",
+					"Number of layers",
+					"Activation output"
+				],
+				"answer": "Step size during weight updates",
+				"explanation": "লার্নিং রেট ওজন আপডেটের ধাপের আকার নির্ধারণ করে।"
+			},
+			{
+				"id": 23,
+				"question": "What is early stopping?",
+				"options": [
+					"Stopping training when validation loss stops improving",
+					"Increasing epochs",
+					"Adding more layers",
+					"Changing optimizer"
+				],
+				"answer": "Stopping training when validation loss stops improving",
+				"explanation": "ভ্যালিডেশন লস না বাড়ার সময় ট্রেনিং বন্ধ করা হয়।"
+			},
+			{
+				"id": 24,
+				"question": "What is the shape of input data for fully connected layers?",
+				"options": [
+					"Flattened 1D vector",
+					"2D image",
+					"3D volume",
+					"None"
+				],
+				"answer": "Flattened 1D vector",
+				"explanation": "ফুলি কানেক্টেড লেয়ারে ইনপুট সাধারণত ১ডি ভেক্টর হয়।"
+			},
+			{
+				"id": 25,
+				"question": "Which of the following is a popular deep learning framework?",
+				"options": [
+					"TensorFlow",
+					"MySQL",
+					"React",
+					"Django"
+				],
+				"answer": "TensorFlow",
+				"explanation": "TensorFlow হলো জনপ্রিয় ডিপ লার্নিং ফ্রেমওয়ার্ক।"
+			},
+			{
+				"id": 26,
+				"question": "What is a disadvantage of very deep neural networks?",
+				"options": [
+					"Vanishing gradients and overfitting",
+					"Too fast training",
+					"Lack of data",
+					"Easy interpretation"
+				],
+				"answer": "Vanishing gradients and overfitting",
+				"explanation": "অত্যন্ত গভীর নেটওয়ার্কে গ্র্যাডিয়েন্ট ভ্যানিশিং ও ওভারফিটিং সমস্যা দেখা দেয়।"
+			},
+			{
+				"id": 27,
+				"question": "Which is NOT a type of neural network?",
+				"options": [
+					"Decision Tree",
+					"CNN",
+					"RNN",
+					"GAN"
+				],
+				"answer": "Decision Tree",
+				"explanation": "Decision Tree একটি মেশিন লার্নিং মডেল, নিউরাল নেটওয়ার্ক নয়।"
+			},
+			{
+				"id": 28,
+				"question": "What is the use of the Softmax function?",
+				"options": [
+					"Convert logits to probabilities",
+					"Reduce loss",
+					"Normalize data",
+					"Add non-linearity"
+				],
+				"answer": "Convert logits to probabilities",
+				"explanation": "Softmax লজিটস থেকে সম্ভাবনা বের করে।"
+			},
+			{
+				"id": 29,
+				"question": "Which of the following is a generative model?",
+				"options": [
+					"GAN",
+					"SVM",
+					"KNN",
+					"Linear regression"
+				],
+				"answer": "GAN",
+				"explanation": "GAN (Generative Adversarial Network) একটি জেনারেটিভ মডেল।"
+			},
+			{
+				"id": 30,
+				"question": "What is reinforcement learning?",
+				"options": [
+					"Learning via rewards and punishments",
+					"Supervised learning",
+					"Unsupervised learning",
+					"Data preprocessing"
+				],
+				"answer": "Learning via rewards and punishments",
+				"explanation": "Reinforcement learning এ এজেন্ট পরিবেশ থেকে পুরস্কার পেয়ে শেখে।"
+			},
+			{
+				"id": 31,
+				"question": "Which technique is commonly used to initialize weights in deep networks?",
+				"options": [
+					"Xavier initialization",
+					"Random sampling",
+					"Zeros initialization",
+					"Mean initialization"
+				],
+				"answer": "Xavier initialization",
+				"explanation": "Xavier initialization ওজন ভালোভাবে শুরু করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 32,
+				"question": "What is gradient clipping?",
+				"options": [
+					"Limiting gradients to prevent exploding gradients",
+					"Increasing gradient size",
+					"Reducing learning rate",
+					"Adding noise"
+				],
+				"answer": "Limiting gradients to prevent exploding gradients",
+				"explanation": "Gradient clipping বড় গ্র্যাডিয়েন্ট কমাতে ব্যবহার হয়।"
+			},
+			{
+				"id": 33,
+				"question": "Which of these is a popular loss function for binary classification?",
+				"options": [
+					"Binary cross-entropy",
+					"Mean squared error",
+					"Hinge loss",
+					"Softmax"
+				],
+				"answer": "Binary cross-entropy",
+				"explanation": "Binary cross-entropy বাইনারি ক্লাসিফিকেশনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 34,
+				"question": "Which deep learning model is best for natural language processing?",
+				"options": [
+					"RNN and Transformer",
+					"CNN",
+					"GAN",
+					"Autoencoder"
+				],
+				"answer": "RNN and Transformer",
+				"explanation": "RNN এবং Transformer NLP এর জন্য উপযুক্ত।"
+			},
+			{
+				"id": 35,
+				"question": "What is the main idea behind Generative Adversarial Networks (GANs)?",
+				"options": [
+					"Two networks competing: generator vs discriminator",
+					"Single network training",
+					"Data augmentation",
+					"Loss minimization"
+				],
+				"answer": "Two networks competing: generator vs discriminator",
+				"explanation": "GAN এ দুটি নেটওয়ার্ক পরস্পরের বিরুদ্ধে প্রতিযোগিতা করে।"
+			},
+			{
+				"id": 36,
+				"question": "Which layer reduces the number of parameters drastically in CNN?",
+				"options": [
+					"Pooling layer",
+					"Convolutional layer",
+					"Fully connected layer",
+					"Dropout layer"
+				],
+				"answer": "Pooling layer",
+				"explanation": "Pooling লেয়ার প্যারামিটার সংখ্যা কমায়।"
+			},
+			{
+				"id": 37,
+				"question": "What does LSTM stand for?",
+				"options": [
+					"Long Short-Term Memory",
+					"Linear State Transfer Model",
+					"Layered Stochastic Training Method",
+					"None of the above"
+				],
+				"answer": "Long Short-Term Memory",
+				"explanation": "LSTM হলো একটি RNN ধরনের যা দীর্ঘমেয়াদী তথ্য রাখে।"
+			},
+			{
+				"id": 38,
+				"question": "What is the purpose of an embedding layer?",
+				"options": [
+					"Convert categorical data to dense vectors",
+					"Normalize data",
+					"Reduce image size",
+					"Perform classification"
+				],
+				"answer": "Convert categorical data to dense vectors",
+				"explanation": "Embedding ক্যাটেগরিক্যাল ডেটাকে ভেক্টরে রূপান্তর করে।"
+			},
+			{
+				"id": 39,
+				"question": "Which technique helps in making neural networks more interpretable?",
+				"options": [
+					"Attention mechanism",
+					"Dropout",
+					"Pooling",
+					"Batch normalization"
+				],
+				"answer": "Attention mechanism",
+				"explanation": "Attention মেকানিজম নেটওয়ার্ককে আরো ব্যাখ্যাযোগ্য করে।"
+			},
+			{
+				"id": 40,
+				"question": "What is the main challenge of training GANs?",
+				"options": [
+					"Mode collapse",
+					"Slow convergence",
+					"Overfitting",
+					"Vanishing gradients"
+				],
+				"answer": "Mode collapse",
+				"explanation": "GAN ট্রেনিংয়ে মোড কল্যাপস একটি প্রধান সমস্যা।"
+			},
+			{
+				"id": 41,
+				"question": "What is the difference between supervised and unsupervised learning?",
+				"options": [
+					"Supervised learning uses labeled data; unsupervised does not",
+					"Both are same",
+					"Supervised uses no labels",
+					"Unsupervised needs labeled data"
+				],
+				"answer": "Supervised learning uses labeled data; unsupervised does not",
+				"explanation": "সুপারভাইজড লার্নিং লেবেল্ড ডেটা ব্যবহার করে, আনসুপারভাইজড করে না।"
+			},
+			{
+				"id": 42,
+				"question": "Which of these is NOT an example of unsupervised learning?",
+				"options": [
+					"Linear regression",
+					"Clustering",
+					"Dimensionality reduction",
+					"Autoencoders"
+				],
+				"answer": "Linear regression",
+				"explanation": "Linear regression একটি সুপারভাইজড লার্নিং পদ্ধতি।"
+			},
+			{
+				"id": 43,
+				"question": "What is the main purpose of dropout during training?",
+				"options": [
+					"Regularization to prevent overfitting",
+					"Increase training speed",
+					"Reduce dataset size",
+					"Normalize inputs"
+				],
+				"answer": "Regularization to prevent overfitting",
+				"explanation": "Dropout ওভারফিটিং প্রতিরোধের জন্য রেগুলারাইজেশন দেয়।"
+			},
+			{
+				"id": 44,
+				"question": "Which technique is commonly used to improve generalization?",
+				"options": [
+					"Data augmentation",
+					"Decreasing layers",
+					"Increasing batch size",
+					"Reducing epochs"
+				],
+				"answer": "Data augmentation",
+				"explanation": "ডেটা অগমেন্টেশন সাধারণীকরণ উন্নত করে।"
+			},
+			{
+				"id": 45,
+				"question": "Which method is used for hyperparameter tuning?",
+				"options": [
+					"Grid search",
+					"Backpropagation",
+					"Batch normalization",
+					"Pooling"
+				],
+				"answer": "Grid search",
+				"explanation": "Grid search বিভিন্ন হাইপারপ্যারামিটার পরীক্ষা করে সেরা পায়।"
+			},
+			{
+				"id": 46,
+				"question": "What is a neural network's 'hidden layer'?",
+				"options": [
+					"Layers between input and output layers",
+					"Input data layer",
+					"Output layer",
+					"Data preprocessing step"
+				],
+				"answer": "Layers between input and output layers",
+				"explanation": "Hidden layers ইনপুট ও আউটপুটের মাঝে থাকে।"
+			},
+			{
+				"id": 47,
+				"question": "Which optimizer adapts the learning rate during training?",
+				"options": [
+					"Adam",
+					"SGD",
+					"Gradient Descent",
+					"RMSProp"
+				],
+				"answer": "Adam",
+				"explanation": "Adam অপটিমাইজার লার্নিং রেট স্বয়ংক্রিয়ভাবে সামঞ্জস্য করে।"
+			},
+			{
+				"id": 48,
+				"question": "What does 'vanishing gradient' affect most?",
+				"options": [
+					"Deep neural networks during training",
+					"Data preprocessing",
+					"Output layer only",
+					"Loss function"
+				],
+				"answer": "Deep neural networks during training",
+				"explanation": "Vanishing gradient ডিপ লেয়ার ট্রেনিং প্রভাবিত করে।"
+			},
+			{
+				"id": 49,
+				"question": "Which of the following is NOT a neural network layer?",
+				"options": [
+					"Decision Tree",
+					"Convolutional Layer",
+					"Recurrent Layer",
+					"Fully Connected Layer"
+				],
+				"answer": "Decision Tree",
+				"explanation": "Decision Tree একটি আলাদা মেশিন লার্নিং মডেল।"
+			},
+			{
+				"id": 50,
+				"question": "What is the purpose of the loss function?",
+				"options": [
+					"Measure difference between prediction and true value",
+					"Update weights",
+					"Normalize inputs",
+					"Augment data"
+				],
+				"answer": "Measure difference between prediction and true value",
+				"explanation": "Loss function প্রেডিকশন ও আসল মানের পার্থক্য মাপে।"
+			},
+			{
+				"id": 51,
+				"question": "What is the vanishing gradient problem?",
+				"options": [
+					"Gradients become very small in deep networks making training difficult",
+					"Gradients become too large causing instability",
+					"Loss function becomes zero",
+					"Weights become constant"
+				],
+				"answer": "Gradients become very small in deep networks making training difficult",
+				"explanation": "Vanishing gradient সমস্যা হলো গভীর নেটওয়ার্কে গ্র্যাডিয়েন্ট খুব ছোট হয়ে যাওয়া যা ট্রেনিংকে কঠিন করে।"
+			},
+			{
+				"id": 52,
+				"question": "What is the exploding gradient problem?",
+				"options": [
+					"Gradients become excessively large causing unstable training",
+					"Gradients vanish to zero",
+					"Model accuracy decreases",
+					"Data normalization issue"
+				],
+				"answer": "Gradients become excessively large causing unstable training",
+				"explanation": "Exploding gradient হলো যখন গ্র্যাডিয়েন্ট খুব বড় হয়ে ট্রেনিং অনিয়ন্ত্রিত হয়।"
+			},
+			{
+				"id": 53,
+				"question": "Which technique helps to handle exploding gradients?",
+				"options": [
+					"Gradient clipping",
+					"Batch normalization",
+					"Data augmentation",
+					"Pooling"
+				],
+				"answer": "Gradient clipping",
+				"explanation": "Gradient clipping গ্র্যাডিয়েন্টের বড় মান সীমাবদ্ধ করে ট্রেনিং স্থিতিশীল করে।"
+			},
+			{
+				"id": 54,
+				"question": "Which of these is a recurrent neural network variant designed to solve vanishing gradient?",
+				"options": [
+					"LSTM",
+					"CNN",
+					"GAN",
+					"Autoencoder"
+				],
+				"answer": "LSTM",
+				"explanation": "LSTM দীর্ঘমেয়াদী নির্ভরতা শিখতে এবং ভ্যানিশিং গ্র্যাডিয়েন্ট সমস্যা কমাতে ডিজাইন করা।"
+			},
+			{
+				"id": 55,
+				"question": "What does the term 'epoch' refer to in deep learning?",
+				"options": [
+					"One complete pass through the training dataset",
+					"Number of neurons",
+					"Type of optimizer",
+					"Layer type"
+				],
+				"answer": "One complete pass through the training dataset",
+				"explanation": "Epoch হলো সম্পূর্ণ ট্রেনিং ডেটাসেট দিয়ে একবার মডেল ট্রেন করার সময়কাল।"
+			},
+			{
+				"id": 56,
+				"question": "What is the difference between training and validation datasets?",
+				"options": [
+					"Training data used for learning; validation for performance evaluation",
+					"Both are same",
+					"Validation data is larger",
+					"Validation data is unlabeled"
+				],
+				"answer": "Training data used for learning; validation for performance evaluation",
+				"explanation": "Training ডেটা মডেল শেখায়, validation ডেটা মডেল পরীক্ষা করে।"
+			},
+			{
+				"id": 57,
+				"question": "Which method can be used to augment image data?",
+				"options": [
+					"Rotation, flipping, cropping",
+					"Data normalization",
+					"Pooling",
+					"Dropout"
+				],
+				"answer": "Rotation, flipping, cropping",
+				"explanation": "Rotation, flipping ও cropping ডেটা অগমেন্টেশনের উদাহরণ।"
+			},
+			{
+				"id": 58,
+				"question": "What is the purpose of the learning rate in training?",
+				"options": [
+					"Control the step size for weight updates",
+					"Normalize inputs",
+					"Reduce overfitting",
+					"Increase dataset size"
+				],
+				"answer": "Control the step size for weight updates",
+				"explanation": "লার্নিং রেট ওজন আপডেটের ধাপের আকার নিয়ন্ত্রণ করে।"
+			},
+			{
+				"id": 59,
+				"question": "Which of these is NOT an optimizer?",
+				"options": [
+					"PCA",
+					"Adam",
+					"SGD",
+					"RMSProp"
+				],
+				"answer": "PCA",
+				"explanation": "PCA ডাইমেনশনালিটি রিডাকশনের জন্য, অপটিমাইজার নয়।"
+			},
+			{
+				"id": 60,
+				"question": "What does dropout do during training?",
+				"options": [
+					"Randomly disables neurons to prevent overfitting",
+					"Increases learning rate",
+					"Adds noise to input",
+					"Normalizes output"
+				],
+				"answer": "Randomly disables neurons to prevent overfitting",
+				"explanation": "Dropout ট্রেনিংয়ের সময় কিছু নিউরন র্যান্ডমলি বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 61,
+				"question": "What is the role of an embedding layer?",
+				"options": [
+					"Convert categorical variables into dense vectors",
+					"Normalize images",
+					"Perform convolution",
+					"Reduce dimensionality"
+				],
+				"answer": "Convert categorical variables into dense vectors",
+				"explanation": "Embedding লেয়ার ক্যাটেগরিক্যাল ডেটাকে ভেক্টরে রূপান্তর করে।"
+			},
+			{
+				"id": 62,
+				"question": "What is a hyperparameter?",
+				"options": [
+					"Parameter set before training like learning rate or epochs",
+					"Weights learned during training",
+					"Input data",
+					"Loss function"
+				],
+				"answer": "Parameter set before training like learning rate or epochs",
+				"explanation": "হাইপারপ্যারামিটার হল সেই মান যা ট্রেনিংয়ের আগে নির্ধারণ করা হয়।"
+			},
+			{
+				"id": 63,
+				"question": "What is gradient descent used for?",
+				"options": [
+					"Minimize the loss function",
+					"Increase model complexity",
+					"Normalize data",
+					"Augment data"
+				],
+				"answer": "Minimize the loss function",
+				"explanation": "গ্র্যাডিয়েন্ট ডিসেন্ট লস ফাংশন কমানোর জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 64,
+				"question": "Which layer is used to reduce the spatial dimensions of input?",
+				"options": [
+					"Pooling layer",
+					"Dense layer",
+					"Dropout layer",
+					"Activation layer"
+				],
+				"answer": "Pooling layer",
+				"explanation": "Pooling লেয়ার স্পেশাল ডাইমেনশন কমায়।"
+			},
+			{
+				"id": 65,
+				"question": "What is the main benefit of batch normalization?",
+				"options": [
+					"Stabilize and speed up training",
+					"Increase dataset size",
+					"Reduce model size",
+					"Add noise to data"
+				],
+				"answer": "Stabilize and speed up training",
+				"explanation": "Batch normalization ট্রেনিং স্থিতিশীল ও দ্রুত করে।"
+			},
+			{
+				"id": 66,
+				"question": "What is the purpose of the activation function?",
+				"options": [
+					"Add non-linearity to the network",
+					"Normalize data",
+					"Reduce training time",
+					"Increase data size"
+				],
+				"answer": "Add non-linearity to the network",
+				"explanation": "অ্যাক্টিভেশন ফাংশন নেটওয়ার্কে নন-লিনিয়ারিটি আনে।"
+			},
+			{
+				"id": 67,
+				"question": "Which activation function outputs values between 0 and 1?",
+				"options": [
+					"Sigmoid",
+					"ReLU",
+					"Tanh",
+					"Softmax"
+				],
+				"answer": "Sigmoid",
+				"explanation": "Sigmoid ফাংশন আউটপুটকে ০ থেকে ১ এর মধ্যে সীমাবদ্ধ করে।"
+			},
+			{
+				"id": 68,
+				"question": "Which activation function outputs values between -1 and 1?",
+				"options": [
+					"Tanh",
+					"ReLU",
+					"Sigmoid",
+					"Softmax"
+				],
+				"answer": "Tanh",
+				"explanation": "Tanh ফাংশন আউটপুটকে -1 থেকে 1 এর মধ্যে সীমাবদ্ধ করে।"
+			},
+			{
+				"id": 69,
+				"question": "What is the difference between supervised and unsupervised learning?",
+				"options": [
+					"Supervised uses labeled data; unsupervised uses unlabeled data",
+					"Both use labeled data",
+					"Both use unlabeled data",
+					"None of the above"
+				],
+				"answer": "Supervised uses labeled data; unsupervised uses unlabeled data",
+				"explanation": "সুপারভাইজড লার্নিং লেবেলড ডেটা ব্যবহার করে, আনসুপারভাইজড ব্যবহার করে না।"
+			},
+			{
+				"id": 70,
+				"question": "Which neural network is best suited for sequential data?",
+				"options": [
+					"Recurrent Neural Network (RNN)",
+					"Convolutional Neural Network (CNN)",
+					"Feedforward Neural Network",
+					"GAN"
+				],
+				"answer": "Recurrent Neural Network (RNN)",
+				"explanation": "RNN টাইম সিরিজ বা সিকুয়েন্সিয়াল ডেটার জন্য উপযুক্ত।"
+			},
+			{
+				"id": 71,
+				"question": "What does LSTM stand for?",
+				"options": [
+					"Long Short-Term Memory",
+					"Large Scale Training Model",
+					"Linear Sequential Time Model",
+					"Layered Simple Tensor Model"
+				],
+				"answer": "Long Short-Term Memory",
+				"explanation": "LSTM হলো RNN এর একটি ধরন যা দীর্ঘমেয়াদী নির্ভরতা ধরতে পারে।"
+			},
+			{
+				"id": 72,
+				"question": "What is the main idea of transfer learning?",
+				"options": [
+					"Use a pre-trained model on a new task",
+					"Train a model from scratch",
+					"Increase dataset size",
+					"Augment data"
+				],
+				"answer": "Use a pre-trained model on a new task",
+				"explanation": "ট্রান্সফার লার্নিং হলো পূর্বে ট্রেন করা মডেলকে নতুন কাজে ব্যবহার করা।"
+			},
+			{
+				"id": 73,
+				"question": "What is an autoencoder?",
+				"options": [
+					"A network used for data compression and reconstruction",
+					"A classification network",
+					"A clustering algorithm",
+					"A reinforcement learning agent"
+				],
+				"answer": "A network used for data compression and reconstruction",
+				"explanation": "অটোএনকোডার ডেটা কম্প্রেশন ও রিকনস্ট্রাকশনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 74,
+				"question": "Which loss function is used for multi-class classification?",
+				"options": [
+					"Categorical cross-entropy",
+					"Mean squared error",
+					"Binary cross-entropy",
+					"Hinge loss"
+				],
+				"answer": "Categorical cross-entropy",
+				"explanation": "মাল্টি-ক্লাস ক্লাসিফিকেশনের জন্য ক্যাটেগরিক্যাল ক্রস-এন্ট্রপি ব্যবহৃত হয়।"
+			},
+			{
+				"id": 75,
+				"question": "What is the role of the softmax function?",
+				"options": [
+					"Convert logits to probabilities summing to 1",
+					"Normalize inputs",
+					"Reduce overfitting",
+					"Add non-linearity"
+				],
+				"answer": "Convert logits to probabilities summing to 1",
+				"explanation": "Softmax লজিট থেকে সম্ভাবনা হিসাব করে যা মোট ১ হয়।"
+			},
+			{
+				"id": 76,
+				"question": "What is a Generative Adversarial Network (GAN)?",
+				"options": [
+					"Two networks competing to generate realistic data",
+					"A type of CNN",
+					"A data augmentation method",
+					"A supervised learning model"
+				],
+				"answer": "Two networks competing to generate realistic data",
+				"explanation": "GAN দুইটি নেটওয়ার্কের প্রতিদ্বন্দ্বিতা যা বাস্তবসম্মত ডেটা তৈরি করে।"
+			},
+			{
+				"id": 77,
+				"question": "Which of the following helps in reducing overfitting?",
+				"options": [
+					"Dropout",
+					"Increasing epochs",
+					"Using smaller datasets",
+					"Removing activation functions"
+				],
+				"answer": "Dropout",
+				"explanation": "Dropout ওভারফিটিং কমাতে নিউরন বন্ধ করে।"
+			},
+			{
+				"id": 78,
+				"question": "What is the purpose of batch size?",
+				"options": [
+					"Number of samples processed before updating the model",
+					"Number of epochs",
+					"Number of layers",
+					"Number of features"
+				],
+				"answer": "Number of samples processed before updating the model",
+				"explanation": "Batch size হলো ওজন আপডেটের আগে ব্যবহৃত স্যাম্পল সংখ্যা।"
+			},
+			{
+				"id": 79,
+				"question": "Which deep learning framework is developed by Google?",
+				"options": [
+					"TensorFlow",
+					"PyTorch",
+					"Keras",
+					"Caffe"
+				],
+				"answer": "TensorFlow",
+				"explanation": "TensorFlow গুগল কর্তৃক তৈরি জনপ্রিয় ফ্রেমওয়ার্ক।"
+			},
+			{
+				"id": 80,
+				"question": "What is the difference between Keras and TensorFlow?",
+				"options": [
+					"Keras is a high-level API running on top of TensorFlow",
+					"Both are same",
+					"TensorFlow is high-level API",
+					"None of the above"
+				],
+				"answer": "Keras is a high-level API running on top of TensorFlow",
+				"explanation": "Keras TensorFlow এর উপরে একটি সহজ API।"
+			},
+			{
+				"id": 81,
+				"question": "Which of these is used for hyperparameter tuning?",
+				"options": [
+					"Grid search",
+					"Backpropagation",
+					"Data normalization",
+					"Batch normalization"
+				],
+				"answer": "Grid search",
+				"explanation": "Grid search বিভিন্ন হাইপারপ্যারামিটার পরীক্ষা করে সেরা সেট পায়।"
+			},
+			{
+				"id": 82,
+				"question": "Which type of neural network is best for image data?",
+				"options": [
+					"Convolutional Neural Network (CNN)",
+					"Recurrent Neural Network (RNN)",
+					"Feedforward Neural Network",
+					"Transformer"
+				],
+				"answer": "Convolutional Neural Network (CNN)",
+				"explanation": "CNN ইমেজ ডেটা প্রসেসিংয়ে বিশেষ উপযোগী।"
+			},
+			{
+				"id": 83,
+				"question": "What is an attention mechanism?",
+				"options": [
+					"Technique to focus on important parts of input",
+					"Data augmentation method",
+					"Normalization technique",
+					"Loss function"
+				],
+				"answer": "Technique to focus on important parts of input",
+				"explanation": "অ্যাটেনশন গুরুত্বপূর্ণ ইনপুট অংশে ফোকাস দেয়।"
+			},
+			{
+				"id": 84,
+				"question": "Which neural network is widely used in natural language processing?",
+				"options": [
+					"RNN and Transformer",
+					"CNN",
+					"GAN",
+					"Autoencoder"
+				],
+				"answer": "RNN and Transformer",
+				"explanation": "RNN ও Transformer NLP কাজে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 85,
+				"question": "What does the term 'epoch' mean?",
+				"options": [
+					"One full pass over the training data",
+					"Number of neurons",
+					"Size of dataset",
+					"Loss value"
+				],
+				"answer": "One full pass over the training data",
+				"explanation": "Epoch হলো ডেটাসেটের এক সম্পূর্ণ ট্রেনিং।"
+			},
+			{
+				"id": 86,
+				"question": "What is the benefit of using GPUs in deep learning?",
+				"options": [
+					"Faster parallel computation",
+					"Cheaper than CPUs",
+					"Lower power consumption",
+					"Simpler programming"
+				],
+				"answer": "Faster parallel computation",
+				"explanation": "GPU প্যারালাল প্রসেসিংয়ে দ্রুততর ট্রেনিং দেয়।"
+			},
+			{
+				"id": 87,
+				"question": "What is a hyperparameter tuning?",
+				"options": [
+					"Process of finding best parameters like learning rate, batch size",
+					"Training weights",
+					"Data augmentation",
+					"Loss calculation"
+				],
+				"answer": "Process of finding best parameters like learning rate, batch size",
+				"explanation": "হাইপারপ্যারামিটার টিউনিং হলো সেরা প্যারামিটার খোঁজার প্রক্রিয়া।"
+			},
+			{
+				"id": 88,
+				"question": "What is the purpose of early stopping?",
+				"options": [
+					"Stop training when validation loss stops improving",
+					"Increase training epochs",
+					"Add more layers",
+					"Change optimizer"
+				],
+				"answer": "Stop training when validation loss stops improving",
+				"explanation": "ভ্যালিডেশন লস বাড়া বন্ধ হলে ট্রেনিং থামানো হয়।"
+			},
+			{
+				"id": 89,
+				"question": "What is the function of the optimizer in deep learning?",
+				"options": [
+					"Update model parameters to minimize loss",
+					"Initialize weights",
+					"Normalize inputs",
+					"Augment data"
+				],
+				"answer": "Update model parameters to minimize loss",
+				"explanation": "অপটিমাইজার মডেল প্যারামিটার আপডেট করে লস কমায়।"
+			},
+			{
+				"id": 90,
+				"question": "What does the term 'overfitting' mean?",
+				"options": [
+					"Model performs well on training data but poorly on unseen data",
+					"Model performs well on all data",
+					"Model underperforms on training data",
+					"Model is too simple"
+				],
+				"answer": "Model performs well on training data but poorly on unseen data",
+				"explanation": "ওভারফিটিং হলো যখন মডেল শুধু ট্রেনিং ডেটায় ভাল কাজ করে।"
+			},
+			{
+				"id": 91,
+				"question": "What is data normalization?",
+				"options": [
+					"Scaling data to a standard range",
+					"Augmenting data",
+					"Reducing data size",
+					"Removing missing values"
+				],
+				"answer": "Scaling data to a standard range",
+				"explanation": "ডেটা নরমালাইজেশন ডেটাকে একটি নির্দিষ্ট সীমায় আনে।"
+			},
+			{
+				"id": 92,
+				"question": "What is the main use of a convolutional layer?",
+				"options": [
+					"Extract spatial features from images",
+					"Reduce dimensionality",
+					"Normalize data",
+					"Update weights"
+				],
+				"answer": "Extract spatial features from images",
+				"explanation": "কনভলিউশনাল লেয়ার ইমেজ থেকে ফিচার বের করে।"
+			},
+			{
+				"id": 93,
+				"question": "What is a fully connected (dense) layer?",
+				"options": [
+					"Layer where every neuron connects to every neuron in previous layer",
+					"Layer that reduces spatial size",
+					"Layer that normalizes data",
+					"Layer that performs convolution"
+				],
+				"answer": "Layer where every neuron connects to every neuron in previous layer",
+				"explanation": "ফুলি কানেক্টেড লেয়ারে প্রতিটি নিউরন পূর্ববর্তী লেয়ারের প্রতিটি নিউরনের সাথে যুক্ত থাকে।"
+			},
+			{
+				"id": 94,
+				"question": "What is the main purpose of data augmentation?",
+				"options": [
+					"Increase dataset size and diversity",
+					"Reduce dataset size",
+					"Normalize data",
+					"Reduce overfitting"
+				],
+				"answer": "Increase dataset size and diversity",
+				"explanation": "ডেটা অগমেন্টেশন ডেটাসেট বড় ও বৈচিত্র্যময় করে।"
+			},
+			{
+				"id": 95,
+				"question": "What is a tensor?",
+				"options": [
+					"Multi-dimensional array",
+					"Scalar value",
+					"Single neuron",
+					"Activation function"
+				],
+				"answer": "Multi-dimensional array",
+				"explanation": "টেনসর হলো মাল্টি-ডাইমেনশনাল অ্যারে।"
+			},
+			{
+				"id": 96,
+				"question": "Which of the following is a type of regularization?",
+				"options": [
+					"L2 regularization",
+					"Batch normalization",
+					"Pooling",
+					"Convolution"
+				],
+				"answer": "L2 regularization",
+				"explanation": "L2 regularization ওভারফিটিং কমাতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 97,
+				"question": "What does the term 'bias' mean in neural networks?",
+				"options": [
+					"Additional parameter added to weighted sum before activation",
+					"Type of activation",
+					"Input data",
+					"Loss function"
+				],
+				"answer": "Additional parameter added to weighted sum before activation",
+				"explanation": "Bias হলো ওজনের পরিমাণে যোগ করা অতিরিক্ত প্যারামিটার।"
+			},
+			{
+				"id": 98,
+				"question": "What is the purpose of the validation dataset?",
+				"options": [
+					"Evaluate model performance during training",
+					"Train the model",
+					"Test the model",
+					"Augment data"
+				],
+				"answer": "Evaluate model performance during training",
+				"explanation": "ভ্যালিডেশন ডেটাসেট মডেল ট্রেনিং চলাকালীন পরীক্ষা করে।"
+			},
+			{
+				"id": 99,
+				"question": "What is a pooling layer used for?",
+				"options": [
+					"Reduce spatial dimensions and computation",
+					"Increase number of parameters",
+					"Add non-linearity",
+					"Normalize data"
+				],
+				"answer": "Reduce spatial dimensions and computation",
+				"explanation": "Pooling লেয়ার স্পেশাল সাইজ ও কম্পিউটেশন কমায়।"
+			},
+			{
+				"id": 100,
+				"question": "What is the function of the ReLU activation?",
+				"options": [
+					"Output zero if input less than zero, else output input",
+					"Output between 0 and 1",
+					"Output between -1 and 1",
+					"Output probabilities"
+				],
+				"answer": "Output zero if input less than zero, else output input",
+				"explanation": "ReLU ইনপুট শূন্যের নিচে হলে শূন্য দেয়, অন্যথায় ইনপুটই দেয়।"
+			},
+			{
+				"id": 101,
+				"question": "What does the term 'fine-tuning' mean in transfer learning?",
+				"options": [
+					"Training a pre-trained model further on new data",
+					"Training a model from scratch",
+					"Reducing dataset size",
+					"Applying dropout"
+				],
+				"answer": "Training a pre-trained model further on new data",
+				"explanation": "ফাইন-টিউনিং হলো পূর্বে প্রশিক্ষিত মডেল নতুন ডেটায় পুনঃপ্রশিক্ষণ।"
+			},
+			{
+				"id": 102,
+				"question": "What is the advantage of residual networks (ResNet)?",
+				"options": [
+					"Help train very deep networks by using skip connections",
+					"Reduce dataset size",
+					"Increase training speed by reducing layers",
+					"Normalize data"
+				],
+				"answer": "Help train very deep networks by using skip connections",
+				"explanation": "ResNet স্কিপ কানেকশনের মাধ্যমে গভীর নেটওয়ার্ক ট্রেনিং সহজ করে।"
+			},
+			{
+				"id": 103,
+				"question": "What is a hyperparameter?",
+				"options": [
+					"Parameter set before training like learning rate, batch size",
+					"Weights learned during training",
+					"Input data",
+					"Activation function"
+				],
+				"answer": "Parameter set before training like learning rate, batch size",
+				"explanation": "হাইপারপ্যারামিটার ট্রেনিংয়ের আগে নির্ধারিত হয়।"
+			},
+			{
+				"id": 104,
+				"question": "What is dropout rate?",
+				"options": [
+					"Percentage of neurons randomly turned off during training",
+					"Learning rate",
+					"Batch size",
+					"Number of layers"
+				],
+				"answer": "Percentage of neurons randomly turned off during training",
+				"explanation": "ড্রপআউট রেট হলো ট্রেনিংয়ে বন্ধ নিউরনের শতাংশ।"
+			},
+			{
+				"id": 105,
+				"question": "What is the difference between precision and recall?",
+				"options": [
+					"Precision measures correctness of positive predictions; recall measures coverage of actual positives",
+					"Both are same",
+					"Recall measures correctness; precision measures coverage",
+					"Neither measures classification"
+				],
+				"answer": "Precision measures correctness of positive predictions; recall measures coverage of actual positives",
+				"explanation": "Precision সঠিক পজিটিভ, recall কত শতাংশ পজিটিভ ধরা হয়েছে।"
+			},
+			{
+				"id": 106,
+				"question": "What is the F1 score?",
+				"options": [
+					"Harmonic mean of precision and recall",
+					"Average accuracy",
+					"Loss function",
+					"Learning rate"
+				],
+				"answer": "Harmonic mean of precision and recall",
+				"explanation": "F1 স্কোর হলো precision ও recall এর হারমোনিক মান।"
+			},
+			{
+				"id": 107,
+				"question": "What is the vanishing gradient problem mostly associated with?",
+				"options": [
+					"Sigmoid and tanh activations in deep networks",
+					"ReLU activation",
+					"Pooling layer",
+					"Batch normalization"
+				],
+				"answer": "Sigmoid and tanh activations in deep networks",
+				"explanation": "Sigmoid ও tanh ফাংশন গভীর নেটওয়ার্কে গ্র্যাডিয়েন্ট ভ্যানিশিং করে।"
+			},
+			{
+				"id": 108,
+				"question": "What is the main use of convolution operation in CNN?",
+				"options": [
+					"Extract local features from input",
+					"Normalize input data",
+					"Augment data",
+					"Reduce parameters"
+				],
+				"answer": "Extract local features from input",
+				"explanation": "কনভলিউশন ইনপুট থেকে স্থানীয় বৈশিষ্ট্য বের করে।"
+			},
+			{
+				"id": 109,
+				"question": "Which of the following is a common pooling technique?",
+				"options": [
+					"Max pooling",
+					"Average pooling",
+					"Both",
+					"None"
+				],
+				"answer": "Both",
+				"explanation": "Max ও Average pooling দুইটি প্রচলিত পুলিং পদ্ধতি।"
+			},
+			{
+				"id": 110,
+				"question": "What is the role of the loss function during training?",
+				"options": [
+					"Quantify difference between predicted and true outputs",
+					"Normalize data",
+					"Augment data",
+					"Update model weights"
+				],
+				"answer": "Quantify difference between predicted and true outputs",
+				"explanation": "লস ফাংশন প্রেডিকশন ও আসল মানের পার্থক্য মাপার জন্য।"
+			},
+			{
+				"id": 111,
+				"question": "What is the primary purpose of a convolutional neural network (CNN)?",
+				"options": [
+					"Extract spatial features from images",
+					"Handle sequential data",
+					"Reduce dataset size",
+					"Normalize inputs"
+				],
+				"answer": "Extract spatial features from images",
+				"explanation": "CNN মূলত ইমেজ থেকে স্পেশাল ফিচার বের করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 112,
+				"question": "Which of the following is NOT an activation function?",
+				"options": [
+					"Pooling",
+					"ReLU",
+					"Sigmoid",
+					"Tanh"
+				],
+				"answer": "Pooling",
+				"explanation": "Pooling একটি অপারেশন, অ্যাক্টিভেশন ফাংশন নয়।"
+			},
+			{
+				"id": 113,
+				"question": "What is the main advantage of using the ReLU activation function?",
+				"options": [
+					"Avoids vanishing gradient problem",
+					"Outputs values between 0 and 1",
+					"Normalizes input data",
+					"Slows down training"
+				],
+				"answer": "Avoids vanishing gradient problem",
+				"explanation": "ReLU ভ্যানিশিং গ্র্যাডিয়েন্ট সমস্যা কমাতে সাহায্য করে।"
+			},
+			{
+				"id": 114,
+				"question": "What does 'pooling' do in CNN?",
+				"options": [
+					"Reduces spatial dimension",
+					"Increases number of parameters",
+					"Performs classification",
+					"Normalizes data"
+				],
+				"answer": "Reduces spatial dimension",
+				"explanation": "Pooling স্পেশাল সাইজ কমায় এবং কম্পিউটেশন হ্রাস করে।"
+			},
+			{
+				"id": 115,
+				"question": "Which optimizer combines momentum and adaptive learning rates?",
+				"options": [
+					"Adam",
+					"SGD",
+					"RMSProp",
+					"Adagrad"
+				],
+				"answer": "Adam",
+				"explanation": "Adam অপটিমাইজার মোমেন্টাম ও অ্যাডাপ্টিভ লার্নিং রেট ব্যবহার করে।"
+			},
+			{
+				"id": 116,
+				"question": "What is the function of the softmax activation?",
+				"options": [
+					"Convert logits to probabilities summing to 1",
+					"Normalize inputs",
+					"Reduce overfitting",
+					"Add non-linearity"
+				],
+				"answer": "Convert logits to probabilities summing to 1",
+				"explanation": "Softmax লজিট থেকে সম্ভাবনা তৈরি করে যেগুলোর যোগফল ১ হয়।"
+			},
+			{
+				"id": 117,
+				"question": "Which loss function is best for binary classification?",
+				"options": [
+					"Binary cross-entropy",
+					"Mean squared error",
+					"Categorical cross-entropy",
+					"Hinge loss"
+				],
+				"answer": "Binary cross-entropy",
+				"explanation": "বাইনারি ক্লাসিফিকেশনের জন্য বাইনারি ক্রস-এন্ট্রপি ব্যবহার হয়।"
+			},
+			{
+				"id": 118,
+				"question": "What is a 'batch size' in training?",
+				"options": [
+					"Number of samples processed before weight update",
+					"Number of epochs",
+					"Number of layers",
+					"Number of neurons"
+				],
+				"answer": "Number of samples processed before weight update",
+				"explanation": "ব্যাচ সাইজ হলো আপডেটের আগে প্রসেস করা স্যাম্পল সংখ্যা।"
+			},
+			{
+				"id": 119,
+				"question": "What is the main purpose of dropout in neural networks?",
+				"options": [
+					"Prevent overfitting",
+					"Increase model size",
+					"Normalize data",
+					"Reduce batch size"
+				],
+				"answer": "Prevent overfitting",
+				"explanation": "ড্রপআউট ওভারফিটিং কমাতে নিউরন র্যান্ডমলি বন্ধ করে।"
+			},
+			{
+				"id": 120,
+				"question": "What is transfer learning?",
+				"options": [
+					"Using a pre-trained model for a new task",
+					"Training a model from scratch",
+					"Increasing dataset size",
+					"Data normalization"
+				],
+				"answer": "Using a pre-trained model for a new task",
+				"explanation": "ট্রান্সফার লার্নিং পূর্বে ট্রেন করা মডেলকে নতুন কাজে ব্যবহার।"
+			},
+			{
+				"id": 121,
+				"question": "What is the main use of an embedding layer?",
+				"options": [
+					"Convert categorical data to dense vectors",
+					"Normalize images",
+					"Perform convolution",
+					"Reduce dimensionality"
+				],
+				"answer": "Convert categorical data to dense vectors",
+				"explanation": "এম্বেডিং ক্যাটেগরিক্যাল ডেটাকে ভেক্টরে রূপান্তর করে।"
+			},
+			{
+				"id": 122,
+				"question": "What is an epoch?",
+				"options": [
+					"One full pass through the training dataset",
+					"One batch of data",
+					"A layer in the network",
+					"An optimizer type"
+				],
+				"answer": "One full pass through the training dataset",
+				"explanation": "একটি ইপক হল ট্রেনিং ডেটাসেটের সম্পূর্ণ একবার ব্যবহার।"
+			},
+			{
+				"id": 123,
+				"question": "What is early stopping?",
+				"options": [
+					"Stopping training when validation loss stops improving",
+					"Starting training earlier",
+					"Increasing epochs",
+					"Changing optimizer"
+				],
+				"answer": "Stopping training when validation loss stops improving",
+				"explanation": "ভ্যালিডেশন লস উন্নতি না করলে ট্রেনিং থামানো হয়।"
+			},
+			{
+				"id": 124,
+				"question": "Which problem is solved by batch normalization?",
+				"options": [
+					"Internal covariate shift",
+					"Vanishing gradient",
+					"Exploding gradient",
+					"Overfitting"
+				],
+				"answer": "Internal covariate shift",
+				"explanation": "Batch normalization ইনপুট ডিস্ট্রিবিউশনের পরিবর্তন কমায়।"
+			},
+			{
+				"id": 125,
+				"question": "Which neural network type is best for time series data?",
+				"options": [
+					"Recurrent Neural Network (RNN)",
+					"CNN",
+					"Feedforward NN",
+					"GAN"
+				],
+				"answer": "Recurrent Neural Network (RNN)",
+				"explanation": "RNN টাইম সিরিজ ও সিকুয়েন্সিয়াল ডেটার জন্য উপযুক্ত।"
+			},
+			{
+				"id": 126,
+				"question": "What is LSTM?",
+				"options": [
+					"A type of RNN designed to handle long-term dependencies",
+					"A convolutional layer",
+					"An optimizer",
+					"A loss function"
+				],
+				"answer": "A type of RNN designed to handle long-term dependencies",
+				"explanation": "LSTM দীর্ঘমেয়াদী তথ্য ধরে রাখার জন্য ডিজাইন করা RNN।"
+			},
+			{
+				"id": 127,
+				"question": "What is the purpose of the loss function?",
+				"options": [
+					"Measure difference between prediction and actual value",
+					"Update weights",
+					"Normalize data",
+					"Augment data"
+				],
+				"answer": "Measure difference between prediction and actual value",
+				"explanation": "লস ফাংশন প্রেডিকশন ও আসল মানের পার্থক্য পরিমাপ করে।"
+			},
+			{
+				"id": 128,
+				"question": "What is overfitting?",
+				"options": [
+					"When model performs well on training but poorly on new data",
+					"When model underfits",
+					"When model has too few parameters",
+					"When model trains faster"
+				],
+				"answer": "When model performs well on training but poorly on new data",
+				"explanation": "ওভারফিটিং হলো মডেল ট্রেনিং ডেটায় ভালো কিন্তু নতুন ডেটায় খারাপ পারফরমেন্স দেয়।"
+			},
+			{
+				"id": 129,
+				"question": "What is underfitting?",
+				"options": [
+					"When model cannot capture underlying pattern well",
+					"When model performs well on training data",
+					"When model has too many parameters",
+					"When model is overtrained"
+				],
+				"answer": "When model cannot capture underlying pattern well",
+				"explanation": "আন্ডারফিটিং হলো মডেল ডেটার প্যাটার্ন ঠিকভাবে শিখতে না পারা।"
+			},
+			{
+				"id": 130,
+				"question": "Which technique reduces overfitting by randomly disabling neurons?",
+				"options": [
+					"Dropout",
+					"Batch normalization",
+					"Data augmentation",
+					"Pooling"
+				],
+				"answer": "Dropout",
+				"explanation": "ড্রপআউট ট্রেনিংয়ে কিছু নিউরন র্যান্ডমলি বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 131,
+				"question": "What is data augmentation?",
+				"options": [
+					"Techniques to increase dataset size and variety",
+					"Data normalization",
+					"Data cleaning",
+					"Loss calculation"
+				],
+				"answer": "Techniques to increase dataset size and variety",
+				"explanation": "ডেটা অগমেন্টেশন ডেটাসেট বড় ও বৈচিত্র্যময় করে।"
+			},
+			{
+				"id": 132,
+				"question": "What is the main advantage of residual connections in ResNet?",
+				"options": [
+					"Help train very deep networks by skipping layers",
+					"Reduce dataset size",
+					"Normalize data",
+					"Increase batch size"
+				],
+				"answer": "Help train very deep networks by skipping layers",
+				"explanation": "Residual connection গভীর নেটওয়ার্ক ট্রেনিং সহজ করে।"
+			},
+			{
+				"id": 133,
+				"question": "What is gradient clipping?",
+				"options": [
+					"Limiting the size of gradients to prevent exploding gradient",
+					"Normalizing data",
+					"Increasing learning rate",
+					"Data augmentation"
+				],
+				"answer": "Limiting the size of gradients to prevent exploding gradient",
+				"explanation": "গ্র্যাডিয়েন্ট ক্লিপিং গ্র্যাডিয়েন্ট বড় হওয়া আটকায়।"
+			},
+			{
+				"id": 134,
+				"question": "What is the purpose of the embedding layer in NLP models?",
+				"options": [
+					"Convert words into dense vector representations",
+					"Normalize input text",
+					"Perform classification",
+					"Reduce model size"
+				],
+				"answer": "Convert words into dense vector representations",
+				"explanation": "এম্বেডিং শব্দকে ঘন ভেক্টরে রূপান্তর করে।"
+			},
+			{
+				"id": 135,
+				"question": "Which neural network is best for language translation?",
+				"options": [
+					"Transformer",
+					"CNN",
+					"Feedforward NN",
+					"GAN"
+				],
+				"answer": "Transformer",
+				"explanation": "Transformer মডেল ভাষা অনুবাদের জন্য জনপ্রিয়।"
+			},
+			{
+				"id": 136,
+				"question": "What is attention mechanism?",
+				"options": [
+					"Technique to focus on important parts of input data",
+					"Data augmentation",
+					"Normalization method",
+					"Pooling"
+				],
+				"answer": "Technique to focus on important parts of input data",
+				"explanation": "অ্যাটেনশন ইনপুটের গুরুত্বপূর্ণ অংশে ফোকাস করে।"
+			},
+			{
+				"id": 137,
+				"question": "Which of these is a generative model?",
+				"options": [
+					"GAN",
+					"CNN",
+					"RNN",
+					"Feedforward NN"
+				],
+				"answer": "GAN",
+				"explanation": "GAN বাস্তবসম্মত ডেটা তৈরি করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 138,
+				"question": "What is a common problem when training deep networks?",
+				"options": [
+					"Vanishing gradients",
+					"Too little data",
+					"No overfitting",
+					"Fast training"
+				],
+				"answer": "Vanishing gradients",
+				"explanation": "ডিপ নেটওয়ার্কে ভ্যানিশিং গ্র্যাডিয়েন্ট সাধারণ সমস্যা।"
+			},
+			{
+				"id": 139,
+				"question": "What is the main difference between CNN and RNN?",
+				"options": [
+					"CNN for spatial data; RNN for sequential data",
+					"Both same",
+					"RNN for images; CNN for text",
+					"None of the above"
+				],
+				"answer": "CNN for spatial data; RNN for sequential data",
+				"explanation": "CNN স্পেশাল, RNN সিকুয়েন্সিয়াল ডেটার জন্য।"
+			},
+			{
+				"id": 140,
+				"question": "What is the main goal of reinforcement learning?",
+				"options": [
+					"Learn actions to maximize cumulative reward",
+					"Classify images",
+					"Generate text",
+					"Reduce data size"
+				],
+				"answer": "Learn actions to maximize cumulative reward",
+				"explanation": "রিইনফোর্সমেন্ট লার্নিংয়ে অ্যাকশন শিখে সর্বোচ্চ পুরস্কার লাভ করে।"
+			},
+			{
+				"id": 141,
+				"question": "What does 'backpropagation' do?",
+				"options": [
+					"Calculate gradients to update weights",
+					"Normalize data",
+					"Augment data",
+					"Reduce overfitting"
+				],
+				"answer": "Calculate gradients to update weights",
+				"explanation": "ব্যাকপ্রপাগেশন ওজন আপডেটের জন্য গ্র্যাডিয়েন্ট হিসাব করে।"
+			},
+			{
+				"id": 142,
+				"question": "Which of these is an unsupervised learning technique?",
+				"options": [
+					"Autoencoder",
+					"CNN",
+					"RNN",
+					"LSTM"
+				],
+				"answer": "Autoencoder",
+				"explanation": "অটোএনকোডার আনসুপারভাইজড লার্নিং এর উদাহরণ।"
+			},
+			{
+				"id": 143,
+				"question": "What is batch size effect on training?",
+				"options": [
+					"Larger batch size uses more memory but can stabilize gradients",
+					"No effect",
+					"Larger batch size always better",
+					"Smaller batch size always better"
+				],
+				"answer": "Larger batch size uses more memory but can stabilize gradients",
+				"explanation": "বড় ব্যাচ সাইজ বেশি মেমোরি লাগে, গ্র্যাডিয়েন্ট স্থিতিশীল করতে সাহায্য করে।"
+			},
+			{
+				"id": 144,
+				"question": "Which method helps prevent overfitting by early termination?",
+				"options": [
+					"Early stopping",
+					"Dropout",
+					"Batch normalization",
+					"Pooling"
+				],
+				"answer": "Early stopping",
+				"explanation": "Early stopping ট্রেনিং সময় অপ্রয়োজনীয় ওভারফিটিং ঠেকায়।"
+			},
+			{
+				"id": 145,
+				"question": "Which of the following is an activation function that outputs zero for negative input?",
+				"options": [
+					"ReLU",
+					"Sigmoid",
+					"Tanh",
+					"Softmax"
+				],
+				"answer": "ReLU",
+				"explanation": "ReLU নেগেটিভ ইনপুটে শূন্য দেয়।"
+			},
+			{
+				"id": 146,
+				"question": "What is a transformer model mainly used for?",
+				"options": [
+					"Natural language processing",
+					"Image classification",
+					"Reinforcement learning",
+					"Data augmentation"
+				],
+				"answer": "Natural language processing",
+				"explanation": "ট্রান্সফরমার মডেল NLP কাজের জন্য জনপ্রিয়।"
+			},
+			{
+				"id": 147,
+				"question": "What is the key advantage of attention over RNNs?",
+				"options": [
+					"Better handling of long-range dependencies",
+					"Requires less data",
+					"Simpler to implement",
+					"Lower computational cost"
+				],
+				"answer": "Better handling of long-range dependencies",
+				"explanation": "অ্যাটেনশন দীর্ঘমেয়াদী নির্ভরতা আরও ভালোভাবে ধরতে পারে।"
+			},
+			{
+				"id": 148,
+				"question": "Which metric is best to evaluate classification models with imbalanced data?",
+				"options": [
+					"F1 score",
+					"Accuracy",
+					"Loss",
+					"Mean squared error"
+				],
+				"answer": "F1 score",
+				"explanation": "ইমব্যালেন্সড ডেটার জন্য F1 স্কোর বেশি উপযোগী।"
+			},
+			{
+				"id": 149,
+				"question": "What is the function of a fully connected (dense) layer?",
+				"options": [
+					"Connect every neuron to all neurons in previous layer",
+					"Perform convolution",
+					"Reduce data dimension",
+					"Normalize data"
+				],
+				"answer": "Connect every neuron to all neurons in previous layer",
+				"explanation": "ডেন্স লেয়ার প্রতিটি নিউরন পূর্ববর্তী লেয়ারের সব নিউরনের সাথে যুক্ত।"
+			},
+			{
+				"id": 150,
+				"question": "Which type of neural network uses convolutional layers?",
+				"options": [
+					"CNN",
+					"RNN",
+					"Feedforward NN",
+					"GAN"
+				],
+				"answer": "CNN",
+				"explanation": "কনভলিউশনাল লেয়ার CNN এর মূল অংশ।"
+			},
+			{
+				"id": 151,
+				"question": "What is a tensor in deep learning?",
+				"options": [
+					"Multi-dimensional array",
+					"Single number",
+					"Activation function",
+					"Layer type"
+				],
+				"answer": "Multi-dimensional array",
+				"explanation": "টেনসর হলো মাল্টিডাইমেনশনাল অ্যারে।"
+			},
+			{
+				"id": 152,
+				"question": "What is the main difference between supervised and unsupervised learning?",
+				"options": [
+					"Supervised uses labeled data; unsupervised uses unlabeled data",
+					"Both use labeled data",
+					"Both use unlabeled data",
+					"Neither uses data"
+				],
+				"answer": "Supervised uses labeled data; unsupervised uses unlabeled data",
+				"explanation": "সুপারভাইজড লার্নিংয়ে লেবেলড ডেটা লাগে, আনসুপারভাইজডে লাগে না।"
+			},
+			{
+				"id": 153,
+				"question": "Which of these is a popular deep learning framework?",
+				"options": [
+					"TensorFlow",
+					"MySQL",
+					"React",
+					"Docker"
+				],
+				"answer": "TensorFlow",
+				"explanation": "TensorFlow একটি জনপ্রিয় ডীপ লার্নিং ফ্রেমওয়ার্ক।"
+			},
+			{
+				"id": 154,
+				"question": "What is 'epoch' in training?",
+				"options": [
+					"One full iteration over the dataset",
+					"One batch",
+					"Number of layers",
+					"Number of neurons"
+				],
+				"answer": "One full iteration over the dataset",
+				"explanation": "একটি ইপক মানে পুরো ডেটাসেটের একবার ট্রেনিং।"
+			},
+			{
+				"id": 155,
+				"question": "Which loss function is used for multi-class classification?",
+				"options": [
+					"Categorical cross-entropy",
+					"Binary cross-entropy",
+					"Mean squared error",
+					"Hinge loss"
+				],
+				"answer": "Categorical cross-entropy",
+				"explanation": "মাল্টিক্লাস ক্লাসিফিকেশনের জন্য ক্যাটেগরিক্যাল ক্রস-এন্ট্রপি ব্যবহৃত হয়।"
+			},
+			{
+				"id": 156,
+				"question": "What is the function of the optimizer?",
+				"options": [
+					"Update model weights to minimize loss",
+					"Calculate loss",
+					"Normalize data",
+					"Augment data"
+				],
+				"answer": "Update model weights to minimize loss",
+				"explanation": "অপটিমাইজার মডেলের ওজন আপডেট করে লস কমায়।"
+			},
+			{
+				"id": 157,
+				"question": "Which layer is responsible for flattening 2D data to 1D vector?",
+				"options": [
+					"Flatten layer",
+					"Dense layer",
+					"Convolutional layer",
+					"Pooling layer"
+				],
+				"answer": "Flatten layer",
+				"explanation": "ফ্ল্যাটেন লেয়ার ২D ডেটাকে ১D ভেক্টরে রূপান্তর করে।"
+			},
+			{
+				"id": 158,
+				"question": "What is the function of a loss function?",
+				"options": [
+					"Quantify error between prediction and truth",
+					"Normalize data",
+					"Update weights",
+					"Increase accuracy"
+				],
+				"answer": "Quantify error between prediction and truth",
+				"explanation": "লস ফাংশন প্রেডিকশন ও আসল মানের ভুল পরিমাপ করে।"
+			},
+			{
+				"id": 159,
+				"question": "Which of these is a regularization technique?",
+				"options": [
+					"L2 regularization",
+					"Pooling",
+					"Convolution",
+					"Activation"
+				],
+				"answer": "L2 regularization",
+				"explanation": "L2 রেগুলারাইজেশন ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 160,
+				"question": "Which function is used to introduce non-linearity in neural networks?",
+				"options": [
+					"Activation function",
+					"Loss function",
+					"Pooling",
+					"Optimizer"
+				],
+				"answer": "Activation function",
+				"explanation": "অ্যাক্টিভেশন ফাংশন নিউরালে নন-লিনিয়ারিটি আনে।"
+			},
+			{
+				"id": 161,
+				"question": "What is the vanishing gradient problem?",
+				"options": [
+					"Gradients become very small, slowing learning",
+					"Gradients explode to large values",
+					"Model accuracy drops suddenly",
+					"Weights become zero"
+				],
+				"answer": "Gradients become very small, slowing learning",
+				"explanation": "ভ্যানিশিং গ্র্যাডিয়েন্টে গ্র্যাডিয়েন্ট খুব ছোট হয়ে ট্রেনিং ধীর হয়।"
+			},
+			{
+				"id": 162,
+				"question": "Which activation functions are most prone to vanishing gradients?",
+				"options": [
+					"Sigmoid and Tanh",
+					"ReLU",
+					"Leaky ReLU",
+					"Softmax"
+				],
+				"answer": "Sigmoid and Tanh",
+				"explanation": "Sigmoid ও Tanh ফাংশন ভ্যানিশিং গ্র্যাডিয়েন্ট ঘটায়।"
+			},
+			{
+				"id": 163,
+				"question": "What is batch normalization used for?",
+				"options": [
+					"Normalize layer inputs to speed up training",
+					"Reduce model size",
+					"Data augmentation",
+					"Prevent overfitting"
+				],
+				"answer": "Normalize layer inputs to speed up training",
+				"explanation": "Batch normalization ইনপুট নরমালাইজ করে ট্রেনিং দ্রুততর করে।"
+			},
+			{
+				"id": 164,
+				"question": "What is a residual block in ResNet?",
+				"options": [
+					"A block with skip connections to previous layers",
+					"A convolutional layer with large kernel",
+					"A fully connected layer",
+					"An optimizer"
+				],
+				"answer": "A block with skip connections to previous layers",
+				"explanation": "Residual ব্লক স্কিপ কানেকশন ব্যবহার করে।"
+			},
+			{
+				"id": 165,
+				"question": "Which of these is a generative adversarial network (GAN) component?",
+				"options": [
+					"Generator and Discriminator",
+					"Encoder and Decoder",
+					"Convolution and Pooling",
+					"Loss and Optimizer"
+				],
+				"answer": "Generator and Discriminator",
+				"explanation": "GAN-এ জেনারেটর ও ডিসক্রিমিনেটর থাকে।"
+			},
+			{
+				"id": 166,
+				"question": "What is the function of the discriminator in GAN?",
+				"options": [
+					"Distinguish real from generated data",
+					"Generate new data",
+					"Normalize data",
+					"Update weights"
+				],
+				"answer": "Distinguish real from generated data",
+				"explanation": "ডিসক্রিমিনেটর বাস্তব ও তৈরি ডেটা পার্থক্য করে।"
+			},
+			{
+				"id": 167,
+				"question": "Which of the following is a type of RNN?",
+				"options": [
+					"LSTM",
+					"CNN",
+					"GAN",
+					"Transformer"
+				],
+				"answer": "LSTM",
+				"explanation": "LSTM হলো RNN-এর একটি বিশেষ ধরনের নেটওয়ার্ক।"
+			},
+			{
+				"id": 168,
+				"question": "What is the main advantage of LSTM over vanilla RNN?",
+				"options": [
+					"Can learn long-term dependencies",
+					"Faster training",
+					"Uses less memory",
+					"Simpler architecture"
+				],
+				"answer": "Can learn long-term dependencies",
+				"explanation": "LSTM দীর্ঘমেয়াদী নির্ভরতা শিখতে পারে।"
+			},
+			{
+				"id": 169,
+				"question": "Which loss function is commonly used for regression tasks?",
+				"options": [
+					"Mean Squared Error (MSE)",
+					"Cross-entropy",
+					"Hinge loss",
+					"Binary cross-entropy"
+				],
+				"answer": "Mean Squared Error (MSE)",
+				"explanation": "রিগ্রেশন সমস্যায় MSE লস ব্যবহার হয়।"
+			},
+			{
+				"id": 170,
+				"question": "What does 'learning rate' control in training?",
+				"options": [
+					"Step size for weight updates",
+					"Number of neurons",
+					"Number of layers",
+					"Batch size"
+				],
+				"answer": "Step size for weight updates",
+				"explanation": "লার্নিং রেট ওজন আপডেটের ধাপের আকার নির্ধারণ করে।"
+			},
+			{
+				"id": 171,
+				"question": "What happens if learning rate is too high?",
+				"options": [
+					"Training may diverge or oscillate",
+					"Training is faster and better",
+					"Model underfits",
+					"Model overfits"
+				],
+				"answer": "Training may diverge or oscillate",
+				"explanation": "অতিরিক্ত লার্নিং রেট ট্রেনিংকে অস্থির বা বিফল করতে পারে।"
+			},
+			{
+				"id": 172,
+				"question": "What is a typical use of an autoencoder?",
+				"options": [
+					"Dimensionality reduction and feature learning",
+					"Classification",
+					"Data augmentation",
+					"Normalization"
+				],
+				"answer": "Dimensionality reduction and feature learning",
+				"explanation": "অটোএনকোডার ডাইমেনশনালিটি রিডাকশন ও ফিচার লার্নিং-এ ব্যবহৃত।"
+			},
+			{
+				"id": 173,
+				"question": "What is weight initialization?",
+				"options": [
+					"Setting initial weights before training",
+					"Updating weights during training",
+					"Normalizing weights",
+					"Augmenting data"
+				],
+				"answer": "Setting initial weights before training",
+				"explanation": "ওজনের প্রাথমিক মান নির্ধারণ ওজন আপডেটের আগে হয়।"
+			},
+			{
+				"id": 174,
+				"question": "Why is proper weight initialization important?",
+				"options": [
+					"Prevents vanishing/exploding gradients and speeds training",
+					"Reduces dataset size",
+					"Increases batch size",
+					"Improves accuracy directly"
+				],
+				"answer": "Prevents vanishing/exploding gradients and speeds training",
+				"explanation": "ভালো ইনিশিয়ালাইজেশন গ্র্যাডিয়েন্ট সমস্যা কমায় ও ট্রেনিং দ্রুততর করে।"
+			},
+			{
+				"id": 175,
+				"question": "What is the role of the bias term in a neuron?",
+				"options": [
+					"Shift the activation function",
+					"Multiply input features",
+					"Normalize output",
+					"Reduce loss"
+				],
+				"answer": "Shift the activation function",
+				"explanation": "বায়াস অ্যাক্টিভেশন ফাংশনকে শিফট করে।"
+			},
+			{
+				"id": 176,
+				"question": "What is the difference between stochastic gradient descent (SGD) and batch gradient descent?",
+				"options": [
+					"SGD updates weights per sample; batch uses full dataset",
+					"Batch updates weights per sample; SGD uses full dataset",
+					"Both same",
+					"Neither updates weights"
+				],
+				"answer": "SGD updates weights per sample; batch uses full dataset",
+				"explanation": "SGD প্রতি স্যাম্পল ওয়েট আপডেট করে, ব্যাচ সম্পূর্ণ ডেটাসেট।"
+			},
+			{
+				"id": 177,
+				"question": "What is momentum in optimization?",
+				"options": [
+					"Technique to accelerate SGD using past gradients",
+					"Regularization method",
+					"Activation function",
+					"Normalization"
+				],
+				"answer": "Technique to accelerate SGD using past gradients",
+				"explanation": "মোমেন্টাম পুরানো গ্র্যাডিয়েন্ট ব্যবহার করে আপডেট ত্বরান্বিত করে।"
+			},
+			{
+				"id": 178,
+				"question": "What is the main benefit of using GPUs for deep learning?",
+				"options": [
+					"Parallel processing for faster computation",
+					"Lower power consumption",
+					"Better accuracy",
+					"Simpler programming"
+				],
+				"answer": "Parallel processing for faster computation",
+				"explanation": "GPU প্যারালাল প্রসেসিং দিয়ে দ্রুত ট্রেনিং দেয়।"
+			},
+			{
+				"id": 179,
+				"question": "What is the dropout technique?",
+				"options": [
+					"Randomly disabling neurons during training",
+					"Data normalization",
+					"Increasing learning rate",
+					"Pooling method"
+				],
+				"answer": "Randomly disabling neurons during training",
+				"explanation": "ড্রপআউট নিউরন র্যান্ডমলি বন্ধ করে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 180,
+				"question": "Which metric combines precision and recall?",
+				"options": [
+					"F1 score",
+					"Accuracy",
+					"Loss",
+					"Recall"
+				],
+				"answer": "F1 score",
+				"explanation": "F1 স্কোর প্রিসিশন ও রিকল মিলিয়ে।"
+			},
+			{
+				"id": 181,
+				"question": "What is the typical input for an embedding layer?",
+				"options": [
+					"Categorical or discrete data like words",
+					"Images",
+					"Audio signals",
+					"Normalized continuous data"
+				],
+				"answer": "Categorical or discrete data like words",
+				"explanation": "এম্বেডিং ক্যাটেগরিক্যাল ডেটা যেমন শব্দ নেয়।"
+			},
+			{
+				"id": 182,
+				"question": "Which method helps to avoid overfitting by augmenting training data?",
+				"options": [
+					"Data augmentation",
+					"Batch normalization",
+					"Dropout",
+					"Pooling"
+				],
+				"answer": "Data augmentation",
+				"explanation": "ডেটা অগমেন্টেশন ডেটা বৈচিত্র্য বাড়িয়ে ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 183,
+				"question": "What is a typical use case of reinforcement learning?",
+				"options": [
+					"Training agents to make decisions",
+					"Image classification",
+					"Text generation",
+					"Data normalization"
+				],
+				"answer": "Training agents to make decisions",
+				"explanation": "রিইনফোর্সমেন্ট লার্নিং এজেন্টকে সিদ্ধান্ত নিতে শেখায়।"
+			},
+			{
+				"id": 184,
+				"question": "Which layer type reduces the size of feature maps in CNN?",
+				"options": [
+					"Pooling layer",
+					"Convolutional layer",
+					"Dense layer",
+					"Embedding layer"
+				],
+				"answer": "Pooling layer",
+				"explanation": "Pooling লেয়ার ফিচার ম্যাপের সাইজ কমায়।"
+			},
+			{
+				"id": 185,
+				"question": "What is a common use of the softmax function?",
+				"options": [
+					"Convert raw scores to probability distribution",
+					"Normalize data",
+					"Augment data",
+					"Reduce dimensionality"
+				],
+				"answer": "Convert raw scores to probability distribution",
+				"explanation": "Softmax স্কোরকে সম্ভাবনায় রূপান্তর করে।"
+			},
+			{
+				"id": 186,
+				"question": "What does the term 'epoch' mean in deep learning?",
+				"options": [
+					"One complete pass through the entire training dataset",
+					"Number of layers in the model",
+					"Batch size",
+					"Number of neurons"
+				],
+				"answer": "One complete pass through the entire training dataset",
+				"explanation": "একটি ইপক ডেটাসেটের সম্পূর্ণ ট্রেনিং।"
+			},
+			{
+				"id": 187,
+				"question": "What is the purpose of the validation dataset?",
+				"options": [
+					"To evaluate model performance during training",
+					"To train the model",
+					"To test the final model",
+					"To augment training data"
+				],
+				"answer": "To evaluate model performance during training",
+				"explanation": "ভ্যালিডেশন ডেটা ট্রেনিং সময় মডেল মূল্যায়ন করে।"
+			},
+			{
+				"id": 188,
+				"question": "Which of these is a common regularization technique?",
+				"options": [
+					"L1 and L2 regularization",
+					"Pooling",
+					"Convolution",
+					"Dropout"
+				],
+				"answer": "L1 and L2 regularization",
+				"explanation": "L1 ও L2 রেগুলারাইজেশন ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 189,
+				"question": "What is the role of the optimizer in deep learning?",
+				"options": [
+					"Update model weights to minimize loss",
+					"Initialize weights",
+					"Normalize input",
+					"Augment data"
+				],
+				"answer": "Update model weights to minimize loss",
+				"explanation": "অপটিমাইজার ওজন আপডেট করে লস কমায়।"
+			},
+			{
+				"id": 190,
+				"question": "Which is an example of an activation function?",
+				"options": [
+					"ReLU",
+					"SGD",
+					"MSE",
+					"Adam"
+				],
+				"answer": "ReLU",
+				"explanation": "ReLU একটি অ্যাক্টিভেশন ফাংশন।"
+			},
+			{
+				"id": 191,
+				"question": "What is a feature map in CNN?",
+				"options": [
+					"Output of a convolutional layer after applying filters",
+					"Input image",
+					"Loss value",
+					"Optimizer"
+				],
+				"answer": "Output of a convolutional layer after applying filters",
+				"explanation": "ফিচার ম্যাপ হলো ফিল্টার প্রয়োগের পর কনভলিউশন আউটপুট।"
+			},
+			{
+				"id": 192,
+				"question": "What is the purpose of a learning rate scheduler?",
+				"options": [
+					"Adjust learning rate during training",
+					"Initialize weights",
+					"Augment data",
+					"Normalize input"
+				],
+				"answer": "Adjust learning rate during training",
+				"explanation": "লার্নিং রেট স্কেজুলার ট্রেনিং সময় লার্নিং রেট পরিবর্তন করে।"
+			},
+			{
+				"id": 193,
+				"question": "What is an epoch in deep learning?",
+				"options": [
+					"Complete pass through all training data",
+					"A batch of data",
+					"Number of layers",
+					"Activation function"
+				],
+				"answer": "Complete pass through all training data",
+				"explanation": "একটি ইপক হল ট্রেনিং ডেটার এক পূর্ণ পাস।"
+			},
+			{
+				"id": 194,
+				"question": "Which of the following is a common technique to reduce overfitting?",
+				"options": [
+					"Dropout",
+					"Pooling",
+					"Convolution",
+					"Batch normalization"
+				],
+				"answer": "Dropout",
+				"explanation": "ড্রপআউট ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 195,
+				"question": "What is a perceptron?",
+				"options": [
+					"Simplest type of artificial neuron",
+					"An optimizer",
+					"A loss function",
+					"A dataset"
+				],
+				"answer": "Simplest type of artificial neuron",
+				"explanation": "পারসেপ্ট্রন হলো সাধারণ নিউরন মডেল।"
+			},
+			{
+				"id": 196,
+				"question": "What is backpropagation used for?",
+				"options": [
+					"Calculating gradients for weight updates",
+					"Normalizing data",
+					"Generating new data",
+					"Pooling"
+				],
+				"answer": "Calculating gradients for weight updates",
+				"explanation": "ব্যাকপ্রপাগেশন ওজন আপডেটের জন্য গ্র্যাডিয়েন্ট হিসাব করে।"
+			},
+			{
+				"id": 197,
+				"question": "What is overfitting?",
+				"options": [
+					"Model performs well on training but poorly on unseen data",
+					"Model performs well on all data",
+					"Model trains faster",
+					"Model is simple"
+				],
+				"answer": "Model performs well on training but poorly on unseen data",
+				"explanation": "ওভারফিটিং হলো মডেল ট্রেনিং ডেটায় ভালো কিন্তু নতুন ডেটায় খারাপ।"
+			},
+			{
+				"id": 198,
+				"question": "Which of these layers reduces overfitting?",
+				"options": [
+					"Dropout",
+					"Pooling",
+					"Convolution",
+					"Dense"
+				],
+				"answer": "Dropout",
+				"explanation": "ড্রপআউট ওভারফিটিং কমায়।"
+			},
+			{
+				"id": 199,
+				"question": "Which of the following is an example of supervised learning?",
+				"options": [
+					"Image classification",
+					"Clustering",
+					"Dimensionality reduction",
+					"Autoencoder"
+				],
+				"answer": "Image classification",
+				"explanation": "ইমেজ ক্লাসিফিকেশন হলো সুপারভাইজড লার্নিং।"
+			},
+			{
+				"id": 200,
+				"question": "What is a convolutional neural network (CNN) mainly used for?",
+				"options": [
+					"Image processing and recognition",
+					"Text processing",
+					"Reinforcement learning",
+					"Time series forecasting"
+				],
+				"answer": "Image processing and recognition",
+				"explanation": "CNN প্রধানত ছবি প্রসেসিং ও রিকগনিশনে ব্যবহৃত।"
+			}
 		]
 	}
 }
