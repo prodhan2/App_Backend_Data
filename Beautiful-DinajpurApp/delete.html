@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Delete Account - Dinajpur City App</title>
+  <style>
+    :root{
+      --primary1: #2e7d32;
+      --primary2: #1b5e20;
+      --bg-grad: linear-gradient(135deg, #f0fdf4, #e0f2fe);
+      --card-bg: #ffffff;
+      --muted: #666;
+      --danger: #d32f2f;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: "Segoe UI", Roboto, "Noto Sans Bengali", sans-serif;
+      background: var(--bg-grad);
+      color:#222;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    header{
+      background: linear-gradient(90deg,var(--primary1),var(--primary2));
+      color:white;
+      padding:24px 16px;
+      text-align:center;
+      border-bottom-left-radius:36px;
+      border-bottom-right-radius:36px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.12);
+    }
+    header h1{margin:0;font-size:20px;letter-spacing:0.6px}
+    header p{margin:6px 0 0; opacity:0.95}
+
+    main{
+      max-width:920px;
+      margin:22px auto;
+      padding:20px;
+    }
+    .card{
+      background:var(--card-bg);
+      border-radius:16px;
+      padding:20px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.07);
+    }
+
+    h2{color:var(--primary1);margin-top:0}
+    p{margin:10px 0; color:var(--muted)}
+
+    .steps{
+      margin:12px 0 20px;
+      padding-left:16px;
+    }
+    .steps li{margin:8px 0}
+
+    .danger-box{
+      border-left:4px solid var(--danger);
+      padding:12px;
+      background:#fff7f7;
+      border-radius:8px;
+      color:#6b1f1f;
+      margin:12px 0;
+    }
+
+    .controls{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{
+      padding:10px 14px;
+      border-radius:10px;
+      border:none;
+      cursor:pointer;
+      font-weight:600;
+      box-shadow:0 4px 12px rgba(0,0,0,0.06);
+    }
+    .btn-secondary{background:#f1f1f1;color:#222}
+    .btn-danger{background:var(--danger);color:white}
+    .btn-warning{background:#ffb300;color:#111}
+
+    footer{
+      margin-top:26px;
+      background: linear-gradient(90deg,var(--primary2),var(--primary1));
+      color:white;
+      text-align:center;
+      padding:18px 12px;
+      border-top-left-radius:32px;
+      border-top-right-radius:32px;
+      box-shadow:0 -6px 18px rgba(0,0,0,0.1);
+    }
+
+    /* Modal */
+    .modal-backdrop{
+      position:fixed;inset:0;
+      background:rgba(0,0,0,0.45);
+      display:none;align-items:center;justify-content:center;
+      z-index:1000;
+    }
+    .modal{
+      width:90%; max-width:480px;
+      background:white;border-radius:12px;padding:18px;
+      box-shadow:0 12px 34px rgba(0,0,0,0.25);
+    }
+    .modal h3{margin:0 0 8px}
+    .small{font-size:0.95rem;color:var(--muted)}
+    .row{display:flex;gap:8px;align-items:center}
+    @media(min-width:600px){
+      main{padding:28px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dinajpur City App</h1>
+    <p>অ্যাকাউন্ট মোছা (Delete Account)</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>ব্যবহারকারী অ্যাকাউন্ট মোছার নির্দেশ</h2>
+      <p class="small">
+        নিচের নির্দেশ অনুসরণ করে ব্যবহারকারী নিজেই অ্যাকাউন্ট সম্পূর্ণরূপে মুছতে পারবেন। মোছার সময় আপনার কিছু তথ্য স্থায়ীভাবে মুছে যেতে পারে — অনুগ্রহ করে প্রয়োজন হলে আগে ব্যাকআপ রাখুন।
+      </p>
+
+      <ul class="steps">
+        <li><strong>ধাপ ১:</strong> অ্যাপ-এ লগইন করুন ও "Settings / Account" পেজে যান।</li>
+        <li><strong>ধাপ ২:</strong> "Delete Account" বা "Deactivate" বাটনে চাপ দিন।</li>
+        <li><strong>ধাপ ৩:</strong> একটি কনফার্মেশন মডাল আসবে — আপনি পাসওয়ার্ড/OTP দিয়ে নিশ্চিত করবেন।</li>
+        <li><strong>ধাপ ৪:</strong> নিশ্চিত করলে সার্ভার থেকে অ্যাকাউন্ট ও ব্যক্তিগত ডেটা মুছে ফেলা হবে (নীচে বিস্তারিত)।</li>
+      </ul>
+
+      <div class="danger-box">
+        <strong>গুরুত্বপূর্ণ:</strong> অ্যাকাউন্ট মুছে ফেলার পরে আপনার প্রোফাইল, পোস্ট, মন্তব্য, এবং ব্যক্তিগত ডেটা পুনরুদ্ধারযোগ্য নাও হতে পারে।
+      </div>
+
+      <h3>আপনি কী ধরনের তথ্য হারাবেন?</h3>
+      <p class="small">
+        • প্রোফাইল তথ্য (নাম, ইমেল, ফোন) <br/>
+        • ইউজারের পোস্ট/কমেন্ট/ফটো/অ্যাপ-কনটেন্ট (যদি থাকে) <br/>
+        • লগ ইত্যাদি অ্যাকাউন্ট সম্পর্কিত মেটাডাটা (রিটেনশান রুল অনুসারে কিছু লগ সংরক্ষিত থাকতে পারে)।
+      </p>
+
+      <h3>অ্যাকাউন্ট মুছার পদ্ধতি (ওয়েব/মোবাইল)</h3>
+      <p class="small"><strong>Frontend:</strong> ব্যবহারকারী যখন "Delete" চাপবে → আমরা নিরাপত্তার জন্য পাসওয়ার্ড/OTP চাইব → তারপর API কল চালানো হবে -> সার্ভার ডেটা মুছবে।</p>
+
+      <div style="margin-top:12px;">
+        <div class="controls">
+          <button class="btn btn-secondary" onclick="goBack()">Back to Settings</button>
+          <button class="btn btn-warning" onclick="downloadBackup()">Download Backup</button>
+          <button class="btn btn-danger" onclick="openModal()">Delete Account</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal" role="document">
+        <h3>অ্যাকাউন্ট মুছতে যাচ্ছেন</h3>
+        <p class="small">আপনি কি নিশ্চিত যে আপনার Dinajpur City App অ্যাকাউন্ট মুছে ফেলতে চান? এটি স্থায়ী — পুনরুদ্ধার হবে না।</p>
+
+        <div style="margin:12px 0;">
+          <label class="small">পাসওয়ার্ড/OTP দিন (নিরাপত্তার জন্য):</label>
+          <input id="confirmInput" type="text" placeholder="Password or OTP" style="width:100%;padding:10px;border-radius:8px;border:1px solid #ddd;margin-top:8px" />
+        </div>
+
+        <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:12px">
+          <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+          <button class="btn btn-danger" onclick="confirmDelete()">Confirm Delete</button>
+        </div>
+
+        <p id="modalMsg" class="small" style="margin-top:10px;color:var(--muted)"></p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div><strong>Developer:</strong> Sujan Prodhan — CSE, University of Rajshahi</div>
+    <div style="margin-top:6px;">&copy; 2025 Dinajpur City App. All Rights Reserved.</div>
+  </footer>
+
+  <script>
+    // Basic UI helpers
+    function goBack(){
+      // আপনি এখানে সেটিংস পেজে নেভিগেট করার JS যোগ করবেন
+      alert("Back to Settings (replace with real navigation).");
+    }
+
+    function downloadBackup(){
+      // উদাহরণ: ব্যাকআপ ডাউনলোড ট্রিগার
+      alert("Backup download started (implement server-side export).");
+    }
+
+    // Modal controls
+    const backdrop = document.getElementById('modalBackdrop');
+    function openModal(){ backdrop.style.display = 'flex'; backdrop.setAttribute('aria-hidden','false'); document.getElementById('confirmInput').focus(); }
+    function closeModal(){ backdrop.style.display = 'none'; backdrop.setAttribute('aria-hidden','true'); document.getElementById('modalMsg').textContent = ''; }
+
+    // Confirm delete: sample frontend -> call backend API
+    async function confirmDelete(){
+      const tokenInput = document.getElementById('confirmInput').value.trim();
+      const modalMsg = document.getElementById('modalMsg');
+      if(!tokenInput){ modalMsg.textContent = 'অনুগ্রহ করে পাসওয়ার্ড/OTP প্রদান করুন।'; return; }
+
+      modalMsg.textContent = 'Processing...';
+
+      try{
+        // Example API call (adjust URL and headers to your backend)
+        const resp = await fetch('/api/delete-account', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            // Authorization header if you use tokens:
+            // 'Authorization': 'Bearer ' + localStorage.getItem('authToken')
+          },
+          body: JSON.stringify({
+            // server expects identifier + confirmation token
+            confirmation: tokenInput,
+            // optionally include user id if required:
+            // userId: 'CURRENT_USER_ID'
+          })
+        });
+
+        if(!resp.ok){
+          const txt = await resp.text();
+          modalMsg.textContent = 'সমস্যা: ' + (txt || resp.statusText);
+          return;
+        }
+
+        const data = await resp.json();
+        if(data.success){
+          modalMsg.style.color = 'green';
+          modalMsg.textContent = 'আপনার অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে। আপনি লগ আউট করা হবে।';
+          // client-side cleanup (example)
+          setTimeout(()=> {
+            // Clear client storage / tokens
+            try{ localStorage.clear(); sessionStorage.clear(); }catch(e){}
+            // redirect to goodbye or home page
+            window.location.href = '/goodbye.html';
+          }, 1400);
+        } else {
+          modalMsg.textContent = data.message || 'ডিলিট করা যায়নি — আবার চেষ্টা করুন।';
+        }
+      } catch(err){
+        console.error(err);
+        modalMsg.textContent = 'নেটওয়ার্ক বা সার্ভার ত্রুটি হয়েছে।';
+      }
+    }
+  </script>
+</body>
+</html>
