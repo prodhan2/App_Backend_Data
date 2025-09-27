@@ -1,0 +1,304 @@
+{
+  "name": "My Drive",
+  "id": "0AFOH8Ir2HQYBUk9PVA",
+  "type": "folder",
+  "url": "https://drive.google.com/drive/folders/0AFOH8Ir2HQYBUk9PVA",
+  "children": [
+    {
+      "name": "DriveFIleViewer",
+      "id": "1rMutDQU5Yz6e9N1FI0slNnbdO0dTa-J45C4sTw6WnANw6mqU5mqGEL77",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.script",
+      "size": 0,
+      "url": "https://script.google.com/d/1rMutDQU5Yz6e9N1FI0slNnbdO0dTa-J45C4sTw6WnANw6mqU5mqGEL77/edit?usp=drivesdk"
+    },
+    {
+      "name": "To Do List",
+      "id": "14DpINqdOeMXx_cZ42W52rpfPA6a0SMx4",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/14DpINqdOeMXx_cZ42W52rpfPA6a0SMx4/view?usp=drivesdk"
+    },
+    {
+      "name": "Study Abroad",
+      "id": "1eGSqQhy87BQQSl__CUE2FhInna0SfSGj",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1eGSqQhy87BQQSl__CUE2FhInna0SfSGj/view?usp=drivesdk"
+    },
+    {
+      "name": "Social Media Marketing",
+      "id": "1w6JEs9xF1ycoATBrVDV33W1j8Oi3QLOn",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1w6JEs9xF1ycoATBrVDV33W1j8Oi3QLOn/view?usp=drivesdk"
+    },
+    {
+      "name": "SEO",
+      "id": "1MzcRPI5lAxFUgDbu8PUVTnC3m61vAYHg",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1MzcRPI5lAxFUgDbu8PUVTnC3m61vAYHg/view?usp=drivesdk"
+    },
+    {
+      "name": "Science",
+      "id": "1Y4um5k4eYO9qnzVF718VQj5XawsuKKQO",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1Y4um5k4eYO9qnzVF718VQj5XawsuKKQO/view?usp=drivesdk"
+    },
+    {
+      "name": "Programming ",
+      "id": "1T9MsYsw3wtaHimVeJnPHXaDwY4CCxKuT",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1T9MsYsw3wtaHimVeJnPHXaDwY4CCxKuT/view?usp=drivesdk"
+    },
+    {
+      "name": "Others",
+      "id": "1JOtobygIgdHm4acF8DeChDzU9KmRLrUp",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1JOtobygIgdHm4acF8DeChDzU9KmRLrUp/view?usp=drivesdk"
+    },
+    {
+      "name": "Non-Fiction",
+      "id": "1ZUwztugn-c0hZAWgnIc2UFgGRI8B5P7A",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1ZUwztugn-c0hZAWgnIc2UFgGRI8B5P7A/view?usp=drivesdk"
+    },
+    {
+      "name": "Email 📧 ",
+      "id": "1Lj0od2o245neBBLtEFnDv9oAqf1mG0Oc",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1Lj0od2o245neBBLtEFnDv9oAqf1mG0Oc/view?usp=drivesdk"
+    },
+    {
+      "name": "Emotional Intelligence ",
+      "id": "1br_kvu-iFnFyoUwXRXdkiVzeNeJ8vm-S",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1br_kvu-iFnFyoUwXRXdkiVzeNeJ8vm-S/view?usp=drivesdk"
+    },
+    {
+      "name": "Math",
+      "id": "1tZF0_bojsQK3v9aoNsQDh_7_5ZXQkA0x",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1tZF0_bojsQK3v9aoNsQDh_7_5ZXQkA0x/view?usp=drivesdk"
+    },
+    {
+      "name": "Book 3",
+      "id": "1PjBfM--FzraR2KBW15LMN3-l6vL8gEzo",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1PjBfM--FzraR2KBW15LMN3-l6vL8gEzo/view?usp=drivesdk"
+    },
+    {
+      "name": "EEE",
+      "id": "1UtvB_527h5wMcZq8UnpoUWT4cDD4esFT",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1UtvB_527h5wMcZq8UnpoUWT4cDD4esFT/view?usp=drivesdk"
+    },
+    {
+      "name": "English",
+      "id": "1lfAS-II7jgddBbbpapnYKsZZfl10E8Ki",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1lfAS-II7jgddBbbpapnYKsZZfl10E8Ki/view?usp=drivesdk"
+    },
+    {
+      "name": "CV",
+      "id": "1luKGjSBqhXA2MSyrWaK1Ws73tpBsOehZ",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1luKGjSBqhXA2MSyrWaK1Ws73tpBsOehZ/view?usp=drivesdk"
+    },
+    {
+      "name": "Book",
+      "id": "1EGQx2T0_ZsWIav3pq88gPfs_5cCv8wsW",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1EGQx2T0_ZsWIav3pq88gPfs_5cCv8wsW/view?usp=drivesdk"
+    },
+    {
+      "name": "Biography Books",
+      "id": "1X8l0hnqf35CadZYAtYDfDGUujOaMhDbz",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1X8l0hnqf35CadZYAtYDfDGUujOaMhDbz/view?usp=drivesdk"
+    },
+    {
+      "name": "Kirtans",
+      "id": "1UikVjLFlolrLdyCk8GKWOkdQJrn7-xvh",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1UikVjLFlolrLdyCk8GKWOkdQJrn7-xvh/view?usp=drivesdk"
+    },
+    {
+      "name": "Srila B.N. Acharya Maharaj's Lectures (Audio)",
+      "id": "1FgH2XMSFJQgH_I0uHOmEyTK4Zc2gYya0",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1FgH2XMSFJQgH_I0uHOmEyTK4Zc2gYya0/view?usp=drivesdk"
+    },
+    {
+      "name": "Bengali Books",
+      "id": "1AY-7Ao_k_F49VwHMMJbyy_ts2ruopZPU",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1AY-7Ao_k_F49VwHMMJbyy_ts2ruopZPU/view?usp=drivesdk"
+    },
+    {
+      "name": "English Books",
+      "id": "1R48xZ1gY604Fh-h14mGgQN78_PeC1Grn",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1R48xZ1gY604Fh-h14mGgQN78_PeC1Grn/view?usp=drivesdk"
+    },
+    {
+      "name": "Russian Books",
+      "id": "1lvINs0pKH57qLgmSgi_i9nF6E_zPAJP1",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1lvINs0pKH57qLgmSgi_i9nF6E_zPAJP1/view?usp=drivesdk"
+    },
+    {
+      "name": "Spanish Books",
+      "id": "1cb3fySsp1OdtpwjAkPI7EBFBFp0ojntv",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.shortcut",
+      "size": 0,
+      "url": "https://drive.google.com/file/d/1cb3fySsp1OdtpwjAkPI7EBFBFp0ojntv/view?usp=drivesdk"
+    },
+    {
+      "name": "FolderCreatreANDUpload",
+      "id": "1-Yw48apuxFe0pBb765e_vPoyAiqq_tWLIjDlhtyrXgvjteNddsIB3U7J",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.script",
+      "size": 0,
+      "url": "https://script.google.com/d/1-Yw48apuxFe0pBb765e_vPoyAiqq_tWLIjDlhtyrXgvjteNddsIB3U7J/edit?usp=drivesdk"
+    },
+    {
+      "name": "rucsehub_uploader",
+      "id": "1VZhseKydRSdv5yNyYIpp9xV2HpuixnASxEanOfzmAEgCF-3-iYv6sdsf",
+      "type": "file",
+      "mimeType": "application/vnd.google-apps.script",
+      "size": 0,
+      "url": "https://script.google.com/d/1VZhseKydRSdv5yNyYIpp9xV2HpuixnASxEanOfzmAEgCF-3-iYv6sdsf/edit?usp=drivesdk"
+    },
+    {
+      "name": "RUCSEHUB",
+      "id": "1uj9bo8ZVmV2AP_kaTD49pVXAkkfbWeYO",
+      "type": "folder",
+      "url": "https://drive.google.com/drive/folders/1uj9bo8ZVmV2AP_kaTD49pVXAkkfbWeYO",
+      "children": [
+        {
+          "name": "আল হাদিস",
+          "id": "1Zzq3fS1qwz0thiMHuIbUy4cN3oc64iWG",
+          "type": "file",
+          "mimeType": "application/vnd.google-apps.shortcut",
+          "size": 0,
+          "url": "https://drive.google.com/file/d/1Zzq3fS1qwz0thiMHuIbUy4cN3oc64iWG/view?usp=drivesdk"
+        },
+        {
+          "name": "আল কোরআন",
+          "id": "12u6IHAmLV6l68M2T0TWPWqxR8VHfZltr",
+          "type": "file",
+          "mimeType": "application/vnd.google-apps.shortcut",
+          "size": 0,
+          "url": "https://drive.google.com/file/d/12u6IHAmLV6l68M2T0TWPWqxR8VHfZltr/view?usp=drivesdk"
+        },
+        {
+          "name": "মোটিভেশন বুকস",
+          "id": "1T_JVOhLd_1Q9l3pVFtdE5qyJtKiSNXWu",
+          "type": "file",
+          "mimeType": "application/vnd.google-apps.shortcut",
+          "size": 0,
+          "url": "https://drive.google.com/file/d/1T_JVOhLd_1Q9l3pVFtdE5qyJtKiSNXWu/view?usp=drivesdk"
+        },
+        {
+          "name": "ইসলামিক ইতিহাস",
+          "id": "1v0zqAZtF2b8J2X1wl-T5zI2t7FB181RC",
+          "type": "file",
+          "mimeType": "application/vnd.google-apps.shortcut",
+          "size": 0,
+          "url": "https://drive.google.com/file/d/1v0zqAZtF2b8J2X1wl-T5zI2t7FB181RC/view?usp=drivesdk"
+        },
+        {
+          "name": "Islamic  books  pdf",
+          "id": "1iZTbhrY7iU-M4wbJo70_VZf0Be9SeDvp",
+          "type": "file",
+          "mimeType": "application/vnd.google-apps.shortcut",
+          "size": 0,
+          "url": "https://drive.google.com/file/d/1iZTbhrY7iU-M4wbJo70_VZf0Be9SeDvp/view?usp=drivesdk"
+        },
+        {
+          "name": "ইসলামিক সাহিত্য",
+          "id": "10VWh7AMVvSWqUEuhBz2vnd7Bu_NNxRYk",
+          "type": "file",
+          "mimeType": "application/vnd.google-apps.shortcut",
+          "size": 0,
+          "url": "https://drive.google.com/file/d/10VWh7AMVvSWqUEuhBz2vnd7Bu_NNxRYk/view?usp=drivesdk"
+        },
+        {
+          "name": "Bengali Books",
+          "id": "1yf2GxI9jb_64lNeuw9hTUAbmeJ74UaBy",
+          "type": "file",
+          "mimeType": "application/vnd.google-apps.shortcut",
+          "size": 0,
+          "url": "https://drive.google.com/file/d/1yf2GxI9jb_64lNeuw9hTUAbmeJ74UaBy/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "name": "wow",
+      "id": "1tQr5xdf6vGMTmzLvkMT5tjo4HQ7aVyVX",
+      "type": "folder",
+      "url": "https://drive.google.com/drive/folders/1tQr5xdf6vGMTmzLvkMT5tjo4HQ7aVyVX",
+      "children": [
+        {
+          "name": "2509.20682v1.pdf",
+          "id": "1OubxBB6Mw6QB1_L9Sf0JgZBEUpa6vQY3",
+          "type": "file",
+          "mimeType": "application/pdf",
+          "size": 450029,
+          "url": "https://drive.google.com/file/d/1OubxBB6Mw6QB1_L9Sf0JgZBEUpa6vQY3/view?usp=drivesdk"
+        },
+        {
+          "name": "IMG_20211209_100536_759.jpg",
+          "id": "1hxQo_lMpbiRlcBXshwEMXMhHHh2BxGbg",
+          "type": "file",
+          "mimeType": "image/jpeg",
+          "size": 805564,
+          "url": "https://drive.google.com/file/d/1hxQo_lMpbiRlcBXshwEMXMhHHh2BxGbg/view?usp=drivesdk"
+        }
+      ]
+    }
+  ]
+}
