@@ -3,25 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RUCSEHU App - v2.0.0</title>
+  <title>RUCSEHUB App - v2.0.0</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #1a73e8, #6a11cb);
       color: white;
+      overflow-x: hidden;
     }
+
+    /* Background bubbles */
+    .bubble {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      animation: float 20s infinite;
+    }
+    @keyframes float {
+      from { transform: translateY(100vh) scale(0.5); opacity: 0; }
+      50% { opacity: 0.7; }
+      to { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+    }
+    .bubble:nth-child(1){ width:100px; height:100px; left:10%; animation-duration: 25s;}
+    .bubble:nth-child(2){ width:60px; height:60px; left:30%; animation-duration: 20s;}
+    .bubble:nth-child(3){ width:120px; height:120px; left:50%; animation-duration: 30s;}
+    .bubble:nth-child(4){ width:80px; height:80px; left:70%; animation-duration: 22s;}
+    .bubble:nth-child(5){ width:50px; height:50px; left:90%; animation-duration: 18s;}
+
     .navbar {
       background: rgba(0,0,0,0.7);
+      border-bottom: 3px solid transparent;
+      border-image: linear-gradient(90deg, #ff5722, #ff9800);
+      border-image-slice: 1;
     }
+
     .hero-section {
       text-align: center;
       padding: 60px 20px;
+      border: 4px solid transparent;
+      border-radius: 15px;
+      margin: 20px;
+      background: rgba(0,0,0,0.3);
+      border-image: linear-gradient(45deg, #ff5722, #ff9800, #ffc107, #ff5722);
+      border-image-slice: 1;
+      animation: borderGlow 5s linear infinite;
     }
+
+    @keyframes borderGlow {
+      0% { border-image-source: linear-gradient(45deg, #ff5722, #ff9800, #ffc107, #ff5722); }
+      50% { border-image-source: linear-gradient(45deg, #6a11cb, #2575fc, #00c6ff, #6a11cb); }
+      100% { border-image-source: linear-gradient(45deg, #ff5722, #ff9800, #ffc107, #ff5722); }
+    }
+
     .hero-section img {
       max-width: 140px;
       margin-bottom: 20px;
     }
+
     .download-btn {
       background: #ff5722;
       border: none;
@@ -35,28 +74,40 @@
       background: #e64a19;
       transform: scale(1.05);
     }
+
     .carousel-item img {
       max-height: 520px;
       object-fit: contain;
       border-radius: 12px;
       box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
     }
+
     footer {
       background: rgba(0,0,0,0.8);
       padding: 20px;
       text-align: center;
       font-size: 14px;
+      border-top: 3px solid transparent;
+      border-image: linear-gradient(90deg, #ff5722, #ff9800);
+      border-image-slice: 1;
     }
   </style>
 </head>
 <body>
+
+  <!-- Floating bubbles -->
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
+  <div class="bubble"></div>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
         <img src="https://i.postimg.cc/rsdXt5ts/hublogo.png" width="40" class="me-2" alt="Logo">
-        <span>RUCSEHU</span>
+        <span>RUCSEHUB</span>
       </a>
     </div>
   </nav>
@@ -73,7 +124,7 @@
   </section>
 
   <!-- Screenshots Carousel -->
-  <div id="screensCarousel" class="carousel slide container mb-5" data-bs-ride="carousel">
+  <div id="screensCarousel" class="carousel slide container mb-5" data-bs-ride="carousel" data-bs-interval="2500">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="https://i.postimg.cc/bvBsX98p/Screenshot-20250927-220351.png" class="d-block w-100" alt="Screenshot 1">
@@ -102,24 +153,20 @@
   <!-- Footer -->
   <footer>
     <p>Published by <strong>Sujan Prodhan</strong>, CSE-29 • University of Rajshahi</p>
-    <p>&copy; 2025 RUCSEHU App</p>
+    <p>&copy; 2025 RUCSEHUB App</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     function downloadApp() {
-      // Google Drive direct download link format
       let directLink = "https://drive.google.com/uc?export=download&id=1JvjcSYw8hH72SXCxqU0EFc7ub1Mrp6A3";
-
-      // Create a hidden link
       let a = document.createElement('a');
       a.href = directLink;
-      a.download = "RUCSEHU_v2.0.0.apk"; // suggest filename
+      a.download = "RUCSEHU_v2.0.0.apk";
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
 
-      // Show congratulations popup
       setTimeout(() => {
         alert("🎉 Congratulations! Your download has started successfully.");
       }, 1000);
