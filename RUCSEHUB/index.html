@@ -1,180 +1,185 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>RUCSEHub — New Release</title>
-  <meta name="description" content="RUCSEHub latest release — download, changelog, and highlights." />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUCSEHU - New App Release</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <style>
-    :root{
-      --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent1:#6ee7b7; --accent2:#60a5fa;
-      --glass: rgba(255,255,255,0.04);
-      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:linear-gradient(180deg,var(--bg),#071026);color:#e6eef6;min-height:100vh}
-    .container{max-width:1100px;margin:48px auto;padding:24px}
-    header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
-    .brand{display:flex;align-items:center;gap:12px;flex:1}
-    .logo{width:52px;height:52px;border-radius:12px;background:linear-gradient(135deg,var(--accent1),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:800;color:#032;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
-    h1{margin:0;font-size:1.375rem}
-    .lead{color:var(--muted);font-size:0.95rem}
-
-    .hero{display:grid;grid-template-columns:1fr 360px;gap:28px;margin-top:28px;align-items:start}
-    .card{background:linear-gradient(180deg,var(--card),rgba(11,18,32,0.6));padding:20px;border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.6);}
-
-    .download-box{display:flex;flex-direction:column;gap:12px;align-items:stretch}
-    .big-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;border-radius:12px;font-weight:700;text-decoration:none;border:none;cursor:pointer;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#022;box-shadow:0 10px 30px rgba(96,165,250,0.12);text-align:center}
-    .mutebtn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);padding:10px 12px;border-radius:10px;text-align:center}
-
-    .meta-row{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:0.92rem}
-    .meta-item{background:var(--glass);padding:8px 10px;border-radius:10px}
-
-    .features{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}
-    .feature{display:flex;gap:12px;align-items:flex-start}
-    .feature svg{flex:0 0 36px}
-
-    .changelog{margin-top:22px}
-    pre{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;color:var(--muted);overflow:auto;font-size:0.92rem}
-
-    .screens{display:flex;gap:10px;margin-top:14px}
-    .simg{height:140px;border-radius:10px;flex:1;object-fit:cover;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
-
-    footer{margin-top:34px;color:var(--muted);font-size:0.9rem;text-align:center}
-
-    /* responsive */
-    @media (max-width:900px){
-      .hero{grid-template-columns:1fr}
-      .screens{flex-direction:column}
+    body {
+      font-family: 'Roboto', sans-serif;
     }
 
-    @media (max-width:600px){
-      header{flex-direction:column;align-items:flex-start}
-      h1{font-size:1.1rem}
-      .lead{font-size:0.85rem}
-      .big-btn{font-size:0.9rem;padding:12px}
-      .mutebtn{font-size:0.85rem;padding:8px 10px}
-      .features{grid-template-columns:1fr}
-      .simg{height:auto;width:100%}
+    .navbar-brand img {
+      height: 50px;
+    }
+
+    .hero-section {
+      background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-download {
+      font-size: 1.2rem;
+      padding: 12px 30px;
+      border-radius: 50px;
+    }
+
+    .features {
+      padding: 80px 0;
+    }
+
+    .feature-card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .version-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container">
-    <header>
-      <div class="brand">
-        <div class="logo">RH</div>
-        <div>
-          <h1>RUCSEHub — New Release</h1>
-          <div class="lead">Lightweight tools, faster sync, better UX — ready to download.</div>
-        </div>
-      </div>
-      <nav class="meta-row" aria-label="release meta">
-        <div class="meta-item">Version <strong>v2.4.0</strong></div>
-        <div class="meta-item">Released: <strong>Sep 24, 2025</strong></div>
-        <div class="meta-item">Size: <strong>24.8 MB</strong></div>
-      </nav>
-    </header>
-
-    <section class="hero">
-      <div class="card">
-        <h2 style="margin-top:0">What's new in v2.4.0</h2>
-        <p class="lead">This release focuses on stability and developer ergonomics: faster launch times, improved offline caching, and a new plugin-friendly architecture.</p>
-
-        <div class="features">
-          <div class="feature">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M12 2v20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <div>
-              <strong>Faster startup</strong>
-              <div class="lead">Optimized asset loading reduces cold-start time by ~40%.</div>
-            </div>
-          </div>
-
-          <div class="feature">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M12 3l7 6-7 6-7-6 7-6z" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <div>
-              <strong>Offline caching</strong>
-              <div class="lead">Critical data now available offline with a resilient fallback.</div>
-            </div>
-          </div>
-
-          <div class="feature">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.25"/></svg>
-            <div>
-              <strong>Plugin support</strong>
-              <div class="lead">New plugin API for community extensions and custom tools.</div>
-            </div>
-          </div>
-
-          <div class="feature">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M3 12h18" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>
-            <div>
-              <strong>Cleaner UI</strong>
-              <div class="lead">Refreshed color scheme and improved readability for long sessions.</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="changelog">
-          <h3 style="margin-bottom:8px">Changelog</h3>
-          <pre> - Added: Plugin API (beta)
- - Improved: Startup performance (40% faster cold start)
- - Fixed: Sync bug when switching networks
- - Updated: Many dependency upgrades and security patches
- - Removed: Legacy settings panel
-
-For the full release notes, visit the project repo or documentation.</pre>
-
-        </div>
-
-      </div>
-
-      <aside class="card download-box" aria-labelledby="downloadHeading">
-        <h3 id="downloadHeading" style="margin:0">Download</h3>
-        <p class="lead" style="margin:0">Get the latest RUCSEHub installer or portable build.</p>
-
-        <!-- Replace href="#" with your real download URL. Add the "download" attribute if you want to force download. -->
-        <a class="big-btn" id="downloadBtn" href="#" target="_blank" rel="noopener" aria-label="Download RUCSEHub">
-          <!-- simple cloud download icon -->
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M21 15a4 4 0 0 0-3-3.87A5 5 0 0 0 4 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Download v2.4.0
-        </a>
-
-        <a class="mutebtn" href="#" onclick="navigator.clipboard && navigator.clipboard.writeText('#') || alert('Copy the link manually')">Copy download link</a>
-
-        <div class="meta-row" style="margin-top:8px">
-          <div class="meta-item">MD5: <code style="color:var(--muted);">e3b0c44298fc1c149afbf4c8996fb924</code></div>
-          <div class="meta-item">Supported: Windows · Linux · macOS</div>
-        </div>
-
-        <div style="margin-top:12px">
-          <strong>System requirements</strong>
-          <div class="lead">Windows 10+, macOS 10.15+, Linux kernel 4.15+, 200 MB free disk, 2GB RAM</div>
-        </div>
-
-        <div style="margin-top:12px;color:var(--muted);font-size:0.88rem">Need a portable/exe version? Email <a href="mailto:hello@rucsehub.example" style="color:inherit; text-decoration:underline">hello@rucsehub.example</a></div>
-      </aside>
-    </section>
-
-    <section class="card" style="margin-top:20px">
-      <h3 style="margin-top:0">Screenshots</h3>
-      <div class="screens">
-        <img class="simg" src="https://via.placeholder.com/800x450.png?text=Main+Screen" alt="RUCSEHub main screen">
-        <img class="simg" src="https://via.placeholder.com/800x450.png?text=Plugin+Manager" alt="Plugin manager screen">
-      </div>
-    </section>
-
-    <footer>
-      © <strong>RUCSEHub</strong> — Built for students & developers. Follow the repo on GitHub or contact the team for enterprise builds.
-    </footer>
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/hublogo.png" alt="RUCSEHU Logo"> RUCSEHU
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#version">What's New</a></li>
+        <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+      </ul>
+    </div>
   </div>
+</nav>
 
-  <script>
-    // small enhancement: smooth scroll for internal anchors and a tiny copy-feedback
-    document.getElementById('downloadBtn').addEventListener('click', function(){
-      // optionally track analytics here
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <h1>RUCSEHU App - New Release</h1>
+    <p class="lead">Get the latest version of our app with new features, improvements, and bug fixes. Stay connected with your university community!</p>
+    <p><strong>Current Version: 2.0.0+10</strong></p>
+    <a href="https://drive.google.com/uc?export=download&id=1JvjcSYw8hH72SXCxqU0EFc7ub1Mrp6A3" 
+       class="btn btn-light btn-download mt-3" target="_blank" id="download">
+       Download Now
+    </a>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>App Features</h2>
+      <p class="text-muted">Explore what’s new in the latest version.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card feature-card p-4 text-center">
+          <i class="bi bi-chat-dots fs-1 mb-3"></i>
+          <h5>Realtime Chat</h5>
+          <p>Communicate instantly with other students and groups in real-time.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card feature-card p-4 text-center">
+          <i class="bi bi-file-earmark-text fs-1 mb-3"></i>
+          <h5>Notes & Resources</h5>
+          <p>Access your academic notes, tutorials, and other study resources.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card feature-card p-4 text-center">
+          <i class="bi bi-people fs-1 mb-3"></i>
+          <h5>Incubator & Projects</h5>
+          <p>Manage projects, track progress, and collaborate with peers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Version Section -->
+<section class="version-section" id="version">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2>What's New in v2.0.0+10</h2>
+      <p class="text-muted">Check out the latest improvements and bug fixes.</p>
+    </div>
+    <ul class="list-group list-group-flush text-center">
+      <li class="list-group-item">Added new Admin Panel for super users</li>
+      <li class="list-group-item">Realtime chat enhancements</li>
+      <li class="list-group-item">Bug fixes and performance improvements</li>
+      <li class="list-group-item">UI updates for better usability</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2025 RUCSEHU. All rights reserved.</p>
+    <p>Published by <strong>Sujan Prodhan, CSE-29, University of Rajshahi</strong></p>
+    <p>
+      Contact: <a href="mailto:info@rucsehu.edu.bd">info@rucsehu.edu.bd</a> | 
+      <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if(target) target.scrollIntoView({ behavior: 'smooth' });
     });
-  </script>
+  });
+</script>
 </body>
 </html>
