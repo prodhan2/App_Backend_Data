@@ -36815,6 +36815,628 @@
 		"url": "https://drive.google.com/drive/folders/0B2Q8XuO2ebzxT2ZCYVpINm94bkE?resourcekey=0-H06nqyv0uwq3D6efNz4f0Q"
 	},
 	{
+		"name": "Govt. IT Resources ",
+		"id": "1qHzklXa8ymG87JRzwljI0TfCHylt-P2W",
+		"type": "folder",
+		"children": [
+			{
+				"name": "Bookmark alamin.doc",
+				"id": "1qx4-jNVPDNuhKxBvxmuk-EZJUHLVXnIb",
+				"mimeType": "application/msword",
+				"size": 10752,
+				"type": "file",
+				"url": "https://docs.google.com/document/d/1qx4-jNVPDNuhKxBvxmuk-EZJUHLVXnIb/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+			},
+			{
+				"name": "Bookmark aktarul vai.doc",
+				"mimeType": "application/msword",
+				"id": "1qvMuEHLqEIEM1JM5Lw4fVGNXIhwX3Ss3",
+				"size": 46592,
+				"type": "file",
+				"url": "https://docs.google.com/document/d/1qvMuEHLqEIEM1JM5Lw4fVGNXIhwX3Ss3/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+			},
+			{
+				"name": "Viva preparation info",
+				"id": "15HYO0EcGxanHnLp86ofPvPW6dU53BFwE",
+				"type": "folder",
+				"children": [
+					{
+						"name": "Recent IT Question Bank 2022.jpeg",
+						"id": "15IjREDwc48VUZLiadOU92dwWAoED6oAY",
+						"mimeType": "image/jpeg",
+						"size": 37826,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/15IjREDwc48VUZLiadOU92dwWAoED6oAY/view?usp=drivesdk"
+					},
+					{
+						"name": "Link",
+						"id": "15VR_SgoznevLCSNRinWNmCNVG2rJrOnd",
+						"type": "folder",
+						"children": [
+							{
+								"name": "Info link",
+								"mimeType": "application/vnd.google-apps.document",
+								"id": "1G2MZIi3oY8AmX4JB4nRvknE-EsOjpxUCLl-n6Nydufs",
+								"size": 1024,
+								"type": "file",
+								"url": "https://docs.google.com/document/d/1G2MZIi3oY8AmX4JB4nRvknE-EsOjpxUCLl-n6Nydufs/edit?usp=drivesdk"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/15VR_SgoznevLCSNRinWNmCNVG2rJrOnd"
+					}
+				],
+				"url": "https://drive.google.com/drive/folders/15HYO0EcGxanHnLp86ofPvPW6dU53BFwE"
+			},
+			{
+				"name": "Notes",
+				"id": "1zDxuyf7FGVIKBjf5J5mf2xph_pSNonrn",
+				"type": "folder",
+				"children": [
+					{
+						"name": "Time & Space complexity .png",
+						"id": "1zxABccJWTajwXHRwaPVOectNg5x85YVm",
+						"mimeType": "image/png",
+						"size": 17922,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1zxABccJWTajwXHRwaPVOectNg5x85YVm/view?usp=drivesdk"
+					},
+					{
+						"name": "output devices.jpg",
+						"mimeType": "image/jpeg",
+						"id": "1ztt6jUl9RkfrfG1WuwjuiwYfeC6uhKWt",
+						"size": 26841,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1ztt6jUl9RkfrfG1WuwjuiwYfeC6uhKWt/view?usp=drivesdk"
+					},
+					{
+						"name": "input device .jpg",
+						"mimeType": "image/jpeg",
+						"id": "1znu2faBaUklimu0ubO2DCIu_vZweDydP",
+						"size": 32016,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1znu2faBaUklimu0ubO2DCIu_vZweDydP/view?usp=drivesdk"
+					},
+					{
+						"name": "computer generation 02.jpg",
+						"id": "1zi1X3sILmORxa6j14O8SNnvTJ4l82ecr",
+						"mimeType": "image/jpeg",
+						"size": 41820,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1zi1X3sILmORxa6j14O8SNnvTJ4l82ecr/view?usp=drivesdk"
+					},
+					{
+						"name": "Computer generation .png",
+						"id": "1zethkNS4nRxXW0dFnFNMPvC1ElEuQE0t",
+						"mimeType": "image/png",
+						"size": 45980,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1zethkNS4nRxXW0dFnFNMPvC1ElEuQE0t/view?usp=drivesdk"
+					}
+				],
+				"url": "https://drive.google.com/drive/folders/1zDxuyf7FGVIKBjf5J5mf2xph_pSNonrn"
+			},
+			{
+				"name": "Optimal IT exam note",
+				"id": "1qOSc07_hksVC9ZLe7owJXsXSAR9aClem",
+				"type": "folder",
+				"children": [
+					{
+						"name": "Officer IT Preparation batch Written  Exam -01.pdf",
+						"mimeType": "application/pdf",
+						"id": "1qv4MSiYVhwpsijBRiVFe0vebTdr2lLXp",
+						"size": 535037,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qv4MSiYVhwpsijBRiVFe0vebTdr2lLXp/view?usp=drivesdk"
+					},
+					{
+						"name": "Officer IT Preparation batch Written  Exam -02 written  Final Spolution-images-0.pdf",
+						"id": "1quRV5QwUXMgfX0zJmOLm_qfdEL4IPq7Q",
+						"mimeType": "application/pdf",
+						"size": 1901547,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1quRV5QwUXMgfX0zJmOLm_qfdEL4IPq7Q/view?usp=drivesdk"
+					},
+					{
+						"name": "Officer IT Preparation batch Written  Exam 1 Final Solution1.pdf",
+						"mimeType": "application/pdf",
+						"id": "1qtld2-02GSmUmqPNYTjCTUgUvpruKThv",
+						"size": 7009893,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qtld2-02GSmUmqPNYTjCTUgUvpruKThv/view?usp=drivesdk"
+					},
+					{
+						"name": "Sql Problem List with Solution Optimal It Job Care- Golden Batch.pdf",
+						"mimeType": "application/pdf",
+						"id": "1qsDrbMXKBGOuiTxdwXnstFZoCCaIJzaX",
+						"size": 720408,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qsDrbMXKBGOuiTxdwXnstFZoCCaIJzaX/view?usp=drivesdk"
+					},
+					{
+						"name": "Sql Problem List with Solution Optimal It Job Care- Golden Batch.pdf",
+						"id": "1qnl4zNzrourCyOr-VIaUdaRZUBzimg9a",
+						"mimeType": "application/pdf",
+						"size": 720401,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qnl4zNzrourCyOr-VIaUdaRZUBzimg9a/view?usp=drivesdk"
+					},
+					{
+						"name": "C program Problem list with solution golden batch.pdf",
+						"id": "1qgipIjV-QHHj1X4fyxUrTA_mUiG4aBPo",
+						"mimeType": "application/pdf",
+						"size": 632683,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qgipIjV-QHHj1X4fyxUrTA_mUiG4aBPo/view?usp=drivesdk"
+					},
+					{
+						"name": "BB AD ICT EXAM 03 BATCH Solution.pdf",
+						"mimeType": "application/pdf",
+						"id": "1qbKfKOf4nCa5CodoNVa4lrLFUvGMV7T6",
+						"size": 866835,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qbKfKOf4nCa5CodoNVa4lrLFUvGMV7T6/view?usp=drivesdk"
+					},
+					{
+						"name": "BB AD ICT EXAM -01 Batch solution.pdf",
+						"mimeType": "application/pdf",
+						"id": "1qZgcdoKPAuyAO6xE8I91UzSqPtZsPOIw",
+						"size": 1145996,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qZgcdoKPAuyAO6xE8I91UzSqPtZsPOIw/view?usp=drivesdk"
+					},
+					{
+						"name": "BB AD ICT EXAM - 02 Batch solution.pdf",
+						"mimeType": "application/pdf",
+						"id": "1qZXgi7VX649kL_aSpN1MGpOCs-LulmC0",
+						"size": 1067542,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1qZXgi7VX649kL_aSpN1MGpOCs-LulmC0/view?usp=drivesdk"
+					}
+				],
+				"url": "https://drive.google.com/drive/folders/1qOSc07_hksVC9ZLe7owJXsXSAR9aClem"
+			},
+			{
+				"name": "it job",
+				"id": "1qIxzYH4rOjbgQazSOrMjqxZB5Ve-BXCo",
+				"type": "folder",
+				"children": [
+					{
+						"name": "Linux_command.txt",
+						"id": "1tbC9BSiziSpe-wi2lica_1e2oVlCb9VT",
+						"mimeType": "text/plain",
+						"size": 1456,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1tbC9BSiziSpe-wi2lica_1e2oVlCb9VT/view?usp=drivesdk"
+					},
+					{
+						"name": "Excel.xlsx",
+						"id": "1t_qOSnstzgS5r7LxumK84w5WGd9mvWSN",
+						"mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+						"size": 18115,
+						"type": "file",
+						"url": "https://docs.google.com/spreadsheets/d/1t_qOSnstzgS5r7LxumK84w5WGd9mvWSN/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+					},
+					{
+						"name": "Microprocessor & Computer.docx",
+						"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+						"id": "1tWJWMmekB2ji7c0OjA88ih5xX8eN24yv",
+						"size": 19678,
+						"type": "file",
+						"url": "https://docs.google.com/document/d/1tWJWMmekB2ji7c0OjA88ih5xX8eN24yv/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+					},
+					{
+						"name": "Networking & security.docx",
+						"id": "1tWI2Zifvv8J7957hNWNTxiHc8LFoZiBN",
+						"mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+						"size": 71674,
+						"type": "file",
+						"url": "https://docs.google.com/document/d/1tWI2Zifvv8J7957hNWNTxiHc8LFoZiBN/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+					},
+					{
+						"name": "Recent IT MCQ Questions with Solution-2020.pdf",
+						"id": "1tTFt4aOWbOQv0bccgZT-YdtzOlM03KOi",
+						"mimeType": "application/pdf",
+						"size": 10489455,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1tTFt4aOWbOQv0bccgZT-YdtzOlM03KOi/view?usp=drivesdk"
+					},
+					{
+						"name": "tcp_ip-protocol-suite-4th-ed-b-forouzan-mcgraw-hill-2010-bbs.pdf",
+						"id": "1tT86cUe2pZnzm_Ulk7g64z2PhcXais5S",
+						"mimeType": "application/pdf",
+						"size": 30000374,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1tT86cUe2pZnzm_Ulk7g64z2PhcXais5S/view?usp=drivesdk"
+					},
+					{
+						"name": "Pre Test Exam Answer.pdf",
+						"id": "1rEZZ1067kNn5K_ELbX_8a3JAnLk3G7KE",
+						"mimeType": "application/pdf",
+						"size": 5197369,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1rEZZ1067kNn5K_ELbX_8a3JAnLk3G7KE/view?usp=drivesdk"
+					},
+					{
+						"name": "100 days plan.pdf",
+						"id": "1rMHEWVyT0rSZEyDdZmWoXT2LVLDiYIB_",
+						"mimeType": "application/pdf",
+						"size": 215966,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1rMHEWVyT0rSZEyDdZmWoXT2LVLDiYIB_/view?usp=drivesdk"
+					},
+					{
+						"name": "bookmarks.html",
+						"id": "1rMDV8zzNU534LDOALvwdxia2aP2u_C_M",
+						"mimeType": "text/html",
+						"size": 52111,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1rMDV8zzNU534LDOALvwdxia2aP2u_C_M/view?usp=drivesdk"
+					},
+					{
+						"name": "facebook_1655054062050.jpg",
+						"mimeType": "image/jpeg",
+						"id": "1rG8MuCvphLJd5Xv0F5A_ioRL7UPS2Xnw",
+						"size": 104064,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1rG8MuCvphLJd5Xv0F5A_ioRL7UPS2Xnw/view?usp=drivesdk"
+					},
+					{
+						"name": "facebook_1658826336392.jpg",
+						"id": "1rFcZ31Vg3uLI7g8qPz53Nm67UgArNyYB",
+						"mimeType": "image/jpeg",
+						"size": 126738,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1rFcZ31Vg3uLI7g8qPz53Nm67UgArNyYB/view?usp=drivesdk"
+					},
+					{
+						"name": "Slide1_1.JPG",
+						"mimeType": "image/jpeg",
+						"id": "1rBCrXzwaIVejYlyM_xbu2I9kFXd161sZ",
+						"size": 90962,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1rBCrXzwaIVejYlyM_xbu2I9kFXd161sZ/view?usp=drivesdk"
+					},
+					{
+						"name": "Slide1_2.JPG",
+						"mimeType": "image/jpeg",
+						"id": "1r5YawMwNhFTRLP1Vs34degFZuAT-r9jW",
+						"size": 94135,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1r5YawMwNhFTRLP1Vs34degFZuAT-r9jW/view?usp=drivesdk"
+					},
+					{
+						"name": "Slide1.JPG",
+						"mimeType": "image/jpeg",
+						"id": "1r5XNA1zvcMIJmW43rcfkpM-0Ump52YN4",
+						"size": 66248,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1r5XNA1zvcMIJmW43rcfkpM-0Ump52YN4/view?usp=drivesdk"
+					},
+					{
+						"name": "Stack IT.pdf",
+						"id": "1r4aYI7F6jpvJ0opVgWESkAlBiKEp7B8P",
+						"mimeType": "application/pdf",
+						"size": 9765443,
+						"type": "file",
+						"url": "https://drive.google.com/file/d/1r4aYI7F6jpvJ0opVgWESkAlBiKEp7B8P/view?usp=drivesdk"
+					},
+					{
+						"name": "TOC",
+						"id": "1-rvhFQE-58aX5RcsSmL9akDNOFIwJ3Sh",
+						"type": "folder",
+						"children": [],
+						"url": "https://drive.google.com/drive/folders/1-rvhFQE-58aX5RcsSmL9akDNOFIwJ3Sh"
+					},
+					{
+						"name": "Structure programme with C",
+						"id": "1-S0TT-sjCSZdzZhlxMUc28t1tu5ETMkG",
+						"type": "folder",
+						"children": [
+							{
+								"name": "Lecture - 1A (Intro  Data Type   Operator).pdf",
+								"id": "1-rjnVcu-YNz67_Y0VAkHd0FWJZJzaaTf",
+								"mimeType": "application/pdf",
+								"size": 748144,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1-rjnVcu-YNz67_Y0VAkHd0FWJZJzaaTf/view?usp=drivesdk"
+							},
+							{
+								"name": "Lecture - 5 (String  File  Others ).pdf",
+								"id": "1-nrmPI9hzN9acs8J85asLVrdK6keErzr",
+								"mimeType": "application/pdf",
+								"size": 1046934,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1-nrmPI9hzN9acs8J85asLVrdK6keErzr/view?usp=drivesdk"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/1-S0TT-sjCSZdzZhlxMUc28t1tu5ETMkG"
+					},
+					{
+						"name": "Software ",
+						"id": "1-OwdWuItDt1it92QGTqzD_zeIImQ-53D",
+						"type": "folder",
+						"children": [],
+						"url": "https://drive.google.com/drive/folders/1-OwdWuItDt1it92QGTqzD_zeIImQ-53D"
+					},
+					{
+						"name": "OS",
+						"id": "1-7DXWVsEhJ8MwP8Jg_cuIKo8RDCE0qy2",
+						"type": "folder",
+						"children": [
+							{
+								"name": "OS Batch 2 class 2.pdf",
+								"id": "1-KeUWGhkrGNhYuTuZxCRTCtwgDYAbPj6",
+								"mimeType": "application/pdf",
+								"size": 438448,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1-KeUWGhkrGNhYuTuZxCRTCtwgDYAbPj6/view?usp=drivesdk"
+							},
+							{
+								"name": "OS class 1.pdf",
+								"mimeType": "application/pdf",
+								"id": "1-BB-gAwIHn-h8n0xo3MXgsPS-hkK_N2W",
+								"size": 688870,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1-BB-gAwIHn-h8n0xo3MXgsPS-hkK_N2W/view?usp=drivesdk"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/1-7DXWVsEhJ8MwP8Jg_cuIKo8RDCE0qy2"
+					},
+					{
+						"name": "Networking ",
+						"id": "1kDeZRUE_lqF0qjGb4zbrQGDUzcwGf7Bz",
+						"type": "folder",
+						"children": [
+							{
+								"name": "network class 2,3 .pdf",
+								"id": "1-52Vvl7FW97aTX5lF97WIzymog423yvE",
+								"mimeType": "application/pdf",
+								"size": 753605,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1-52Vvl7FW97aTX5lF97WIzymog423yvE/view?usp=drivesdk"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/1kDeZRUE_lqF0qjGb4zbrQGDUzcwGf7Bz"
+					},
+					{
+						"name": "Digital Electronics",
+						"id": "1v6jFWwHwa_BxmEpWycsOiN9TyKvugw_u",
+						"type": "folder",
+						"children": [
+							{
+								"name": "Class Lecture - 04.pdf",
+								"id": "1vXGsv858DGkK3zUj2GxdmP6BjcROlSJI",
+								"mimeType": "application/pdf",
+								"size": 2649457,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1vXGsv858DGkK3zUj2GxdmP6BjcROlSJI/view?usp=drivesdk"
+							},
+							{
+								"name": "DE Class Lecture - 02 (1).pdf",
+								"mimeType": "application/pdf",
+								"id": "1vQFf0rp4bIzr48mmWzdGvgHFdrUyyVWQ",
+								"size": 1951278,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1vQFf0rp4bIzr48mmWzdGvgHFdrUyyVWQ/view?usp=drivesdk"
+							},
+							{
+								"name": "DE Class Lecture - 03 (1).pdf",
+								"mimeType": "application/pdf",
+								"id": "1vPatLTI_2ulcgM2fC67FAJiCopN1hIoM",
+								"size": 1815242,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1vPatLTI_2ulcgM2fC67FAJiCopN1hIoM/view?usp=drivesdk"
+							},
+							{
+								"name": "DE Class Lecture - 01.pdf",
+								"id": "1vLjONTDNy71xjrvm82u-gEFCgPeDF4St",
+								"mimeType": "application/pdf",
+								"size": 1558713,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1vLjONTDNy71xjrvm82u-gEFCgPeDF4St/view?usp=drivesdk"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/1v6jFWwHwa_BxmEpWycsOiN9TyKvugw_u"
+					},
+					{
+						"name": "Database",
+						"id": "1uA9fJImBZXjmlm0nXfvudABYqjMSajQ-",
+						"type": "folder",
+						"children": [
+							{
+								"name": "PLSQL L5.pdf",
+								"id": "1ummkfgdqj_WZcesUUvU-ssgCEuIeIWrT",
+								"mimeType": "application/pdf",
+								"size": 1138317,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1ummkfgdqj_WZcesUUvU-ssgCEuIeIWrT/view?usp=drivesdk"
+							},
+							{
+								"name": "sql.txt",
+								"mimeType": "text/plain",
+								"id": "1um-042nftu0D43QSwP_sdoW9Oli7coNV",
+								"size": 1773163,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1um-042nftu0D43QSwP_sdoW9Oli7coNV/view?usp=drivesdk"
+							},
+							{
+								"name": "DBMS L2.pdf",
+								"id": "1ujFSL4TSyOdaxgqbSeC2hUwcLDxgRPh6",
+								"mimeType": "application/pdf",
+								"size": 2166517,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1ujFSL4TSyOdaxgqbSeC2hUwcLDxgRPh6/view?usp=drivesdk"
+							},
+							{
+								"name": "DBMS 4.pdf",
+								"id": "1uUqm-Lpaid9-rCULyK_T8b4khPdJRuKN",
+								"mimeType": "application/pdf",
+								"size": 2695649,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1uUqm-Lpaid9-rCULyK_T8b4khPdJRuKN/view?usp=drivesdk"
+							},
+							{
+								"name": "SQL 3rd Lecture.pdf",
+								"id": "1uTHZbMmN7JOAo0aHfgrLbbqQW8cnmCnR",
+								"mimeType": "application/pdf",
+								"size": 3069072,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1uTHZbMmN7JOAo0aHfgrLbbqQW8cnmCnR/view?usp=drivesdk"
+							},
+							{
+								"name": "ERD L5.pdf",
+								"id": "1uMsPEtW9GmNq6szsT2fxA3yMWkjPqltB",
+								"mimeType": "application/pdf",
+								"size": 5253236,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1uMsPEtW9GmNq6szsT2fxA3yMWkjPqltB/view?usp=drivesdk"
+							},
+							{
+								"name": "DBMS 4(marked).pdf",
+								"mimeType": "application/pdf",
+								"id": "1uMW1cTvKiAddN5hEVONiuM36OAf2_NQ1",
+								"size": 7072150,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1uMW1cTvKiAddN5hEVONiuM36OAf2_NQ1/view?usp=drivesdk"
+							},
+							{
+								"name": "Database Management System 1.pdf",
+								"id": "1uHoeu74dGJn1rYK2bJl86gcmq8-XfZOn",
+								"mimeType": "application/pdf",
+								"size": 8050318,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1uHoeu74dGJn1rYK2bJl86gcmq8-XfZOn/view?usp=drivesdk"
+							},
+							{
+								"name": "DBMS 3.pdf",
+								"mimeType": "application/pdf",
+								"id": "1uFmGWf-_nGF0ko7tnN59zkcBMXAAZ0Mi",
+								"size": 8673311,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1uFmGWf-_nGF0ko7tnN59zkcBMXAAZ0Mi/view?usp=drivesdk"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/1uA9fJImBZXjmlm0nXfvudABYqjMSajQ-"
+					},
+					{
+						"name": "TeleCommunication",
+						"id": "1txvAjfQpYJnbEgoRAT8qwxOeTts_zrnw",
+						"type": "folder",
+						"children": [
+							{
+								"name": "Data and Tele com classs3 4 .pptx",
+								"mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+								"id": "1u8szup1eG6TFnJmqGNW7fEcf93toqC6D",
+								"size": 5413089,
+								"type": "file",
+								"url": "https://docs.google.com/presentation/d/1u8szup1eG6TFnJmqGNW7fEcf93toqC6D/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+							},
+							{
+								"name": "Communication Mode.pptx",
+								"mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+								"id": "1u8VpfoYA1sSb6U7uxdwK-rzdRYelB6j2",
+								"size": 4836972,
+								"type": "file",
+								"url": "https://docs.google.com/presentation/d/1u8VpfoYA1sSb6U7uxdwK-rzdRYelB6j2/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+							},
+							{
+								"name": "Data com class 1.pdf",
+								"mimeType": "application/pdf",
+								"id": "1u8J7Doh9e6cei5EX-kuNkmbKvcOJf7hx",
+								"size": 1206802,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1u8J7Doh9e6cei5EX-kuNkmbKvcOJf7hx/view?usp=drivesdk"
+							},
+							{
+								"name": "Data Com class 2 .pdf",
+								"id": "1u6ChXR811HidgFVneY26MtmHHkcmRBhW",
+								"mimeType": "application/pdf",
+								"size": 865667,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1u6ChXR811HidgFVneY26MtmHHkcmRBhW/view?usp=drivesdk"
+							},
+							{
+								"name": "Communication2.pptx",
+								"mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+								"id": "1u0IIs1Ug767S2YXXKn0RpA69YuUB0EHB",
+								"size": 212691,
+								"type": "file",
+								"url": "https://docs.google.com/presentation/d/1u0IIs1Ug767S2YXXKn0RpA69YuUB0EHB/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/1txvAjfQpYJnbEgoRAT8qwxOeTts_zrnw"
+					},
+					{
+						"name": "Data structure ",
+						"id": "1tbTOkcSbhSJaJgD1cSkTBEUo-uvmgYqf",
+						"type": "folder",
+						"children": [
+							{
+								"name": "Data Structure class 4.pdf",
+								"id": "1ttEekpaB5yzPRMMfWdm59tniUARIttVl",
+								"mimeType": "application/pdf",
+								"size": 292489,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1ttEekpaB5yzPRMMfWdm59tniUARIttVl/view?usp=drivesdk"
+							},
+							{
+								"name": "Data structure class 1.pdf",
+								"mimeType": "application/pdf",
+								"id": "1toKqeB-PFao0SuYv-TRrmAozL7LGRb2R",
+								"size": 538495,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1toKqeB-PFao0SuYv-TRrmAozL7LGRb2R/view?usp=drivesdk"
+							},
+							{
+								"name": "Data Structure class 3.pdf",
+								"id": "1tni5xTrBKh39cDqwTiFrCmzTH3DuZ3L0",
+								"mimeType": "application/pdf",
+								"size": 616248,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1tni5xTrBKh39cDqwTiFrCmzTH3DuZ3L0/view?usp=drivesdk"
+							},
+							{
+								"name": "Data Structure class 5.pdf",
+								"mimeType": "application/pdf",
+								"id": "1tlBkhyUR8k27VWm_prBuhk0cuAyDJzgB",
+								"size": 717624,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1tlBkhyUR8k27VWm_prBuhk0cuAyDJzgB/view?usp=drivesdk"
+							},
+							{
+								"name": "B  Tree.pdf",
+								"id": "1tjrEDNtJv-BEGKgnd7_sfDi3bpt-yI1s",
+								"mimeType": "application/pdf",
+								"size": 1091203,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1tjrEDNtJv-BEGKgnd7_sfDi3bpt-yI1s/view?usp=drivesdk"
+							},
+							{
+								"name": "Data Structure class 2.pdf",
+								"id": "1teLp35NyLCWu1BqH55kzwQbY9B1KqaSZ",
+								"mimeType": "application/pdf",
+								"size": 1243712,
+								"type": "file",
+								"url": "https://drive.google.com/file/d/1teLp35NyLCWu1BqH55kzwQbY9B1KqaSZ/view?usp=drivesdk"
+							},
+							{
+								"name": "asymptotic_notation.pptx",
+								"id": "1tdPxKaCqgfvLtM06tSJFiOR1dK_pKolm",
+								"mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+								"size": 1835544,
+								"type": "file",
+								"url": "https://docs.google.com/presentation/d/1tdPxKaCqgfvLtM06tSJFiOR1dK_pKolm/edit?usp=drivesdk&ouid=115685212915894611045&rtpof=true&sd=true"
+							}
+						],
+						"url": "https://drive.google.com/drive/folders/1tbTOkcSbhSJaJgD1cSkTBEUo-uvmgYqf"
+					}
+				],
+				"url": "https://drive.google.com/drive/folders/1qIxzYH4rOjbgQazSOrMjqxZB5Ve-BXCo"
+			}
+		],
+		"url": "https://drive.google.com/drive/folders/1qHzklXa8ymG87JRzwljI0TfCHylt-P2W"
+	},
+	{
 		"name": "PDF  LIBRARY by, Abdur Rashid Sawom",
 		"id": "1Zgm8lDTVvUFnU8p35kh4bRSObt-iJIrh",
 		"type": "folder",
