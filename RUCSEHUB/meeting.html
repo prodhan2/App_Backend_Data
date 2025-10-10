@@ -1,378 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RUCSEHUB App - v2.0.0</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #1a73e8, #6a11cb);
-      color: white;
-      overflow-x: hidden;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RUCSEHUB Meet - Powered by RUCSEHUB Mobile App</title>
 
-    /* Background bubbles */
-    .bubble {
-      position: absolute;
-      border-radius: 50%;
-      background: rgba(255,255,255,0.1);
-      animation: float 20s infinite;
-      z-index: -1;
-    }
-    @keyframes float {
-      from { transform: translateY(100vh) scale(0.5); opacity: 0; }
-      50% { opacity: 0.7; }
-      to { transform: translateY(-10vh) scale(1.2); opacity: 0; }
-    }
-    .bubble:nth-child(1){ width:100px; height:100px; left:10%; animation-duration: 25s;}
-    .bubble:nth-child(2){ width:60px; height:60px; left:30%; animation-duration: 20s;}
-    .bubble:nth-child(3){ width:120px; height:120px; left:50%; animation-duration: 30s;}
-    .bubble:nth-child(4){ width:80px; height:80px; left:70%; animation-duration: 22s;}
-    .bubble:nth-child(5){ width:50px; height:50px; left:90%; animation-duration: 18s;}
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-    .navbar {
-      background: rgba(0,0,0,0.7);
-      border-bottom: 3px solid transparent;
-      border-image: linear-gradient(90deg, #ff5722, #ff9800);
-      border-image-slice: 1;
-    }
+    <!-- Jitsi External API -->
+    <script src="https://8x8.vc/vpaas-magic-cookie-c6f623b736374f419f0abea7115f92d5/external_api.js"></script>
 
-    .meeting-btn {
-      background: #4CAF50;
-      border: none;
-      padding: 8px 16px;
-      font-size: 14px;
-      font-weight: bold;
-      border-radius: 6px;
-      transition: 0.3s;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-    .meeting-btn:hover {
-      background: #45a049;
-      transform: scale(1.05);
-    }
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background: #f0f2f5;
+        font-family: "Google Sans", Arial, sans-serif;
+      }
 
-    .hero-section {
-      text-align: center;
-      padding: 60px 20px;
-      border: 4px solid transparent;
-      border-radius: 15px;
-      margin: 20px;
-      background: rgba(0,0,0,0.3);
-      border-image: linear-gradient(45deg, #ff5722, #ff9800, #ffc107, #ff5722);
-      border-image-slice: 1;
-      animation: borderGlow 5s linear infinite;
-    }
+      .navbar {
+        background-color: #1a73e8 !important;
+      }
 
-    @keyframes borderGlow {
-      0% { border-image-source: linear-gradient(45deg, #ff5722, #ff9800, #ffc107, #ff5722); }
-      50% { border-image-source: linear-gradient(45deg, #6a11cb, #2575fc, #00c6ff, #6a11cb); }
-      100% { border-image-source: linear-gradient(45deg, #ff5722, #ff9800, #ffc107, #ff5722); }
-    }
+      .navbar-brand {
+        font-weight: 600;
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+      }
 
-    .hero-section img {
-      max-width: 140px;
-      margin-bottom: 20px;
-    }
+      .navbar-brand img {
+        height: 36px;
+        margin-right: 10px;
+      }
 
-    .btn-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-top: 20px;
-    }
+      #jaas-container {
+        width: 100%;
+        height: calc(100vh - 100px);
+        background: #000;
+        display: none; /* hidden until form submitted */
+      }
 
-    .download-btn {
-      background: #ff5722;
-      border: none;
-      padding: 15px 30px;
-      font-size: 18px;
-      font-weight: bold;
-      border-radius: 8px;
-      transition: 0.3s;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .download-btn:hover {
-      background: #e64a19;
-      transform: scale(1.05);
-    }
+      #user-form {
+        height: calc(100vh - 100px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f0f2f5;
+      }
 
-    .telegram-btn {
-      background: #0088cc;
-      border: none;
-      padding: 15px 30px;
-      font-size: 18px;
-      font-weight: bold;
-      border-radius: 8px;
-      transition: 0.3s;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .telegram-btn:hover {
-      background: #0077b3;
-      transform: scale(1.05);
-    }
+      #user-form .card {
+        padding: 30px;
+        width: 90%;
+        max-width: 700px;
+        text-align: center;
+      }
 
-    .carousel-item img {
-      max-height: 520px;
-      object-fit: contain;
-      border-radius: 12px;
-      box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
-    }
+      #user-form img {
+        width: 120px;
+        margin-bottom: 20px;
+      }
 
-    footer {
-      background: rgba(0,0,0,0.8);
-      padding: 20px;
-      text-align: center;
-      font-size: 14px;
-      border-top: 3px solid transparent;
-      border-image: linear-gradient(90deg, #ff5722, #ff9800);
-      border-image-slice: 1;
-    }
+      .form-control-lg {
+        font-size: 1.2rem;
+        padding: 15px 12px;
+      }
 
-    .telegram-note {
-      margin-top: 15px;
-      font-size: 14px;
-      opacity: 0.9;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .carousel-indicators {
-      bottom: -50px;
-    }
-    
-    .carousel-indicators button {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      margin: 0 5px;
-    }
-    
-    .screenshot-counter {
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      background: rgba(0,0,0,0.7);
-      padding: 5px 10px;
-      border-radius: 15px;
-      font-size: 14px;
-      z-index: 10;
-    }
-  </style>
-</head>
-<body>
+      .btn-lg {
+        padding: 12px 0;
+        font-size: 1.2rem;
+      }
 
-  <!-- Floating bubbles -->
-  <div class="bubble"></div>
-  <div class="bubble"></div>
-  <div class="bubble"></div>
-  <div class="bubble"></div>
-  <div class="bubble"></div>
+      footer {
+        text-align: center;
+        background: #f8f9fa;
+        padding: 8px 0;
+        font-size: 14px;
+        color: #666;
+      }
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="https://i.postimg.cc/rsdXt5ts/hublogo.png" width="40" class="me-2" alt="Logo">
-        <span>RUCSEHUB</span>
+      footer img {
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      @media (max-width: 768px) {
+        .navbar-brand {
+          font-size: 1.1rem;
+        }
+
+        footer {
+          font-size: 12px;
+        }
+
+        #user-form .card {
+          padding: 20px;
+        }
+
+        #user-form img {
+          width: 100px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-3">
+      <a class="navbar-brand text-white" href="#">
+        <img src="https://i.postimg.cc/pX3xdJHr/image.png" alt="RUCSEHUB Logo" />
+        RUCSEHUB Meet
       </a>
-      <button class="btn meeting-btn" onclick="joinMeeting()">
-        <i class="fas fa-video"></i> Join Meeting
-      </button>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Hero Section -->
-  <section class="hero-section">
-    <img src="https://i.postimg.cc/rsdXt5ts/hublogo.png" alt="App Logo">
-    <h1 class="fw-bold">RUCSEHUB App</h1>
-    <p class="lead">Computer Science & Engineering Hub • University of Rajshahi</p>
-    <p><strong>Version:</strong> 2.0.0+2010</p>
-    
-    <div class="btn-container">
-      <button class="btn download-btn" onclick="downloadApp()">
-        <i class="fas fa-download"></i> Download Now
-      </button>
-      <button class="btn telegram-btn" onclick="joinTelegram()">
-        <i class="fab fa-telegram"></i> Join Telegram
-      </button>
-    </div>
-    
-    <p class="telegram-note">
-      <i class="fas fa-info-circle"></i> Join our Telegram channel to get updates about all future versions and features!
-    </p>
-  </section>
-
-  <!-- Screenshots Carousel -->
-  <div id="screensCarousel" class="carousel slide container mb-5" data-bs-ride="carousel" data-bs-interval="3000">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="screenshot-counter">1/26</div>
-        <img src="https://i.postimg.cc/bvBsX98p/Screenshot-20250927-220351.png" class="d-block w-100" alt="Screenshot 1">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">2/26</div>
-        <img src="https://i.postimg.cc/CKQzysYM/Screenshot-20250927-225028.png" class="d-block w-100" alt="Screenshot 2">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">3/26</div>
-        <img src="https://i.postimg.cc/VNVdyW1k/Screenshot-20250927-225036.png" class="d-block w-100" alt="Screenshot 3">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">4/26</div>
-        <img src="https://i.postimg.cc/Gp5H0xrL/Screenshot-20250927-225041.png" class="d-block w-100" alt="Screenshot 4">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">5/26</div>
-        <img src="https://i.postimg.cc/d1ZDJZtq/Screenshot-20250927-225047.png" class="d-block w-100" alt="Screenshot 5">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">6/26</div>
-        <img src="https://i.postimg.cc/B6PtJPQJ/Screenshot-20250927-225051.png" class="d-block w-100" alt="Screenshot 6">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">7/26</div>
-        <img src="https://i.postimg.cc/Hx8jT8sb/Screenshot-20250927-225057.png" class="d-block w-100" alt="Screenshot 7">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">8/26</div>
-        <img src="https://i.postimg.cc/85fsTfP7/Screenshot-20250927-225103.png" class="d-block w-100" alt="Screenshot 8">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">9/26</div>
-        <img src="https://i.postimg.cc/MTfXzfKT/Screenshot-20250927-225109.png" class="d-block w-100" alt="Screenshot 9">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">10/26</div>
-        <img src="https://i.postimg.cc/85fsTfPk/Screenshot-20250927-225114.png" class="d-block w-100" alt="Screenshot 10">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">11/26</div>
-        <img src="https://i.postimg.cc/j5nCRndz/Screenshot-20250927-225122.png" class="d-block w-100" alt="Screenshot 11">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">12/26</div>
-        <img src="https://i.postimg.cc/MHkHHZvt/Screenshot-20250927-225239.png" class="d-block w-100" alt="Screenshot 12">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">13/26</div>
-        <img src="https://i.postimg.cc/hv9jdFmc/Screenshot-20250927-225244.png" class="d-block w-100" alt="Screenshot 13">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">14/26</div>
-        <img src="https://i.postimg.cc/d381yMCF/Screenshot-20250927-225251.png" class="d-block w-100" alt="Screenshot 14">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">15/26</div>
-        <img src="https://i.postimg.cc/yxFdZqRB/Screenshot-20250927-225324.png" class="d-block w-100" alt="Screenshot 15">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">16/26</div>
-        <img src="https://i.postimg.cc/D0qZXVGy/Screenshot-20250927-225330.png" class="d-block w-100" alt="Screenshot 16">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">17/26</div>
-        <img src="https://i.postimg.cc/sxpXhFWB/Screenshot-20250927-225335.png" class="d-block w-100" alt="Screenshot 17">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">18/26</div>
-        <img src="https://i.postimg.cc/1XptqxFn/Screenshot-20250927-225344.png" class="d-block w-100" alt="Screenshot 18">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">19/26</div>
-        <img src="https://i.postimg.cc/kM8DZSpv/Screenshot-20250927-225401.png" class="d-block w-100" alt="Screenshot 19">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">20/26</div>
-        <img src="https://i.postimg.cc/PJmxwGD8/Screenshot-20250927-225415.png" class="d-block w-100" alt="Screenshot 20">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">21/26</div>
-        <img src="https://i.postimg.cc/VsM5TtV4/Screenshot-20250927-225448.png" class="d-block w-100" alt="Screenshot 21">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">22/26</div>
-        <img src="https://i.postimg.cc/2jv3JWK0/Screenshot-20250927-225536.png" class="d-block w-100" alt="Screenshot 22">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">23/26</div>
-        <img src="https://i.postimg.cc/RCfq8tDY/Screenshot-20250927-225637.png" class="d-block w-100" alt="Screenshot 23">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">24/26</div>
-        <img src="https://i.postimg.cc/BZDtyFz3/Screenshot-20250927-225645.png" class="d-block w-100" alt="Screenshot 24">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">25/26</div>
-        <img src="https://i.postimg.cc/7Ykby6v6/Screenshot-20250927-225652.png" class="d-block w-100" alt="Screenshot 25">
-      </div>
-      <div class="carousel-item">
-        <div class="screenshot-counter">26/26</div>
-        <img src="https://i.postimg.cc/c4BC1SZv/Screenshot-20250927-225711.png" class="d-block w-100" alt="Screenshot 26">
+    <!-- User Form -->
+    <div id="user-form">
+      <div class="card shadow">
+        <img src="https://i.postimg.cc/pX3xdJHr/image.png" alt="RUCSEHUB Logo" />
+        <h5 class="card-title mb-4">Enter Your Details</h5>
+        <form id="join-form">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="user-name"
+              placeholder="Enter your Name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="student-id"
+              placeholder="Enter your Student ID"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg w-100">
+            Join Meeting
+          </button>
+        </form>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#screensCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#screensCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>Published by <strong>Sujan Prodhan</strong>, CSE-29 • University of Rajshahi</p>
-    <p>&copy; 2025 RUCSEHUB App</p>
-  </footer>
+    <!-- Jitsi Meeting Area -->
+    <div id="jaas-container"></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    function downloadApp() {
-      let directLink = "https://github.com/prodhan2/RUCSEHUB-app/releases/download/rucsehub/RUCSEHUB_APP.apk";
-      let a = document.createElement('a');
-      a.href = directLink;
-      a.download = "RUCSEHU_v2.0.0.apk";
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
+    <!-- Footer -->
+    <footer>
+      <img src="https://i.postimg.cc/pX3xdJHr/image.png" alt="RUCSEHUB Logo">
+      © 2025 RUCSEHUB | Powered by <b>RUCSEHUB Mobile App</b> · Made with 💙
+      for CSE Students
+    </footer>
 
-      setTimeout(() => {
-        alert("🎉 Congratulations! Your download has started successfully.");
-      }, 1000);
-    }
-    
-    function joinTelegram() {
-      window.open("https://t.me/+sEfV7SNjmOM4Nzc1", "_blank");
-    }
-    
-    function joinMeeting() {
-      window.location.href = "/meeting.html";
-    }
-    
-    // Update screenshot counter when carousel slides
-    document.addEventListener('DOMContentLoaded', function() {
-      const carousel = document.getElementById('screensCarousel');
-      const totalSlides = document.querySelectorAll('.carousel-item').length;
-      
-      carousel.addEventListener('slid.bs.carousel', function (e) {
-        const activeIndex = Array.from(e.target.querySelectorAll('.carousel-item')).indexOf(e.target.querySelector('.carousel-item.active'));
-        const counters = document.querySelectorAll('.screenshot-counter');
-        counters.forEach(counter => {
-          counter.textContent = `${activeIndex + 1}/${totalSlides}`;
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Jitsi Integration -->
+    <script>
+      document.getElementById("join-form").addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById("user-name").value.trim();
+        const studentId = document.getElementById("student-id").value.trim();
+
+        if (!name || !studentId) {
+          alert("Please enter both Name and Student ID.");
+          return;
+        }
+
+        // Hide form and show Jitsi container
+        document.getElementById("user-form").style.display = "none";
+        const jaasContainer = document.getElementById("jaas-container");
+        jaasContainer.style.display = "block";
+
+        const domain = "8x8.vc";
+        const options = {
+          roomName:
+            "vpaas-magic-cookie-c6f623b736374f419f0abea7115f92d5/RUCSEHUBMainRoom",
+          parentNode: jaasContainer,
+          width: "100%",
+          height: "100%",
+          userInfo: {
+            displayName: name + " (" + studentId + ")",
+          },
+          interfaceConfigOverwrite: {
+            TOOLBAR_BUTTONS: [
+              "microphone",
+              "camera",
+              "desktop",
+              "fullscreen",
+              "chat",
+              "raisehand",
+              "tileview",
+              "hangup",
+            ],
+            SHOW_JITSI_WATERMARK: false,
+            SHOW_BRAND_WATERMARK: false,
+            SHOW_WATERMARK_FOR_GUESTS: false,
+            DEFAULT_REMOTE_DISPLAY_NAME: "Guest",
+            DEFAULT_LOCAL_DISPLAY_NAME: name,
+          },
+          configOverwrite: {
+            prejoinPageEnabled: true,
+            disableDeepLinking: true,
+          },
+        };
+
+        const api = new JitsiMeetExternalAPI(domain, options);
+
+        // Leave button
+        const leaveBtn = document.createElement("button");
+        leaveBtn.innerText = "Leave Meeting";
+        leaveBtn.className =
+          "btn btn-light text-primary fw-semibold btn-sm position-absolute";
+        leaveBtn.style.top = "10px";
+        leaveBtn.style.right = "10px";
+        document.body.appendChild(leaveBtn);
+
+        leaveBtn.addEventListener("click", () => {
+          api.executeCommand("hangup");
+          alert("You have left the meeting. Thank you for using RUCSEHUB!");
+        });
+
+        window.addEventListener("resize", () => {
+          api.resizeLargeVideo();
         });
       });
-    });
-  </script>
-</body>
+    </script>
+  </body>
 </html>
