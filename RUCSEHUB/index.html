@@ -40,6 +40,23 @@
       border-image-slice: 1;
     }
 
+    .meeting-btn {
+      background: #4CAF50;
+      border: none;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .meeting-btn:hover {
+      background: #45a049;
+      transform: scale(1.05);
+    }
+
     .hero-section {
       text-align: center;
       padding: 60px 20px;
@@ -170,6 +187,9 @@
         <img src="https://i.postimg.cc/rsdXt5ts/hublogo.png" width="40" class="me-2" alt="Logo">
         <span>RUCSEHUB</span>
       </a>
+      <button class="btn meeting-btn" onclick="joinMeeting()">
+        <i class="fas fa-video"></i> Join Meeting
+      </button>
     </div>
   </nav>
 
@@ -334,6 +354,10 @@
     
     function joinTelegram() {
       window.open("https://t.me/+sEfV7SNjmOM4Nzc1", "_blank");
+    }
+    
+    function joinMeeting() {
+      window.location.href = "/meeting.html";
     }
     
     // Update screenshot counter when carousel slides
