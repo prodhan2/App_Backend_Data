@@ -1921,7 +1921,7 @@
 					"Stores data in cookies"
 				],
 				"answer": "Stores data in the browser persistently",
-				"explanation": "`localStorage` হল একটি ব্রাউজার API যা ডেটা স্থায়ীভাবে ব্রাউজারের মধ্যে সংরক্ষণ করে, যাতে পৃষ্ঠা রিফ্রেশ বা ব্রাউজার বন্ধ করার পরও ডেটা থাকতে পারে।"
+				"explanation": "`localStorage` হল একটি ব্রাউজার API যা ডেটা ��্��া��়ীভাবে ব্রাউজারের মধ্যে সংরক্ষণ করে, যাতে পৃষ্ঠা রিফ্রেশ বা ব্রাউজার বন্ধ করার পরও ডেটা থাকতে পারে।"
 			},
 			{
 				"id": 61,
@@ -3063,7 +3063,7 @@
 					"Defines a constant"
 				],
 				"answer": "Allocates dynamic memory",
-				"explanation": "`new` ব্যবহার করে ডাইনামিক মেমোরি বরাদ্দ করা হয়।"
+				"explanation": "`new` ব্যবহার করে ডাইনামিক ��েমোরি বরাদ্দ করা হয়।"
 			},
 			{
 				"id": 56,
@@ -3737,7 +3737,7 @@
 					"To manage app navigation"
 				],
 				"answer": "To create a box model for styling and layout",
-				"explanation": "'Container' উইজেটের উদ্দেশ্য হল স্টাইলিং এবং লেআউটের জন্য একটি বক্স মডেল তৈরি করা।"
+				"explanation": "'Container' উইজেটের উদ্দেশ্য হল স্টাইলিং এবং লেআউট���র জন্য একটি বক্স মডেল তৈরি করা।"
 			},
 			{
 				"id": 12,
@@ -4085,7 +4085,7 @@
 					"None of the above"
 				],
 				"answer": "Used to perform asynchronous operations",
-				"explanation": "'async' এবং 'await' কীওয়ার্ডগুলি অ্যাসিনক্রোনাস অপারেশনগুলি সম্পাদনের জন্য ব্যবহার করা হয়।"
+				"explanation": "'async' এবং 'await' কীওয়ার্ড��ুলি ��্যাসিনক্রোনাস ����ারে���ন���ুলি স��্পাদনের জন্য ব্যবহার করা হয়।"
 			},
 			{
 				"id": 41,
@@ -4517,7 +4517,7 @@
 					"None of the above"
 				],
 				"answer": "To create a container that animates changes in its properties",
-				"explanation": "'AnimatedContainer' উইজেটের উদ্দেশ্য হল একটি কন্টেইনার তৈরি করা যা এর বৈশিষ্ট্যগুলিতে পরিবর্তনগুলি অ্যানিমেট করে।"
+				"explanation": "'AnimatedContainer' উইজেটের উদ্দেশ্য হল একটি কন্টেইনার তৈরি করা যা এর বৈশিষ্ট্যগুলিতে পরিব��্তনগুলি অ্যানিমেট করে।"
 			},
 			{
 				"id": 77,
@@ -5635,7 +5635,7 @@
 					"django.Model"
 				],
 				"answer": "models.Model",
-				"explanation": "সকল Django মডেল `models.Model` থেকে উত্তরাধিকার সূত্রে পাওয়া হয়।"
+				"explanation": "সকল Django মডেল `models.Model` থেকে উত্তরাধিকার সূত্র�� পাওয়া হয়।"
 			},
 			{
 				"id": 70,
@@ -7980,7 +7980,7 @@
 					"None of the above"
 				],
 				"answer": "Destroys all data registered to a session",
-				"explanation": "`session_destroy()` ফাংশনের উদ্দেশ্য হল একটি সেশনের জন্য নিবন্ধিত সমস্ত ডেটা ধ্বংস করা।"
+				"explanation": "`session_destroy()` ফাংশনের উদ্দেশ্য হল একটি সেশনের জন্য নিবন্ধিত স���স্ত ডেটা ধ্বংস করা।"
 			},
 			{
 				"id": 65,
@@ -8438,7 +8438,7 @@
 					"PULL"
 				],
 				"answer": "SELECT",
-				"explanation": "ডেটাবেস থেকে তথ্য বের করতে 'SELECT' স্টেটমেন্ট ব্যবহার করা হয়।"
+				"explanation": "��েটাবেস থেকে তথ্য বের করতে 'SELECT' স্টেটমেন্ট ব্যবহার করা হয়।"
 			},
 			{
 				"id": 3,
@@ -9362,7 +9362,7 @@
 					"None of the above"
 				],
 				"answer": "Returns all records from the left table and matched records from the right table",
-				"explanation": "'LEFT JOIN' বাম টেবিলের সমস্ত রেকর্ড এবং ডান টেবিল থেকে মেলানো রেকর্ডগুলি ফেরত দেয়।"
+				"explanation": "'LEFT JOIN' বাম টেবিলের সমস্ত রেকর্ড এবং ডান টেবিল থেকে ��েলানো রেকর্ডগুলি ফেরত দেয়।"
 			},
 			{
 				"id": 80,
@@ -9566,7 +9566,7 @@
 					"None of the above"
 				],
 				"answer": "A performance optimization technique to speed up data retrieval",
-				"explanation": "একটি ইনডেক্স হল ডেটা পুনরুদ্ধারকে ত্বরান্বিত করার জন্য একটি কর্মক্ষমতা অপটিমাইজেশন কৌশল।"
+				"explanation": "একটি ইনডেক্স হল ডেটা পুনরুদ্��ারকে ত্বরান্বিত করার জন্য একটি কর্মক্ষমতা অপটিমাইজেশন কৌশল।"
 			},
 			{
 				"id": 97,
@@ -9615,6 +9615,2410 @@
 				],
 				"answer": "Establishes a link between the data in two tables",
 				"explanation": "'FOREIGN KEY' সীমাবদ্ধতা দুটি টেবিলের মধ্যে ডেটার মধ্যে একটি সংযোগ স্থাপন করে।"
+			}
+		],
+		"Computer_Networks": [
+			{
+				"id": 1,
+				"question": "What is the primary function of a router in a computer network?",
+				"options": [
+					"To connect devices within the same LAN",
+					"To forward data packets between different networks",
+					"To assign IP addresses to devices",
+					"To amplify wireless signals"
+				],
+				"answer": "To forward data packets between different networks",
+				"explanation": "রাউটার মূলত দুটি বা ততোধিক ভিন্ন নেটওয়ার্কের মধ্যে ডেটা প্যাকেট পাঠায়। এটি নেটওয়ার্ক লেয়ারে (লেয়ার ৩) কাজ করে এবং আইপি অ্যাড্রেস ব্যবহার করে সঠিক গন্তব্যে ডেটা পৌঁছে দেয়।"
+			},
+			{
+				"id": 2,
+				"question": "Which protocol is used to send emails?",
+				"options": [
+					"HTTP",
+					"FTP",
+					"SMTP",
+					"POP3"
+				],
+				"answer": "SMTP",
+				"explanation": "ইমেইল পাঠানোর জন্য SMTP (Simple Mail Transfer Protocol) ব্যবহৃত হয়। POP3 বা IMAP ইমেইল গ্রহণের জন্য ব্যবহৃত হয়, কিন্তু পাঠানোর ক্ষেত্রে SMTP প্রয়োজন।"
+			},
+			{
+				"id": 3,
+				"question": "What does 'IP' stand for in networking?",
+				"options": [
+					"Internet Protocol",
+					"Internal Process",
+					"Interface Port",
+					"Internet Provider"
+				],
+				"answer": "Internet Protocol",
+				"explanation": "IP মানে Internet Protocol। এটি ডেটা প্যাকেটগুলিকে নেটওয়ার্ক জুড়ে ঠিকানা অনুযায়ী পাঠানোর জন্য একটি স্ট্যান্ডার্ড নিয়ম।"
+			},
+			{
+				"id": 4,
+				"question": "Which layer of the OSI model is responsible for end-to-end communication?",
+				"options": [
+					"Physical Layer",
+					"Data Link Layer",
+					"Network Layer",
+					"Transport Layer"
+				],
+				"answer": "Transport Layer",
+				"explanation": "ট্রান্সপোর্ট লেয়ার (লেয়ার ৪) ওএসআই মডেলে এন্ড-টু-এন্ড কমিউনিকেশন, ডেটা ইন্টিগ্রিটি এবং ফ্লো কন্ট্রোলের দায়িত্ব পালন করে। TCP এবং UDP এই লেয়ারের প্রোটোকল।"
+			},
+			{
+				"id": 5,
+				"question": "What is the default subnet mask for a Class C IP address?",
+				"options": [
+					"255.0.0.0",
+					"255.255.0.0",
+					"255.255.255.0",
+					"255.255.255.255"
+				],
+				"answer": "255.255.255.0",
+				"explanation": "ক্লাস C আইপি অ্যাড্রেসের ��িফল্ট সাবনেট মাস্ক হলো 255.255.255.0, যা প্রথম ২৪ বিটকে নেটওয়ার্ক আইডি হিসেবে ব্যবহার করে এবং শেষ ৮ বিটকে হোস্ট আইডি হিসেবে ব্যবহার করে।"
+			},
+			{
+				"id": 6,
+				"question": "Which device operates at the Data Link Layer of the OSI model?",
+				"options": [
+					"Router",
+					"Hub",
+					"Switch",
+					"Repeater"
+				],
+				"answer": "Switch",
+				"explanation": "সুইচ ডেটা লিঙ্ক লেয়ারে (লেয়ার ২) কাজ করে এবং MAC অ্যাড্রেস ব্যবহার করে ডেটা ফ্রেম ফরওয়ার্ড করে। হাব এবং রিপিটার ফিজিক্যাল লেয়ারে কাজ করে, আর রাউটার নেটওয়ার্ক লেয়ারে কাজ করে।"
+			},
+			{
+				"id": 7,
+				"question": "What is the purpose of DNS?",
+				"options": [
+					"To assign IP addresses dynamically",
+					"To translate domain names to IP addresses",
+					"To secure network traffic",
+					"To manage email servers"
+				],
+				"answer": "To translate domain names to IP addresses",
+				"explanation": "DNS (Domain Name System) ওয়েব অ্যাড্রেস (যেমন: www.example.com) কে মেশিন-বোধ্য আইপি অ্যাড্রেসে (যেমন: 192.0.2.1) রূপান্তর করে, যাতে ব্রাউজার সার্ভারে কানেক্ট করতে পারে।"
+			},
+			{
+				"id": 8,
+				"question": "Which of the following is a private IP address?",
+				"options": [
+					"172.15.10.5",
+					"192.168.1.10",
+					"8.8.8.8",
+					"172.32.0.1"
+				],
+				"answer": "192.168.1.10",
+				"explanation": "192.168.x.x, 10.x.x.x এবং 172.16.x.x থেকে 172.31.x.x পর্যন্ত আইপি রেঞ্জগুলো প্রাইভেট আইপি হিসেবে সংরক্ষিত। ইন্টারনেটে এগুলো রাউট করা হয় না।"
+			},
+			{
+				"id": 9,
+				"question": "What does HTTP stand for?",
+				"options": [
+					"HyperText Transfer Protocol",
+					"HighText Transfer Protocol",
+					"HyperText Transmission Protocol",
+					"High Transfer Text Protocol"
+				],
+				"answer": "HyperText Transfer Protocol",
+				"explanation": "HTTP মানে HyperText Transfer Protocol। এটি ওয়েব ব্রাউজার এবং ওয়েব সার্ভারের মধ্যে ডেটা আদান-প্রদানের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 10,
+				"question": "Which protocol ensures reliable data delivery?",
+				"options": [
+					"UDP",
+					"IP",
+					"TCP",
+					"ICMP"
+				],
+				"answer": "TCP",
+				"explanation": "TCP (Transmission Control Protocol) ডেটা সঠিকভাবে, ক্রমানুসারে এবং হারানো প্যাকেট পুনরায় পাঠিয়ে নিশ্চিত করে যে ডেটা সম্পূর্ণ পৌঁছেছে।"
+			},
+			{
+				"id": 11,
+				"question": "What is the full form of URL?",
+				"options": [
+					"Uniform Resource Locator",
+					"Universal Resource Link",
+					"Uniform Region Locator",
+					"Universal Reference Locator"
+				],
+				"answer": "Uniform Resource Locator",
+				"explanation": "URL হলো ওয়েবে কোনো রিসোর্সের ঠিকানা, যেমন: https://www.example.com/page.html। এটি রিসোর্সের অবস্থান এবং কীভাবে অ্যাক্সেস করতে হবে তা নির্দেশ করে।"
+			},
+			{
+				"id": 12,
+				"question": "Which topology uses a central hub or switch?",
+				"options": [
+					"Bus",
+					"Ring",
+					"Star",
+					"Mesh"
+				],
+				"answer": "Star",
+				"explanation": "স্টার টপোলজিতে সবগুলো ডিভাইস একটি কেন্দ্রীয় হাব বা সুইচের সাথে সংযুক্ত থাকে। একটি ডিভাইসের সমস্যা অন্যদের প্রভাবিত করে না।"
+			},
+			{
+				"id": 13,
+				"question": "What is the main advantage of IPv6 over IPv4?",
+				"options": [
+					"Faster speed",
+					"More security features",
+					"Larger address space",
+					"Better error detection"
+				],
+				"answer": "Larger address space",
+				"explanation": "IPv4 এ ৩২-বিট অ্যাড্রেস আ��ে (প্রায় ৪.৩ বিলিয়ন ঠিকানা), কিন্তু IPv6 এ ১২৮-বিট অ্যাড্রেস আছে, যা প্রায় অসীম সংখ্যক ডিভাইসের জন্য ঠিকানা সরবরাহ করতে পারে।"
+			},
+			{
+				"id": 14,
+				"question": "Which port number is used by HTTPS?",
+				"options": [
+					"21",
+					"25",
+					"80",
+					"443"
+				],
+				"answer": "443",
+				"explanation": "HTTPS (HTTP Secure) এনক্রিপ্টেড ওয়েব ট্রাফিকের জন্য পোর্ট 443 ব্যবহার করে। HTTP সাধারণত পোর্ট 80 ব্যবহার করে।"
+			},
+			{
+				"id": 15,
+				"question": "What is a firewall used for?",
+				"options": [
+					"To increase internet speed",
+					"To block unauthorized access to a network",
+					"To assign IP addresses",
+					"To connect to Wi-Fi"
+				],
+				"answer": "To block unauthorized access to a network",
+				"explanation": "ফায়ারওয়াল একটি নেটওয়ার্ক সিকিউরিটি সিস্টেম যা অননুমোদিত ট্রাফিক ব্লক করে এবং শুধুমাত্র নির্দিষ্ট নিয়ম অনুযায়ী ডেটা প্রবেশ বা প্রস্থান করতে দেয়।"
+			},
+			{
+				"id": 16,
+				"question": "Which of the following is not a network topology?",
+				"options": [
+					"Star",
+					"Tree",
+					"Cloud",
+					"Mesh"
+				],
+				"answer": "Cloud",
+				"explanation": "স্টার, ট্রি, মেশ হলো নেটওয়ার্ক টপোলজি, কিন্তু 'ক্লাউড' একটি কম্পিউটিং মডেল, টপোলজি নয়।"
+			},
+			{
+				"id": 17,
+				"question": "What does MAC stand for in MAC address?",
+				"options": [
+					"Media Access Control",
+					"Machine Address Code",
+					"Main Access Controller",
+					"Multi Access Channel"
+				],
+				"answer": "Media Access Control",
+				"explanation": "MAC অ্যাড্রেস হলো নেটওয়ার্ক ইন্টারফেস কার্ডের (NIC) একটি ইউনিক হার্ডওয়্যার আইডেন্টিফায়ার যা ডেটা লিঙ্ক লেয়ারে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 18,
+				"question": "Which protocol is connectionless?",
+				"options": [
+					"TCP",
+					"FTP",
+					"HTTP",
+					"UDP"
+				],
+				"answer": "UDP",
+				"explanation": "UDP (User Datagram Protocol) কানেকশনলেস প্রোটোকল। এটি ডেটা পাঠায় কিন্তু পৌঁছেছে কিনা তা চেক করে না, তাই এটি দ্রুত কিন্তু অবিশ্বস্ত।"
+			},
+			{
+				"id": 19,
+				"question": "What is the maximum length of a UTP cable without a repeater?",
+				"options": [
+					"50 meters",
+					"100 meters",
+					"185 meters",
+					"500 meters"
+				],
+				"answer": "100 meters",
+				"explanation": "স্ট্যান্ডার্ড ইথারনেট (10/100/1000BASE-T) এর জন্য UTP কেবলের সর্বোচ্চ দৈর্ঘ্য 100 মিটার�� এর বেশি হলে সিগনাল দুর্বল হয়ে যায়।"
+			},
+			{
+				"id": 20,
+				"question": "Which layer of OSI model does a hub operate on?",
+				"options": [
+					"Physical Layer",
+					"Data Link Layer",
+					"Network Layer",
+					"Transport Layer"
+				],
+				"answer": "Physical Layer",
+				"explanation": "হাব শুধু ইলেকট্রিক্যাল সিগনাল পুনরায় প্রেরণ করে এবং এটি ওএসআই মডেলের ফিজিক্যাল লেয়ারে (লেয়ার ১) কাজ করে। এটি MAC বা IP অ্যাড্রেস বুঝে না।"
+			},
+			{
+				"id": 21,
+				"question": "What is the purpose of ARP?",
+				"options": [
+					"To resolve IP to MAC address",
+					"To resolve domain to IP",
+					"To encrypt data",
+					"To compress files"
+				],
+				"answer": "To resolve IP to MAC address",
+				"explanation": "ARP (Address Resolution Protocol) লোকাল নেটওয়ার্কে একটি আইপি অ্যাড্রেসের সাথে সম্পর্কিত MAC অ্যাড্রেস খুঁজে বার করে।"
+			},
+			{
+				"id": 22,
+				"question": "Which of the following is a valid IPv4 address?",
+				"options": [
+					"256.1.1.1",
+					"192.168.0.256",
+					"172.16.0.1",
+					"192.168.-1.1"
+				],
+				"answer": "172.16.0.1",
+				"explanation": "IPv4 অ্যাড্রেসে প্রতিটি অক্টেট 0 থেকে 255 এর মধ্যে হতে হবে। 172.16.0.1 এই শর্ত পূরণ করে, অন্যগুলো করে না।"
+			},
+			{
+				"id": 23,
+				"question": "What does FTP stand for?",
+				"options": [
+					"File Transfer Protocol",
+					"Fast Transfer Protocol",
+					"File Text Protocol",
+					"Free Transfer Protocol"
+				],
+				"answer": "File Transfer Protocol",
+				"explanation": "FTP হলো ফাইল ট্রান্সফার প্রোটোকল, যা কম্পিউটার নেটওয়ার্ক জুড়ে ফাইল আপলোড বা ডাউনলোড করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 24,
+				"question": "Which device regenerates signals in a network?",
+				"options": [
+					"Router",
+					"Switch",
+					"Repeater",
+					"Bridge"
+				],
+				"answer": "Repeater",
+				"explanation": "রিপিটার দুর্বল নেটওয়ার্ক সিগনালকে পুনরায় শক্তিশালী করে দেয় যাতে দূরত্ব অতিক্রম করা যায়। এটি ফিজিক্যাল লেয়ারে কাজ করে।"
+			},
+			{
+				"id": 25,
+				"question": "What is the loopback IP address?",
+				"options": [
+					"127.0.0.1",
+					"192.168.1.1",
+					"10.0.0.1",
+					"0.0.0.0"
+				],
+				"answer": "127.0.0.1",
+				"explanation": "127.0.0.1 হলো লুপব্যাক আইপি অ্যাড্রেস, যা কম্পিউটার নিজেকে টেস্ট করার জন্য ব্যবহার করে। এটি সর্বদা নিজের মেশিনকে নির্দেশ করে।"
+			},
+			{
+				"id": 26,
+				"question": "Which protocol is used for secure remote login?",
+				"options": [
+					"Telnet",
+					"SSH",
+					"FTP",
+					"HTTP"
+				],
+				"answer": "SSH",
+				"explanation": "SSH (Secure Shell) এনক্রিপ্টেড কানেকশনের মাধ্যমে রিমোট লগইন এবং কমান্ড এক্সিকিউট করার জন্য ব্যবহৃত হয়। Telnet অসুরক্ষিত।"
+			},
+			{
+				"id": 27,
+				"question": "What is the size of an IPv4 address?",
+				"options": [
+					"32 bits",
+					"64 bits",
+					"128 bits",
+					"256 bits"
+				],
+				"answer": "32 bits",
+				"explanation": "IPv4 অ্যাড্রেস 32 বিটের, যা চারটি 8-বিট অক্টেটে বিভক্ত (যেমন: 192.168.1.1)।"
+			},
+			{
+				"id": 28,
+				"question": "Which of the following is not a guided media?",
+				"options": [
+					"Twisted Pair Cable",
+					"Coaxial Cable",
+					"Fiber Optic",
+					"Microwave"
+				],
+				"answer": "Microwave",
+				"explanation": "মাইক্রোওয়েভ আনগাইডেড (wireless) মিডিয়া, অন্যগুলো গাইডেড (wired) মিডিয়া।"
+			},
+			{
+				"id": 29,
+				"question": "What does OSI stand for?",
+				"options": [
+					"Open Systems Interconnection",
+					"Operating System Interface",
+					"Open Source Internet",
+					"Optical Signal Interface"
+				],
+				"answer": "Open Systems Interconnection",
+				"explanation": "OSI মডেল হলো Open Systems Interconnection মডেল, যা নেটওয়ার্ক কমিউনিকেশনকে 7টি লেয়ারে ভাগ করে বোঝার জন্য একটি রেফারেন্স মডেল।"
+			},
+			{
+				"id": 30,
+				"question": "Which layer converts data into signals?",
+				"options": [
+					"Application Layer",
+					"Presentation Layer",
+					"Session Layer",
+					"Physical Layer"
+				],
+				"answer": "Physical Layer",
+				"explanation": "ফিজিক্যাল লেয়ার (লেয়ার ১) ডেটাকে ইলেকট্রিক্যাল, অপটিক্যাল বা রেডিও সিগনালে রূপান্তর করে যাতে মিডিয়া জুড়ে পাঠানো যায়।"
+			},
+			{
+				"id": 31,
+				"question": "What is the main function of a proxy server?",
+				"options": [
+					"To assign IP addresses",
+					"To act as an intermediary for requests from clients",
+					"To encrypt all traffic",
+					"To connect to satellites"
+				],
+				"answer": "To act as an intermediary for requests from clients",
+				"explanation": "প্রক্সি সার্ভার ক্লায়েন্ট এবং ইন্টারনেটের মধ্যে মধ্যস্থতাকারী হিসেবে কাজ করে, যা সিকিউরিটি, ক্যাশিং এবং অ্যানোনিমিটি প্রদান করে।"
+			},
+			{
+				"id": 32,
+				"question": "Which IP class is used for multicast?",
+				"options": [
+					"Class A",
+					"Class B",
+					"Class C",
+					"Class D"
+				],
+				"answer": "Class D",
+				"explanation": "ক্লাস D আইপি অ্যাড্রেস (224.0.0.0 থেকে 239.255.255.255) মাল্টিকাস্ট কমিউনিকেশনের জন্য ব্যবহৃত হয়, যেখানে একই ডেটা একাধিক রিসিভারে পাঠানো হয়।"
+			},
+			{
+				"id": 33,
+				"question": "What is the default port for FTP?",
+				"options": [
+					"20 and 21",
+					"22",
+					"25",
+					"80"
+				],
+				"answer": "20 and 21",
+				"explanation": "FTP ডেটা ট্রান্সফারের জন্য পোর্ট 20 এবং কমান্ড কন্ট্রোলের জন্য পোর্ট 21 ব্যবহার করে।"
+			},
+			{
+				"id": 34,
+				"question": "Which protocol is used to automatically assign IP addresses?",
+				"options": [
+					"DNS",
+					"ARP",
+					"DHCP",
+					"ICMP"
+				],
+				"answer": "DHCP",
+				"explanation": "DHCP (Dynamic Host Configuration Protocol) নেটওয়ার্কে যুক্ত ডিভাইসগুলিকে স্বয়ংক্রিয়ভাবে আইপি অ্যাড্রেস, সাবনেট মাস্ক, গেটওয়ে ইত্যাদি প্রদান করে।"
+			},
+			{
+				"id": 35,
+				"question": "What is the purpose of a subnet mask?",
+				"options": [
+					"To hide IP addresses",
+					"To identify network and host portions of an IP address",
+					"To encrypt data",
+					"To increase bandwidth"
+				],
+				"answer": "To identify network and host portions of an IP address",
+				"explanation": "সাবনেট মাস্ক একটি আইপি অ্যাড্রেসের কোন অংশ নেটওয়ার্ক আইডি এবং কোন অংশ হোস্ট আইডি তা নির্ধারণ করে।"
+			},
+			{
+				"id": 36,
+				"question": "Which of the following is a broadcast address in 192.168.1.0/24?",
+				"options": [
+					"192.168.1.0",
+					"192.168.1.1",
+					"192.168.1.254",
+					"192.168.1.255"
+				],
+				"answer": "192.168.1.255",
+				"explanation": "/24 সাবনেটে শেষ ঠিকানা (192.168.1.255) হলো ব্রডকাস্ট অ্যাড্রেস, যা নেটওয়ার্কের সব ডিভাইসে মেসেজ পাঠাতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 37,
+				"question": "What is the main difference between a switch and a hub?",
+				"options": [
+					"Switch is slower",
+					"Hub uses MAC addresses",
+					"Switch sends data only to intended device",
+					"Hub works at Layer 3"
+				],
+				"answer": "Switch sends data only to intended device",
+				"explanation": "সুইচ শুধুমাত্র লক্ষ্য ডিভাইসে ডেটা পাঠায় (MAC অ্যাড্রেস ব্যবহার করে), কিন্তু হাব সব পোর্টে ডেটা ব্রডকাস্ট করে, যা নেটওয়ার্ক ট্রাফিক বাড়ায়।"
+			},
+			{
+				"id": 38,
+				"question": "Which protocol is used by ping?",
+				"options": [
+					"TCP",
+					"UDP",
+					"ICMP",
+					"ARP"
+				],
+				"answer": "ICMP",
+				"explanation": "পিং কমান্ড ICMP (Internet Control Message Protocol) ব্যবহার করে নেটওয়ার্কে কোনো হোস্ট রিচেবল কিনা তা পরীক্ষা করে।"
+			},
+			{
+				"id": 39,
+				"question": "What is the range of Class A IP addresses?",
+				"options": [
+					"1.0.0.0 to 126.255.255.255",
+					"128.0.0.0 to 191.255.255.255",
+					"192.0.0.0 to 223.255.255.255",
+					"224.0.0.0 to 239.255.255.255"
+				],
+				"answer": "1.0.0.0 to 126.255.255.255",
+				"explanation": "ক্লাস A আইপি অ্যাড্রেস 1.0.0.0 থেকে 126.255.255.255 পর্যন্ত, যেখানে প্রথম অক্টেট নেটওয়ার্ক আইডি এবং বাকি তিনটি হোস্ট আইডি।"
+			},
+			{
+				"id": 40,
+				"question": "Which layer handles data encryption and decryption?",
+				"options": [
+					"Application Layer",
+					"Presentation Layer",
+					"Session Layer",
+					"Transport Layer"
+				],
+				"answer": "Presentation Layer",
+				"explanation": "প্রেজেন্টেশন লেয়ার (লেয়ার ৬) ডেটা এনক্রিপশন, ডিক্রিপশন, কম্প্রেশন এবং ট্রান্সলেশনের দায়িত্ব পালন করে।"
+			},
+			{
+				"id": 41,
+				"question": "What is the full form of Wi-Fi?",
+				"options": [
+					"Wireless Fidelity",
+					"Wired Fidelity",
+					"Wireless Fiber",
+					"Worldwide Interoperability for Microwave Access"
+				],
+				"answer": "Wireless Fidelity",
+				"explanation": "Wi-Fi মানে Wireless Fidelity। এটি একটি ওয়্যারলেস নেটওয়ার্কিং প্রযুক্তি যা লোকাল এরিয়া নেটওয়ার্ক (WLAN) তৈরি করে।"
+			},
+			{
+				"id": 42,
+				"question": "Which of the following is a public IP address?",
+				"options": [
+					"10.0.0.5",
+					"172.16.1.10",
+					"192.168.0.1",
+					"203.112.150.12"
+				],
+				"answer": "203.112.150.12",
+				"explanation": "203.112.150.12 একটি পাবলিক আইপি অ্যাড্রেস যা ইন্টারনেটে রাউট করা যায়। অন্যগুলো প্রাইভেট আইপি।"
+			},
+			{
+				"id": 43,
+				"question": "What is the purpose of NAT?",
+				"options": [
+					"To translate private IP to public IP",
+					"To assign MAC addresses",
+					"To encrypt data",
+					"To detect viruses"
+				],
+				"answer": "To translate private IP to public IP",
+				"explanation": "NAT (Network Address Translation) প্রাইভেট আইপি অ্যাড্রেসকে পাবলিক আইপিতে রূপান্তর করে যাতে একাধিক ডিভাইস একটি পাবলিক আইপি ব্যবহার করে ইন্টারনেটে যুক্ত হতে পারে।"
+			},
+			{
+				"id": 44,
+				"question": "Which protocol is used for video streaming?",
+				"options": [
+					"TCP",
+					"HTTP",
+					"UDP",
+					"FTP"
+				],
+				"answer": "UDP",
+				"explanation": "ভিডিও স্ট্রিমিংয়ে UDP ব্যবহার করা হয় কারণ এটি দ্রুত এবং কিছু প্যাকেট লস হলেও ভিডিও চলতে থাকে, যা TCP-এর চেয়ে ভালো।"
+			},
+			{
+				"id": 45,
+				"question": "What is the size of a MAC address?",
+				"options": [
+					"32 bits",
+					"48 bits",
+					"64 bits",
+					"128 bits"
+				],
+				"answer": "48 bits",
+				"explanation": "MAC অ্যাড্রেস 48 বিটের (6 বাইট), যা সাধারণত হেক্সাডেসিমেলে লেখা হয় (যেমন: 00:1A:2B:3C:4D:5E)।"
+			},
+			{
+				"id": 46,
+				"question": "Which device connects two similar networks?",
+				"options": [
+					"Router",
+					"Bridge",
+					"Gateway",
+					"Modem"
+				],
+				"answer": "Bridge",
+				"explanation": "ব্রিজ দুটি সমান ধরনের নেটওয়ার্ক (যেমন: দুটি ইথারনেট সেগমেন্ট) কে সংযুক্ত করে এবং ডেটা লিঙ্ক লেয়ারে কাজ করে।"
+			},
+			{
+				"id": 47,
+				"question": "What is the function of a gateway?",
+				"options": [
+					"To connect LAN to internet",
+					"To assign IP addresses",
+					"To block all traffic",
+					"To store files"
+				],
+				"answer": "To connect LAN to internet",
+				"explanation": "গেটওয়ে দুটি ভিন্ন প্রোটোকল বা আর্কিটেকচার বিশিষ্ট নেটওয়ার্ককে সংযুক্ত করে, যেমন LAN কে ইন্টারনেটের সাথে যুক্ত করা।"
+			},
+			{
+				"id": 48,
+				"question": "Which of the following is not a transport layer protocol?",
+				"options": [
+					"TCP",
+					"UDP",
+					"SCTP",
+					"IP"
+				],
+				"answer": "IP",
+				"explanation": "IP হলো নেটওয়ার্ক লেয়ার প্রোটোকল। TCP, UDP এবং SCTP ট্রান্সপোর্ট লেয়ার প্রোটোকল।"
+			},
+			{
+				"id": 49,
+				"question": "What is the main purpose of error detection in networking?",
+				"options": [
+					"To increase speed",
+					"To ensure data integrity",
+					"To reduce cost",
+					"To assign addresses"
+				],
+				"answer": "To ensure data integrity",
+				"explanation": "এরর ডিটেকশন (যেমন CRC, চেকসাম) ডেটা ট্রান্সমিশনের সময় ত্রুটি শনাক্ত করে যাতে ভুল ডেটা গ্রহণ না করা হয়।"
+			},
+			{
+				"id": 50,
+				"question": "Which layer establishes, manages, and terminates sessions?",
+				"options": [
+					"Transport Layer",
+					"Session Layer",
+					"Presentation Layer",
+					"Application Layer"
+				],
+				"answer": "Session Layer",
+				"explanation": "সেশন লেয়ার (লেয়ার ৫) কমিউনিকেশন সেশন তৈরি, পরিচালনা এবং শেষ করে, যেমন লগইন/লগআউট প্রক্রিয়া।"
+			},
+			{
+				"id": 51,
+				"question": "What is the maximum data rate of traditional Ethernet?",
+				"options": [
+					"10 Mbps",
+					"100 Mbps",
+					"1 Gbps",
+					"10 Gbps"
+				],
+				"answer": "10 Mbps",
+				"explanation": "প্রথাগত ইথারনেট (10BASE-T) এর সর্বোচ্চ ডেটা রেট 10 Mbps। Fast Ethernet 100 Mbps, Gigabit Ethernet 1 Gbps।"
+			},
+			{
+				"id": 52,
+				"question": "Which cable type is most resistant to EMI?",
+				"options": [
+					"UTP",
+					"STP",
+					"Coaxial",
+					"Fiber Optic"
+				],
+				"answer": "Fiber Optic",
+				"explanation": "ফাইবার অপটিক কেবল ইলেকট্রোম্যাগনেটিক ইন্টারফেয়ারেন্স (EMI) থেকে সম্পূর্ণ মুক্ত, কারণ এটি আলো দিয়ে ডেটা পাঠায়।"
+			},
+			{
+				"id": 53,
+				"question": "What does SSL stand for?",
+				"options": [
+					"Secure Socket Layer",
+					"System Security Level",
+					"Secure System Login",
+					"Standard Socket Language"
+				],
+				"answer": "Secure Socket Layer",
+				"explanation": "SSL (Secure Socket Layer) একটি সিকিউরিটি প্রোটোকল যা ইন্টারনেটে ডেটা এনক্রিপ্ট করে। এখন এটি TLS দ্বারা প্রতিস্থাপিত হয়েছে।"
+			},
+			{
+				"id": 54,
+				"question": "Which of the following is a connection-oriented protocol?",
+				"options": [
+					"UDP",
+					"ICMP",
+					"IP",
+					"TCP"
+				],
+				"answer": "TCP",
+				"explanation": "TCP কানেকশন-ওরিয়েন্টেড প্রোটোকল। এটি ডেটা পাঠানোর আগে তিন-ধাপী হ্যান্ডশেক (SYN, SYN-ACK, ACK) ব্যবহার করে কানেকশন স্থাপন কর��।"
+			},
+			{
+				"id": 55,
+				"question": "What is the purpose of a default gateway?",
+				"options": [
+					"To assign IP addresses",
+					"To connect to external networks",
+					"To block viruses",
+					"To store DNS records"
+				],
+				"answer": "To connect to external networks",
+				"explanation": "ডিফল্ট গেটওয়ে হলো সেই রাউটার যার মাধ্যমে লোকাল নেটওয়ার্ক থেকে বাইরের নেটওয়ার্ক (যেমন ইন্টারনেট) এ ডেটা পাঠানো হয়।"
+			},
+			{
+				"id": 56,
+				"question": "Which protocol resolves IP to domain name?",
+				"options": [
+					"DNS",
+					"ARP",
+					"RARP",
+					"DHCP"
+				],
+				"answer": "DNS",
+				"explanation": "DNS ডোমেইন নামকে আইপি অ্যাড্রেসে রূপান্তর করে। বিপরীত প্রক্রিয়া (IP থেকে ডোমেইন) কে রিভার্স DNS বলে।"
+			},
+			{
+				"id": 57,
+				"question": "What is the length of an IPv6 address?",
+				"options": [
+					"32 bits",
+					"64 bits",
+					"128 bits",
+					"256 bits"
+				],
+				"answer": "128 bits",
+				"explanation": "IPv6 অ্যাড্রেস 128 বিটের, যা হেক্সাডেসিমেলে 8 গ্রুপে লেখা হয় (যেমন: 2001:0db8:85a3::8a2e:0370:7334)।"
+			},
+			{
+				"id": 58,
+				"question": "Which of the following is a network layer device?",
+				"options": [
+					"Hub",
+					"Switch",
+					"Router",
+					"Repeater"
+				],
+				"answer": "Router",
+				"explanation": "রাউটার নেটওয়ার্ক লেয়ার (লেয়ার ৩) ডিভাইস, যা আইপি অ্যাড্রেস ব্যবহার করে ডেটা প্যাকেট রাউট করে।"
+			},
+			{
+				"id": 59,
+				"question": "What is the main function of the Application Layer?",
+				"options": [
+					"To provide network services to end-users",
+					"To handle physical connections",
+					"To manage sessions",
+					"To encrypt data"
+				],
+				"answer": "To provide network services to end-users",
+				"explanation": "অ্যাপ্লিকেশন লেয়ার (লেয়ার ৭) ইউজার অ্যাপ্লিকেশন (যেমন ওয়েব ব্রাউজার, ইমেইল) কে নেটওয়ার্ক সার্ভিস প্রদান করে।"
+			},
+			{
+				"id": 60,
+				"question": "Which of the following is not a valid top-level domain?",
+				"options": [
+					".com",
+					".org",
+					".net",
+					".xyz123"
+				],
+				"answer": ".xyz123",
+				"explanation": ".com, .org, .net সবগুলো ভ্যালিড TLD, কিন্তু .xyz123 কোনো স্বীকৃত টপ-লেভেল ডোমেইন নয়।"
+			},
+			{
+				"id": 61,
+				"question": "What is the purpose of a checksum in networking?",
+				"options": [
+					"To compress data",
+					"To detect errors in transmitted data",
+					"To encrypt packets",
+					"To assign port numbers"
+				],
+				"answer": "To detect errors in transmitted data",
+				"explanation": "চেকসাম হলো একটি এরর-ডিটেকশন টেকনিক যা ডেটা ট্রান্সমিশনের সময় ত্রুটি শনাক্ত করে।"
+			},
+			{
+				"id": 62,
+				"question": "Which protocol is used for real-time voice communication?",
+				"options": [
+					"FTP",
+					"HTTP",
+					"VoIP",
+					"SMTP"
+				],
+				"answer": "VoIP",
+				"explanation": "VoIP (Voice over IP) ইন্টারনেটের মাধ্যমে রিয়েল-টাইম ভয়েস কমিউনিকেশনের জন্য ব্যবহৃত হয়, যেমন WhatsApp কল বা Zoom।"
+			},
+			{
+				"id": 63,
+				"question": "What is the main advantage of fiber optic cable?",
+				"options": [
+					"Low cost",
+					"Easy installation",
+					"High bandwidth and low attenuation",
+					"Works without power"
+				],
+				"answer": "High bandwidth and low attenuation",
+				"explanation": "ফাইবার অপটিক কেবল খুব উচ্চ ব্যান্ডউইথ সরবরাহ করে এবং দীর্ঘ দূরত্বে সিগনাল দুর্বল হয় না (কম অ্যাটেনুয়েশন)।"
+			},
+			{
+				"id": 64,
+				"question": "Which of the following is a valid IPv6 address?",
+				"options": [
+					"2001:0db8:85a3::8a2e:0370:7334",
+					"192.168.1.1",
+					"256.1.1.1",
+					"FE80::1::2"
+				],
+				"answer": "2001:0db8:85a3::8a2e:0370:7334",
+				"explanation": "IPv6 অ্যাড্রেস হেক্সাডেসিমেল সংখ্যা এবং কলোন দিয়ে গঠিত। '::' শুধু একবার ব্যবহার করা যায় শূন্য গ্রুপ সংক্ষেপণের জন্য।"
+			},
+			{
+				"id": 65,
+				"question": "What is the function of a modem?",
+				"options": [
+					"To connect multiple computers",
+					"To convert digital to analog signals",
+					"To assign IP addresses",
+					"To block hackers"
+				],
+				"answer": "To convert digital to analog signals",
+				"explanation": "মডেম (Modulator-Demodulator) ডিজিটাল সিগনালকে অ্যানালগে রূপান্তর করে (টেলিফোন লাইনে পাঠানোর জন্য) এবং অ্যানালগকে ডিজিটালে ফেরত আনে।"
+			},
+			{
+				"id": 66,
+				"question": "Which layer is responsible for logical addressing?",
+				"options": [
+					"Data Link Layer",
+					"Network Layer",
+					"Transport Layer",
+					"Physical Layer"
+				],
+				"answer": "Network Layer",
+				"explanation": "নেটওয়ার্ক লেয়ার (লেয়ার ৩) লজিক্যাল অ্যাড্রেসিং (আইপি অ্যাড্রেস) এবং ��াউটি��য়ের ��ায়িত্ব পালন করে।"
+			},
+			{
+				"id": 67,
+				"question": "What is the purpose of a VLAN?",
+				"options": [
+					"To increase internet speed",
+					"To create logical network segments within a physical network",
+					"To assign public IPs",
+					"To replace routers"
+				],
+				"answer": "To create logical network segments within a physical network",
+				"explanation": "VLAN (Virtual Local Area Network) একটি ফিজিক্যাল সুইচের ভিতরে একাধিক লজিক্যাল নেটওয়ার্ক তৈরি করে, যা সিকিউরিটি ও ট্রাফিক ম্যানেজমেন্টে সাহায্য করে।"
+			},
+			{
+				"id": 68,
+				"question": "Which protocol is used to synchronize time across network devices?",
+				"options": [
+					"HTTP",
+					"NTP",
+					"FTP",
+					"SMTP"
+				],
+				"answer": "NTP",
+				"explanation": "NTP (Network Time Protocol) নেটওয়ার্কের সব ডিভাইসের সময় সিঙ্ক্রোনাইজ করে, যা লগিং, সিকিউরিটি এবং ট্রানজেকশনের জন্য গুরুত্বপূর্ণ।"
+			},
+			{
+				"id": 69,
+				"question": "What is the main function of a CSU/DSU?",
+				"options": [
+					"To connect LAN to WAN",
+					"To assign MAC addresses",
+					"To encrypt data",
+					"To store backups"
+				],
+				"answer": "To connect LAN to WAN",
+				"explanation": "CSU/DSU (Channel Service Unit/Data Service Unit) ডিজিটাল লাইন (যেমন T1) এর মাধ্যমে LAN কে WAN-এর সাথে সংযুক্ত করে।"
+			},
+			{
+				"id": 70,
+				"question": "Which of the following is a wireless networking standard?",
+				"options": [
+					"IEEE 802.3",
+					"IEEE 802.11",
+					"IEEE 802.1Q",
+					"IEEE 802.1X"
+				],
+				"answer": "IEEE 802.11",
+				"explanation": "IEEE 802.11 হলো Wi-Fi এর স্ট্যান্ডার্ড। 802.3 হলো ইথারনেট, 802.1Q VLAN, 802.1X অথেন্টিকেশন।"
+			},
+			{
+				"id": 71,
+				"question": "What is the purpose of QoS in networking?",
+				"options": [
+					"To reduce cost",
+					"To prioritize certain types of traffic",
+					"To assign IP addresses",
+					"To block websites"
+				],
+				"answer": "To prioritize certain types of traffic",
+				"explanation": "QoS (Quality of Service) ভয়েস, ভিডিও বা গেমিং ট্রাফিকের মতো গুরুত্বপূর্ণ ডেটাকে অগ্রাধিকার দেয় যাতে ল্যাগ বা জিটার কম হয়।"
+			},
+			{
+				"id": 72,
+				"question": "Which of the following is a valid private IP range?",
+				"options": [
+					"172.16.0.0 – 172.31.255.255",
+					"172.32.0.0 – 172.63.255.255",
+					"192.0.0.0 – 192.255.255.255",
+					"169.254.0.0 – 169.254.255.255"
+				],
+				"answer": "172.16.0.0 – 172.31.255.255",
+				"explanation": "172.16.0.0 থেকে 172.31.255.255 পর্যন্ত আইপি রেঞ্জ প্রাইভেট হিসেবে IANA দ্বারা সংরক্ষিত।"
+			},
+			{
+				"id": 73,
+				"question": "What is the main purpose of a patch panel?",
+				"options": [
+					"To provide power to devices",
+					"To organize and manage network cables",
+					"To assign IP addresses",
+					"To boost Wi-Fi signal"
+				],
+				"answer": "To organize and manage network cables",
+				"explanation": "প্যাচ প্যানেল নেটওয়ার্ক কেবলগুলিকে কেন্দ্রীয়ভাবে সংগঠিত করে এবং সুইচ বা রাউটারের সাথে সংযোগ সহজ করে।"
+			},
+			{
+				"id": 74,
+				"question": "Which protocol is used for secure file transfer?",
+				"options": [
+					"FTP",
+					"TFTP",
+					"SFTP",
+					"HTTP"
+				],
+				"answer": "SFTP",
+				"explanation": "SFTP (SSH File Transfer Protocol) SSH এনক্রিপশন ব্যবহার করে নিরাপদে ফাইল ট্রান্সফার করে। সাধারণ FTP অসুরক্ষিত।"
+			},
+			{
+				"id": 75,
+				"question": "What is the function of a network interface card (NIC)?",
+				"options": [
+					"To connect to power supply",
+					"To provide physical connection to a network",
+					"To store operating system",
+					"To display graphics"
+				],
+				"answer": "To provide physical connection to a network",
+				"explanation": "NIC (Network Interface Card) কম্পিউটারকে নেটওয়ার্কের সাথে ফিজিক্যালি সংযুক্ত করে এবং MAC অ্যাড্রেস প্রদান করে।"
+			},
+			{
+				"id": 76,
+				"question": "Which of the following is not a type of network?",
+				"options": [
+					"LAN",
+					"MAN",
+					"WAN",
+					"PAN",
+					"SAN",
+					"DAN"
+				],
+				"answer": "DAN",
+				"explanation": "LAN, MAN, WAN, PAN, SAN সবগুলো বৈধ নেটওয়ার্ক টাইপ। DAN (District Area Network) কোনো স্ট্যান্ডার্ড নেটওয়ার্ক টাইপ নয়।"
+			},
+			{
+				"id": 77,
+				"question": "What is the main purpose of a network topology diagram?",
+				"options": [
+					"To show internet speed",
+					"To visualize network layout and connections",
+					"To assign passwords",
+					"To block hackers"
+				],
+				"answer": "To visualize network layout and connections",
+				"explanation": "নেটওয়ার্ক টপোলজি ডায়াগ্রাম নেটওয়ার্কের ডিভাইস, কানেকশন এবং লেআউট ভিজ্যুয়ালাইজ করে, যা ট্রাবলশুটিং ও পরিকল্পনায় সাহায্য করে।"
+			},
+			{
+				"id": 78,
+				"question": "Which protocol is used for dynamic routing?",
+				"options": [
+					"HTTP",
+					"RIP",
+					"FTP",
+					"SMTP"
+				],
+				"answer": "RIP",
+				"explanation": "RIP (Routing Information Protocol) একটি ডাইনামিক রাউটিং প্রোটোকল যা রাউটারগুলিকে স্বয়ংক্রিয়ভাবে রাউটিং টেবিল আপডেট করতে দেয়।"
+			},
+			{
+				"id": 79,
+				"question": "What is the main disadvantage of a bus topology?",
+				"options": [
+					"High cost",
+					"Difficult to install",
+					"Single point of failure",
+					"Requires many cables"
+				],
+				"answer": "Single point of failure",
+				"explanation": "বাস টপোলজিতে মেইন কেবলে সমস্যা হলে সম্পূর্ণ নেটওয়ার্ক বন্ধ হয়ে যায়, যা একটি সিঙ্গেল পয়েন্ট অফ ফেইলিউর।"
+			},
+			{
+				"id": 80,
+				"question": "Which of the following is a valid subnet mask?",
+				"options": [
+					"255.255.255.1",
+					"255.255.0.255",
+					"255.255.255.0",
+					"255.0.255.0"
+				],
+				"answer": "255.255.255.0",
+				"explanation": "সাবনেট মাস্কে বাইনারিতে সব 1 আগে এবং পরে সব 0 থাকতে হবে। 255.255.255.0 = 11111111.11111111.11111111.00000000, যা ভ্যালিড।"
+			},
+			{
+				"id": 81,
+				"question": "What is the purpose of a DMZ in networking?",
+				"options": [
+					"To increase internet speed",
+					"To isolate public-facing servers from internal network",
+					"To assign IP addresses",
+					"To store backups"
+				],
+				"answer": "To isolate public-facing servers from internal network",
+				"explanation": "DMZ (Demilitarized Zone) একটি সুরক্ষিত নেটওয়ার্ক সেগমেন্ট যেখানে ওয়েব সার্ভার, মেইল সার্ভার ইত্যাদি রাখা হয় যাতে ইন্টারনেট থেকে অ্যাক্সেস করা যায় কিন্তু ইন্টারনাল নেটওয়ার্ক ঝুঁকিতে না পড়ে।"
+			},
+			{
+				"id": 82,
+				"question": "Which of the following is a link-state routing protocol?",
+				"options": [
+					"RIP",
+					"EIGRP",
+					"OSPF",
+					"BGP"
+				],
+				"answer": "OSPF",
+				"explanation": "OSPF (Open Shortest Path First) একটি লিংক-স্টেট রাউটিং প্রোটোকল যা নেটওয়ার্কের সম্পূর্ণ টপোলজি ম্যাপ তৈরি করে এবং সবচেয়ে ভালো পথ নির্ধারণ করে।"
+			},
+			{
+				"id": 83,
+				"question": "What is the main function of a load balancer?",
+				"options": [
+					"To assign IP addresses",
+					"To distribute network traffic across multiple servers",
+					"To encrypt data",
+					"To block viruses"
+				],
+				"answer": "To distribute network traffic across multiple servers",
+				"explanation": "লোড ব্যালেন্সার ট্রাফিক একাধিক সার্ভারে ভাগ করে দেয় যাতে কোনো একটি সার্ভার ওভারলোড না হয় এবং সার্ভিস আপটাইম বজায় থাকে।"
+			},
+			{
+				"id": 84,
+				"question": "Which of the following is not a wireless security protocol?",
+				"options": [
+					"WEP",
+					"WPA",
+					"WPA2",
+					"FTP"
+				],
+				"answer": "FTP",
+				"explanation": "WEP, WPA, WPA2 সবগুলো ওয়্যারলেস সিকিউরিটি প্রোটোকল। FTP হলো ফাইল ট্রান্সফার প্রোটোকল, সিকিউরিটি প্রোটোকল নয়।"
+			},
+			{
+				"id": 85,
+				"question": "What is the purpose of a network sniffer?",
+				"options": [
+					"To block traffic",
+					"To monitor and analyze network traffic",
+					"To assign IP addresses",
+					"To increase speed"
+				],
+				"answer": "To monitor and analyze network traffic",
+				"explanation": "নেটওয়ার্ক স্নিফার (যেমন Wireshark) নেটওয়ার্ক ট্রাফিক ক্যাপচার ও বিশ্লেষণ করে ট্রাবলশুটিং বা সিকিউরিটি অডিটের জন্য।"
+			},
+			{
+				"id": 86,
+				"question": "Which of the following is a distance-vector routing protocol?",
+				"options": [
+					"OSPF",
+					"IS-IS",
+					"RIP",
+					"EIGRP"
+				],
+				"answer": "RIP",
+				"explanation": "RIP (Routing Information Protocol) একটি ডিস্টেন্স-ভেক্টর রাউটিং প্রোটোকল যা হপ কাউন্ট ব্যবহার করে সেরা পথ নির্ধারণ করে।"
+			},
+			{
+				"id": 87,
+				"question": "What is the main purpose of a network baseline?",
+				"options": [
+					"To assign passwords",
+					"To measure normal network performance for comparison",
+					"To block websites",
+					"To install software"
+				],
+				"answer": "To measure normal network performance for comparison",
+				"explanation": "নেটওয়ার্ক বেসলাইন হলো স্বাভাবিক অবস্থায় নেটওয়ার্কের পারফরম্যান্স মেট্রিক্স (যেমন ব্যান্ডউইথ, ল্যাটেন্সি), যা সমস্যা শনাক্তকরণে সাহায্য করে।"
+			},
+			{
+				"id": 88,
+				"question": "Which of the following is used to test network connectivity?",
+				"options": [
+					"ipconfig",
+					"ping",
+					"nslookup",
+					"tracert"
+				],
+				"answer": "ping",
+				"explanation": "পিং কমান্ড দুটি ডিভাইস���র মধ্যে বেসিক কানেক্টিভিটি পরীক্ষা করে ICMP ইকো রিকোয়েস্ট পাঠিয়ে।"
+			},
+			{
+				"id": 89,
+				"question": "What is the function of tracert (or traceroute)?",
+				"options": [
+					"To show IP configuration",
+					"To trace the path packets take to a destination",
+					"To resolve DNS",
+					"To assign IP"
+				],
+				"answer": "To trace the path packets take to a destination",
+				"explanation": "tracert (Windows) বা traceroute (Linux) কমান্ড ডেস্টিনেশন পর্যন্ত প্যাকেটের পথ এবং প্রতিটি হপের সময় দেখায়।"
+			},
+			{
+				"id": 90,
+				"question": "Which command shows IP configuration in Windows?",
+				"options": [
+					"ifconfig",
+					"ipconfig",
+					"netstat",
+					"ping"
+				],
+				"answer": "ipconfig",
+				"explanation": "Windows-এ ipconfig কমান্ড নেটওয়ার্ক ইন্টারফেসের আইপি অ্যাড্রেস, সাবনেট মাস্ক, ডিফল্ট গেটওয়ে ইত্যাদি দেখায়। Linux-এ ifconfig বা ip a ব্যবহৃত হয়।"
+			},
+			{
+				"id": 91,
+				"question": "What is the purpose of netstat command?",
+				"options": [
+					"To configure IP",
+					"To display active network connections and listening ports",
+					"To trace route",
+					"To test speed"
+				],
+				"answer": "To display active network connections and listening ports",
+				"explanation": "netstat কমান্ড অ্যাকটিভ নেটওয়ার্ক কানেকশন, লিস্টেনিং পোর্ট, প্রোটোকল ইত্যাদি দেখায়, যা ট্রাবলশুটিংয়ে সাহায্য করে।"
+			},
+			{
+				"id": 92,
+				"question": "Which of the following is a valid MAC address format?",
+				"options": [
+					"192.168.1.1",
+					"00-1A-2B-3C-4D-5E",
+					"255.255.255.0",
+					"www.example.com"
+				],
+				"answer": "00-1A-2B-3C-4D-5E",
+				"explanation": "MAC অ্যাড্রেস সাধারণত 6 জোড়া হেক্সাডেসিমেল সংখ্যা হাইফেন বা কলোন দিয়ে আলাদা করা হয়, যেমন 00:1A:2B:3C:4D:5E বা 00-1A-2B-3C-4D-5E।"
+			},
+			{
+				"id": 93,
+				"question": "What is the main function of a network operating system (NOS)?",
+				"options": [
+					"To run games",
+					"To manage network resources and users",
+					"To design websites",
+					"To edit videos"
+				],
+				"answer": "To manage network resources and users",
+				"explanation": "নেটওয়ার্ক অপারেটিং সিস্টেম (যেমন Windows Server, Linux) নেটওয়ার্ক রিসোর্স, ইউজার, সিকিউরিটি এবং সার্ভিস ম্যানেজ করে।"
+			},
+			{
+				"id": 94,
+				"question": "Which of the following is a cloud computing service model?",
+				"options": [
+					"IaaS",
+					"PaaS",
+					"SaaS",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "IaaS (Infrastructure), PaaS (Platform), SaaS (Software) সবগুলো ক্লাউড কম্পিউটিং সার্ভিস মডেল।"
+			},
+			{
+				"id": 95,
+				"question": "What is the main advantage of cloud computing?",
+				"options": [
+					"High upfront cost",
+					"Scalability and on-demand resources",
+					"Requires physical servers",
+					"Slow deployment"
+				],
+				"answer": "Scalability and on-demand resources",
+				"explanation": "ক্লাউড কম্পিউটিং ব্যবহারকারীকে প্রয়োজন অনুযায়ী স্কেল করার এবং রিসোর্স অন-ডিমান্ড ব্যবহারের সুবিধা দেয়।"
+			},
+			{
+				"id": 96,
+				"question": "Which of the following is a type of network attack?",
+				"options": [
+					"Phishing",
+					"DDoS",
+					"Man-in-the-middle",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "ফিশিং, DDoS (Distributed Denial of Service), ম্যান-ইন-দ্য-মিডল — সবগুলোই কমন নেটওয়ার্ক অ্যাটাক।"
+			},
+			{
+				"id": 97,
+				"question": "What is the purpose of a honeypot in networking?",
+				"options": [
+					"To increase speed",
+					"To attract and trap attackers",
+					"To assign IP",
+					"To block all traffic"
+				],
+				"answer": "To attract and trap attackers",
+				"explanation": "হোনিপট একটি ডিকoy সিস্টেম যা হ্যাকারদের আকর্ষণ করে এবং তাদের কার্যকলাপ মনিটর করে বা ট্র্যাপ করে।"
+			},
+			{
+				"id": 98,
+				"question": "Which protocol is used for secure web browsing?",
+				"options": [
+					"HTTP",
+					"FTP",
+					"HTTPS",
+					"SMTP"
+				],
+				"answer": "HTTPS",
+				"explanation": "HTTPS (HTTP Secure) SSL/TLS এনক্রিপশন ব্যবহার করে ওয়েব ট্রাফিক সুরক্ষিত করে, যা পাসওয়ার্ড বা ক্রেডিট কার্ড ডেটা সুরক্ষায় গুরুত্বপূর্ণ।"
+			},
+			{
+				"id": 99,
+				"question": "What is the main function of a content filter?",
+				"options": [
+					"To block inappropriate websites",
+					"To increase bandwidth",
+					"To assign IP addresses",
+					"To connect to Wi-Fi"
+				],
+				"answer": "To block inappropriate websites",
+				"explanation": "কনটেন্ট ফিল্টার অবাঞ্ছিত বা অশ্লীল ওয়েবসাইট ব্লক করে, যা স্কুল, অফিস বা প্যারেন্টাল কন্ট্রোলে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 100,
+				"question": "Which of the following is a network performance metric?",
+				"options": [
+					"Bandwidth",
+					"Latency",
+					"Jitter",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "ব্যান্ডউইথ (ডেটা রেট), ল্যাটেন্সি (ডিলে), জিটার (ল্যাটেন্সি পরিবর্তন) — সবগুলোই নেটওয়ার্ক পারফরম্যান্স মেট্রিক্স।"
+			},
+			{
+				"id": 101,
+				"question": "What is the purpose of a network diagram?",
+				"options": [
+					"To show internet speed",
+					"To document network infrastructure",
+					"To assign passwords",
+					"To block hackers"
+				],
+				"answer": "To document network infrastructure",
+				"explanation": "নেটওয়ার্ক ডায়াগ্রাম নেটওয়ার্কের সমস্ত ডিভাইস, কানেকশন এবং টপোলজি ডকুমেন্ট করে, যা পরিকল্পনা ও ট্রাবলশুটিংয়ে সাহায্য করে।"
+			},
+			{
+				"id": 102,
+				"question": "Which of the following is a type of firewall?",
+				"options": [
+					"Packet-filtering",
+					"Stateful inspection",
+					"Proxy",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "প্যাকেট-ফিল্টারিং, স্টেটফুল ইন্সপেকশন, প্রক্সি — সবগুলোই ফায়ারওয়ালের প্রকারভেদ।"
+			},
+			{
+				"id": 103,
+				"question": "What is the main function of SNMP?",
+				"options": [
+					"To transfer files",
+					"To manage and monitor network devices",
+					"To assign IP",
+					"To browse websites"
+				],
+				"answer": "To manage and monitor network devices",
+				"explanation": "SNMP (Simple Network Management Protocol) রাউটার, সুইচ, সার্ভার ইত্যাদি নেটওয়ার্ক ডিভাইস মনিটর ও ম্যানেজ করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 104,
+				"question": "Which of the following is a valid IPv4 loopback address?",
+				"options": [
+					"127.0.0.1",
+					"127.255.255.255",
+					"0.0.0.0",
+					"255.255.255.255"
+				],
+				"answer": "127.0.0.1",
+				"explanation": "127.0.0.1 হলো স্ট্যান্ডার্ড IPv4 লুপব্যাক অ্যাড্রেস। 127.0.0.0/8 রেঞ্জের যেকোনো অ্যাড্রেস লুপব্যাক হিসেবে কাজ করে, কিন্তু 127.0.0.1 সবচেয়ে কমন।"
+			},
+			{
+				"id": 105,
+				"question": "What is the purpose of a network audit?",
+				"options": [
+					"To increase speed",
+					"To evaluate security and performance",
+					"To assign IP",
+					"To install software"
+				],
+				"answer": "To evaluate security and performance",
+				"explanation": "নেটওয়ার্ক অডিট নেটওয়ার্কের সিকিউরিটি, পারফরম্যান্স, কনফিগারেশন এবং কমপ্লায়েন্স মূল্যায়ন করে।"
+			},
+			{
+				"id": 106,
+				"question": "Which of the following is a network troubleshooting tool?",
+				"options": [
+					"Cable tester",
+					"Protocol analyzer",
+					"Network monitor",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "কেবল টেস্টার, প্রোটোকল অ্যানালাইজার (Wireshark), নেটওয়ার্ক মনিটর — সবগুলোই ট্রাবলশুটিং টুল।"
+			},
+			{
+				"id": 107,
+				"question": "What is the main function of a network bridge?",
+				"options": [
+					"To connect two LAN segments",
+					"To assign IP addresses",
+					"To encrypt data",
+					"To block all traffic"
+				],
+				"answer": "To connect two LAN segments",
+				"explanation": "ব্রিজ দুটি LAN সেগমেন্টকে একটি নেটওয়ার্কে যুক্ত করে এবং MAC অ্যাড্রেস ব্যবহার করে ট্রাফিক ফিল্টার করে।"
+			},
+			{
+				"id": 108,
+				"question": "Which of the following is a characteristic of a peer-to-peer network?",
+				"options": [
+					"Centralized control",
+					"No dedicated server",
+					"High security",
+					"Expensive to maintain"
+				],
+				"answer": "No dedicated server",
+				"explanation": "পিয়ার-টু-পিয়ার (P2P) নেটওয়ার্কে কোনো ডেডিকেটেড সার্ভার নেই; প্রতিটি ডিভাইস ক্লায়েন্ট ও সার্ভার উভয় হিসেবে কাজ করে।"
+			},
+			{
+				"id": 109,
+				"question": "What is the main disadvantage of a mesh topology?",
+				"options": [
+					"Low security",
+					"High cabling cost",
+					"Single point of failure",
+					"Slow speed"
+				],
+				"answer": "High cabling cost",
+				"explanation": "মেশ টপোলজিতে প্রতিটি ডিভাইস অন্য সবগুলো ডিভাইসের সাথে সংযুক্ত থাকে, যার ফলে কেবলিং খরচ ও জটিলতা বেড়ে যায়।"
+			},
+			{
+				"id": 110,
+				"question": "Which of the following is used to resolve NetBIOS names to IP addresses?",
+				"options": [
+					"DNS",
+					"WINS",
+					"DHCP",
+					"ARP"
+				],
+				"answer": "WINS",
+				"explanation": "WINS (Windows Internet Name Service) পুরানো Windows নেটওয়ার্কে NetBIOS নামকে আইপি অ্যাড্রেসে রূপান্তর করে। এখন DNS বেশি ব্যবহৃত হয়।"
+			},
+			{
+				"id": 111,
+				"question": "What is the purpose of a network policy?",
+				"options": [
+					"To increase speed",
+					"To define rules for network usage and security",
+					"To assign IP",
+					"To block all users"
+				],
+				"answer": "To define rules for network usage and security",
+				"explanation": "নেটওয়ার্ক পলিসি নেটওয়ার্ক ব্যবহার, সিকিউরিটি, অ্যাক্সেস কন্ট্রোল ইত্যাদির নিয়ম নির্ধারণ করে।"
+			},
+			{
+				"id": 112,
+				"question": "Which of the following is a type of network cable connector?",
+				"options": [
+					"RJ-45",
+					"USB",
+					"HDMI",
+					"VGA"
+				],
+				"answer": "RJ-45",
+				"explanation": "RJ-45 কানেক্টর ইথারনেট (UTP) কেবলে ব্যবহৃত হয়। USB, HDMI, VGA ভিডিও/ডেটা কানেক্টর, নেটওয়ার্ক কানেক্টর নয়।"
+			},
+			{
+				"id": 113,
+				"question": "What is the main function of a network switch?",
+				"options": [
+					"To broadcast data to all ports",
+					"To forward data based on MAC address",
+					"To assign IP addresses",
+					"To connect to internet"
+				],
+				"answer": "To forward data based on MAC address",
+				"explanation": "সুইচ ডেটা ফ্রেমকে শুধুমাত্র লক্ষ্য MAC অ্যাড্রেস বিশিষ্ট পোর্টে পাঠায়, যা নেটওয়ার্ক এফিসিয়েন্সি বাড়ায়।"
+			},
+			{
+				"id": 114,
+				"question": "Which of the following is a network layer protocol?",
+				"options": [
+					"TCP",
+					"UDP",
+					"IP",
+					"HTTP"
+				],
+				"answer": "IP",
+				"explanation": "IP (Internet Protocol) নেটওয়ার্ক লেয়ার প্রোটোকল। TCP ও UDP ট্রান্সপোর্ট লেয়ার, HTTP অ্যাপ্লিকেশন লেয়ার।"
+			},
+			{
+				"id": 115,
+				"question": "What is the purpose of a network simulator?",
+				"options": [
+					"To increase internet speed",
+					"To model and test network behavior",
+					"To assign IP",
+					"To block websites"
+				],
+				"answer": "To model and test network behavior",
+				"explanation": "নেটওয়ার্ক সিমুলেটর (যেমন Cisco Packet Tracer, GNS3) নেটওয়ার্ক টপোলজি ও কনফিগারেশন টেস্ট করার জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 116,
+				"question": "Which of the following is a valid IPv6 loopback address?",
+				"options": [
+					"::1",
+					"127.0.0.1",
+					"::127.0.0.1",
+					"FE80::1"
+				],
+				"answer": "::1",
+				"explanation": "IPv6-এ লুপব্যাক অ্যাড্রেস হলো ::1, যা IPv4-এর 127.0.0.1-এর সমতুল্য।"
+			},
+			{
+				"id": 117,
+				"question": "What is the main function of a network gateway?",
+				"options": [
+					"To connect similar networks",
+					"To connect dissimilar networks",
+					"To assign MAC addresses",
+					"To block all traffic"
+				],
+				"answer": "To connect dissimilar networks",
+				"explanation": "গেটওয়ে ভিন্ন প্রোটোকল বা আর্কিটেকচার বিশিষ্ট নেটওয়ার্ক (যেমন TCP/IP এবং IPX/SPX) কে সংযুক্ত করে।"
+			},
+			{
+				"id": 118,
+				"question": "Which of the following is a transport layer function?",
+				"options": [
+					"Logical addressing",
+					"Physical transmission",
+					"End-to-end communication",
+					"Data formatting"
+				],
+				"answer": "End-to-end communication",
+				"explanation": "ট্রান্সপোর্ট লেয়ার এন্ড-টু-এন্ড কমিউনিকেশন, ফ্লো কন্ট্রোল, এরর কন্ট্রোল এবং সিগমেন্টেশনের দায়িত্ব পালন করে।"
+			},
+			{
+				"id": 119,
+				"question": "What is the purpose of a network baseline?",
+				"options": [
+					"To assign passwords",
+					"To measure normal network performance",
+					"To block hackers",
+					"To install software"
+				],
+				"answer": "To measure normal network performance",
+				"explanation": "নেটওয়ার্ক বেসলাইন স্বাভাবিক অবস্থায় নেটওয়ার্কের পারফরম্যান্স রেকর্ড করে, যা সমস্যা শনাক্তকরণে সাহায্য করে।"
+			},
+			{
+				"id": 120,
+				"question": "Which of the following is a network security best practice?",
+				"options": [
+					"Use default passwords",
+					"Disable firewalls",
+					"Regularly update software",
+					"Share passwords"
+				],
+				"answer": "Regularly update software",
+				"explanation": "সফটওয়্যার নিয়মিত আপডেট করা সিকিউরিটি ভালনারেবিলিটি প্যাচ করে এবং নেটওয়ার্ক সুরক্ষিত রাখে।"
+			},
+			{
+				"id": 121,
+				"question": "What is the main function of a proxy server?",
+				"options": [
+					"To assign IP addresses",
+					"To act as an intermediary for client requests",
+					"To connect to satellites",
+					"To increase bandwidth"
+				],
+				"answer": "To act as an intermediary for client requests",
+				"explanation": "প্রক্সি সার্ভার ক্লায়েন্ট এবং ইন্টারনেটের মধ্যে মধ্যস্থতাকারী হিসেবে কাজ করে, যা সিকিউরিটি, ক্যাশিং এবং অ্যানোনিমিটি প্রদান করে।"
+			},
+			{
+				"id": 122,
+				"question": "Which of the following is a type of network?",
+				"options": [
+					"LAN",
+					"WAN",
+					"MAN",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "LAN (Local Area Network), WAN (Wide Area Network), MAN (Metropolitan Area Network) — সবগুলোই নেটওয়ার্কের প্রকারভেদ।"
+			},
+			{
+				"id": 123,
+				"question": "What is the purpose of a network interface?",
+				"options": [
+					"To provide a connection point for network devices",
+					"To assign IP addresses",
+					"To block viruses",
+					"To store data"
+				],
+				"answer": "To provide a connection point for network devices",
+				"explanation": "নেটওয়ার্ক ইন্টারফেস (যেমন NIC) ডিভাইসকে নেটওয়ার্কে সংযুক্ত করার জন্য একটি ফিজিক্যাল বা লজিক্যাল পয়েন্ট প্রদান করে।"
+			},
+			{
+				"id": 124,
+				"question": "Which of the following is a network protocol?",
+				"options": [
+					"TCP",
+					"IP",
+					"HTTP",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "TCP, IP, HTTP — সবগুলোই নেটওয়ার্ক প্রোটোকল, যদিও ভিন্ন লেয়ারে কাজ করে।"
+			},
+			{
+				"id": 125,
+				"question": "What is the main function of a network router?",
+				"options": [
+					"To connect devices in a LAN",
+					"To forward packets between networks",
+					"To assign MAC addresses",
+					"To amplify signals"
+				],
+				"answer": "To forward packets between networks",
+				"explanation": "রাউটার ভিন্ন নেটওয়ার্কের মধ্যে ডেটা প্যাকেট রাউট করে এবং আইপি অ্যাড্রেস ব্যবহার করে সেরা পথ নির্ধারণ করে।"
+			},
+			{
+				"id": 126,
+				"question": "Which of the following is a wireless networking technology?",
+				"options": [
+					"Bluetooth",
+					"Wi-Fi",
+					"Zigbee",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "ব্লুটুথ, Wi-Fi, Zigbee — সবগুলোই ওয়্যারলেস নেটওয়ার্কিং প্রযুক্তি।"
+			},
+			{
+				"id": 127,
+				"question": "What is the purpose of a network segment?",
+				"options": [
+					"To increase speed",
+					"To divide a network for performance or security",
+					"To assign IP",
+					"To block all traffic"
+				],
+				"answer": "To divide a network for performance or security",
+				"explanation": "নেটওয়ার্ক সেগমেন্টেশন ট্রাফিক কমায়, সিকিউরিটি বাড়ায় এবং ব্রডকাস্ট ডোমেইন সীমিত করে।"
+			},
+			{
+				"id": 128,
+				"question": "Which of the following is a network monitoring tool?",
+				"options": [
+					"Wireshark",
+					"Nagios",
+					"PRTG",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Wireshark, Nagios, PRTG — সবগুলোই নেটওয়ার্ক মনিটরিং ও অ্যানালাইসিস টুল।"
+			},
+			{
+				"id": 129,
+				"question": "What is the main function of a network cable?",
+				"options": [
+					"To provide power",
+					"To transmit data between devices",
+					"To assign IP",
+					"To block signals"
+				],
+				"answer": "To transmit data between devices",
+				"explanation": "নেটওয়ার্ক কেবল (যেমন UTP, ফাইবার) ডিভাইসগুলির মধ্যে ডেটা ট্রান্সমিট করে।"
+			},
+			{
+				"id": 130,
+				"question": "Which of the following is a network security threat?",
+				"options": [
+					"Malware",
+					"Phishing",
+					"Ransomware",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "ম্যালওয়্যার, ফিশিং, র‍্যানসমওয়্যার — সবগুলোই কমন নেটওয়ার্ক সিকিউরিটি থ্রেট।"
+			},
+			{
+				"id": 131,
+				"question": "What is the purpose of a network backup?",
+				"options": [
+					"To increase speed",
+					"To restore data after failure",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To restore data after failure",
+				"explanation": "নেটওয়ার্ক ব্যাকআপ ডেটা লস বা সিস্টে�� ফেইলিউরের পর ডেটা পুনরুদ্ধার করতে সাহায্য করে।"
+			},
+			{
+				"id": 132,
+				"question": "Which of the following is a network access control method?",
+				"options": [
+					"MAC filtering",
+					"Firewall",
+					"Antivirus",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "MAC ফিল্টারিং, ফায়ারওয়াল, অ্যান্টিভাইরাস — সবগুলোই নেটওয়ার্ক অ্যাক্সেস কন্ট্রোল বা সিকিউরিটি পদ্ধতি।"
+			},
+			{
+				"id": 133,
+				"question": "What is the main function of a network protocol?",
+				"options": [
+					"To assign IP addresses",
+					"To define rules for communication",
+					"To connect devices",
+					"To block traffic"
+				],
+				"answer": "To define rules for communication",
+				"explanation": "নেটওয়ার্ক প্রোটোকল ডিভাইসগুলির মধ্যে কমিউনিকেশনের নিয়ম, ফরম্যাট এবং প্রক্রিয়া নির্ধারণ করে।"
+			},
+			{
+				"id": 134,
+				"question": "Which of the following is a network performance issue?",
+				"options": [
+					"Latency",
+					"Packet loss",
+					"Jitter",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "ল্যাটেন্সি, প্যাকেট লস, জিটার — সবগুলোই নেটওয়ার্ক পারফরম্যান্স সমস্যা।"
+			},
+			{
+				"id": 135,
+				"question": "What is the purpose of a network inventory?",
+				"options": [
+					"To list all network devices and software",
+					"To increase speed",
+					"To assign IP",
+					"To block websites"
+				],
+				"answer": "To list all network devices and software",
+				"explanation": "নেটওয়ার্ক ইনভেন্টরি সমস্ত নেটওয়ার্ক ডিভাইস, সফটওয়্যার, লাইসেন্স ইত্যাদি রেকর্ড করে, যা ম্যানেজমেন্ট ও সিকিউরিটিতে সাহায্য করে।"
+			},
+			{
+				"id": 136,
+				"question": "Which of the following is a network design principle?",
+				"options": [
+					"Scalability",
+					"Redundancy",
+					"Security",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "স্কেলেবিলিটি, রিডানডেন্সি, সিকিউরিটি — সবগুলোই ভালো নেটওয়ার্ক ডিজাইনের মূলনীতি।"
+			},
+			{
+				"id": 137,
+				"question": "What is the main function of a network operating system?",
+				"options": [
+					"To run applications",
+					"To manage network resources",
+					"To browse the web",
+					"To play games"
+				],
+				"answer": "To manage network resources",
+				"explanation": "নেটওয়ার্ক অপারেটিং সিস্টেম (যেমন Windows Server) নেটওয়ার্ক রিসোর্স, ইউজার, সিকিউরিটি ম্যানেজ করে।"
+			},
+			{
+				"id": 138,
+				"question": "Which of the following is a network troubleshooting step?",
+				"options": [
+					"Identify the problem",
+					"Establish a theory",
+					"Test the solution",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "সমস্যা শনাক্তকরণ, তত্ত্ব প্রতিষ্ঠা, সমাধান টেস্ট করা — সবগুলোই স্ট্যান্ডার্ড ট্রাবলশুটিং স্টেপ।"
+			},
+			{
+				"id": 139,
+				"question": "What is the purpose of a network log?",
+				"options": [
+					"To record network events and activities",
+					"To increase speed",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To record network events and activities",
+				"explanation": "নেটওয়ার্ক লগ ইভেন্ট, এরর, লগইন, ট্রাফিক ইত্যাদি রেকর্ড করে, যা অডিট ও ট্রাবলশুটিংয়ে সাহায্য করে।"
+			},
+			{
+				"id": 140,
+				"question": "Which of the following is a network virtualization technology?",
+				"options": [
+					"VLAN",
+					"VPN",
+					"SDN",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "VLAN, VPN, SDN (Software-Defined Networking) — সবগুলোই নেটওয়ার্ক ভার্চুয়ালাইজেশন প্রযুক্তি।"
+			},
+			{
+				"id": 141,
+				"question": "What is the main function of a network patch panel?",
+				"options": [
+					"To provide power",
+					"To organize network cables",
+					"To assign IP",
+					"To block signals"
+				],
+				"answer": "To organize network cables",
+				"explanation": "প্যাচ প্যানেল নেটওয়ার্ক কেবলগুলিকে কেন্দ্রীয়ভাবে সংগঠিত করে এবং ম্যানেজমেন্ট সহজ করে।"
+			},
+			{
+				"id": 142,
+				"question": "Which of the following is a network encryption protocol?",
+				"options": [
+					"SSL",
+					"TLS",
+					"IPsec",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "SSL, TLS, IPsec — সবগুলোই নেটওয়ার্ক ট্রাফিক এনক্রিপ্ট করার প্রোটোকল।"
+			},
+			{
+				"id": 143,
+				"question": "What is the purpose of a network disaster recovery plan?",
+				"options": [
+					"To increase speed",
+					"To restore network after a disaster",
+					"To assign IP",
+					"To block websites"
+				],
+				"answer": "To restore network after a disaster",
+				"explanation": "ডিজাস্টার রিকভারি প্ল্যান প্রাকৃতিক দুর্যোগ বা সাইবার অ্যাটাকের পর নেটওয়ার্ক পুনরুদ্ধার করার পদ্ধতি নির্ধারণ করে।"
+			},
+			{
+				"id": 144,
+				"question": "Which of the following is a network authentication protocol?",
+				"options": [
+					"Kerberos",
+					"RADIUS",
+					"TACACS+",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Kerberos, RADIUS, TACACS+ — সবগুলোই নেটওয়ার্ক অথেন্টিকেশন প্রোটোকল।"
+			},
+			{
+				"id": 145,
+				"question": "What is the main function of a network UPS?",
+				"options": [
+					"To increase speed",
+					"To provide backup power during outage",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To provide backup power during outage",
+				"explanation": "UPS (Uninterruptible Power Supply) বিদ্যুৎ চলে গেলে নেটওয়ার্ক ডিভাইসগুলিকে অস্থায়ী ব্যাকআপ পাওয়ার সরবরাহ করে।"
+			},
+			{
+				"id": 146,
+				"question": "Which of the following is a network documentation tool?",
+				"options": [
+					"Microsoft Visio",
+					"Lucidchart",
+					"Draw.io",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Visio, Lucidchart, Draw.io — সবগুলোই নেটওয়ার্ক ডায়াগ্রাম ও ডকুমেন্টেশন তৈরির টুল।"
+			},
+			{
+				"id": 147,
+				"question": "What is the purpose of a network change management?",
+				"options": [
+					"To increase speed",
+					"To control and document network changes",
+					"To assign IP",
+					"To block websites"
+				],
+				"answer": "To control and document network changes",
+				"explanation": "নেটওয়ার্ক চেঞ্জ ম্যানেজমেন্ট নেটওয়ার্কে কোনো পরিবর্তন করার প্রক্রিয়া নিয়ন্ত্রণ ও ডকুমেন্ট করে যাতে স্থিতিশীলতা বজায় থাকে।"
+			},
+			{
+				"id": 148,
+				"question": "Which of the following is a network capacity planning tool?",
+				"options": [
+					"PRTG",
+					"SolarWinds",
+					"ManageEngine",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "PRTG, SolarWinds, ManageEngine — সবগুলোই নেটওয়ার্ক ক্যাপাসিটি প্ল্যানিং ও মনিটরিং টুল।"
+			},
+			{
+				"id": 149,
+				"question": "What is the main function of a network test plan?",
+				"options": [
+					"To increase speed",
+					"To validate network performance and functionality",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To validate network performance and functionality",
+				"explanation": "নেটওয়ার্ক টেস্ট প্ল্যান নেটওয়ার্ক ইনস্টলেশন বা আপগ্রেডের পর পারফরম্যান্স ও ফাংশনালিটি যাচাই করে।"
+			},
+			{
+				"id": 150,
+				"question": "Which of the following is a network compliance standard?",
+				"options": [
+					"PCI DSS",
+					"HIPAA",
+					"GDPR",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "PCI DSS (পেমেন্ট), HIPAA (হেলথকেয়ার), GDPR (ডেটা প্রাইভেসি) — সবগুলোই নেটওয়ার্ক সিকিউরিটি কমপ্লায়েন্স স্ট্যান্ডার্ড।"
+			},
+			{
+				"id": 151,
+				"question": "What is the purpose of a network vulnerability scan?",
+				"options": [
+					"To increase speed",
+					"To identify security weaknesses",
+					"To assign IP",
+					"To block websites"
+				],
+				"answer": "To identify security weaknesses",
+				"explanation": "ভালনারেবিলিটি স্ক্যান নেটওয়ার্কে সিকিউরিটি দুর্বলতা শনাক্ত করে যাতে তা আগে থেকে ঠিক করা যায়।"
+			},
+			{
+				"id": 152,
+				"question": "Which of the following is a network penetration testing tool?",
+				"options": [
+					"Metasploit",
+					"Nmap",
+					"Burp Suite",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Metasploit, Nmap, Burp Suite — সবগুলোই পেনিট্রেশন টেস্টিং টুল যা নেটওয়ার্ক সিকিউরিটি টেস্ট করে।"
+			},
+			{
+				"id": 153,
+				"question": "What is the main function of a network intrusion detection system (IDS)?",
+				"options": [
+					"To block all traffic",
+					"To monitor and alert on suspicious activity",
+					"To assign IP",
+					"To increase speed"
+				],
+				"answer": "To monitor and alert on suspicious activity",
+				"explanation": "IDS নেটওয়ার্ক ট্রাফিক মনিটর করে এবং সন্দেহজনক অ্যাক্টিভিটি শনাক্ত করে অ্যালার্ট দেয়, কিন্তু ব্লক করে না (যেটা IPS করে)।"
+			},
+			{
+				"id": 154,
+				"question": "Which of the following is a network intrusion prevention system (IPS)?",
+				"options": [
+					"Snort",
+					"Suricata",
+					"Cisco Firepower",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Snort, Suricata, Cisco Firepower — সবগুলোই IPS যা সন্দেহজনক ট্রাফিক শনাক্ত করে এবং ব্লক করে।"
+			},
+			{
+				"id": 155,
+				"question": "What is the purpose of a network access control (NAC) system?",
+				"options": [
+					"To increase speed",
+					"To enforce security policies on devices before network access",
+					"To assign IP",
+					"To block all users"
+				],
+				"answer": "To enforce security policies on devices before network access",
+				"explanation": "NAC সিস্টেম ডিভাইস নেটওয়ার্কে প্রবেশের আগে সিকিউরিটি পলিসি (যেমন অ্যান্টিভাইরাস আপডেট) পূরণ করেছে কিনা তা যাচাই করে।"
+			},
+			{
+				"id": 156,
+				"question": "Which of the following is a network segmentation technique?",
+				"options": [
+					"VLAN",
+					"Firewall",
+					"Subnetting",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "VLAN, ফায়ারওয়াল, সাবনেটিং — সবগুলোই নেটওয়ার্ক সেগমেন্টেশন পদ্ধতি।"
+			},
+			{
+				"id": 157,
+				"question": "What is the main function of a network time protocol (NTP) server?",
+				"options": [
+					"To assign IP",
+					"To synchronize time across devices",
+					"To block hackers",
+					"To increase speed"
+				],
+				"answer": "To synchronize time across devices",
+				"explanation": "NTP সার্ভার নেটওয়ার্কের সব ডিভাইসের সময় সিঙ্ক্রোনাইজ করে, যা লগিং, সিকিউরিটি এবং ট্রানজে��শনের জন্য গুরুত্বপূর্ণ।"
+			},
+			{
+				"id": 158,
+				"question": "Which of the following is a network redundancy technique?",
+				"options": [
+					"Link aggregation",
+					"HSRP",
+					"VRRP",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "লিংক অ্যাগ্রিগেশন, HSRP, VRRP — সবগুলোই নেটওয়ার্ক রিডানডেন্সি প্রদান করে যাতে ফেইলওভার হয়।"
+			},
+			{
+				"id": 159,
+				"question": "What is the purpose of a network service level agreement (SLA)?",
+				"options": [
+					"To increase speed",
+					"To define expected network performance and uptime",
+					"To assign IP",
+					"To block websites"
+				],
+				"answer": "To define expected network performance and uptime",
+				"explanation": "SLA সার্ভিস প্রোভাইডার এবং ক্লায়েন্টের মধ্যে নেটওয়ার্ক পারফরম্যান্স, আপটাইম, সাপোর্ট ইত্যাদির চুক্তি নথিভুক্ত করে।"
+			},
+			{
+				"id": 160,
+				"question": "Which of the following is a network quality of service (QoS) parameter?",
+				"options": [
+					"Bandwidth",
+					"Latency",
+					"Jitter",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "QoS ব্যান্ডউইথ, ল্যাটেন্সি, জিটার ইত্যাদি প্যারামিটার ব্যবহার করে ট্রাফিক প্রাধান্য নির্ধারণ করে।"
+			},
+			{
+				"id": 161,
+				"question": "What is the main function of a network load balancer?",
+				"options": [
+					"To assign IP",
+					"To distribute traffic across multiple servers",
+					"To block hackers",
+					"To increase latency"
+				],
+				"answer": "To distribute traffic across multiple servers",
+				"explanation": "লোড ব্যালেন্সার ট্রাফিক একাধিক সার্ভারে ভাগ করে দেয় যাতে কোনো একটি সার্ভার ওভারলোড না হয়।"
+			},
+			{
+				"id": 162,
+				"question": "Which of the following is a network virtual private network (VPN) protocol?",
+				"options": [
+					"PPTP",
+					"L2TP",
+					"IPsec",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "PPTP, L2TP, IPsec — সবগুলোই VPN প্রোটোকল যা সিকিউর রিমোট অ্যাক্সেস প্রদান করে।"
+			},
+			{
+				"id": 163,
+				"question": "What is the purpose of a network demilitarized zone (DMZ)?",
+				"options": [
+					"To increase speed",
+					"To host public servers securely",
+					"To assign IP",
+					"To block all traffic"
+				],
+				"answer": "To host public servers securely",
+				"explanation": "DMZ পাবলিক সার্ভার (যেমন ওয়েব সার্ভার) রাখার জন্য একটি আলাদা নেটওয়ার্ক সেগমেন্ট যা ইন্টারনাল নেটওয়ার্ক থেকে আলাদা।"
+			},
+			{
+				"id": 164,
+				"question": "Which of the following is a network address translation (NAT) type?",
+				"options": [
+					"Static NAT",
+					"Dynamic NAT",
+					"PAT",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "স্ট্যাটিক NAT, ডাইনামিক NAT, PAT (Port Address Translation) — সবগুলোই NAT-এর প্রকারভেদ।"
+			},
+			{
+				"id": 165,
+				"question": "What is the main function of a network proxy?",
+				"options": [
+					"To assign IP",
+					"To act as an intermediary for requests",
+					"To block all traffic",
+					"To increase speed"
+				],
+				"answer": "To act as an intermediary for requests",
+				"explanation": "প্রক্সি ক্লায়েন্ট এবং ইন্টারনেটের মধ্যে মধ্যস্থতাকারী হিসেবে কাজ করে, যা সিকিউরিটি ও ক্যাশিং প্রদান করে।"
+			},
+			{
+				"id": 166,
+				"question": "Which of the following is a network file sharing protocol?",
+				"options": [
+					"SMB",
+					"NFS",
+					"FTP",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "SMB (Windows), NFS (Linux), FTP — সবগুলোই ফাইল শেয়ারিং প্রোটোকল।"
+			},
+			{
+				"id": 167,
+				"question": "What is the purpose of a network print server?",
+				"options": [
+					"To increase speed",
+					"To manage network printers",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To manage network printers",
+				"explanation": "প্রিন্ট সার্ভার নেটওয়ার্কের সব প্রিন্টার ম্যানেজ করে এবং প্রিন্ট জব রাউট করে।"
+			},
+			{
+				"id": 168,
+				"question": "Which of the following is a network directory service?",
+				"options": [
+					"Active Directory",
+					"LDAP",
+					"OpenLDAP",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Active Directory, LDAP, OpenLDAP — সবগুলোই নেটওয়ার্ক ডিরেক্টরি সার্ভিস যা ইউজার, গ্রুপ, রিসোর্স ম্যানেজ করে।"
+			},
+			{
+				"id": 169,
+				"question": "What is the main function of a network domain controller?",
+				"options": [
+					"To assign IP",
+					"To authenticate users in a domain",
+					"To block websites",
+					"To increase speed"
+				],
+				"answer": "To authenticate users in a domain",
+				"explanation": "ডোমেইন কন্ট্রোলার (যেমন Active Directory) ডোমেইনের ইউজার অথেন্টিকেশন ও অথোরাইজেশন ম্যানেজ করে।"
+			},
+			{
+				"id": 170,
+				"question": "Which of the following is a network group policy?",
+				"options": [
+					"Password policy",
+					"Account lockout policy",
+					"Software restriction policy",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "পাসওয়ার্ড পলিসি, অ্যাকাউন্ট লকআউট, সফটওয়্যার রেস্ট্রিকশন — সবগুলোই গ্রুপ পলিসি অবজেক্ট (GPO)।"
+			},
+			{
+				"id": 171,
+				"question": "What is the purpose of a network DHCP server?",
+				"options": [
+					"To resolve domain names",
+					"To assign IP addresses dynamically",
+					"To block hackers",
+					"To increase speed"
+				],
+				"answer": "To assign IP addresses dynamically",
+				"explanation": "DHCP সার্ভার নেটওয়ার্কে যুক্ত ডিভাইসগুলিকে স্বয়ংক্রিয়ভাবে আইপি অ্যাড্রেস প্রদান করে।"
+			},
+			{
+				"id": 172,
+				"question": "Which of the following is a network DNS record type?",
+				"options": [
+					"A record",
+					"MX record",
+					"CNAME record",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "A (আইপি), MX (মেইল এক্সচেঞ্জ), CNAME (ক্যানোনিক্যাল নাম) — সবগুলোই DNS রেকর্ড টাইপ।"
+			},
+			{
+				"id": 173,
+				"question": "What is the main function of a network WINS server?",
+				"options": [
+					"To resolve domain names",
+					"To resolve NetBIOS names",
+					"To assign IP",
+					"To block websites"
+				],
+				"answer": "To resolve NetBIOS names",
+				"explanation": "WINS সার্ভার পুরানো Windows নেটওয়ার্কে NetBIOS নামকে আইপি অ্যাড্রেসে রূপান্তর করে।"
+			},
+			{
+				"id": 174,
+				"question": "Which of the following is a network remote access protocol?",
+				"options": [
+					"RDP",
+					"SSH",
+					"Telnet",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "RDP (Windows), SSH (Linux), Telnet (অসুরক্ষিত) — সবগুলোই রিমোট অ্যাক্সেস প্রোটোকল।"
+			},
+			{
+				"id": 175,
+				"question": "What is the purpose of a network TFTP server?",
+				"options": [
+					"To transfer files securely",
+					"To transfer files without authentication",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To transfer files without authentication",
+				"explanation": "TFTP (Trivial File Transfer Protocol) সিম্পল ফাইল ট্রান্সফারের জন্য ব্যবহৃত হয় (যেমন রাউটার কনফিগ), কিন্তু অথেন্টিকেশন বা এনক্রিপশন নেই।"
+			},
+			{
+				"id": 176,
+				"question": "Which of the following is a network syslog server?",
+				"options": [
+					"Kiwi Syslog",
+					"rsyslog",
+					"Syslog-ng",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Kiwi, rsyslog, syslog-ng — সবগুলোই সিস্টেম লগ সংগ্রহ ও ম্যানেজমেন্টের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 177,
+				"question": "What is the main function of a network RADIUS server?",
+				"options": [
+					"To assign IP",
+					"To provide centralized authentication",
+					"To block websites",
+					"To increase speed"
+				],
+				"answer": "To provide centralized authentication",
+				"explanation": "RADIUS সার্ভার ওয়্যারলেস, VPN, সুইচ ইত্যাদি ডিভাইসের জন্য সেন্ট্রালাইজড অথেন্টিকেশন প্রদান করে।"
+			},
+			{
+				"id": 178,
+				"question": "Which of the following is a network TACACS+ feature?",
+				"options": [
+					"Separates authentication, authorization, accounting",
+					"Uses TCP",
+					"More secure than RADIUS",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "TACACS+ AAA প্রক্রিয়া আলাদা করে, TCP ব্যবহার করে এবং RADIUS এর চেয়ে বেশি সিকিউর।"
+			},
+			{
+				"id": 179,
+				"question": "What is the purpose of a network Kerberos server?",
+				"options": [
+					"To assign IP",
+					"To provide secure authentication using tickets",
+					"To block hackers",
+					"To increase speed"
+				],
+				"answer": "To provide secure authentication using tickets",
+				"explanation": "Kerberos টিকেট-ভিত্তিক অথেন্টিকেশন প্রদান করে যা পাসওয়ার্ড নেটওয়ার্কে পাঠায় না।"
+			},
+			{
+				"id": 180,
+				"question": "Which of the following is a network LDAP port?",
+				"options": [
+					"389",
+					"636",
+					"3268",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "LDAP পোর্ট 389 (অসুরক্ষিত), 636 (LDAPS, এনক্রিপ্টেড), 3268 (গ্লোবাল ক্যাটালগ)।"
+			},
+			{
+				"id": 181,
+				"question": "What is the main function of a network SNMP manager?",
+				"options": [
+					"To assign IP",
+					"To collect data from network devices",
+					"To block websites",
+					"To increase speed"
+				],
+				"answer": "To collect data from network devices",
+				"explanation": "SNMP ম্যানেজার রাউটার, সুইচ ইত্যাদি ডিভাইস থেকে পারফরম্যান্স ডেটা সংগ্রহ করে।"
+			},
+			{
+				"id": 182,
+				"question": "Which of the following is a network MIB?",
+				"options": [
+					"Management Information Base",
+					"A database of network objects",
+					"Used by SNMP",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "MIB (Management Information Base) SNMP-এর জন্য নেটওয়ার্ক অবজেক্টের ডেটাবেস।"
+			},
+			{
+				"id": 183,
+				"question": "What is the purpose of a network NetFlow?",
+				"options": [
+					"To increase speed",
+					"To collect IP traffic information",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To collect IP traffic information",
+				"explanation": "NetFlow (Cisco) বা IPFIX নেটওয়ার্ক ট্রাফিক মেট্রিক্স (সোর্স, ডেস্টিনেশন, পোর্ট ইত্যাদি) সংগ্রহ করে।"
+			},
+			{
+				"id": 184,
+				"question": "Which of the following is a network sFlow?",
+				"options": [
+					"A packet sampling technology",
+					"Used for traffic monitoring",
+					"Supported by many vendors",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "sFlow প্যাকেট স্যাম্পলিং ব্যবহার করে নেটওয়ার্ক ট্রাফিক মনিটর করে এবং মাল্টি-ভেন্ডর সাপোর্ট করে।"
+			},
+			{
+				"id": 185,
+				"question": "What is the main function of a network IPAM?",
+				"options": [
+					"To assign IP manually",
+					"To manage IP address space",
+					"To block websites",
+					"To increase speed"
+				],
+				"answer": "To manage IP address space",
+				"explanation": "IPAM (IP Address Management) আইপি অ্যাড্রেস অ্যালোকেশন, ট্র্যাকিং ও ম্যানেজমেন্ট করে।"
+			},
+			{
+				"id": 186,
+				"question": "Which of the following is a network configuration management tool?",
+				"options": [
+					"Ansible",
+					"Puppet",
+					"Chef",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Ansible, Puppet, Chef — সবগুলোই নেটওয়ার্ক কনফিগারেশন অটোমেশন টুল।"
+			},
+			{
+				"id": 187,
+				"question": "What is the purpose of a network orchestration tool?",
+				"options": [
+					"To increase speed",
+					"To automate network service deployment",
+					"To assign IP",
+					"To block hackers"
+				],
+				"answer": "To automate network service deployment",
+				"explanation": "অর্কেস্ট্রেশন টুল (যেমন Cisco DNA Center) নেটওয়ার্ক সার্ভিস ডিপ্লয়মেন্ট অটোমেট করে।"
+			},
+			{
+				"id": 188,
+				"question": "Which of the following is a network automation protocol?",
+				"options": [
+					"NETCONF",
+					"RESTCONF",
+					"gNMI",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "NETCONF, RESTCONF, gNMI — সবগুলোই নেটওয়ার্ক অটোমেশনের জন্য API/প্রোটোকল।"
+			},
+			{
+				"id": 189,
+				"question": "What is the main function of a network SDN controller?",
+				"options": [
+					"To assign IP",
+					"To separate control and data plane",
+					"To block websites",
+					"To increase speed"
+				],
+				"answer": "To separate control and data plane",
+				"explanation": "SDN কন্ট্রোলার নেটওয়ার্কের কন্ট্রোল প্লেন (নির্দেশ) এবং ডেটা প্লেন (ফরওয়ার্ডিং) আলাদা করে।"
+			},
+			{
+				"id": 190,
+				"question": "Which of the following is a network NFV component?",
+				"options": [
+					"VNF",
+					"NFVI",
+					"MANO",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "VNF (Virtualized Network Function), NFVI (Infrastructure), MANO (Management) — সবগুলোই NFV (Network Functions Virtualization) এর অংশ।"
+			},
+			{
+				"id": 191,
+				"question": "What is the purpose of a network 5G?",
+				"options": [
+					"To increase mobile speed and reduce latency",
+					"To assign IP",
+					"To block hackers",
+					"To replace Wi-Fi"
+				],
+				"answer": "To increase mobile speed and reduce latency",
+				"explanation": "5G মোবাইল নেটওয়ার্ক খুব উচ্চ গতি, কম ল্যাটেন্সি এবং বেশি ডিভাইস কানেকশন সমর্থন করে।"
+			},
+			{
+				"id": 192,
+				"question": "Which of the following is a network IoT protocol?",
+				"options": [
+					"MQTT",
+					"CoAP",
+					"Zigbee",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "MQTT, CoAP, Zigbee — সবগুলোই IoT ডিভাইসের জন্য নেটওয়ার্ক প্রোটোকল।"
+			},
+			{
+				"id": 193,
+				"question": "What is the main function of a network edge computing?",
+				"options": [
+					"To process data near the source",
+					"To assign IP",
+					"To block hackers",
+					"To increase cloud dependency"
+				],
+				"answer": "To process data near the source",
+				"explanation": "এজ কম্পিউটিং ডেটা প্রসেসিং ক্লাউডের পরিবর্তে ডিভাইসের কাছাকাছি (এজে) করে, যা ল্যাটেন্সি কমায়।"
+			},
+			{
+				"id": 194,
+				"question": "Which of the following is a network zero trust principle?",
+				"options": [
+					"Never trust, always verify",
+					"Verify once, trust always",
+					"Trust internal network",
+					"Block all external traffic"
+				],
+				"answer": "Never trust, always verify",
+				"explanation": "জিরো ট্রাস্ট মডেলে কোনো ডিভাইস বা ইউজারকে অটোমেটিক ট্রাস্ট করা হয় না; প্রতিটি অ্যাক্সেস রিকোয়েস্ট যাচাই করা হয়।"
+			},
+			{
+				"id": 195,
+				"question": "What is the purpose of a network micro-segmentation?",
+				"options": [
+					"To increase speed",
+					"To create fine-grained security zones",
+					"To assign IP",
+					"To block all traffic"
+				],
+				"answer": "To create fine-grained security zones",
+				"explanation": "মাইক্রো-সেগমেন্টেশন ভিতরের নেটওয়ার্কে ছোট ছোট সিকিউরিটি জোন তৈরি করে যাতে ল্যাটারাল মুভমেন্ট ব্লক হয়।"
+			},
+			{
+				"id": 196,
+				"question": "Which of the following is a network SASE component?",
+				"options": [
+					"SD-WAN",
+					"Firewall as a Service",
+					"Zero Trust",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "SASE (Secure Access Service Edge) SD-WAN, FWaaS, Zero Trust, CASB ইত্যাদি ক্লাউড-নেটিভ সিকিউরিটি সার্ভিস একত্রিত করে।"
+			},
+			{
+				"id": 197,
+				"question": "What is the main function of a network CASB?",
+				"options": [
+					"To assign IP",
+					"To secure cloud application usage",
+					"To block websites",
+					"To increase speed"
+				],
+				"answer": "To secure cloud application usage",
+				"explanation": "CASB (Cloud Access Security Broker) ক্লাউড অ্যাপ্লিকেশনের ব্যবহার মনিটর �� সিকিউর করে।"
+			},
+			{
+				"id": 198,
+				"question": "Which of the following is a network DLP?",
+				"options": [
+					"Data Loss Prevention",
+					"Prevents sensitive data leakage",
+					"Monitors data in motion and at rest",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "DLP (Data Loss Prevention) সেনসিটিভ ডেটা (যেমন ক্রেডিট কার্ড নম্বর) লিক হওয়া থেকে রক্ষা করে।"
+			},
+			{
+				"id": 199,
+				"question": "What is the purpose of a network SIEM?",
+				"options": [
+					"To increase speed",
+					"To collect and analyze security logs",
+					"To assign IP",
+					"To block all traffic"
+				],
+				"answer": "To collect and analyze security logs",
+				"explanation": "SIEM (Security Information and Event Management) নেটওয়ার্ক লগ সংগ্রহ করে এবং সিকিউরিটি থ্রেট শনাক্ত করে।"
+			},
+			{
+				"id": 200,
+				"question": "Which of the following is a network SOAR?",
+				"options": [
+					"Security Orchestration, Automation and Response",
+					"Automates incident response",
+					"Integrates with SIEM",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "SOAR সিকিউরিটি অপারেশন অটোমেট করে, SIEM-এর সাথে ইন্টিগ্রেট হয় এবং ইনসিডেন্ট রেসপন্স প্রক্রিয়া ত্বরান্বিত করে।"
 			}
 		],
 		"PyTorch": [
@@ -9712,7 +12116,7 @@
 					"torch.module.SGD"
 				],
 				"answer": "torch.optim.SGD",
-				"explanation": "torch.optim.SGD হলো স্টোকাস্টিক গ্রেডিয়েন্ট ডিজেন্ট অপ্টিমাইজার।"
+				"explanation": "torch.optim.SGD হ��ো ��্ট����াস্টিক গ্রেডিয়েন্ট ডিজেন্ট অপ্টিমাইজার।"
 			},
 			{
 				"id": 9,
@@ -9724,7 +12128,7 @@
 					"tensor.asnumpy()"
 				],
 				"answer": "tensor.numpy()",
-				"explanation": "PyTorch টেনসরকে `.numpy()` দিয়ে NumPy array-তে রূপান্তর করা যায়।"
+				"explanation": "PyTorch টেনসরকে `.numpy()` ��ি��়ে NumPy array-��ে রূপান্তর করা যায়।"
 			},
 			{
 				"id": 10,
@@ -9868,7 +12272,7 @@
 					"Calculate accuracy"
 				],
 				"answer": "Turn off dropout/batchnorm",
-				"explanation": "`model.eval()` মডেলকে ইভ্যালুয়েশন মোডে নিয়ে যায় যেখানে ড্রপআউট ও ব্যাচনর্ম বন্ধ থাকে।"
+				"explanation": "`model.eval()` মডেলকে ইভ্যালুয়েশন মোডে নিয়ে ��ায় যেখানে ড্রপআউট ও ব্যাচনর্ম বন্ধ থাকে।"
 			},
 			{
 				"id": 22,
@@ -10228,7 +12632,7 @@
 					"tensor.shape()"
 				],
 				"answer": "tensor.numel()",
-				"explanation": "`tensor.numel()` একটি টেনসরে মোট কতটি এলিমেন্ট আছে তা জানায়।"
+				"explanation": "`tensor.numel()` একটি টেনসরে মোট কতটি এলিমেন্ট আছে তা জানা��়।"
 			},
 			{
 				"id": 52,
@@ -10804,7 +13208,7 @@
 					"tensor.detach_cpu()"
 				],
 				"answer": "tensor.cpu()",
-				"explanation": "`tensor.cpu()` GPU টেনসরকে CPU তে নিয়ে আসে।"
+				"explanation": "`tensor.cpu()` GPU টেনসর��ে CPU তে নিয়ে আসে।"
 			},
 			{
 				"id": 100,
@@ -10950,7 +13354,7 @@
 					"TensorFlow Serving"
 				],
 				"answer": "TensorFlow Lite",
-				"explanation": "TensorFlow Lite মোবাইল ও এমবেডেড ডিভাইসের জন্য লাইটওয়েট মডেল রান করার জন্য ডিজাইন।"
+				"explanation": "TensorFlow Lite মোবাইল ও এমবেডেড ডিভাইসের জন্য লাইটওয়েট মডেল রান ��রার জন্য ডিজাইন।"
 			},
 			{
 				"id": 12,
@@ -11106,7 +13510,7 @@
 					"Removes dimensions from tensor"
 				],
 				"answer": "Returns the shape of tensor",
-				"explanation": "tf.shape() ফাংশন টেনসরের বর্তমান আকৃতি (shape) রিটার্ন করে।"
+				"explanation": "tf.shape() ফাংশন টেনসরের বর্তমান ��কৃতি (shape) রিটার্ন করে।"
 			},
 			{
 				"id": 25,
@@ -11754,7 +14158,7 @@
 					"Normalizes sequence data"
 				],
 				"answer": "Pads sequences to same length",
-				"explanation": "pad_sequences() ভিন্ন দৈর্ঘ্যের সিকোয়েন্সকে সমান দৈর্ঘ্যে রূপান্তর করে।"
+				"explanation": "pad_sequences() ভি��্ন দৈর্ঘ্যের সিকোয়েন্সকে সমান দৈর্ঘ্যে রূপান্তর করে।"
 			},
 			{
 				"id": 79,
@@ -12090,7 +14494,7 @@
 					"Saves the model"
 				],
 				"answer": "Configures model for training",
-				"explanation": "model.compile() মডেলকে ট্রেইন করার জন্য প্রস্তুত করে, যেমন: লস ফাংশন, অপ্টিমাইজার নির্ধারণ।"
+				"explanation": "model.compile() মডেলকে ট্রেইন করার জন্য প্রস্তুত করে, যে��ন: লস ফাংশন, অপ্টিমাইজার নির্ধারণ।"
 			},
 			{
 				"id": 117,
@@ -12272,7 +14676,7 @@
 					"Translate languages"
 				],
 				"answer": "Improve image quality or extract useful information",
-				"explanation": "ইমেজ প্রসেসিংয়ের প্রধান উদ্দেশ্য হলো ইমেজের গুণগত মান উন্নয়ন করা অথবা ইমেজ থেকে গুরুত্বপূর্ণ তথ্য বের করে আনা।"
+				"explanation": "ইমেজ প্রসেসিংয়ের প্রধান উদ্দেশ্য হলো ইমেজের গুণগত মান ��ন্নয়ন করা অথবা ইমেজ থেকে গুরুত্বপূর্ণ তথ্য বের করে আনা।"
 			},
 			{
 				"id": 2,
@@ -13436,7 +15840,7 @@
 					"Layer"
 				],
 				"answer": "Pixel",
-				"explanation": "Pixel হলো ডিজিটাল ইমেজের সবচেয়ে ছোট উপাদান।"
+				"explanation": "Pixel হলো ডিজিটাল ইমেজের সবচেয়ে ��োট উপাদান।"
 			},
 			{
 				"id": 99,
@@ -13844,7 +16248,7 @@
 					"Matplotlib"
 				],
 				"answer": "OpenCV",
-				"explanation": "OpenCV একটি জনপ্রিয় ইমেজ প্রসেসিং লাইব্রেরি।"
+				"explanation": "OpenCV একটি জনপ্রিয় ইমেজ প্রসেসিং লাইব্রে��ি���"
 			},
 			{
 				"id": 133,
@@ -13964,7 +16368,7 @@
 					"Change image colors"
 				],
 				"answer": "Increase training data diversity",
-				"explanation": "Augmentation বিভিন্ন রূপে ডেটা তৈরি করে মডেলের জেনারালাইজেশন বাড়ায়।"
+				"explanation": "Augmentation বিভিন্ন রূপে ডেটা তৈরি করে মডেলের জেনারালাইজেশ��� বাড়ায়।"
 			},
 			{
 				"id": 143,
@@ -14216,7 +16620,7 @@
 					"Sobel filter"
 				],
 				"answer": "Dilation",
-				"explanation": "Dilation হলো একটি মৌরফোলজিক্যাল অপারেশন যা অবজেক্ট বড় করে।"
+				"explanation": "Dilation হলো একটি মৌর��োলজিক্যাল অপারেশন যা অবজেক্ট বড় করে।"
 			},
 			{
 				"id": 164,
@@ -15106,7 +17510,7 @@
 					"None of the above"
 				],
 				"answer": "Long Short-Term Memory",
-				"explanation": "LSTM হলো একটি RNN ধরনের যা দীর্ঘমেয়াদী তথ্য রাখে।"
+				"explanation": "LSTM হলো একটি RNN ধরনের যা দ���র্ঘমেয়াদী তথ্য রাখে।"
 			},
 			{
 				"id": 38,
@@ -15874,7 +18278,7 @@
 					"Applying dropout"
 				],
 				"answer": "Training a pre-trained model further on new data",
-				"explanation": "ফাইন-টিউনিং হলো পূর্বে প্রশিক্ষিত মডেল নতুন ডেটায় পুনঃপ্রশিক্ষণ।"
+				"explanation": "ফাইন-টিউনিং হলো পূর্বে প্রশিক্ষ��ত মডেল নতুন ডেটায় পুনঃপ্রশিক্ষণ।"
 			},
 			{
 				"id": 102,
