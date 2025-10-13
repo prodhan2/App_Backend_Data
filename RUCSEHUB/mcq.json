@@ -1825,7 +1825,7 @@
 					"Checks if a variable is a number"
 				],
 				"answer": "Returns the data type of a variable",
-				"explanation": "`typeof` অপারেটরটি একটি ভেরিয়েবলের ডেটা টাইপ রিটার্ন করে।"
+				"explanation": "`typeof` অপারেটরটি একটি ভেরিয়েবলের ডেটা টাইপ রিটার্ন কর������"
 			},
 			{
 				"id": 53,
@@ -1921,7 +1921,7 @@
 					"Stores data in cookies"
 				],
 				"answer": "Stores data in the browser persistently",
-				"explanation": "`localStorage` হল একটি ব্রাউজার API যা ডেটা ��্��া��়ীভাবে ব্রাউজারের মধ্যে সংরক্ষণ করে, যাতে পৃষ্ঠা রিফ্রেশ বা ব্রাউজার বন্ধ করার পরও ডেটা থাকতে পারে।"
+				"explanation": "`localStorage` হল একটি ব্রাউজার API যা ডেটা ��্��া������ভ�����ে ব���রা��জারের মধ্যে সংরক্ষণ করে, যাতে পৃষ্ঠা রিফ্রেশ বা ব্রাউজার বন্ধ করার পরও ডেটা থাকতে পারে।"
 			},
 			{
 				"id": 61,
@@ -2209,7 +2209,7 @@
 					"`null` is not allowed in JavaScript, but `undefined` is"
 				],
 				"answer": "`null` is an intentional absence of value, `undefined` means a variable is not assigned",
-				"explanation": "`null` হলো একটি ইচ্ছাকৃত মানের অনুপস্থিতি, এবং `undefined` মানে হল যে একটি ভেরিয়েবলকে মান দেওয়া হয়নি।"
+				"explanation": "`null` হলো একটি ইচ্ছাকৃত মানের অনুপস্থিতি, এবং `undefined` মানে ��ল যে একটি ভেরিয়েবলকে মান দেওয়া হয়নি।"
 			},
 			{
 				"id": 85,
@@ -3063,7 +3063,7 @@
 					"Defines a constant"
 				],
 				"answer": "Allocates dynamic memory",
-				"explanation": "`new` ব্যবহার করে ডাইনামিক ��েমোরি বরাদ্দ করা হয়।"
+				"explanation": "`new` ব্যবহার করে ডাইনামিক মেমোরি বরাদ্দ করা হয়।"
 			},
 			{
 				"id": 56,
@@ -3255,7 +3255,7 @@
 					"none of the above"
 				],
 				"answer": "do-while loop",
-				"explanation": "do-while লুপটি কমপক্ষে একবার চালিত হবে, কারণ শর্তটি লুপের শেষে চেক করা হয়।"
+				"explanation": "do-while লু��টি কমপক্ষে একবার চালিত হবে, কারণ শর্তটি লুপের শেষে চেক করা হয়।"
 			},
 			{
 				"id": 72,
@@ -3423,7 +3423,7 @@
 					"None of the above"
 				],
 				"answer": "Makes a class a friend of another class",
-				"explanation": "`friend` কিওয়ার্ডটি একটি ক্লাসকে অন্য একটি ক্লাসের বন্ধু বানানোর জন্য ব্যবহৃত হয়।"
+				"explanation": "`friend` কিওয়ার্ডটি একটি ক্লাসক�� অন্য একটি ক্লাসের বন্ধু বানানোর জন্য ব্যবহৃত হয়।"
 			},
 			{
 				"id": 86,
@@ -3737,7 +3737,7 @@
 					"To manage app navigation"
 				],
 				"answer": "To create a box model for styling and layout",
-				"explanation": "'Container' উইজেটের উদ্দেশ্য হল স্টাইলিং এবং লেআউট���র জন্য একটি বক্স মডেল তৈরি করা।"
+				"explanation": "'Container' উইজেটের উদ্দেশ্য হল স্টাইলিং এবং লেআউটের জন্য একটি বক্স মডেল তৈরি করা।"
 			},
 			{
 				"id": 12,
@@ -4073,7 +4073,7 @@
 					"None of the above"
 				],
 				"answer": "To handle a sequence of asynchronous events",
-				"explanation": "'Stream' ক্লাসের উদ্দেশ্য হল অ্যাসিনক্রোনাস ইভেন্টগুলির একটি সিকোয়েন্স পরিচালনা করা।"
+				"explanation": "'Stream' ক্লাসের উদ্দেশ্য হল অ্যা��িনক্রোনাস ইভেন্টগুলির একটি সিকোয়েন্স পরিচালনা করা।"
 			},
 			{
 				"id": 40,
@@ -4085,7 +4085,7 @@
 					"None of the above"
 				],
 				"answer": "Used to perform asynchronous operations",
-				"explanation": "'async' এবং 'await' কীওয়ার্ড��ুলি ��্যাসিনক্রোনাস ����ারে���ন���ুলি স��্পাদনের জন্য ব্যবহার করা হয়।"
+				"explanation": "'async' এবং 'await' কীওয়ার্ড��ুলি ��্যাসিনক্রোনাস ����ারে���ন���ুলি স��্পা��নের জন্য ব্যবহার করা হয়।"
 			},
 			{
 				"id": 41,
@@ -4289,7 +4289,7 @@
 					"None of the above"
 				],
 				"answer": "To create a form for user input",
-				"explanation": "'Form' উইজেটের উদ্দেশ্য হল ব্যবহারকারীর ইনপুটের জন্য একটি ফর্ম তৈরি করা।"
+				"explanation": "'Form' উইজেটের উদ্দেশ্য হল ��্যবহারকারীর ইনপুটের জন্য একটি ফর্ম তৈরি করা।"
 			},
 			{
 				"id": 58,
@@ -4517,7 +4517,7 @@
 					"None of the above"
 				],
 				"answer": "To create a container that animates changes in its properties",
-				"explanation": "'AnimatedContainer' উইজেটের উদ্দেশ্য হল একটি কন্টেইনার তৈরি করা যা এর বৈশিষ্ট্যগুলিতে পরিব��্তনগুলি অ্যানিমেট করে।"
+				"explanation": "'AnimatedContainer' উইজেটের উদ্দেশ্য হল একটি কন্টেইনার তৈরি করা যা এর ব��শিষ্ট্যগুলিতে পরিবর্তনগুলি অ্যানিমেট করে।"
 			},
 			{
 				"id": 77,
@@ -4781,7 +4781,7 @@
 					"None of the above"
 				],
 				"answer": "To allow the user to select a time",
-				"explanation": "'TimePicker' উইজেটের উদ্দেশ্য হল ব্যবহারকারীকে একটি সময় নির্বাচন করতে দেওয়া।"
+				"explanation": "'TimePicker' উইজেটের উদ্দেশ্য হল ব্যবহারকারীকে একটি স��য় নির্বাচন করতে দেওয়া।"
 			},
 			{
 				"id": 99,
@@ -4951,7 +4951,7 @@
 					"python manage.py updatedb"
 				],
 				"answer": "python manage.py migrate",
-				"explanation": "`migrate` কমান্ড দিয়ে মাইগ্রেশন ডাটাবেসে প্রয়োগ করা হয়।"
+				"explanation": "`migrate` কমান্ড দিয়ে মা��গ্রেশন ডাটাবেসে প্রয়োগ করা হয়।"
 			},
 			{
 				"id": 13,
@@ -5119,7 +5119,7 @@
 					"python manage.py getstatic"
 				],
 				"answer": "python manage.py collectstatic",
-				"explanation": "`collectstatic` কমান্ড সব স্ট্যাটিক ফাইল সংগ্রহ করে এক জায়গায় রাখে।"
+				"explanation": "`collectstatic` কমান্ড সব ��্ট্যাটিক ফাইল সংগ্রহ করে এক জায়গায় রাখে।"
 			},
 			{
 				"id": 27,
@@ -5635,7 +5635,7 @@
 					"django.Model"
 				],
 				"answer": "models.Model",
-				"explanation": "সকল Django মডেল `models.Model` থেকে উত্তরাধিকার সূত্র�� পাওয়া হয়।"
+				"explanation": "সকল Django মডেল `models.Model` থেকে উত��তরাধিকার সূত্রে পাওয়া হয়।"
 			},
 			{
 				"id": 70,
@@ -7355,7 +7355,7 @@
 					"All of the above"
 				],
 				"answer": "All of the above",
-				"explanation": "$GLOBALS, $_SESSION, এবং $_POST সমস্ত সুপারগ্লোবাল ভেরিয়েবল।"
+				"explanation": "$GLOBALS, $_SESSION, এবং $_POST সমস্ত স���পারগ্লোবাল ভেরিয়েবল।"
 			},
 			{
 				"id": 13,
@@ -7980,7 +7980,7 @@
 					"None of the above"
 				],
 				"answer": "Destroys all data registered to a session",
-				"explanation": "`session_destroy()` ফাংশনের উদ্দেশ্য হল একটি সেশনের জন্য নিবন্ধিত স���স্ত ডেটা ধ্বংস করা।"
+				"explanation": "`session_destroy()` ফাংশনের উদ্দেশ্য হল একটি সেশনের জন্য নিবন্ধিত সমস্ত ডেটা ধ্বংস করা।"
 			},
 			{
 				"id": 65,
@@ -8438,7 +8438,7 @@
 					"PULL"
 				],
 				"answer": "SELECT",
-				"explanation": "��েটাবেস থেকে তথ্য বের করতে 'SELECT' স্টেটমেন্ট ব্যবহার করা হয়।"
+				"explanation": "��েটাবেস ��েকে ��থ্য ��ের করতে 'SELECT' স্টেটমেন্ট ব্যবহার করা হয়।"
 			},
 			{
 				"id": 3,
@@ -8738,7 +8738,7 @@
 					"MODIFY TABLE"
 				],
 				"answer": "ALTER TABLE",
-				"explanation": "একটি টেবিলের নাম পরিবর্তন করতে 'ALTER TABLE' কমান্ড ব্যবহার করা হয়।"
+				"explanation": "একটি ��েবিলের নাম পরিবর্তন করতে 'ALTER TABLE' কমান্ড ব্যবহার করা হয়।"
 			},
 			{
 				"id": 28,
@@ -8942,7 +8942,7 @@
 					"None of the above"
 				],
 				"answer": "Removes duplicate records from the result set",
-				"explanation": "'DISTINCT' কিওয়ার্ডের উদ্দেশ্য হল ফলাফল সেট থেকে ডুপ্লিকেট রেকর্ডগুলি মুছে ফেলা।"
+				"explanation": "'DISTINCT' কিওয়ার্ডের উদ্দেশ্য হল ফলাফল সেট থেকে ডুপ্লি��েট রেকর্ডগুলি মুছে ফেলা।"
 			},
 			{
 				"id": 45,
@@ -9146,7 +9146,7 @@
 					"None of the above"
 				],
 				"answer": "Displays the execution plan for a SQL statement",
-				"explanation": "'EXPLAIN' কমান্ড একটি SQL বিবৃতির জন্য কার্যকরী পরিকল্পনা প্রদর্শন করে।"
+				"explanation": "'EXPLAIN' কমান্ড একটি SQL বিবৃতির জন্য কার্যকরী পরিকল্পনা প্রদর্��ন করে।"
 			},
 			{
 				"id": 62,
@@ -9350,7 +9350,7 @@
 					"None of the above"
 				],
 				"answer": "Returns records with matching values in both tables",
-				"explanation": "'INNER JOIN' উভয় টেবিলে মেলানো মান সহ রেকর্ডগুলি ফেরত দেয়।"
+				"explanation": "'INNER JOIN' উভয় টেবিলে মেলানো মান সহ ��েকর্ডগুলি ফেরত দেয়।"
 			},
 			{
 				"id": 79,
@@ -9362,7 +9362,7 @@
 					"None of the above"
 				],
 				"answer": "Returns all records from the left table and matched records from the right table",
-				"explanation": "'LEFT JOIN' বাম টেবিলের সমস্ত রেকর্ড এবং ডান টেবিল থেকে ��েলানো রেকর্ডগুলি ফেরত দেয়।"
+				"explanation": "'LEFT JOIN' বাম টেবিলের সমস্ত রেকর্ড এবং ডান টেবিল থেকে মেলানো রেকর্ডগুলি ফেরত দেয়।"
 			},
 			{
 				"id": 80,
@@ -9554,7 +9554,7 @@
 					"None of the above"
 				],
 				"answer": "A query nested inside another query",
-				"explanation": "একটি সাবকোয়েরি হল অন্য একটি কোয়েরির মধ্যে সন্নিবেশিত একটি কোয়েরি।"
+				"explanation": "একটি সাবকোয়েরি হল অন্য একটি কোয়েরির মধ্যে সন্নিবেশিত ��কটি কোয়েরি।"
 			},
 			{
 				"id": 96,
@@ -9566,7 +9566,7 @@
 					"None of the above"
 				],
 				"answer": "A performance optimization technique to speed up data retrieval",
-				"explanation": "একটি ইনডেক্স হল ডেটা পুনরুদ্��ারকে ত্বরান্বিত করার জন্য একটি কর্মক্ষমতা অপটিমাইজেশন কৌশল।"
+				"explanation": "একটি ইনডেক্স হল ডেটা পুনরুদ্ধারকে ত্বরান্বিত করার জন্য একটি কর্মক্ষমতা অপটিমাইজেশন কৌশল।"
 			},
 			{
 				"id": 97,
@@ -9664,7 +9664,7 @@
 					"Transport Layer"
 				],
 				"answer": "Transport Layer",
-				"explanation": "ট্রান্সপোর্ট লেয়ার (লেয়ার ৪) ওএসআই মডেলে এন্ড-টু-এন্ড কমিউনিকেশন, ডেটা ইন্টিগ্রিটি এবং ফ্লো কন্ট্রোলের দায়িত্ব পালন করে। TCP এবং UDP এই লেয়ারের প্রোটোকল।"
+				"explanation": "ট্রান্সপোর্ট লেয়ার (লেয়ার ৪) ওএসআই মডেলে এন্ড-টু-এন্ড কমিউনিকেশন, ডেটা ইন্টিগ্রিটি এবং ফ্লো কন্ট্রোলের দায়িত্ব ��ালন করে। TCP এবং UDP এই লেয়ারের প্রোটোকল।"
 			},
 			{
 				"id": 5,
@@ -9676,7 +9676,7 @@
 					"255.255.255.255"
 				],
 				"answer": "255.255.255.0",
-				"explanation": "ক্লাস C আইপি অ্যাড্রেসের ��িফল্ট সাবনেট মাস্ক হলো 255.255.255.0, যা প্রথম ২৪ বিটকে নেটওয়ার্ক আইডি হিসেবে ব্যবহার করে এবং শেষ ৮ বিটকে হোস্ট আইডি হিসেবে ব্যবহার করে।"
+				"explanation": "ক্লাস C আইপি অ্যাড্রেসের ডিফল্ট সাবনেট মাস্ক হলো 255.255.255.0, যা প্রথম ২৪ বিটকে নেটওয়ার্ক আইডি হিসেবে ব্যবহার করে এবং শেষ ৮ বিটকে হোস্ট আইডি হিসেবে ব্যবহার করে।"
 			},
 			{
 				"id": 6,
@@ -9772,7 +9772,7 @@
 					"Better error detection"
 				],
 				"answer": "Larger address space",
-				"explanation": "IPv4 এ ৩২-বিট অ্যাড্রেস আ��ে (প্রায় ৪.৩ বিলিয়ন ঠিকানা), কিন্তু IPv6 এ ১২৮-বিট অ্যাড্রেস আছে, যা প্রায় অসীম সংখ্যক ডিভাইসের জন্য ঠিকানা সরবরাহ করতে পারে।"
+				"explanation": "IPv4 এ ৩২-বিট অ্যাড্রেস আছে (প্রায় ৪.৩ বিলিয়ন ঠিকানা), কিন্তু IPv6 এ ১২৮-বিট অ্যাড্রেস আছে, যা প্রায় অসীম সংখ্যক ডিভাইসের জন্য ঠিকানা সরবরাহ করতে পারে।"
 			},
 			{
 				"id": 14,
@@ -10000,7 +10000,7 @@
 					"Class D"
 				],
 				"answer": "Class D",
-				"explanation": "ক্লাস D আইপি অ্যাড্রেস (224.0.0.0 থেকে 239.255.255.255) মাল্টিকাস্ট কমিউনিকেশনের জন্য ব্যবহৃত হয়, যেখানে একই ডেটা একাধিক রিসিভারে পাঠানো হয়।"
+				"explanation": "ক্লাস D আইপি অ্যাড্রেস (224.0.0.0 থেকে 239.255.255.255) মাল্টিকাস্ট কমিউনিকেশনের জন্য ব্যবহৃত হয়, যেখানে একই ডেটা একাধিক রিসিভারে পাঠানো হয়���"
 			},
 			{
 				"id": 33,
@@ -10408,7 +10408,7 @@
 					"Physical Layer"
 				],
 				"answer": "Network Layer",
-				"explanation": "নেটওয়ার্ক লেয়ার (লেয়ার ৩) লজিক্যাল অ্যাড্রেসিং (আইপি অ্যাড্রেস) এবং ��াউটি��য়ের ��ায়িত্ব পালন করে।"
+				"explanation": "নেটওয়ার্ক লেয়ার (লেয়ার ৩) লজিক্যাল অ্যাড্রেসিং (আইপি অ্যাড্রেস) এবং ��াউটি��য়ের ��া��়���ত্�� পালন করে।"
 			},
 			{
 				"id": 67,
@@ -10878,7 +10878,7 @@
 					"To install software"
 				],
 				"answer": "To evaluate security and performance",
-				"explanation": "নেটওয়ার্ক অডিট নেটওয়ার্কের সিকিউরিটি, পারফরম্যান্স, কনফিগারেশন এবং কমপ্লায়েন্স মূল্যায়ন করে।"
+				"explanation": "নেটওয়ার্ক অডিট নেটওয়ার্কের সিকিউরিটি, পার��রম্যান্স, কনফিগারেশন এবং কমপ্লায়েন্স মূল্যায়ন করে।"
 			},
 			{
 				"id": 106,
@@ -11178,7 +11178,7 @@
 					"All of the above"
 				],
 				"answer": "All of the above",
-				"explanation": "ম্যালওয়্যার, ফিশিং, র‍্যানসমওয়্যার — সবগুলোই কমন নেটওয়ার্ক সিকিউরিটি থ্রেট।"
+				"explanation": "ম্��ালওয়্যার, ফিশিং, র‍্যানসমওয়্যার — সবগুলোই কমন নেটওয়ার্ক সিকিউরিটি থ্রেট।"
 			},
 			{
 				"id": 131,
@@ -11190,7 +11190,7 @@
 					"To block hackers"
 				],
 				"answer": "To restore data after failure",
-				"explanation": "নেটওয়ার্ক ব্যাকআপ ডেটা লস বা সিস্টে�� ফেইলিউরের পর ডেটা পুনরুদ্ধার করতে সাহায্য করে।"
+				"explanation": "নেটওয়ার্ক ব্যাকআপ ডেটা লস বা সিস্টেম ফেইলিউরের পর ডেটা পুনরুদ্ধার করতে সাহায্য করে।"
 			},
 			{
 				"id": 132,
@@ -11502,7 +11502,7 @@
 					"To increase speed"
 				],
 				"answer": "To synchronize time across devices",
-				"explanation": "NTP সার্ভার নেটওয়ার্কের সব ডিভাইসের সময় সিঙ্ক্রোনাইজ করে, যা লগিং, সিকিউরিটি এবং ট্রানজে��শনের জন্য গুরুত্বপূর্ণ।"
+				"explanation": "NTP সার্ভার নেটওয়ার্কের সব ডিভাইসের সময় সিঙ্ক্রোনাইজ করে, যা লগিং, সিকিউরিটি এবং ট্রানজেকশনের জন্য গুরুত্বপূর্ণ।"
 			},
 			{
 				"id": 158,
@@ -11646,7 +11646,7 @@
 					"To increase speed"
 				],
 				"answer": "To authenticate users in a domain",
-				"explanation": "ডোমেইন কন্ট্রোলার (যেমন Active Directory) ডোমেইনের ইউজার অথেন্টিকেশন ও অথোরাইজেশন ম্যানেজ করে।"
+				"explanation": "ডোমেইন কন্ট্রোলার (যেমন Active Directory) ডোমেইনের ইউজার অথেন্টিকেশন �� অথোরাইজেশন ম্যানেজ করে।"
 			},
 			{
 				"id": 170,
@@ -11982,7 +11982,7 @@
 					"To increase speed"
 				],
 				"answer": "To secure cloud application usage",
-				"explanation": "CASB (Cloud Access Security Broker) ক্লাউড অ্যাপ্লিকেশনের ব্যবহার মনিটর �� সিকিউর করে।"
+				"explanation": "CASB (Cloud Access Security Broker) ক্লাউড অ্যাপ্লিকেশনের ব্যবহার মনিটর ও সিকিউর করে।"
 			},
 			{
 				"id": 198,
@@ -12019,6 +12019,2408 @@
 				],
 				"answer": "All of the above",
 				"explanation": "SOAR সিকিউরিটি অপারেশন অটোমেট করে, SIEM-এর সাথে ইন্টিগ্রেট হয় এবং ইনসিডেন্ট রেসপন্স প্রক্রিয়া ত্বরান্বিত করে।"
+			}
+		],
+		"Operating_Systems": [
+			{
+				"id": 1,
+				"question": "What is the main function of an operating system?",
+				"options": [
+					"To run applications",
+					"To manage hardware and software resources",
+					"To browse the internet",
+					"To create documents"
+				],
+				"answer": "To manage hardware and software resources",
+				"explanation": "অপারেটিং সিস্টেম কম্পিউটারের হার্ডওয়্যার ও সফটওয়্যার রিসোর্স ম্যানেজ করে, যেমন মেমরি, প্রসেসর, ফাইল সিস্টেম এবং ইউজার ইন্টারফেস।"
+			},
+			{
+				"id": 2,
+				"question": "Which of the following is not an operating system?",
+				"options": [
+					"Windows",
+					"Linux",
+					"Oracle",
+					"macOS"
+				],
+				"answer": "Oracle",
+				"explanation": "ওরাকল একটি ডাটাবেস ম্যানেজমেন্ট সিস্টেম, অপারেটিং সিস্টেম নয়। উইন্ডোজ, লিনাক্স ও ম্যাকওএস অপারেটিং সিস্টেম।"
+			},
+			{
+				"id": 3,
+				"question": "What is the kernel of an operating system?",
+				"options": [
+					"The user interface",
+					"The core component that manages system resources",
+					"A type of application software",
+					"The file manager"
+				],
+				"answer": "The core component that manages system resources",
+				"explanation": "কার্নেল অপারেটিং সিস্টেমের মূল অংশ যা সিপিইউ, মেমরি, ডিভাইস ইত্যাদি ম্যানেজ করে এবং অ্যাপ্লিকেশন ও হার্ডওয়্যারের মধ্যে যোগাযোগ স্থাপন করে।"
+			},
+			{
+				"id": 4,
+				"question": "Which OS is open-source?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "লিনাক্স একটি ওপেন-সোর্স অপারেটিং সিস্টেম, যার সোর্স কোড সবার জন্য মুক্ত এবং পরিবর্তনযোগ্য।"
+			},
+			{
+				"id": 5,
+				"question": "What is multitasking in an OS?",
+				"options": [
+					"Running one program at a time",
+					"Running multiple programs simultaneously",
+					"Deleting files",
+					"Formatting disk"
+				],
+				"answer": "Running multiple programs simultaneously",
+				"explanation": "মাল্টিটাস্কিং হলো একই সময়ে একাধিক অ্যাপ্লিকেশন চালানোর ক্ষমতা, যেমন ওয়ার্ড প্রসেসর ও ব্রাউজার একসাথে চালানো।"
+			},
+			{
+				"id": 6,
+				"question": "Which of the following is a mobile operating system?",
+				"options": [
+					"Windows 10",
+					"Ubuntu",
+					"Android",
+					"Fedora"
+				],
+				"answer": "Android",
+				"explanation": "অ্যান্ড্রয়েড গুগল দ্বারা তৈরি একটি মোবাইল অপারেটিং সিস্টেম, যা স্মার্টফোন ও ট্যাবলেটে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 7,
+				"question": "What is virtual memory?",
+				"options": [
+					"A type of RAM",
+					"Using hard disk space as RAM",
+					"A cloud storage service",
+					"A type of ROM"
+				],
+				"answer": "Using hard disk space as RAM",
+				"explanation": "ভার্চুয়াল মেমরি হলো হার্ড ডিস্কের কিছু অংশ র‍্যামের মতো ব্যবহার করা, যাতে প্রোগ্রাম চালানোর জন্য বেশি মেমরি পাওয়া যায়।"
+			},
+			{
+				"id": 8,
+				"question": "Which component handles file management in an OS?",
+				"options": [
+					"Device driver",
+					"File system",
+					"Compiler",
+					"Boot loader"
+				],
+				"answer": "File system",
+				"explanation": "ফাইল সিস্টেম ফাইল সংরক্ষণ, সংগঠন, অ্যাক্সেস ও ম্যানেজমেন্টের দায়িত্ব পালন করে, যেমন NTFS, FAT32, ext4।"
+			},
+			{
+				"id": 9,
+				"question": "What is the purpose of a device driver?",
+				"options": [
+					"To delete files",
+					"To allow OS to communicate with hardware",
+					"To browse the web",
+					"To play music"
+				],
+				"answer": "To allow OS to communicate with hardware",
+				"explanation": "ডিভাইস ড্রাইভার অপারেটিং সিস্টেমকে হার্ডওয়্যার ডিভাইস (যেমন প্রিন্টার, গ্রাফিক্স কার্ড) এর সাথে যোগাযোগ করতে সাহায্য করে।"
+			},
+			{
+				"id": 10,
+				"question": "Which OS uses the NTFS file system by default?",
+				"options": [
+					"Linux",
+					"macOS",
+					"Windows",
+					"Android"
+				],
+				"answer": "Windows",
+				"explanation": "উইন্ডোজ অপারেটিং সিস্টেম NTFS (New Technology File System) ফাইল সিস্টেম ডিফল্টভাবে ব্যবহার করে।"
+			},
+			{
+				"id": 11,
+				"question": "What is booting?",
+				"options": [
+					"Shutting down the computer",
+					"Starting the computer and loading OS",
+					"Formatting a disk",
+					"Installing software"
+				],
+				"answer": "Starting the computer and loading OS",
+				"explanation": "বুটিং হলো কম্পিউটার চালু করে অপারেটিং সিস্টেম মেমরিতে লোড করার প্রক্রিয়া।"
+			},
+			{
+				"id": 12,
+				"question": "Which of the following is a real-time operating system?",
+				"options": [
+					"Windows",
+					"Linux",
+					"VxWorks",
+					"macOS"
+				],
+				"answer": "VxWorks",
+				"explanation": "VxWorks একটি রিয়েল-টাইম অপারেটিং সিস্টেম যা এয়ারক্রাফ্ট, মেডিকেল ডিভাইস ইত্যাদিতে ব্যবহৃত হয় যেখানে সময়মতো প্রতিক্রিয়া জরুরি।"
+			},
+			{
+				"id": 13,
+				"question": "What is a process in OS?",
+				"options": [
+					"A hardware component",
+					"A running instance of a program",
+					"A type of file",
+					"A network protocol"
+				],
+				"answer": "A running instance of a program",
+				"explanation": "প্রসেস হলো মেমরিতে চলমান একটি প্রোগ্রামের ইনস্ট্যান্স, যার নিজস্ব মেমরি স্পেস ও রিসোর্স থাকে।"
+			},
+			{
+				"id": 14,
+				"question": "Which scheduling algorithm executes the shortest job first?",
+				"options": [
+					"FCFS",
+					"SJF",
+					"Round Robin",
+					"Priority"
+				],
+				"answer": "SJF",
+				"explanation": "SJF (Shortest Job First) সিডিউলিং অ্যালগরিদম সবচেয়ে কম এক্সিকিউশন টাইম বিশিষ্ট প্রসেসকে আগে চালায়।"
+			},
+			{
+				"id": 15,
+				"question": "What is deadlock?",
+				"options": [
+					"When a process finishes execution",
+					"When two or more processes wait indefinitely for each other",
+					"When CPU is idle",
+					"When memory is full"
+				],
+				"answer": "When two or more processes wait indefinitely for each other",
+				"explanation": "ডেডলক হয় যখন দুই বা ততোধিক প্রসেস একে অপরের রিসোর্সের জন্য অসীমভাবে অপেক্ষা করে, ফলে কোনোটিই চলতে পারে না।"
+			},
+			{
+				"id": 16,
+				"question": "Which OS is developed by Apple?",
+				"options": [
+					"Windows",
+					"Linux",
+					"iOS and macOS",
+					"Android"
+				],
+				"answer": "iOS and macOS",
+				"explanation": "অ্যাপল কোম্পানি iOS (মোবাইল) এবং macOS (ডেস্কটপ) অপারেটিং সিস্টেম তৈরি করে।"
+			},
+			{
+				"id": 17,
+				"question": "What is the role of a shell in OS?",
+				"options": [
+					"To manage memory",
+					"To provide a user interface to access OS services",
+					"To control hardware",
+					"To compile programs"
+				],
+				"answer": "To provide a user interface to access OS services",
+				"explanation": "শেল হলো ইউজার ও অপারেটিং সিস্টেমের মধ্যে ইন্টারফেস, যা কমান্ড লাইন (যেমন Bash) বা GUI হতে পারে।"
+			},
+			{
+				"id": 18,
+				"question": "Which of the following is not a function of OS?",
+				"options": [
+					"Process management",
+					"Memory management",
+					"Word processing",
+					"File management"
+				],
+				"answer": "Word processing",
+				"explanation": "ওয়ার্ড প্রসেসিং একটি অ্যাপ্লিকেশন সফটওয়্যার, অপারেটিং সিস্টেমের কাজ নয়।"
+			},
+			{
+				"id": 19,
+				"question": "What is fragmentation in memory management?",
+				"options": [
+					"Dividing memory into equal parts",
+					"Wastage of memory due to small unused blocks",
+					"Copying files",
+					"Deleting processes"
+				],
+				"answer": "Wastage of memory due to small unused blocks",
+				"explanation": "ফ্র্যাগমেন্টেশন হলো মেমরিতে ছোট ছোট অব্যবহৃত ব্লক তৈরি হওয়া, যা বড় প্রসেস চালানোর জন্য ব্যবহার করা যায় না।"
+			},
+			{
+				"id": 20,
+				"question": "Which OS is commonly used in servers?",
+				"options": [
+					"Windows 10",
+					"macOS",
+					"Linux",
+					"Android"
+				],
+				"answer": "Linux",
+				"explanation": "লিনাক্স সার্ভারে বেশি ব্যবহৃত হয় কারণ এটি স্থিতিশীল, সিকিউর এবং ওপেন-সোর্স।"
+			},
+			{
+				"id": 21,
+				"question": "What is a thread?",
+				"options": [
+					"A type of virus",
+					"The smallest unit of execution in a process",
+					"A hardware device",
+					"A file format"
+				],
+				"answer": "The smallest unit of execution in a process",
+				"explanation": "থ্রেড হলো একটি প্রসেসের ভিতরের সবচেয়ে ছোট এক্সিকিউশন ইউনিট, যা প্রসেসের মেমরি শেয়ার করে।"
+			},
+			{
+				"id": 22,
+				"question": "Which of the following supports multi-user functionality?",
+				"options": [
+					"MS-DOS",
+					"Windows 10 Home",
+					"Linux",
+					"All of the above"
+				],
+				"answer": "Linux",
+				"explanation": "লিনাক্স মাল্টি-ইউজার অপারেটিং সিস্টেম, যেখানে একাধিক ইউজার একই সময়ে সিস্টেম ব্যবহার করতে পারে।"
+			},
+			{
+				"id": 23,
+				"question": "What is the purpose of an interrupt in OS?",
+				"options": [
+					"To shut down the system",
+					"To signal the CPU about an event",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To signal the CPU about an event",
+				"explanation": "ইন্টারাপ্ট হার্ডওয়্যার বা সফটওয়্যার দ্বারা CPU-কে কোনো ইভেন্ট (যেমন কী-প্রেস) সম্পর্কে সতর্ক করে।"
+			},
+			{
+				"id": 24,
+				"question": "Which file system is used by macOS?",
+				"options": [
+					"NTFS",
+					"FAT32",
+					"APFS",
+					"ext4"
+				],
+				"answer": "APFS",
+				"explanation": "ম্যাকওএস ডিফল্টভাবে APFS (Apple File System) ব্যবহার করে, যা দ্রুত ও সিকিউর।"
+			},
+			{
+				"id": 25,
+				"question": "What is spooling?",
+				"options": [
+					"Printing directly",
+					"Storing data temporarily for later processing",
+					"Deleting files",
+					"Copying RAM to disk"
+				],
+				"answer": "Storing data temporarily for later processing",
+				"explanation": "স্পুলিং (Simultaneous Peripheral Operations On-Line) হলো ডেটা অস্থায়ীভাবে স্টোর করে পরে প্রসেস করা, যেমন প্রিন্ট জব কিউতে রাখা।"
+			},
+			{
+				"id": 26,
+				"question": "Which OS is based on UNIX?",
+				"options": [
+					"Windows",
+					"Linux",
+					"DOS",
+					"Android"
+				],
+				"answer": "Linux",
+				"explanation": "লিনাক্স ইউনিক্স-এর ধারণা অনুসরণ করে তৈরি করা হয়েছে, তবে এটি ইউনিক্সের ক্লোন নয়।"
+			},
+			{
+				"id": 27,
+				"question": "What is context switching?",
+				"options": [
+					"Changing user accounts",
+					"Saving and restoring CPU state during process switch",
+					"Formatting disk",
+					"Installing drivers"
+				],
+				"answer": "Saving and restoring CPU state during process switch",
+				"explanation": "কন্টেক্সট সুইচিং হলো এক প্রসেস থেকে অন্য প্রসেসে যাওয়ার সময় CPU-এর অবস্থা সেভ ও রিস্টোর করা।"
+			},
+			{
+				"id": 28,
+				"question": "Which of the following is a command-line OS?",
+				"options": [
+					"Windows 10",
+					"macOS",
+					"MS-DOS",
+					"Ubuntu Desktop"
+				],
+				"answer": "MS-DOS",
+				"explanation": "MS-DOS একটি কমান্ড-লাইন ভিত্তিক অপারেটিং সিস্টেম, যেখানে GUI নেই।"
+			},
+			{
+				"id": 29,
+				"question": "What is paging in memory management?",
+				"options": [
+					"Dividing memory into fixed-size blocks",
+					"Deleting unused files",
+					"Copying RAM to disk",
+					"Formatting disk"
+				],
+				"answer": "Dividing memory into fixed-size blocks",
+				"explanation": "পেজিং হলো মেমরিকে সমান আকারের ব্লক (পেজ) এ ভাগ করা, যাতে ভার্চুয়াল মেমরি ব্যবহার করা যায়।"
+			},
+			{
+				"id": 30,
+				"question": "Which OS uses the ext4 file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "লিনাক্স অপারেটিং সিস্টেম ext4 ফাইল সিস্টেম ব্যবহার করে, যা দ্রুত ও নির্ভরযোগ্য।"
+			},
+			{
+				"id": 31,
+				"question": "What is thrashing?",
+				"options": [
+					"High CPU usage",
+					"Excessive page faults causing system slowdown",
+					"Fast disk access",
+					"Low memory usage"
+				],
+				"answer": "Excessive page faults causing system slowdown",
+				"explanation": "থ্র্যাশিং হয় যখন সিস্টেম ক্রমাগত পেজ ফল্ট জেনারেট করে, ফলে CPU সময় বেশিরভাগ পেজিংয়ে ব্যয় হয় এবং পারফরম্যান্স কমে যায়।"
+			},
+			{
+				"id": 32,
+				"question": "Which of the following is a single-user OS?",
+				"options": [
+					"Linux",
+					"Windows Server",
+					"MS-DOS",
+					"Unix"
+				],
+				"answer": "MS-DOS",
+				"explanation": "MS-DOS একটি সিঙ্গেল-ইউজার অপারেটিং সিস্টেম, যেখানে একসময়ে শুধু একজন ইউজার কাজ করতে পারে।"
+			},
+			{
+				"id": 33,
+				"question": "What is the role of BIOS in booting?",
+				"options": [
+					"To load the OS directly",
+					"To perform POST and load bootloader",
+					"To manage files",
+					"To run applications"
+				],
+				"answer": "To perform POST and load bootloader",
+				"explanation": "BIOS পাওয়ার অন করার পর POST (Power-On Self-Test) চালায় এবং বুটলোডার লোড করে যা OS লোড করে।"
+			},
+			{
+				"id": 34,
+				"question": "Which scheduling algorithm uses time slices?",
+				"options": [
+					"FCFS",
+					"SJF",
+					"Round Robin",
+					"Priority"
+				],
+				"answer": "Round Robin",
+				"explanation": "রাউন্ড রবিন সিডিউলিং প্রতিটি প্রসেসকে নির্দিষ্ট সময় (টাইম স্লাইস) দেয় এবং সময় শেষে পরবর্তী প্রসেসে চলে যায়।"
+			},
+			{
+				"id": 35,
+				"question": "What is a daemon in Linux?",
+				"options": [
+					"A user account",
+					"A background process",
+					"A type of virus",
+					"A file system"
+				],
+				"answer": "A background process",
+				"explanation": "লিনাক্সে ডিমন হলো ব্যাকগ্রাউন্ডে চলমান প্রসেস যা সিস্টেম সার্ভিস (যেমন নেটওয়ার্কিং) প্রদান করে।"
+			},
+			{
+				"id": 36,
+				"question": "Which OS is used in most supercomputers?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"Unix"
+				],
+				"answer": "Linux",
+				"explanation": "বিশ্বের বেশিরভাগ সুপারকম্পিউটার লিনাক্স অপারেটিং সিস্টেম ব্যবহার করে কারণ এটি হাই-পারফরম্যান্স কম্পিউটিংয়ের জন্য উপযোগী।"
+			},
+			{
+				"id": 37,
+				"question": "What is the main advantage of multiprogramming?",
+				"options": [
+					"Faster CPU",
+					"Better memory usage",
+					"Increased CPU utilization",
+					"More users"
+				],
+				"answer": "Increased CPU utilization",
+				"explanation": "মাল্টিপ্রোগ্রামিং একাধিক প্রোগ্রাম মেমরিতে রাখে, যাতে CPU কখনো অ্যাইডল না থাকে এবং ব্যবহার বাড়ে।"
+			},
+			{
+				"id": 38,
+				"question": "Which of the following is not a Linux distribution?",
+				"options": [
+					"Ubuntu",
+					"Fedora",
+					"Debian",
+					"Windows"
+				],
+				"answer": "Windows",
+				"explanation": "উইন্ডোজ মাইক্রোসফটের অপারেটিং সিস্টেম। উবুন্টু, ফেডোরা ও ডেবিয়ান লিনাক্স ডিস্ট্রিবিউশন।"
+			},
+			{
+				"id": 39,
+				"question": "What is swap space?",
+				"options": [
+					"Extra RAM",
+					"Hard disk space used as virtual memory",
+					"Cloud storage",
+					"Cache memory"
+				],
+				"answer": "Hard disk space used as virtual memory",
+				"explanation": "সোয়াপ স্পেস হলো হার্ড ডিস্কের একটি অংশ যা ভার্চুয়াল মেমরি হিসেবে ব্যবহৃত হয় যখন র‍্যাম পূর্ণ হয়ে যায়।"
+			},
+			{
+				"id": 40,
+				"question": "Which OS uses the HFS+ file system?",
+				"options": [
+					"Windows",
+					"Linux",
+					"Older macOS",
+					"Android"
+				],
+				"answer": "Older macOS",
+				"explanation": "পুরানো ম্যাকওএস (APFS এর আগে) HFS+ (Hierarchical File System Plus) ব্যবহার করত।"
+			},
+			{
+				"id": 41,
+				"question": "What is the purpose of a semaphore?",
+				"options": [
+					"To increase memory",
+					"To control access to shared resources",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To control access to shared resources",
+				"explanation": "সেমাফোর শেয়ার্ড রিসোর্সে একাধিক প্রসেসের অ্যাক্সেস নিয়ন্ত্রণ করে যাতে রেস কন্ডিশন না হয়।"
+			},
+			{
+				"id": 42,
+				"question": "Which of the following is a mobile OS by Google?",
+				"options": [
+					"iOS",
+					"Windows Mobile",
+					"Android",
+					"BlackBerry OS"
+				],
+				"answer": "Android",
+				"explanation": "অ্যান্ড্রয়েড গুগল দ্বারা তৈরি মোবাইল অপারেটিং সিস্টেম।"
+			},
+			{
+				"id": 43,
+				"question": "What is the main function of a file allocation table (FAT)?",
+				"options": [
+					"To store user data",
+					"To keep track of file locations on disk",
+					"To manage CPU",
+					"To control network"
+				],
+				"answer": "To keep track of file locations on disk",
+				"explanation": "FAT (File Allocation Table) ডিস্কে ফাইলের অবস্থান ট্র্যাক করে এবং ফাইল রিড/রাইটে সাহায্য করে।"
+			},
+			{
+				"id": 44,
+				"question": "Which OS is known for its stability and security?",
+				"options": [
+					"Windows",
+					"Linux",
+					"DOS",
+					"Android"
+				],
+				"answer": "Linux",
+				"explanation": "লিনাক্স অপারেটিং সিস্টেম স্থিতিশীলতা ও সিকিউরিটির জন্য বিখ্যাত, বিশেষ করে সার্ভার ও এম্বেডেড সিস্টেমে।"
+			},
+			{
+				"id": 45,
+				"question": "What is a zombie process?",
+				"options": [
+					"A process that is running",
+					"A process that has finished but not removed from process table",
+					"A virus",
+					"A background service"
+				],
+				"answer": "A process that has finished but not removed from process table",
+				"explanation": "জম্বি প্রসেস হলো এমন একটি প্রসেস যা এক্সিকিউশন শেষ করেছে কিন্তু এখনো প্রসেস টেবিলে আছে কারণ প্যারেন্ট প্রসেস এটি রিমুভ করেনি।"
+			},
+			{
+				"id": 46,
+				"question": "Which of the following is a GUI-based OS?",
+				"options": [
+					"MS-DOS",
+					"Linux (with desktop)",
+					"Command Prompt",
+					"Terminal"
+				],
+				"answer": "Linux (with desktop)",
+				"explanation": "লিনাক্স ডেস্কটপ ভার্সন (যেমন Ubuntu) গ্রাফিকাল ইউজার ইন্টারফেস (GUI) সমর্থন করে।"
+			},
+			{
+				"id": 47,
+				"question": "What is the role of a linker in OS?",
+				"options": [
+					"To connect hardware",
+					"To combine object files into executable",
+					"To manage memory",
+					"To schedule processes"
+				],
+				"answer": "To combine object files into executable",
+				"explanation": "লিঙ্কার কম্পাইলার দ্বারা তৈরি অবজেক্ট ফাইলগুলিকে একত্রিত করে একটি এক্সিকিউটেবল ফাইল তৈরি করে।"
+			},
+			{
+				"id": 48,
+				"question": "Which OS uses the ZFS file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Solaris",
+					"Android"
+				],
+				"answer": "Solaris",
+				"explanation": "সোলারিস অপারেটিং সিস্টেম ZFS (Zettabyte File System) ব্যবহার করে, যা হাই-ক্যাপাসিটি ও ডেটা ইন্টিগ্রিটি সমর্থন করে।"
+			},
+			{
+				"id": 49,
+				"question": "What is the main purpose of memory protection?",
+				"options": [
+					"To increase RAM",
+					"To prevent processes from accessing each other's memory",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To prevent processes from accessing each other's memory",
+				"explanation": "মেমরি প্রোটেকশন এক প্রসেসকে অন্য প্রসেসের মেমরি অ্যাক্সেস করতে বাধা দেয়, যা সিস্টেম স্থিতিশীলতা বজায় রাখে।"
+			},
+			{
+				"id": 50,
+				"question": "Which of the following is a time-sharing OS?",
+				"options": [
+					"MS-DOS",
+					"Windows 10",
+					"Unix",
+					"All of the above"
+				],
+				"answer": "Unix",
+				"explanation": "ইউনিক্স একটি টাইম-শেয়ারিং অপারেটিং সিস্টেম যেখানে একাধিক ইউজার একই সময়ে CPU টাইম শেয়ার করে।"
+			},
+			{
+				"id": 51,
+				"question": "What is the function of a compiler in OS context?",
+				"options": [
+					"To manage files",
+					"To convert high-level code to machine code",
+					"To control hardware",
+					"To schedule tasks"
+				],
+				"answer": "To convert high-level code to machine code",
+				"explanation": "কম্পাইলার হাই-লেভেল প্রোগ্রামিং ল্যাঙ্গুয়েজ (যেমন C++) কে মেশিন কোডে রূপান্তর করে যাতে CPU বুঝতে পারে।"
+			},
+			{
+				"id": 52,
+				"question": "Which OS is used in Raspberry Pi by default?",
+				"options": [
+					"Windows",
+					"Raspberry Pi OS (Debian-based)",
+					"macOS",
+					"Android"
+				],
+				"answer": "Raspberry Pi OS (Debian-based)",
+				"explanation": "রাস্পবেরি পাই ডিফল্টভাবে Raspberry Pi OS (আগে Raspbian নামে পরিচিত) ব্যবহার করে, যা লিনাক্স-ভিত্তিক।"
+			},
+			{
+				"id": 53,
+				"question": "What is a critical section?",
+				"options": [
+					"A part of code that accesses shared resources",
+					"A type of virus",
+					"A hardware component",
+					"A file system"
+				],
+				"answer": "A part of code that accesses shared resources",
+				"explanation": "ক্রিটিক্যাল সেকশন হলো কোডের সেই অংশ যেখানে শেয়ার্ড রিসোর্স (যেমন গ্লোবাল ভেরিয়েবল) অ্যাক্সেস করা হয়, যা শুধু একটি প্রসেস একসময়ে ব্যবহার করতে পারে।"
+			},
+			{
+				"id": 54,
+				"question": "Which of the following is not a system call?",
+				"options": [
+					"fork()",
+					"exec()",
+					"printf()",
+					"wait()"
+				],
+				"answer": "printf()",
+				"explanation": "printf() একটি লাইব্রেরি ফাংশন, সিস্টেম কল নয়। fork(), exec(), wait() হলো ইউনিক্স/লিনাক্স সিস্টেম কল।"
+			},
+			{
+				"id": 55,
+				"question": "What is the main advantage of a microkernel OS?",
+				"options": [
+					"Faster performance",
+					"More secure and modular design",
+					"Larger size",
+					"Easier to crash"
+				],
+				"answer": "More secure and modular design",
+				"explanation": "মাইক্রোকার্নেল অপারেটিং সিস্টেমে কার্নেল খুব ছোট এবং অন্যান্য সার্ভিস ইউজার স্পেসে চলে, যা সিকিউরিটি ও মডুলারিটি বাড়ায়।"
+			},
+			{
+				"id": 56,
+				"question": "Which OS uses the ReFS file system?",
+				"options": [
+					"Windows Server",
+					"Linux",
+					"macOS",
+					"Android"
+				],
+				"answer": "Windows Server",
+				"explanation": "রেজিলিয়েন্ট ফাইল সিস্টেম (ReFS) মাইক্রোসফট উইন্ডোজ সার্ভারে ব্যবহৃত হয় ডেটা ইন্টিগ্রিটি ও স্কেলেবিলিটির জন্য।"
+			},
+			{
+				"id": 57,
+				"question": "What is the purpose of a bootloader?",
+				"options": [
+					"To delete files",
+					"To load the OS kernel into memory",
+					"To manage network",
+					"To play music"
+				],
+				"answer": "To load the OS kernel into memory",
+				"explanation": "বুটলোডার (যেমন GRUB, LILO) অপারেটিং সিস্টেমের কার্নেলকে মেমরিতে লোড করে বুটিং প্রক্রিয়া শুরু করে।"
+			},
+			{
+				"id": 58,
+				"question": "Which of the following is a batch processing OS?",
+				"options": [
+					"Windows 10",
+					"Unix",
+					"MS-DOS",
+					"None of the above"
+				],
+				"answer": "None of the above",
+				"explanation": "MS-DOS সিঙ্গেল-ইউজার কিন্তু ব্যাচ প্রসেসিং সিস্টেম নয়। প্রকৃত ব্যাচ সিস্টেম হলো IBM OS/360, যা এখন বিরল।"
+			},
+			{
+				"id": 59,
+				"question": "What is the role of a dispatcher in OS?",
+				"options": [
+					"To delete files",
+					"To give control of CPU to selected process",
+					"To manage memory",
+					"To format disk"
+				],
+				"answer": "To give control of CPU to selected process",
+				"explanation": "ডিস্প্যাচার সিডিউলার দ্বারা নির্বাচিত প্রসেসকে CPU কন্ট্রোল দেয় এবং কন্টেক্সট সুইচিং করে।"
+			},
+			{
+				"id": 60,
+				"question": "Which OS is used in iPhones?",
+				"options": [
+					"Android",
+					"Windows Mobile",
+					"iOS",
+					"Linux"
+				],
+				"answer": "iOS",
+				"explanation": "আইফোনে অ্যাপলের তৈরি iOS অপারেটিং সিস্টেম ব্যবহৃত হয়।"
+			},
+			{
+				"id": 61,
+				"question": "What is the main function of an assembler?",
+				"options": [
+					"To convert assembly code to machine code",
+					"To manage files",
+					"To control hardware",
+					"To schedule processes"
+				],
+				"answer": "To convert assembly code to machine code",
+				"explanation": "অ্যাসেম্বলার অ্যাসেম্বলি ল্যাঙ্গুয়েজ কে মেশিন কোডে রূপান্তর করে।"
+			},
+			{
+				"id": 62,
+				"question": "Which of the following is a distributed OS?",
+				"options": [
+					"Windows 10",
+					"Linux",
+					"Amoeba",
+					"macOS"
+				],
+				"answer": "Amoeba",
+				"explanation": "Amoeba একটি ডিস্ট্রিবিউটেড অপারেটিং সিস্টেম যা একাধিক কম্পিউটারকে একটি সিস্টেমের মতো কাজ করতে দেয়।"
+			},
+			{
+				"id": 63,
+				"question": "What is the purpose of a page table?",
+				"options": [
+					"To store files",
+					"To map virtual addresses to physical addresses",
+					"To manage CPU",
+					"To control network"
+				],
+				"answer": "To map virtual addresses to physical addresses",
+				"explanation": "পেজ টেবিল ভার্চুয়াল মেমরি অ্যাড্রেসকে ফিজিক্যাল মেমরি অ্যাড্রেসে ম্যাপ করে।"
+			},
+			{
+				"id": 64,
+				"question": "Which OS uses the Btrfs file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "Btrfs (B-tree File System) লিনাক্সে ব্যবহৃত হয় যা স্ন্যাপশট, কম্প্রেশন ও রেডুনডেন্সি সমর্থন করে।"
+			},
+			{
+				"id": 65,
+				"question": "What is the main disadvantage of FCFS scheduling?",
+				"options": [
+					"It is complex",
+					"It causes convoy effect",
+					"It uses too much memory",
+					"It is not fair"
+				],
+				"answer": "It causes convoy effect",
+				"explanation": "FCFS (First Come First Serve) সিডিউলিংয়ে লম্বা প্রসেস ছোট প্রসেসগুলিকে ব্লক করে, যাকে কনভয় ইফেক্ট বলে।"
+			},
+			{
+				"id": 66,
+				"question": "Which of the following is a real-time OS used in robotics?",
+				"options": [
+					"Windows",
+					"Linux",
+					"QNX",
+					"macOS"
+				],
+				"answer": "QNX",
+				"explanation": "QNX একটি রিয়েল-টাইম অপারেটিং সিস্টেম যা অটোমোটিভ, রোবোটিক্স ও মেডিকেল ডিভাইসে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 67,
+				"question": "What is the function of a loader?",
+				"options": [
+					"To delete files",
+					"To load programs into memory for execution",
+					"To manage network",
+					"To format disk"
+				],
+				"answer": "To load programs into memory for execution",
+				"explanation": "লোডার এক্সিকিউটেবল প্রোগ্রামকে মেমরিতে লোড করে এবং এক্সিকিউশন শুরু করে।"
+			},
+			{
+				"id": 68,
+				"question": "Which OS is known for its use in embedded systems?",
+				"options": [
+					"Windows",
+					"Linux",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "লিনাক্স এম্বেডেড সিস্টেম (যেমন রাউটার, স্মার্ট টিভি) এ ব্যাপকভাবে ব্যবহৃত হয় কারণ এটি কাস্টমাইজেবল ও লাইটওয়েট।"
+			},
+			{
+				"id": 69,
+				"question": "What is the purpose of a mutex?",
+				"options": [
+					"To increase memory",
+					"To ensure mutual exclusion in critical section",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To ensure mutual exclusion in critical section",
+				"explanation": "মিউটেক্স (Mutual Exclusion) শুধুমাত্র একটি থ্রেডকে ক্রিটিক্যাল সেকশনে প্রবেশ করতে দেয়, অন্যদের অপেক্ষা করতে হয়।"
+			},
+			{
+				"id": 70,
+				"question": "Which of the following is a mobile OS by Microsoft?",
+				"options": [
+					"iOS",
+					"Android",
+					"Windows Phone",
+					"BlackBerry OS"
+				],
+				"answer": "Windows Phone",
+				"explanation": "উইন্ডোজ ফোন মাইক্রোসফটের তৈরি মোবাইল অপারেটিং সিস্টেম, যদিও এখন বন্ধ।"
+			},
+			{
+				"id": 71,
+				"question": "What is the main function of a device manager?",
+				"options": [
+					"To install and manage device drivers",
+					"To delete files",
+					"To browse internet",
+					"To play games"
+				],
+				"answer": "To install and manage device drivers",
+				"explanation": "ডিভাইস ম্যানেজার অপারেটিং সিস্টেমে হার্ডওয়্যার ডিভাইস ও তাদের ড্রাইভার ম্যানেজ করে।"
+			},
+			{
+				"id": 72,
+				"question": "Which OS uses the XFS file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "XFS লিনাক্সে ব্যবহৃত হয়, বিশেষ করে হাই-পারফরম্যান্স সার্ভারে যেখানে বড় ফাইল সিস্টেম প্রয়োজন।"
+			},
+			{
+				"id": 73,
+				"question": "What is the role of a scheduler?",
+				"options": [
+					"To delete files",
+					"To select which process runs next",
+					"To manage memory",
+					"To control network"
+				],
+				"answer": "To select which process runs next",
+				"explanation": "সিডিউলার প্রসেস কিউ থেকে নির্ধারণ করে কোন প্রসেসকে CPU দেওয়া হবে।"
+			},
+			{
+				"id": 74,
+				"question": "Which of the following is not a type of OS?",
+				"options": [
+					"Batch",
+					"Time-sharing",
+					"Distributed",
+					"Binary"
+				],
+				"answer": "Binary",
+				"explanation": "বাইনারি অপারেটিং সিস্টেমের প্রকারভেদ নয়; এটি ডেটা উপস্থাপনার একটি পদ্ধতি।"
+			},
+			{
+				"id": 75,
+				"question": "What is the main advantage of multithreading?",
+				"options": [
+					"Faster CPU",
+					"Better resource sharing and responsiveness",
+					"More memory",
+					"Easier to crash"
+				],
+				"answer": "Better resource sharing and responsiveness",
+				"explanation": "মাল্টিথ্রেডিং একই প্রসেসের মধ্যে একাধিক থ্রেড চালায়, যা রিসোর্স শেয়ারিং ও অ্যাপ্লিকেশন রেসপন্সিভনেস বাড়ায়।"
+			},
+			{
+				"id": 76,
+				"question": "Which OS is used in most web servers?",
+				"options": [
+					"Windows",
+					"Linux",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "বিশ্বের বেশিরভাগ ওয়েব সার্ভার লিনাক্স ব্যবহার করে কারণ এটি ফ্রি, স্থিতিশীল এবং সিকিউর।"
+			},
+			{
+				"id": 77,
+				"question": "What is the purpose of a system call?",
+				"options": [
+					"To delete files",
+					"To request service from OS kernel",
+					"To manage network",
+					"To format disk"
+				],
+				"answer": "To request service from OS kernel",
+				"explanation": "সিস্টেম কল হলো অ্যাপ্লিকেশন থেকে অপারেটিং সিস্টেম কার্নেলে সার্ভিস রিকোয়েস্ট করার উপায়, যেমন ফাইল ওপেন করা।"
+			},
+			{
+				"id": 78,
+				"question": "Which file system supports journaling?",
+				"options": [
+					"FAT32",
+					"ext3",
+					"NTFS",
+					"Both ext3 and NTFS"
+				],
+				"answer": "Both ext3 and NTFS",
+				"explanation": "ext3 (লিনাক্স) ও NTFS (উইন্ডোজ) জার্নালিং সমর্থন করে, যা সিস্টেম ক্র্যাশের পর ডেটা রিকভারি সহজ করে।"
+			},
+			{
+				"id": 79,
+				"question": "What is the main function of a command interpreter?",
+				"options": [
+					"To manage files",
+					"To read and execute user commands",
+					"To control hardware",
+					"To schedule processes"
+				],
+				"answer": "To read and execute user commands",
+				"explanation": "কমান্ড ইন্টারপ্রেটার (শেল) ইউজারের কমান্ড পড়ে এবং অপারেটিং সিস্টেমকে এক্সিকিউট করতে বলে।"
+			},
+			{
+				"id": 80,
+				"question": "Which OS is open-source and used in Android?",
+				"options": [
+					"Windows",
+					"Linux kernel",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux kernel",
+				"explanation": "অ্যান্ড্রয়েড অপারেটিং সিস্টেম লিনাক্স কার্নেলের উপর ভিত্তি করে তৈরি।"
+			},
+			{
+				"id": 81,
+				"question": "What is the purpose of a buffer in OS?",
+				"options": [
+					"To store user data permanently",
+					"To temporarily hold data during transfer",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To temporarily hold data during transfer",
+				"explanation": "বাফার ডেটা ট্রান্সফারের সময় অস্থায়ীভাবে ডেটা ধরে রাখে, যেমন কীবোর্ড ইনপুট বা প্রিন্টার আউটপুট।"
+			},
+			{
+				"id": 82,
+				"question": "Which of the following is a network OS?",
+				"options": [
+					"Windows Server",
+					"Linux",
+					"Novell NetWare",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "উইন্ডোজ সার্ভার, লিনাক্স ও নভেল নেটওয়্যার সবগুলোই নেটওয়ার্ক অপারেটিং সিস্টেম যা মাল্টি-ইউজার নেটওয়ার্ক ম্যানেজ করে।"
+			},
+			{
+				"id": 83,
+				"question": "What is the main disadvantage of monolithic kernel?",
+				"options": [
+					"Slower performance",
+					"Less secure due to large size",
+					"Harder to maintain",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "মনোলিথিক কার্নেলে সব সার্ভিস কার্নেল স্পেসে চলে, যা পারফরম্যান্স বাড়ায় কিন্তু সিকিউরিটি, মেইনটেইনেবিলিটি ও স্থিতিশীলতা কমায়।"
+			},
+			{
+				"id": 84,
+				"question": "Which OS uses the JFS file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "JFS (Journaled File System) IBM দ্বারা তৈরি এবং লিনাক্সে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 85,
+				"question": "What is the role of a memory manager?",
+				"options": [
+					"To delete files",
+					"To allocate and deallocate memory",
+					"To manage network",
+					"To format disk"
+				],
+				"answer": "To allocate and deallocate memory",
+				"explanation": "মেমরি ম্যানেজার প্রসেসের জন্য মেমরি অ্যালোকেট ও ডিঅ্যালোকেট করে এবং ফ্র্যাগমেন্টেশন ম্যানেজ করে।"
+			},
+			{
+				"id": 86,
+				"question": "Which of the following is a lightweight Linux distribution?",
+				"options": [
+					"Ubuntu",
+					"Fedora",
+					"Lubuntu",
+					"CentOS"
+				],
+				"answer": "Lubuntu",
+				"explanation": "Lubuntu উবুন্টুর একটি লাইটওয়েট ভার্সন যা পুরানো বা কম রিসোর্স বিশিষ্ট কম্পিউটারের জন্য উপযোগী।"
+			},
+			{
+				"id": 87,
+				"question": "What is the purpose of a cache in OS?",
+				"options": [
+					"To store files permanently",
+					"To store frequently used data for fast access",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To store frequently used data for fast access",
+				"explanation": "ক্যাশে ঘন ঘন ব্যবহৃত ডেটা (যেমন ডিস্ক ব্লক) দ্রুত অ্যাক্সেসের জন্য মেমরিতে রাখে।"
+			},
+			{
+				"id": 88,
+				"question": "Which OS is used in most ATMs?",
+				"options": [
+					"Windows",
+					"Linux",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Windows",
+				"explanation": "বেশিরভাগ ATM মাইক্রোসফট উইন্ডোজ (সাধারণত Windows XP বা 7) ব্যবহার করে, যদিও কিছু লিনাক্স ব্যবহার করে।"
+			},
+			{
+				"id": 89,
+				"question": "What is the main function of a process control block (PCB)?",
+				"options": [
+					"To store user files",
+					"To store process information like state, PID, registers",
+					"To manage network",
+					"To format disk"
+				],
+				"answer": "To store process information like state, PID, registers",
+				"explanation": "PCB প্রতিটি প্রসেসের তথ্য (যেমন প্রসেস আইডি, স্টেট, রেজিস্টার ভ্যালু) স্টোর করে, যা কন্টেক্সট সুইচিংয়ে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 90,
+				"question": "Which of the following is a system software?",
+				"options": [
+					"MS Word",
+					"Photoshop",
+					"Operating System",
+					"Chrome"
+				],
+				"answer": "Operating System",
+				"explanation": "অপারেটিং সিস্টেম সিস্টেম সফটওয়্যার, যা হার্ডওয়্যার ও অ্যাপ্লিকেশন সফটওয়্যারের মধ্যে মধ্যস্থতা করে।"
+			},
+			{
+				"id": 91,
+				"question": "What is the purpose of a pipe in OS?",
+				"options": [
+					"To connect hardware",
+					"To allow communication between processes",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To allow communication between processes",
+				"explanation": "পাইপ দুটি প্রসেসের মধ্যে ডেটা পাস করার জন্য ব্যবহৃত হয়, যেমন লিনাক্সে ls | grep txt।"
+			},
+			{
+				"id": 92,
+				"question": "Which OS uses the UFS file system?",
+				"options": [
+					"Windows",
+					"macOS (older)",
+					"Linux",
+					"Android"
+				],
+				"answer": "macOS (older)",
+				"explanation": "পুরানো ম্যাকওএস (Mac OS X এর আগে) UFS (Unix File System) ব্যবহার করত।"
+			},
+			{
+				"id": 93,
+				"question": "What is the main advantage of demand paging?",
+				"options": [
+					"Faster boot time",
+					"Only loads pages when needed, saving memory",
+					"More disk space",
+					"Easier to crash"
+				],
+				"answer": "Only loads pages when needed, saving memory",
+				"explanation": "ডিমান্ড পেজিং শুধুমাত্র প্রয়োজন হলে পেজ মেমরিতে লোড করে, যা মেমরি ব্যবহার কমায়।"
+			},
+			{
+				"id": 94,
+				"question": "Which of the following is a mobile OS by Samsung?",
+				"options": [
+					"iOS",
+					"Android",
+					"Tizen",
+					"Windows Mobile"
+				],
+				"answer": "Tizen",
+				"explanation": "টিজেন স্যামসাং দ্বারা তৈরি মোবাইল অপারেটিং সিস্টেম, যা স্মার্টওয়াচ ও স্মার্ট টিভিতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 95,
+				"question": "What is the role of a file manager?",
+				"options": [
+					"To delete files only",
+					"To organize, view, and manage files and folders",
+					"To control hardware",
+					"To schedule processes"
+				],
+				"answer": "To organize, view, and manage files and folders",
+				"explanation": "ফাইল ম্যানেজার ইউজারকে ফাইল ও ফোল্ডার দেখতে, সংগঠিত করতে এবং ম্যানেজ করতে সাহায্য করে।"
+			},
+			{
+				"id": 96,
+				"question": "Which OS is used in most smart TVs?",
+				"options": [
+					"Windows",
+					"Linux-based (like Tizen, WebOS)",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux-based (like Tizen, WebOS)",
+				"explanation": "বেশিরভাগ স্মার্ট টিভি (স্যামসাং, LG) লিনাক্স-ভিত্তিক অপারেটিং সিস্টেম যেমন Tizen বা WebOS ব্যবহার করে।"
+			},
+			{
+				"id": 97,
+				"question": "What is the purpose of a system restore?",
+				"options": [
+					"To delete all files",
+					"To revert system to a previous state",
+					"To format disk",
+					"To install new OS"
+				],
+				"answer": "To revert system to a previous state",
+				"explanation": "সিস্টেম রিস্টোর সিস্টেমকে আগের একটি পয়েন্টে ফেরত নেয় যদি কোনো সমস্যা হয়।"
+			},
+			{
+				"id": 98,
+				"question": "Which of the following is a command to list files in Linux?",
+				"options": [
+					"dir",
+					"ls",
+					"list",
+					"show"
+				],
+				"answer": "ls",
+				"explanation": "লিনাক্সে 'ls' কমান্ড ফাইল ও ডিরেক্টরি লিস্ট করে। উইন্ডোজে 'dir' ব্যবহৃত হয়।"
+			},
+			{
+				"id": 99,
+				"question": "What is the main function of a task manager?",
+				"options": [
+					"To delete files",
+					"To monitor and manage running processes",
+					"To control hardware",
+					"To format disk"
+				],
+				"answer": "To monitor and manage running processes",
+				"explanation": "টাস্ক ম্যানেজার চলমান প্রসেস, মেমরি ব্যবহার, CPU লোড ইত্যাদি মনিটর ও ম্যানেজ করে।"
+			},
+			{
+				"id": 100,
+				"question": "Which OS supports POSIX standards?",
+				"options": [
+					"Windows",
+					"Linux",
+					"macOS",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "POSIX (Portable Operating System Interface) স্ট্যান্ডার্ড লিনাক্স, ম্যাকওএস এবং উইন্ডোজ (কিছু ডিগ্রিতে) সমর্থন করে।"
+			},
+			{
+				"id": 101,
+				"question": "What is the purpose of a swap file?",
+				"options": [
+					"To store user documents",
+					"To act as virtual memory on disk",
+					"To backup system",
+					"To install software"
+				],
+				"answer": "To act as virtual memory on disk",
+				"explanation": "সোয়াপ ফাইল হার্ড ডিস্কে তৈরি একটি ফাইল যা ভার্চুয়াল মেমরি হিসেবে কাজ করে যখন র‍্যাম পূর্ণ হয়ে যায়।"
+			},
+			{
+				"id": 102,
+				"question": "Which of the following is a real-time OS for embedded systems?",
+				"options": [
+					"Windows",
+					"Linux",
+					"FreeRTOS",
+					"macOS"
+				],
+				"answer": "FreeRTOS",
+				"explanation": "FreeRTOS একটি ওপেন-সোর্স রিয়েল-টাইম অপারেটিং সিস্টেম যা মাইক্রোকন্ট্রোলার-ভিত্তিক এম্বেডেড সিস্টেমে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 103,
+				"question": "What is the role of a disk scheduler?",
+				"options": [
+					"To delete files",
+					"To optimize disk read/write order",
+					"To manage memory",
+					"To control network"
+				],
+				"answer": "To optimize disk read/write order",
+				"explanation": "ডিস্ক সিডিউলার ডিস্ক অ্যাক্সেস রিকোয়েস্টগুলিকে অপ্টিমাইজ করে যাতে হেড মুভমেন্ট কম হয় এবং পারফরম্যান্স বাড়ে।"
+			},
+			{
+				"id": 104,
+				"question": "Which OS uses the exFAT file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "exFAT উইন্ডোজ, ম্যাকওএস ও লিনাক্স (ড্রাইভার সহ) সবগুলোতে সমর্থিত, বিশেষ করে USB ড্রাইভে।"
+			},
+			{
+				"id": 105,
+				"question": "What is the main disadvantage of priority scheduling?",
+				"options": [
+					"It is slow",
+					"It may cause starvation of low-priority processes",
+					"It uses too much memory",
+					"It is not fair"
+				],
+				"answer": "It may cause starvation of low-priority processes",
+				"explanation": "প্রায়োরিটি সিডিউলিংয়ে কম প্রায়োরিটির প্রসেস কখনো চলতে পারে না যদি সর্বদা হাই প্রায়োরিটি প্রসেস থাকে, যাকে স্টারভেশন বলে।"
+			},
+			{
+				"id": 106,
+				"question": "Which of the following is a Linux shell?",
+				"options": [
+					"Bash",
+					"Zsh",
+					"Fish",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "Bash, Zsh, Fish — সবগুলোই লিনাক্সে ব্যবহৃত হয় কমান্ড-লাইন শেল হিসেবে।"
+			},
+			{
+				"id": 107,
+				"question": "What is the purpose of a system log?",
+				"options": [
+					"To store user files",
+					"To record system events and errors",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To record system events and errors",
+				"explanation": "সিস্টেম লগ সিস্টেম ইভেন্ট, এরর, লগইন ইত্যাদি রেকর্ড করে যা ট্রাবলশুটিংয়ে সাহায্য করে।"
+			},
+			{
+				"id": 108,
+				"question": "Which OS is used in most routers?",
+				"options": [
+					"Windows",
+					"Linux",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "বেশিরভাগ নেটওয়ার্ক রাউটার লিনাক্স-ভিত্তিক ফার্মওয়্যার (যেমন OpenWrt) ব্যবহার করে।"
+			},
+			{
+				"id": 109,
+				"question": "What is the main function of a user interface?",
+				"options": [
+					"To manage memory",
+					"To allow user to interact with OS",
+					"To control hardware",
+					"To schedule processes"
+				],
+				"answer": "To allow user to interact with OS",
+				"explanation": "ইউজার ইন্টারফেস (GUI বা CLI) ইউজারকে অপারেটিং সিস্টেমের সাথে যোগাযোগ করতে দেয়।"
+			},
+			{
+				"id": 110,
+				"question": "Which of the following is a system utility?",
+				"options": [
+					"Disk defragmenter",
+					"Antivirus",
+					"File manager",
+					"All of the above"
+				],
+				"answer": "All of the above",
+				"explanation": "ডিস্ক ডিফ্র্যাগমেন্টার, অ্যান্টিভাইরাস, ফাইল ম্যানেজার — সবগুলোই সিস্টেম ইউটিলিটি যা সিস্টেম মেইনটেনেন্সে সাহায্য করে।"
+			},
+			{
+				"id": 111,
+				"question": "What is the purpose of a system update?",
+				"options": [
+					"To delete files",
+					"To fix bugs and improve security",
+					"To format disk",
+					"To install games"
+				],
+				"answer": "To fix bugs and improve security",
+				"explanation": "সিস্টেম আপডেট বাগ ফিক্স, সিকিউরিটি প্যাচ এবং নতুন ফিচার যোগ করে।"
+			},
+			{
+				"id": 112,
+				"question": "Which OS uses the ReiserFS file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "ReiserFS লিনাক্সে ব্যবহৃত হয়, বিশেষ করে ছোট ফাইলের জন্য দ্রুত পারফরম্যান্স দেয়।"
+			},
+			{
+				"id": 113,
+				"question": "What is the role of a process scheduler?",
+				"options": [
+					"To delete files",
+					"To decide which process runs on CPU",
+					"To manage memory",
+					"To control network"
+				],
+				"answer": "To decide which process runs on CPU",
+				"explanation": "প্রসেস সিডিউলার কোন প্রসেসকে CPU দেওয়া হবে তা নির্ধারণ করে।"
+			},
+			{
+				"id": 114,
+				"question": "Which of the following is a mobile OS by Huawei?",
+				"options": [
+					"iOS",
+					"Android",
+					"HarmonyOS",
+					"Windows Mobile"
+				],
+				"answer": "HarmonyOS",
+				"explanation": "হারমোনি ওএস হুয়াওয়ে দ্বারা তৈরি মোবাইল অপারেটিং সিস্টেম, যা অ্যান্ড্রয়েডের বিকল্প হিসেবে তৈরি করা হয়েছে।"
+			},
+			{
+				"id": 115,
+				"question": "What is the main advantage of a GUI?",
+				"options": [
+					"Faster than CLI",
+					"Easier for non-technical users",
+					"Uses less memory",
+					"More secure"
+				],
+				"answer": "Easier for non-technical users",
+				"explanation": "GUI (Graphical User Interface) আইকন, উইন্ডো, মেনু ব্যবহার করে যা টেকনিক্যাল নয় এমন ইউজারদের জন্য সহজ।"
+			},
+			{
+				"id": 116,
+				"question": "Which OS is used in most supercomputers as of 2023?",
+				"options": [
+					"Windows",
+					"Linux",
+					"Unix",
+					"macOS"
+				],
+				"answer": "Linux",
+				"explanation": "2023 সাল পর্যন্ত টপ 500 সুপারকম্পিউটারের 100% লিনাক্স ব্যবহার করে।"
+			},
+			{
+				"id": 117,
+				"question": "What is the purpose of a system call interface?",
+				"options": [
+					"To connect hardware",
+					"To provide a way for programs to request OS services",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To provide a way for programs to request OS services",
+				"explanation": "সিস্টেম কল ইন্টারফেস অ্যাপ্লিকেশন ও অপারেটিং সিস্টেম কার্নেলের মধ্যে যোগাযোগের মাধ্যম।"
+			},
+			{
+				"id": 118,
+				"question": "Which file system is used by default in Windows 10?",
+				"options": [
+					"FAT32",
+					"exFAT",
+					"NTFS",
+					"ReFS"
+				],
+				"answer": "NTFS",
+				"explanation": "উইন্ডোজ 10 ডিফল্টভাবে NTFS ফাইল সিস্টেম ব্যবহার করে, যা জার্নালিং, সিকিউরিটি ও বড় ফাইল সমর্থন করে।"
+			},
+			{
+				"id": 119,
+				"question": "What is the main function of a boot manager?",
+				"options": [
+					"To delete files",
+					"To allow selection of OS at startup",
+					"To manage network",
+					"To format disk"
+				],
+				"answer": "To allow selection of OS at startup",
+				"explanation": "বুট ম্যানেজার (যেমন GRUB) মাল্টি-বুট সিস্টেমে ইউজারকে কোন অপারেটিং সিস্টেম চালাবে তা নির্বাচনের সুযোগ দেয়।"
+			},
+			{
+				"id": 120,
+				"question": "Which of the following is a command to copy files in Linux?",
+				"options": [
+					"copy",
+					"cp",
+					"move",
+					"dup"
+				],
+				"answer": "cp",
+				"explanation": "লিনাক্সে 'cp' কমান্ড ফাইল কপি করে। উইন্ডোজে 'copy' ব্যবহৃত হয়।"
+			},
+			{
+				"id": 121,
+				"question": "What is the purpose of a system monitor?",
+				"options": [
+					"To delete files",
+					"To display real-time system performance",
+					"To control hardware",
+					"To format disk"
+				],
+				"answer": "To display real-time system performance",
+				"explanation": "সিস্টেম মনিটর CPU, মেমরি, ডিস্ক, নেটওয়ার্ক ব্যবহার ইত্যাদি রিয়েল-টাইমে দেখায়।"
+			},
+			{
+				"id": 122,
+				"question": "Which OS is known for its use in mainframe computers?",
+				"options": [
+					"Windows",
+					"Linux",
+					"z/OS",
+					"macOS"
+				],
+				"answer": "z/OS",
+				"explanation": "z/OS IBM মেইনফ্রেম কম্পিউটারের জন্য তৈরি অপারেটিং সিস্টেম।"
+			},
+			{
+				"id": 123,
+				"question": "What is the role of a file descriptor?",
+				"options": [
+					"To store file content",
+					"To uniquely identify an open file in a process",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To uniquely identify an open file in a process",
+				"explanation": "ফাইল ডেস্ক্রিপ্টর একটি ইন্টিজার যা একটি প্রসেসে ওপেন ফাইলকে ইউনিকভাবে চিহ্নিত করে।"
+			},
+			{
+				"id": 124,
+				"question": "Which of the following is a lightweight Windows OS?",
+				"options": [
+					"Windows 10 Pro",
+					"Windows 10 Home",
+					"Windows 10 S Mode",
+					"Windows Server"
+				],
+				"answer": "Windows 10 S Mode",
+				"explanation": "উইন্ডোজ 10 S মোড একটি লাইটওয়েট ভার্সন যা শুধুমাত্র মাইক্রোসফট স্টোর থেকে অ্যাপ ইনস্টল করতে দেয়।"
+			},
+			{
+				"id": 125,
+				"question": "What is the main disadvantage of round-robin scheduling with very small time quantum?",
+				"options": [
+					"Poor CPU utilization",
+					"High context switching overhead",
+					"Starvation",
+					"Convoy effect"
+				],
+				"answer": "High context switching overhead",
+				"explanation": "খুব ছোট টাইম কোয়ান্টাম হলে প্রসেস সুইচিং খুব বেশি হয়, যা CPU টাইম বেশিরভাগ কন্টেক্সট সুইচিংয়ে ব্যয় হয়।"
+			},
+			{
+				"id": 126,
+				"question": "Which OS uses the HAMMER file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"DragonFly BSD",
+					"Linux"
+				],
+				"answer": "DragonFly BSD",
+				"explanation": "HAMMER ফাইল সিস্টেম DragonFly BSD অপারেটিং সিস্টেমে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 127,
+				"question": "What is the purpose of a system restore point?",
+				"options": [
+					"To backup user files",
+					"To save system state for recovery",
+					"To delete viruses",
+					"To format disk"
+				],
+				"answer": "To save system state for recovery",
+				"explanation": "সিস্টেম রিস্টোর পয়েন্ট সিস্টেম কনফিগারেশন ও ফাইলের একটি স্ন্যাপশট সেভ করে যা পরে রিকভারির জন্য ব্যবহার করা যায়।"
+			},
+			{
+				"id": 128,
+				"question": "Which of the following is a mobile OS by Google besides Android?",
+				"options": [
+					"Chrome OS",
+					"Fuchsia",
+					"Both Chrome OS and Fuchsia",
+					"None"
+				],
+				"answer": "Both Chrome OS and Fuchsia",
+				"explanation": "গুগল অ্যান্ড্রয়েড ছাড়াও Chrome OS (ল্যাপটপ) ও Fuchsia (ফিউচারিস্টিক) অপারেটিং সিস্টেম তৈরি করেছে।"
+			},
+			{
+				"id": 129,
+				"question": "What is the main function of a device file?",
+				"options": [
+					"To store user data",
+					"To represent hardware devices as files",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To represent hardware devices as files",
+				"explanation": "লিনাক্সে ডিভাইস ফাইল (যেমন /dev/sda) হার্ডওয়্যার ডিভাইসকে ফাইল হিসেবে উপস্থাপন করে।"
+			},
+			{
+				"id": 130,
+				"question": "Which OS is used in most point-of-sale (POS) systems?",
+				"options": [
+					"Windows",
+					"Linux",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Windows",
+				"explanation": "বেশিরভাগ POS সিস্টেম উইন্ডোজ (বিশেষ করে Windows 10 IoT) ব্যবহার করে কারণ এটি অ্যাপ্লিকেশন সাপোর্ট ও ইজি টু ইউজ।"
+			},
+			{
+				"id": 131,
+				"question": "What is the purpose of a system call table?",
+				"options": [
+					"To store user files",
+					"To map system call numbers to handler functions",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To map system call numbers to handler functions",
+				"explanation": "সিস্টেম কল টেবিল প্রতিটি সিস্টেম কল নম্বরকে কার্নেলের সংশ্লিষ্ট ফাংশনে ম্যাপ করে।"
+			},
+			{
+				"id": 132,
+				"question": "Which file system is used by default in Android?",
+				"options": [
+					"FAT32",
+					"ext4",
+					"NTFS",
+					"APFS"
+				],
+				"answer": "ext4",
+				"explanation": "অ্যান্ড্রয়েড ডিফল্টভাবে ext4 ফাইল সিস্টেম ব্যবহার করে, যদিও কিছু ডিভাইস F2FS ব্যবহার করে।"
+			},
+			{
+				"id": 133,
+				"question": "What is the main advantage of a microkernel over monolithic kernel?",
+				"options": [
+					"Faster performance",
+					"More secure and reliable",
+					"Easier to develop",
+					"Uses less memory"
+				],
+				"answer": "More secure and reliable",
+				"explanation": "মাইক্রোকার্নেলে সার্ভিসগুলি ইউজার স্পেসে চলে, তাই একটি সার্ভিস ক্র্যাশ হলে পুরো সিস্টেম ক্র্যাশ হয় না।"
+			},
+			{
+				"id": 134,
+				"question": "Which of the following is a command to move files in Linux?",
+				"options": [
+					"move",
+					"mv",
+					"cp",
+					"ren"
+				],
+				"answer": "mv",
+				"explanation": "লিনাক্সে 'mv' কমান্ড ফাইল মুভ বা রিনেম করে।"
+			},
+			{
+				"id": 135,
+				"question": "What is the role of a system administrator?",
+				"options": [
+					"To develop software",
+					"To manage and maintain computer systems",
+					"To design hardware",
+					"To sell computers"
+				],
+				"answer": "To manage and maintain computer systems",
+				"explanation": "সিস্টেম অ্যাডমিনিস্ট্রেটর অপারেটিং সিস্টেম, নেটওয়ার্ক, সিকিউরিটি ইত্যাদি ম্যানেজ ও মেইনটেইন করে।"
+			},
+			{
+				"id": 136,
+				"question": "Which OS is used in most gaming consoles?",
+				"options": [
+					"Windows",
+					"Custom OS (often Linux-based)",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Custom OS (often Linux-based)",
+				"explanation": "প্লেস্টেশন, এক্সবক্স ইত্যাদি গেমিং কনসোল কাস্টম অপারেটিং সিস্টেম ব্যবহার করে যা প্রায়শই লিনাক্স-ভিত্তিক।"
+			},
+			{
+				"id": 137,
+				"question": "What is the purpose of a system bus?",
+				"options": [
+					"To connect monitor",
+					"To allow communication between CPU, memory, and devices",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To allow communication between CPU, memory, and devices",
+				"explanation": "সিস্টেম বাস CPU, মেমরি ও পেরিফেরাল ডিভাইসের মধ্যে ডেটা ট্রান্সফারের মাধ্যম।"
+			},
+			{
+				"id": 138,
+				"question": "Which of the following is a real-time OS by Wind River?",
+				"options": [
+					"VxWorks",
+					"QNX",
+					"FreeRTOS",
+					"Linux"
+				],
+				"answer": "VxWorks",
+				"explanation": "VxWorks Wind River Systems দ্বারা তৈরি রিয়েল-টাইম অপারেটিং সিস্টেম।"
+			},
+			{
+				"id": 139,
+				"question": "What is the main function of a system clock?",
+				"options": [
+					"To show time to user",
+					"To provide timing for process scheduling and events",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To provide timing for process scheduling and events",
+				"explanation": "সিস্টেম ক্লক প্রসেস সিডিউলিং, টাইম স্লাইস, টাইমআউট ইত্যাদির জন্য টাইমিং প্রদান করে।"
+			},
+			{
+				"id": 140,
+				"question": "Which OS uses the ZFS file system by default?",
+				"options": [
+					"Windows",
+					"macOS",
+					"OpenSolaris",
+					"Linux"
+				],
+				"answer": "OpenSolaris",
+				"explanation": "OpenSolaris (এবং এর ডেরিভেটিভ যেমন OpenIndiana) ZFS ফাইল সিস্টেম ডিফল্টভাবে ব্যবহার করে।"
+			},
+			{
+				"id": 141,
+				"question": "What is the purpose of a system image?",
+				"options": [
+					"To store user photos",
+					"To create a complete backup of the OS and data",
+					"To delete viruses",
+					"To format disk"
+				],
+				"answer": "To create a complete backup of the OS and data",
+				"explanation": "সিস্টেম ইমেজ পুরো অপারেটিং সিস্টেম, অ্যাপ্লিকেশন ও ডেটার একটি ক্লোন, যা ডিজাস্টার রিকভারির জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 142,
+				"question": "Which of the following is a mobile OS by Amazon?",
+				"options": [
+					"iOS",
+					"Android",
+					"Fire OS",
+					"Windows Mobile"
+				],
+				"answer": "Fire OS",
+				"explanation": "ফায়ার ওএস অ্যামাজন দ্বারা তৈরি, যা অ্যান্ড্রয়েডের উপর ভিত্তি করে তৈরি এবং ফায়ার ট্যাবলেটে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 143,
+				"question": "What is the main disadvantage of a GUI?",
+				"options": [
+					"Hard to use",
+					"Uses more system resources",
+					"Less secure",
+					"Slower than CLI for experts"
+				],
+				"answer": "Uses more system resources",
+				"explanation": "GUI গ্রাফিক্স, আইকন, উইন্ডো ইত্যাদির জন্য বেশি মেমরি ও CPU ব্যবহার করে।"
+			},
+			{
+				"id": 144,
+				"question": "Which OS is used in most smartwatches?",
+				"options": [
+					"Windows",
+					"Linux-based (like Wear OS, Tizen)",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux-based (like Wear OS, Tizen)",
+				"explanation": "গুগল ওয়্যার ওএস (অ্যান্ড্রয়েড-ভিত্তিক) ও স্যামসাং টিজেন — উভয়ই লিনাক্স-ভিত্তিক।"
+			},
+			{
+				"id": 145,
+				"question": "What is the purpose of a system call number?",
+				"options": [
+					"To identify user",
+					"To uniquely identify a system call",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To uniquely identify a system call",
+				"explanation": "প্রতিটি সিস্টেম কলের একটি ইউনিক নম্বর থাকে যা কার্নেলকে কোন সার্ভিস রিকোয়েস্ট করা হচ্ছে তা বুঝতে সাহায্য করে।"
+			},
+			{
+				"id": 146,
+				"question": "Which file system is used by default in iOS?",
+				"options": [
+					"FAT32",
+					"HFS+",
+					"APFS",
+					"ext4"
+				],
+				"answer": "APFS",
+				"explanation": "আইওএস 10.3 থেকে APFS (Apple File System) ডিফল্ট ফাইল সিস্টেম।"
+			},
+			{
+				"id": 147,
+				"question": "What is the main function of a system tray?",
+				"options": [
+					"To store files",
+					"To show background application icons and system status",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To show background application icons and system status",
+				"explanation": "সিস্টেম ট্রে (Windows) বা মেনু বার (macOS) ব্যাকগ্রাউন্ড অ্যাপ্লিকেশন ও সিস্টেম স্ট্যাটাস (যেমন ভলিউম, নেটওয়ার্ক) দেখায়।"
+			},
+			{
+				"id": 148,
+				"question": "Which of the following is a command to delete files in Linux?",
+				"options": [
+					"del",
+					"rm",
+					"erase",
+					"remove"
+				],
+				"answer": "rm",
+				"explanation": "লিনাক্সে 'rm' কমান্ড ফাইল ডিলিট করে।"
+			},
+			{
+				"id": 149,
+				"question": "What is the role of a system service?",
+				"options": [
+					"To run in background and provide functionality",
+					"To delete files",
+					"To manage user accounts",
+					"To format disk"
+				],
+				"answer": "To run in background and provide functionality",
+				"explanation": "সিস্টেম সার্ভিস (ডিমন) ব্যাকগ্রাউন্ডে চলে এবং সিস্টেম ফাংশনালিটি (যেমন নেটওয়ার্কিং, প্রিন্টিং) প্রদান করে।"
+			},
+			{
+				"id": 150,
+				"question": "Which OS is used in most digital cameras?",
+				"options": [
+					"Windows",
+					"Custom embedded OS (often Linux-based)",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Custom embedded OS (often Linux-based)",
+				"explanation": "বেশিরভাগ ডিজিটাল ক্যামেরা কাস্টম এম্বেডেড অপারেটিং সিস্টেম ব্যবহার করে যা প্রায়শই লিনাক্স-ভিত্তিক।"
+			},
+			{
+				"id": 151,
+				"question": "What is the purpose of a system partition?",
+				"options": [
+					"To store user files",
+					"To contain OS boot files",
+					"To delete viruses",
+					"To format disk"
+				],
+				"answer": "To contain OS boot files",
+				"explanation": "সিস্টেম পার্টিশনে বুটলোডার ও অপারেটিং সিস্টেমের বুট ফাইল থাকে।"
+			},
+			{
+				"id": 152,
+				"question": "Which of the following is a mobile OS by Microsoft that is discontinued?",
+				"options": [
+					"Windows 10",
+					"Windows Phone",
+					"Windows Server",
+					"Windows IoT"
+				],
+				"answer": "Windows Phone",
+				"explanation": "উইন্ডোজ ফোন মাইক্রোসফটের মোবাইল অপারেটিং সিস্টেম যা 2017 সালে বন্ধ করা হয়েছে।"
+			},
+			{
+				"id": 153,
+				"question": "What is the main advantage of a CLI?",
+				"options": [
+					"Easier for beginners",
+					"Faster and more efficient for experts",
+					"Uses less memory",
+					"More secure"
+				],
+				"answer": "Faster and more efficient for experts",
+				"explanation": "CLI (Command-Line Interface) এক্সপার্ট ইউজারদের জন্য দ্রুত ও শক্তিশালী, বিশেষ করে স্ক্রিপ্টিং ও অটোমেশনে।"
+			},
+			{
+				"id": 154,
+				"question": "Which OS uses the Bcachefs file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "Bcachefs লিনাক্সের জন্য একটি নতুন ফাইল সিস্টেম যা বি-ট্রি ও ক্যাশিং সমর্থন করে।"
+			},
+			{
+				"id": 155,
+				"question": "What is the purpose of a system configuration file?",
+				"options": [
+					"To store user documents",
+					"To store settings for OS and applications",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To store settings for OS and applications",
+				"explanation": "সিস্টেম কনফিগারেশন ফাইল (যেমন /etc ডিরেক্টরি) অপারেটিং সিস্টেম ও অ্যাপ্লিকেশনের সেটিংস স্টোর করে।"
+			},
+			{
+				"id": 156,
+				"question": "Which of the following is a real-time OS for IoT devices?",
+				"options": [
+					"Windows",
+					"Linux",
+					"RIOT",
+					"macOS"
+				],
+				"answer": "RIOT",
+				"explanation": "RIOT একটি ওপেন-সোর্স রিয়েল-টাইম অপারেটিং সিস্টেম যা IoT ডিভাইসের জন্য ডিজাইন করা হয়েছে।"
+			},
+			{
+				"id": 157,
+				"question": "What is the main function of a system log file?",
+				"options": [
+					"To store user photos",
+					"To record system events for auditing and troubleshooting",
+					"To delete viruses",
+					"To format disk"
+				],
+				"answer": "To record system events for auditing and troubleshooting",
+				"explanation": "সিস্টেম লগ ফাইল (যেমন /var/log/syslog) সিস্টেম ইভেন্ট, এরর, লগইন ইত্যাদি রেকর্ড করে।"
+			},
+			{
+				"id": 158,
+				"question": "Which OS is used in most car infotainment systems?",
+				"options": [
+					"Windows",
+					"Linux-based (like QNX, Automotive Grade Linux)",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux-based (like QNX, Automotive Grade Linux)",
+				"explanation": "QNX (রিয়েল-টাইম) ও Automotive Grade Linux (AGL) গাড়ির ইনফোটেইনমেন্ট সিস্টেমে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 159,
+				"question": "What is the purpose of a system call handler?",
+				"options": [
+					"To delete files",
+					"To execute the requested OS service",
+					"To manage memory",
+					"To control network"
+				],
+				"answer": "To execute the requested OS service",
+				"explanation": "সিস্টেম কল হ্যান্ডলার কার্নেলের সেই ফাংশন যা সিস্টেম কলের অনুরোধ পূরণ করে।"
+			},
+			{
+				"id": 160,
+				"question": "Which file system is used by default in macOS Monterey?",
+				"options": [
+					"HFS+",
+					"APFS",
+					"NTFS",
+					"ext4"
+				],
+				"answer": "APFS",
+				"explanation": "macOS High Sierra (10.13) থেকে APFS ডিফল্ট ফাইল সিস্টেম।"
+			},
+			{
+				"id": 161,
+				"question": "What is the main disadvantage of a CLI?",
+				"options": [
+					"Uses more memory",
+					"Harder for beginners to learn",
+					"Slower than GUI",
+					"Less secure"
+				],
+				"answer": "Harder for beginners to learn",
+				"explanation": "CLI মেমরি কম ব্যবহার করে কিন্তু নতুন ইউজারদের জন্য শেখা কঠিন কারণ কমান্ড মুখস্থ করতে হয়।"
+			},
+			{
+				"id": 162,
+				"question": "Which OS uses the F2FS file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Android (some devices)",
+					"iOS"
+				],
+				"answer": "Android (some devices)",
+				"explanation": "F2FS (Flash-Friendly File System) স্যামসাং দ্বারা তৈরি এবং কিছু অ্যান্ড্রয়েড ডিভাইসে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 163,
+				"question": "What is the purpose of a system environment variable?",
+				"options": [
+					"To store user passwords",
+					"To store system-wide settings accessible to processes",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To store system-wide settings accessible to processes",
+				"explanation": "এনভায়রনমেন্ট ভেরিয়েবল (যেমন PATH) সিস্টেম-ওয়াইড সেটিংস স্টোর করে যা প্রসেসগুলি ব্যবহার করতে পারে।"
+			},
+			{
+				"id": 164,
+				"question": "Which of the following is a mobile OS by Nokia?",
+				"options": [
+					"iOS",
+					"Android",
+					"Symbian",
+					"Windows Mobile"
+				],
+				"answer": "Symbian",
+				"explanation": "সিম্বিয়ান নোকিয়া দ্বারা তৈরি মোবাইল অপারেটিং সিস্টেম, যা স্মার্টফোনের প্রাথমিক যুগে জনপ্রিয় ছিল।"
+			},
+			{
+				"id": 165,
+				"question": "What is the main function of a system utility program?",
+				"options": [
+					"To create documents",
+					"To perform maintenance tasks like disk cleanup",
+					"To browse internet",
+					"To play games"
+				],
+				"answer": "To perform maintenance tasks like disk cleanup",
+				"explanation": "সিস্টেম ইউটিলিটি প্রোগ্রাম (যেমন Disk Cleanup, Defrag) সিস্টেম মেইনটেনেন্স ও অপ্টিমাইজেশনে সাহায্য করে।"
+			},
+			{
+				"id": 166,
+				"question": "Which OS is used in most drones?",
+				"options": [
+					"Windows",
+					"Linux-based (like PX4, ArduPilot)",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux-based (like PX4, ArduPilot)",
+				"explanation": "PX4 ও ArduPilot লিনাক্স-ভিত্তিক অথবা রিয়েল-টাইম অপারেটিং সিস্টেম যা ড্রোনে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 167,
+				"question": "What is the purpose of a system call interface in Unix?",
+				"options": [
+					"To connect to internet",
+					"To provide standard API for programs to access kernel",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To provide standard API for programs to access kernel",
+				"explanation": "ইউনিক্স সিস্টেম কল ইন্টারফেস প্রোগ্রামগুলিকে কার্নেল সার্ভিসে অ্যাক্সেস দেয় স্ট্যান্ডার্ড উপায়ে।"
+			},
+			{
+				"id": 168,
+				"question": "Which file system is used by default in Windows 11?",
+				"options": [
+					"FAT32",
+					"exFAT",
+					"NTFS",
+					"ReFS"
+				],
+				"answer": "NTFS",
+				"explanation": "উইন্ডোজ 11 ডিফল্টভাবে NTFS ব্যবহার করে, যদিও ReFS সার্ভারে ব্যবহার করা হয়।"
+			},
+			{
+				"id": 169,
+				"question": "What is the main advantage of a hybrid kernel?",
+				"options": [
+					"Combines speed of monolithic and modularity of microkernel",
+					"Uses less memory",
+					"Easier to crash",
+					"Slower than both"
+				],
+				"answer": "Combines speed of monolithic and modularity of microkernel",
+				"explanation": "হাইব্রিড কার্নেল (যেমন Windows NT, XNU) মনোলিথিক কার্নেলের পারফরম্যান্স ও মাইক্রোকার্নেলের মডুলারিটি একত্রিত করে।"
+			},
+			{
+				"id": 170,
+				"question": "Which of the following is a command to create a directory in Linux?",
+				"options": [
+					"mkdir",
+					"create",
+					"newdir",
+					"md"
+				],
+				"answer": "mkdir",
+				"explanation": "লিনাক্সে 'mkdir' কমান্ড নতুন ডিরেক্টরি তৈরি করে।"
+			},
+			{
+				"id": 171,
+				"question": "What is the role of a system boot sequence?",
+				"options": [
+					"To delete files",
+					"To define the order of devices to boot from",
+					"To manage memory",
+					"To control network"
+				],
+				"answer": "To define the order of devices to boot from",
+				"explanation": "বুট সিকোয়েন্স BIOS/UEFI-এ সেট করা হয় যা নির্ধারণ করে কোন ডিভাইস (HDD, USB, CD) থেকে OS লোড হবে।"
+			},
+			{
+				"id": 172,
+				"question": "Which OS is used in most set-top boxes?",
+				"options": [
+					"Windows",
+					"Linux-based",
+					"macOS",
+					"iOS"
+				],
+				"answer": "Linux-based",
+				"explanation": "বেশিরভাগ সেট-টপ বক্স (যেমন Android TV, IPTV) লিনাক্স-ভিত্তিক অপারেটিং সিস্টেম ব্যবহার করে।"
+			},
+			{
+				"id": 173,
+				"question": "What is the purpose of a system call in file management?",
+				"options": [
+					"To delete user accounts",
+					"To perform operations like open, read, write, close",
+					"To manage network",
+					"To format disk"
+				],
+				"answer": "To perform operations like open, read, write, close",
+				"explanation": "ফাইল ম্যানেজমেন্টে সিস্টেম কল (যেমন open(), read()) ফাইল অপারেশন করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 174,
+				"question": "Which of the following is a mobile OS by BlackBerry?",
+				"options": [
+					"iOS",
+					"Android",
+					"BlackBerry OS",
+					"Windows Mobile"
+				],
+				"answer": "BlackBerry OS",
+				"explanation": "ব্ল্যাকবেরি ওএস ব্ল্যাকবেরি কোম্পানি দ্বারা তৈরি মোবাইল অপারেটিং সিস্টেম, যা এখন অ্যান্ড্রয়েডে রূপান্তরিত হয়েছে।"
+			},
+			{
+				"id": 175,
+				"question": "What is the main function of a system recovery option?",
+				"options": [
+					"To install new software",
+					"To restore system after failure",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To restore system after failure",
+				"explanation": "সিস্টেম রিকভারি অপশন (যেমন Windows Recovery Environment) সিস্টেম ক্র্যাশ বা ম্যালওয়্যার আক্রমণের পর সিস্টেম পুনরুদ্ধার করে।"
+			},
+			{
+				"id": 176,
+				"question": "Which OS uses the NILFS file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "NILFS (New Implementation of a Log-structured File System) লিনাক্সে ব্যবহৃত হয় যা ক্রমাগত স্ন্যাপশট তৈরি করে।"
+			},
+			{
+				"id": 177,
+				"question": "What is the purpose of a system call in process management?",
+				"options": [
+					"To delete files",
+					"To create, terminate, and control processes",
+					"To manage memory",
+					"To control network"
+				],
+				"answer": "To create, terminate, and control processes",
+				"explanation": "প্রসেস ম্যানেজমেন্টে সিস্টেম কল (যেমন fork(), exec(), wait()) প্রসেস তৈরি, চালানো ও শেষ করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 178,
+				"question": "Which of the following is a real-time OS by Green Hills Software?",
+				"options": [
+					"VxWorks",
+					"INTEGRITY",
+					"QNX",
+					"FreeRTOS"
+				],
+				"answer": "INTEGRITY",
+				"explanation": "INTEGRITY Green Hills Software দ্বারা তৈরি রিয়েল-টাইম অপারেটিং সিস্টেম, যা এভিয়েশন ও ডিফেন্সে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 179,
+				"question": "What is the main function of a system audit log?",
+				"options": [
+					"To store user photos",
+					"To record security-related events for compliance",
+					"To delete viruses",
+					"To format disk"
+				],
+				"answer": "To record security-related events for compliance",
+				"explanation": "সিস্টেম অডিট লগ সিকিউরিটি ইভেন্ট (যেমন লগইন অ্যাটেম্প্ট, ফাইল অ্যাক্সেস) রেকর্ড করে যা কমপ্লায়েন্স ও ফরেনসিক্সের জন্য গুরুত্বপূর্ণ।"
+			},
+			{
+				"id": 180,
+				"question": "Which OS is used in most industrial control systems?",
+				"options": [
+					"Windows",
+					"Linux",
+					"VxWorks or other RTOS",
+					"macOS"
+				],
+				"answer": "VxWorks or other RTOS",
+				"explanation": "শিল্প নিয়ন্ত্রণ ব্যবস্থায় রিয়েল-টাইম অপারেটিং সিস্টেম (যেমন VxWorks, QNX) ব্যবহৃত হয় কারণ সময়মতো প্রতিক্রিয়া জরুরি।"
+			},
+			{
+				"id": 181,
+				"question": "What is the purpose of a system call in memory management?",
+				"options": [
+					"To delete files",
+					"To allocate and deallocate memory for processes",
+					"To manage network",
+					"To format disk"
+				],
+				"answer": "To allocate and deallocate memory for processes",
+				"explanation": "মেমরি ম্যানেজমেন্টে সিস্টেম কল (যেমন brk(), mmap()) প্রসেসের জন্য মেমরি অ্যালোকেট ও ডিঅ্যালোকেট করে।"
+			},
+			{
+				"id": 182,
+				"question": "Which file system is used by default in Chrome OS?",
+				"options": [
+					"FAT32",
+					"ext4",
+					"NTFS",
+					"APFS"
+				],
+				"answer": "ext4",
+				"explanation": "ক্রোম ওএস লিনাক্স-ভিত্তিক এবং ext4 ফাইল সিস্টেম ব্যবহার করে।"
+			},
+			{
+				"id": 183,
+				"question": "What is the main advantage of virtual memory?",
+				"options": [
+					"Faster than RAM",
+					"Allows running programs larger than physical RAM",
+					"Uses less disk space",
+					"Easier to crash"
+				],
+				"answer": "Allows running programs larger than physical RAM",
+				"explanation": "ভার্চুয়াল মেমরি প্রোগ্রামকে শারীরিক র‍্যামের চেয়ে বড় হতে দেয় কারণ এটি ডিস্ক স্পেস ব্যবহার করে।"
+			},
+			{
+				"id": 184,
+				"question": "Which of the following is a command to change directory in Linux?",
+				"options": [
+					"cd",
+					"chdir",
+					"move",
+					"go"
+				],
+				"answer": "cd",
+				"explanation": "লিনাক্সে 'cd' কমান্ড ডিরেক্টরি পরিবর্তন করে।"
+			},
+			{
+				"id": 185,
+				"question": "What is the role of a system firmware?",
+				"options": [
+					"To store user files",
+					"To provide low-level control for hardware",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To provide low-level control for hardware",
+				"explanation": "সিস্টেম ফার্মওয়্যার (যেমন BIOS, UEFI) হার্ডওয়্যারের লো-লেভেল কন্ট্রোল প্রদান করে এবং বুটিং প্রক্রিয়া শুরু করে।"
+			},
+			{
+				"id": 186,
+				"question": "Which OS is used in most medical devices?",
+				"options": [
+					"Windows",
+					"Linux",
+					"VxWorks or other RTOS",
+					"macOS"
+				],
+				"answer": "VxWorks or other RTOS",
+				"explanation": "মেডিকেল ডিভাইসে রিয়েল-টাইম অপারেটিং সিস্টেম (যেমন VxWorks) ব্যবহৃত হয় কারণ নির্ভরযোগ্যতা ও সময়মতো প্রতিক্রিয়া জরুরি।"
+			},
+			{
+				"id": 187,
+				"question": "What is the purpose of a system call in device management?",
+				"options": [
+					"To delete files",
+					"To send and receive data from devices",
+					"To manage memory",
+					"To control network"
+				],
+				"answer": "To send and receive data from devices",
+				"explanation": "ডিভাইস ম্যানেজমেন্টে সিস্টেম কল (যেমন read(), write(), ioctl()) ডিভাইসের সাথে ডেটা আদান-প্রদান করে।"
+			},
+			{
+				"id": 188,
+				"question": "Which of the following is a mobile OS by Palm?",
+				"options": [
+					"iOS",
+					"Android",
+					"webOS",
+					"Windows Mobile"
+				],
+				"answer": "webOS",
+				"explanation": "ওয়েবওএস পাম দ্বারা তৈরি মোবাইল অপারেটিং সিস্টেম, যা এখন LG স্মার্ট টিভিতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 189,
+				"question": "What is the main function of a system patch?",
+				"options": [
+					"To install new features",
+					"To fix bugs and security vulnerabilities",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To fix bugs and security vulnerabilities",
+				"explanation": "সিস্টেম প্যাচ সফটওয়্যারের বাগ ও সিকিউরিটি ভালনারেবিলিটি ঠিক করে।"
+			},
+			{
+				"id": 190,
+				"question": "Which OS uses the OrangeFS file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "OrangeFS (পূর্বে PVFS) লিনাক্সে ব্যবহৃত হয় হাই-পারফরম্যান্স কম্পিউটিং ক্লাস্টারের জন্য।"
+			},
+			{
+				"id": 191,
+				"question": "What is the purpose of a system call interface in Windows?",
+				"options": [
+					"To connect to internet",
+					"To provide Win32 API for applications",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To provide Win32 API for applications",
+				"explanation": "উইন্ডোজে সিস্টেম কল ইন্টারফেস Win32 API-এর মাধ্যমে অ্যাপ্লিকেশনকে কার্নেল সার্ভিসে অ্যাক্সেস দেয়।"
+			},
+			{
+				"id": 192,
+				"question": "Which file system is used by default in Ubuntu 22.04?",
+				"options": [
+					"FAT32",
+					"ext4",
+					"NTFS",
+					"Btrfs"
+				],
+				"answer": "ext4",
+				"explanation": "উবুন্টু 22.04 LTS ডিফল্টভাবে ext4 ফাইল সিস্টেম ব্যবহার করে, যদিও Btrfs অপশনাল।"
+			},
+			{
+				"id": 193,
+				"question": "What is the main disadvantage of virtual memory?",
+				"options": [
+					"Uses more RAM",
+					"Slower than physical RAM due to disk access",
+					"Harder to implement",
+					"Less secure"
+				],
+				"answer": "Slower than physical RAM due to disk access",
+				"explanation": "ভার্চুয়াল মেমরি ডিস্ক অ্যাক্সেসের কারণে র‍্যামের চেয়ে অনেক ধীরগতির।"
+			},
+			{
+				"id": 194,
+				"question": "Which of the following is a command to show current directory in Linux?",
+				"options": [
+					"pwd",
+					"dir",
+					"ls",
+					"cd"
+				],
+				"answer": "pwd",
+				"explanation": "লিনাক্সে 'pwd' (Print Working Directory) কমান্ড বর্তমান ডিরেক্টরি দেখায়।"
+			},
+			{
+				"id": 195,
+				"question": "What is the role of a system kernel mode?",
+				"options": [
+					"To run user applications",
+					"To run privileged OS code with full hardware access",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To run privileged OS code with full hardware access",
+				"explanation": "কার্নেল মোডে অপারেটিং সিস্টেম কোড চলে যার হার্ডওয়্যারে পূর্ণ অ্যাক্সেস থাকে, যা ইউজার মোডে নেই।"
+			},
+			{
+				"id": 196,
+				"question": "Which OS is used in most aerospace systems?",
+				"options": [
+					"Windows",
+					"Linux",
+					"VxWorks",
+					"macOS"
+				],
+				"answer": "VxWorks",
+				"explanation": "VxWorks নাসা, স্পেসএক্স ইত্যাদির মহাকাশযানে ব্যবহৃত হয় কারণ এটি রিয়েল-টাইম ও নির্ভরযোগ্য।"
+			},
+			{
+				"id": 197,
+				"question": "What is the purpose of a system call number in Linux?",
+				"options": [
+					"To identify user",
+					"To index into system call table",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To index into system call table",
+				"explanation": "লিনাক্সে প্রতিটি সিস্টেম কলের একটি নম্বর থাকে যা সিস্টেম কল টেবিলে ইনডেক্স হিসেবে কাজ করে।"
+			},
+			{
+				"id": 198,
+				"question": "Which of the following is a mobile OS by Ubuntu?",
+				"options": [
+					"iOS",
+					"Android",
+					"Ubuntu Touch",
+					"Windows Mobile"
+				],
+				"answer": "Ubuntu Touch",
+				"explanation": "উবুন্টু টাচ ক্যানোনিকাল দ্বারা তৈরি মোবাইল অপারেটিং সিস্টেম, যদিও এখন সীমিত ব্যবহার।"
+			},
+			{
+				"id": 199,
+				"question": "What is the main function of a system update manager?",
+				"options": [
+					"To install games",
+					"To download and apply OS updates",
+					"To delete files",
+					"To format disk"
+				],
+				"answer": "To download and apply OS updates",
+				"explanation": "সিস্টেম আপডেট ম্যানেজার (যেমন Windows Update, Ubuntu Software Updater) অপারেটিং সিস্টেমের আপডেট ডাউনলোড ও ইনস্টল করে।"
+			},
+			{
+				"id": 200,
+				"question": "Which OS uses the Ceph file system?",
+				"options": [
+					"Windows",
+					"macOS",
+					"Linux",
+					"iOS"
+				],
+				"answer": "Linux",
+				"explanation": "Ceph একটি ডিস্ট্রিবিউটেড ফাইল সিস্টেম যা লিনাক্সে ব্যবহৃত হয় ক্লাউড স্টোরেজের জন্য।"
 			}
 		],
 		"PyTorch": [
@@ -12116,7 +14518,7 @@
 					"torch.module.SGD"
 				],
 				"answer": "torch.optim.SGD",
-				"explanation": "torch.optim.SGD হ��ো ��্ট����াস্টিক গ্রেডিয়েন্ট ডিজেন্ট অপ্টিমাইজার।"
+				"explanation": "torch.optim.SGD হলো স্টোকাস্টিক গ্রেডিয়েন্ট ডিজেন্ট অপ্টিমাইজার।"
 			},
 			{
 				"id": 9,
@@ -12272,7 +14674,7 @@
 					"Calculate accuracy"
 				],
 				"answer": "Turn off dropout/batchnorm",
-				"explanation": "`model.eval()` মডেলকে ইভ্যালুয়েশন মোডে নিয়ে ��ায় যেখানে ড্রপআউট ও ব্যাচনর্ম বন্ধ থাকে।"
+				"explanation": "`model.eval()` মডেলকে ইভ্যালুয়েশন মোডে নিয়ে যায় যেখানে ড��রপআউট ও ব্যাচনর্ম বন্ধ থাকে।"
 			},
 			{
 				"id": 22,
@@ -12632,7 +15034,7 @@
 					"tensor.shape()"
 				],
 				"answer": "tensor.numel()",
-				"explanation": "`tensor.numel()` একটি টেনসরে মোট কতটি এলিমেন্ট আছে তা জানা��়।"
+				"explanation": "`tensor.numel()` একটি টেনসরে মোট কতটি এলিমেন্ট আছে তা জানায়।"
 			},
 			{
 				"id": 52,
@@ -13208,7 +15610,7 @@
 					"tensor.detach_cpu()"
 				],
 				"answer": "tensor.cpu()",
-				"explanation": "`tensor.cpu()` GPU টেনসর��ে CPU তে নিয়ে আসে।"
+				"explanation": "`tensor.cpu()` GPU টেনসরকে CPU তে নিয়ে আসে���"
 			},
 			{
 				"id": 100,
@@ -13354,7 +15756,7 @@
 					"TensorFlow Serving"
 				],
 				"answer": "TensorFlow Lite",
-				"explanation": "TensorFlow Lite মোবাইল ও এমবেডেড ডিভাইসের জন্য লাইটওয়েট মডেল রান ��রার জন্য ডিজাইন।"
+				"explanation": "TensorFlow Lite মোবাইল ও এমবেডেড ডিভাইসের জন্য লাইটওয়েট মডেল রান করার জন্য ডিজাইন।"
 			},
 			{
 				"id": 12,
@@ -13510,7 +15912,7 @@
 					"Removes dimensions from tensor"
 				],
 				"answer": "Returns the shape of tensor",
-				"explanation": "tf.shape() ফাংশন টেনসরের বর্তমান ��কৃতি (shape) রিটার্ন করে।"
+				"explanation": "tf.shape() ফাংশন টেনসরের বর্তমান আকৃতি (shape) রিটার্ন করে।"
 			},
 			{
 				"id": 25,
@@ -13666,7 +16068,7 @@
 					"Normalizing input"
 				],
 				"answer": "Adding borders to maintain dimension",
-				"explanation": "Padding মানে ইনপুটের চারপাশে অতিরিক্ত পিক্সেল যোগ করা যাতে আউটপুটের ডাইমেনশন ঠিক থাকে।"
+				"explanation": "Padding মানে ইনপুটের ��ারপাশে অতিরিক্ত পিক্সেল যোগ করা যাতে আউটপুটের ডাইমেনশন ঠিক থাকে।"
 			},
 			{
 				"id": 38,
@@ -14158,7 +16560,7 @@
 					"Normalizes sequence data"
 				],
 				"answer": "Pads sequences to same length",
-				"explanation": "pad_sequences() ভি��্ন দৈর্ঘ্যের সিকোয়েন্সকে সমান দৈর্ঘ্যে রূপান্তর করে।"
+				"explanation": "pad_sequences() ভিন্ন দৈর্ঘ্যের সিকোয়েন্সকে সমান দৈর্ঘ্যে রূপান্তর করে।"
 			},
 			{
 				"id": 79,
@@ -14494,7 +16896,7 @@
 					"Saves the model"
 				],
 				"answer": "Configures model for training",
-				"explanation": "model.compile() মডেলকে ট্রেইন করার জন্য প্রস্তুত করে, যে��ন: লস ফাংশন, অপ্টিমাইজার নির্ধারণ।"
+				"explanation": "model.compile() মডেলকে ট্রেইন করার জন্য প্রস্তুত করে, যেমন: লস ফাংশন, অপ্টিমাইজ��র নির্ধারণ।"
 			},
 			{
 				"id": 117,
@@ -14676,7 +17078,7 @@
 					"Translate languages"
 				],
 				"answer": "Improve image quality or extract useful information",
-				"explanation": "ইমেজ প্রসেসিংয়ের প্রধান উদ্দেশ্য হলো ইমেজের গুণগত মান ��ন্নয়ন করা অথবা ইমেজ থেকে গুরুত্বপূর্ণ তথ্য বের করে আনা।"
+				"explanation": "ইমেজ প্রসেসিংয়ের প্রধান উদ্দেশ্য হলো ইমেজের গুণগত মান উন্নয়ন করা ��থবা ইমেজ থেকে গুরুত্বপূর্ণ তথ্য বের করে আনা।"
 			},
 			{
 				"id": 2,
@@ -14964,7 +17366,7 @@
 					"Sharpness enhancement"
 				],
 				"answer": "Converting to black and white based on threshold",
-				"explanation": "Binary thresholding একটি নির্দিষ্ট থ্রেশহোল্ডের উপরে সাদা, নিচে কালো পিক্সেলে রূপান্তর করে।"
+				"explanation": "Binary thresholding একটি নির্��িষ্ট থ্রেশহোল্ডের উপরে সাদা, নিচে কালো পিক্সেলে রূপান্তর করে।"
 			},
 			{
 				"id": 26,
@@ -15300,7 +17702,7 @@
 					"Image rotation"
 				],
 				"answer": "Edge detection by second derivative",
-				"explanation": "Laplacian filter মূলত ইমেজের এজ ডিটেকশনের জন্য দ্বিতীয় ডেরিভেটিভ ব্যবহার করে।"
+				"explanation": "Laplacian filter মূলত ��মেজের এজ ডিটেকশনের জন্য দ্বিতীয় ডেরিভেটিভ ব্যবহার করে।"
 			},
 			{
 				"id": 54,
@@ -15840,7 +18242,7 @@
 					"Layer"
 				],
 				"answer": "Pixel",
-				"explanation": "Pixel হলো ডিজিটাল ইমেজের সবচেয়ে ��োট উপাদান।"
+				"explanation": "Pixel হলো ডিজিটাল ইমেজের সবচেয়ে ছোট উপাদান।"
 			},
 			{
 				"id": 99,
@@ -16416,7 +18818,7 @@
 					"Detect edges"
 				],
 				"answer": "Enhance contrast",
-				"explanation": "Histogram equalization ইমেজের কনট্রাস্ট উন্নত করে।"
+				"explanation": "Histogram equalization ইমেজের কনট্রাস্�� উন্নত করে।"
 			},
 			{
 				"id": 147,
@@ -16620,7 +19022,7 @@
 					"Sobel filter"
 				],
 				"answer": "Dilation",
-				"explanation": "Dilation হলো একটি মৌর��োলজিক্যাল অপারেশন যা অবজেক্ট বড় করে।"
+				"explanation": "Dilation হলো একটি মৌরফোলজিক্যাল অপারেশন যা অবজেক্ট বড় করে।"
 			},
 			{
 				"id": 164,
@@ -17004,7 +19406,7 @@
 					"Keras"
 				],
 				"answer": "OpenCV",
-				"explanation": "OpenCV একটি ইমেজ প্রসেসিং লাইব্রেরি, ডিপ লার্নিং ফ্রেমওয়ার্ক নয়।"
+				"explanation": "OpenCV একটি ইমেজ প্রসেসিং লাইব্রেরি, ডিপ লার্নিং ফ্র���মওয়ার্ক নয়।"
 			},
 			{
 				"id": 196,
@@ -17174,7 +19576,7 @@
 					"Decision Tree"
 				],
 				"answer": "Adam",
-				"explanation": "Adam হলো জনপ্রিয় অপটিমাইজার যা দ্রুত ও কার্যকরী ট্রেনিং দেয়।"
+				"explanation": "Adam হলো জনপ্রিয় অপটিমাইজার যা দ্রুত ও কার্যকরী ট্রেনিং দ��য়।"
 			},
 			{
 				"id": 10,
@@ -17330,7 +19732,7 @@
 					"Activation output"
 				],
 				"answer": "Step size during weight updates",
-				"explanation": "লার্নিং রেট ওজন আপডেটের ধাপের আকার নির্ধারণ করে।"
+				"explanation": "লার্নিং রেট ওজন আপডেটের ধাপে�� আকার নির্ধারণ করে।"
 			},
 			{
 				"id": 23,
@@ -17510,7 +19912,7 @@
 					"None of the above"
 				],
 				"answer": "Long Short-Term Memory",
-				"explanation": "LSTM হলো একটি RNN ধরনের যা দ���র্ঘমেয়াদী তথ্য রাখে।"
+				"explanation": "LSTM হলো একটি RNN ধরনের যা দ���র্ঘমেয়া��ী তথ্য রাখে।"
 			},
 			{
 				"id": 38,
@@ -17894,7 +20296,7 @@
 					"None of the above"
 				],
 				"answer": "Supervised uses labeled data; unsupervised uses unlabeled data",
-				"explanation": "সুপারভাইজড লার্নিং লেবেলড ডেটা ব্যবহার করে, আনসুপারভাইজড ব্যবহার করে না।"
+				"explanation": "সুপারভাইজড লার্নিং লেবেলড ডেটা ব্যবহার করে, আনসুপারভাইজড ব্যবহার করে না���"
 			},
 			{
 				"id": 70,
@@ -18278,7 +20680,7 @@
 					"Applying dropout"
 				],
 				"answer": "Training a pre-trained model further on new data",
-				"explanation": "ফাইন-টিউনিং হলো পূর্বে প্রশিক্ষ��ত মডেল নতুন ডেটায় পুনঃপ্রশিক্ষণ।"
+				"explanation": "ফাইন-টিউনিং হলো পূর্বে প্রশিক্ষিত মডেল নতুন ডেটায় পুনঃপ্রশিক্ষণ।"
 			},
 			{
 				"id": 102,
@@ -18446,7 +20848,7 @@
 					"Adagrad"
 				],
 				"answer": "Adam",
-				"explanation": "Adam অপটিমাইজার মোমেন্টাম ও অ্যাডাপ্টিভ লার্নিং রেট ব্যবহার করে।"
+				"explanation": "Adam অপটিমাইজার মোমেন্টাম ও অ্যাডাপ্��িভ লার্নিং রেট ব্যবহার করে।"
 			},
 			{
 				"id": 116,
