@@ -5,94 +5,353 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🇧🇩 BD Location Explorer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        :root {
+            --primary: #0d6efd;
+            --primary-dark: #0b5ed7;
+            --secondary: #6c757d;
+            --success: #198754;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+        
         body {
             background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
         }
+        
+        .navbar {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+        }
+        
         .navbar-brand {
-            font-weight: bold;
+            font-weight: 700;
+            font-size: 1.5rem;
         }
+        
+        .nav-link {
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .nav-link:hover {
+            transform: translateY(-2px);
+        }
+        
         .tab-content {
             padding: 20px 0;
         }
+        
         .bn-description {
             font-style: italic;
-            color: #6c757d;
+            color: var(--secondary);
         }
+        
         .footer {
-            background-color: #343a40;
+            background-color: var(--dark);
             color: white;
             padding: 20px 0;
             margin-top: 50px;
         }
+        
         .api-intro {
             text-align: center;
             margin-bottom: 30px;
         }
+        
         .endpoint {
-            background: #f8f9fa;
-            padding: 20px;
+            background: white;
+            padding: 25px;
             margin-bottom: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #0d6efd;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+            border-left: 4px solid var(--primary);
         }
+        
+        .endpoint:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
         .example {
             background: #e9ecef;
             padding: 15px;
-            border-radius: 4px;
+            border-radius: 8px;
             margin-top: 10px;
             font-family: 'Courier New', monospace;
             white-space: pre-wrap;
             overflow-x: auto;
+            border-left: 3px solid var(--secondary);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .form-select {
+            border-radius: 8px;
+            padding: 12px 15px;
+            border: 1px solid #ced4da;
+            transition: var(--transition);
+        }
+        
+        .form-select:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+        }
+        
+        .nav-tabs .nav-link {
+            border-radius: 8px 8px 0 0;
+            font-weight: 500;
+            color: var(--secondary);
+            transition: var(--transition);
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: var(--primary);
+            font-weight: 600;
+            border-bottom: 3px solid var(--primary);
+        }
+        
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 40px 0;
+            border-radius: 0 0 20px 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stats-row {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            border-right: 1px solid #e9ecef;
+        }
+        
+        .stat-item:last-child {
+            border-right: none;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .preview-card {
+            border-left: 4px solid var(--success);
+        }
+        
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .badge-bd {
+            background: linear-gradient(135deg, #006a4e, #f42a41);
+            color: white;
+        }
+        
+        .copy-btn {
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        .copy-btn:hover {
+            color: var(--primary);
+            transform: scale(1.1);
+        }
+        
+        .api-link {
+            background: #f8f9fa;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 30px 0;
+            }
+            
+            .stat-item {
+                border-right: none;
+                border-bottom: 1px solid #e9ecef;
+                padding: 10px;
+            }
+            
+            .stat-item:last-child {
+                border-bottom: none;
+            }
+            
+            .stat-number {
+                font-size: 1.5rem;
+            }
         }
     </style>
 </head>
 <body>
     <!-- Header Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">🇧🇩 BD Location Explorer</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-map-marked-alt me-2"></i>BD Location Explorer
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://sujanpro.netlify.app" target="_blank">Home</a>
+                        <a class="nav-link text-light" href="https://sujanpro.netlify.app" target="_blank">
+                            <i class="fas fa-home me-1"></i> Home
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://sujanpro.netlify.app" target="_blank">About</a>
+                        <a class="nav-link text-light" href="https://sujanpro.netlify.app" target="_blank">
+                            <i class="fas fa-info-circle me-1"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#api" id="api-nav-link">
+                            <i class="fas fa-code me-1"></i> API
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1 class="display-5 fw-bold mb-3">বাংলাদেশের প্রশাসনিক বিভাগ অন্বেষণ</h1>
+                    <p class="lead mb-4">বাংলাদেশের বিভাগ, জেলা, উপজেলা এবং ইউনিয়ন পর্যায়ে অবস্থান অনুসন্ধান করুন</p>
+                    <a href="https://github.com/prodhan2/App_Backend_Data/tree/main/RUCSEHUB/LocationApiOFBD" target="_blank" class="btn btn-light me-2">
+                        <i class="fab fa-github me-1"></i> GitHub Repository
+                    </a>
+                    <a href="https://sujanpro.netlify.app" target="_blank" class="btn btn-outline-light">
+                        <i class="fas fa-external-link-alt me-1"></i> Visit Portfolio
+                    </a>
+                </div>
+                <div class="col-md-4 text-center">
+                    <i class="fas fa-map-marked-alt display-1 opacity-75"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container mt-4">
-        <h1 class="text-center mb-4">বাংলাদেশের প্রশাসনিক বিভাগ অন্বেষণ (Bangladesh Administrative Explorer)</h1>
-        <p class="text-center text-muted mb-4 bn-description">বাংলাদেশের বিভাগ, জেলা, উপজেলা এবং ইউনিয়ন পর্যায়ে অবস্থান অনুসন্ধান করুন। ডেটা সোর্স: <a href="https://github.com/prodhan2/App_Backend_Data/tree/main/RUCSEHUB/LocationApiOFBD" target="_blank">GitHub Repo</a>।</p>
+        <!-- Stats Section -->
+        <div class="stats-row">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <span class="stat-number" id="divisions-count">8</span>
+                        <span class="stat-label">বিভাগ</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <span class="stat-number" id="districts-count">64</span>
+                        <span class="stat-label">জেলা</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <span class="stat-number" id="upazilas-count">496</span>
+                        <span class="stat-label">উপজেলা</span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <span class="stat-number" id="unions-count">4637</span>
+                        <span class="stat-label">ইউনিয়ন</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="explorer-tab" data-bs-toggle="tab" data-bs-target="#explorer" type="button" role="tab">Location Explorer</button>
+                <button class="nav-link active" id="explorer-tab" data-bs-toggle="tab" data-bs-target="#explorer" type="button" role="tab">
+                    <i class="fas fa-search me-2"></i>Location Explorer
+                </button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="api-tab" data-bs-toggle="tab" data-bs-target="#api" type="button" role="tab">API Documentation</button>
+                <button class="nav-link" id="api-tab" data-bs-toggle="tab" data-bs-target="#api" type="button" role="tab">
+                    <i class="fas fa-code me-2"></i>API Documentation
+                </button>
             </li>
         </ul>
         
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="explorer" role="tabpanel">
+                <div class="loading-spinner" id="explorer-loading">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-2">লোকেশন ডেটা লোড হচ্ছে...</p>
+                </div>
+                
                 <form id="locationForm" class="mt-4">
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label for="division" class="form-label">বিভাগ (Division):</label>
+                            <label for="division" class="form-label fw-bold">বিভাগ (Division):</label>
                             <select id="division" class="form-select" required>
                                 <option value="">-- বিভাগ নির্বাচন করুন --</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <label for="district" class="form-label">জেলা (District):</label>
+                            <label for="district" class="form-label fw-bold">জেলা (District):</label>
                             <select id="district" class="form-select" disabled>
                                 <option value="">-- জেলা নির্বাচন করুন --</option>
                             </select>
@@ -100,13 +359,13 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <label for="upazila" class="form-label">উপজেলা (Upazila):</label>
+                            <label for="upazila" class="form-label fw-bold">উপজেলা (Upazila):</label>
                             <select id="upazila" class="form-select" disabled>
                                 <option value="">-- উপজেলা নির্বাচন করুন --</option>
                             </select>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <label for="union" class="form-label">ইউনিয়ন (Union):</label>
+                            <label for="union" class="form-label fw-bold">ইউনিয়ন (Union):</label>
                             <select id="union" class="form-select" disabled>
                                 <option value="">-- ইউনিয়ন নির্বাচন করুন --</option>
                             </select>
@@ -114,9 +373,11 @@
                     </div>
                 </form>
                 
-                <div id="preview" class="card mt-4" style="display: none;">
+                <div id="preview" class="card mt-4 preview-card" style="display: none;">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="card-title mb-0"><i class="fas fa-check-circle me-2"></i>নির্বাচিত অবস্থানের বিবরণ</h5>
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title text-success">নির্বাচিত অবস্থানের বিবরণ (Selected Location Preview)</h5>
                         <div id="previewContent"></div>
                     </div>
                 </div>
@@ -125,17 +386,26 @@
             <div class="tab-pane fade" id="api" role="tabpanel">
                 <div class="api-intro">
                     <h2>BD Location API</h2>
-                    <p class="bn-description">বাংলাদেশের প্রশাসনিক অবস্থান ডেটা সহজ RESTful API ব্যবহার করুন। GitHub-এ হোস্টেড JSON ফাইল থেকে অ্যাক্সেস করুন। কোনো অথেনটিকেশন প্রয়োজন নেই। বেস URL: <code>https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/</code></p>
+                    <p class="bn-description">বাংলাদেশের প্রশাসনিক অবস্থান ডেটা সহজ RESTful API ব্যবহার করুন। Vercel-এ হোস্ট করা JSON ফাইল থেকে অ্যাক্সেস করুন। কোনো অথেনটিকেশন প্রয়োজন নেই।</p>
+                    
+                    <div class="api-link">
+                        <span id="base-url">https://bdlocation.vercel.app/</span>
+                        <i class="fas fa-copy copy-btn" onclick="copyToClipboard('base-url')"></i>
+                    </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-md-6">
                         <div class="endpoint">
-                            <h4>GET /divisions.json</h4>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="mb-0"><i class="fas fa-code me-2 text-primary"></i>GET /divisions.json</h4>
+                                <i class="fas fa-copy copy-btn" onclick="copyToClipboard('divisions-url')"></i>
+                            </div>
                             <p>সকল বিভাগের তালিকা (Retrieve all divisions)।</p>
+                            <div class="api-link">
+                                <span id="divisions-url">https://bdlocation.vercel.app/divisions.json</span>
+                            </div>
                             <div class="example">
-সম্পূর্ণ URL: https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/divisions.json
-
 প্রতিক্রিয়া (Response):
 [
   {
@@ -148,11 +418,15 @@
                         </div>
                         
                         <div class="endpoint">
-                            <h4>GET /upazilas.json</h4>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="mb-0"><i class="fas fa-code me-2 text-primary"></i>GET /upazilas.json</h4>
+                                <i class="fas fa-copy copy-btn" onclick="copyToClipboard('upazilas-url')"></i>
+                            </div>
                             <p>সকল উপজেলার তালিকা (Retrieve all upazilas) - district_id দিয়ে ফিল্টার করুন।</p>
+                            <div class="api-link">
+                                <span id="upazilas-url">https://bdlocation.vercel.app/upazilas.json</span>
+                            </div>
                             <div class="example">
-সম্পূর্ণ URL: https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/upazilas.json
-
 প্রতিক্রিয়া (Response):
 [
   {
@@ -168,11 +442,15 @@
                     </div>
                     <div class="col-md-6">
                         <div class="endpoint">
-                            <h4>GET /districts.json</h4>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="mb-0"><i class="fas fa-code me-2 text-primary"></i>GET /districts.json</h4>
+                                <i class="fas fa-copy copy-btn" onclick="copyToClipboard('districts-url')"></i>
+                            </div>
                             <p>সকল জেলার তালিকা (Retrieve all districts) - division_id দিয়ে ফিল্টার করুন।</p>
+                            <div class="api-link">
+                                <span id="districts-url">https://bdlocation.vercel.app/districts.json</span>
+                            </div>
                             <div class="example">
-সম্পূর্ণ URL: https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/districts.json
-
 প্রতিক্রিয়া (Response):
 [
   {
@@ -189,11 +467,15 @@
                         </div>
                         
                         <div class="endpoint">
-                            <h4>GET /unions.json</h4>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="mb-0"><i class="fas fa-code me-2 text-primary"></i>GET /unions.json</h4>
+                                <i class="fas fa-copy copy-btn" onclick="copyToClipboard('unions-url')"></i>
+                            </div>
                             <p>সকল ইউনিয়নের তালিকা (Retrieve all unions) - upazila_id দিয়ে ফিল্টার করুন।</p>
+                            <div class="api-link">
+                                <span id="unions-url">https://bdlocation.vercel.app/unions.json</span>
+                            </div>
                             <div class="example">
-সম্পূর্ণ URL: https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/unions.json
-
 প্রতিক্রিয়া (Response):
 [
   {
@@ -218,14 +500,14 @@
                     </ol>
                     <div class="example">
 // বিভাগ লোড করুন (Load divisions)
-fetch('https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/divisions.json')
+fetch('https://bdlocation.vercel.app/divisions.json')
   .then(res => res.json())
   .then(data => console.log(data)); // ড্রপডাউনে ব্যবহার করুন
 
 // অন্যান্যগুলোর জন্যও একইভাবে, তারপর ফিল্টার:
 // const districts = allDistricts.filter(d => d.division_id === selectedDivisionId);
                     </div>
-                    <p class="bn-description"><strong>রেট লিমিট:</strong> GitHub অনথেনটিকেটেড ~60 রিকোয়েস্ট/ঘণ্টা। প্রোডাকশনে নিজের সার্ভার বা CDN ব্যবহার করুন।</p>
+                    <p class="bn-description"><strong>রেট লিমিট:</strong> Vercel-এ হোস্ট করা বলে ভাল পারফরম্যান্স পাওয়া যাবে। প্রোডাকশনে নিজের সার্ভার বা CDN ব্যবহার করুন।</p>
                     <p class="bn-description"><strong>সাপোর্ট:</strong> ডেটা স্ট্রাকচার এক্সপ্লোরারের সাথে মিলে যায়। প্রশ্ন? <a href="https://github.com/prodhan2/App_Backend_Data/tree/main/RUCSEHUB/LocationApiOFBD" target="_blank">রিপো</a> চেক করুন।</p>
                 </div>
             </div>
@@ -241,12 +523,12 @@ fetch('https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
-        // URLs for the JSON data
+        // URLs for the JSON data - Updated to use Vercel
         const DATA_URLS = {
-            divisions: 'https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/divisions.json',
-            districts: 'https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/districts.json',
-            upazilas: 'https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/upazilas.json',
-            unions: 'https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB/LocationApiOFBD/unions.json'
+            divisions: 'https://bdlocation.vercel.app/divisions.json',
+            districts: 'https://bdlocation.vercel.app/districts.json',
+            upazilas: 'https://bdlocation.vercel.app/upazilas.json',
+            unions: 'https://bdlocation.vercel.app/unions.json'
         };
 
         // Global data storage
@@ -255,9 +537,28 @@ fetch('https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB
         let upazilasData = [];
         let unionsData = [];
 
+        // Copy to clipboard function
+        function copyToClipboard(elementId) {
+            const text = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                // Show feedback
+                const originalIcon = event.target.classList.contains('fa-copy') ? event.target : event.target.querySelector('.fa-copy');
+                if (originalIcon) {
+                    originalIcon.classList.remove('fa-copy');
+                    originalIcon.classList.add('fa-check', 'text-success');
+                    setTimeout(() => {
+                        originalIcon.classList.remove('fa-check', 'text-success');
+                        originalIcon.classList.add('fa-copy');
+                    }, 2000);
+                }
+            });
+        }
+
         // Fetch all data on load
         async function loadData() {
             try {
+                document.getElementById('explorer-loading').style.display = 'block';
+                
                 const [divisionsRes, districtsRes, upazilasRes, unionsRes] = await Promise.all([
                     fetch(DATA_URLS.divisions),
                     fetch(DATA_URLS.districts),
@@ -274,10 +575,18 @@ fetch('https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB
                 upazilasData = await upazilasRes.json();
                 unionsData = await unionsRes.json();
 
+                // Update stats with actual counts
+                document.getElementById('divisions-count').textContent = divisionsData.length;
+                document.getElementById('districts-count').textContent = districtsData.length;
+                document.getElementById('upazilas-count').textContent = upazilasData.length;
+                document.getElementById('unions-count').textContent = unionsData.length;
+
                 populateDivisions();
+                document.getElementById('explorer-loading').style.display = 'none';
             } catch (error) {
                 document.getElementById('division').innerHTML = '<option value="">Error loading data</option>';
                 console.error('Error loading data:', error);
+                document.getElementById('explorer-loading').innerHTML = '<div class="alert alert-danger">ডেটা লোড করতে সমস্যা হচ্ছে। পরে আবার চেষ্টা করুন।</div>';
             }
         }
 
@@ -375,17 +684,20 @@ fetch('https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB
                 const union = unionsData.find(u => u.id === unionSelect.value);
 
                 let previewHtml = `
-                    <p class="mb-2"><strong>বিভাগ:</strong> ${division.name} <span class="bn-description">(${division.bn_name})</span></p>
-                    <p class="mb-2"><strong>জেলা:</strong> ${district.name} <span class="bn-description">(${district.bn_name})</span><br>
-                    স্থানাংক: ${district.lat}, ${district.lon}<br>
-                    ${district.url ? `<a href="http://${district.url}" target="_blank" class="text-primary">অফিসিয়াল ওয়েবসাইট</a>` : ''}
-                    </p>
-                    <p class="mb-2"><strong>উপজেলা:</strong> ${upazila.name} <span class="bn-description">(${upazila.bn_name})</span><br>
-                    ${upazila.url ? `<a href="http://${upazila.url}" target="_blank" class="text-primary">অফিসিয়াল ওয়েবসাইট</a>` : ''}
-                    </p>
-                    <p><strong>ইউনিয়ন:</strong> ${union.name} <span class="bn-description">(${union.bn_name})</span><br>
-                    ${union.url ? `<a href="http://${union.url}" target="_blank" class="text-primary">অফিসিয়াল ওয়েবসাইট</a>` : ''}
-                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="mb-2"><strong>বিভাগ:</strong> ${division.name} <span class="bn-description">(${division.bn_name})</span></p>
+                            <p class="mb-2"><strong>জেলা:</strong> ${district.name} <span class="bn-description">(${district.bn_name})</span></p>
+                            <p class="mb-2"><strong>উপজেলা:</strong> ${upazila.name} <span class="bn-description">(${upazila.bn_name})</span></p>
+                            <p><strong>ইউনিয়ন:</strong> ${union.name} <span class="bn-description">(${union.bn_name})</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-2"><strong>স্থানাংক:</strong> ${district.lat}, ${district.lon}</p>
+                            ${district.url ? `<p class="mb-2"><a href="http://${district.url}" target="_blank" class="btn btn-sm btn-outline-primary">জেলা ওয়েবসাইট</a></p>` : ''}
+                            ${upazila.url ? `<p class="mb-2"><a href="http://${upazila.url}" target="_blank" class="btn btn-sm btn-outline-primary">উপজেলা ওয়েবসাইট</a></p>` : ''}
+                            ${union.url ? `<p class="mb-2"><a href="http://${union.url}" target="_blank" class="btn btn-sm btn-outline-primary">ইউনিয়ন ওয়েবসাইট</a></p>` : ''}
+                        </div>
+                    </div>
                 `;
 
                 document.getElementById('previewContent').innerHTML = previewHtml;
@@ -435,6 +747,12 @@ fetch('https://raw.githubusercontent.com/prodhan2/App_Backend_Data/main/RUCSEHUB
             } else {
                 hidePreview();
             }
+        });
+
+        // API tab navigation
+        document.getElementById('api-nav-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('api-tab').click();
         });
 
         // Load data on page load
