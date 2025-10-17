@@ -1,0 +1,134 @@
+[
+  {
+    "serial": "১",
+    "name": "গ্রামীণফোন (GP)",
+    "balance": "*566#",
+    "sim": "*2#",
+    "package": "*111*7*2#",
+    "minute": "*566*24# / *566*20#",
+    "sms": "*56622#",
+    "mms": "*566*14#",
+    "data": "*566*10# / *567#",
+    "callMeBack": "*123*",
+    "netSetting": "*111*6*2#",
+    "missCallAlertOn": "START MCA to 6222",
+    "missCallAlertOff": "STOP MCA to 6222",
+    "helpline": "16216"
+  },
+  {
+    "serial": "২",
+    "name": "বাংলালিংক",
+    "balance": "*124#",
+    "sim": "*511#",
+    "package": "*125#",
+    "minute": "*124*2#",
+    "sms": "*124*3#",
+    "ims": "*124*2#",
+    "data": "*124*5# / *222*3#",
+    "netSetting": "ALL to 3343",
+    "missCallAlertOn": "START to 622",
+    "missCallAlertOff": "STOP to 622",
+    "helpline": "16247"
+  },
+  {
+    "serial": "৩",
+    "name": "রবি",
+    "balance": "*222#",
+    "sim": "*140*2*4#",
+    "package": "*140*14#",
+    "minute": "*222*3#",
+    "sms": "*222*11#",
+    "mms": "*222*13#",
+    "data": "*222*81# / *8444*88#",
+    "netSetting": "*14027#",
+    "helpline": "16259"
+  },
+  {
+    "serial": "৪",
+    "name": "এয়ারটেল",
+    "balance": "*778#",
+    "sim": "*121*6*3#",
+    "package": "*121*8#",
+    "minute": "*778*5# / *778*8#",
+    "sms": "*778*2#",
+    "mms": "*222*13#",
+    "data": "*778*39# / *778*4#",
+    "callMeBack": "*121*5#",
+    "netSetting": "*140*7#",
+    "helpline": "16206"
+  },
+  {
+    "serial": "৫",
+    "name": "টেলিটক",
+    "balance": "*152#",
+    "sim": "TAR to 222",
+    "minute": "*152#",
+    "sms": "*152#",
+    "mms": "*152#",
+    "data": "*152#",
+    "netSetting": "SET to 738",
+    "missCallAlertOn": "REG to 2455",
+    "missCallAlertOff": "CAN to 2455",
+    "helpline": "16167"
+  },
+  {
+    "serial": "৬",
+    "name": "রকেট",
+    "balance": "*322#",
+    "helpline": "16216"
+  },
+  {
+    "serial": "৭",
+    "name": "বিকাশ",
+    "balance": "*247#",
+    "helpline": "16247"
+  },
+  {
+    "serial": "৮",
+    "name": "এমক্যাশ",
+    "balance": "*259#",
+    "helpline": "16259"
+  },
+  {
+    "serial": "৯",
+    "name": "নগদ",
+    "balance": "*167#",
+    "helpline": "16167"
+  },
+  {
+    "serial": "১০",
+    "name": "ট্যাপ",
+    "balance": "*733#",
+    "helpline": "16733"
+  },
+  {
+    "serial": "১১",
+    "name": "মাইক্যাশ / মারকেন্টাইল ব্যাংক",
+    "balance": "*225#",
+    "helpline": "16225"
+  },
+  {
+    "serial": "১২",
+    "name": "শিউরক্যাশ",
+    "balance": "*495#",
+    "helpline": "16495"
+  },
+  {
+    "serial": "১৩",
+    "name": "উপায়",
+    "balance": "*268#",
+    "helpline": "16268"
+  },
+  {
+    "serial": "১৪",
+    "name": "অকে ওয়ালেট",
+    "balance": "*269#",
+    "helpline": "16269"
+  },
+  {
+    "serial": "১৫",
+    "name": "টেলিক্যাশ",
+    "balance": "*206#",
+    "helpline": "16206"
+  }
+]
