@@ -69,3 +69,23 @@
 * **Union** → `id`, `upazila_id`, `name`, `bn_name`, `url`
 
 ---
+
+ফাইলগুলো হবে:
+
+https://github.com/prodhan2/App_Backend_Data/tree/main/RUCSEHUB/LocationApiOFBD/
+│
+├─ divisions.json
+├─ districts.json
+├─ upazilas.json
+└─ unions.json
+
+
+এবং structure হবে যেভাবে তুমি আগে দেখিয়েছো:
+
+divisions.json → id, name, bn_name
+
+districts.json → id, division_id, name, bn_name, lat, lon, url
+
+upazilas.json → id, district_id, name, bn_name, url
+
+unions.json → id, upazila_id, name, bn_name, url
