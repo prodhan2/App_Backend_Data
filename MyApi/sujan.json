@@ -1,0 +1,99 @@
+{
+  "name": "Sujan Prodhan",
+  "title": "Web Developer | UI/UX Designer | CSE Student at Rajshahi University",
+  "imageUrl": "https://i.postimg.cc/66LsDFn1/photo-2025-05-08-22-42-35-removebg-preview.png",
+  "about": "A 22-year-old passionate web developer, UI/UX designer, and Computer Science student based in Rajshahi, Bangladesh (originally from Dinajpur). I specialize in freelance web development, graphic design, and innovative programming projects. Currently pursuing my Bachelor's at Rajshahi University, I thrive on creating user-centered digital solutions that make a difference.",
+  "education": [
+    {
+      "degree": "Bachelor's in Computer Science & Engineering",
+      "institution": "Rajshahi University",
+      "period": "2020–Present",
+      "details": "CGPA: 3.6"
+    },
+    {
+      "degree": "Higher Secondary Certificate (HSC), Science",
+      "institution": "Dinajpur Govt. City College",
+      "period": "2018–2019",
+      "details": "GPA: 5.00"
+    },
+    {
+      "degree": "Secondary School Certificate (SSC), Science",
+      "institution": "Setabgonj Pilot Model High School",
+      "period": "2016–2018",
+      "details": "GPA: 5.00"
+    }
+  ],
+  "skills": [
+    {"name": "HTML", "prof": 100},
+    {"name": "CSS", "prof": 90},
+    {"name": "JavaScript", "prof": 75},
+    {"name": "PHP", "prof": 80},
+    {"name": "Laravel", "prof": 80},
+    {"name": "React JS", "prof": 90},
+    {"name": "Native React JS", "prof": 90},
+    {"name": "Django", "prof": 80},
+    {"name": "Python", "prof": 85},
+    {"name": "Video/Graphics Editing", "prof": 95},
+    {"name": "Photoshop", "prof": 85}
+  ],
+  "experiences": [
+    {
+      "title": "Senior Video and Graphic Design Specialist",
+      "period": "Rajshahi, Bangladesh (2019–Present)",
+      "desc": "Leads a 7-member design team, oversees production budgets ($2,000–$25,000), and handles graphic layout for marketing materials. 3+ years in user-centered digital/print design."
+    },
+    {
+      "title": "Projects Developer (Back-end/Front-end)",
+      "period": "Rajshahi, Bangladesh (2017–2018)",
+      "desc": "Developed educational websites like Biko Education and Chorcha webApp; consulted on graphic design and created monthly proposals."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Web/JavaScript Projects",
+      "projects": [
+        {"name": "Eid Salami Card Generator", "desc": "Customizable web tool for personalized Eid cards."},
+        {"name": "Operating System Solver", "desc": "Tool for solving OS problems like scheduling algorithms."},
+        {"name": "Medical Suggestion Tool", "desc": "Platform connecting users to healthcare resources."},
+        {"name": "Students Study Point (SSPoint)", "desc": "Study resources and guidance for students."}
+      ]
+    },
+    {
+      "title": "Django Projects",
+      "projects": [
+        {"name": "Nemo Enim", "desc": "Web app for content management and user interactions."}
+      ]
+    },
+    {
+      "title": "Flutter Mobile Apps",
+      "projects": [
+        {"name": "Beautiful Dinajpur", "desc": "City services app for hospitals, complaints, and updates."},
+        {"name": "BD Travel App", "desc": "Bangladesh travel booking and exploration tool."},
+        {"name": "Banglay Islam", "desc": "Islamic app with prayer times, Quran verses, and trackers."},
+        {"name": "RUCSEHUB", "desc": "Rajshahi University CSE student hub for news and events."}
+      ]
+    },
+    {
+      "title": "Laravel Projects",
+      "projects": [
+        {"name": "Medical Treatment Apps", "desc": "And e-commerce prototypes."}
+      ]
+    },
+    {
+      "title": "Other",
+      "projects": [
+        {"name": "Miscellaneous", "desc": "Solutions to \"Big Java\" textbook problems; educational web apps like Admission Light."}
+      ]
+    }
+  ],
+  "contact": {
+    "email": "sujan.ru.cse@gmail.com",
+    "phone": "+880 1902 383 808",
+    "location": "Rajshahi/Dinajpur, Bangladesh",
+    "birthday": "October 27",
+    "portfolio": "sujanpro.netlify.app",
+    "github": "github.com/prodhan2",
+    "linkedin": "linkedin.com/in/sujan-prodhan-17805b232",
+    "facebook": "facebook.com/prodhan24"
+  }
+}
