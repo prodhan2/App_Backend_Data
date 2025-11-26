@@ -19469,6 +19469,2420 @@
 				"explanation": "Residual connections গভীর নেটওয়ার্কে ফিচার পুনরায় ব্যবহার করে।"
 			}
 		],
+		"MicrocontrollerAndPeripheralInterfacing": [
+			{
+				"id": 1,
+				"question": "MCU এর পূর্ণরূপ কী?",
+				"options": [
+					"Memory Control Unit",
+					"Microcontroller Unit",
+					"Main Control Unit",
+					"Multi Core Unit"
+				],
+				"answer": "Microcontroller Unit",
+				"explanation": "MCU মানে Microcontroller Unit। এটি একটি ছোট চিপ যার মধ্যে CPU, RAM, ROM ও I/O পেরিফেরাল থাকে।"
+			},
+			{
+				"id": 2,
+				"question": "মাইক্রোকন্ট্রোলারে সাধারণত কোন জিনিসটা থাকে না?",
+				"options": [
+					"CPU",
+					"RAM",
+					"Hard Disk Drive",
+					"GPIO"
+				],
+				"answer": "Hard Disk Drive",
+				"explanation": "মাইক্রোকন্ট্রোলারে কখনো HDD থাকে না। এর পরিবর্তে Flash, SRAM, EEPROM থাকে।"
+			},
+			{
+				"id": 3,
+				"question": "Harvard Architecture এ প্রোগ্রাম ও ডেটার জন্য কী থাকে?",
+				"options": [
+					"একই মেমরি",
+					"আলাদা আলাদা মেমরি ও বাস",
+					"শুধু ডেটা মেমরি",
+					"কোনো মেমরি নেই"
+				],
+				"answer": "আলাদা আলাদা মেমরি ও বাস",
+				"explanation": "Harvard Architecture-এ প্রোগ্রাম মেমরি (Flash) ও ডেটা মেমরি (RAM) আলাদা থাকে। AVR, PIC এই আর্কিটেকচার ব্যবহার করে।"
+			},
+			{
+				"id": 4,
+				"question": "8051 মাইক্রোকন্ট্রোলার কোন আর্কিটেকচার অনুসরণ করে?",
+				"options": [
+					"Harvard",
+					"Von Neumann",
+					"RISC-V",
+					"CISC-V"
+				],
+				"answer": "Von Neumann",
+				"explanation": "8051-এ প্রোগ্রাম ও ডেটা একই মেমরি স্পেসে থাকে, তাই এটি Von Neumann Architecture।"
+			},
+			{
+				"id": 5,
+				"question": "মাইক্রোকন্ট্রোলারে প্রোগ্রাম সংরক্ষণের জন্য কোন মেমরি ব্যবহৃত হয়?",
+				"options": [
+					"SRAM",
+					"DRAM",
+					"Flash Memory",
+					"Cache"
+				],
+				"answer": "Flash Memory",
+				"explanation": "Flash Memory নন-ভোলাটাইল, তাই প্রোগ্রাম পাওয়ার অফ করলেও মুছে যায় না।"
+			},
+			{
+				"id": 6,
+				"question": "GPIO পিন কী কাজ করে?",
+				"options": [
+					"শুধু ইনপুট",
+					"শুধু আউটপুট",
+					"ইনপুট অথবা আউটপুট উভয়ই",
+					"কোনো কাজ করে না"
+				],
+				"answer": "ইনপুট অথবা আউটপুট উভয়ই",
+				"explanation": "General Purpose Input Output পিনগুলো সফটওয়্যার দিয়ে ইনপুট বা আউটপুট যেকোনো একটা বানানো যায়।"
+			},
+			{
+				"id": 7,
+				"question": "Pull-up resistor কখন ব্যবহার করা হয়?",
+				"options": [
+					"ইনপুট পিন floating থাকলে",
+					"আউটপুট পিনে",
+					"ADC তে",
+					"PWM এ"
+				],
+				"answer": "ইনপুট পিন floating থাকলে",
+				"explanation": "ইনপুট পিন যদি কোনো সুইচ বা সেন্সরের সাথে না যুক্ত থাকে তাহলে floating হয়ে ভুল রিডিং দেয়, তাই pull-up/pull-down resistor লাগে।"
+			},
+			{
+				"id": 8,
+				"question": "UART এর ফুল ফর্ম কী?",
+				"options": [
+					"Universal Asynchronous Receiver/Transmitter",
+					"Universal Analog Read Transmit",
+					"Unified Access RAM",
+					"None"
+				],
+				"answer": "Universal Asynchronous Receiver/Transmitter",
+				"explanation": "UART হলো সিরিয়াল কমিউনিকেশন প্রোটোকল যা TX ও RX লাইন ব্যবহার করে।"
+			},
+			{
+				"id": 9,
+				"question": "UART এ বাড রেট (Baud Rate) মানে কী?",
+				"options": [
+					"প্রতি সেকেন্ডে বিট সংখ্যা",
+					"প্রতি সেকেন্ডে বাইট সংখ্যা",
+					"ফ্রিকোয়েন্সি",
+					"ভোল্টেজ লেভেল"
+				],
+				"answer": "প্রতি সেকেন্ডে বিট সংখ্যা",
+				"explanation": "সাধারণত 9600, 115200 baud ব্যবহৃত হয়। দুই ডিভাইসের baud rate একই হতে হবে।"
+			},
+			{
+				"id": 10,
+				"question": "I2C প্রোটোকলে কয়টি লাইন থাকে?",
+				"options": [
+					"১টি",
+					"২টি",
+					"৩টি",
+					"৪টি"
+				],
+				"answer": "২টি",
+				"explanation": "I2C তে SDA (Data) ও SCL (Clock) – মাত্র দুটি লাইন। একাধিক ডিভাইস একই বাসে যুক্ত করা যায়।"
+			},
+			{
+				"id": 11,
+				"question": "SPI কতগুলো লাইন ব্যবহার করে?",
+				"options": [
+					"২টি",
+					"৩টি",
+					"৪টি",
+					"১টি"
+				],
+				"answer": "৪টি",
+				"explanation": "SPI তে MOSI, MISO, SCLK, SS/CS – চারটি লাইন। এটি ফুল ডুপ্লেক্স ও দ্রুত।"
+			},
+			{
+				"id": 12,
+				"question": "PWM এর পূর্ণরূপ কী?",
+				"options": [
+					"Pulse Width Modulation",
+					"Power Width Management",
+					"Pulse Wave Modulation",
+					"None"
+				],
+				"answer": "Pulse Width Modulation",
+				"explanation": "PWM দিয়ে ডিউটি সাইকেল পরিবর্তন করে মোটর স্পিড, LED brightness কন্ট্রোল করা হয়।"
+			},
+			{
+				"id": 13,
+				"question": "ADC মানে কী?",
+				"options": [
+					"Analog to Digital Converter",
+					"Automatic Data Converter",
+					"Address Data Control",
+					"None"
+				],
+				"answer": "Analog to Digital Converter",
+				"explanation": "ADC অ্যানালগ সিগন্যাল (যেমন সেন্সর থেকে) কে ডিজিটাল ভ্যালুতে রূপান্তর করে।"
+			},
+			{
+				"id": 14,
+				"question": "10-bit ADC এর রেজোলিউশন কতগুলো স্তর?",
+				"options": [
+					"512",
+					"1024",
+					"2048",
+					"4096"
+				],
+				"answer": "1024",
+				"explanation": "2^10 = 1024। তাই 0-5V রেঞ্জ হলে প্রতি স্টেপ 4.88mV।"
+			},
+			{
+				"id": 15,
+				"question": "Timer/Counter মাইক্রোকন্ট্রোলারে কী কাজে লাগে?",
+				"options": [
+					"শুধু সময় মাপা",
+					"PWM, ডিলে, ফ্রিকোয়েন্সি মাপা",
+					"মেমরি সেভ করা",
+					"ভোল্টেজ কমানো"
+				],
+				"answer": "PWM, ডিলে, ফ্রিকোয়েন্সি মাপা",
+				"explanation": "টাইমার দিয়ে ডিলে তৈরি, PWM জেনারেট, ইনপুট ক্যাপচার ইত্যাদি করা যায়।"
+			},
+			{
+				"id": 16,
+				"question": "Interrupt কী?",
+				"options": [
+					"সাধারণ ফাংশন কল",
+					"CPU কে তাৎক্ষণিক কাজ করতে বাধ্য করা",
+					"মেমরি এরর",
+					"পাওয়ার ফেইল"
+				],
+				"answer": "CPU কে তাৎক্ষণিক কাজ করতে বাধ্য করা",
+				"explanation": "ইন্টারাপ্ট এলে CPU বর্তমান কাজ থামিয়ে ISR (Interrupt Service Routine) এক্সিকিউট করে।"
+			},
+			{
+				"id": 17,
+				"question": "Watchdog Timer এর প্রধান কাজ কী?",
+				"options": [
+					"সময় দেখানো",
+					"প্রোগ্রাম হ্যাং হলে রিসেট করা",
+					"ডেটা সেভ করা",
+					"ভোল্টেজ মনিটর"
+				],
+				"answer": "প্রোগ্রাম হ্যাং হলে রিসেট করা",
+				"explanation": "নির্দিষ্ট সময়ের মধ্যে WDT ক্লিয়ার না করলে MCU অটো রিসেট হয়।"
+			},
+			{
+				"id": 18,
+				"question": "RTC মানে কী?",
+				"options": [
+					"Real Time Clock",
+					"Random Time Counter",
+					"Real Time Control",
+					"None"
+				],
+				"answer": "Real Time Clock",
+				"explanation": "RTC ব্যাটারি ব্যাকআপে চলে এবং সঠিক তারিখ-সময় রাখে।"
+			},
+			{
+				"id": 19,
+				"question": "CAN প্রোটোকল কোথায় বেশি ব্যবহৃত হয়?",
+				"options": [
+					"মোবাইল ফোনে",
+					"অটোমোবাইলে",
+					"ইন্ডাস্ট্রিয়াল অটোমেশনে",
+					"সবখানে"
+				],
+				"answer": "অটোমোবাইলে",
+				"explanation": "Controller Area Network (CAN) গাড়ির ECU গুলোর মধ্যে নির্ভরযোগ্য কমিউনিকেশনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 20,
+				"question": "DAC এর কাজ কী?",
+				"options": [
+					"Digital to Analog Converter",
+					"Analog to Digital Converter",
+					"Data Access Control",
+					"None"
+				],
+				"answer": "Digital to Analog Converter",
+				"explanation": "DAC ডিজিটাল ভ্যালু থেকে অ্যানালগ ভোল্টেজ/কারেন্ট তৈরি করে।"
+			},
+			{
+				"id": 21,
+				"question": "EEPROM এর বিশেষত্ব কী?",
+				"options": [
+					"ভোলাটাইল",
+					"নন-ভোলাটাইল কিন্তু বাইট-বাইট লেখা যায়",
+					"শুধু রিড করা যায়",
+					"খুব দ্রুত"
+				],
+				"answer": "নন-ভোলাটাইল কিন্তু বাইট-বাইট লেখা যায়",
+				"explanation": "EEPROM এ ডেটা পাওয়ার অফেও থাকে এবং ছোট ছোট ডেটা (যেমন ক্যালিব্রেশন) সেভ করতে ব্যবহৃত হয়।"
+			},
+			{
+				"id": 22,
+				"question": "Crystal Oscillator কী কাজ করে?",
+				"options": [
+					"ভোল্টেজ রেগুলেট করে",
+					"সঠিক ক্লক ফ্রিকোয়েন্সি দেয়",
+					"তাপমাত্রা মাপে",
+					"কারেন্ট লিমিট করে"
+				],
+				"answer": "সঠিক ক্লক ফ্রিকোয়েন্সি দেয়",
+				"explanation": "সাধারণত 11.0592 MHz বা 16 MHz ক্রিস্টাল ব্যবহার করা হয় MCU এর জন্য।"
+			},
+			{
+				"id": 23,
+				"question": "Baud rate mismatch হলে UART এ কী হয়?",
+				"options": [
+					"কোনো সমস্যা হয় না",
+					"গার্বেজ ডেটা আসে",
+					"ভোল্টেজ ড্রপ হয়",
+					"MCU রিসেট হয়"
+				],
+				"answer": "গার্বেজ ডেটা আসে",
+				"explanation": "ট্রান্সমিটার ও রিসিভারের baud rate একই না হলে ডেটা ভুলভাবে ইন্টারপ্রেট হয়।"
+			},
+			{
+				"id": 24,
+				"question": "I2C তে Master কে ক্লক দেয়?",
+				"options": [
+					"Slave",
+					"Master নিজেই",
+					"উভয়েই",
+					"কেউ না"
+				],
+				"answer": "Master নিজেই",
+				"explanation": "Master SCL লাইন কন্ট্রোল করে এবং ক্লক জেনারেট করে।"
+			},
+			{
+				"id": 25,
+				"question": "SPI তে কোন মোডে Clock polarity ও phase 0?",
+				"options": [
+					"Mode 0",
+					"Mode 1",
+					"Mode 2",
+					"Mode 3"
+				],
+				"answer": "Mode 0",
+				"explanation": "Mode 0: CPOL=0, CPHA=0 – সবচেয়ে বেশি ব্যবহৃত মোড।"
+			},
+			{
+				"id": 26,
+				"question": "LCD 16x2 এ কয়টি ডেটা লাইন থাকে HD44780 কন্ট্রোলারে?",
+				"options": [
+					"4 বা 8",
+					"শুধু 4",
+					"শুধু 8",
+					"কোনো ডেটা লাইন নেই"
+				],
+				"answer": "4 বা 8",
+				"explanation": "4-bit মোডে 4টি এবং 8-bit মোডে 8টি ডেটা লাইন ব্যবহার করা যায়।"
+			},
+			{
+				"id": 27,
+				"question": "7-Segment Display এ Common Anode না Common Cathode – কোনটা বেশি ব্যবহৃত হয়?",
+				"options": [
+					"Common Anode",
+					"Common Cathode",
+					"উভয় সমান",
+					"কোনোটাই না"
+				],
+				"answer": "Common Cathode",
+				"explanation": "Common Cathode এ লজিক 1 দিলে সেগমেন্ট জ্বলে। বেশিরভাগ ড্রাইভার IC তার সাথে মানানসই।"
+			},
+			{
+				"id": 28,
+				"question": "Stepper Motor এর একটি স্টেপ কত ডিগ্রি হয় (সাধারণত)?",
+				"options": [
+					"1.8°",
+					"3.6°",
+					"0.9°",
+					"7.5°"
+				],
+				"answer": "1.8°",
+				"explanation": "সাধারণ 4-ফেজ স্টেপার মোটরে 200 স্টেপে 360° ঘুরে, তাই প্রতি স্টেপ 1.8°।"
+			},
+			{
+				"id": 29,
+				"question": "DC Motor স্পিড কন্ট্রোলের সবচেয়ে ভালো উপায় কী?",
+				"options": [
+					"রেজিস্টর দিয়ে",
+					"PWM দিয়ে",
+					"ভোল্টেজ কমিয়ে",
+					"কারেন্ট বাড়িয়ে"
+				],
+				"answer": "PWM দিয়ে",
+				"explanation": "PWM দিয়ে average voltage কন্ট্রোল করা যায় এবং টর্ক কমে না।"
+			},
+			{
+				"id": 30,
+				"question": "L298N দিয়ে কয়টি DC মোটর চালানো যায়?",
+				"options": [
+					"1টি",
+					"2টি",
+					"4টি",
+					"8টি"
+				],
+				"answer": "2টি",
+				"explanation": "L298N একটি ডুয়াল H-Bridge ড্রাইভার, তাই 2টি DC মোটর বা 1টি স্টেপার মোটর চালাতে পারে।"
+			},
+			{
+				"id": 31,
+				"question": "ULN2003 কী ধরনের ড্রাইভার?",
+				"options": [
+					"High voltage high current Darlington",
+					"MOSFET ড্রাইভার",
+					"H-Bridge",
+					"Op-Amp"
+				],
+				"answer": "High voltage high current Darlington",
+				"explanation": "ULN2003 দিয়ে স্টেপার মোটর বা রিলে চালানো যায়। 7টি চ্যানেল থাকে।"
+			},
+			{
+				"id": 32,
+				"question": "Relay চালানোর জন্য MCU থেকে কত ভোল্টেজ লাগে?",
+				"options": [
+					"5V সরাসরি",
+					"ট্রানজিস্টর/ড্রাইভার দিয়ে",
+					"12V সরাসরি",
+					"3.3V সরাসরি"
+				],
+				"answer": "ট্রানজিস্টর/ড্রাইভার দিয়ে",
+				"explanation": "রিলে কয়েলে 50-100mA কারেন্ট লাগে, MCU পিন তা দিতে পারে না।"
+			},
+			{
+				"id": 33,
+				"question": "Optocoupler এর প্রধান কাজ কী?",
+				"options": [
+					"ভোল্টেজ বাড়ানো",
+					"সিগন্যাল আইসোলেশন",
+					"কারেন্ট বাড়ানো",
+					"ফ্রিকোয়েন্সি চেঞ্জ"
+				],
+				"answer": "সিগন্যাল আইসোলেশন",
+				"explanation": "যেমন PC817, 4N35 – হাই ভোল্টেজ ও লো ভোল্টেজ সাইড আলাদা রাখে।"
+			},
+			{
+				"id": 34,
+				"question": "RS-232 ভোল্টেজ লেভেল কত?",
+				"options": [
+					"0-5V",
+					"±3 থেকে ±15V",
+					"0-3.3V",
+					"-12 থেকে +12V"
+				],
+				"answer": "±3 থেকে ±15V",
+				"explanation": "তাই MAX232 IC দিয়ে TTL (0-5V) থেকে RS232 লেভেলে কনভার্ট করতে হয়।"
+			},
+			{
+				"id": 35,
+				"question": "USB থেকে Serial কনভার্ট করতে কোন IC বেশি ব্যবহৃত হয়?",
+				"options": [
+					"FT232",
+					"CH340",
+					"PL2303",
+					"সবগুলোই"
+				],
+				"answer": "সবগুলোই",
+				"explanation": "FT232, CH340, CP2102 – এগুলো সবই USB-to-UART ব্রিজ।"
+			},
+			{
+				"id": 36,
+				"question": "HC-05 / HC-06 কোন প্রোটোকলে কাজ করে?",
+				"options": [
+					"WiFi",
+					"Bluetooth",
+					"Zigbee",
+					"NFC"
+				],
+				"answer": "Bluetooth",
+				"explanation": "HC-05 Master/Slave উভয় মোড, HC-06 শুধু Slave।"
+			},
+			{
+				"id": 37,
+				"question": "ESP8266 কী দিয়ে বিখ্যাত?",
+				"options": [
+					"বিল্ট-ইন WiFi",
+					"Bluetooth",
+					"Zigbee",
+					"LoRa"
+				],
+				"answer": "বিল্ট-ইন WiFi",
+				"explanation": "ESP8266 দিয়ে MCU ছাড়াই WiFi প্রজেক্ট করা যায়।"
+			},
+			{
+				"id": 38,
+				"question": "NRF24L01 কোন ফ্রিকোয়েন্সিতে কাজ করে?",
+				"options": [
+					"2.4 GHz",
+					"433 MHz",
+					"868 MHz",
+					"915 MHz"
+				],
+				"answer": "2.4 GHz",
+				"explanation": "এটি লো-কস্ট ওয়্যারলেস ট্রান্সসিভার, 100 মিটার পর্যন্ত রেঞ্জ।"
+			},
+			{
+				"id": 39,
+				"question": "SD Card কোন ইন্টারফেসে কাজ করে?",
+				"options": [
+					"শুধু SPI",
+					"শুধু I2C",
+					"UART",
+					"Parallel"
+				],
+				"answer": "শুধু SPI",
+				"explanation": "SD Card SPI মোডে খুব সহজে মাইক্রোকন্ট্রোলারের সাথে যুক্ত করা যায়।"
+			},
+			{
+				"id": 40,
+				"question": "RTC DS1307 কোন প্রোটোকলে কাজ করে?",
+				"options": [
+					"SPI",
+					"I2C",
+					"UART",
+					"One-Wire"
+				],
+				"answer": "I2C",
+				"explanation": "DS1307 এর I2C অ্যাড্রেস 0x68।"
+			},
+			{
+				"id": 41,
+				"question": "DHT11 সেন্সর কী মাপে?",
+				"options": [
+					"শুধু তাপমাত্রা",
+					"শুধু হিউমিডিটি",
+					"তাপমাত্রা ও হিউমিডিটি",
+					"প্রেশার"
+				],
+				"answer": "তাপমাত্রা ও হিউমিডিটি",
+				"explanation": "DHT11 একটি সিঙ্গেল ওয়্যার ডিজিটাল সেন্সর।"
+			},
+			{
+				"id": 42,
+				"question": "LM35 এর আউটপুট কত mV per °C?",
+				"options": [
+					"10 mV",
+					"100 mV",
+					"1 mV",
+					"50 mV"
+				],
+				"answer": "10 mV",
+				"explanation": "0°C এ 0mV, 25°C এ 250mV আউটপুট দেয়।"
+			},
+			{
+				"id": 43,
+				"question": "PIR Sensor কী শনাক্ত করে?",
+				"options": [
+					"মোশন (ইনফ্রারেড পরিবর্তন)",
+					"আলো",
+					"শব্দ",
+					"গ্যাস"
+				],
+				"answer": "মোশন (ইনফ্রারেড পরিবর্তন)",
+				"explanation": "Passive Infrared Sensor মানুষ বা প্রাণীর মুভমেন্ট শনাক্ত করে।"
+			},
+			{
+				"id": 44,
+				"question": "MPU6050 এ কী কী আছে?",
+				"options": [
+					"Accelerometer + Gyroscope",
+					"Magnetometer",
+					"Pressure",
+					"Temperature"
+				],
+				"answer": "Accelerometer + Gyroscope",
+				"explanation": "6-axis motion tracking সেন্সর, I2C ইন্টারফেস।"
+			},
+			{
+				"id": 45,
+				"question": "Soil Moisture Sensor এর আউটপুট কী ধরনের?",
+				"options": [
+					"ডিজিটাল",
+					"অ্যানালগ",
+					"উভয়ই",
+					"কোনোটাই না"
+				],
+				"answer": "উভয়ই",
+				"explanation": "বেশিরভাগ সেন্সরে অ্যানালগ আউটপুট ও একটি ডিজিটাল থ্রেশহোল্ড আউটপুট থাকে।"
+			},
+			{
+				"id": 46,
+				"question": "Keypad 4x4 কতগুলো পিন ব্যবহার করে?",
+				"options": [
+					"8",
+					"12",
+					"16",
+					"4"
+				],
+				"answer": "8",
+				"explanation": "4 রো + 4 কলাম = 8 পিন। Row-Column স্ক্যানিং পদ্ধতি ব্যবহার করা হয়।"
+			},
+			{
+				"id": 47,
+				"question": "IR Sensor (Obstacle) এর আউটপুট কী হয় যখন বাধা পায়?",
+				"options": [
+					"HIGH",
+					"LOW",
+					"কোনো পরিবর্তন হয় না",
+					"PWM"
+				],
+				"answer": "LOW",
+				"explanation": "বাধা পেলে IR রিসিভারে আলো কম পৌঁছে, তাই আউটপুট LOW হয়।"
+			},
+			{
+				"id": 48,
+				"question": "Ultrasonic Sensor HC-SR04 এর ট্রিগার পালস কত মাইক্রোসেকেন্ড থাকে?",
+				"options": [
+					"10 µs",
+					"100 µs",
+					"1 ms",
+					"5 ms"
+				],
+				"answer": "10 µs",
+				"explanation": "Trigger পিনে 10µs HIGH পালস দিলে 8টি 40kHz পালস বের হয়।"
+			},
+			{
+				"id": 49,
+				"question": "Rain Drop Sensor মূলত কী শনাক্ত করে?",
+				"options": [
+					"পানির উপস্থিতি (প্রতিরোধের পরিবর্তন)",
+					"তাপমাত্রা",
+					"চাপ",
+					"আলো"
+				],
+				"answer": "পানির উপস্থিতি (প্রতিরোধের পরিবর্তন)",
+				"explanation": "পানি পড়লে ট্র্যাকের মধ্যে প্রতিরোধ কমে যায়।"
+			},
+			{
+				"id": 50,
+				"question": "MQ-2 সেন্সর কী গ্যাস শনাক্ত করে?",
+				"options": [
+					"LPG, Smoke, Alcohol",
+					"CO2",
+					"O2",
+					"NO2"
+				],
+				"answer": "LPG, Smoke, Alcohol",
+				"explanation": "MQ সিরিজের গ্যাস সেন্সর অ্যানালগ আউটপুট দেয়।"
+			},
+			{
+				"id": 51,
+				"question": "Bootloader কী কাজ করে?",
+				"options": [
+					"প্রোগ্রাম ফ্ল্যাশে লোড করে",
+					"OS চালায়",
+					"ড্রাইভার লোড করে",
+					"ভাইরাস চেক করে"
+				],
+				"answer": "প্রোগ্রাম ফ্ল্যাশে লোড করে",
+				"explanation": "Arduino তে Optiboot bootloader থাকে যা USB থেকে প্রোগ্রাম আপলোড করে।"
+			},
+			{
+				"id": 52,
+				"question": "ISP মানে কী?",
+				"options": [
+					"In-System Programming",
+					"Internet Service Provider",
+					"Internal Serial Protocol",
+					"None"
+				],
+				"answer": "In-System Programming",
+				"explanation": "ISP দিয়ে বোর্ডে MCU বসানো অবস্থায় প্রোগ্রাম করা যায়।"
+			},
+			{
+				"id": 53,
+				"question": "JTAG এর প্রধান কাজ কী?",
+				"options": [
+					"ডিবাগিং ও প্রোগ্রামিং",
+					"শুধু প্রোগ্রামিং",
+					"শুধু ডিবাগিং",
+					"কমিউনিকেশন"
+				],
+				"answer": "ডিবাগিং ও প্রোগ্রামিং",
+				"explanation": "JTAG দিয়ে রিয়েল টাইম ডিবাগিং ও ফ্ল্যাশ প্রোগ্রামিং করা যায়।"
+			},
+			{
+				"id": 54,
+				"question": "Brown-out Reset কী করে?",
+				"options": [
+					"ভোল্টেজ কমে গেলে MCU রিসেট করে",
+					"তাপমাত্রা বেশি হলে রিসেট",
+					"প্রোগ্রাম হ্যাং হলে রিসেট",
+					"মেমরি ফুল হলে রিসেট"
+				],
+				"answer": "ভোল্টেজ কমে গেলে MCU রিসেট করে",
+				"explanation": "BOR চালু থাকলে ভোল্টেজ নির্দিষ্ট লেভেলের নিচে গেলে MCU রিসেট হয়।"
+			},
+			{
+				"id": 55,
+				"question": "Sleep Mode এ MCU এর কোন অংশ বন্ধ থাকে?",
+				"options": [
+					"শুধু CPU",
+					"পুরো MCU",
+					"পেরিফেরাল",
+					"কিছুই বন্ধ থাকে না"
+				],
+				"answer": "শুধু CPU",
+				"explanation": "Sleep Mode এ পাওয়ার সেভ করার জন্য CPU বন্ধ থাকে কিন্তু পেরিফেরাল চলতে পারে।"
+			},
+			{
+				"id": 55,
+				"question": "Sleep Mode এ MCU এর কোন অংশ বন্ধ থাকে?",
+				"options": [
+					"শুধু CPU",
+					"পুরো MCU",
+					"সব পেরিফেরাল",
+					"কিছুই বন্ধ থাকে না"
+				],
+				"answer": "শুধু CPU",
+				"explanation": "Sleep Mode এ পাওয়ার সেভ করার জন্য CPU বন্ধ থাকে কিন্তু টাইমার, ADC, ইন্টারাপ্ট ইত্যাদি চালু রাখা যায়।"
+			},
+			{
+				"id": 56,
+				"question": "Power-down mode এ কী চালু থাকে?",
+				"options": [
+					"শুধু Watchdog ও ব্যাটারি RTC",
+					"CPU ও টাইমার",
+					"RAM",
+					"Flash"
+				],
+				"answer": "শুধু Watchdog ও ব্যাটারি RTC",
+				"explanation": "Power-down এ সবচেয়ে কম পাওয়ার খরচ হয়, শুধু WDT ও বাহিরের ইন্টারাপ্টে জাগতে পারে।"
+			},
+			{
+				"id": 57,
+				"question": "External Interrupt কত প্রকারের হয়?",
+				"options": [
+					"Edge & Level triggered",
+					"শুধু Edge",
+					"শুধু Level",
+					"Pulse triggered"
+				],
+				"answer": "Edge & Level triggered",
+				"explanation": "INT0/INT1 কে Rising/Falling Edge অথবা Low Level দিয়ে ট্রিগার করা যায়।"
+			},
+			{
+				"id": 58,
+				"question": "Interrupt Priority কীভাবে নির্ধারণ করা হয়?",
+				"options": [
+					"রেজিস্টারে লেভেল সেট করে",
+					"সবার সমান",
+					"যে আগে আসে সেই আগে",
+					"কোনো প্রায়োরিটি নেই"
+				],
+				"answer": "রেজিস্টারে লেভেল সেট করে",
+				"explanation": "AVR/STM32 এ High/Low priority বা নাম্বার দিয়ে প্রায়োরিটি সেট করা যায়।"
+			},
+			{
+				"id": 59,
+				"question": "Timer Overflow Interrupt কখন হয়?",
+				"options": [
+					"টাইমার 0 থেকে 255 হয়ে আবার 0 হলে (8-bit)",
+					"টাইমার বন্ধ হলে",
+					"প্রতি ক্লকে",
+					"কখনো হয় না"
+				],
+				"answer": "টাইমার 0 থেকে 255 হয়ে আবার 0 হলে (8-bit)",
+				"explanation": "8-bit টাইমারে 255 থেকে 0 তে গেলে Overflow Flag (TOV) সেট হয় এবং ইন্টারাপ্ট জেনারেট হয়।"
+			},
+			{
+				"id": 60,
+				"question": "Prescaler এর কাজ কী?",
+				"options": [
+					"টাইমারের ক্লককে ভাগ করে দেয়",
+					"ক্লক বাড়ায়",
+					"ভোল্টেজ কমায়",
+					"ডিলে বাড়ায়"
+				],
+				"answer": "টাইমারের ক্লককে ভাগ করে দেয়",
+				"explanation": "Prescaler 1, 8, 64, 256, 1024 দিয়ে ক্লককে ধীর করে, যাতে বড় ডিলে পাওয়া যায়।"
+			},
+			{
+				"id": 61,
+				"question": "CTC Mode এ টাইমার কী করে?",
+				"options": [
+					"OCR রেজিস্টারের সাথে মিললে ক্লিয়ার হয়",
+					"অটো রিলোড হয়",
+					"শুধু আপ কাউন্ট করে",
+					"ডাউন কাউন্ট করে"
+				],
+				"answer": "OCR রেজিস্টারের সাথে মিললে ক্লিয়ার হয়",
+				"explanation": "Clear Timer on Compare Match – সঠিক সময় ইন্টারাপ্টের জন্য খুব ভালো।"
+			},
+			{
+				"id": 62,
+				"question": "Fast PWM এ ডিউটি সাইকেল কীভাবে পরিবর্তন করা হয়?",
+				"options": [
+					"OCR রেজিস্টারের ভ্যালু চেঞ্জ করে",
+					"Prescaler চেঞ্জ করে",
+					"টাইমার বন্ধ করে",
+					"ক্লক বাড়িয়ে"
+				],
+				"answer": "OCR রেজিস্টারের ভ্যালু চেঞ্জ করে",
+				"explanation": "OCR যত বড়, ডিউটি সাইকেল তত বেশি।"
+			},
+			{
+				"id": 63,
+				"question": "Input Capture কী কাজে লাগে?",
+				"options": [
+					"পালসের প্রস্থ মাপা, ফ্রিকোয়েন্সি মাপা",
+					"শুধু ডিলে তৈরি",
+					"PWM জেনারেট",
+					"এনালগ রিড"
+				],
+				"answer": "পালসের প্রস্থ মাপা, ফ্রিকোয়েন্সি মাপা",
+				"explanation": "ইনকামিং পালসের এজে টাইমারের ভ্যালু ক্যাপচার করে রাখে।"
+			},
+			{
+				"id": 64,
+				"question": "ADC তে Free Running Mode মানে কী?",
+				"options": [
+					"একবার ট্রিগার দিলে ক্রমাগত কনভার্সন চলে",
+					"শুধু একবার কনভার্ট করে",
+					"ম্যানুয়াল ট্রিগার লাগে",
+					"অফ থাকে"
+				],
+				"answer": "একবার ট্রিগার দিলে ক্রমাগত কনভার্সন চলে",
+				"explanation": "এক চ্যানেলে ক্রমাগত রিডিং নিতে ভালো।"
+			},
+			{
+				"id": 65,
+				"question": "ADC রেফারেন্স ভোল্টেজ হিসেবে AREF পিনে কী যুক্ত করা হয়?",
+				"options": [
+					"বাহিরের সঠিক ভোল্টেজ (যেমন 2.56V)",
+					"VCC",
+					"GND",
+					"কিছু না"
+				],
+				"answer": "বাহিরের সঠিক ভোল্টেজ (যেমন 2.56V)",
+				"explanation": "AREF দিয়ে আরও সঠিক রিডিং পাওয়া যায়।"
+			},
+			{
+				"id": 66,
+				"question": "10-bit ADC এর আউটপুট কোথায় সংরক্ষিত হয়?",
+				"options": [
+					"ADCL ও ADCH রেজিস্টারে",
+					"শুধু ADCH",
+					"শুধু ADCL",
+					"RAM এ"
+				],
+				"answer": "ADCL ও ADCH রেজিস্টারে",
+				"explanation": "প্রথমে ADCL তারপর ADCH পড়তে হয়, নইলে ভুল হয়।"
+			},
+			{
+				"id": 67,
+				"question": "UART এ 9th bit কী কাজে লাগে?",
+				"options": [
+					"Parity bit বা মাল্টি-প্রসেসর কমিউনিকেশন",
+					"ডেটা বিট",
+					"স্টপ বিট",
+					"স্টার্ট বিট"
+				],
+				"answer": "Parity bit বা মাল্টি-প্রসেসর কমিউনিকেশন",
+				"explanation": "9-bit mode এ ডেটা/অ্যাড্রেস আলাদা করা যায়।"
+			},
+			{
+				"id": 68,
+				"question": "I2C তে ACK/NACK কে পাঠায়?",
+				"options": [
+					"Receiver (Slave)",
+					"Transmitter (Master)",
+					"উভয়েই",
+					"কেউ না"
+				],
+				"answer": "Receiver (Slave)",
+				"explanation": "প্রতি বাইটের পর স্লেভ ACK পাঠায় যদি ডেটা গ্রহণ করে।"
+			},
+			{
+				"id": 69,
+				"question": "I2C তে Start condition কী?",
+				"options": [
+					"SCL HIGH থাকতে SDA HIGH থেকে LOW",
+					"SDA HIGH থাকতে SCL LOW",
+					"উভয় LOW",
+					"উভয় HIGH"
+				],
+				"answer": "SCL HIGH থাকতে SDA HIGH থেকে LOW",
+				"explanation": "এটি বাসে কমিউনিকেশন শুরুর সিগন্যাল।"
+			},
+			{
+				"id": 70,
+				"question": "SPI তে SS পিন LOW করা মানে কী?",
+				"options": [
+					"স্লেভ সিলেক্ট করা",
+					"স্লেভ ডিসিলেক্ট",
+					"ক্লক স্টপ",
+					"ডেটা শুরু"
+				],
+				"answer": "স্লেভ সিলেক্ট করা",
+				"explanation": "Master SS LOW করে নির্দিষ্ট স্লেভের সাথে কথা বলে।"
+			},
+			{
+				"id": 71,
+				"question": "SPI Master ও Slave এর মধ্যে কে ক্লক দেয়?",
+				"options": [
+					"Master",
+					"Slave",
+					"উভয়েই",
+					"কেউ না"
+				],
+				"answer": "Master",
+				"explanation": "SPI তে শুধু Master ক্লক জেনারেট করে।"
+			},
+			{
+				"id": 72,
+				"question": "One-Wire প্রোটোকল কোন সেন্সরে বেশি ব্যবহৃত হয়?",
+				"options": [
+					"DS18B20 তাপমাত্রা সেন্সর",
+					"DHT11",
+					"LM35",
+					"BMP180"
+				],
+				"answer": "DS18B20 তাপমাত্রা সেন্সর",
+				"explanation": "একটি মাত্র ডেটা লাইনে একাধিক DS18B20 যুক্ত করা যায়।"
+			},
+			{
+				"id": 73,
+				"question": "74HC595 কী ধরনের চিপ?",
+				"options": [
+					"8-bit Shift Register with Output Latch",
+					"Counter",
+					"Decoder",
+					"Multiplexar"
+				],
+				"answer": "8-bit Shift Register with Output Latch",
+				"explanation": "একটি দিয়ে ৮টি আউটপুট বাড়ানো যায়, LED Matrix এ বেশি ব্যবহৃত।"
+			},
+			{
+				"id": 74,
+				"question": "MAX7219 দিয়ে কয়টি 7-Segment চালানো যায়?",
+				"options": [
+					"8টি",
+					"4টি",
+					"16টি",
+					"1টি"
+				],
+				"answer": "8টি",
+				"explanation": "একটি MAX7219 দিয়ে 8 ডিজিট 7-segment বা 64টি LED চালানো যায়।"
+			},
+			{
+				"id": 75,
+				"question": "16x2 LCD এর কন্ট্রাস্ট কীভাবে কন্ট্রোল করা হয়?",
+				"options": [
+					"VO/VEE পিনে পটেনশিওমিটার দিয়ে",
+					"RS পিনে",
+					"E পিনে",
+					"RW পিনে"
+				],
+				"answer": "VO/VEE পিনে পটেনশিওমিটার দিয়ে",
+				"explanation": "VO পিনে 0-5V দিয়ে কন্ট্রাস্ট সেট করা হয়।"
+			},
+			{
+				"id": 76,
+				"question": "4-bit mode এ LCD তে কতবার ডেটা পাঠাতে হয় এক বাইটের জন্য?",
+				"options": [
+					"দুইবার (প্রথমে উচ্চ ৪ বিট, পরে নিচের ৪ বিট)",
+					"একবার",
+					"চারবার",
+					"আটবার"
+				],
+				"answer": "দুইবার (প্রথমে উচ্চ ৪ বিট, পরে নিচের ৪ বিট)",
+				"explanation": "এতে মাত্র ৬টি GPIO লাগে (4 ডেটা + RS + E)।"
+			},
+			{
+				"id": 77,
+				"question": "Servo Motor এর পালস প্রস্থ কত হলে 90° হয়?",
+				"options": [
+					"1.5 ms",
+					"1 ms",
+					"2 ms",
+					"0.5 ms"
+				],
+				"answer": "1.5 ms",
+				"explanation": "সাধারণত 1ms = 0°, 1.5ms = 90°, 2ms = 180°।"
+			},
+			{
+				"id": 78,
+				"question": "H-Bridge এর কাজ কী?",
+				"options": [
+					"মোটরের দিক পরিবর্তন করা",
+					"শুধু স্পিড কন্ট্রোল",
+					"ভোল্টেজ বাড়ানো",
+					"কারেন্ট কমানো"
+				],
+				"answer": "মোটরের দিক পরিবর্তন করা",
+				"explanation": "L298N, L293D তে H-Bridge আছে।"
+			},
+			{
+				"id": 79,
+				"question": "IR LED ও Photodiode দিয়ে কী তৈরি করা হয়?",
+				"options": [
+					"IR Remote ও Receiver",
+					"টিভি",
+					"মোবাইল",
+					"ক্যামেরা"
+				],
+				"answer": "IR Remote ও Receiver",
+				"explanation": "38kHz ক্যারিয়ারে NEC প্রোটোকল ব্যবহৃত হয়।"
+			},
+			{
+				"id": 80,
+				"question": "TSOP1738 কী ধরনের রিসিভার?",
+				"options": [
+					"38kHz IR Receiver",
+					"আল্ট্রাসনিক",
+					"RF",
+					"WiFi"
+				],
+				"answer": "38kHz IR Receiver",
+				"explanation": "এটি আউটপুটে সরাসরি ডিজিটাল সিগন্যাল দেয়।"
+			},
+			{
+				"id": 81,
+				"question": "RTC DS3231 এর সুবিধা কী DS1307 এর চেয়ে?",
+				"options": [
+					"অধিক সঠিক (±2ppm), টেম্পারেচার কম্পেনসেশন আছে",
+					"বেশি মেমরি",
+					"বিল্ট-ইন EEPROM",
+					"কম দাম"
+				],
+				"answer": "অধিক সঠিক (±2ppm), টেম্পারেচার কম্পেনসেশন আছে",
+				"explanation": "DS3231 খুবই নির্ভুল, বছরে মাত্র কয়েক মিনিট এরর হয়।"
+			},
+			{
+				"id": 82,
+				"question": "OLED Display এর সাথে LCD এর পার্থক্য কী?",
+				"options": [
+					"OLED এ প্রতিটি পিক্সেল নিজে আলো দেয়, ব্যাকলাইট লাগে না",
+					"LCD বেশি দ্রুত",
+					"LCD এ কন্ট্রাস্ট বেশি",
+					"OLED কম দামি"
+				],
+				"answer": "OLED এ প্রতিটি পিক্সেল নিজে আলো দেয়, ব্যাকলাইট লাগে না",
+				"explanation": "তাই কালো রং পুরোপুরি কালো হয় এবং পাওয়ার কম খায়।"
+			},
+			{
+				"id": 83,
+				"question": "Capacitive Touch Sensor এর কাজ কীভাবে হয়?",
+				"options": [
+					"ক্যাপাসিট্যান্স পরিবর্তন শনাক্ত করে",
+					"প্রতিরোধ পরিবর্তন",
+					"আলোর পরিবর্তন",
+					"চাপ"
+				],
+				"answer": "ক্যাপাসিট্যান্স পরিবর্তন শনাক্ত করে",
+				"explanation": "TTP223 খুব জনপ্রিয় capacitive touch মডিউল।"
+			},
+			{
+				"id": 84,
+				"question": "Pull-down resistor কখন লাগে?",
+				"options": [
+					"ইনপুট পিন LOW ডিফল্ট রাখতে",
+					"HIGH ডিফল্ট রাখতে",
+					"আউটপুটে",
+					"ADC তে"
+				],
+				"answer": "ইনপুট পিন LOW ডিফল্ট রাখতে",
+				"explanation": "সুইচ চাপলে HIGH হয়।"
+			},
+			{
+				"id": 85,
+				"question": "Debouncing কী এবং কেন লাগে?",
+				"options": [
+					"সুইচের যান্ত্রিক বাউন্স দূর করা",
+					"ভোল্টেজ স্টেবল করা",
+					"কারেন্ট কমানো",
+					"তাপ কমানো"
+				],
+				"answer": "সুইচের যান্ত্রিক বাউন্স দূর করা",
+				"explanation": "সুইচ চাপলে/ছেড়ে দিলে কয়েক ms বাউন্স করে, সফটওয়্যার বা RC সার্কিট দিয়ে সমাধান করা হয়।"
+			},
+			{
+				"id": 86,
+				"question": "Watchdog Timer ক্লিয়ার করতে কী করতে হয়?",
+				"options": [
+					"WDT রেজিস্টারে নির্দিষ্ট ভ্যালু লিখতে হয় (Kick the dog)",
+					"পাওয়ার অফ করতে হয়",
+					"MCU রিসেট করতে হয়",
+					"কিছু না"
+				],
+				"answer": "WDT রেজিস্টারে নির্দিষ্ট ভ্যালু লিখতে হয় (Kick the dog)",
+				"explanation": "যেমন AVR এ wdt_reset() ফাংশন।"
+			},
+			{
+				"id": 87,
+				"question": "Fuse bit কী?",
+				"options": [
+					"MCU এর কনফিগারেশন বিট (ক্লক, BOD, Bootloader)",
+					"সাধারণ প্রোগ্রাম",
+					"EEPROM",
+					"RAM"
+				],
+				"answer": "MCU এর কনফিগারেশন বিট (ক্লক, BOD, Bootloader)",
+				"explanation": "Fuse bit ভুল সেট করলে MCU লক বা ব্রিক হয়ে যেতে পারে।"
+			},
+			{
+				"id": 88,
+				"question": "Arduino Uno এর ক্লক স্পিড কত?",
+				"options": [
+					"16 MHz",
+					"8 MHz",
+					"20 MHz",
+					"12 MHz"
+				],
+				"answer": "16 MHz",
+				"explanation": "ATMEGA328P 16 MHz সিরামিক রেজোনেটর দিয়ে চলে।"
+			},
+			{
+				"id": 89,
+				"question": "NodeMCU এর মেইন চিপ কী?",
+				"options": [
+					"ESP8266",
+					"ESP32",
+					"ATMEGA",
+					"STM32"
+				],
+				"answer": "ESP8266",
+				"explanation": "NodeMCU v2/v3 তে ESP-12E মডিউল থাকে।"
+			},
+			{
+				"id": 90,
+				"question": "ESP32 এর ADC কত বিট?",
+				"options": [
+					"12-bit",
+					"10-bit",
+					"8-bit",
+					"16-bit"
+				],
+				"answer": "12-bit",
+				"explanation": "কিন্তু নন-লিনিয়ার, তাই সঠিক রিডিংয়ের জন্য ক্যালিব্রেশন লাগে।"
+			},
+			{
+				"id": 91,
+				"question": "ESP-NOW কী?",
+				"options": [
+					"ESP32/ESP8266 এর মধ্যে সরাসরি পিয়ার-টু-পিয়ার কমিউনিকেশন",
+					"WiFi",
+					"Bluetooth",
+					"LoRa"
+				],
+				"answer": "ESP32/ESP8266 এর মধ্যে সরাসরি পিয়ার-টু-পিয়ার কমিউনিকেশন",
+				"explanation": "রাউটার ছাড়াই দ্রুত ডেটা পাঠানো যায়।"
+			},
+			{
+				"id": 92,
+				"question": "LoRa এর পূর্ণরূপ কী?",
+				"options": [
+					"Long Range",
+					"Low Range",
+					"Local Radio",
+					"None"
+				],
+				"answer": "Long Range",
+				"explanation": "কয়েক কিলোমিটার পর্যন্ত যায়, কিন্তু ডেটা রেট খুব কম।"
+			},
+			{
+				"id": 93,
+				"question": "Zigbee এর প্রধান বৈশিষ্ট্য কী?",
+				"options": [
+					"Mesh নেটওয়ার্ক",
+					"Point to point",
+					"Star",
+					"Bus"
+				],
+				"answer": "Mesh নেটওয়ার্ক",
+				"explanation": "একটি নোড ফেইল হলেও অন্য পথ দিয়ে ডেটা যায়।"
+			},
+			{
+				"id": 94,
+				"question": "GSM মডিউল SIM800L এর জন্য কত ভোল্টেজ লাগে?",
+				"options": [
+					"3.7-4.2V",
+					"5V",
+					"3.3V",
+					"12V"
+				],
+				"answer": "3.7-4.2V",
+				"explanation": "সরাসরি 5V দিলে পুড়ে যেতে পারে, ভালো রেগুলেটর লাগে।"
+			},
+			{
+				"id": 95,
+				"question": "GPS মডিউল NEO-6M এর বাড রেট কত ডিফল্ট?",
+				"options": [
+					"9600",
+					"115200",
+					"38400",
+					"4800"
+				],
+				"answer": "9600",
+				"explanation": "NMEA সেন্টেন্স 9600 baud এ আসে।"
+			},
+			{
+				"id": 96,
+				"question": "SD Card FAT32 ফরম্যাটে সর্বোচ্চ কত সাইজের ফাইল সাপোর্ট করে?",
+				"options": [
+					"4GB",
+					"2GB",
+					"32GB",
+					"128GB"
+				],
+				"answer": "4GB",
+				"explanation": "একটি ফাইল 4GB এর বেশি হলে হবে না।"
+			},
+			{
+				"id": 97,
+				"question": "EEPROM এ লেখার সাইকেল কতবার পর্যন্ত টিকে?",
+				"options": [
+					"100,000 - 1,000,000 বার",
+					"অসীম",
+					"10 বার",
+					"100 বার"
+				],
+				"answer": "100,000 - 1,000,000 বার",
+				"explanation": "Flash এর চেয়ে কম, তাই গুরুত্বপূর্ণ ডেটা বারবার লেখা উচিত নয়।"
+			},
+			{
+				"id": 98,
+				"question": "AVR এর প্রোগ্রামিং ভাষা সাধারণত কী?",
+				"options": [
+					"C/C++ (AVR-GCC)",
+					"Python",
+					"Java",
+					"Assembly only"
+				],
+				"answer": "C/C++ (AVR-GCC)",
+				"explanation": "Arduino তে C++ বেসড।"
+			},
+			{
+				"id": 99,
+				"question": "Cross Compiler কী?",
+				"options": [
+					"এক প্ল্যাটফর্মে কোড লিখে অন্য প্ল্যাটফর্মে চালানোর জন্য কম্পাইলার",
+					"সাধারণ কম্পাইলার",
+					"ইন্টারপ্রেটার",
+					"Debugger"
+				],
+				"answer": "এক প্লাটফর্মে কোড লিখে অন্য প্ল্যাটফর্মে চালানোর জন্য কম্পাইলার",
+				"explanation": "যেমন আমরা PC তে লিখি, কিন্তু AVR এর জন্য কম্পাইল হয়।"
+			},
+			{
+				"id": 100,
+				"question": "ATMEGA328P এ কত KB ফ্ল্যাশ মেমরি আছে?",
+				"options": [
+					"32 KB",
+					"16 KB",
+					"64 KB",
+					"128 KB"
+				],
+				"answer": "32 KB",
+				"explanation": "Arduino Uno তে ATMEGA328P ব্যবহৃত হয় যার 32KB ফ্ল্যাশ (0.5KB বুটলোডারে ব্যবহৃত)।"
+			},
+			{
+				"id": 101,
+				"question": "PIC মাইক্রোকন্ট্রোলারে প্রোগ্রাম মেমরি কী ধরনের?",
+				"options": [
+					"Flash",
+					"OTP",
+					"Mask ROM",
+					"EEPROM"
+				],
+				"answer": "Flash",
+				"explanation": "আধুনিক PIC16/PIC18 সিরিজে রি-প্রোগ্রামেবল Flash মেমরি থাকে।"
+			},
+			{
+				"id": 102,
+				"question": "8051 এর ডেটা মেমরি কত বাইট?",
+				"options": [
+					"১২৮ বাইট",
+					"২৫৬ বাইট",
+					"৬৪ কিলোবাইট",
+					"৪ কিলোবাইট"
+				],
+				"answer": "১২৮ বাইট",
+				"explanation": "8051-এ Internal RAM 128 বাইট (00-7FH), এর মধ্যে 00-1FH রেজিস্টার ব্যাঙ্ক।"
+			},
+			{
+				"id": 103,
+				"question": "8051 এর টাইমার কয়টি?",
+				"options": [
+					"২টি",
+					"৩টি",
+					"৪টি",
+					"১টি"
+				],
+				"answer": "২টি",
+				"explanation": "Timer0 ও Timer1 (16-bit), Timer2 শুধু উন্নত ভার্সনে থাকে।"
+			},
+			{
+				"id": 104,
+				"question": "8051 এর সিরিয়াল পোর্ট কোন পিনে থাকে?",
+				"options": [
+					"P3.0 (RXD) ও P3.1 (TXD)",
+					"P1.0 ও P1.1",
+					"P2.0 ও P2.1",
+					"P0.0 ও P0.1"
+				],
+				"answer": "P3.0 (RXD) ও P3.1 (TXD)",
+				"explanation": "পিন ১০ ও ১১।"
+			},
+			{
+				"id": 105,
+				"question": "Keil uVision কোন MCU এর জন্য সবচেয়ে বেশি ব্যবহৃত হয়?",
+				"options": [
+					"8051",
+					"AVR",
+					"ARM",
+					"PIC"
+				],
+				"answer": "8051",
+				"explanation": "Keil C51 কম্পাইলার 8051 ও তার ডেরিভেটিভের জন্য খুব জনপ্রিয়।"
+			},
+			{
+				"id": 106,
+				"question": "STM32 এর প্রধান কোর কী?",
+				"options": [
+					"ARM Cortex-M",
+					"ARM Cortex-A",
+					"AVR",
+					"8051"
+				],
+				"answer": "ARM Cortex-M",
+				"explanation": "STM32F1 – Cortex-M3, STM32F4 – Cortex-M4F ইত্যাদি।"
+			},
+			{
+				"id": 107,
+				"question": "HAL Library কার জন্য?",
+				"options": [
+					"STM32",
+					"AVR",
+					"8051",
+					"PIC"
+				],
+				"answer": "STM32",
+				"explanation": "STM32Cube HAL (Hardware Abstraction Layer) দিয়ে খুব সহজে পেরিফেরাল ব্যবহার করা যায়।"
+			},
+			{
+				"id": 108,
+				"question": "FreeRTOS কী ধরনের সফটওয়্যার?",
+				"options": [
+					"Real Time Operating System",
+					"বুটলোডার",
+					"কম্পাইলার",
+					"ডিবাগার"
+				],
+				"answer": "Real Time Operating System",
+				"explanation": "ছোট MCU তেও মাল্টি-টাস্কিং করা যায় FreeRTOS দিয়ে।"
+			},
+			{
+				"id": 109,
+				"question": "CAN Bus এর সর্বোচ্চ গতি কত?",
+				"options": [
+					"১ Mbps",
+					"১২৫ Kbps",
+					"৯৬০০ bps",
+					"১১৫২০০ bps"
+				],
+				"answer": "১ Mbps",
+				"explanation": "CAN 2.0B পর্যন্ত ১ Mbps, তবে দূরত্ব কমে যায়।"
+			},
+			{
+				"id": 110,
+				"question": "LIN Bus কোথায় ব্যবহৃত হয়?",
+				"options": [
+					"গাড়ির লো-স্পিড যন্ত্রাংশে (উইন্ডো, সিট)",
+					"ইঞ্জিন কন্ট্রোলে",
+					"হাই স্পিড ডেটা",
+					"ইন্টারনেটে"
+				],
+				"answer": "গাড়ির লো-স্পিড যন্ত্রাংশে (উইন্ডো, সিট)",
+				"explanation": "Local Interconnect Network – CAN এর চেয়ে সস্তা।"
+			},
+			{
+				"id": 111,
+				"question": "FlexRay কীসের জন্য?",
+				"options": [
+					"গাড়ির হাই-স্পিড সেফটি ক্রিটিক্যাল সিস্টেম (x-by-wire)",
+					"সাধারণ সেন্সর",
+					"অডিও",
+					"ইনফোটেইনমেন্ট"
+				],
+				"answer": "গাড়ির হাই-স্পিড সেফটি ক্রিটিক্যাল সিস্টেম (x-by-wire)",
+				"explanation": "10 Mbps পর্যন্ত, ডুয়াল চ্যানেল।"
+			},
+			{
+				"id": 112,
+				"question": "Modbus প্রোটোকল কোথায় বেশি ব্যবহৃত হয়?",
+				"options": [
+					"ইন্ডাস্ট্রিয়াল অটোমেশন (PLC)",
+					"গাড়িতে",
+					"মোবাইলে",
+					"কম্পিউটারে"
+				],
+				"answer": "ইন্ডাস্ট্রিয়াল অটোমেশন (PLC)",
+				"explanation": "Modbus RTU (সিরিয়াল) ও Modbus TCP (ইথারনেট)।"
+			},
+			{
+				"id": 113,
+				"question": "RS-485 এর সুবিধা কী?",
+				"options": [
+					"মাল্টি-ড্রপ (৩২+ ডিভাইস), লম্বা দূরত্ব (১২০০ মিটার)",
+					"শুধু পয়েন্ট টু পয়েন্ট",
+					"খুব দ্রুত",
+					"কম দাম"
+				],
+				"answer": "মাল্টি-ড্রপ (৩২+ ডিভাইস), লম্বা দূরত্ব (১২০০ মিটার)",
+				"explanation": "ডিফারেনশিয়াল সিগন্যালিং এর জন্য নয়েজ ইমিউনিটি ভালো।"
+			},
+			{
+				"id": 114,
+				"question": "DMX512 কোথায় ব্যবহৃত হয়?",
+				"options": [
+					"স্টেজ লাইটিং কন্ট্রোল",
+					"গাড়িতে",
+					"হাসপাতালে",
+					"বাড়িতে"
+				],
+				"answer": "স্টেজ লাইটিং কন্ট্রোল",
+				"explanation": "৫১২ চ্যানেল, ২৫০ kbps।"
+			},
+			{
+				"id": 115,
+				"question": "Dallas 1-Wire এর সর্বোচ্চ কতগুলো ডিভাইস যুক্ত করা যায়?",
+				"options": [
+					"ততগুলো যতগুলোর ইউনিক ৬৪-বিট আইডি আছে (প্রায় অসীম)",
+					"৮টি",
+					"৩২টি",
+					"১২৮টি"
+				],
+				"answer": "ততগুলো যতগুলোর ইউনিক ৬৪-বিট আইডি আছে (প্রায় অসীম)",
+				"explanation": "প্রতিটি DS18B20 এর নিজস্ব ৬৪-বিট সিরিয়াল নম্বর থাকে।"
+			},
+			{
+				"id": 116,
+				"question": "Manchester Encoding এর সুবিধা কী?",
+				"options": [
+					"ক্লক রিকভারি সহজ, DC ব্যালেন্স",
+					"শুধু দ্রুত",
+					"কম তার",
+					"কম পাওয়ার"
+				],
+				"answer": "ক্লক রিকভারি সহজ, DC ব্যালেন্স",
+				"explanation": "প্রতি বিটে ট্রানজিশন থাকায় ক্লক সিঙ্ক করা সহজ।"
+			},
+			{
+				"id": 117,
+				"question": "NRZ Encoding এর সমস্যা কী?",
+				"options": [
+					"লম্বা 0 বা 1 থাকলে ক্লক হারিয়ে যায়",
+					"খুব ধীর",
+					"বেশি পাওয়ার খায়",
+					"বেশি তার লাগে"
+				],
+				"answer": "লম্বা 0 বা 1 থাকলে ক্লক হারিয়ে যায়",
+				"explanation": "UART সাধারণত NRZ ব্যবহার করে।"
+			},
+			{
+				"id": 118,
+				"question": "Parity bit কী কাজ করে?",
+				"options": [
+					"এরর ডিটেকশন",
+					"এরর করেকশন",
+					"ডেটা বাড়ায়",
+					"স্পিড বাড়ায়"
+				],
+				"answer": "এরর ডিটেকশন",
+				"explanation": "Even/Odd parity দিয়ে ১ বিট এরর ধরা যায়।"
+			},
+			{
+				"id": 119,
+				"question": "CRC কী দিয়ে এরর চেক করে?",
+				"options": [
+					"পলিনোমিয়াল ডিভিশন",
+					"প্যারিটি",
+					"চেকসাম",
+					"হ্যাশ"
+				],
+				"answer": "পলিনোমিয়াল ডিভিশন",
+				"explanation": "খুবই নির্ভরযোগ্য, CAN, Ethernet এ ব্যবহৃত হয়।"
+			},
+			{
+				"id": 120,
+				"question": "Hamming Code কী করতে পারে?",
+				"options": [
+					"একই সাথে এরর ডিটেক্ট ও করেক্ট (সিঙ্গেল বিট)",
+					"শুধু ডিটেক্ট",
+					"মাল্টিপল বিট করেক্ট",
+					"কিছুই না"
+				],
+				"answer": "একই সাথে এরর ডিটেক্ট ও করেক্ট (সিঙ্গেল বিট)",
+				"explanation": "প্রতি ৪ বিট ডেটায় ৩ বিট প্যারিটি যোগ করে।"
+			},
+			{
+				"id": 121,
+				"question": "Look-up Table (LUT) কী কাজে লাগে?",
+				"options": [
+					"দ্রুত গণনা (যেমন sin, log)",
+					"মেমরি বাঁচাতে",
+					"পাওয়ার কমাতে",
+					"ক্লক বাড়াতে"
+				],
+				"answer": "দ্রুত গণনা (যেমন sin, log)",
+				"explanation": "MCU তে ফ্লোটিং পয়েন্ট ধীর, তাই LUT ব্যবহার করা হয়।"
+			},
+			{
+				"id": 122,
+				"question": "Bit-banging মানে কী?",
+				"options": [
+					"সফটওয়্যার দিয়ে প্রোটোকল ইমপ্লিমেন্ট করা (হার্ডওয়্যার ছাড়া)",
+					"হার্ডওয়্যার দিয়ে",
+					"অটোমেটিক",
+					"কিছুই না"
+				],
+				"answer": "সফটওয়্যার দিয়ে প্রোটোকল ইমপ্লিমেন্ট করা (হার্ডওয়্যার ছাড়া)",
+				"explanation": "যেমন সফটওয়্যার I2C, সফটওয়্যার UART।"
+			},
+			{
+				"id": 123,
+				"question": "DMA এর পূর্ণরূপ কী?",
+				"options": [
+					"Direct Memory Access",
+					"Data Memory Access",
+					"Dynamic Memory Allocation",
+					"None"
+				],
+				"answer": "Direct Memory Access",
+				"explanation": "CPU ছাড়াই পেরিফেরাল ও মেমরির মধ্যে ডেটা ট্রান্সফার।"
+			},
+			{
+				"id": 124,
+				"question": "Zero Cross Detection কী কাজে লাগে?",
+				"options": [
+					"AC লোড (লাইট, হিটার) কন্ট্রোল",
+					"DC মোটর",
+					"LED",
+					"ব্যাটারি চার্জ"
+				],
+				"answer": "AC লোড (লাইট, হিটার) কন্ট্রোল",
+				"explanation": "Triac/Dimmer এর জন্য জরুরি।"
+			},
+			{
+				"id": 125,
+				"question": "Triac দিয়ে কী চালানো যায়?",
+				"options": [
+					"AC লোড (ফ্যান, লাইট)",
+					"DC মোটর",
+					"স্টেপার",
+					"Servo"
+				],
+				"answer": "AC লোড (ফ্যান, লাইট)",
+				"explanation": "MOC3021 অপটো-ট্রায়াক দিয়ে MCU থেকে কন্ট্রোল করা হয়।"
+			},
+			{
+				"id": 126,
+				"question": "Solid State Relay (SSR) এর সুবিধা কী?",
+				"options": [
+					"কোনো যান্ত্রিক অংশ নেই, দ্রুত, দীর্ঘস্থায়ী",
+					"শব্দ হয় না",
+					"কম দাম",
+					"বড় সাইজ"
+				],
+				"answer": "কোনো যান্ত্রিক অংশ নেই, দ্রুত, দীর্ঘস্থায়ী",
+				"explanation": "কিন্তু হিটসিঙ্ক লাগে।"
+			},
+			{
+				"id": 127,
+				"question": "Peltier Module কী কাজ করে?",
+				"options": [
+					"তাপমাত্রা কমানো/বাড়ানো (থার্মোইলেকট্রিক)",
+					"শুধু গরম করে",
+					"শুধু ঠান্ডা করে",
+					"ফ্যানের মতো"
+				],
+				"answer": "তাপমাত্রা কমানো/বাড়ানো (থার্মোইলেকট্রিক)",
+				"explanation": "দিক পরিবর্তন করলে গরম/ঠান্ডা উভয়ই হয়।"
+			},
+			{
+				"id": 128,
+				"question": "Buck Converter কী করে?",
+				"options": [
+					"ভোল্টেজ কমায় (Step-down)",
+					"ভোল্টেজ বাড়ায়",
+					"AC থেকে DC",
+					"DC থেকে AC"
+				],
+				"answer": "ভোল্টেজ কমায় (Step-down)",
+				"explanation": "উচ্চ দক্ষতা (90%+)।"
+			},
+			{
+				"id": 129,
+				"question": "Boost Converter কী করে?",
+				"options": [
+					"ভোল্টেজ বাড়ায় (Step-up)",
+					"ভোল্টেজ কমায়",
+					"AC-DC",
+					"DC-AC"
+				],
+				"answer": "ভোল্টেজ বাড়ায় (Step-up)",
+				"explanation": "যেমন 5V থেকে 12V।"
+			},
+			{
+				"id": 130,
+				"question": "LDO Regulator এর সুবিধা কী?",
+				"options": [
+					"কম নয়েজ, সহজ সার্কিট",
+					"উচ্চ দক্ষতা",
+					"উচ্চ কারেন্ট",
+					"বড় ভোল্টেজ ড্রপ সহ্য করে না"
+				],
+				"answer": "কম নয়েজ, সহজ সার্কিট",
+				"explanation": "অডিও, সেন্সরের জন্য ভালো।"
+			},
+			{
+				"id": 131,
+				"question": "INA219 কী মাপে?",
+				"options": [
+					"ভোল্টেজ, কারেন্ট ও পাওয়ার",
+					"শুধু ভোল্টেজ",
+					"শুধু কারেন্ট",
+					"তাপমাত্রা"
+				],
+				"answer": "ভোল্টেজ, কারেন্ট ও পাওয়ার",
+				"explanation": "I2C দিয়ে ব্যাটারি মনিটরিং এ ব্যবহৃত হয়।"
+			},
+			{
+				"id": 132,
+				"question": "Current Transformer (CT) কীভাবে কাজ করে?",
+				"options": [
+					"ম্যাগনেটিক কাপলিং দিয়ে হাই কারেন্ট মাপা",
+					"ডাইরেক্ট শান্ট",
+					"হল ইফেক্ট",
+					"অপটোকপলার"
+				],
+				"answer": "ম্যাগনেটিক কাপলিং দিয়ে হাই কারেন্ট মাপা",
+				"explanation": "নিরাপদে 100A+ মাপা যায়।"
+			},
+			{
+				"id": 133,
+				"question": "Hall Effect Sensor কী মাপে?",
+				"options": [
+					"ম্যাগনেটিক ফিল্ড (কারেন্ট/স্পিড)",
+					"তাপমাত্রা",
+					"আলো",
+					"চাপ"
+				],
+				"answer": "ম্যাগনেটিক ফিল্ড (কারেন্ট/স্পিড)",
+				"explanation": "ACS712, A3144 ইত্যাদি।"
+			},
+			{
+				"id": 134,
+				"question": "Load Cell + HX711 কী কাজে লাগে?",
+				"options": [
+					"ওজন মাপা",
+					"তাপমাত্রা",
+					"চাপ",
+					"আর্দ্রতা"
+				],
+				"answer": "ওজন মাপা",
+				"explanation": "24-bit ADC দিয়ে খুব সঠিক ওজন পাওয়া যায়।"
+			},
+			{
+				"id": 135,
+				"question": "Thermocouple এর সাথে কোন IC ব্যবহার করা হয়?",
+				"options": [
+					"MAX6675 / MAX31855",
+					"LM35",
+					"DHT22",
+					"ADS1115"
+				],
+				"answer": "MAX6675 / MAX31855",
+				"explanation": "K-type thermocouple এর জন্য।"
+			},
+			{
+				"id": 136,
+				"question": "PT100 কী ধরনের সেন্সর?",
+				"options": [
+					"RTD (Resistance Temperature Detector)",
+					"থার্মিস্টর",
+					"থার্মোকপল",
+					"ইনফ্রারেড"
+				],
+				"answer": "RTD (Resistance Temperature Detector)",
+				"explanation": "খুবই সঠিক (±0.1°C), ইন্ডাস্ট্রিতে বেশি ব্যবহৃত।"
+			},
+			{
+				"id": 137,
+				"question": "Flow Sensor YF-S201 কী মাপে?",
+				"options": [
+					"পানির প্রবাহ (L/min)",
+					"গ্যাস",
+					"চাপ",
+					"তাপমাত্রা"
+				],
+				"answer": "পানির প্রবাহ (L/min)",
+				"explanation": "হল ইফেক্ট দিয়ে পালস জেনারেট করে।"
+			},
+			{
+				"id": 138,
+				"question": "TCS3200 কী ধরনের সেন্সর?",
+				"options": [
+					"কালার সেন্সর",
+					"দূরত্ব",
+					"গতি",
+					"গ্যাস"
+				],
+				"answer": "কালার সেন্সর",
+				"explanation": "RGB ও ফ্রিকোয়েন্সি আউটপুট দেয়।"
+			},
+			{
+				"id": 139,
+				"question": "VL53L0X কী মাপে?",
+				"options": [
+					"দূরত্ব (Time of Flight)",
+					"আল্ট্রাসনিক",
+					"ইনফ্রারেড",
+					"লেজার ট্রায়াঙ্গুলেশন"
+				],
+				"answer": "দূরত্ব (Time of Flight)",
+				"explanation": "২ মিটার পর্যন্ত, খুব সঠিক।"
+			},
+			{
+				"id": 140,
+				"question": "Fingerprint Module R307 কোন ইন্টারফেসে কাজ করে?",
+				"options": [
+					"UART",
+					"I2C",
+					"SPI",
+					"One-Wire"
+				],
+				"answer": "UART",
+				"explanation": "৯৬০০ baud এ কাজ করে।"
+			},
+			{
+				"id": 141,
+				"question": "RFID MFRC522 কোন ফ্রিকোয়েন্সি?",
+				"options": [
+					"13.56 MHz",
+					"125 kHz",
+					"433 MHz",
+					"2.4 GHz"
+				],
+				"answer": "13.56 MHz",
+				"explanation": "Mifare কার্ড পড়ার জন্য।"
+			},
+			{
+				"id": 142,
+				"question": "Thermal Printer এ কোন ইন্টারফেস বেশি ব্যবহৃত হয়?",
+				"options": [
+					"UART",
+					"I2C",
+					"SPI",
+					"Parallel"
+				],
+				"answer": "UART",
+				"explanation": "TTL সিরিয়াল দিয়ে প্রিন্ট করা হয়।"
+			},
+			{
+				"id": 143,
+				"question": "ESC/POS কীসের কমান্ড সেট?",
+				"options": [
+					"থার্মাল প্রিন্টার",
+					"ইঙ্কজেট",
+					"লেজার",
+					"ডট ম্যাট্রিক্স"
+				],
+				"answer": "থার্মাল প্রিন্টার",
+				"explanation": "বিল প্রিন্টারে বেশি ব্যবহৃত।"
+			},
+			{
+				"id": 144,
+				"question": "TFT Display ILI9341 কোন ইন্টারফেসে কাজ করে?",
+				"options": [
+					"SPI",
+					"I2C",
+					"Parallel",
+					"UART"
+				],
+				"answer": "SPI",
+				"explanation": "৩.২″ ৩২০×২৪০ ডিসপ্লে খুব জনপ্রিয়।"
+			},
+			{
+				"id": 145,
+				"question": "Nextion Display এর সুবিধা কী?",
+				"options": [
+					"নিজস্ব GUI ডিজাইন টুল ও প্রসেসর আছে",
+					"শুধু ডিসপ্লে",
+					"কম দাম",
+					"বড় সাইজ"
+				],
+				"answer": "নিজস্ব GUI ডিজাইন টুল ও প্রসেসর আছে",
+				"explanation": "MCU শুধু কমান্ড পাঠায়।"
+			},
+			{
+				"id": 146,
+				"question": "Matrix Keypad এ ডায়োড কেন লাগে?",
+				"options": [
+					"Ghost key প্রিভেন্ট করতে",
+					"ভোল্টেজ ড্রপ কমাতে",
+					"কারেন্ট বাড়াতে",
+					"পাওয়ার সেভ করতে"
+				],
+				"answer": "Ghost key প্রিভেন্ট করতে",
+				"explanation": "একাধিক কী চাপলে ভুল কী ধরা পড়ে, ডায়োড লাগালে সমাধান হয়।"
+			},
+			{
+				"id": 147,
+				"question": "Multiplexing কেন করা হয় 7-segment এ?",
+				"options": [
+					"কম পিন ব্যবহার করতে",
+					"বেশি উজ্জ্বলতা",
+					"কম পাওয়ার",
+					"দ্রুত রিফ্রেশ"
+				],
+				"answer": "কম পিন ব্যবহার করতে",
+				"explanation": "৪ ডিজিটের জন্য ১২ পিনের বদলে ১১ পিন লাগে।"
+			},
+			{
+				"id": 148,
+				"question": "Charlieplexing এ কয়টি LED কম পিনে চালানো যায়?",
+				"options": [
+					"n(n-1) টি LED মাত্র n পিনে",
+					"n টি",
+					"2n টি",
+					"n² টি"
+				],
+				"answer": "n(n-1) টি LED মাত্র n পিনে",
+				"explanation": "৫ পিনে ২০টি LED চালানো যায়।"
+			},
+			{
+				"id": 149,
+				"question": "WS2812B কী ধরনের LED?",
+				"options": [
+					"Addressable RGB LED (NeoPixel)",
+					"সাধারণ RGB",
+					"Single color",
+					"7-segment"
+				],
+				"answer": "Addressable RGB LED (NeoPixel)",
+				"explanation": "একটি ডেটা লাইনে হাজারো LED চালানো যায়।"
+			},
+			{
+				"id": 150,
+				"question": "APA102 কেন WS2812B এর চেয়ে ভালো?",
+				"options": [
+					"উচ্চ ফ্রিকোয়েন্সি, ক্লক লাইন আছে, কম ফ্লিকার",
+					"কম দাম",
+					"বেশি উজ্জ্বল",
+					"বেশি রং"
+				],
+				"answer": "উচ্চ ফ্রিকোয়েন্সি, ক্লক লাইন আছে, কম ফ্লিকার",
+				"explanation": "২০ MHz+ স্পিড।"
+			},
+			{
+				"id": 151,
+				"question": "IOT তে MQTT প্রোটোকলের সুবিধা কী?",
+				"options": [
+					"খুব হালকা, পাবলিশ-সাবস্ক্রাইব মডেল",
+					"দ্রুততম",
+					"সবচেয়ে সিকিউর",
+					"ভারী ফাইল ট্রান্সফার"
+				],
+				"answer": "খুব হালকা, পাবলিশ-সাবস্ক্রাইব মডেল",
+				"explanation": "সেন্সর ডেটা পাঠানোর জন্য আদর্শ।"
+			},
+			{
+				"id": 152,
+				"question": "CoAP কীসের মতো?",
+				"options": [
+					"HTTP এর হালকা ভার্সন (IoT এর জন্য)",
+					"MQTT",
+					"TCP",
+					"UDP"
+				],
+				"answer": "HTTP এর হালকা ভার্সন (IoT এর জন্য)",
+				"explanation": "UDP বেসড।"
+			},
+			{
+				"id": 153,
+				"question": "Blynk অ্যাপ কোন প্রোটোকলে কাজ করে?",
+				"options": [
+					"MQTT ও HTTP উভয়ই",
+					"শুধু Bluetooth",
+					"শুধু WiFi",
+					"Zigbee"
+				],
+				"answer": "MQTT ও HTTP উভয়ই",
+				"explanation": "খুব সহজে মোবাইল অ্যাপ থেকে MCU কন্ট্রোল।"
+			},
+			{
+				"id": 154,
+				"question": "ThingSpeak এর মেইন ফিচার কী?",
+				"options": [
+					"ডেটা লগিং ও গ্রাফ",
+					"রিয়েল টাইম কন্ট্রোল",
+					"ভিডিও স্ট্রিমিং",
+					"ফাইল স্টোরেজ"
+				],
+				"answer": "ডেটা লগিং ও গ্রাফ",
+				"explanation": "MATLAB অ্যানালিটিক্সও আছে।"
+			},
+			{
+				"id": 155,
+				"question": "Node-RED কী?",
+				"options": [
+					"ভিজ্যুয়াল প্রোগ্রামিং টুল (Flow-based)",
+					"IDE",
+					"কম্পাইলার",
+					"অপারেটিং সিস্টেম"
+				],
+				"answer": "ভিজ্যুয়াল প্রোগ্রামিং টুল (Flow-based)",
+				"explanation": "কোড না লিখে বক্স টেনে প্রোগ্রাম করা যায়।"
+			},
+			{
+				"id": 156,
+				"question": "OTA Update মানে কী?",
+				"options": [
+					"Over The Air – ওয়াইফাই দিয়ে ফার্মওয়্যার আপডেট",
+					"ক্যাবল দিয়ে",
+					"SD কার্ড দিয়ে",
+					"JTAG দিয়ে"
+				],
+				"answer": "Over The Air – ওয়াইফাই দিয়ে ফার্মওয়্যার আপডেট",
+				"explanation": "ESP32/ESP8266 তে খুব সহজ।"
+			},
+			{
+				"id": 157,
+				"question": "mDNS কী কাজ করে?",
+				"options": [
+					"লোকাল নেটওয়ার্কে IP ছাড়া নাম দিয়ে অ্যাক্সেস (যেমন esp32.local)",
+					"DNS সার্ভার",
+					"DHCP",
+					"NAT"
+				],
+				"answer": "লোকাল নেটওয়ার্কে IP ছাড়া নাম দিয়ে অ্যাক্সেস (যেমন esp32.local)",
+				"explanation": "IP মনে রাখতে হয় না।"
+			},
+			{
+				"id": 158,
+				"question": "CAPTIVE PORTAL কী?",
+				"options": [
+					"WiFi কানেক্ট করলে অটো ওয়েব পেজ ওপেন হয়",
+					"সাধারণ ওয়েব সার্ভার",
+					"AP মোড",
+					"STA মোড"
+				],
+				"answer": "WiFi কানেক্ট করলে অটো ওয়েব পেজ ওপেন হয়",
+				"explanation": "ESP32/ESP8266 কনফিগারেশনের জন্য ব্যবহৃত হয়।"
+			},
+			{
+				"id": 159,
+				"question": "Deep Sleep এ ESP32 কত মাইক্রোঅ্যাম্পিয়ার খায়?",
+				"options": [
+					"~১০ µA",
+					"১০০ mA",
+					"১ mA",
+					"৫০০ mA"
+				],
+				"answer": "~১০ µA",
+				"explanation": "ব্যাটারি প্রজেক্টে বছরের পর বছর চলতে পারে।"
+			},
+			{
+				"id": 160,
+				"question": "LiPo ব্যাটারি ফুল চার্জ কত ভোল্ট?",
+				"options": [
+					"৪.২০ ভোল্ট",
+					"৩.৭ ভোল্ট",
+					"৪.৩৫ ভোল্ট",
+					"৫ ভোল্ট"
+				],
+				"answer": "৪.২০ ভোল্ট",
+				"explanation": "৩.৭ ভোল্ট নমিনাল, কাটঅফ ৩.০-৩.২ ভোল্ট।"
+			},
+			{
+				"id": 161,
+				"question": "TP4056 চার্জার মডিউল কোন ব্যাটারির জন্য?",
+				"options": [
+					"Single cell Li-ion/LiPo",
+					"NiMH",
+					"Lead Acid",
+					"২টি সেল"
+				],
+				"answer": "Single cell Li-ion/LiPo",
+				"explanation": "১A পর্যন্ত চার্জ করতে পারে।"
+			},
+			{
+				"id": 162,
+				"question": "Solar Panel + MPPT কেন ব্যবহার করা হয়?",
+				"options": [
+					"সর্বোচ্চ পাওয়ার পয়েন্ট থেকে চার্জ করতে",
+					"ফাস্ট চার্জ",
+					"সস্তা",
+					"বড় সাইজ"
+				],
+				"answer": "সর্বোচ্চ পাওয়ার পয়েন্ট থেকে চার্জ করতে",
+				"explanation": "৩০% বেশি এনার্জি পাওয়া যায়।"
+			},
+			{
+				"id": 163,
+				"question": "Supercapacitor কতক্ষণ পাওয়ার ব্যাকআপ দিতে পারে?",
+				"options": [
+					"কয়েক সেকেন্ড থেকে মিনিট",
+					"ঘণ্টার পর ঘণ্টা",
+					"দিন",
+					"বছর"
+				],
+				"answer": "কয়েক সেকেন্ড থেকে মিনিট",
+				"explanation": "RTC বা মেমরি ব্যাকআপে ভালো।"
+			},
+			{
+				"id": 164,
+				"question": "PCB তে Ground Plane কেন দেওয়া হয়?",
+				"options": [
+					"নয়েজ কমানো, EMI শিল্ডিং, রিটার্ন পাথ",
+					"সুন্দর দেখাতে",
+					"খরচ কমাতে",
+					"ওজন বাড়াতে"
+				],
+				"answer": "নয়েজ কমানো, EMI শিল্ডিং, রিটার্ন পাথ",
+				"explanation": "২-লেয়ার বোর্ডে অবশ্যই থাকা উচিত।"
+			},
+			{
+				"id": 165,
+				"question": "Decoupling Capacitor কোথায় লাগে?",
+				"options": [
+					"প্রতিটি IC এর VCC ও GND পিনের কাছে",
+					"শুধু পাওয়ার ইনপুটে",
+					"কোথাও না",
+					"শুধু মোটরে"
+				],
+				"answer": "প্রতিটি IC এর VCC ও GND পিনের কাছে",
+				"explanation": "সাধারণত ০.১ µF সিরামিক।"
+			},
+			{
+				"id": 166,
+				"question": "Pull-up/Pull-down resistor এর মান সাধারণত কত?",
+				"options": [
+					"১k – ১০k",
+					"১০০ Ω",
+					"১০০k",
+					"১M"
+				],
+				"answer": "১k – ১০k",
+				"explanation": "৪.৭k খুব কমন I2C তে।"
+			},
+			{
+				"id": 167,
+				"question": "Flyback Diode কেন লাগে?",
+				"options": [
+					"ইন্ডাক্টিভ লোড (রিলে, মোটর) থেকে ভোল্টেজ স্পাইক প্রিভেন্ট",
+					"কারেন্ট বাড়াতে",
+					"ভোল্টেজ কমাতে",
+					"তাপ কমাতে"
+				],
+				"answer": "ইন্ডাক্টিভ লোড (রিলে, মোটর) থেকে ভোল্টেজ স্পাইক প্রিভেন্ট",
+				"explanation": "1N4007 বা Schottky ডায়োড ব্যবহার করা হয়।"
+			},
+			{
+				"id": 168,
+				"question": "TVS Diode কী কাজ করে?",
+				"options": [
+					"ভোল্টেজ স্পাইক/সার্জ প্রোটেকশন",
+					"রেকটিফাই",
+					"ভোল্টেজ রেগুলেট",
+					"লাইট জ্বালানো"
+				],
+				"answer": "ভোল্টেজ স্পাইক/সার্জ প্রোটেকশন",
+				"explanation": "ইনপুট লাইনে ESD প্রোটেকশনের জন্য।"
+			},
+			{
+				"id": 169,
+				"question": "Ferrite Bead কী কাজ করে?",
+				"options": [
+					"হাই ফ্রিকোয়েন্সি নয়েজ ফিল্টার",
+					"লো ফ্রিকোয়েন্সি",
+					"DC ব্লক",
+					"AC পাস"
+				],
+				"answer": "হাই ফ্রিকোয়েন্সি নয়েজ ফিল্টার",
+				"explanation": "পাওয়ার লাইনে লাগানো হয়।"
+			},
+			{
+				"id": 170,
+				"question": "SMT vs Through-hole – কোনটা বেশি জনপ্রিয় এখন?",
+				"options": [
+					"SMT (Surface Mount Technology)",
+					"Through-hole",
+					"উভয় সমান",
+					"কোনোটাই না"
+				],
+				"answer": "SMT (Surface Mount Technology)",
+				"explanation": "ছোট সাইজ, অটোমেটিক অ্যাসেম্বলি সম্ভব।"
+			},
+			{
+				"id": 171,
+				"question": "Soldering এ Lead-free সোল্ডারের তাপমাত্রা কত?",
+				"options": [
+					"২২০-২৫০°C",
+					"১৮০-১৯০°C",
+					"৩০০°C",
+					"১০০°C"
+				],
+				"answer": "২২০-২৫০°C",
+				"explanation": "পুরোনো Sn-Pb এর চেয়ে বেশি তাপ লাগে।"
+			},
+			{
+				"id": 172,
+				"question": "Reflow Oven এ কী প্রোফাইল ফলো করা হয়?",
+				"options": [
+					"Preheat → Soak → Reflow → Cooling",
+					"শুধু গরম করা",
+					"শুধু ঠান্ডা করা",
+					"কিছুই না"
+				],
+				"answer": "Preheat → Soak → Reflow → Cooling",
+				"explanation": "ঠিকমতো না করলে কোল্ড জয়েন্ট হবে।"
+			},
+			{
+				"id": 173,
+				"question": "Oscilloscope এ Bandwidth কী নির্ধারণ করে?",
+				"options": [
+					"কত উঁচু ফ্রিকোয়েন্সি সঠিকভাবে দেখাবে",
+					"ভোল্টেজ রেঞ্জ",
+					"স্যাম্পল রেট",
+					"চ্যানেল সংখ্যা"
+				],
+				"answer": "কত উঁচু ফ্রিকোয়েন্সি সঠিকভাবে দেখাবে",
+				"explanation": "নিয়ম: Bandwidth ≥ ৫ × সিগন্যাল ফ্রিকোয়েন্সি।"
+			},
+			{
+				"id": 174,
+				"question": "Logic Analyzer কী কাজে লাগে?",
+				"options": [
+					"ডিজিটাল সিগন্যাল (I2C, SPI, UART) ডিবাগ",
+					"এনালগ ওয়েভফর্ম",
+					"ভোল্টেজ মাপা",
+					"কারেন্ট মাপা"
+				],
+				"answer": "ডিজিটাল সিগন্যাল (I2C, SPI, UART) ডিবাগ",
+				"explanation": "Saleae, DSLogic খুব জনপ্রিয়।"
+			},
+			{
+				"id": 175,
+				"question": "Multimeter এ Continuity mode এ কী শব্দ করে?",
+				"options": [
+					"রেজিস্ট্যান্স < ৫০ Ω হলে বিপ করে",
+					"ভোল্টেজ মাপে",
+					"কারেন্ট মাপে",
+					"ক্যাপাসিট্যান্স মাপে"
+				],
+				"answer": "রেজিস্ট্যান্স < ৫০ Ω হলে বিপ করে",
+				"explanation": "ট্র্যাক চেক করতে দারুণ কাজে লাগে।"
+			},
+			{
+				"id": 176,
+				"question": "ISP Programmer কী দিয়ে প্রোগ্রাম করে?",
+				"options": [
+					"SPI পিন (MOSI, MISO, SCK, RESET)",
+					"UART",
+					"I2C",
+					"JTAG"
+				],
+				"answer": "SPI পিন (MOSI, MISO, SCK, RESET)",
+				"explanation": "AVR এর জন্য ৬ পিন ISP হেডার।"
+			},
+			{
+				"id": 177,
+				"question": "ST-Link কোন MCU এর জন্য?",
+				"options": [
+					"STM32",
+					"AVR",
+					"ESP32",
+					"PIC"
+				],
+				"answer": "STM32",
+				"explanation": "SWD দিয়ে প্রোগ্রাম ও ডিবাগ।"
+			},
+			{
+				"id": 178,
+				"question": "JTAG এর তুলনায় SWD এর সুবিধা কী?",
+				"options": [
+					"কম পিন (২টি মাত্র – SWDIO ও SWCLK)",
+					"বেশি পিন",
+					"ধীর গতি",
+					"কম দাম"
+				],
+				"answer": "কম পিন (২টি মাত্র – SWDIO ও SWCLK)",
+				"explanation": "STM32 তে বেশি ব্যবহৃত।"
+			},
+			{
+				"id": 179,
+				"question": "Pickit 4 কোন MCU এর জন্য?",
+				"options": [
+					"PIC",
+					"AVR",
+					"STM32",
+					"8051"
+				],
+				"answer": "PIC",
+				"explanation": "Microchip এর অফিশিয়াল প্রোগ্রামার।"
+			},
+			{
+				"id": 180,
+				"question": "Arduino IDE এর পিছনে কোন কম্পাইলার কাজ করে?",
+				"options": [
+					"AVR-GCC",
+					"Keil",
+					"IAR",
+					"SDCC"
+				],
+				"answer": "AVR-GCC",
+				"explanation": "তাই Arduino কোড C/C++ এ কম্পাইল হয়।"
+			},
+			{
+				"id": 181,
+				"question": "PlatformIO কী?",
+				"options": [
+					"VS Code এর জন্য পাওয়ারফুল MCU ডেভেলপমেন্ট প্লাগইন",
+					"Arduino IDE এর রিপ্লেসমেন্ট",
+					"কম্পাইলার",
+					"ডিবাগার"
+				],
+				"answer": "VS Code এর জন্য পাওয়ারফুল MCU ডেভেলপমেন্ট প্লাগইন",
+				"explanation": "৫০০+ বোর্ড সাপোর্ট করে।"
+			},
+			{
+				"id": 182,
+				"question": "Git কেন ব্যবহার করা হয় প্রজেক্টে?",
+				"options": [
+					"ভার্সন কন্ট্রোল, টিম ওয়ার্ক",
+					"কোড কম্পাইল",
+					"ডিবাগ",
+					"ডকুমেন্টেশন"
+				],
+				"answer": "ভার্সন কন্ট্রোল, টিম ওয়ার্ক",
+				"explanation": "কোড হারানোর ভয় থাকে না।"
+			},
+			{
+				"id": 183,
+				"question": "Makefile কী কাজ করে?",
+				"options": [
+					"কম্পাইল প্রক্রিয়া অটোমেট করে",
+					"কোড লেখে",
+					"ডিবাগ করে",
+					"হার্ডওয়্যার ডিজাইন করে"
+				],
+				"answer": "কম্পাইল প্রক্রিয়া অটোমেট করে",
+				"explanation": "PlatformIO তেও ব্যবহৃত হয়।"
+			},
+			{
+				"id": 184,
+				"question": "Static Library ও Dynamic Library এর পার্থক্য কী?",
+				"options": [
+					"Static – কম্পাইল টাইমে লিঙ্ক, Dynamic – রান টাইমে",
+					"সাইজ",
+					"গতি",
+					"দাম"
+				],
+				"answer": "Static – কম্পাইল টাইমে লিঙ্ক, Dynamic – রান টাইমে",
+				"explanation": "MCU তে সাধারণত Static ব্যবহার করা হয়।"
+			},
+			{
+				"id": 185,
+				"question": "Bootloader size কেন কম রাখতে হয়?",
+				"options": [
+					"যাতে বেশি ফ্ল্যাশ প্রোগ্রামের জন্য থাকে",
+					"গতি বাড়ে",
+					"পাওয়ার কমে",
+					"মেমরি বাড়ে"
+				],
+				"answer": "যাতে বেশি ফ্ল্যাশ প্রোগ্রামের জন্য থাকে",
+				"explanation": "Arduino Uno তে মাত্র ৫১২ বাইট বুটলোডার।"
+			},
+			{
+				"id": 186,
+				"question": "Fuse bit লক করলে কী হয়?",
+				"options": [
+					"MCU আর প্রোগ্রাম করা যায় না (ব্রিক হয়ে যেতে পারে)",
+					"আনলক হয়",
+					"প্রোগ্রাম মুছে যায়",
+					"স্পিড বাড়ে"
+				],
+				"answer": "MCU আর প্রোগ্রাম করা যায় না (ব্রিক হয়ে যেতে পারে)",
+				"explanation": "তাই সাবধানে সেট করতে হয়।"
+			},
+			{
+				"id": 187,
+				"question": "HVPP (High Voltage Parallel Programming) কখন লাগে?",
+				"options": [
+					"Fuse rescue বা লকড MCU আনলক করতে",
+					"সাধারণ প্রোগ্রামিং",
+					"OTA",
+					"USB দিয়ে"
+				],
+				"answer": "Fuse rescue বা লকড MCU আনলক করতে",
+				"explanation": "১২ভোল্ট লাগে RESET পিনে।"
+			},
+			{
+				"id": 188,
+				"question": "DFU Mode কী?",
+				"options": [
+					"Device Firmware Upgrade – USB দিয়ে প্রোগ্রাম",
+					"JTAG",
+					"SWD",
+					"ISP"
+				],
+				"answer": "Device Firmware Upgrade – USB দিয়ে প্রোগ্রাম",
+				"explanation": "STM32 তে বুটলোডার মোড।"
+			},
+			{
+				"id": 189,
+				"question": "Watchdog timeout কতক্ষণ সেট করা ভালো?",
+				"options": [
+					"প্রোগ্রামের সবচেয়ে লম্বা লুপের চেয়ে একটু বেশি",
+					"খুব কম",
+					"খুব বেশি",
+					"অফ করে দেওয়া"
+				],
+				"answer": "প্রোগ্রামের সবচেয়ে লম্বা লুপের চেয়ে একটু বেশি",
+				"explanation": "যাতে নরমাল অপারেশনে রিসেট না করে।"
+			},
+			{
+				"id": 190,
+				"question": "Brown Out Detection (BOD) লেভেল কত সেট করা উচিত?",
+				"options": [
+					"ভোল্টেজের নিচে যেন ভুল কোড না চলে (সাধারণত ২.৭V বা ৪.৩V)",
+					"০V",
+					"৫V",
+					"অফ করা"
+				],
+				"answer": "ভোল্টেজের নিচে যেন ভুল কোড না চলে (সাধারণত ২.৭V বা ৪.৩V)",
+				"explanation": "ডেটা করাপশন প্রিভেন্ট করে।"
+			},
+			{
+				"id": 191,
+				"question": "Interrupt latency কী?",
+				"options": [
+					"ইন্টারাপ্ট আসার পর থেকে ISR শুরু হওয়া পর্যন্ত সময়",
+					"ইন্টারাপ্টের মধ্যে সময়",
+					"টাইমারের ডিলে",
+					"ক্লক স্পিড"
+				],
+				"answer": "ইন্টারাপ্ট আসার পর থেকে ISR শুরু হওয়া পর্যন্ত সময়",
+				"explanation": "কম হলে রিয়েল টাইম সিস্টেম ভালো কাজ করে।"
+			},
+			{
+				"id": 192,
+				"question": "Race Condition কী?",
+				"options": [
+					"দুটি থ্রেড/ইন্টারাপ্ট একই ভ্যারিয়েবল অ্যাক্সেস করলে ভুল হয়",
+					"মেমরি লিক",
+					"স্পিড কমে যাওয়া",
+					"পাওয়ার বেশি খাওয়া"
+				],
+				"answer": "দুটি থ্রেড/ইন্টারাপ্ট একই ভ্যারিয়েবল অ্যাক্সেস করলে ভুল হয়",
+				"explanation": "volatile কীওয়ার্ড ও ক্রিটিক্যাল সেকশন দিয়ে সমাধান।"
+			},
+			{
+				"id": 193,
+				"question": "Stack Overflow কوار জন্য কী করা উচিত?",
+				"options": [
+					"যথেষ্ট বড় স্ট্যাক সাইজ রাখা, রিকার্শন কম করা",
+					"বেশি র‍্যাম যোগ করা",
+					"ক্লক বাড়ানো",
+					"পাওয়ার কমানো"
+				],
+				"answer": "যথেষ্ট বড় স্ট্যাক সাইজ রাখা, রিকার্শন কম করা",
+				"explanation": "অনেক ফাংশন কল বা বড় লোকাল অ্যারে থাকলে হয়।"
+			},
+			{
+				"id": 194,
+				"question": "Hard Fault কী?",
+				"options": [
+					"ARM Cortex-M এ গুরুতর এরর (যেমন ইনভ্যালিড মেমরি অ্যাক্সেস)",
+					"সাধারণ এরর",
+					"WDT রিসেট",
+					"BOD রিসেট"
+				],
+				"answer": "ARM Cortex-M এ গুরুতর এরর (যেমন ইনভ্যালিড মেমরি অ্যাক্সেস)",
+				"explanation": "STM32 এ HardFault_Handler ডিবাগ করতে হয়।"
+			},
+			{
+				"id": 195,
+				"question": "Code Optimization এ -Os মানে কী?",
+				"options": [
+					"Size এর জন্য অপটিমাইজ করা",
+					"Speed এর জন্য",
+					"Debug এর জন্য",
+					"Power এর জন্য"
+				],
+				"answer": "Size এর জন্য অপটিমাইজ করা",
+				"explanation": "MCU তে ফ্ল্যাশ বাঁচানোর জন্য খুব গুরুত্বপূর্ণ।"
+			},
+			{
+				"id": 196,
+				"question": "__attribute__((section(\".ccmram\"))) কী কাজ করে?",
+				"options": [
+					"ভ্যারিয়েবল/ফাংশন CCM RAM এ রাখে (দ্রুত)",
+					"ফ্ল্যাশে রাখে",
+					"EEPROM এ",
+					"SDRAM এ"
+				],
+				"answer": "ভ্যারিয়েবল/ফাংশন CCM RAM এ রাখে (দ্রুত)",
+				"explanation": "STM32F4 তে পারফরম্যান্স বাড়ানোর জন্য।"
+			},
+			{
+				"id": 197,
+				"question": "Bit-field কী সুবিধা দেয়?",
+				"options": [
+					"মেমরি বাঁচায় (যেমন bool ১ বিটে)",
+					"গতি বাড়ায়",
+					"কোড সাইজ কমায়",
+					"পাওয়ার কমায়"
+				],
+				"answer": "মেমরি বাঁচায় (যেমন bool ১ বিটে)",
+				"explanation": "কিন্তু খুব বেশি ব্যবহার করলে কোড ধীর হতে পারে।"
+			},
+			{
+				"id": 198,
+				"question": "Const keyword এর সুবিধা কী?",
+				"options": [
+					"ফ্ল্যাশে রাখে, RAM বাঁচায়",
+					"RAM এ রাখে",
+					"স্পিড কমায়",
+					"পাওয়ার বাড়ায়"
+				],
+				"answer": "ফ্ল্যাশে রাখে, RAM বাঁচায়",
+				"explanation": "const uint8_t array[] = {1,2,3}; → ফ্ল্যাশে থাকবে।"
+			},
+			{
+				"id": 199,
+				"question": "Inline function কখন ব্যবহার করা উচিত?",
+				"options": [
+					"ছোট ফাংশন যা বারবার কল হয়",
+					"বড় ফাংশন",
+					"রিকার্সিভ ফাংশন",
+					"ইন্টারাপ্টে"
+				],
+				"answer": "ছোট ফাংশন যা বারবার কল হয়",
+				"explanation": "ফাংশন কল ওভারহেড কমে।"
+			},
+			{
+				"id": 200,
+				"question": "RTOS এ Task এর Priority কীভাবে কাজ করে?",
+				"options": [
+					"উঁচু প্রায়োরিটি টাস্ক প্রথমে চলে (Preemptive)",
+					"সব সমান",
+					"Round robin",
+					"FIFO"
+				],
+				"answer": "উঁচু প্রায়োরিটি টাস্ক প্রথমে চলে (Preemptive)",
+				"explanation": "FreeRTOS ডিফল্ট Preemptive।"
+			}
+		],
 		"DeepLearning": [
 			{
 				"id": 1,
