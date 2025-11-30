@@ -2404,6 +2404,32 @@
 				"explanation": "{} ব্যবহার করে একটি খালি অবজেক্ট তৈরি করা হয়।"
 			}
 		],
+		"Pythonww": [
+			{
+				"id": 1,
+				"question": "What is the output of the following code?\n\nprint('Hello, World!')",
+				"options": [
+					"Hello, World!",
+					"hello world",
+					"Error",
+					"None"
+				],
+				"answer": "Hello, World!",
+				"explanation": "The `print` function outputs the string 'Hello, World!' as it appears."
+			},
+			{
+				"id": 2,
+				"question": "Which keyword is used to define a function in Python?",
+				"options": [
+					"function",
+					"define",
+					"def",
+					"func"
+				],
+				"answer": "def",
+				"explanation": "In Python, the keyword `def` is used to define a function."
+			}
+		],
 		"C&C++": [
 			{
 				"id": 1,
