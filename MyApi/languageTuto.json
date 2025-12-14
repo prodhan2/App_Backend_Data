@@ -1,1248 +1,1242 @@
 {
-  "title": "Programming Languages Tutorials (বাংলা)",
-  "level": "Beginner to Advanced",
-  "author_note": "Developed for Bangladeshi learners. Includes real-world examples: SMS via BulkSMSBD, CLI tools, and Flutter-relevant patterns.",
-  "tutorials": [
-    {
-      "language": "C",
-      "description": "C একটি Procedural Programming Language যা দ্রুত এবং শক্তিশালী।",
-      "steps": [
-        {
-          "step": 1,
-          "title": "C কী?",
-          "content": "C হলো একটি low-level এর কাছাকাছি প্রোগ্রামিং ভাষা। OS, Embedded System-এ ব্যবহৃত হয়।"
-        },
-        {
-          "step": 2,
-          "title": "Hello World",
-          "code": "#include <stdio.h>\\nint main() {\\n  printf(\"Hello World\\\\n\");\\n  return 0;\\n}",
-          "output": "Hello World"
-        },
-        {
-          "step": 3,
-          "title": "ভেরিয়েবল ঘোষণা",
-          "code": "#include <stdio.h>\\nint main() {\\n  int x = 10; float pi = 3.14; char ch = 'A';\\n  printf(\"%d, %.2f, %c\\\\n\", x, pi, ch);\\n  return 0;\\n}",
-          "output": "10, 3.14, A"
-        },
-        {
-          "step": 4,
-          "title": "ইউজার ইনপুট (scanf)",
-          "code": "#include <stdio.h>\\nint main() {\\n  int num;\\n  printf(\"Enter a number: \");\\n  scanf(\"%d\", &num);\\n  printf(\"You entered: %d\\\\n\", num);\\n  return 0;\\n}",
-          "output": "Enter a number: 42\\nYou entered: 42"
-        },
-        {
-          "step": 5,
-          "title": "বিভিন্ন ডেটা টাইপ",
-          "code": "#include <stdio.h>\\nint main() {\\n  short s = 32767; long l = 1000000L; double d = 123.456;\\n  printf(\"%hd, %ld, %.3lf\\\\n\", s, l, d);\\n  return 0;\\n}",
-          "output": "32767, 1000000, 123.456"
-        },
-        {
-          "step": 6,
-          "title": "কনস্ট্যান্ট (const & #define)",
-          "code": "#include <stdio.h>\\n#define PI 3.1416\\nint main() {\\n  const int MAX = 100;\\n  printf(\"PI = %.4f, MAX = %d\\\\n\", PI, MAX);\\n  return 0;\\n}",
-          "output": "PI = 3.1416, MAX = 100"
-        },
-        {
-          "step": 7,
-          "title": "অ্যারিথমেটিক অপারেটর",
-          "code": "#include <stdio.h>\\nint main() {\\n  int a = 10, b = 3;\\n  printf(\"%d + %d = %d\\\\n\", a, b, a + b);\\n  printf(\"%d %% %d = %d\\\\n\", a, b, a % b);\\n  return 0;\\n}",
-          "output": "10 + 3 = 13\\n10 % 3 = 1"
-        },
-        {
-          "step": 8,
-          "title": "রিলেশনাল ও লজিক্যাল অপারেটর",
-          "code": "#include <stdio.h>\\nint main() {\\n  int x = 5, y = 10;\\n  printf(\"%d < %d && %d > 0 → %d\\\\n\", x, y, x, (x < y && x > 0));\\n  return 0;\\n}",
-          "output": "5 < 10 && 5 > 0 → 1"
-        },
-        {
-          "step": 9,
-          "title": "if-else শর্ত",
-          "code": "#include <stdio.h>\\nint main() {\\n  int age = 17;\\n  if (age >= 18) {\\n    printf(\"Adult\\\\n\");\\n  } else {\\n    printf(\"Minor\\\\n\");\\n  }\\n  return 0;\\n}",
-          "output": "Minor"
-        },
-        {
-          "step": 10,
-          "title": "else-if ল্যাডার",
-          "code": "#include <stdio.h>\\nint main() {\\n  int marks = 75;\\n  if (marks >= 80) printf(\"A+\");\\n  else if (marks >= 70) printf(\"A\");\\n  else if (marks >= 60) printf(\"A-\");\\n  else printf(\"Fail\");\\n  return 0;\\n}",
-          "output": "A"
-        },
-        {
-          "step": 11,
-          "title": "switch-case",
-          "code": "#include <stdio.h>\\nint main() {\\n  char grade = 'B';\\n  switch (grade) {\\n    case 'A': printf(\"Excellent\"); break;\\n    case 'B': printf(\"Good\"); break;\\n    default: printf(\"Unknown\");\\n  }\\n  return 0;\\n}",
-          "output": "Good"
-        },
-        {
-          "step": 12,
-          "title": "for লুপ",
-          "code": "#include <stdio.h>\\nint main() {\\n  for (int i = 1; i <= 5; i++) {\\n    printf(\"%d \", i);\\n  }\\n  return 0;\\n}",
-          "output": "1 2 3 4 5"
-        },
-        {
-          "step": 13,
-          "title": "while লুপ",
-          "code": "#include <stdio.h>\\nint main() {\\n  int n = 3;\\n  while (n > 0) {\\n    printf(\"Countdown: %d\\\\n\", n);\\n    n--;\\n  }\\n  return 0;\\n}",
-          "output": "Countdown: 3\\nCountdown: 2\\nCountdown: 1"
-        },
-        {
-          "step": 14,
-          "title": "do-while লুপ",
-          "code": "#include <stdio.h>\\nint main() {\\n  int x = 5;\\n  do {\\n    printf(\"x = %d\\\\n\", x);\\n    x += 10;\\n  } while (x < 20);\\n  return 0;\\n}",
-          "output": "x = 5\\nx = 15"
-        },
-        {
-          "step": 15,
-          "title": "ফাংশন ঘোষণা ও কল",
-          "code": "#include <stdio.h>\\nint add(int a, int b) { return a + b; }\\nint main() {\\n  printf(\"Sum: %d\\\\n\", add(10, 20));\\n  return 0;\\n}",
-          "output": "Sum: 30"
-        },
-        {
-          "step": 16,
-          "title": "void ফাংশন",
-          "code": "#include <stdio.h>\\nvoid greet() {\\n  printf(\"Hello from C!\\\\n\");\\n}\\nint main() {\\n  greet();\\n  return 0;\\n}",
-          "output": "Hello from C!"
-        },
-        {
-          "step": 17,
-          "title": "পয়েন্টার বেসিক",
-          "code": "#include <stdio.h>\\nint main() {\\n  int num = 42;\\n  int *ptr = &num;\\n  printf(\"Value: %d, Address: %p, *ptr: %d\\\\n\", num, (void*)ptr, *ptr);\\n  return 0;\\n}",
-          "output": "Value: 42, Address: 0x7ffd..., *ptr: 42"
-        },
-        {
-          "step": 18,
-          "title": "1D অ্যারে",
-          "code": "#include <stdio.h>\\nint main() {\\n  int arr[3] = {10, 20, 30};\\n  for (int i = 0; i < 3; i++) {\\n    printf(\"%d \", arr[i]);\\n  }\\n  return 0;\\n}",
-          "output": "10 20 30"
-        },
-        {
-          "step": 19,
-          "title": "স্ট্রিং (char array)",
-          "code": "#include <stdio.h>\\n#include <string.h>\\nint main() {\\n  char name[20] = \"রহিম\";\\n  printf(\"Hello, %s! Length: %zu\\\\n\", name, strlen(name));\\n  return 0;\\n}",
-          "output": "Hello, রহিম! Length: 8"
-        },
-        {
-          "step": 20,
-          "title": "স্ট্রিং কনক্যাটিনেশন",
-          "code": "#include <stdio.h>\\n#include <string.h>\\nint main() {\\n  char msg[50] = \"Hello, \";\\n  strcat(msg, \"বাংলাদেশ!\");\\n  printf(\"%s\\\\n\", msg);\\n  return 0;\\n}",
-          "output": "Hello, বাংলাদেশ!"
-        },
-        {
-          "step": 21,
-          "title": "স্ট্রাকচার (struct) — OOP-এর বেসিক",
-          "content": "C-তে ক্লাস নেই, কিন্তু struct দিয়ে অবজেক্ট-এর মতো ডেটা গ্রুপ করা যায়।",
-          "code": "#include <stdio.h>\\nstruct Student {\\n  char name[20];\\n  int roll;\\n};\\nint main() {\\n  struct Student s1 = {\"সাকিব\", 101};\\n  printf(\"%s, Roll: %d\\\\n\", s1.name, s1.roll);\\n  return 0;\\n}",
-          "output": "সাকিব, Roll: 101"
-        },
-        {
-          "step": 22,
-          "title": "ফাংশন পয়েন্টার",
-          "code": "#include <stdio.h>\\nint add(int a, int b) { return a + b; }\\nint main() {\\n  int (*func)(int, int) = &add;\\n  printf(\"5+3 = %d\\\\n\", func(5, 3));\\n  return 0;\\n}",
-          "output": "5+3 = 8"
-        },
-        {
-          "step": 23,
-          "title": "ফাইল রাইট (fwrite)",
-          "code": "#include <stdio.h>\\nint main() {\\n  FILE *fp = fopen(\"data.txt\", \"w\");\\n  if (fp) {\\n    fprintf(fp, \"ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।\");\\n    fclose(fp);\\n    printf(\"ফাইল সেভ হয়েছে।\\\\n\");\\n  }\\n  return 0;\\n}",
-          "output": "ফাইল সেভ হয়েছে।"
-        },
-        {
-          "step": 24,
-          "title": "ফাইল রিড (fread)",
-          "code": "#include <stdio.h>\\nint main() {\\n  FILE *fp = fopen(\"data.txt\", \"r\");\\n  char buffer[100];\\n  if (fp && fgets(buffer, 100, fp)) {\\n    printf(\"ফাইল থেকে: %s\", buffer);\\n    fclose(fp);\\n  }\\n  return 0;\\n}",
-          "output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
-        },
-        {
-          "step": 25,
-          "title": "Error Handling (errno & perror)",
-          "code": "#include <stdio.h>\\n#include <errno.h>\\n#include <string.h>\\nint main() {\\n  FILE *fp = fopen(\"nonexistent.txt\", \"r\");\\n  if (!fp) {\\n    printf(\"Error %d: %s\\\\n\", errno, strerror(errno));\\n  }\\n  return 0;\\n}",
-          "output": "Error 2: No such file or directory"
-        },
-        {
-          "step": 26,
-          "title": "assert ব্যবহার",
-          "code": "#include <stdio.h>\\n#include <assert.h>\\nint divide(int a, int b) {\\n  assert(b != 0 && \"ভাগ শূন্য দিয়ে অসম্ভব!\");\\n  return a / b;\\n}\\nint main() {\\n  printf(\"10/2 = %d\\\\n\", divide(10, 2));\\n  // divide(5, 0); // crash with message\\n  return 0;\\n}",
-          "output": "10/2 = 5"
-        },
-        {
-          "step": 27,
-          "title": "ডাইনামিক মেমরি (malloc)",
-          "code": "#include <stdio.h>\\n#include <stdlib.h>\\nint main() {\\n  int *arr = (int*)malloc(3 * sizeof(int));\\n  if (arr) {\\n    arr[0] = 100; arr[1] = 200; arr[2] = 300;\\n    for (int i = 0; i < 3; i++) printf(\"%d \", arr[i]);\\n    free(arr);\\n  }\\n  return 0;\\n}",
-          "output": "100 200 300"
-        },
-        {
-          "step": 28,
-          "title": "কমান্ড লাইন আর্গুমেন্ট",
-          "code": "#include <stdio.h>\\nint main(int argc, char *argv[]) {\\n  printf(\"Arguments: %d\\\\n\", argc);\\n  for (int i = 0; i < argc; i++)\\n    printf(\"%d: %s\\\\n\", i, argv[i]);\\n  return 0;\\n}",
-          "output": "Arguments: 1\\n0: ./a.out"
-        },
-        {
-          "step": 29,
-          "title": "typedef দিয়ে কাস্টম টাইপ",
-          "code": "#include <stdio.h>\\ntypedef unsigned long long ULL;\\ntypedef struct { char name[30]; int age; } Person;\\nint main() {\\n  ULL big = 18446744073709551615ULL;\\n  Person p = {\"নাজমুল\", 28};\\n  printf(\"%s is %d, big=%llu\\\\n\", p.name, p.age, big);\\n  return 0;\\n}",
-          "output": "নাজমুল is 28, big=18446744073709551615"
-        },
-        {
-          "step": 30,
-          "title": "Header File তৈরি (মডুলারিটি)",
-          "content": "math_utils.h: `int square(int x);`\\nmath_utils.c: `int square(int x) { return x*x; }`\\nmain.c: `#include \"math_utils.h\" ... square(5)`",
-          "code": "/* math_utils.h */\\n#ifndef MATH_UTILS_H\\n#define MATH_UTILS_H\\nint square(int x);\\n#endif\\n\\n/* math_utils.c */\\n#include \"math_utils.h\"\\nint square(int x) { return x * x; }\\n\\n/* main.c */\\n#include <stdio.h>\\n#include \"math_utils.h\"\\nint main() { printf(\"5² = %d\\\\n\", square(5)); return 0; }",
-          "output": "5² = 25"
-        },
-        {
-          "step": 31,
-          "title": "JSON Parsing — cJSON লাইব্রেরি (3rd-party)",
-          "content": "C-তে built-in JSON নেই। cJSON (https://github.com/DaveGamble/cJSON) ব্যবহার করুন।",
-          "code": "/* Requires: #include \"cjson/cJSON.h\" and linking with -lcjson */\\n#include <stdio.h>\\n#include \"cjson/cJSON.h\"\\nint main() {\\n  const char *json = \"{\\\"name\\\":\\\"ফারহান\\\",\\\"age\\\":24}\";\\n  cJSON *root = cJSON_Parse(json);\\n  if (root) {\\n    cJSON *name = cJSON_GetObjectItem(root, \"name\");\\n    printf(\"Name: %s\\\\n\", name->valuestring);\\n    cJSON_Delete(root);\\n  }\\n  return 0;\\n}",
-          "output": "Name: ফারহান"
-        },
-        {
-          "step": 32,
-          "title": "HTTP GET — libcurl ব্যবহার",
-          "content": "C-তে HTTP built-in নেই। libcurl (https://curl.se/libcurl/) ব্যবহার করুন।",
-          "code": "/* Requires: #include <curl/curl.h> and linking with -lcurl */\\n#include <stdio.h>\\n#include <curl/curl.h>\\nint main() {\\n  CURL *curl = curl_easy_init();\\n  if (curl) {\\n    curl_easy_setopt(curl, CURLOPT_URL, \"https://httpbin.org/json\");\\n    curl_easy_perform(curl);\\n    curl_easy_cleanup(curl);\\n  }\\n  return 0;\\n}",
-          "output": "{\\n  \"slideshow\": {\\n    \"author\": \"Yours Truly\",\\n    ...\\n  }\\n}"
-        },
-        {
-          "step": 33,
-          "title": "REST API — Weather Data (libcurl + cJSON)",
-          "content": "OpenWeatherMap API থেকে তথ্য নিন (API key লাগবে)। উদাহরণ সরলীকৃত।",
-          "code": "/* Pseudo-code for brevity — full impl needs error + parsing */\\n// 1. curl GET \"https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=YOUR_KEY\"\\n// 2. Parse JSON with cJSON\\n// 3. Extract temp: root→main→temp\\nprintf(\"ঢাকার তাপমাত্রা: ~28°C (উদাহরণ)\\\\n\");",
-          "output": "ঢাকার তাপমাত্রা: ~28°C (উদাহরণ)"
-        },
-        {
-          "step": 34,
-          "title": "সিরিয়ালাইজেশন — struct to Binary File",
-          "code": "#include <stdio.h>\\nstruct Config { int id; char name[10]; };\\nint main() {\\n  struct Config c = {101, \"APP\"};\\n  FILE *f = fopen(\"config.bin\", \"wb\");\\n  fwrite(&c, sizeof(c), 1, f);\\n  fclose(f);\\n  printf(\"Binary saved.\\\\n\");\\n  return 0;\\n}",
-          "output": "Binary saved."
-        },
-        {
-          "step": 35,
-          "title": "ডিসিরিয়ালাইজেশন — Binary to struct",
-          "code": "#include <stdio.h>\\nstruct Config { int id; char name[10]; };\\nint main() {\\n  struct Config c;\\n  FILE *f = fopen(\"config.bin\", \"rb\");\\n  fread(&c, sizeof(c), 1, f);\\n  fclose(f);\\n  printf(\"Loaded: %d, %s\\\\n\", c.id, c.name);\\n  return 0;\\n}",
-          "output": "Loaded: 101, APP"
-        },
-        {
-          "step": 36,
-          "title": "মাল্টি-থ্রেডিং — pthread (basic)",
-          "code": "#include <stdio.h>\\n#include <pthread.h>\\nvoid* task(void* arg) {\\n  printf(\"Thread: Hello from thread!\\\\n\");\\n  return NULL;\\n}\\nint main() {\\n  pthread_t t;\\n  pthread_create(&t, NULL, task, NULL);\\n  pthread_join(t, NULL);\\n  printf(\"Main done.\\\\n\");\\n  return 0;\\n}",
-          "output": "Thread: Hello from thread!\\nMain done."
-        },
-        {
-          "step": 37,
-          "title": "সিগন্যাল হ্যান্ডলিং (Ctrl+C)",
-          "code": "#include <stdio.h>\\n#include <signal.h>\\n#include <unistd.h>\\nvoid handler(int sig) { printf(\"\\\\nCtrl+C pressed! Exiting...\\\\n\"); exit(0); }\\nint main() {\\n  signal(SIGINT, handler);\\n  while (1) { printf(\".\"); fflush(stdout); sleep(1); }\\n  return 0;\\n}",
-          "output": "....^C\\nCtrl+C pressed! Exiting..."
-        },
-        {
-          "step": 38,
-          "title": "CLI Calculator (সম্পূর্ণ প্রোগ্রাম)",
-          "code": "#include <stdio.h>\\nint main() {\\n  float a, b; char op;\\n  printf(\"Enter: 5 + 3 → \");\\n  scanf(\"%f %c %f\", &a, &op, &b);\\n  switch (op) {\\n    case '+': printf(\"%.2f\\\\n\", a + b); break;\\n    case '-': printf(\"%.2f\\\\n\", a - b); break;\\n    case '*': printf(\"%.2f\\\\n\", a * b); break;\\n    case '/': if (b != 0) printf(\"%.2f\\\\n\", a / b);\\n              else printf(\"Error: Div by 0\\\\n\"); break;\\n    default: printf(\"Invalid op\\\\n\");\\n  }\\n  return 0;\\n}",
-          "output": "Enter: 5 + 3 → 10.5 + 2.5\\n13.00"
-        },
-        {
-          "step": 39,
-          "title": "To-Do CLI — File-backed",
-          "content": "add, list, done কমান্ড। ডেটা `todo.txt`-এ সেভ হয়।",
-          "code": "/* Simplified version */\\n#include <stdio.h>\\n#include <string.h>\\nvoid add(char *task) {\\n  FILE *f = fopen(\"todo.txt\", \"a\");\\n  fprintf(f, \"[ ] %s\\\\n\", task);\\n  fclose(f);\\n}\\nint main() {\\n  add(\"ফ্লাটার শেখা\");\\n  printf(\"Task added.\\\\n\");\\n  return 0;\\n}",
-          "output": "Task added."
-        },
-        {
-          "step": 40,
-          "title": "প্রসেস ম্যানেজমেন্ট — fork()",
-          "code": "#include <stdio.h>\\n#include <unistd.h>\\n#include <sys/wait.h>\\nint main() {\\n  pid_t pid = fork();\\n  if (pid == 0) {\\n    printf(\"Child: PID=%d\\\\n\", getpid());\\n  } else {\\n    wait(NULL);\\n    printf(\"Parent: Child done.\\\\n\");\\n  }\\n  return 0;\\n}",
-          "output": "Child: PID=12345\\nParent: Child done."
-        },
-        {
-          "step": 41,
-          "title": "সিম্পল ব্যাংক সিস্টেম (struct + file)",
-          "content": "Account create, deposit, withdraw. Data in `accounts.dat`.",
-          "code": "/* Core logic only */\\nstruct Account { int id; char name[50]; double balance; };\\n// Functions: createAccount(), deposit(), saveToFile(), loadFromFile()\\nprintf(\"Account: 1001, Rahim, Balance: 5000.00\\\\n\");",
-          "output": "Account: 1001, Rahim, Balance: 5000.00"
-        },
-        {
-          "step": 42,
-          "title": "ইনভেন্টরি ম্যানেজমেন্ট",
-          "content": "Product ID, Name, Quantity. File-based persistence.",
-          "code": "/* Pseudo-code */\\n// struct Product { int id; char name[30]; int qty; };\\n// addProduct(\"Rice\", 100);\\n// listProducts();\\nprintf(\"1. Rice (100)\\\\n2. Oil (50)\\\\n\");",
-          "output": "1. Rice (100)\\n2. Oil (50)"
-        },
-        {
-          "step": 43,
-          "title": "স্টুডেন্ট রেজাল্ট সিস্টেম",
-          "content": "Roll, Subjects, GPA calculation. CSV export.",
-          "code": "/* Logic */\\n// double calcGPA(int marks[]) { ... }\\nprintf(\"Roll: 101, GPA: 3.75\\\\n\");",
-          "output": "Roll: 101, GPA: 3.75"
-        },
-        {
-          "step": 44,
-          "title": "হ্যাশ টেবিল ইমপ্লিমেন্টেশন",
-          "content": "Simple hash map for key-value storage (e.g., phonebook).",
-          "code": "// #define SIZE 100\\n// struct Entry { char key[20]; char value[20]; } table[SIZE];\\nprintf(\"Added: রহিম → 017XX...\\\\n\");",
-          "output": "Added: রহিম → 017XX..."
-        },
-        {
-          "step": 45,
-          "title": "কোয়েন টর্নামেন্ট সিমুলেশন",
-          "content": "Knockout tournament bracket. Winner prediction.",
-          "code": "// char players[][20] = {\"Sakib\", \"Tamim\", \"Mushfiq\", \"Liton\"};\\n// simulateTournament(players, 4);\\nprintf(\"Winner: Sakib\\\\n\");",
-          "output": "Winner: Sakib"
-        },
-        {
-          "step": 46,
-          "title": "বাজেট ট্র্যাকার (CLI)",
-          "content": "Income/Expense logging. Monthly summary.",
-          "code": "// addTransaction(\"Salary\", 50000, 'I');\\n// addTransaction(\"Grocery\", 2500, 'E');\\nprintf(\"Balance: ৳47,500\\\\n\");",
-          "output": "Balance: ৳47,500"
-        },
-        {
-          "step": 47,
-          "title": "সিম্পল ওয়েব সার্ভার (socket.h)",
-          "content": "Basic HTTP server responding 'Hello from C!'.",
-          "code": "/* Requires socket programming */\\nprintf(\"Server running on http://localhost:8080\\\\n\");",
-          "output": "Server running on http://localhost:8080"
-        },
-        {
-          "step": 48,
-          "title": "টেক্সট এনক্রিপশন (Caesar Cipher)",
-          "code": "#include <stdio.h>\\n#include <string.h>\\nvoid encrypt(char *s, int k) {\\n  for (int i = 0; s[i]; i++)\\n    if (s[i] >= 'a' && s[i] <= 'z')\\n      s[i] = ((s[i] - 'a' + k) % 26) + 'a';\\n}\\nint main() {\\n  char msg[] = \"hello\";\\n  encrypt(msg, 3);\\n  printf(\"Encrypted: %s\\\\n\", msg);\\n  return 0;\\n}",
-          "output": "Encrypted: khoor"
-        },
-        {
-          "step": 49,
-          "title": "QR Code Generator (libqrencode)",
-          "content": "Using `libqrencode` to generate QR for URLs/numbers.",
-          "code": "/* Requires libqrencode */\\n// QRcode *qrcode = QRcode_encodeString(\"01902****8\", 0, QR_ECLEVEL_L, QR_MODE_8, 1);\\nprintf(\"QR generated for: 01902****8\\\\n\");",
-          "output": "QR generated for: 01902****8"
-        },
-        {
-          "step": 50,
-          "title": "Embedded SMS — GSM Modem (AT commands)",
-          "content": "Send SMS via SIM800L/GSM module using serial (UART) and AT commands.",
-          "code": "/* Pseudo-code for microcontroller */\\n// serial_print(\"AT+CMGF=1\\\\r\\\\n\");\\n// delay(1000);\\n// serial_print(\"AT+CMGS=\\\\\"01902338830\\\\\"\\\\r\\\\n\");\\n// serial_print(\"Hello from C!\\\\x1A\");\\nprintf(\"SMS command sent to modem.\\\\n\");",
-          "output": "SMS command sent to modem."
-        }
-      ]
-    },
-    {
-      "language": "Python",
-      "description": "Python সহজ ও জনপ্রিয় একটি ভাষা।",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Python কী?",
-          "content": "Python একটি high-level, interpreted ভাষা। AI, Data Science, Web Dev-এ ব্যবহৃত হয়।"
-        },
-        {
-          "step": 2,
-          "title": "Hello World",
-          "code": "print(\"Hello World\")",
-          "output": "Hello World"
-        },
-        {
-          "step": 3,
-          "title": "ভেরিয়েবল ও ডাইনামিক টাইপিং",
-          "code": "x = 5\\ny = 3.14\\nname = \"সানা\"\\nprint(x, type(x))",
-          "output": "5 <class 'int'>"
-        },
-        {
-          "step": 4,
-          "title": "ইউজার ইনপুট",
-          "code": "age = input(\"Enter age: \")\\nprint(\"You are\", age, \"years old\")",
-          "output": "Enter age: 22\\nYou are 22 years old"
-        },
-        {
-          "step": 5,
-          "title": "বুলিয়ান ও None",
-          "code": "is_student = True\\ngraduated = None\\nprint(is_student, type(graduated))",
-          "output": "True <class 'NoneType'>"
-        },
-        {
-          "step": 6,
-          "title": "f-string ফরম্যাটিং",
-          "code": "name = \"তারেক\"\\nyear = 2025\\nprint(f\"{name} will graduate in {year}.\")",
-          "output": "তারেক will graduate in 2025."
-        },
-        {
-          "step": 7,
-          "title": "অ্যারিথমেটিক অপারেটর",
-          "code": "a, b = 15, 4\\nprint(f\"{a} // {b} = {a//b}\")",
-          "output": "15 // 4 = 3"
-        },
-        {
-          "step": 8,
-          "title": "মেম্বারশিপ ও আইডেন্টিটি অপারেটর",
-          "code": "fruits = ['আম', 'কলা']\\nprint('আম' in fruits)\\nprint(fruits is not None)",
-          "output": "True\\nTrue"
-        },
-        {
-          "step": 9,
-          "title": "if-else",
-          "code": "temp = 35\\nif temp > 30:\\n    print(\"গরম\")\\nelse:\\n    print(\"ঠান্ডা\")",
-          "output": "গরম"
-        },
-        {
-          "step": 10,
-          "title": "elif ল্যাডার",
-          "code": "score = 65\\nif score >= 80: print(\"A+\")\\nelif score >= 70: print(\"A\")\\nelif score >= 60: print(\"A-\")\\nelse: print(\"Fail\")",
-          "output": "A-"
-        },
-        {
-          "step": 11,
-          "title": "match-case (Python 3.10+)",
-          "code": "status = 200\\nmatch status:\\n    case 200: print(\"OK\")\\n    case 404: print(\"Not Found\")\\n    case _: print(\"Unknown\")",
-          "output": "OK"
-        },
-        {
-          "step": 12,
-          "title": "for লুপ (range)",
-          "code": "for i in range(1, 6):\\n    print(i, end=' ')",
-          "output": "1 2 3 4 5"
-        },
-        {
-          "step": 13,
-          "title": "for লুপ (list এর উপর)",
-          "code": "colors = [\"লাল\", \"নীল\"]\\nfor c in colors: print(f\"রং: {c}\")",
-          "output": "রং: লাল\\nরং: নীল"
-        },
-        {
-          "step": 14,
-          "title": "while লুপ",
-          "code": "count = 3\\nwhile count > 0:\\n    print(f\"{count}...\")\\n    count -= 1",
-          "output": "3...\\n2...\\n1..."
-        },
-        {
-          "step": 15,
-          "title": "ফাংশন ডেফিনিশন",
-          "code": "def multiply(a, b):\\n    return a * b\\nprint(multiply(5, 6))",
-          "output": "30"
-        },
-        {
-          "step": 16,
-          "title": "ডিফল্ট প্যারামিটার",
-          "code": "def greet(name=\"অতিথি\"):\\n    print(f\"স্বাগতম, {name}!\")\\ngreet()\\ngreet(\"ফারহানা\")",
-          "output": "স্বাগতম, অতিথি!\\nস্বাগতম, ফারহানা!"
-        },
-        {
-          "step": 17,
-          "title": "ল্যাম্বডা ফাংশন",
-          "code": "square = lambda x: x ** 2\\ncube = lambda x: x ** 3\\nprint(square(4), cube(3))",
-          "output": "16 27"
-        },
-        {
-          "step": 18,
-          "title": "লিস্ট ও ইনডেক্সিং",
-          "code": "nums = [10, 20, 30]\\nprint(nums[0], nums[-1])",
-          "output": "10 30"
-        },
-        {
-          "step": 19,
-          "title": "স্ট্রিং মেথড",
-          "code": "text = \"  বাংলা   ভাষা  \"\\nclean = text.strip().replace(' ', '-')\\nprint(clean.upper())",
-          "output": "বাংলা-ভাষা"
-        },
-        {
-          "step": 20,
-          "title": "স্ট্রিং জয়েন ও স্প্লিট",
-          "code": "words = [\"আমি\", \"সফটওয়্যার\"]\\nsentence = \" \".join(words)\\nprint(sentence.split())",
-          "output": "আমি সফটওয়্যার\\n['আমি', 'সফটওয়্যার']"
-        },
-        {
-          "step": 21,
-          "title": "ক্লাস ও অবজেক্ট",
-          "code": "class Student:\\n    def __init__(self, name, roll):\\n        self.name = name\\n        self.roll = roll\\n    \\n    def intro(self):\\n        return f\"{self.name}, Roll: {self.roll}\"\\n\\ns1 = Student(\"রিয়াদ\", 101)\\nprint(s1.intro())",
-          "output": "রিয়াদ, Roll: 101"
-        },
-        {
-          "step": 22,
-          "title": "ইনহেরিটেন্স",
-          "code": "class Person:\\n    def __init__(self, name): self.name = name\\n\\nclass Teacher(Person):\\n    def __init__(self, name, subject):\\n        super().__init__(name)\\n        self.subject = subject\\n    \\n    def teach(self):\\n        return f\"{self.name} teaches {self.subject}\"\\n\\nt = Teacher(\"নাসরিন\", \"গণিত\")\\nprint(t.teach())",
-          "output": "নাসরিন teaches গণিত"
-        },
-        {
-          "step": 23,
-          "title": "পলিমরফিজম",
-          "code": "class Animal:\\n    def sound(self): pass\\n\\nclass Dog(Animal):\\n    def sound(self): return \"Woof!\"\\n\\nclass Cat(Animal):\\n    def sound(self): return \"Meow!\"\\n\\nfor a in [Dog(), Cat()]:\\n    print(a.sound())",
-          "output": "Woof!\\nMeow!"
-        },
-        {
-          "step": 24,
-          "title": "ফাইল রাইট (write)",
-          "code": "with open(\"note.txt\", \"w\", encoding=\"utf-8\") as f:\\n    f.write(\"ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।\")\\nprint(\"ফাইল সেভ হয়েছে।\")",
-          "output": "ফাইল সেভ হয়েছে।"
-        },
-        {
-          "step": 25,
-          "title": "ফাইল রিড (read)",
-          "code": "with open(\"note.txt\", \"r\", encoding=\"utf-8\") as f:\\n    content = f.read()\\nprint(\"ফাইল থেকে:\", content.splitlines()[0])",
-          "output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
-        },
-        {
-          "step": 26,
-          "title": "Exception Handling (try-except)",
-          "code": "try:\\n    result = 10 / 0\\nexcept ZeroDivisionError as e:\\n    print(f\"Error: {e}\")\\nelse:\\n    print(\"Success\")\\nfinally:\\n    print(\"Done.\")",
-          "output": "Error: division by zero\\nDone."
-        },
-        {
-          "step": 27,
-          "title": "Custom Exception",
-          "code": "class AgeError(Exception):\\n    pass\\n\\ndef vote(age):\\n    if age < 18:\\n        raise AgeError(\"অপ্রাপ্তবয়স্ক!\")\\n    return \"ভোট দিতে পারবেন\"\\n\\ntry:\\n    print(vote(16))\\nexcept AgeError as e:\\n    print(\"Error:\", e)",
-          "output": "Error: অপ্রাপ্তবয়স্ক!"
-        },
-        {
-          "step": 28,
-          "title": "logging মডিউল",
-          "code": "import logging\\nlogging.basicConfig(level=logging.INFO)\\nlogger = logging.getLogger(__name__)\\nlogger.info(\"এ্যাপ শুরু হয়েছে\")\\nlogger.error(\"ফাইল পাওয়া যায়নি\")",
-          "output": "INFO:root:এ্যাপ শুরু হয়েছে\\nERROR:root:ফাইল পাওয়া যায়নি"
-        },
-        {
-          "step": 29,
-          "title": "Context Manager (with ছাড়া)",
-          "code": "class FileManager:\\n    def __init__(self, filename):\\n        self.filename = filename\\n    \\n    def __enter__(self):\\n        self.file = open(self.filename, 'w', encoding='utf-8')\\n        return self.file\\n    \\n    def __exit__(self, exc_type, exc_val, exc_tb):\\n        self.file.close()\\n\\nwith FileManager(\"test.txt\") as f:\\n    f.write(\"Context manager দিয়ে লেখা\")\\nprint(\"ফাইল বন্ধ হয়েছে।\")",
-          "output": "ফাইল বন্ধ হয়েছে।"
-        },
-        {
-          "step": 30,
-          "title": "pickle — Object Serialization",
-          "code": "import pickle\\n\\nclass Student:\\n    def __init__(self, name): self.name = name\\n\\ns = Student(\"জামাল\")\\n\\n# Save\\nwith open(\"student.pkl\", \"wb\") as f:\\n    pickle.dump(s, f)\\n\\n# Load\\nwith open(\"student.pkl\", \"rb\") as f:\\n    s2 = pickle.load(f)\\n\\nprint(\"Loaded:\", s2.name)",
-          "output": "Loaded: জামাল"
-        },
-        {
-          "step": 31,
-          "title": "JSON Parsing (built-in json)",
-          "code": "import json\\n\\ndata = '{\"name\": \"ফারহান\", \"age\": 24}'\\nobj = json.loads(data)\\nprint(\"Name:\", obj[\"name\"])\\n\\n# Convert back\\ndata2 = json.dumps(obj, ensure_ascii=False)\\nprint(data2)",
-          "output": "Name: ফারহান\\n{\"name\": \"ফারহান\", \"age\": 24}"
-        },
-        {
-          "step": 32,
-          "title": "HTTP GET — requests লাইব্রেরি",
-          "code": "# pip install requests\\nimport requests\\n\\ntry:\\n    res = requests.get(\"https://httpbin.org/json\", timeout=5)\\n    print(\"Status:\", res.status_code)\\n    data = res.json()\\n    print(\"Author:\", data['slideshow']['author'])\\nexcept Exception as e:\\n    print(\"Error:\", e)",
-          "output": "Status: 200\\nAuthor: Yours Truly"
-        },
-        {
-          "step": 33,
-          "title": "REST API — Weather (OpenWeatherMap)",
-          "code": "# Requires API key\\nimport requests\\n\\nAPI_KEY = \"your_key_here\"\\nurl = f\"https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid={API_KEY}&units=metric\"\\n\\ntry:\\n    res = requests.get(url)\\n    if res.status_code == 200:\\n        temp = res.json()['main']['temp']\\n        print(f\"ঢাকার তাপমাত্রা: {temp:.1f}°C\")\\n    else:\\n        print(\"Error:\", res.status_code)\\nexcept:\\n    print(\"Network error\")",
-          "output": "ঢাকার তাপমাত্রা: 28.5°C"
-        },
-        {
-          "step": 34,
-          "title": "POST Request — JSON Data",
-          "code": "import requests\\n\\nurl = \"https://httpbin.org/post\"\\ndata = {\"name\": \"সাবরিনা\", \"phone\": \"01902****8\"}\\n\\nres = requests.post(url, json=data)\\nprint(\"Status:\", res.status_code)\\nprint(\"Sent name:\", res.json()['json']['name'])",
-          "output": "Status: 200\\nSent name: সাবরিনা"
-        },
-        {
-          "step": 35,
-          "title": "Async HTTP — aiohttp (Advanced)",
-          "code": "# pip install aiohttp\\nimport asyncio\\nimport aiohttp\\n\\nasync def fetch():\\n    async with aiohttp.ClientSession() as session:\\n        async with session.get('https://httpbin.org/delay/1') as res:\\n            return await res.text()[:50]\\n\\nresult = asyncio.run(fetch())\\nprint(\"Partial response:\", result)",
-          "output": "Partial response: {\\n  \"args\": {}, \\n  \"data\": \"\", \\n  \"files\": {}, ..."
-        },
-        {
-          "step": 36,
-          "title": "CSV Read/Write",
-          "code": "import csv\\n\\n# Write\\nwith open(\"students.csv\", \"w\", newline='', encoding='utf-8') as f:\\n    writer = csv.writer(f)\\n    writer.writerow([\"নাম\", \"রোল\"])\\n    writer.writerow([\"রহিম\", 101])\\n\\n# Read\\nwith open(\"students.csv\", encoding='utf-8') as f:\\n    reader = csv.reader(f)\\n    for row in reader:\\n        print(row)",
-          "output": "['নাম', 'রোল']\\n['রহিম', '101']"
-        },
-        {
-          "step": 37,
-          "title": "SQLite Database",
-          "code": "import sqlite3\\n\\nconn = sqlite3.connect(':memory:')\\nc = conn.cursor()\\nc.execute(\"CREATE TABLE users (name TEXT, age INT)\")\\nc.execute(\"INSERT INTO users VALUES (?, ?)\", (\"তারেক\", 28))\\nc.execute(\"SELECT * FROM users\")\\nprint(c.fetchone())\\nconn.close()",
-          "output": "('তারেক', 28)"
-        },
-        {
-          "step": 38,
-          "title": "CLI Calculator (argparse)",
-          "code": "import argparse\\n\\nparser = argparse.ArgumentParser()\\nparser.add_argument('x', type=float)\\nparser.add_argument('op')\\nparser.add_argument('y', type=float)\\nargs = parser.parse_args()\\n\\nops = {'+': lambda a,b: a+b, '-': lambda a,b: a-b}\\nresult = ops.get(args.op, lambda a,b: 'Invalid')(args.x, args.y)\\nprint(f\"{args.x} {args.op} {args.y} = {result}\")",
-          "output": "$ python calc.py 10 + 5\\n10.0 + 5.0 = 15.0"
-        },
-        {
-          "step": 39,
-          "title": "To-Do CLI — JSON-backed",
-          "code": "import json, os\\nFILE = \"todo.json\"\\n\\ndef load(): return json.load(open(FILE)) if os.path.exists(FILE) else []\\ndef save(todos): json.dump(todos, open(FILE, 'w'), ensure_ascii=False, indent=2)\\n\\ntodos = load()\\ntodos.append({\"task\": \"ফ্লাটার শেখা\", \"done\": False})\\nsave(todos)\\nprint(\"Task added.\")",
-          "output": "Task added."
-        },
-        {
-          "step": 40,
-          "title": "Web Scraper — BeautifulSoup",
-          "code": "# pip install requests beautifulsoup4\\nimport requests\\nfrom bs4 import BeautifulSoup\\n\\nres = requests.get(\"https://example.com\")\\nsoup = BeautifulSoup(res.text, 'html.parser')\\nprint(\"Title:\", soup.title.string)",
-          "output": "Title: Example Domain"
-        },
-        {
-          "step": 41,
-          "title": "CLI Calculator (Full)",
-          "code": "def calc():\\n    while True:\\n        try:\\n            expr = input(\"> \")\\n            if expr.lower() in ['exit', 'q']: break\\n            print(eval(expr))  # For demo only; unsafe in prod!\\n        except Exception as e:\\n            print(\"Error:\", e)\\n\\n# calc()  # Uncomment to run\\nprint(\"Demo: 2+3*4 =\", 2+3*4)",
-          "output": "Demo: 2+3*4 = 14"
-        },
-        {
-          "step": 42,
-          "title": "To-Do App (Terminal UI)",
-          "code": "# Simplified\\ntodos = []\\ndef add(t): todos.append({'task': t, 'done': False})\\ndef list_():\\n    for i, t in enumerate(todos, 1):\\n        mark = '✓' if t['done'] else ' '\\n        print(f\"{i}. [{mark}] {t['task']}\")\\n\\nadd(\"ফ্লাটার শেখা\")\\nadd(\"Firebase কানেক্ট করা\")\\nlist_()",
-          "output": "1. [ ] ফ্লাটার শেখা\\n2. [ ] Firebase কানেক্ট করা"
-        },
-        {
-          "step": 43,
-          "title": "SMS Sender — BulkSMSBD (Python)",
-          "content": "Uses BulkSMSBD API. Replace `YOUR_TOKEN`.",
-          "code": "import requests\\n\\ndef send_sms(to, msg, token=\"YOUR_TOKEN\"):\\n    url = \"https://bulksmsbd.net/api/smsapi\"\\n    payload = {\\n        'api_key': token,\\n        'senderid': '8809617610123',  # Your approved sender ID\\n        'number': to,\\n        'message': msg\\n    }\\n    try:\\n        res = requests.post(url, data=payload)\\n        return res.json()\\n    except Exception as e:\\n        return {'error': str(e)}\\n\\n# Demo (masked number)\\n# result = send_sms(\"01902****8\", \"হ্যালো! এটি টেস্ট SMS।\")\\nprint(\"SMS function ready. Use send_sms('01902...8', 'msg')\")",
-          "output": "SMS function ready. Use send_sms('01902...8', 'msg')"
-        },
-        {
-          "step": 44,
-          "title": "Weather CLI Tool",
-          "code": "# Using step 33 logic\\nprint(\"Weather CLI: $ python weather.py Dhaka\")\\nprint(\"→ ঢাকার তাপমাত্রা: 28.5°C\")",
-          "output": "Weather CLI: $ python weather.py Dhaka\\n→ ঢাকার তাপমাত্রা: 28.5°C"
-        },
-        {
-          "step": 45,
-          "title": "URL Shortener (bit.ly API)",
-          "code": "# Requires bit.ly API key\\nimport requests\\n\\ndef shorten(url, token=\"YOUR_BITLY_TOKEN\"):\\n    res = requests.post(\\n        \"https://api-ssl.bit.ly/v4/shorten\",\\n        json={\"long_url\": url},\\n        headers={\"Authorization\": f\"Bearer {token}\"}\\n    )\\n    return res.json().get('link', 'Error')\\n\\n# print(shorten(\"https://github.com\"))\\nprint(\"Shortener ready.\")",
-          "output": "Shortener ready."
-        },
-        {
-          "step": 46,
-          "title": "Password Generator",
-          "code": "import random, string\\n\\ndef gen_pwd(length=12):\\n    chars = string.ascii_letters + string.digits + \"!@#\"\\n    return ''.join(random.choice(chars) for _ in range(length))\\n\\nprint(\"Password:\", gen_pwd(8))",
-          "output": "Password: aB3$kL9@"
-        },
-        {
-          "step": 47,
-          "title": "File Organizer (by extension)",
-          "code": "# Pseudo-code\\n# import os, shutil\\n# for file in os.listdir():\\n#   if file.endswith('.pdf'): shutil.move(file, 'PDFs/')\\nprint(\"Organizer: Moving .pdf → PDFs/, .jpg → Images/, etc.\")",
-          "output": "Organizer: Moving .pdf → PDFs/, .jpg → Images/, etc."
-        },
-        {
-          "step": 48,
-          "title": "QR Code Generator (qrcode)",
-          "code": "# pip install qrcode[pil]\\nimport qrcode\\n\\nimg = qrcode.make(\"01902****8\")\\nimg.save(\"contact.png\")\\nprint(\"QR saved as contact.png\")",
-          "output": "QR saved as contact.png"
-        },
-        {
-          "step": 49,
-          "title": "Currency Converter (exchangerate-api)",
-          "code": "# Free tier: https://api.exchangerate-api.com\\nimport requests\\n\\nres = requests.get(\"https://api.exchangerate-api.com/v4/latest/USD\")\\ndata = res.json()\\nusd_to_bdt = data['rates']['BDT']\\namount = 10\\nprint(f\"${amount} = ৳{amount * usd_to_bdt:.2f}\")",
-          "output": "$10 = ৳1100.50"
-        },
-        {
-          "step": 50,
-          "title": "SMS Broadcast App (BulkSMSBD + CSV)",
-          "content": "Reads `numbers.csv` with [name, phone], sends personalized SMS.",
-          "code": "import csv, time\\n# Assume send_sms() from step 43\\n\\ndef broadcast():\\n    with open('contacts.csv', encoding='utf-8') as f:\\n        for row in csv.DictReader(f):\\n            msg = f\"প্রিয় {row['name']}, আপনার অ্যাকাউন্টে ৳50 বোনাস!\"\\n            # send_sms(row['phone'], msg)\\n            print(f\"→ {row['phone'][:7]}...: {msg[:20]}...\")\\n            time.sleep(1)  # Avoid rate limit\\n\\n# broadcast()\\nprint(\"Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য...")",
-          "output": "Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য..."
-        }
-      ]
-    },
-    {
-      "language": "JavaScript",
-      "description": "JavaScript হলো Web এর প্রধান ভাষা।",
-      "steps": [
-        {
-          "step": 1,
-          "title": "JavaScript কী?",
-          "content": "JS দিয়ে ওয়েবপেজকে ইন্টারঅ্যাকটিভ করা হয়। ব্রাউজার ও Node.js-এ চলে।"
-        },
-        {
-          "step": 2,
-          "title": "Hello World",
-          "code": "console.log(\"Hello World\");",
-          "output": "Hello World"
-        },
-        {
-          "step": 3,
-          "title": "ভেরিয়েবল (let, const, var)",
-          "code": "let age = 25;\\nconst PI = 3.14;\\nvar name = \"জাকির\";\\nconsole.log(age, PI, name);",
-          "output": "25 3.14 জাকির"
-        },
-        {
-          "step": 4,
-          "title": "ইনপুট (prompt) & আউটপুট",
-          "code": "let mood = prompt(\"আপনার মুড কী?\");\\nconsole.log(`Mood: ${mood}`);",
-          "output": "Mood: ভালো"
-        },
-        {
-          "step": 5,
-          "title": "প্রাইমিটিভ ডেটা টাইপ",
-          "code": "console.log(typeof 42); console.log(typeof null);",
-          "output": "number\\nobject"
-        },
-        {
-          "step": 6,
-          "title": "টেমপ্লেট লিটারাল",
-          "code": "let city = \"ঢাকা\";\\nconsole.log(`আমি ${city}-তে থাকি।`);",
-          "output": "আমি ঢাকা-তে থাকি।"
-        },
-        {
-          "step": 7,
-          "title": "অ্যারিথমেটিক & শর্টহ্যান্ড",
-          "code": "let x = 10; x += 5; x++; console.log(x);",
-          "output": "16"
-        },
-        {
-          "step": 8,
-          "title": "টাইপ কনভার্শন",
-          "code": "console.log(String(123)); console.log(Boolean(\"\"));",
-          "output": "123\\nfalse"
-        },
-        {
-          "step": 9,
-          "title": "if-else",
-          "code": "let hour = 14;\\nif (hour < 12) console.log(\"সকাল\"); else console.log(\"বিকাল\");",
-          "output": "বিকাল"
-        },
-        {
-          "step": 10,
-          "title": "else-if ল্যাডার",
-          "code": "let score = 88;\\nlet g = score >= 80 ? 'A' : score >= 70 ? 'B' : 'C';\\nconsole.log(g);",
-          "output": "A"
-        },
-        {
-          "step": 11,
-          "title": "Ternary Operator",
-          "code": "let age = 19;\\nlet status = age >= 18 ? \"ভোট দিতে পারবেন\" : \"অপ্রাপ্তবয়স্ক\";\\nconsole.log(status);",
-          "output": "ভোট দিতে পারবেন"
-        },
-        {
-          "step": 12,
-          "title": "for লুপ",
-          "code": "for (let i = 1; i <= 3; i++) console.log(`Step ${i}`);",
-          "output": "Step 1\\nStep 2\\nStep 3"
-        },
-        {
-          "step": 13,
-          "title": "while লুপ",
-          "code": "let i = 1;\\nwhile (i <= 3) { console.log(`Count: ${i}`); i++; }",
-          "output": "Count: 1\\nCount: 2\\nCount: 3"
-        },
-        {
-          "step": 14,
-          "title": "do-while লুপ",
-          "code": "let n = 0;\\ndo { console.log(`n = ${n}`); n++; } while (n < 3);",
-          "output": "n = 0\\nn = 1\\nn = 2"
-        },
-        {
-          "step": 15,
-          "title": "ফাংশন ডেফিনিশন",
-          "code": "function add(a, b) { return a + b; }\\nconsole.log(add(7, 8));",
-          "output": "15"
-        },
-        {
-          "step": 16,
-          "title": "Arrow Function",
-          "code": "const greet = () => console.log(\"হ্যালো!\");\\ngreet();",
-          "output": "হ্যালো!"
-        },
-        {
-          "step": 17,
-          "title": "ডিফল্ট প্যারামিটার",
-          "code": "function sayHi(name = \"অজানা\") { return `হ্যালো, ${name}!`; }\\nconsole.log(sayHi());",
-          "output": "হ্যালো, অজানা!"
-        },
-        {
-          "step": 18,
-          "title": "অ্যারে বেসিক",
-          "code": "let phones = [\"iPhone\", \"Samsung\"];\\nphones.push(\"Realme\");\\nconsole.log(phones[0], phones.length);",
-          "output": "iPhone 3"
-        },
-        {
-          "step": 19,
-          "title": "স্ট্রিং মেথড",
-          "code": "let str = \"  জাভাস্ক্রিপ্ট  \";\\nconsole.log(str.trim().toUpperCase());",
-          "output": "জাভাস্ক্রিপ্ট"
-        },
-        {
-          "step": 20,
-          "title": "অ্যারে ম্যাপ ও ফিল্টার",
-          "code": "let nums = [1, 2, 3];\\nlet doubled = nums.map(x => x*2);\\nconsole.log(doubled);",
-          "output": "[2, 4, 6]"
-        },
-        {
-          "step": 21,
-          "title": "ক্লাস (ES6)",
-          "code": "class Student {\\n  constructor(name, roll) {\\n    this.name = name;\\n    this.roll = roll;\\n  }\\n  intro() {\\n    return `${this.name}, Roll: ${this.roll}`;\\n  }\\n}\\n\\nlet s = new Student(\"সাকিব\", 101);\\nconsole.log(s.intro());",
-          "output": "সাকিব, Roll: 101"
-        },
-        {
-          "step": 22,
-          "title": "ইনহেরিটেন্স",
-          "code": "class Person {\\n  constructor(name) { this.name = name; }\\n}\\n\\nclass Teacher extends Person {\\n  constructor(name, subject) {\\n    super(name);\\n    this.subject = subject;\\n  }\\n  teach() { return `${this.name} teaches ${this.subject}`; }\\n}\\n\\nlet t = new Teacher(\"নাসরিন\", \"গণিত\");\\nconsole.log(t.teach());",
-          "output": "নাসরিন teaches গণিত"
-        },
-        {
-          "step": 23,
-          "title": "স্ট্যাটিক মেথড",
-          "code": "class MathUtils {\\n  static pi() { return 3.1416; }\\n  static square(x) { return x * x; }\\n}\\n\\nconsole.log(MathUtils.pi(), MathUtils.square(5));",
-          "output": "3.1416 25"
-        },
-        {
-          "step": 24,
-          "title": "ফাইল রাইট — Node.js (fs)",
-          "code": "const fs = require('fs');\\nfs.writeFileSync('note.txt', 'ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।', 'utf8');\\nconsole.log('ফাইল সেভ হয়েছে।');",
-          "output": "ফাইল সেভ হয়েছে।"
-        },
-        {
-          "step": 25,
-          "title": "ফাইল রিড — Node.js (fs)",
-          "code": "const fs = require('fs');\\nlet content = fs.readFileSync('note.txt', 'utf8');\\nconsole.log('ফাইল থেকে:', content.split('\\\\n')[0]);",
-          "output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
-        },
-        {
-          "step": 26,
-          "title": "Async File Read (fs.promises)",
-          "code": "const fs = require('fs').promises;\\n\\nasync function read() {\\n  try {\\n    let data = await fs.readFile('note.txt', 'utf8');\\n    console.log('Async read:', data.slice(0, 20));\\n  } catch (e) {\\n    console.error('Error:', e.message);\\n  }\\n}\\n\\nread();",
-          "output": "Async read: ফাইলে লেখা হচ্ছে..."
-        },
-        {
-          "step": 27,
-          "title": "Error Handling (try-catch)",
-          "code": "try {\\n  let result = 10 / 0;\\n  console.log(result); // Infinity\\n  notDefined(); // Throws\\n} catch (e) {\\n  console.log('Caught:', e.message);\\n} finally {\\n  console.log('Cleanup done.');\\n}",
-          "output": "Infinity\\nCaught: notDefined is not defined\\nCleanup done."
-        },
-        {
-          "step": 28,
-          "title": "Custom Error Class",
-          "code": "class ValidationError extends Error {\\n  constructor(message) {\\n    super(message);\\n    this.name = 'ValidationError';\\n  }\\n}\\n\\nfunction validateAge(age) {\\n  if (age < 0) throw new ValidationError('বয়স ঋণাত্মক হতে পারে না!');\\n  return true;\\n}\\n\\ntry {\\n  validateAge(-5);\\n} catch (e) {\\n  console.log(e.name + ':', e.message);\\n}",
-          "output": "ValidationError: বয়স ঋণাত্মক হতে পারে না!"
-        },
-        {
-          "step": 29,
-          "title": "Logging — Winston (3rd-party)",
-          "code": "// npm install winston\\n// const winston = require('winston');\\n// const logger = winston.createLogger({...});\\nconsole.log('[INFO] এ্যাপ শুরু হয়েছে');\\nconsole.error('[ERROR] কানেকশন ফেইলড');",
-          "output": "[INFO] এ্যাপ শুরু হয়েছে\\n[ERROR] কানেকশন ফেইলড"
-        },
-        {
-          "step": 30,
-          "title": "JSON Serialization",
-          "code": "let obj = { name: \"জামাল\", age: 28 };\\nlet json = JSON.stringify(obj, null, 2);\\nconsole.log('Serialized:', json);\\n\\nlet parsed = JSON.parse(json);\\nconsole.log('Parsed:', parsed.name);",
-          "output": "Serialized: {\\n  \"name\": \"জামাল\",\\n  \"age\": 28\\n}\\nParsed: জামাল"
-        },
-        {
-          "step": 31,
-          "title": "JSON Parsing (built-in)",
-          "code": "let data = '{\"name\": \"ফারহান\", \"age\": 24}';\\nlet obj = JSON.parse(data);\\nconsole.log('Name:', obj.name);",
-          "output": "Name: ফারহান"
-        },
-        {
-          "step": 32,
-          "title": "HTTP GET — fetch (Browser)",
-          "code": "fetch('https://httpbin.org/json')\\n  .then(res => res.json())\\n  .then(data => console.log('Author:', data.slideshow.author))\\n  .catch(err => console.error('Error:', err));",
-          "output": "Author: Yours Truly"
-        },
-        {
-          "step": 33,
-          "title": "HTTP GET — axios (Node.js)",
-          "code": "// npm install axios\\n// const axios = require('axios');\\n// axios.get('https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY')\\n//   .then(res => console.log(`ঢাকার তাপমাত্রা: ${res.data.main.temp}K`));\\nconsole.log('Weather: ~301K (28°C)');",
-          "output": "Weather: ~301K (28°C)"
-        },
-        {
-          "step": 34,
-          "title": "HTTP POST — fetch",
-          "code": "fetch('https://httpbin.org/post', {\\n  method: 'POST',\\n  headers: { 'Content-Type': 'application/json' },\\n  body: JSON.stringify({ name: \"সাবরিনা\", phone: \"01902****8\" })\\n})\\n.then(res => res.json())\\n.then(data => console.log('Sent:', data.json.name));",
-          "output": "Sent: সাবরিনা"
-        },
-        {
-          "step": 35,
-          "title": "Async/Await",
-          "code": "async function getData() {\\n  try {\\n    let res = await fetch('https://httpbin.org/delay/1');\\n    let text = await res.text();\\n    console.log('Partial:', text.substring(0, 50));\\n  } catch (e) {\\n    console.error('Fail:', e);\\n  }\\n}\\n\\ngetData();",
-          "output": "Partial: {\\n  \"args\": {}, \\n  \"data\": \"\", \\n  \"files\": {}, ..."
-        },
-        {
-          "step": 36,
-          "title": "CSV Parsing — PapaParse",
-          "code": "// Browser: <script src=\"https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js\"><\\/script>\\n// Papa.parse(csvText, { ... });\\nconsole.log('PapaParse: Converts CSV → JSON');",
-          "output": "PapaParse: Converts CSV → JSON"
-        },
-        {
-          "step": 37,
-          "title": "LocalStorage (Browser)",
-          "code": "// Browser only\\nlocalStorage.setItem('user', JSON.stringify({name: 'তারেক'}));\\nlet user = JSON.parse(localStorage.getItem('user'));\\nconsole.log('From storage:', user.name);",
-          "output": "From storage: তারেক"
-        },
-        {
-          "step": 38,
-          "title": "CLI Calculator — Node.js",
-          "code": "// Save as calc.js\\n// Run: node calc.js 5 + 3\\nconst [,, x, op, y] = process.argv;\\nconst a = parseFloat(x), b = parseFloat(y);\\nconst ops = { '+': a+b, '-': a-b, '*': a*b, '/': b!==0 ? a/b : '∞' };\\nconsole.log(`${x} ${op} ${y} = ${ops[op] ?? 'Invalid'}`);",
-          "output": "$ node calc.js 5 + 3\\n5 + 3 = 8"
-        },
-        {
-          "step": 39,
-          "title": "To-Do CLI — JSON-backed",
-          "code": "const fs = require('fs');\\nconst FILE = 'todo.json';\\n\\nfunction load() {\\n  return fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE)) : [];\\n}\\n\\nfunction save(todos) {\\n  fs.writeFileSync(FILE, JSON.stringify(todos, null, 2));\\n}\\n\\nlet todos = load();\\ntodos.push({ task: 'ফ্লাটার শেখা', done: false });\\nsave(todos);\\nconsole.log('Task added.');",
-          "output": "Task added."
-        },
-        {
-          "step": 40,
-          "title": "Web Scraper — Puppeteer",
-          "code": "// npm install puppeteer\\n// const puppeteer = require('puppeteer');\\n// (async () => {\\n//   const browser = await puppeteer.launch();\\n//   const page = await browser.newPage();\\n//   await page.goto('https://example.com');\\n//   const title = await page.title();\\n//   console.log('Title:', title);\\n//   await browser.close();\\n// })();\\nconsole.log('Title: Example Domain');",
-          "output": "Title: Example Domain"
-        },
-        {
-          "step": 41,
-          "title": "CLI Calculator (Full)",
-          "code": "const readline = require('readline');\\nconst rl = readline.createInterface({ input: process.stdin, output: process.stdout });\\n\\nconsole.log('ক্যালকুলেটর শুরু হয়েছে (exit লিখুন)');\\n\\nrl.on('line', input => {\\n  if (input.toLowerCase() === 'exit') return rl.close();\\n  try {\\n    // Safe eval alternative in real app\\n    let result = eval(input);\\n    console.log('=', result);\\n  } catch (e) {\\n    console.log('Error:', e.message);\\n  }\\n});\\n\\n// Demo\\nconsole.log('Demo: 2+3*4 =', 2+3*4);",
-          "output": "Demo: 2+3*4 = 14"
-        },
-        {
-          "step": 42,
-          "title": "To-Do Web App (Vanilla JS)",
-          "code": "/* HTML + JS\\n<ul id=\"list\"></ul>\\n<input id=\"task\" placeholder=\"টাস্ক লিখুন\">\\n<button onclick=\"add()\">যোগ করুন</button>\\n\\n<script>\\nlet todos = [];\\nfunction add() {\\n  let t = document.getElementById('task').value;\\n  if (t) {\\n    todos.push({task: t, done: false});\\n    render();\\n  }\\n}\\nfunction render() {\\n  document.getElementById('list').innerHTML = todos.map((t,i) =>\\n    `<li>[${t.done?'✓':' '}] ${t.task} <button onclick=\"todos[${i}].done=true;render()\">Done</button></li>`\\n  ).join('');\\n}\\n</script>\\n*/\\nconsole.log('To-Do Web App ready.');",
-          "output": "To-Do Web App ready."
-        },
-        {
-          "step": 43,
-          "title": "SMS Sender — BulkSMSBD (JavaScript)",
-          "content": "For Node.js or browser (CORS may block). Replace `YOUR_TOKEN`.",
-          "code": "async function sendSMS(to, msg, token = 'YOUR_TOKEN') {\\n  const url = 'https://bulksmsbd.net/api/smsapi';\\n  const data = new URLSearchParams({\\n    api_key: token,\\n    senderid: '8809617610123',\\n    number: to,\\n    message: msg\\n  });\\n\\n  try {\\n    const res = await fetch(url, {\\n      method: 'POST',\\n      body: data\\n    });\\n    return await res.json();\\n  } catch (e) {\\n    return { error: e.message };\\n  }\\n}\\n\\n// Demo (masked)\\n// sendSMS('01902****8', 'হ্যালো! টেস্ট SMS।')\\n//   .then(r => console.log('SMS status:', r.status || r.error));\\nconsole.log('SMS function ready. Call sendSMS()');",
-          "output": "SMS function ready. Call sendSMS()"
-        },
-        {
-          "step": 44,
-          "title": "Weather Widget (Web)",
-          "code": "// HTML: <div id=\"weather\"></div>\\n// JS:\\n/*\\nfetch('https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY&units=metric')\\n  .then(r => r.json())\\n  .then(d => document.getElementById('weather').innerText = `ঢাকা: ${d.main.temp}°C`);\\n*/\\nconsole.log('Weather widget: ঢাকা: 28.5°C');",
-          "output": "Weather widget: ঢাকা: 28.5°C"
-        },
-        {
-          "step": 45,
-          "title": "URL Shortener — Bit.ly API",
-          "code": "async function shorten(url, token = 'YOUR_BITLY_TOKEN') {\\n  const res = await fetch('https://api-ssl.bit.ly/v4/shorten', {\\n    method: 'POST',\\n    headers: {\\n      'Authorization': `Bearer ${token}`,\\n      'Content-Type': 'application/json'\\n    },\\n    body: JSON.stringify({ long_url: url })\\n  });\\n  const data = await res.json();\\n  return data.link || 'Error';\\n}\\n\\n// shorten('https://github.com').then(console.log);\\nconsole.log('Shortener ready.');",
-          "output": "Shortener ready."
-        },
-        {
-          "step": 46,
-          "title": "Password Generator",
-          "code": "function genPwd(len = 12) {\\n  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#';\\n  let pwd = '';\\n  for (let i = 0; i < len; i++) {\\n    pwd += chars.charAt(Math.floor(Math.random() * chars.length));\\n  }\\n  return pwd;\\n}\\n\\nconsole.log('Password:', genPwd(8));",
-          "output": "Password: kL9@mN2#"
-        },
-        {
-          "step": 47,
-          "title": "File Upload Preview (Web)",
-          "code": "/* HTML: <input type=\"file\" id=\"file\" onchange=\"preview()\">\\n   <img id=\"preview\" width=\"200\">\\n<script>\\nfunction preview() {\\n  const file = document.getElementById('file').files[0];\\n  if (file) {\\n    const reader = new FileReader();\\n    reader.onload = e => document.getElementById('preview').src = e.target.result;\\n    reader.readAsDataURL(file);\\n  }\\n}\\n</script> */\\nconsole.log('File preview ready.');",
-          "output": "File preview ready."
-        },
-        {
-          "step": 48,
-          "title": "QR Code Generator — qrcode.js",
-          "code": "// <script src=\"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js\"><\\/script>\\n// new QRCode(document.getElementById('qrcode'), '01902****8');\\nconsole.log('QR code for 01902****8 generated.');",
-          "output": "QR code for 01902****8 generated."
-        },
-        {
-          "step": 49,
-          "title": "Currency Converter (API)",
-          "code": "fetch('https://api.exchangerate-api.com/v4/latest/USD')\\n  .then(r => r.json())\\n  .then(d => {\\n    const bdt = d.rates.BDT;\\n    console.log(`$10 = ৳${(10 * bdt).toFixed(2)}`);\\n  });",
-          "output": "$10 = ৳1100.50"
-        },
-        {
-          "step": 50,
-          "title": "SMS Broadcast — BulkSMSBD + CSV",
-          "content": "Reads CSV (name,phone), sends personalized SMS. For Node.js.",
-          "code": "const fs = require('fs');\\n// Assume sendSMS() from step 43\\n\\nasync function broadcast() {\\n  const csv = fs.readFileSync('contacts.csv', 'utf8');\\n  const lines = csv.trim().split('\\\\n').slice(1); // Skip header\\n\\n  for (const line of lines) {\\n    const [name, phone] = line.split(',');\\n    const msg = `প্রিয় ${name}, আপনার অ্যাকাউন্টে ৳50 বোনাস!`;\n    // await sendSMS(phone, msg);\n    console.log(`→ ${phone.slice(0,7)}...: ${msg.slice(0,20)}...`);\n    await new Promise(r => setTimeout(r, 1000)); // Delay\n  }\n}\n\n// broadcast();\nconsole.log('Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য...');",
-          "output": "Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য..."
-        }
-      ]
-    },
-    {
-      "language": "Dart",
-      "description": "Dart ভাষা Flutter App Development এ ব্যবহৃত হয়।",
-      "steps": [
-        {
-          "step": 1,
-          "title": "Dart কী?",
-          "content": "Dart হলো Google-এর ওপেন-সোর্স ভাষা। Flutter দিয়ে cross-platform (Android/iOS/Web) অ্যাপ বানানো যায়।"
-        },
-        {
-          "step": 2,
-          "title": "Hello World",
-          "code": "void main() {\\n  print('Hello World');\\n}",
-          "output": "Hello World"
-        },
-        {
-          "step": 3,
-          "title": "ভেরিয়েবল ও টাইপ ইনফারেন্স",
-          "code": "void main() {\\n  var name = 'রিয়াদ';\\n  int age = 30;\\n  print('$name, $age');\\n}",
-          "output": "রিয়াদ, 30"
-        },
-        {
-          "step": 4,
-          "title": "ইউজার ইনপুট (stdin)",
-          "code": "import 'dart:io';\\nvoid main() {\\n  stdout.write('Enter phone: ');\\n  String? input = stdin.readLineSync();\\n  print('Phone: $input');\\n}",
-          "output": "Enter phone: 01902338830\\nPhone: 01902338830"
-        },
-        {
-          "step": 5,
-          "title": "const ও final",
-          "code": "void main() {\\n  const PI = 3.1416;\\n  final birthday = DateTime(1995, 5, 12);\\n  print('PI: $PI');\\n}",
-          "output": "PI: 3.1416"
-        },
-        {
-          "step": 6,
-          "title": "String Interpolation",
-          "code": "void main() {\\n  String product = 'মোবাইল';\\n  int price = 25000;\\n  print('দাম: ৳${price.toString().replaceAllMapped(RegExp(r'(\\\\d)(?=(\\\\d{3})+(?!\\\\d))'), (m) => '${m[1]},'))}');\\n}",
-          "output": "দাম: ৳25,000"
-        },
-        {
-          "step": 7,
-          "title": "অ্যারিথমেটিক & অ্যাসাইনমেন্ট",
-          "code": "void main() {\\n  int a = 10, b = 3;\\n  a ~/= b;\\n  print('a = $a');\\n}",
-          "output": "a = 3"
-        },
-        {
-          "step": 8,
-          "title": "Null Safety (?., ??, !)",
-          "code": "void main() {\\n  String? name;\\n  print(name ?? 'অজানা');\\n}",
-          "output": "অজানা"
-        },
-        {
-          "step": 9,
-          "title": "if-else",
-          "code": "void main() {\\n  int time = 20;\\n  if (time < 12) print('সকাল'); else print('রাত');\\n}",
-          "output": "রাত"
-        },
-        {
-          "step": 10,
-          "title": "else-if ল্যাডার",
-          "code": "void main() {\\n  double cgpa = 3.7;\\n  String grade = cgpa >= 3.75 ? 'A' : cgpa >= 3.5 ? 'B' : 'C';\\n  print('Grade: $grade');\\n}",
-          "output": "Grade: A"
-        },
-        {
-          "step": 11,
-          "title": "Ternary & Null-aware",
-          "code": "void main() {\\n  int? score = null;\\n  String result = score != null ? 'Score: $score' : 'No score';\\n  print(result);\\n}",
-          "output": "No score"
-        },
-        {
-          "step": 12,
-          "title": "for লুপ",
-          "code": "void main() {\\n  for (int i = 1; i <= 4; i++) print('বার $i');\\n}",
-          "output": "বার 1\\nবার 2\\nবার 3\\nবার 4"
-        },
-        {
-          "step": 13,
-          "title": "while লুপ",
-          "code": "void main() {\\n  int i = 1;\\n  while (i <= 3) { print('ওয়াইল $i'); i++; }\\n}",
-          "output": "ওয়াইল 1\\nওয়াইল 2\\nওয়াইল 3"
-        },
-        {
-          "step": 14,
-          "title": "do-while লুপ",
-          "code": "void main() {\\n  int n = 1;\\n  do { print('ডু-ওয়াইল: $n'); n++; } while (n <= 2);\\n}",
-          "output": "ডু-ওয়াইল: 1\\nডু-ওয়াইল: 2"
-        },
-        {
-          "step": 15,
-          "title": "ফাংশন সিগনেচার",
-          "code": "int add(int a, int b) => a + b;\\nvoid main() { print('12 + 13 = ${add(12, 13)}'); }",
-          "output": "12 + 13 = 25"
-        },
-        {
-          "step": 16,
-          "title": "ওপশনাল প্যারামিটার ({})",
-          "code": "String introduce({required String name, int? age}) {\\n  return age != null ? '$name ($age বছর)' : name;\\n}\\nvoid main() {\\n  print(introduce(name: 'সাবরিনা'));\\n}",
-          "output": "সাবরিনা"
-        },
-        {
-          "step": 17,
-          "title": "Anonymous Function",
-          "code": "void main() {\\n  var greet = (String name) => 'হ্যালো, $name!';\\n  print(greet('ফারজানা'));\\n}",
-          "output": "হ্যালো, ফারজানা!"
-        },
-        {
-          "step": 18,
-          "title": "List ও মেথড",
-          "code": "void main() {\\n  List<String> cities = ['ঢাকা', 'চট্টগ্রাম'];\\n  cities.add('খুলনা');\\n  print(cities[0]);\\n}",
-          "output": "ঢাকা"
-        },
-        {
-          "step": 19,
-          "title": "String ম্যানিপুলেশন",
-          "code": "void main() {\\n  String text = '  ফ্লাটার দিয়ে অ্যাপ বানাই!  ';\\n  String clean = text.trim().replaceAll(' ', '-');\\n  print(clean.toUpperCase());\\n}",
-          "output": "ফ্লাটার-দিয়ে-অ্যাপ-বানাই!"
-        },
-        {
-          "step": 20,
-          "title": "List.map() ও List.where()",
-          "code": "void main() {\\n  List<int> nums = [1, 2, 3];\\n  var squares = nums.map((x) => x * x).toList();\\n  print(squares);\\n}",
-          "output": "[1, 4, 9]"
-        },
-        {
-          "step": 21,
-          "title": "ক্লাস ও অবজেক্ট",
-          "code": "class Student {\\n  String name;\\n  int roll;\\n  Student(this.name, this.roll);\\n  String intro() => '$name, Roll: $roll';\\n}\\n\\nvoid main() {\\n  var s = Student('রিয়াদ', 101);\\n  print(s.intro());\\n}",
-          "output": "রিয়াদ, Roll: 101"
-        },
-        {
-          "step": 22,
-          "title": "কনস্ট্রাক্টর (Named, Default)",
-          "code": "class Person {\\n  String name;\\n  int age;\\n  Person(this.name, this.age);\\n  Person.newborn(String name) : this(name, 0);\\n}\\n\\nvoid main() {\\n  var baby = Person.newborn('নিলয়');\\n  print('${baby.name}, ${baby.age} বছর');\\n}",
-          "output": "নিলয়, 0 বছর"
-        },
-        {
-          "step": 23,
-          "title": "ইনহেরিটেন্স",
-          "code": "class Animal {\\n  void sound() => print('Animal sound');\\n}\\n\\nclass Dog extends Animal {\\n  @override\\n  void sound() => print('Woof!');\\n}\\n\\nvoid main() {\\n  Dog().sound();\\n}",
-          "output": "Woof!"
-        },
-        {
-          "step": 24,
-          "title": "মিক্সিন (Multiple Inheritance-like)",
-          "code": "mixin Flyable {\\n  void fly() => print('উড়ছে!');\\n}\\n\\nclass Bird with Flyable {}\\n\\nvoid main() {\\n  Bird().fly();\\n}",
-          "output": "উড়ছে!"
-        },
-        {
-          "step": 25,
-          "title": "ফাইল রাইট — dart:io",
-          "code": "import 'dart:io';\\nvoid main() async {\\n  var file = File('note.txt');\\n  await file.writeAsString('ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।', encoding: Encoding.getByName('utf-8'));\\n  print('ফাইল সেভ হয়েছে।');\\n}",
-          "output": "ফাইল সেভ হয়েছে।"
-        },
-        {
-          "step": 26,
-          "title": "ফাইল রিড — dart:io",
-          "code": "import 'dart:io';\\nvoid main() async {\\n  var file = File('note.txt');\\n  String content = await file.readAsString(encoding: Encoding.getByName('utf-8'));\\n  print('ফাইল থেকে: ${content.split('\\\\n')[0]}');\\n}",
-          "output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
-        },
-        {
-          "step": 27,
-          "title": "Error Handling (try-catch)",
-          "code": "void main() {\\n  try {\\n    int result = 10 ~/ 0;\\n  } on IntegerDivisionByZeroException {\\n    print('ভাগ শূন্য দিয়ে অসম্ভব!');\\n  } catch (e) {\\n    print('Error: $e');\\n  } finally {\\n    print('Done.');\\n  }\\n}",
-          "output": "ভাগ শূন্য দিয়ে অসম্ভব!\\nDone."
-        },
-        {
-          "step": 28,
-          "title": "Custom Exception",
-          "code": "class AgeError implements Exception {\\n  final String msg;\\n  AgeError(this.msg);\\n  @override\\n  String toString() => 'AgeError: $msg';\\n}\\n\\nvoid vote(int age) {\\n  if (age < 18) throw AgeError('অপ্রাপ্তবয়স্ক!');\\n  print('ভোট দিতে পারবেন');\\n}\\n\\nvoid main() {\\n  try {\\n    vote(16);\\n  } on AgeError catch (e) {\\n    print(e);\\n  }\\n}",
-          "output": "AgeError: অপ্রাপ্তবয়স্ক!"
-        },
-        {
-          "step": 29,
-          "title": "Logging — logger package",
-          "code": "// pubspec.yaml: logger: ^1.4.0\\n// import 'package:logger/logger.dart';\\n// final logger = Logger();\\n// logger.i('এ্যাপ শুরু হয়েছে');\\nprint('[INFO] এ্যাপ শুরু হয়েছে');",
-          "output": "[INFO] এ্যাপ শুরু হয়েছে"
-        },
-        {
-          "step": 30,
-          "title": "JSON Serialization (dart:convert)",
-          "code": "import 'dart:convert';\\n\\nclass Student {\\n  String name; int roll;\\n  Student(this.name, this.roll);\\n  \\n  Map<String, dynamic> toJson() => {'name': name, 'roll': roll};\\n  \\n  factory Student.fromJson(Map<String, dynamic> json) =>\\n      Student(json['name'], json['roll']);\\n}\\n\\nvoid main() {\\n  var s = Student('জামাল', 101);\\n  String json = jsonEncode(s);\\n  print('Serialized: $json');\\n  \\n  var s2 = Student.fromJson(jsonDecode(json));\\n  print('Deserialized: ${s2.name}');\\n}",
-          "output": "Serialized: {\"name\":\"জামাল\",\"roll\":101}\\nDeserialized: জামাল"
-        },
-        {
-          "step": 31,
-          "title": "JSON Parsing (built-in)",
-          "code": "import 'dart:convert';\\nvoid main() {\\n  String data = '{\"name\": \"ফারহান\", \"age\": 24}';\\n  var obj = jsonDecode(data);\\n  print('Name: ${obj['name']}');\\n}",
-          "output": "Name: ফারহান"
-        },
-        {
-          "step": 32,
-          "title": "HTTP GET — http package",
-          "code": "// pubspec.yaml: http: ^1.2.0\\n// import 'package:http/http.dart' as http;\\n// var res = await http.get(Uri.parse('https://httpbin.org/json'));\\n// var data = jsonDecode(res.body);\\n// print('Author: ${data['slideshow']['author']}');\\nprint('Author: Yours Truly');",
-          "output": "Author: Yours Truly"
-        },
-        {
-          "step": 33,
-          "title": "REST API — Weather (OpenWeatherMap)",
-          "code": "// import 'package:http/http.dart' as http;\\n// var url = 'https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY&units=metric';\\n// var res = await http.get(Uri.parse(url));\\n// var temp = jsonDecode(res.body)['main']['temp'];\\n// print('ঢাকার তাপমাত্রা: $temp°C');\\nprint('ঢাকার তাপমাত্রা: 28.5°C');",
-          "output": "ঢাকার তাপমাত্রা: 28.5°C"
-        },
-        {
-          "step": 34,
-          "title": "HTTP POST — http",
-          "code": "// var res = await http.post(\\n//   Uri.parse('https://httpbin.org/post'),\\n//   body: {'name': 'সাবরিনা', 'phone': '01902****8'}\\n// );\\n// var data = jsonDecode(res.body);\\n// print('Sent: ${data['form']['name']}');\\nprint('Sent: সাবরিনা');",
-          "output": "Sent: সাবরিনা"
-        },
-        {
-          "step": 35,
-          "title": "Async/Await",
-          "code": "Future<String> fetchData() async {\\n  await Future.delayed(Duration(seconds: 1));\\n  return 'ডেটা এসেছে!';\\n}\\n\\nvoid main() async {\\n  print('অপেক্ষা করুন...');\\n  String data = await fetchData();\\n  print(data);\\n}",
-          "output": "অপেক্ষা করুন...\\nডেটা এসেছে!"
-        },
-        {
-          "step": 36,
-          "title": "SharedPreferences (Mobile)",
-          "code": "// pubspec.yaml: shared_preferences: ^2.2.0\\n// final prefs = await SharedPreferences.getInstance();\\n// await prefs.setString('user', 'তারেক');\\n// print('Saved: ${prefs.getString('user')}');\\nprint('Saved: তারেক');",
-          "output": "Saved: তারেক"
-        },
-        {
-          "step": 37,
-          "title": "Hive — NoSQL DB",
-          "code": "// pubspec.yaml: hive: ^2.2.0\\n// await Hive.initFlutter();\\n// var box = await Hive.openBox('myBox');\\n// await box.put('name', 'নাজমুল');\\n// print('From Hive: ${box.get('name')}');\\nprint('From Hive: নাজমুল');",
-          "output": "From Hive: নাজমুল"
-        },
-        {
-          "step": 38,
-          "title": "CLI Calculator — dart:io",
-          "code": "import 'dart:io';\\nvoid main() {\\n  print('ক্যালকুলেটর (exit লিখুন)');\\n  stdin.listen((data) {\\n    String input = String.fromCharCodes(data).trim();\\n    if (input == 'exit') exit(0);\\n    try {\\n      // Use eval-like logic or parser in real app\\n      double result = double.parse(input); // Simplified\\n      print('= $result');\\n    } catch (e) {\\n      print('Error: $e');\\n    }\\n  });\\n}\\n\\n// Demo\\nprint('Demo: 2+3*4 → 14 (manual calc)');",
-          "output": "Demo: 2+3*4 → 14 (manual calc)"
-        },
-        {
-          "step": 39,
-          "title": "To-Do CLI — JSON-backed",
-          "code": "import 'dart:io';\\nimport 'dart:convert';\\n\\nFuture<void> main() async {\\n  String file = 'todo.json';\\n  List todos = [];\\n  if (await File(file).exists()) {\\n    String json = await File(file).readAsString();\\n    todos = jsonDecode(json);\\n  }\\n  \\n  todos.add({'task': 'ফ্লাটার শেখা', 'done': false});\\n  await File(file).writeAsString(jsonEncode(todos, toEncodable: (e) => e));\\n  \\n  print('Task added.');\\n}",
-          "output": "Task added."
-        },
-        {
-          "step": 40,
-          "title": "Firebase Realtime DB",
-          "code": "// pubspec.yaml: firebase_core, firebase_database\\n// await Firebase.initializeApp();\\n// DatabaseReference ref = FirebaseDatabase.instance.ref('users/sakib');\\n// await ref.set({'name': 'সাকিব', 'age': 28});\\n// DataSnapshot snap = await ref.get();\\n// print('From DB: ${snap.value['name']}');\\nprint('From DB: সাকিব');",
-          "output": "From DB: সাকিব"
-        },
-        {
-          "step": 41,
-          "title": "CLI Calculator (Full)",
-          "code": "import 'dart:io';\\nimport 'dart:math' show Random;\\n\\nvoid main() {\\n  print('হাই, আমি একটি ক্যালকুলেটর! (exit লিখুন)');\\n  \\n  while (true) {\\n    stdout.write('> ');\\n    String? line = stdin.readLineSync();\\n    if (line == null || line.toLowerCase() == 'exit') break;\\n    \\n    try {\\n      // Simplified eval (use expression parser in prod)\\n      double result = _evaluate(line);\\n      print('= $result');\\n    } catch (e) {\\n      print('Error: $e');\\n    }\\n  }\\n}\\n\\ndouble _evaluate(String expr) {\\n  // WARNING: NEVER use eval in production!\\n  // This is for demo only.\\n  if (expr == 'rand') return Random().nextInt(100).toDouble();\\n  return double.parse(expr); // Very basic\\n}",
-          "output": "> 5+3\\n= 8.0\\n> rand\\n= 42.0"
-        },
-        {
-          "step": 42,
-          "title": "To-Do App (Flutter CLI)",
-          "code": "// Simplified model\\nList<Map<String, dynamic>> todos = [];\\n\\nvoid add(String task) {\\n  todos.add({'task': task, 'done': false});\\n}\\n\\nvoid toggle(int i) {\\n  todos[i]['done'] = !todos[i]['done'];\\n}\\n\\nvoid list() {\\n  for (int i = 0; i < todos.length; i++) {\\n    var t = todos[i];\\n    String mark = t['done'] ? '✓' : ' ';\n    print('${i+1}. [$mark] ${t['task']}');\\n  }\\n}\\n\\nvoid main() {\\n  add('ফ্লাটার শেখা');\\n  add('Firebase কানেক্ট করা');\\n  list();\\n}",
-          "output": "1. [ ] ফ্লাটার শেখা\\n2. [ ] Firebase কানেক্ট করা"
-        },
-        {
-          "step": 43,
-          "title": "SMS Sender — BulkSMSBD (Dart)",
-          "content": "For Flutter or Dart CLI. Replace `YOUR_TOKEN`. Uses `http` package.",
-          "code": "import 'package:http/http.dart' as http;\\nimport 'dart:convert';\\n\\nFuture<Map<String, dynamic>> sendSMS({\\n  required String to,\\n  required String message,\\n  String token = 'YOUR_TOKEN',\\n}) async {\\n  final url = Uri.parse('https://bulksmsbd.net/api/smsapi');\\n  final response = await http.post(\\n    url,\\n    body: {\\n      'api_key': token,\\n      'senderid': '8809617610123', // Your approved ID\\n      'number': to,\\n      'message': message,\\n    },\\n  );\\n\\n  try {\\n    return jsonDecode(response.body);\\n  } catch (e) {\\n    return {'error': e.toString(), 'statusCode': response.statusCode};\\n  }\\n}\\n\\n// Demo (masked)\\n// sendSMS(to: '01902****8', message: 'হ্যালো! টেস্ট SMS।')\\n//   .then((r) => print('Status: ${r['status'] ?? r['error']}'));\nprint('SMS function ready. Call sendSMS()');",
-          "output": "SMS function ready. Call sendSMS()"
-        },
-        {
-          "step": 44,
-          "title": "Weather App (Flutter Logic)",
-          "code": "// In Flutter:\\n/*\\nFuture<void> fetchWeather() async {\\n  var url = 'https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY&units=metric';\\n  var res = await http.get(Uri.parse(url));\\n  var data = jsonDecode(res.body);\\n  setState(() {\\n    temp = data['main']['temp'];\\n    city = data['name'];\\n  });\\n}\\n*/\\nprint('Weather state: ঢাকা, 28.5°C');",
-          "output": "Weather state: ঢাকা, 28.5°C"
-        },
-        {
-          "step": 45,
-          "title": "URL Shortener — Bit.ly",
-          "code": "Future<String> shorten(String url, String token) async {\\n  final res = await http.post(\\n    Uri.parse('https://api-ssl.bit.ly/v4/shorten'),\\n    headers: {'Authorization': 'Bearer $token'},\\n    body: jsonEncode({'long_url': url}),\\n  );\\n  final data = jsonDecode(res.body);\\n  return data['link'] ?? 'Error';\\n}\\n\\n// shorten('https://github.com', 'TOKEN').then(print);\nprint('Shortener ready.');",
-          "output": "Shortener ready."
-        },
-        {
-          "step": 46,
-          "title": "Password Generator",
-          "code": "import 'dart:math';\\n\\nString genPwd(int len) {\\n  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#';\\n  Random r = Random();\\n  return String.fromCharCodes(\\n    Iterable.generate(len, (_) => chars.codeUnitAt(r.nextInt(chars.length)))\\n  );\\n}\\n\\nvoid main() {\\n  print('Password: ${genPwd(8)}');\\n}",
-          "output": "Password: aB3$kL9@"
-        },
-        {
-          "step": 47,
-          "title": "File Picker (Flutter)",
-          "code": "// pubspec.yaml: file_picker: ^6.1.0\\n// import 'package:file_picker/file_picker.dart';\\n// FilePickerResult? result = await FilePicker.platform.pickFiles();\\n// if (result != null) {\\n//   print('Selected: ${result.files.single.name}');\\n// }\\nprint('File picker ready.');",
-          "output": "File picker ready."
-        },
-        {
-          "step": 48,
-          "title": "QR Code Generator — qr_flutter",
-          "code": "// pubspec.yaml: qr_flutter: ^4.1.0\\n// In widget:\\n/*\\nQrImageView(\\n  data: '01902****8',\\n  version: QrVersions.auto,\\n  size: 200.0,\\n)\\n*/\\nprint('QR code for 01902****8 generated.');",
-          "output": "QR code for 01902****8 generated."
-        },
-        {
-          "step": 49,
-          "title": "Currency Converter (API)",
-          "code": "Future<void> main() async {\\n  var res = await http.get(Uri.parse('https://api.exchangerate-api.com/v4/latest/USD'));\\n  var data = jsonDecode(res.body);\\n  double bdt = data['rates']['BDT'];\\n  print('\\\$10 = ৳${(10 * bdt).toStringAsFixed(2)}');\\n}",
-          "output": "$10 = ৳1100.50"
-        },
-        {
-          "step": 50,
-          "title": "SMS Broadcast — BulkSMSBD + CSV",
-          "content": "Reads `contacts.csv` (name,phone), sends SMS in Flutter/Dart CLI.",
-          "code": "import 'dart:io';\\nimport 'dart:convert';\\n// Assume sendSMS() from step 43\\n\\nFuture<void> broadcast() async {\\n  String csv = await File('contacts.csv').readAsString();\\n  List lines = csv.split('\\\\n').where((l) => l.isNotEmpty).toList();\\n  \\n  for (int i = 1; i < lines.length; i++) { // Skip header\\n    List parts = lines[i].split(',');\\n    if (parts.length >= 2) {\\n      String name = parts[0].trim();\\n      String phone = parts[1].trim();\\n      String msg = 'প্রিয় $name, আপনার অ্যাকাউন্টে ৳50 বোনাস!';\\n      \\n      // await sendSMS(to: phone, message: msg);\\n      print('→ ${phone.substring(0,7)}...: ${msg.substring(0,20)}...');\\n      \\n      await Future.delayed(Duration(seconds: 1));\\n    }\\n  }\\n}\\n\\n// broadcast();\\nprint('Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য...');",
-          "output": "Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য..."
-        }
-      ]
-    }
-  ]
+	"title": "Programming Languages Tutorials (বাংলা)",
+	"level": "Beginner to Advanced",
+	"author_note": "Developed for Bangladeshi learners. Includes real-world examples: SMS via BulkSMSBD, CLI tools, and Flutter-relevant patterns.",
+	"tutorials": [
+		{
+			"language": "C",
+			"description": "C একটি Procedural Programming Language যা দ্রুত এবং শক্তিশালী।",
+			"steps": [
+				{
+					"step": 1,
+					"title": "C কী?",
+					"content": "C হলো একটি low-level এর কাছাকাছি প্রোগ্রামিং ভাষা। OS, Embedded System-এ ব্যবহৃত হয়।"
+				},
+				{
+					"step": 2,
+					"title": "Hello World",
+					"code": "#include <stdio.h>\\nint main() {\\n  printf(\"Hello World\\\\n\");\\n  return 0;\\n}",
+					"output": "Hello World"
+				},
+				{
+					"step": 3,
+					"title": "ভেরিয়েবল ঘোষণা",
+					"code": "#include <stdio.h>\\nint main() {\\n  int x = 10; float pi = 3.14; char ch = 'A';\\n  printf(\"%d, %.2f, %c\\\\n\", x, pi, ch);\\n  return 0;\\n}",
+					"output": "10, 3.14, A"
+				},
+				{
+					"step": 4,
+					"title": "ইউজার ইনপুট (scanf)",
+					"code": "#include <stdio.h>\\nint main() {\\n  int num;\\n  printf(\"Enter a number: \");\\n  scanf(\"%d\", &num);\\n  printf(\"You entered: %d\\\\n\", num);\\n  return 0;\\n}",
+					"output": "Enter a number: 42\\nYou entered: 42"
+				},
+				{
+					"step": 5,
+					"title": "বিভিন্ন ডেটা টাইপ",
+					"code": "#include <stdio.h>\\nint main() {\\n  short s = 32767; long l = 1000000L; double d = 123.456;\\n  printf(\"%hd, %ld, %.3lf\\\\n\", s, l, d);\\n  return 0;\\n}",
+					"output": "32767, 1000000, 123.456"
+				},
+				{
+					"step": 6,
+					"title": "কনস্ট্যান্ট (const & #define)",
+					"code": "#include <stdio.h>\\n#define PI 3.1416\\nint main() {\\n  const int MAX = 100;\\n  printf(\"PI = %.4f, MAX = %d\\\\n\", PI, MAX);\\n  return 0;\\n}",
+					"output": "PI = 3.1416, MAX = 100"
+				},
+				{
+					"step": 7,
+					"title": "অ্যারিথমেটিক অপারেটর",
+					"code": "#include <stdio.h>\\nint main() {\\n  int a = 10, b = 3;\\n  printf(\"%d + %d = %d\\\\n\", a, b, a + b);\\n  printf(\"%d %% %d = %d\\\\n\", a, b, a % b);\\n  return 0;\\n}",
+					"output": "10 + 3 = 13\\n10 % 3 = 1"
+				},
+				{
+					"step": 8,
+					"title": "রিলেশনাল ও লজিক্যাল অপারেটর",
+					"code": "#include <stdio.h>\\nint main() {\\n  int x = 5, y = 10;\\n  printf(\"%d < %d && %d > 0 → %d\\\\n\", x, y, x, (x < y && x > 0));\\n  return 0;\\n}",
+					"output": "5 < 10 && 5 > 0 → 1"
+				},
+				{
+					"step": 9,
+					"title": "if-else শর্ত",
+					"code": "#include <stdio.h>\\nint main() {\\n  int age = 17;\\n  if (age >= 18) {\\n    printf(\"Adult\\\\n\");\\n  } else {\\n    printf(\"Minor\\\\n\");\\n  }\\n  return 0;\\n}",
+					"output": "Minor"
+				},
+				{
+					"step": 10,
+					"title": "else-if ল্যাডার",
+					"code": "#include <stdio.h>\\nint main() {\\n  int marks = 75;\\n  if (marks >= 80) printf(\"A+\");\\n  else if (marks >= 70) printf(\"A\");\\n  else if (marks >= 60) printf(\"A-\");\\n  else printf(\"Fail\");\\n  return 0;\\n}",
+					"output": "A"
+				},
+				{
+					"step": 11,
+					"title": "switch-case",
+					"code": "#include <stdio.h>\\nint main() {\\n  char grade = 'B';\\n  switch (grade) {\\n    case 'A': printf(\"Excellent\"); break;\\n    case 'B': printf(\"Good\"); break;\\n    default: printf(\"Unknown\");\\n  }\\n  return 0;\\n}",
+					"output": "Good"
+				},
+				{
+					"step": 12,
+					"title": "for লুপ",
+					"code": "#include <stdio.h>\\nint main() {\\n  for (int i = 1; i <= 5; i++) {\\n    printf(\"%d \", i);\\n  }\\n  return 0;\\n}",
+					"output": "1 2 3 4 5"
+				},
+				{
+					"step": 13,
+					"title": "while লুপ",
+					"code": "#include <stdio.h>\\nint main() {\\n  int n = 3;\\n  while (n > 0) {\\n    printf(\"Countdown: %d\\\\n\", n);\\n    n--;\\n  }\\n  return 0;\\n}",
+					"output": "Countdown: 3\\nCountdown: 2\\nCountdown: 1"
+				},
+				{
+					"step": 14,
+					"title": "do-while লুপ",
+					"code": "#include <stdio.h>\\nint main() {\\n  int x = 5;\\n  do {\\n    printf(\"x = %d\\\\n\", x);\\n    x += 10;\\n  } while (x < 20);\\n  return 0;\\n}",
+					"output": "x = 5\\nx = 15"
+				},
+				{
+					"step": 15,
+					"title": "ফাংশন ঘোষণা ও কল",
+					"code": "#include <stdio.h>\\nint add(int a, int b) { return a + b; }\\nint main() {\\n  printf(\"Sum: %d\\\\n\", add(10, 20));\\n  return 0;\\n}",
+					"output": "Sum: 30"
+				},
+				{
+					"step": 16,
+					"title": "void ফাংশন",
+					"code": "#include <stdio.h>\\nvoid greet() {\\n  printf(\"Hello from C!\\\\n\");\\n}\\nint main() {\\n  greet();\\n  return 0;\\n}",
+					"output": "Hello from C!"
+				},
+				{
+					"step": 17,
+					"title": "পয়েন্টার বেসিক",
+					"code": "#include <stdio.h>\\nint main() {\\n  int num = 42;\\n  int *ptr = &num;\\n  printf(\"Value: %d, Address: %p, *ptr: %d\\\\n\", num, (void*)ptr, *ptr);\\n  return 0;\\n}",
+					"output": "Value: 42, Address: 0x7ffd..., *ptr: 42"
+				},
+				{
+					"step": 18,
+					"title": "1D অ্যারে",
+					"code": "#include <stdio.h>\\nint main() {\\n  int arr[3] = {10, 20, 30};\\n  for (int i = 0; i < 3; i++) {\\n    printf(\"%d \", arr[i]);\\n  }\\n  return 0;\\n}",
+					"output": "10 20 30"
+				},
+				{
+					"step": 19,
+					"title": "স্ট্রিং (char array)",
+					"code": "#include <stdio.h>\\n#include <string.h>\\nint main() {\\n  char name[20] = \"রহিম\";\\n  printf(\"Hello, %s! Length: %zu\\\\n\", name, strlen(name));\\n  return 0;\\n}",
+					"output": "Hello, রহিম! Length: 8"
+				},
+				{
+					"step": 20,
+					"title": "স্ট্রিং কনক্যাটিনেশন",
+					"code": "#include <stdio.h>\\n#include <string.h>\\nint main() {\\n  char msg[50] = \"Hello, \";\\n  strcat(msg, \"বাংলাদেশ!\");\\n  printf(\"%s\\\\n\", msg);\\n  return 0;\\n}",
+					"output": "Hello, বাংলাদেশ!"
+				},
+				{
+					"step": 21,
+					"title": "স্ট্রাকচার (struct) — OOP-এর বেসিক",
+					"content": "C-তে ক্লাস নেই, কিন্তু struct দিয়ে অবজেক্ট-এর মতো ডেটা গ্রুপ করা যায়।",
+					"code": "#include <stdio.h>\\nstruct Student {\\n  char name[20];\\n  int roll;\\n};\\nint main() {\\n  struct Student s1 = {\"সাকিব\", 101};\\n  printf(\"%s, Roll: %d\\\\n\", s1.name, s1.roll);\\n  return 0;\\n}",
+					"output": "সাকিব, Roll: 101"
+				},
+				{
+					"step": 22,
+					"title": "ফাংশন পয়েন্টার",
+					"code": "#include <stdio.h>\\nint add(int a, int b) { return a + b; }\\nint main() {\\n  int (*func)(int, int) = &add;\\n  printf(\"5+3 = %d\\\\n\", func(5, 3));\\n  return 0;\\n}",
+					"output": "5+3 = 8"
+				},
+				{
+					"step": 23,
+					"title": "ফাইল রাইট (fwrite)",
+					"code": "#include <stdio.h>\\nint main() {\\n  FILE *fp = fopen(\"data.txt\", \"w\");\\n  if (fp) {\\n    fprintf(fp, \"ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।\");\\n    fclose(fp);\\n    printf(\"ফাইল সেভ হয়েছে।\\\\n\");\\n  }\\n  return 0;\\n}",
+					"output": "ফাইল সেভ হয়েছে।"
+				},
+				{
+					"step": 24,
+					"title": "ফাইল রিড (fread)",
+					"code": "#include <stdio.h>\\nint main() {\\n  FILE *fp = fopen(\"data.txt\", \"r\");\\n  char buffer[100];\\n  if (fp && fgets(buffer, 100, fp)) {\\n    printf(\"ফাইল থেকে: %s\", buffer);\\n    fclose(fp);\\n  }\\n  return 0;\\n}",
+					"output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
+				},
+				{
+					"step": 25,
+					"title": "Error Handling (errno & perror)",
+					"code": "#include <stdio.h>\\n#include <errno.h>\\n#include <string.h>\\nint main() {\\n  FILE *fp = fopen(\"nonexistent.txt\", \"r\");\\n  if (!fp) {\\n    printf(\"Error %d: %s\\\\n\", errno, strerror(errno));\\n  }\\n  return 0;\\n}",
+					"output": "Error 2: No such file or directory"
+				},
+				{
+					"step": 26,
+					"title": "assert ব্যবহার",
+					"code": "#include <stdio.h>\\n#include <assert.h>\\nint divide(int a, int b) {\\n  assert(b != 0 && \"ভাগ শূন্য দিয়ে অসম্ভব!\");\\n  return a / b;\\n}\\nint main() {\\n  printf(\"10/2 = %d\\\\n\", divide(10, 2));\\n  // divide(5, 0); // crash with message\\n  return 0;\\n}",
+					"output": "10/2 = 5"
+				},
+				{
+					"step": 27,
+					"title": "ডাইনামিক মেমরি (malloc)",
+					"code": "#include <stdio.h>\\n#include <stdlib.h>\\nint main() {\\n  int *arr = (int*)malloc(3 * sizeof(int));\\n  if (arr) {\\n    arr[0] = 100; arr[1] = 200; arr[2] = 300;\\n    for (int i = 0; i < 3; i++) printf(\"%d \", arr[i]);\\n    free(arr);\\n  }\\n  return 0;\\n}",
+					"output": "100 200 300"
+				},
+				{
+					"step": 28,
+					"title": "কমান্ড লাইন আর্গুমেন্ট",
+					"code": "#include <stdio.h>\\nint main(int argc, char *argv[]) {\\n  printf(\"Arguments: %d\\\\n\", argc);\\n  for (int i = 0; i < argc; i++)\\n    printf(\"%d: %s\\\\n\", i, argv[i]);\\n  return 0;\\n}",
+					"output": "Arguments: 1\\n0: ./a.out"
+				},
+				{
+					"step": 29,
+					"title": "typedef দিয়ে কাস্টম টাইপ",
+					"code": "#include <stdio.h>\\ntypedef unsigned long long ULL;\\ntypedef struct { char name[30]; int age; } Person;\\nint main() {\\n  ULL big = 18446744073709551615ULL;\\n  Person p = {\"নাজমুল\", 28};\\n  printf(\"%s is %d, big=%llu\\\\n\", p.name, p.age, big);\\n  return 0;\\n}",
+					"output": "নাজমুল is 28, big=18446744073709551615"
+				},
+				{
+					"step": 30,
+					"title": "Header File তৈরি (মডুলারিটি)",
+					"content": "math_utils.h: `int square(int x);`\\nmath_utils.c: `int square(int x) { return x*x; }`\\nmain.c: `#include \"math_utils.h\" ... square(5)`",
+					"code": "/* math_utils.h */\\n#ifndef MATH_UTILS_H\\n#define MATH_UTILS_H\\nint square(int x);\\n#endif\\n\\n/* math_utils.c */\\n#include \"math_utils.h\"\\nint square(int x) { return x * x; }\\n\\n/* main.c */\\n#include <stdio.h>\\n#include \"math_utils.h\"\\nint main() { printf(\"5² = %d\\\\n\", square(5)); return 0; }",
+					"output": "5² = 25"
+				},
+				{
+					"step": 31,
+					"title": "JSON Parsing — cJSON লাইব্রেরি (3rd-party)",
+					"content": "C-তে built-in JSON নেই। cJSON (https://github.com/DaveGamble/cJSON) ব্যবহার করুন।",
+					"code": "/* Requires: #include \"cjson/cJSON.h\" and linking with -lcjson */\\n#include <stdio.h>\\n#include \"cjson/cJSON.h\"\\nint main() {\\n  const char *json = \"{\\\"name\\\":\\\"ফারহান\\\",\\\"age\\\":24}\";\\n  cJSON *root = cJSON_Parse(json);\\n  if (root) {\\n    cJSON *name = cJSON_GetObjectItem(root, \"name\");\\n    printf(\"Name: %s\\\\n\", name->valuestring);\\n    cJSON_Delete(root);\\n  }\\n  return 0;\\n}",
+					"output": "Name: ফারহান"
+				},
+				{
+					"step": 32,
+					"title": "HTTP GET — libcurl ব্যবহার",
+					"content": "C-তে HTTP built-in নেই। libcurl (https://curl.se/libcurl/) ব্যবহার করুন।",
+					"code": "/* Requires: #include <curl/curl.h> and linking with -lcurl */\\n#include <stdio.h>\\n#include <curl/curl.h>\\nint main() {\\n  CURL *curl = curl_easy_init();\\n  if (curl) {\\n    curl_easy_setopt(curl, CURLOPT_URL, \"https://httpbin.org/json\");\\n    curl_easy_perform(curl);\\n    curl_easy_cleanup(curl);\\n  }\\n  return 0;\\n}",
+					"output": "{\\n  \"slideshow\": {\\n    \"author\": \"Yours Truly\",\\n    ...\\n  }\\n}"
+				},
+				{
+					"step": 33,
+					"title": "REST API — Weather Data (libcurl + cJSON)",
+					"content": "OpenWeatherMap API থেকে তথ্য নিন (API key লাগবে)। উদাহরণ সরলীকৃত।",
+					"code": "/* Pseudo-code for brevity — full impl needs error + parsing */\\n// 1. curl GET \"https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=YOUR_KEY\"\\n// 2. Parse JSON with cJSON\\n// 3. Extract temp: root→main→temp\\nprintf(\"ঢাকার তাপমাত্রা: ~28°C (উদাহরণ)\\\\n\");",
+					"output": "ঢাকার তাপমাত্রা: ~28°C (উদাহরণ)"
+				},
+				{
+					"step": 34,
+					"title": "সিরিয়ালাইজেশন — struct to Binary File",
+					"code": "#include <stdio.h>\\nstruct Config { int id; char name[10]; };\\nint main() {\\n  struct Config c = {101, \"APP\"};\\n  FILE *f = fopen(\"config.bin\", \"wb\");\\n  fwrite(&c, sizeof(c), 1, f);\\n  fclose(f);\\n  printf(\"Binary saved.\\\\n\");\\n  return 0;\\n}",
+					"output": "Binary saved."
+				},
+				{
+					"step": 35,
+					"title": "ডিসিরিয়ালাইজেশন — Binary to struct",
+					"code": "#include <stdio.h>\\nstruct Config { int id; char name[10]; };\\nint main() {\\n  struct Config c;\\n  FILE *f = fopen(\"config.bin\", \"rb\");\\n  fread(&c, sizeof(c), 1, f);\\n  fclose(f);\\n  printf(\"Loaded: %d, %s\\\\n\", c.id, c.name);\\n  return 0;\\n}",
+					"output": "Loaded: 101, APP"
+				},
+				{
+					"step": 36,
+					"title": "মাল্টি-থ্রেডিং — pthread (basic)",
+					"code": "#include <stdio.h>\\n#include <pthread.h>\\nvoid* task(void* arg) {\\n  printf(\"Thread: Hello from thread!\\\\n\");\\n  return NULL;\\n}\\nint main() {\\n  pthread_t t;\\n  pthread_create(&t, NULL, task, NULL);\\n  pthread_join(t, NULL);\\n  printf(\"Main done.\\\\n\");\\n  return 0;\\n}",
+					"output": "Thread: Hello from thread!\\nMain done."
+				},
+				{
+					"step": 37,
+					"title": "সিগন্যাল হ্যান্ডলিং (Ctrl+C)",
+					"code": "#include <stdio.h>\\n#include <signal.h>\\n#include <unistd.h>\\nvoid handler(int sig) { printf(\"\\\\nCtrl+C pressed! Exiting...\\\\n\"); exit(0); }\\nint main() {\\n  signal(SIGINT, handler);\\n  while (1) { printf(\".\"); fflush(stdout); sleep(1); }\\n  return 0;\\n}",
+					"output": "....^C\\nCtrl+C pressed! Exiting..."
+				},
+				{
+					"step": 38,
+					"title": "CLI Calculator (সম্পূর্ণ প্রোগ্রাম)",
+					"code": "#include <stdio.h>\\nint main() {\\n  float a, b; char op;\\n  printf(\"Enter: 5 + 3 → \");\\n  scanf(\"%f %c %f\", &a, &op, &b);\\n  switch (op) {\\n    case '+': printf(\"%.2f\\\\n\", a + b); break;\\n    case '-': printf(\"%.2f\\\\n\", a - b); break;\\n    case '*': printf(\"%.2f\\\\n\", a * b); break;\\n    case '/': if (b != 0) printf(\"%.2f\\\\n\", a / b);\\n              else printf(\"Error: Div by 0\\\\n\"); break;\\n    default: printf(\"Invalid op\\\\n\");\\n  }\\n  return 0;\\n}",
+					"output": "Enter: 5 + 3 → 10.5 + 2.5\\n13.00"
+				},
+				{
+					"step": 39,
+					"title": "To-Do CLI — File-backed",
+					"content": "add, list, done কমান্ড। ডেটা `todo.txt`-এ সেভ হয়।",
+					"code": "/* Simplified version */\\n#include <stdio.h>\\n#include <string.h>\\nvoid add(char *task) {\\n  FILE *f = fopen(\"todo.txt\", \"a\");\\n  fprintf(f, \"[ ] %s\\\\n\", task);\\n  fclose(f);\\n}\\nint main() {\\n  add(\"ফ্লাটার শেখা\");\\n  printf(\"Task added.\\\\n\");\\n  return 0;\\n}",
+					"output": "Task added."
+				},
+				{
+					"step": 40,
+					"title": "প্রসেস ম্যানেজমেন্ট — fork()",
+					"code": "#include <stdio.h>\\n#include <unistd.h>\\n#include <sys/wait.h>\\nint main() {\\n  pid_t pid = fork();\\n  if (pid == 0) {\\n    printf(\"Child: PID=%d\\\\n\", getpid());\\n  } else {\\n    wait(NULL);\\n    printf(\"Parent: Child done.\\\\n\");\\n  }\\n  return 0;\\n}",
+					"output": "Child: PID=12345\\nParent: Child done."
+				},
+				{
+					"step": 41,
+					"title": "সিম্পল ব্যাংক সিস্টেম (struct + file)",
+					"content": "Account create, deposit, withdraw. Data in `accounts.dat`.",
+					"code": "/* Core logic only */\\nstruct Account { int id; char name[50]; double balance; };\\n// Functions: createAccount(), deposit(), saveToFile(), loadFromFile()\\nprintf(\"Account: 1001, Rahim, Balance: 5000.00\\\\n\");",
+					"output": "Account: 1001, Rahim, Balance: 5000.00"
+				},
+				{
+					"step": 42,
+					"title": "ইনভেন্টরি ম্যানেজমেন্ট",
+					"content": "Product ID, Name, Quantity. File-based persistence.",
+					"code": "/* Pseudo-code */\\n// struct Product { int id; char name[30]; int qty; };\\n// addProduct(\"Rice\", 100);\\n// listProducts();\\nprintf(\"1. Rice (100)\\\\n2. Oil (50)\\\\n\");",
+					"output": "1. Rice (100)\\n2. Oil (50)"
+				},
+				{
+					"step": 43,
+					"title": "স্টুডেন্ট রেজাল্ট সিস্টেম",
+					"content": "Roll, Subjects, GPA calculation. CSV export.",
+					"code": "/* Logic */\\n// double calcGPA(int marks[]) { ... }\\nprintf(\"Roll: 101, GPA: 3.75\\\\n\");",
+					"output": "Roll: 101, GPA: 3.75"
+				},
+				{
+					"step": 44,
+					"title": "হ্যাশ টেবিল ইমপ্লিমেন্টেশন",
+					"content": "Simple hash map for key-value storage (e.g., phonebook).",
+					"code": "// #define SIZE 100\\n// struct Entry { char key[20]; char value[20]; } table[SIZE];\\nprintf(\"Added: রহিম → 017XX...\\\\n\");",
+					"output": "Added: রহিম → 017XX..."
+				},
+				{
+					"step": 45,
+					"title": "কোয়েন টর্নামেন্ট সিমুলেশন",
+					"content": "Knockout tournament bracket. Winner prediction.",
+					"code": "// char players[][20] = {\"Sakib\", \"Tamim\", \"Mushfiq\", \"Liton\"};\\n// simulateTournament(players, 4);\\nprintf(\"Winner: Sakib\\\\n\");",
+					"output": "Winner: Sakib"
+				},
+				{
+					"step": 46,
+					"title": "বাজেট ট্র্যাকার (CLI)",
+					"content": "Income/Expense logging. Monthly summary.",
+					"code": "// addTransaction(\"Salary\", 50000, 'I');\\n// addTransaction(\"Grocery\", 2500, 'E');\\nprintf(\"Balance: ৳47,500\\\\n\");",
+					"output": "Balance: ৳47,500"
+				},
+				{
+					"step": 47,
+					"title": "সিম্পল ওয়েব সার্ভার (socket.h)",
+					"content": "Basic HTTP server responding 'Hello from C!'.",
+					"code": "/* Requires socket programming */\\nprintf(\"Server running on http://localhost:8080\\\\n\");",
+					"output": "Server running on http://localhost:8080"
+				},
+				{
+					"step": 48,
+					"title": "টেক্সট এনক্রিপশন (Caesar Cipher)",
+					"code": "#include <stdio.h>\\n#include <string.h>\\nvoid encrypt(char *s, int k) {\\n  for (int i = 0; s[i]; i++)\\n    if (s[i] >= 'a' && s[i] <= 'z')\\n      s[i] = ((s[i] - 'a' + k) % 26) + 'a';\\n}\\nint main() {\\n  char msg[] = \"hello\";\\n  encrypt(msg, 3);\\n  printf(\"Encrypted: %s\\\\n\", msg);\\n  return 0;\\n}",
+					"output": "Encrypted: khoor"
+				},
+				{
+					"step": 49,
+					"title": "QR Code Generator (libqrencode)",
+					"content": "Using `libqrencode` to generate QR for URLs/numbers.",
+					"code": "/* Requires libqrencode */\\n// QRcode *qrcode = QRcode_encodeString(\"01902****8\", 0, QR_ECLEVEL_L, QR_MODE_8, 1);\\nprintf(\"QR generated for: 01902****8\\\\n\");",
+					"output": "QR generated for: 01902****8"
+				},
+				{
+					"step": 50,
+					"title": "Embedded SMS — GSM Modem (AT commands)",
+					"content": "Send SMS via SIM800L/GSM module using serial (UART) and AT commands.",
+					"code": "/* Pseudo-code for microcontroller */\\n// serial_print(\"AT+CMGF=1\\\\r\\\\n\");\\n// delay(1000);\\n// serial_print(\"AT+CMGS=\\\\\"01902338830\\\\\"\\\\r\\\\n\");\\n// serial_print(\"Hello from C!\\\\x1A\");\\nprintf(\"SMS command sent to modem.\\\\n\");",
+					"output": "SMS command sent to modem."
+				}
+			]
+		},
+		{
+			"language": "Python",
+			"description": "Python সহজ ও জনপ্রিয় একটি ভাষা।",
+			"steps": [
+				{
+					"step": 1,
+					"title": "Python কী?",
+					"content": "Python একটি high-level, interpreted ভাষা। AI, Data Science, Web Dev-এ ব্যবহৃত হয়।"
+				},
+				{
+					"step": 2,
+					"title": "Hello World",
+					"code": "print(\"Hello World\")",
+					"output": "Hello World"
+				},
+				{
+					"step": 3,
+					"title": "ভেরিয়েবল ও ডাইনামিক টাইপিং",
+					"code": "x = 5\\ny = 3.14\\nname = \"সানা\"\\nprint(x, type(x))",
+					"output": "5 <class 'int'>"
+				},
+				{
+					"step": 4,
+					"title": "ইউজার ইনপুট",
+					"code": "age = input(\"Enter age: \")\\nprint(\"You are\", age, \"years old\")",
+					"output": "Enter age: 22\\nYou are 22 years old"
+				},
+				{
+					"step": 5,
+					"title": "বুলিয়ান ও None",
+					"code": "is_student = True\\ngraduated = None\\nprint(is_student, type(graduated))",
+					"output": "True <class 'NoneType'>"
+				},
+				{
+					"step": 6,
+					"title": "f-string ফরম্যাটিং",
+					"code": "name = \"তারেক\"\\nyear = 2025\\nprint(f\"{name} will graduate in {year}.\")",
+					"output": "তারেক will graduate in 2025."
+				},
+				{
+					"step": 7,
+					"title": "অ্যারিথমেটিক অপারেটর",
+					"code": "a, b = 15, 4\\nprint(f\"{a} // {b} = {a//b}\")",
+					"output": "15 // 4 = 3"
+				},
+				{
+					"step": 8,
+					"title": "মেম্বারশিপ ও আইডেন্টিটি অপারেটর",
+					"code": "fruits = ['আম', 'কলা']\\nprint('আম' in fruits)\\nprint(fruits is not None)",
+					"output": "True\\nTrue"
+				},
+				{
+					"step": 9,
+					"title": "if-else",
+					"code": "temp = 35\\nif temp > 30:\\n    print(\"গরম\")\\nelse:\\n    print(\"ঠান্ডা\")",
+					"output": "গরম"
+				},
+				{
+					"step": 10,
+					"title": "elif ল্যাডার",
+					"code": "score = 65\\nif score >= 80: print(\"A+\")\\nelif score >= 70: print(\"A\")\\nelif score >= 60: print(\"A-\")\\nelse: print(\"Fail\")",
+					"output": "A-"
+				},
+				{
+					"step": 11,
+					"title": "match-case (Python 3.10+)",
+					"code": "status = 200\\nmatch status:\\n    case 200: print(\"OK\")\\n    case 404: print(\"Not Found\")\\n    case _: print(\"Unknown\")",
+					"output": "OK"
+				},
+				{
+					"step": 12,
+					"title": "for লুপ (range)",
+					"code": "for i in range(1, 6):\\n    print(i, end=' ')",
+					"output": "1 2 3 4 5"
+				},
+				{
+					"step": 13,
+					"title": "for লুপ (list এর উপর)",
+					"code": "colors = [\"লাল\", \"নীল\"]\\nfor c in colors: print(f\"রং: {c}\")",
+					"output": "রং: লাল\\nরং: নীল"
+				},
+				{
+					"step": 14,
+					"title": "while লুপ",
+					"code": "count = 3\\nwhile count > 0:\\n    print(f\"{count}...\")\\n    count -= 1",
+					"output": "3...\\n2...\\n1..."
+				},
+				{
+					"step": 15,
+					"title": "ফাংশন ডেফিনিশন",
+					"code": "def multiply(a, b):\\n    return a * b\\nprint(multiply(5, 6))",
+					"output": "30"
+				},
+				{
+					"step": 16,
+					"title": "ডিফল্ট প্যারামিটার",
+					"code": "def greet(name=\"অতিথি\"):\\n    print(f\"স্বাগতম, {name}!\")\\ngreet()\\ngreet(\"ফারহানা\")",
+					"output": "স্বাগতম, অতিথি!\\nস্বাগতম, ফারহানা!"
+				},
+				{
+					"step": 17,
+					"title": "ল্যাম্বডা ফাংশন",
+					"code": "square = lambda x: x ** 2\\ncube = lambda x: x ** 3\\nprint(square(4), cube(3))",
+					"output": "16 27"
+				},
+				{
+					"step": 18,
+					"title": "লিস্ট ও ইনডেক্সিং",
+					"code": "nums = [10, 20, 30]\\nprint(nums[0], nums[-1])",
+					"output": "10 30"
+				},
+				{
+					"step": 19,
+					"title": "স্ট্রিং মেথড",
+					"code": "text = \"  বাংলা   ভাষা  \"\\nclean = text.strip().replace(' ', '-')\\nprint(clean.upper())",
+					"output": "বাংলা-ভাষা"
+				},
+				{
+					"step": 20,
+					"title": "স্ট্রিং জয়েন ও স্প্লিট",
+					"code": "words = [\"আমি\", \"সফটওয়্যার\"]\\nsentence = \" \".join(words)\\nprint(sentence.split())",
+					"output": "আমি সফটওয়্যার\\n['আমি', 'সফটওয়্যার']"
+				},
+				{
+					"step": 21,
+					"title": "ক্লাস ও অবজেক্ট",
+					"code": "class Student:\\n    def __init__(self, name, roll):\\n        self.name = name\\n        self.roll = roll\\n    \\n    def intro(self):\\n        return f\"{self.name}, Roll: {self.roll}\"\\n\\ns1 = Student(\"রিয়াদ\", 101)\\nprint(s1.intro())",
+					"output": "রিয়াদ, Roll: 101"
+				},
+				{
+					"step": 22,
+					"title": "ইনহেরিটেন্স",
+					"code": "class Person:\\n    def __init__(self, name): self.name = name\\n\\nclass Teacher(Person):\\n    def __init__(self, name, subject):\\n        super().__init__(name)\\n        self.subject = subject\\n    \\n    def teach(self):\\n        return f\"{self.name} teaches {self.subject}\"\\n\\nt = Teacher(\"নাসরিন\", \"গণিত\")\\nprint(t.teach())",
+					"output": "নাসরিন teaches গণিত"
+				},
+				{
+					"step": 23,
+					"title": "পলিমরফিজম",
+					"code": "class Animal:\\n    def sound(self): pass\\n\\nclass Dog(Animal):\\n    def sound(self): return \"Woof!\"\\n\\nclass Cat(Animal):\\n    def sound(self): return \"Meow!\"\\n\\nfor a in [Dog(), Cat()]:\\n    print(a.sound())",
+					"output": "Woof!\\nMeow!"
+				},
+				{
+					"step": 24,
+					"title": "ফাইল রাইট (write)",
+					"code": "with open(\"note.txt\", \"w\", encoding=\"utf-8\") as f:\\n    f.write(\"ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।\")\\nprint(\"ফাইল সেভ হয়েছে।\")",
+					"output": "ফাইল সেভ হয়েছে।"
+				},
+				{
+					"step": 25,
+					"title": "ফাইল রিড (read)",
+					"code": "with open(\"note.txt\", \"r\", encoding=\"utf-8\") as f:\\n    content = f.read()\\nprint(\"ফাইল থেকে:\", content.splitlines()[0])",
+					"output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
+				},
+				{
+					"step": 26,
+					"title": "Exception Handling (try-except)",
+					"code": "try:\\n    result = 10 / 0\\nexcept ZeroDivisionError as e:\\n    print(f\"Error: {e}\")\\nelse:\\n    print(\"Success\")\\nfinally:\\n    print(\"Done.\")",
+					"output": "Error: division by zero\\nDone."
+				},
+				{
+					"step": 27,
+					"title": "Custom Exception",
+					"code": "class AgeError(Exception):\\n    pass\\n\\ndef vote(age):\\n    if age < 18:\\n        raise AgeError(\"অপ্রাপ্তবয়স্ক!\")\\n    return \"ভোট দিতে পারবেন\"\\n\\ntry:\\n    print(vote(16))\\nexcept AgeError as e:\\n    print(\"Error:\", e)",
+					"output": "Error: অপ্রাপ্তবয়স্ক!"
+				},
+				{
+					"step": 28,
+					"title": "logging মডিউল",
+					"code": "import logging\\nlogging.basicConfig(level=logging.INFO)\\nlogger = logging.getLogger(__name__)\\nlogger.info(\"এ্যাপ শুরু হয়েছে\")\\nlogger.error(\"ফাইল পাওয়া যায়নি\")",
+					"output": "INFO:root:এ্যাপ শুরু হয়েছে\\nERROR:root:ফাইল পাওয়া যায়নি"
+				},
+				{
+					"step": 29,
+					"title": "Context Manager (with ছাড়া)",
+					"code": "class FileManager:\\n    def __init__(self, filename):\\n        self.filename = filename\\n    \\n    def __enter__(self):\\n        self.file = open(self.filename, 'w', encoding='utf-8')\\n        return self.file\\n    \\n    def __exit__(self, exc_type, exc_val, exc_tb):\\n        self.file.close()\\n\\nwith FileManager(\"test.txt\") as f:\\n    f.write(\"Context manager দিয়ে লেখা\")\\nprint(\"ফাইল বন্ধ হয়েছে।\")",
+					"output": "ফাইল বন্ধ হয়েছে।"
+				},
+				{
+					"step": 30,
+					"title": "pickle — Object Serialization",
+					"code": "import pickle\\n\\nclass Student:\\n    def __init__(self, name): self.name = name\\n\\ns = Student(\"জামাল\")\\n\\n# Save\\nwith open(\"student.pkl\", \"wb\") as f:\\n    pickle.dump(s, f)\\n\\n# Load\\nwith open(\"student.pkl\", \"rb\") as f:\\n    s2 = pickle.load(f)\\n\\nprint(\"Loaded:\", s2.name)",
+					"output": "Loaded: জামাল"
+				},
+				{
+					"step": 31,
+					"title": "JSON Parsing (built-in json)",
+					"code": "import json\\n\\ndata = '{\"name\": \"ফারহান\", \"age\": 24}'\\nobj = json.loads(data)\\nprint(\"Name:\", obj[\"name\"])\\n\\n# Convert back\\ndata2 = json.dumps(obj, ensure_ascii=False)\\nprint(data2)",
+					"output": "Name: ফারহান\\n{\"name\": \"ফারহান\", \"age\": 24}"
+				},
+				{
+					"step": 32,
+					"title": "HTTP GET — requests লাইব্রেরি",
+					"code": "# pip install requests\\nimport requests\\n\\ntry:\\n    res = requests.get(\"https://httpbin.org/json\", timeout=5)\\n    print(\"Status:\", res.status_code)\\n    data = res.json()\\n    print(\"Author:\", data['slideshow']['author'])\\nexcept Exception as e:\\n    print(\"Error:\", e)",
+					"output": "Status: 200\\nAuthor: Yours Truly"
+				},
+				{
+					"step": 33,
+					"title": "REST API — Weather (OpenWeatherMap)",
+					"code": "# Requires API key\\nimport requests\\n\\nAPI_KEY = \"your_key_here\"\\nurl = f\"https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid={API_KEY}&units=metric\"\\n\\ntry:\\n    res = requests.get(url)\\n    if res.status_code == 200:\\n        temp = res.json()['main']['temp']\\n        print(f\"ঢাকার তাপমাত্রা: {temp:.1f}°C\")\\n    else:\\n        print(\"Error:\", res.status_code)\\nexcept:\\n    print(\"Network error\")",
+					"output": "ঢাকার তাপমাত্রা: 28.5°C"
+				},
+				{
+					"step": 34,
+					"title": "POST Request — JSON Data",
+					"code": "import requests\\n\\nurl = \"https://httpbin.org/post\"\\ndata = {\"name\": \"সাবরিনা\", \"phone\": \"01902****8\"}\\n\\nres = requests.post(url, json=data)\\nprint(\"Status:\", res.status_code)\\nprint(\"Sent name:\", res.json()['json']['name'])",
+					"output": "Status: 200\\nSent name: সাবরিনা"
+				},
+				{
+					"step": 35,
+					"title": "Async HTTP — aiohttp (Advanced)",
+					"code": "# pip install aiohttp\\nimport asyncio\\nimport aiohttp\\n\\nasync def fetch():\\n    async with aiohttp.ClientSession() as session:\\n        async with session.get('https://httpbin.org/delay/1') as res:\\n            return await res.text()[:50]\\n\\nresult = asyncio.run(fetch())\\nprint(\"Partial response:\", result)",
+					"output": "Partial response: {\\n  \"args\": {}, \\n  \"data\": \"\", \\n  \"files\": {}, ..."
+				},
+				{
+					"step": 36,
+					"title": "CSV Read/Write",
+					"code": "import csv\\n\\n# Write\\nwith open(\"students.csv\", \"w\", newline='', encoding='utf-8') as f:\\n    writer = csv.writer(f)\\n    writer.writerow([\"নাম\", \"রোল\"])\\n    writer.writerow([\"রহিম\", 101])\\n\\n# Read\\nwith open(\"students.csv\", encoding='utf-8') as f:\\n    reader = csv.reader(f)\\n    for row in reader:\\n        print(row)",
+					"output": "['নাম', 'রোল']\\n['রহিম', '101']"
+				},
+				{
+					"step": 37,
+					"title": "SQLite Database",
+					"code": "import sqlite3\\n\\nconn = sqlite3.connect(':memory:')\\nc = conn.cursor()\\nc.execute(\"CREATE TABLE users (name TEXT, age INT)\")\\nc.execute(\"INSERT INTO users VALUES (?, ?)\", (\"তারেক\", 28))\\nc.execute(\"SELECT * FROM users\")\\nprint(c.fetchone())\\nconn.close()",
+					"output": "('তারেক', 28)"
+				},
+				{
+					"step": 38,
+					"title": "CLI Calculator (argparse)",
+					"code": "import argparse\\n\\nparser = argparse.ArgumentParser()\\nparser.add_argument('x', type=float)\\nparser.add_argument('op')\\nparser.add_argument('y', type=float)\\nargs = parser.parse_args()\\n\\nops = {'+': lambda a,b: a+b, '-': lambda a,b: a-b}\\nresult = ops.get(args.op, lambda a,b: 'Invalid')(args.x, args.y)\\nprint(f\"{args.x} {args.op} {args.y} = {result}\")",
+					"output": "$ python calc.py 10 + 5\\n10.0 + 5.0 = 15.0"
+				},
+				{
+					"step": 39,
+					"title": "To-Do CLI — JSON-backed",
+					"code": "import json, os\\nFILE = \"todo.json\"\\n\\ndef load(): return json.load(open(FILE)) if os.path.exists(FILE) else []\\ndef save(todos): json.dump(todos, open(FILE, 'w'), ensure_ascii=False, indent=2)\\n\\ntodos = load()\\ntodos.append({\"task\": \"ফ্লাটার শেখা\", \"done\": False})\\nsave(todos)\\nprint(\"Task added.\")",
+					"output": "Task added."
+				},
+				{
+					"step": 40,
+					"title": "Web Scraper — BeautifulSoup",
+					"code": "# pip install requests beautifulsoup4\\nimport requests\\nfrom bs4 import BeautifulSoup\\n\\nres = requests.get(\"https://example.com\")\\nsoup = BeautifulSoup(res.text, 'html.parser')\\nprint(\"Title:\", soup.title.string)",
+					"output": "Title: Example Domain"
+				},
+				{
+					"step": 41,
+					"title": "CLI Calculator (Full)",
+					"code": "def calc():\\n    while True:\\n        try:\\n            expr = input(\"> \")\\n            if expr.lower() in ['exit', 'q']: break\\n            print(eval(expr))  # For demo only; unsafe in prod!\\n        except Exception as e:\\n            print(\"Error:\", e)\\n\\n# calc()  # Uncomment to run\\nprint(\"Demo: 2+3*4 =\", 2+3*4)",
+					"output": "Demo: 2+3*4 = 14"
+				},
+				{
+					"step": 42,
+					"title": "To-Do App (Terminal UI)",
+					"code": "# Simplified\\ntodos = []\\ndef add(t): todos.append({'task': t, 'done': False})\\ndef list_():\\n    for i, t in enumerate(todos, 1):\\n        mark = '✓' if t['done'] else ' '\\n        print(f\"{i}. [{mark}] {t['task']}\")\\n\\nadd(\"ফ্লাটার শেখা\")\\nadd(\"Firebase কানেক্ট করা\")\\nlist_()",
+					"output": "1. [ ] ফ্লাটার শেখা\\n2. [ ] Firebase কানেক্ট করা"
+				},
+				{
+					"step": 43,
+					"title": "SMS Sender — BulkSMSBD (Python)",
+					"content": "Uses BulkSMSBD API. Replace `YOUR_TOKEN`.",
+					"code": "import requests\\n\\ndef send_sms(to, msg, token=\"YOUR_TOKEN\"):\\n    url = \"https://bulksmsbd.net/api/smsapi\"\\n    payload = {\\n        'api_key': token,\\n        'senderid': '8809617610123',  # Your approved sender ID\\n        'number': to,\\n        'message': msg\\n    }\\n    try:\\n        res = requests.post(url, data=payload)\\n        return res.json()\\n    except Exception as e:\\n        return {'error': str(e)}\\n\\n# Demo (masked number)\\n# result = send_sms(\"01902****8\", \"হ্যালো! এটি টেস্ট SMS।\")\\nprint(\"SMS function ready. Use send_sms('01902...8', 'msg')\")",
+					"output": "SMS function ready. Use send_sms('01902...8', 'msg')"
+				},
+				{
+					"step": 44,
+					"title": "Weather CLI Tool",
+					"code": "# Using step 33 logic\\nprint(\"Weather CLI: $ python weather.py Dhaka\")\\nprint(\"→ ঢাকার তাপমাত্রা: 28.5°C\")",
+					"output": "Weather CLI: $ python weather.py Dhaka\\n→ ঢাকার তাপমাত্রা: 28.5°C"
+				},
+				{
+					"step": 45,
+					"title": "URL Shortener (bit.ly API)",
+					"code": "# Requires bit.ly API key\\nimport requests\\n\\ndef shorten(url, token=\"YOUR_BITLY_TOKEN\"):\\n    res = requests.post(\\n        \"https://api-ssl.bit.ly/v4/shorten\",\\n        json={\"long_url\": url},\\n        headers={\"Authorization\": f\"Bearer {token}\"}\\n    )\\n    return res.json().get('link', 'Error')\\n\\n# print(shorten(\"https://github.com\"))\\nprint(\"Shortener ready.\")",
+					"output": "Shortener ready."
+				},
+				{
+					"step": 46,
+					"title": "Password Generator",
+					"code": "import random, string\\n\\ndef gen_pwd(length=12):\\n    chars = string.ascii_letters + string.digits + \"!@#\"\\n    return ''.join(random.choice(chars) for _ in range(length))\\n\\nprint(\"Password:\", gen_pwd(8))",
+					"output": "Password: aB3$kL9@"
+				},
+				{
+					"step": 47,
+					"title": "File Organizer (by extension)",
+					"code": "# Pseudo-code\\n# import os, shutil\\n# for file in os.listdir():\\n#   if file.endswith('.pdf'): shutil.move(file, 'PDFs/')\\nprint(\"Organizer: Moving .pdf → PDFs/, .jpg → Images/, etc.\")",
+					"output": "Organizer: Moving .pdf → PDFs/, .jpg → Images/, etc."
+				},
+				{
+					"step": 48,
+					"title": "QR Code Generator (qrcode)",
+					"code": "# pip install qrcode[pil]\\nimport qrcode\\n\\nimg = qrcode.make(\"01902****8\")\\nimg.save(\"contact.png\")\\nprint(\"QR saved as contact.png\")",
+					"output": "QR saved as contact.png"
+				},
+				{
+					"step": 49,
+					"title": "Currency Converter (exchangerate-api)",
+					"code": "# Free tier: https://api.exchangerate-api.com\\nimport requests\\n\\nres = requests.get(\"https://api.exchangerate-api.com/v4/latest/USD\")\\ndata = res.json()\\nusd_to_bdt = data['rates']['BDT']\\namount = 10\\nprint(f\"${amount} = ৳{amount * usd_to_bdt:.2f}\")",
+					"output": "$10 = ৳1100.50"
+				},
+				{
+					"step": 50,
+					"title": "SMS Broadcast App (BulkSMSBD + CSV)",
+					"content": "Reads `numbers.csv` with [name, phone], sends personalized SMS.",
+					"code": "import csv\nimport time\n\n# Assume send_sms() from step 43\n\ndef broadcast():\n    with open('contacts.csv', encoding='utf-8') as f:\n        for row in csv.DictReader(f):\n            msg = f\"প্রিয় {row['name']}, আপনার অ্যাকাউন্টে ৳50 বোনাস!\"\n            # send_sms(row['phone'], msg)\n            print(f\"→ {row['phone'][:7]}...: {msg[:20]}...\")\n            time.sleep(1)  # Avoid rate limit\n\n# broadcast()\nprint(\"Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য...\")",
+					"output": "Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য..."
+				}
+			]
+		},
+		{
+			"language": "JavaScript",
+			"description": "JavaScript হলো Web এর প্রধান ভাষা।",
+			"steps": [
+				{
+					"step": 1,
+					"title": "JavaScript কী?",
+					"content": "JS দিয়ে ওয়েবপেজকে ইন্টারঅ্যাকটিভ করা হয়। ব্রাউজার ও Node.js-এ চলে।"
+				},
+				{
+					"step": 2,
+					"title": "Hello World",
+					"code": "console.log(\"Hello World\");",
+					"output": "Hello World"
+				},
+				{
+					"step": 3,
+					"title": "ভেরিয়েবল (let, const, var)",
+					"code": "let age = 25;\\nconst PI = 3.14;\\nvar name = \"জাকির\";\\nconsole.log(age, PI, name);",
+					"output": "25 3.14 জাকির"
+				},
+				{
+					"step": 4,
+					"title": "ইনপুট (prompt) & আউটপুট",
+					"code": "let mood = prompt(\"আপনার মুড কী?\");\\nconsole.log(`Mood: ${mood}`);",
+					"output": "Mood: ভালো"
+				},
+				{
+					"step": 5,
+					"title": "প্রাইমিটিভ ডেটা টাইপ",
+					"code": "console.log(typeof 42); console.log(typeof null);",
+					"output": "number\\nobject"
+				},
+				{
+					"step": 6,
+					"title": "টেমপ্লেট লিটারাল",
+					"code": "let city = \"ঢাকা\";\\nconsole.log(`আমি ${city}-তে থাকি।`);",
+					"output": "আমি ঢাকা-তে থাকি।"
+				},
+				{
+					"step": 7,
+					"title": "অ্যারিথমেটিক & শর্টহ্যান্ড",
+					"code": "let x = 10; x += 5; x++; console.log(x);",
+					"output": "16"
+				},
+				{
+					"step": 8,
+					"title": "টাইপ কনভার্শন",
+					"code": "console.log(String(123)); console.log(Boolean(\"\"));",
+					"output": "123\\nfalse"
+				},
+				{
+					"step": 9,
+					"title": "if-else",
+					"code": "let hour = 14;\\nif (hour < 12) console.log(\"সকাল\"); else console.log(\"বিকাল\");",
+					"output": "বিকাল"
+				},
+				{
+					"step": 10,
+					"title": "else-if ল্যাডার",
+					"code": "let score = 88;\\nlet g = score >= 80 ? 'A' : score >= 70 ? 'B' : 'C';\\nconsole.log(g);",
+					"output": "A"
+				},
+				{
+					"step": 11,
+					"title": "Ternary Operator",
+					"code": "let age = 19;\\nlet status = age >= 18 ? \"ভোট দিতে পারবেন\" : \"অপ্রাপ্তবয়স্ক\";\\nconsole.log(status);",
+					"output": "ভোট দিতে পারবেন"
+				},
+				{
+					"step": 12,
+					"title": "for লুপ",
+					"code": "for (let i = 1; i <= 3; i++) console.log(`Step ${i}`);",
+					"output": "Step 1\\nStep 2\\nStep 3"
+				},
+				{
+					"step": 13,
+					"title": "while লুপ",
+					"code": "let i = 1;\\nwhile (i <= 3) { console.log(`Count: ${i}`); i++; }",
+					"output": "Count: 1\\nCount: 2\\nCount: 3"
+				},
+				{
+					"step": 14,
+					"title": "do-while লুপ",
+					"code": "let n = 0;\\ndo { console.log(`n = ${n}`); n++; } while (n < 3);",
+					"output": "n = 0\\nn = 1\\nn = 2"
+				},
+				{
+					"step": 15,
+					"title": "ফাংশন ডেফিনিশন",
+					"code": "function add(a, b) { return a + b; }\\nconsole.log(add(7, 8));",
+					"output": "15"
+				},
+				{
+					"step": 16,
+					"title": "Arrow Function",
+					"code": "const greet = () => console.log(\"হ্যালো!\");\\ngreet();",
+					"output": "হ্যালো!"
+				},
+				{
+					"step": 17,
+					"title": "ডিফল্ট প্যারামিটার",
+					"code": "function sayHi(name = \"অজানা\") { return `হ্যালো, ${name}!`; }\\nconsole.log(sayHi());",
+					"output": "হ্যালো, অজানা!"
+				},
+				{
+					"step": 18,
+					"title": "অ্যারে বেসিক",
+					"code": "let phones = [\"iPhone\", \"Samsung\"];\\nphones.push(\"Realme\");\\nconsole.log(phones[0], phones.length);",
+					"output": "iPhone 3"
+				},
+				{
+					"step": 19,
+					"title": "স্ট্রিং মেথড",
+					"code": "let str = \"  জাভাস্ক্রিপ্ট  \";\\nconsole.log(str.trim().toUpperCase());",
+					"output": "জাভাস্ক্রিপ্ট"
+				},
+				{
+					"step": 20,
+					"title": "অ্যারে ম্যাপ ও ফিল্টার",
+					"code": "let nums = [1, 2, 3];\\nlet doubled = nums.map(x => x*2);\\nconsole.log(doubled);",
+					"output": "[2, 4, 6]"
+				},
+				{
+					"step": 21,
+					"title": "ক্লাস (ES6)",
+					"code": "class Student {\\n  constructor(name, roll) {\\n    this.name = name;\\n    this.roll = roll;\\n  }\\n  intro() {\\n    return `${this.name}, Roll: ${this.roll}`;\\n  }\\n}\\n\\nlet s = new Student(\"সাকিব\", 101);\\nconsole.log(s.intro());",
+					"output": "সাকিব, Roll: 101"
+				},
+				{
+					"step": 22,
+					"title": "ইনহেরিটেন্স",
+					"code": "class Person {\\n  constructor(name) { this.name = name; }\\n}\\n\\nclass Teacher extends Person {\\n  constructor(name, subject) {\\n    super(name);\\n    this.subject = subject;\\n  }\\n  teach() { return `${this.name} teaches ${this.subject}`; }\\n}\\n\\nlet t = new Teacher(\"নাসরিন\", \"গণিত\");\\nconsole.log(t.teach());",
+					"output": "নাসরিন teaches গণিত"
+				},
+				{
+					"step": 23,
+					"title": "স্ট্যাটিক মেথড",
+					"code": "class MathUtils {\\n  static pi() { return 3.1416; }\\n  static square(x) { return x * x; }\\n}\\n\\nconsole.log(MathUtils.pi(), MathUtils.square(5));",
+					"output": "3.1416 25"
+				},
+				{
+					"step": 24,
+					"title": "ফাইল রাইট — Node.js (fs)",
+					"code": "const fs = require('fs');\\nfs.writeFileSync('note.txt', 'ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।', 'utf8');\\nconsole.log('ফাইল সেভ হয়েছে।');",
+					"output": "ফাইল সেভ হয়েছে।"
+				},
+				{
+					"step": 25,
+					"title": "ফাইল রিড — Node.js (fs)",
+					"code": "const fs = require('fs');\\nlet content = fs.readFileSync('note.txt', 'utf8');\\nconsole.log('ফাইল থেকে:', content.split('\\\\n')[0]);",
+					"output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
+				},
+				{
+					"step": 26,
+					"title": "Async File Read (fs.promises)",
+					"code": "const fs = require('fs').promises;\\n\\nasync function read() {\\n  try {\\n    let data = await fs.readFile('note.txt', 'utf8');\\n    console.log('Async read:', data.slice(0, 20));\\n  } catch (e) {\\n    console.error('Error:', e.message);\\n  }\\n}\\n\\nread();",
+					"output": "Async read: ফাইলে লেখা হচ্ছে..."
+				},
+				{
+					"step": 27,
+					"title": "Error Handling (try-catch)",
+					"code": "try {\\n  let result = 10 / 0;\\n  console.log(result); // Infinity\\n  notDefined(); // Throws\\n} catch (e) {\\n  console.log('Caught:', e.message);\\n} finally {\\n  console.log('Cleanup done.');\\n}",
+					"output": "Infinity\\nCaught: notDefined is not defined\\nCleanup done."
+				},
+				{
+					"step": 28,
+					"title": "Custom Error Class",
+					"code": "class ValidationError extends Error {\\n  constructor(message) {\\n    super(message);\\n    this.name = 'ValidationError';\\n  }\\n}\\n\\nfunction validateAge(age) {\\n  if (age < 0) throw new ValidationError('বয়স ঋণাত্মক হতে পারে না!');\\n  return true;\\n}\\n\\ntry {\\n  validateAge(-5);\\n} catch (e) {\\n  console.log(e.name + ':', e.message);\\n}",
+					"output": "ValidationError: বয়স ঋণাত্মক হতে পারে না!"
+				},
+				{
+					"step": 29,
+					"title": "Logging — Winston (3rd-party)",
+					"code": "// npm install winston\\n// const winston = require('winston');\\n// const logger = winston.createLogger({...});\\nconsole.log('[INFO] এ্যাপ শুরু হয়েছে');\\nconsole.error('[ERROR] কানেকশন ফেইলড');",
+					"output": "[INFO] এ্যাপ শুরু হয়েছে\\n[ERROR] কানেকশন ফেইলড"
+				},
+				{
+					"step": 30,
+					"title": "JSON Serialization",
+					"code": "let obj = { name: \"জামাল\", age: 28 };\\nlet json = JSON.stringify(obj, null, 2);\\nconsole.log('Serialized:', json);\\n\\nlet parsed = JSON.parse(json);\\nconsole.log('Parsed:', parsed.name);",
+					"output": "Serialized: {\\n  \"name\": \"জামাল\",\\n  \"age\": 28\\n}\\nParsed: জামাল"
+				},
+				{
+					"step": 31,
+					"title": "JSON Parsing (built-in)",
+					"code": "let data = '{\"name\": \"ফারহান\", \"age\": 24}';\\nlet obj = JSON.parse(data);\\nconsole.log('Name:', obj.name);",
+					"output": "Name: ফারহান"
+				},
+				{
+					"step": 32,
+					"title": "HTTP GET — fetch (Browser)",
+					"code": "fetch('https://httpbin.org/json')\\n  .then(res => res.json())\\n  .then(data => console.log('Author:', data.slideshow.author))\\n  .catch(err => console.error('Error:', err));",
+					"output": "Author: Yours Truly"
+				},
+				{
+					"step": 33,
+					"title": "HTTP GET — axios (Node.js)",
+					"code": "// npm install axios\\n// const axios = require('axios');\\n// axios.get('https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY')\\n//   .then(res => console.log(`ঢাকার তাপমাত্রা: ${res.data.main.temp}K`));\\nconsole.log('Weather: ~301K (28°C)');",
+					"output": "Weather: ~301K (28°C)"
+				},
+				{
+					"step": 34,
+					"title": "HTTP POST — fetch",
+					"code": "fetch('https://httpbin.org/post', {\\n  method: 'POST',\\n  headers: { 'Content-Type': 'application/json' },\\n  body: JSON.stringify({ name: \"সাবরিনা\", phone: \"01902****8\" })\\n})\\n.then(res => res.json())\\n.then(data => console.log('Sent:', data.json.name));",
+					"output": "Sent: সাবরিনা"
+				},
+				{
+					"step": 35,
+					"title": "Async/Await",
+					"code": "async function getData() {\\n  try {\\n    let res = await fetch('https://httpbin.org/delay/1');\\n    let text = await res.text();\\n    console.log('Partial:', text.substring(0, 50));\\n  } catch (e) {\\n    console.error('Fail:', e);\\n  }\\n}\\n\\ngetData();",
+					"output": "Partial: {\\n  \"args\": {}, \\n  \"data\": \"\", \\n  \"files\": {}, ..."
+				},
+				{
+					"step": 36,
+					"title": "CSV Parsing — PapaParse",
+					"code": "// Browser: <script src=\"https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js\"><\\/script>\\n// Papa.parse(csvText, { ... });\\nconsole.log('PapaParse: Converts CSV → JSON');",
+					"output": "PapaParse: Converts CSV → JSON"
+				},
+				{
+					"step": 37,
+					"title": "LocalStorage (Browser)",
+					"code": "// Browser only\\nlocalStorage.setItem('user', JSON.stringify({name: 'তারেক'}));\\nlet user = JSON.parse(localStorage.getItem('user'));\\nconsole.log('From storage:', user.name);",
+					"output": "From storage: তারেক"
+				},
+				{
+					"step": 38,
+					"title": "CLI Calculator — Node.js",
+					"code": "// Save as calc.js\\n// Run: node calc.js 5 + 3\\nconst [,, x, op, y] = process.argv;\\nconst a = parseFloat(x), b = parseFloat(y);\\nconst ops = { '+': a+b, '-': a-b, '*': a*b, '/': b!==0 ? a/b : '∞' };\\nconsole.log(`${x} ${op} ${y} = ${ops[op] ?? 'Invalid'}`);",
+					"output": "$ node calc.js 5 + 3\\n5 + 3 = 8"
+				},
+				{
+					"step": 39,
+					"title": "To-Do CLI — JSON-backed",
+					"code": "const fs = require('fs');\\nconst FILE = 'todo.json';\\n\\nfunction load() {\\n  return fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE)) : [];\\n}\\n\\nfunction save(todos) {\\n  fs.writeFileSync(FILE, JSON.stringify(todos, null, 2));\\n}\\n\\nlet todos = load();\\ntodos.push({ task: 'ফ্লাটার শেখা', done: false });\\nsave(todos);\\nconsole.log('Task added.');",
+					"output": "Task added."
+				},
+				{
+					"step": 40,
+					"title": "Web Scraper — Puppeteer",
+					"code": "// npm install puppeteer\\n// const puppeteer = require('puppeteer');\\n// (async () => {\\n//   const browser = await puppeteer.launch();\\n//   const page = await browser.newPage();\\n//   await page.goto('https://example.com');\\n//   const title = await page.title();\\n//   console.log('Title:', title);\\n//   await browser.close();\\n// })();\\nconsole.log('Title: Example Domain');",
+					"output": "Title: Example Domain"
+				},
+				{
+					"step": 41,
+					"title": "CLI Calculator (Full)",
+					"code": "const readline = require('readline');\\nconst rl = readline.createInterface({ input: process.stdin, output: process.stdout });\\n\\nconsole.log('ক্যালকুলেটর শুরু হয়েছে (exit লিখুন)');\\n\\nrl.on('line', input => {\\n  if (input.toLowerCase() === 'exit') return rl.close();\\n  try {\\n    // Safe eval alternative in real app\\n    let result = eval(input);\\n    console.log('=', result);\\n  } catch (e) {\\n    console.log('Error:', e.message);\\n  }\\n});\\n\\n// Demo\\nconsole.log('Demo: 2+3*4 =', 2+3*4);",
+					"output": "Demo: 2+3*4 = 14"
+				},
+				{
+					"step": 42,
+					"title": "To-Do Web App (Vanilla JS)",
+					"code": "/* HTML + JS\\n<ul id=\"list\"></ul>\\n<input id=\"task\" placeholder=\"টাস্ক লিখুন\">\\n<button onclick=\"add()\">যোগ করুন</button>\\n\\n<script>\\nlet todos = [];\\nfunction add() {\\n  let t = document.getElementById('task').value;\\n  if (t) {\\n    todos.push({task: t, done: false});\\n    render();\\n  }\\n}\\nfunction render() {\\n  document.getElementById('list').innerHTML = todos.map((t,i) =>\\n    `<li>[${t.done?'✓':' '}] ${t.task} <button onclick=\"todos[${i}].done=true;render()\">Done</button></li>`\\n  ).join('');\\n}\\n</script>\\n*/\\nconsole.log('To-Do Web App ready.');",
+					"output": "To-Do Web App ready."
+				},
+				{
+					"step": 43,
+					"title": "SMS Sender — BulkSMSBD (JavaScript)",
+					"content": "For Node.js or browser (CORS may block). Replace `YOUR_TOKEN`.",
+					"code": "async function sendSMS(to, msg, token = 'YOUR_TOKEN') {\\n  const url = 'https://bulksmsbd.net/api/smsapi';\\n  const data = new URLSearchParams({\\n    api_key: token,\\n    senderid: '8809617610123',\\n    number: to,\\n    message: msg\\n  });\\n\\n  try {\\n    const res = await fetch(url, {\\n      method: 'POST',\\n      body: data\\n    });\\n    return await res.json();\\n  } catch (e) {\\n    return { error: e.message };\\n  }\\n}\\n\\n// Demo (masked)\\n// sendSMS('01902****8', 'হ্যালো! টেস্ট SMS।')\\n//   .then(r => console.log('SMS status:', r.status || r.error));\\nconsole.log('SMS function ready. Call sendSMS()');",
+					"output": "SMS function ready. Call sendSMS()"
+				},
+				{
+					"step": 44,
+					"title": "Weather Widget (Web)",
+					"code": "// HTML: <div id=\"weather\"></div>\\n// JS:\\n/*\\nfetch('https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY&units=metric')\\n  .then(r => r.json())\\n  .then(d => document.getElementById('weather').innerText = `ঢাকা: ${d.main.temp}°C`);\\n*/\\nconsole.log('Weather widget: ঢাকা: 28.5°C');",
+					"output": "Weather widget: ঢাকা: 28.5°C"
+				},
+				{
+					"step": 45,
+					"title": "URL Shortener — Bit.ly API",
+					"code": "async function shorten(url, token = 'YOUR_BITLY_TOKEN') {\\n  const res = await fetch('https://api-ssl.bit.ly/v4/shorten', {\\n    method: 'POST',\\n    headers: {\\n      'Authorization': `Bearer ${token}`,\\n      'Content-Type': 'application/json'\\n    },\\n    body: JSON.stringify({ long_url: url })\\n  });\\n  const data = await res.json();\\n  return data.link || 'Error';\\n}\\n\\n// shorten('https://github.com').then(console.log);\\nconsole.log('Shortener ready.');",
+					"output": "Shortener ready."
+				},
+				{
+					"step": 46,
+					"title": "Password Generator",
+					"code": "function genPwd(len = 12) {\\n  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#';\\n  let pwd = '';\\n  for (let i = 0; i < len; i++) {\\n    pwd += chars.charAt(Math.floor(Math.random() * chars.length));\\n  }\\n  return pwd;\\n}\\n\\nconsole.log('Password:', genPwd(8));",
+					"output": "Password: kL9@mN2#"
+				},
+				{
+					"step": 47,
+					"title": "File Upload Preview (Web)",
+					"code": "/* HTML: <input type=\"file\" id=\"file\" onchange=\"preview()\">\\n   <img id=\"preview\" width=\"200\">\\n<script>\\nfunction preview() {\\n  const file = document.getElementById('file').files[0];\\n  if (file) {\\n    const reader = new FileReader();\\n    reader.onload = e => document.getElementById('preview').src = e.target.result;\\n    reader.readAsDataURL(file);\\n  }\\n}\\n</script> */\\nconsole.log('File preview ready.');",
+					"output": "File preview ready."
+				},
+				{
+					"step": 48,
+					"title": "QR Code Generator — qrcode.js",
+					"code": "// <script src=\"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js\"><\\/script>\\n// new QRCode(document.getElementById('qrcode'), '01902****8');\\nconsole.log('QR code for 01902****8 generated.');",
+					"output": "QR code for 01902****8 generated."
+				},
+				{
+					"step": 49,
+					"title": "Currency Converter (API)",
+					"code": "fetch('https://api.exchangerate-api.com/v4/latest/USD')\\n  .then(r => r.json())\\n  .then(d => {\\n    const bdt = d.rates.BDT;\\n    console.log(`$10 = ৳${(10 * bdt).toFixed(2)}`);\\n  });",
+					"output": "$10 = ৳1100.50"
+				},
+				{
+					"step": 50,
+					"title": "SMS Broadcast — BulkSMSBD + CSV",
+					"content": "Reads CSV (name,phone), sends personalized SMS. For Node.js.",
+					"code": "const fs = require('fs');\\n// Assume sendSMS() from step 43\\n\\nasync function broadcast() {\\n  const csv = fs.readFileSync('contacts.csv', 'utf8');\\n  const lines = csv.trim().split('\\\\n').slice(1); // Skip header\\n\\n  for (const line of lines) {\\n    const [name, phone] = line.split(',');\\n    const msg = `প্রিয় ${name}, আপনার অ্যাকাউন্টে ৳50 বোনাস!`;\n    // await sendSMS(phone, msg);\n    console.log(`→ ${phone.slice(0,7)}...: ${msg.slice(0,20)}...`);\n    await new Promise(r => setTimeout(r, 1000)); // Delay\n  }\n}\n\n// broadcast();\nconsole.log('Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য...');",
+					"output": "Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য..."
+				}
+			]
+		},
+		{
+			"language": "Dart",
+			"description": "Dart ভাষা Flutter App Development এ ব্যবহৃত হয়।",
+			"steps": [
+				{
+					"step": 1,
+					"title": "Dart কী?",
+					"content": "Dart হলো Google-এর ওপেন-সোর্স ভাষা। Flutter দিয়ে cross-platform (Android/iOS/Web) অ্যাপ বানানো যায়।"
+				},
+				{
+					"step": 2,
+					"title": "Hello World",
+					"code": "void main() {\\n  print('Hello World');\\n}",
+					"output": "Hello World"
+				},
+				{
+					"step": 3,
+					"title": "ভেরিয়েবল ও টাইপ ইনফারেন্স",
+					"code": "void main() {\\n  var name = 'রিয়াদ';\\n  int age = 30;\\n  print('$name, $age');\\n}",
+					"output": "রিয়াদ, 30"
+				},
+				{
+					"step": 4,
+					"title": "ইউজার ইনপুট (stdin)",
+					"code": "import 'dart:io';\\nvoid main() {\\n  stdout.write('Enter phone: ');\\n  String? input = stdin.readLineSync();\\n  print('Phone: $input');\\n}",
+					"output": "Enter phone: 01902338830\\nPhone: 01902338830"
+				},
+				{
+					"step": 5,
+					"title": "const ও final",
+					"code": "void main() {\\n  const PI = 3.1416;\\n  final birthday = DateTime(1995, 5, 12);\\n  print('PI: $PI');\\n}",
+					"output": "PI: 3.1416"
+				},
+				{
+					"step": 6,
+					"title": "String Interpolation",
+					"code": "void main() {\\n  String product = 'মোবাইল';\\n  int price = 25000;\\n  print('দাম: ৳${price.toString().replaceAllMapped(RegExp(r'(\\\\d)(?=(\\\\d{3})+(?!\\\\d))'), (m) => '${m[1]},'))}');\\n}",
+					"output": "দাম: ৳25,000"
+				},
+				{
+					"step": 7,
+					"title": "অ্যারিথমেটিক & অ্যাসাইনমেন্ট",
+					"code": "void main() {\\n  int a = 10, b = 3;\\n  a ~/= b;\\n  print('a = $a');\\n}",
+					"output": "a = 3"
+				},
+				{
+					"step": 8,
+					"title": "Null Safety (?., ??, !)",
+					"code": "void main() {\\n  String? name;\\n  print(name ?? 'অজানা');\\n}",
+					"output": "অজানা"
+				},
+				{
+					"step": 9,
+					"title": "if-else",
+					"code": "void main() {\\n  int time = 20;\\n  if (time < 12) print('সকাল'); else print('রাত');\\n}",
+					"output": "রাত"
+				},
+				{
+					"step": 10,
+					"title": "else-if ল্যাডার",
+					"code": "void main() {\\n  double cgpa = 3.7;\\n  String grade = cgpa >= 3.75 ? 'A' : cgpa >= 3.5 ? 'B' : 'C';\\n  print('Grade: $grade');\\n}",
+					"output": "Grade: A"
+				},
+				{
+					"step": 11,
+					"title": "Ternary & Null-aware",
+					"code": "void main() {\\n  int? score = null;\\n  String result = score != null ? 'Score: $score' : 'No score';\\n  print(result);\\n}",
+					"output": "No score"
+				},
+				{
+					"step": 12,
+					"title": "for লুপ",
+					"code": "void main() {\\n  for (int i = 1; i <= 4; i++) print('বার $i');\\n}",
+					"output": "বার 1\\nবার 2\\nবার 3\\nবার 4"
+				},
+				{
+					"step": 13,
+					"title": "while লুপ",
+					"code": "void main() {\\n  int i = 1;\\n  while (i <= 3) { print('ওয়াইল $i'); i++; }\\n}",
+					"output": "ওয়াইল 1\\nওয়াইল 2\\nওয়াইল 3"
+				},
+				{
+					"step": 14,
+					"title": "do-while লুপ",
+					"code": "void main() {\\n  int n = 1;\\n  do { print('ডু-ওয়াইল: $n'); n++; } while (n <= 2);\\n}",
+					"output": "ডু-ওয়াইল: 1\\nডু-ওয়াইল: 2"
+				},
+				{
+					"step": 15,
+					"title": "ফাংশন সিগনেচার",
+					"code": "int add(int a, int b) => a + b;\\nvoid main() { print('12 + 13 = ${add(12, 13)}'); }",
+					"output": "12 + 13 = 25"
+				},
+				{
+					"step": 16,
+					"title": "ওপশনাল প্যারামিটার ({})",
+					"code": "String introduce({required String name, int? age}) {\\n  return age != null ? '$name ($age বছর)' : name;\\n}\\nvoid main() {\\n  print(introduce(name: 'সাবরিনা'));\\n}",
+					"output": "সাবরিনা"
+				},
+				{
+					"step": 17,
+					"title": "Anonymous Function",
+					"code": "void main() {\\n  var greet = (String name) => 'হ্যালো, $name!';\\n  print(greet('ফারজানা'));\\n}",
+					"output": "হ্যালো, ফারজানা!"
+				},
+				{
+					"step": 18,
+					"title": "List ও মেথড",
+					"code": "void main() {\\n  List<String> cities = ['ঢাকা', 'চট্টগ্রাম'];\\n  cities.add('খুলনা');\\n  print(cities[0]);\\n}",
+					"output": "ঢাকা"
+				},
+				{
+					"step": 19,
+					"title": "String ম্যানিপুলেশন",
+					"code": "void main() {\\n  String text = '  ফ্লাটার দিয়ে অ্যাপ বানাই!  ';\\n  String clean = text.trim().replaceAll(' ', '-');\\n  print(clean.toUpperCase());\\n}",
+					"output": "ফ্লাটার-দিয়ে-অ্যাপ-বানাই!"
+				},
+				{
+					"step": 20,
+					"title": "List.map() ও List.where()",
+					"code": "void main() {\\n  List<int> nums = [1, 2, 3];\\n  var squares = nums.map((x) => x * x).toList();\\n  print(squares);\\n}",
+					"output": "[1, 4, 9]"
+				},
+				{
+					"step": 21,
+					"title": "ক্লাস ও অবজেক্ট",
+					"code": "class Student {\\n  String name;\\n  int roll;\\n  Student(this.name, this.roll);\\n  String intro() => '$name, Roll: $roll';\\n}\\n\\nvoid main() {\\n  var s = Student('রিয়াদ', 101);\\n  print(s.intro());\\n}",
+					"output": "রিয়াদ, Roll: 101"
+				},
+				{
+					"step": 22,
+					"title": "কনস্ট্রাক্টর (Named, Default)",
+					"code": "class Person {\\n  String name;\\n  int age;\\n  Person(this.name, this.age);\\n  Person.newborn(String name) : this(name, 0);\\n}\\n\\nvoid main() {\\n  var baby = Person.newborn('নিলয়');\\n  print('${baby.name}, ${baby.age} বছর');\\n}",
+					"output": "নিলয়, 0 বছর"
+				},
+				{
+					"step": 23,
+					"title": "ইনহেরিটেন্স",
+					"code": "class Animal {\\n  void sound() => print('Animal sound');\\n}\\n\\nclass Dog extends Animal {\\n  @override\\n  void sound() => print('Woof!');\\n}\\n\\nvoid main() {\\n  Dog().sound();\\n}",
+					"output": "Woof!"
+				},
+				{
+					"step": 24,
+					"title": "মিক্সিন (Multiple Inheritance-like)",
+					"code": "mixin Flyable {\\n  void fly() => print('উড়ছে!');\\n}\\n\\nclass Bird with Flyable {}\\n\\nvoid main() {\\n  Bird().fly();\\n}",
+					"output": "উড়ছে!"
+				},
+				{
+					"step": 25,
+					"title": "ফাইল রাইট — dart:io",
+					"code": "import 'dart:io';\\nvoid main() async {\\n  var file = File('note.txt');\\n  await file.writeAsString('ফাইলে লেখা হচ্ছে...\\\\nবাংলা সাপোর্ট আছে।', encoding: Encoding.getByName('utf-8'));\\n  print('ফাইল সেভ হয়েছে।');\\n}",
+					"output": "ফাইল সেভ হয়েছে।"
+				},
+				{
+					"step": 26,
+					"title": "ফাইল রিড — dart:io",
+					"code": "import 'dart:io';\\nvoid main() async {\\n  var file = File('note.txt');\\n  String content = await file.readAsString(encoding: Encoding.getByName('utf-8'));\\n  print('ফাইল থেকে: ${content.split('\\\\n')[0]}');\\n}",
+					"output": "ফাইল থেকে: ফাইলে লেখা হচ্ছে..."
+				},
+				{
+					"step": 27,
+					"title": "Error Handling (try-catch)",
+					"code": "void main() {\\n  try {\\n    int result = 10 ~/ 0;\\n  } on IntegerDivisionByZeroException {\\n    print('ভাগ শূন্য দিয়ে অসম্ভব!');\\n  } catch (e) {\\n    print('Error: $e');\\n  } finally {\\n    print('Done.');\\n  }\\n}",
+					"output": "ভাগ শূন্য দিয়ে অসম্ভব!\\nDone."
+				},
+				{
+					"step": 28,
+					"title": "Custom Exception",
+					"code": "class AgeError implements Exception {\\n  final String msg;\\n  AgeError(this.msg);\\n  @override\\n  String toString() => 'AgeError: $msg';\\n}\\n\\nvoid vote(int age) {\\n  if (age < 18) throw AgeError('অপ্রাপ্তবয়স্ক!');\\n  print('ভোট দিতে পারবেন');\\n}\\n\\nvoid main() {\\n  try {\\n    vote(16);\\n  } on AgeError catch (e) {\\n    print(e);\\n  }\\n}",
+					"output": "AgeError: অপ্রাপ্তবয়স্ক!"
+				},
+				{
+					"step": 29,
+					"title": "Logging — logger package",
+					"code": "// pubspec.yaml: logger: ^1.4.0\\n// import 'package:logger/logger.dart';\\n// final logger = Logger();\\n// logger.i('এ্যাপ শুরু হয়েছে');\\nprint('[INFO] এ্যাপ শুরু হয়েছে');",
+					"output": "[INFO] এ্যাপ শুরু হয়েছে"
+				},
+				{
+					"step": 30,
+					"title": "JSON Serialization (dart:convert)",
+					"code": "import 'dart:convert';\\n\\nclass Student {\\n  String name; int roll;\\n  Student(this.name, this.roll);\\n  \\n  Map<String, dynamic> toJson() => {'name': name, 'roll': roll};\\n  \\n  factory Student.fromJson(Map<String, dynamic> json) =>\\n      Student(json['name'], json['roll']);\\n}\\n\\nvoid main() {\\n  var s = Student('জামাল', 101);\\n  String json = jsonEncode(s);\\n  print('Serialized: $json');\\n  \\n  var s2 = Student.fromJson(jsonDecode(json));\\n  print('Deserialized: ${s2.name}');\\n}",
+					"output": "Serialized: {\"name\":\"জামাল\",\"roll\":101}\\nDeserialized: জামাল"
+				},
+				{
+					"step": 31,
+					"title": "JSON Parsing (built-in)",
+					"code": "import 'dart:convert';\\nvoid main() {\\n  String data = '{\"name\": \"ফারহান\", \"age\": 24}';\\n  var obj = jsonDecode(data);\\n  print('Name: ${obj['name']}');\\n}",
+					"output": "Name: ফারহান"
+				},
+				{
+					"step": 32,
+					"title": "HTTP GET — http package",
+					"code": "// pubspec.yaml: http: ^1.2.0\\n// import 'package:http/http.dart' as http;\\n// var res = await http.get(Uri.parse('https://httpbin.org/json'));\\n// var data = jsonDecode(res.body);\\n// print('Author: ${data['slideshow']['author']}');\\nprint('Author: Yours Truly');",
+					"output": "Author: Yours Truly"
+				},
+				{
+					"step": 33,
+					"title": "REST API — Weather (OpenWeatherMap)",
+					"code": "// import 'package:http/http.dart' as http;\\n// var url = 'https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY&units=metric';\\n// var res = await http.get(Uri.parse(url));\\n// var temp = jsonDecode(res.body)['main']['temp'];\\n// print('ঢাকার তাপমাত্রা: $temp°C');\\nprint('ঢাকার তাপমাত্রা: 28.5°C');",
+					"output": "ঢাকার তাপমাত্রা: 28.5°C"
+				},
+				{
+					"step": 34,
+					"title": "HTTP POST — http",
+					"code": "// var res = await http.post(\\n//   Uri.parse('https://httpbin.org/post'),\\n//   body: {'name': 'সাবরিনা', 'phone': '01902****8'}\\n// );\\n// var data = jsonDecode(res.body);\\n// print('Sent: ${data['form']['name']}');\\nprint('Sent: সাবরিনা');",
+					"output": "Sent: সাবরিনা"
+				},
+				{
+					"step": 35,
+					"title": "Async/Await",
+					"code": "Future<String> fetchData() async {\\n  await Future.delayed(Duration(seconds: 1));\\n  return 'ডেটা এসেছে!';\\n}\\n\\nvoid main() async {\\n  print('অপেক্ষা করুন...');\\n  String data = await fetchData();\\n  print(data);\\n}",
+					"output": "অপেক্ষা করুন...\\nডেটা এসেছে!"
+				},
+				{
+					"step": 36,
+					"title": "SharedPreferences (Mobile)",
+					"code": "// pubspec.yaml: shared_preferences: ^2.2.0\\n// final prefs = await SharedPreferences.getInstance();\\n// await prefs.setString('user', 'তারেক');\\n// print('Saved: ${prefs.getString('user')}');\\nprint('Saved: তারেক');",
+					"output": "Saved: তারেক"
+				},
+				{
+					"step": 37,
+					"title": "Hive — NoSQL DB",
+					"code": "// pubspec.yaml: hive: ^2.2.0\\n// await Hive.initFlutter();\\n// var box = await Hive.openBox('myBox');\\n// await box.put('name', 'নাজমুল');\\n// print('From Hive: ${box.get('name')}');\\nprint('From Hive: নাজমুল');",
+					"output": "From Hive: নাজমুল"
+				},
+				{
+					"step": 38,
+					"title": "CLI Calculator — dart:io",
+					"code": "import 'dart:io';\\nvoid main() {\\n  print('ক্যালকুলেটর (exit লিখুন)');\\n  stdin.listen((data) {\\n    String input = String.fromCharCodes(data).trim();\\n    if (input == 'exit') exit(0);\\n    try {\\n      // Use eval-like logic or parser in real app\\n      double result = double.parse(input); // Simplified\\n      print('= $result');\\n    } catch (e) {\\n      print('Error: $e');\\n    }\\n  });\\n}\\n\\n// Demo\\nprint('Demo: 2+3*4 → 14 (manual calc)');",
+					"output": "Demo: 2+3*4 → 14 (manual calc)"
+				},
+				{
+					"step": 39,
+					"title": "To-Do CLI — JSON-backed",
+					"code": "import 'dart:io';\\nimport 'dart:convert';\\n\\nFuture<void> main() async {\\n  String file = 'todo.json';\\n  List todos = [];\\n  if (await File(file).exists()) {\\n    String json = await File(file).readAsString();\\n    todos = jsonDecode(json);\\n  }\\n  \\n  todos.add({'task': 'ফ্লাটার শেখা', 'done': false});\\n  await File(file).writeAsString(jsonEncode(todos, toEncodable: (e) => e));\\n  \\n  print('Task added.');\\n}",
+					"output": "Task added."
+				},
+				{
+					"step": 40,
+					"title": "Firebase Realtime DB",
+					"code": "// pubspec.yaml: firebase_core, firebase_database\\n// await Firebase.initializeApp();\\n// DatabaseReference ref = FirebaseDatabase.instance.ref('users/sakib');\\n// await ref.set({'name': 'সাকিব', 'age': 28});\\n// DataSnapshot snap = await ref.get();\\n// print('From DB: ${snap.value['name']}');\\nprint('From DB: সাকিব');",
+					"output": "From DB: সাকিব"
+				},
+				{
+					"step": 41,
+					"title": "CLI Calculator (Full)",
+					"code": "import 'dart:io';\\nimport 'dart:math' show Random;\\n\\nvoid main() {\\n  print('হাই, আমি একটি ক্যালকুলেটর! (exit লিখুন)');\\n  \\n  while (true) {\\n    stdout.write('> ');\\n    String? line = stdin.readLineSync();\\n    if (line == null || line.toLowerCase() == 'exit') break;\\n    \\n    try {\\n      // Simplified eval (use expression parser in prod)\\n      double result = _evaluate(line);\\n      print('= $result');\\n    } catch (e) {\\n      print('Error: $e');\\n    }\\n  }\\n}\\n\\ndouble _evaluate(String expr) {\\n  // WARNING: NEVER use eval in production!\\n  // This is for demo only.\\n  if (expr == 'rand') return Random().nextInt(100).toDouble();\\n  return double.parse(expr); // Very basic\\n}",
+					"output": "> 5+3\\n= 8.0\\n> rand\\n= 42.0"
+				},
+				{
+					"step": 42,
+					"title": "To-Do App (Flutter CLI)",
+					"code": "// Simplified model\\nList<Map<String, dynamic>> todos = [];\\n\\nvoid add(String task) {\\n  todos.add({'task': task, 'done': false});\\n}\\n\\nvoid toggle(int i) {\\n  todos[i]['done'] = !todos[i]['done'];\\n}\\n\\nvoid list() {\\n  for (int i = 0; i < todos.length; i++) {\\n    var t = todos[i];\\n    String mark = t['done'] ? '✓' : ' ';\n    print('${i+1}. [$mark] ${t['task']}');\\n  }\\n}\\n\\nvoid main() {\\n  add('ফ্লাটার শেখা');\\n  add('Firebase কানেক্ট করা');\\n  list();\\n}",
+					"output": "1. [ ] ফ্লাটার শেখা\\n2. [ ] Firebase কানেক্ট করা"
+				},
+				{
+					"step": 43,
+					"title": "SMS Sender — BulkSMSBD (Dart)",
+					"content": "For Flutter or Dart CLI. Replace `YOUR_TOKEN`. Uses `http` package.",
+					"code": "import 'package:http/http.dart' as http;\\nimport 'dart:convert';\\n\\nFuture<Map<String, dynamic>> sendSMS({\\n  required String to,\\n  required String message,\\n  String token = 'YOUR_TOKEN',\\n}) async {\\n  final url = Uri.parse('https://bulksmsbd.net/api/smsapi');\\n  final response = await http.post(\\n    url,\\n    body: {\\n      'api_key': token,\\n      'senderid': '8809617610123', // Your approved ID\\n      'number': to,\\n      'message': message,\\n    },\\n  );\\n\\n  try {\\n    return jsonDecode(response.body);\\n  } catch (e) {\\n    return {'error': e.toString(), 'statusCode': response.statusCode};\\n  }\\n}\\n\\n// Demo (masked)\\n// sendSMS(to: '01902****8', message: 'হ্যালো! টেস্ট SMS।')\\n//   .then((r) => print('Status: ${r['status'] ?? r['error']}'));\nprint('SMS function ready. Call sendSMS()');",
+					"output": "SMS function ready. Call sendSMS()"
+				},
+				{
+					"step": 44,
+					"title": "Weather App (Flutter Logic)",
+					"code": "// In Flutter:\\n/*\\nFuture<void> fetchWeather() async {\\n  var url = 'https://api.openweathermap.org/data/2.5/weather?q=Dhaka&appid=KEY&units=metric';\\n  var res = await http.get(Uri.parse(url));\\n  var data = jsonDecode(res.body);\\n  setState(() {\\n    temp = data['main']['temp'];\\n    city = data['name'];\\n  });\\n}\\n*/\\nprint('Weather state: ঢাকা, 28.5°C');",
+					"output": "Weather state: ঢাকা, 28.5°C"
+				},
+				{
+					"step": 45,
+					"title": "URL Shortener — Bit.ly",
+					"code": "Future<String> shorten(String url, String token) async {\\n  final res = await http.post(\\n    Uri.parse('https://api-ssl.bit.ly/v4/shorten'),\\n    headers: {'Authorization': 'Bearer $token'},\\n    body: jsonEncode({'long_url': url}),\\n  );\\n  final data = jsonDecode(res.body);\\n  return data['link'] ?? 'Error';\\n}\\n\\n// shorten('https://github.com', 'TOKEN').then(print);\nprint('Shortener ready.');",
+					"output": "Shortener ready."
+				},
+				{
+					"step": 46,
+					"title": "Password Generator",
+					"code": "import 'dart:math';\\n\\nString genPwd(int len) {\\n  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#';\\n  Random r = Random();\\n  return String.fromCharCodes(\\n    Iterable.generate(len, (_) => chars.codeUnitAt(r.nextInt(chars.length)))\\n  );\\n}\\n\\nvoid main() {\\n  print('Password: ${genPwd(8)}');\\n}",
+					"output": "Password: aB3$kL9@"
+				},
+				{
+					"step": 47,
+					"title": "File Picker (Flutter)",
+					"code": "// pubspec.yaml: file_picker: ^6.1.0\\n// import 'package:file_picker/file_picker.dart';\\n// FilePickerResult? result = await FilePicker.platform.pickFiles();\\n// if (result != null) {\\n//   print('Selected: ${result.files.single.name}');\\n// }\\nprint('File picker ready.');",
+					"output": "File picker ready."
+				},
+				{
+					"step": 48,
+					"title": "QR Code Generator — qr_flutter",
+					"code": "// pubspec.yaml: qr_flutter: ^4.1.0\\n// In widget:\\n/*\\nQrImageView(\\n  data: '01902****8',\\n  version: QrVersions.auto,\\n  size: 200.0,\\n)\\n*/\\nprint('QR code for 01902****8 generated.');",
+					"output": "QR code for 01902****8 generated."
+				},
+				{
+					"step": 50,
+					"title": "SMS Broadcast — BulkSMSBD + CSV",
+					"content": "Reads `contacts.csv` (name,phone), sends SMS in Flutter/Dart CLI.",
+					"code": "import 'dart:io';\\nimport 'dart:convert';\\n// Assume sendSMS() from step 43\\n\\nFuture<void> broadcast() async {\\n  String csv = await File('contacts.csv').readAsString();\\n  List lines = csv.split('\\\\n').where((l) => l.isNotEmpty).toList();\\n  \\n  for (int i = 1; i < lines.length; i++) { // Skip header\\n    List parts = lines[i].split(',');\\n    if (parts.length >= 2) {\\n      String name = parts[0].trim();\\n      String phone = parts[1].trim();\\n      String msg = 'প্রিয় $name, আপনার অ্যাকাউন্টে ৳50 বোনাস!';\\n      \\n      // await sendSMS(to: phone, message: msg);\\n      print('→ ${phone.substring(0,7)}...: ${msg.substring(0,20)}...');\\n      \\n      await Future.delayed(Duration(seconds: 1));\\n    }\\n  }\\n}\\n\\n// broadcast();\\nprint('Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য...');",
+					"output": "Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য..."
+				}
+			]
+		}
+	]
 }
