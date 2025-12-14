@@ -620,13 +620,6 @@
 					"title": "Currency Converter (exchangerate-api)",
 					"code": "# Free tier: https://api.exchangerate-api.com\\nimport requests\\n\\nres = requests.get(\"https://api.exchangerate-api.com/v4/latest/USD\")\\ndata = res.json()\\nusd_to_bdt = data['rates']['BDT']\\namount = 10\\nprint(f\"${amount} = ৳{amount * usd_to_bdt:.2f}\")",
 					"output": "$10 = ৳1100.50"
-				},
-				{
-					"step": 50,
-					"title": "SMS Broadcast App (BulkSMSBD + CSV)",
-					"content": "Reads `numbers.csv` with [name, phone], sends personalized SMS.",
-					"code": "import csv\nimport time\n\n# Assume send_sms() from step 43\n\ndef broadcast():\n    with open('contacts.csv', encoding='utf-8') as f:\n        for row in csv.DictReader(f):\n            msg = f\"প্রিয় {row['name']}, আপনার অ্যাকাউন্টে ৳50 বোনাস!\"\n            # send_sms(row['phone'], msg)\n            print(f\"→ {row['phone'][:7]}...: {msg[:20]}...\")\n            time.sleep(1)  # Avoid rate limit\n\n# broadcast()\nprint(\"Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য...\")",
-					"output": "Broadcast demo: 01902... → প্রিয় রহিম, আপনার অ্য..."
 				}
 			]
 		},
