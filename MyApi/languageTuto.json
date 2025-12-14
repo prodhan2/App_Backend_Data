@@ -248,6 +248,265 @@
 					"content": "এখন পর্যন্ত যা শিখলেন — সব মিলিয়ে একটি ক্যালকুলেটর বানান!\n\n📌 ফিচার:\n- +, -, *, / অপারেশন\n- ইউজার চাইলে আবার চালাতে পারবে\n- ভাগে 0 দিলে এরর দেখাবে",
 					"code": "#include <stdio.h>\n\nint main() {\n  char op;\n  float a, b, result;\n  char again;\n\n  do {\n    printf(\"\\n--- Simple Calculator ---\\n\");\n    printf(\"Enter operation (+, -, *, /): \");\n    scanf(\" %c\", &op);  // %c এর আগে স্পেস দিন — আগের \\n ইগনোর করবে\n\n    printf(\"Enter two numbers: \");\n    scanf(\"%f %f\", &a, &b);\n\n    switch (op) {\n      case '+': result = a + b; break;\n      case '-': result = a - b; break;\n      case '*': result = a * b; break;\n      case '/': \n        if (b == 0) {\n          printf(\"Error: Division by zero!\\n\");\n          continue;  // এই ইটারেশন স্কিপ\n        }\n        result = a / b;\n        break;\n      default:\n        printf(\"Invalid operator!\\n\");\n        continue;\n    }\n\n    printf(\"%.2f %c %.2f = %.2f\\n\", a, op, b, result);\n\n    printf(\"Calculate again? (y/n): \");\n    scanf(\" %c\", &again);\n  } while (again == 'y' || again == 'Y');\n\n  printf(\"Thanks for using!\\n\");\n  return 0;\n}",
 					"output": "\n--- Simple Calculator ---\nEnter operation (+, -, *, /): +\nEnter two numbers: 10.5 4.2\n10.50 + 4.20 = 14.70\nCalculate again? (y/n): n\nThanks for using!"
+				},
+				{
+					"step": 36,
+					"title": "রিকার্শন — ফাংশন নিজেকে কল করে",
+					"content": "রিকার্শন মানে একটি ফাংশন নিজেকেই কল করে।\n\n🔹 দুটি জিনিস জরুরি:\n   1. **বেস কেস** — রিকার্শন থামানোর শর্ত (না থাকলে ইনফিনিট লুপ!)\n   2. **রিকার্সিভ কেস** — নিজেকে কল করা\n\n📌 উদাহরণ: ফ্যাক্টোরিয়াল বের করা — `5! = 5 × 4 × 3 × 2 × 1`",
+					"code": "#include <stdio.h>\n\nint factorial(int n) {\n  // বেস কেস: 0! = 1, 1! = 1\n  if (n == 0 || n == 1) {\n    return 1;\n  }\n  // রিকার্সিভ কেস: n! = n × (n-1)!\n  return n * factorial(n - 1);\n}\n\nint main() {\n  int n = 5;\n  printf(\"%d! = %d\\n\", n, factorial(n));\n  return 0;\n}",
+					"output": "5! = 120"
+				},
+				{
+					"step": 37,
+					"title": "রিকার্শন ভিজুয়ালাইজেশন — কল স্ট্যাক",
+					"content": "রিকার্শন কল স্ট্যাকে পুশ হয় — তাই মেমোরি বেশি খরচ হয়।\n\n📌 উদাহরণ: `factorial(3)` কল করলে স্ট্যাক হবে:\n```\nfactorial(3)\n  → factorial(2)\n    → factorial(1) → return 1\n    → return 2 × 1 = 2\n  → return 3 × 2 = 6\n```\n⚠️ সতর্কতা: বড় `n` (যেমন: 10000) দিলে **স্ট্যাক ওভারফ্লো** হতে পারে।",
+					"code": "#include <stdio.h>\n\nint factorial(int n) {\n  printf(\"Calling factorial(%d)\\n\", n);\n  if (n <= 1) {\n    printf(\"Base case: %d\\n\", n);\n    return 1;\n  }\n  int result = n * factorial(n - 1);\n  printf(\"factorial(%d) = %d\\n\", n, result);\n  return result;\n}\n\nint main() {\n  factorial(3);\n  return 0;\n}",
+					"output": "Calling factorial(3)\nCalling factorial(2)\nCalling factorial(1)\nBase case: 1\nfactorial(2) = 2\nfactorial(3) = 6"
+				},
+				{
+					"step": 38,
+					"title": "ফিবোনাচ্চি সিরিজ — রিকার্শন দিয়ে",
+					"content": "ফিবোনাচ্চি সিরিজ: 0, 1, 1, 2, 3, 5, 8, ...\nপ্রতিটি সংখ্যা = আগের দুটি যোগফল।\n\n🔹 `fib(0) = 0`, `fib(1) = 1` → বেস কেস\n🔹 `fib(n) = fib(n-1) + fib(n-2)` → রিকার্সিভ কেস\n\n⚠️ সতর্কতা: এই ভার্সন O(2ⁿ) — বড় `n`-এ খুব ধীর। পরে ডাইনামিক প্রোগ্রামিং দিয়ে অপ্টিমাইজ করবেন।",
+					"code": "#include <stdio.h>\n\nint fib(int n) {\n  if (n == 0) return 0;\n  if (n == 1) return 1;\n  return fib(n - 1) + fib(n - 2);\n}\n\nint main() {\n  for (int i = 0; i < 8; i++) {\n    printf(\"%d \", fib(i));\n  }\n  printf(\"\\n\");\n  return 0;\n}",
+					"output": "0 1 1 2 3 5 8 13 "
+				},
+				{
+					"step": 39,
+					"title": "পয়েন্টার টু পয়েন্টার — ডাবল পয়েন্টার",
+					"content": "ডাবল পয়েন্টার (`**`) হলো পয়েন্টারের অ্যাড্রেস রাখে।\n\n🔹 `int x = 10;`\n🔹 `int *p = &x;` → p = x এর অ্যাড্রেস\n🔹 `int **pp = &p;` → pp = p এর অ্যাড্রেস\n\n📌 ব্যবহার: ফাংশনে পয়েন্টার পরিবর্তন করতে (যেমন: `malloc` দিয়ে মেমোরি অ্যালোকেট)",
+					"code": "#include <stdio.h>\n\nint main() {\n  int x = 42;\n  int *p = &x;    // p → x\n  int **pp = &p;  // pp → p → x\n\n  printf(\"x = %d\\n\", x);\n  printf(\"*p = %d\\n\", *p);\n  printf(\"**pp = %d\\n\", **pp);\n  printf(\"Address chain: %p → %p → %p\\n\", (void*)pp, (void*)p, (void*)&x);\n  return 0;\n}",
+					"output": "x = 42\n*p = 42\n**pp = 42\nAddress chain: 0x7ffd... → 0x7ffd... → 0x7ffd..."
+				},
+				{
+					"step": 40,
+					"title": "ফাংশন পয়েন্টার — ফাংশনকে ভেরিয়েবল হিসেবে",
+					"content": "ফাংশন পয়েন্টার দিয়ে ফাংশনকে পাস/স্টোর করা যায়।\n\nসিনট্যাক্স:\n```c\nreturn_type (*ptr)(arg_types);\n```\n\n📌 ব্যবহার: ক্যালকুলেটরে অপারেশন ফাংশন পাস করা, কলব্যাকস",
+					"code": "#include <stdio.h>\n\nint add(int a, int b) { return a + b; }\nint mul(int a, int b) { return a * b; }\n\nint main() {\n  // ফাংশন পয়েন্টার ডিক্লেয়ার\n  int (*op)(int, int);\n\n  op = add;\n  printf(\"5 + 3 = %d\\n\", op(5, 3));  // add কল\n\n  op = mul;\n  printf(\"5 * 3 = %d\\n\", op(5, 3));  // mul কল\n  return 0;\n}",
+					"output": "5 + 3 = 8\n5 * 3 = 15"
+				},
+				{
+					"step": 41,
+					"title": "qsort() — বিল্ট-ইন সর্টিং",
+					"content": "`qsort()` হলো C স্ট্যান্ডার্ড লাইব্রেরির দ্রুত সর্ট ফাংশন।\n\n🔹 কাস্টম কম্পেয়ার ফাংশন লাগে\n🔹 সব টাইপের অ্যারে সর্ট করে\n\n📌 উদাহরণ: ইন্টিজার অ্যারে সর্ট",
+					"code": "#include <stdio.h>\n#include <stdlib.h>  // qsort() এর জন্য\n\n// কম্পেয়ার ফাংশন: ছোট→বড়\nint compare(const void *a, const void *b) {\n  return (*(int*)a - *(int*)b);\n}\n\nint main() {\n  int arr[] = {64, 34, 25, 12, 22};\n  int n = 5;\n\n  qsort(arr, n, sizeof(int), compare);\n\n  for (int i = 0; i < n; i++) {\n    printf(\"%d \", arr[i]);\n  }\n  printf(\"\\n\");\n  return 0;\n}",
+					"output": "12 22 25 34 64 "
+				},
+				{
+					"step": 42,
+					"title": "qsort() কাস্টম ডেটা — স্ট্রাকচার সর্ট",
+					"content": "স্ট্রাকচার অ্যারে সর্ট করতে `qsort()` ব্যবহার করুন।\n\n📌 উদাহরণ: শিক্ষার্থীদের CGPA অনুযায়ী সর্ট",
+					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nstruct Student {\n  char name[20];\n  float cgpa;\n};\n\nint compareCGPA(const void *a, const void *b) {\n  struct Student *s1 = (struct Student*)a;\n  struct Student *s2 = (struct Student*)b;\n  // বড়→ছোট ক্রমে\n  if (s1->cgpa < s2->cgpa) return 1;\n  if (s1->cgpa > s2->cgpa) return -1;\n  return 0;\n}\n\nint main() {\n  struct Student students[] = {\n    {\"Rakib\", 3.75},\n    {\"Nusrat\", 3.90},\n    {\"Tanvir\", 3.50}\n  };\n  int n = 3;\n\n  qsort(students, n, sizeof(struct Student), compareCGPA);\n\n  for (int i = 0; i < n; i++) {\n    printf(\"%s: %.2f\\n\", students[i].name, students[i].cgpa);\n  }\n  return 0;\n}",
+					"output": "Nusrat: 3.90\nRakib: 3.75\nTanvir: 3.50"
+				},
+				{
+					"step": 43,
+					"title": "malloc() — রানটাইমে মেমোরি অ্যালোকেট",
+					"content": "`malloc()` দিয়ে রানটাইমে মেমোরি নিন — যখন সাইজ আগে থেকে জানা নেই।\n\n🔹 `void *malloc(size_t size)` → বাইট সংখ্যা দিতে হয়\n🔹 কাস্ট করে নিন: `(int*)malloc(n * sizeof(int))`\n🔹 `NULL` চেক করুন — মেমোরি না পেলে `NULL` রিটার্ন করে\n\n📌 উদাহরণ: ইউজারের ইচ্ছামতো সাইজের অ্যারে",
+					"code": "#include <stdio.h>\n#include <stdlib.h>  // malloc, free\n\nint main() {\n  int n;\n  printf(\"Enter array size: \");\n  scanf(\"%d\", &n);\n\n  // মেমোরি অ্যালোকেট\n  int *arr = (int*)malloc(n * sizeof(int));\n  if (arr == NULL) {\n    printf(\"Memory allocation failed!\\n\");\n    return 1;\n  }\n\n  // ডেটা ইনপুট\n  for (int i = 0; i < n; i++) {\n    arr[i] = i + 1;\n  }\n\n  // প্রিন্ট\n  for (int i = 0; i < n; i++) {\n    printf(\"%d \", arr[i]);\n  }\n\n  free(arr);  // মেমোরি ফ্রি করুন!\n  return 0;\n}",
+					"output": "Enter array size: 4\n1 2 3 4 "
+				},
+				{
+					"step": 44,
+					"title": "calloc() vs malloc() — পার্থক্য",
+					"content": "🔹 `malloc(size)` — কেবল মেমোরি অ্যালোকেট, ভ্যালু আনডিফাইন্ড\n🔹 `calloc(n, size)` — মেমোরি অ্যালোকেট + **সব জিরো দিয়ে ইনিশিয়ালাইজ**\n\n📌 কখন ব্যবহার করবেন?\n- `malloc` → অ্যারে পরে ফিল করবেন\n- `calloc` → জিরো দিয়ে শুরু করতে চাইলে (যেমন: কাউন্টার অ্যারে)",
+					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n  // malloc: ভ্যালু গ্যারবেজ!\n  int *a = (int*)malloc(3 * sizeof(int));\n  printf(\"malloc: %d %d %d\\n\", a[0], a[1], a[2]);\n\n  // calloc: সব 0\n  int *b = (int*)calloc(3, sizeof(int));\n  printf(\"calloc: %d %d %d\\n\", b[0], b[1], b[2]);\n\n  free(a); free(b);\n  return 0;\n}",
+					"output": "malloc: -123456789 0 32767  // (গ্যারবেজ ভ্যালু)\ncalloc: 0 0 0"
+				},
+				{
+					"step": 45,
+					"title": "realloc() — মেমোরি সাইজ পরিবর্তন",
+					"content": "`realloc()` দিয়ে আগে অ্যালোকেটেড মেমোরির সাইজ বাড়ানো/কমানো যায়।\n\n🔹 নতুন সাইজ ছোট হলে ডেটা কাটা যায় না\n🔹 নতুন সাইজ বড় হলে এক্সট্রা স্পেস আনইনিশিয়ালাইজড\n\n📌 উদাহরণ: অ্যারে সাইজ বাড়িয়ে 2টি নতুন ভ্যালু যোগ",
+					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n  int *arr = (int*)malloc(2 * sizeof(int));\n  arr[0] = 10; arr[1] = 20;\n\n  // সাইজ 2 → 4\n  arr = (int*)realloc(arr, 4 * sizeof(int));\n  if (arr == NULL) {\n    printf(\"Realloc failed!\\n\");\n    return 1;\n  }\n\n  arr[2] = 30; arr[3] = 40;\n\n  for (int i = 0; i < 4; i++) {\n    printf(\"%d \", arr[i]);\n  }\n\n  free(arr);\n  return 0;\n}",
+					"output": "10 20 30 40 "
+				},
+				{
+					"step": 46,
+					"title": "মেমোরি লিক — কীভাবে এড়াবেন?",
+					"content": "মেমোরি লিক হয় যখন `malloc` করে `free` করা হয় না।\n\n✅ ভালো অভ্যাস:\n- প্রতিটি `malloc/calloc/realloc`-এর জন্য একটি `free`\n- পয়েন্টার `NULL` করুন পরে — ডাবল ফ্রি এড়াতে\n\n📌 উদাহরণ: মেমোরি লিক ডিটেকশন টুল — `valgrind ./a.out` (Linux)",
+					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nint *createArray(int n) {\n  int *arr = (int*)malloc(n * sizeof(int));\n  for (int i = 0; i < n; i++) arr[i] = i + 1;\n  return arr;  // মেমোরি রিটার্ন করা হচ্ছে — কলারকে free করতে হবে\n}\n\nint main() {\n  int *a = createArray(3);\n  printf(\"%d %d %d\\n\", a[0], a[1], a[2]);\n  free(a);  // ✅ অবশ্যই ফ্রি করুন\n  a = NULL; // ✅ নিরাপত্তা জন্য\n  return 0;\n}",
+					"output": "1 2 3"
+				},
+				{
+					"step": 47,
+					"title": "strlen() — স্ট্রিং-এর দৈর্ঘ্য",
+					"content": "`strlen(s)` রিটার্ন করে স্ট্রিংয়ের দৈর্ঘ্য — কিন্তু `\\0` গণনা করে না।\n\n🔹 `#include <string.h>` লাগে\n🔹 টাইম কম্প্লেক্সিটি: O(n)\n\n⚠️ সতর্কতা: আনটারমিনেটেড স্ট্রিং দিলে ইনফিনিট লুপ!",
+					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char s1[] = \"Hello\";       // অটোমেটিক \\0 যোগ হয়\n  char s2[10] = {'H','i'};  // বাকি জিরো — \\0 আছে\n\n  printf(\"'%s' length = %zu\\n\", s1, strlen(s1));\n  printf(\"'%s' length = %zu\\n\", s2, strlen(s2));\n  return 0;\n}",
+					"output": "'Hello' length = 5\n'Hi' length = 2"
+				},
+				{
+					"step": 48,
+					"title": "strcpy() ও strncpy() — স্ট্রিং কপি",
+					"content": "🔹 `strcpy(dest, src)` — সোর্স স্ট্রিং ডেস্টিনেশনে কপি করে\n🔹 `strncpy(dest, src, n)` — সর্বোচ্চ `n` ক্যারেক্টার কপি করে\n\n⚠️ বাফার ওভারফ্লো এড়াতে `strncpy` বা `snprintf` ব্যবহার করুন!",
+					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char src[] = \"Bangladesh\";\n  char dest1[20], dest2[5];\n\n  // নিরাপদ: dest1 বড়\n  strcpy(dest1, src);\n  printf(\"dest1: '%s'\\n\", dest1);\n\n  // ঝুঁকিপূর্ণ: dest2 ছোট — বাফার ওভারফ্লো!\n  // strcpy(dest2, src);  // ❌\n\n  // নিরাপদ বিকল্প:\n  strncpy(dest2, src, sizeof(dest2) - 1);\n  dest2[sizeof(dest2) - 1] = '\\0';  // ম্যানুয়ালি \\0 দিন\n  printf(\"dest2: '%s'\\n\", dest2);\n  return 0;\n}",
+					"output": "dest1: 'Bangladesh'\ndest2: 'Bang'"
+				},
+				{
+					"step": 49,
+					"title": "strcat() — স্ট্রিং জোড়া দিন",
+					"content": "`strcat(dest, src)` ডেস্টিনেশনের শেষে সোর্স যোগ করে।\n\n⚠️ ডেস্টিনেশন বাফার যথেষ্ট বড় হতে হবে!\n\n📌 নিরাপদ বিকল্প: `strncat(dest, src, n)`",
+					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char dest[50] = \"Hello\";  // শুরুতে \\0 আছে\n  char src[] = \" World!\";\n\n  strcat(dest, src);  // dest = \"Hello World!\"\n  printf(\"%s\\n\", dest);\n\n  strncat(dest, \" - C\", 4);  // সর্বোচ্চ 4 ক্যারেক্টার\n  printf(\"%s\\n\", dest);\n  return 0;\n}",
+					"output": "Hello World!\nHello World! - C"
+				},
+				{
+					"step": 50,
+					"title": "strcmp() — স্ট্রিং তুলনা",
+					"content": "`strcmp(s1, s2)` দুটি স্ট্রিং তুলনা করে:\n\n- `0` → সমান\n- `<0` → s1 < s2 (অক্ষরের ASCII অনুযায়ী)\n- `>0` → s1 > s2\n\n📌 উদাহরণ: ইউজার লগিন — পাসওয়ার্ড চেক",
+					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char pass[20];\n  printf(\"Enter password: \");\n  scanf(\"%s\", pass);\n\n  if (strcmp(pass, \"secret123\") == 0) {\n    printf(\"✅ Login successful!\\n\");\n  } else {\n    printf(\"❌ Wrong password!\\n\");\n  }\n  return 0;\n}",
+					"output": "Enter password: secret123\n✅ Login successful!"
+				},
+				{
+					"step": 51,
+					"title": "2D অ্যারে — ম্যাট্রিক্স তৈরি",
+					"content": "`int matrix[3][3];` — 3×3 ম্যাট্রিক্স।\n\n🔹 মেমোরিতে রো-মেজর অর্ডারে স্টোর হয়\n🔹 ইনিশিয়ালাইজ: `int m[2][2] = {{1,2},{3,4}};`\n\n📌 উদাহরণ: 2×2 ম্যাট্রিক্স ইনপুট ও প্রিন্ট",
+					"code": "#include <stdio.h>\n\nint main() {\n  int m[2][2];\n\n  printf(\"Enter 2x2 matrix:\\n\");\n  for (int i = 0; i < 2; i++) {\n    for (int j = 0; j < 2; j++) {\n      scanf(\"%d\", &m[i][j]);\n    }\n  }\n\n  printf(\"Matrix:\\n\");\n  for (int i = 0; i < 2; i++) {\n    for (int j = 0; j < 2; j++) {\n      printf(\"%d \", m[i][j]);\n    }\n    printf(\"\\n\");\n  }\n  return 0;\n}",
+					"output": "Enter 2x2 matrix:\n1 2 3 4\nMatrix:\n1 2 \n3 4 "
+				},
+				{
+					"step": 52,
+					"title": "2D অ্যারে সাম — সব উপাদান যোগ",
+					"content": "2D অ্যারের সব এলিমেন্ট যোগ করতে নেস্টেড লুপ ব্যবহার করুন।\n\n📌 উদাহরণ: 3×3 ম্যাট্রিক্সের সাম",
+					"code": "#include <stdio.h>\n\nint main() {\n  int m[3][3] = {\n    {1, 2, 3},\n    {4, 5, 6},\n    {7, 8, 9}\n  };\n  int sum = 0;\n\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      sum += m[i][j];\n    }\n  }\n\n  printf(\"Sum of all elements: %d\\n\", sum);\n  return 0;\n}",
+					"output": "Sum of all elements: 45"
+				},
+				{
+					"step": 53,
+					"title": "ম্যাট্রিক্স ট্রান্সপোজ — সারি-কলাম সোয়াপ",
+					"content": "ট্রান্সপোজ মানে সারি ও কলাম সোয়াপ করা।\n`A[i][j] ↔ A[j][i]`\n\n📌 উদাহরণ: 3×3 ম্যাট্রিক্সের ট্রান্সপোজ",
+					"code": "#include <stdio.h>\n\nint main() {\n  int m[3][3] = {{1,2,3},{4,5,6},{7,8,9}};\n\n  printf(\"Original:\\n\");\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      printf(\"%d \", m[i][j]);\n    }\n    printf(\"\\n\");\n  }\n\n  // ট্রান্সপোজ (শুধু উপরের ট্রায়াঙ্গেল)\n  for (int i = 0; i < 3; i++) {\n    for (int j = i + 1; j < 3; j++) {\n      int temp = m[i][j];\n      m[i][j] = m[j][i];\n      m[j][i] = temp;\n    }\n  }\n\n  printf(\"Transposed:\\n\");\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      printf(\"%d \", m[i][j]);\n    }\n    printf(\"\\n\");\n  }\n  return 0;\n}",
+					"output": "Original:\n1 2 3 \n4 5 6 \n7 8 9 \nTransposed:\n1 4 7 \n2 5 8 \n3 6 9 "
+				},
+				{
+					"step": 54,
+					"title": "ইউনিয়ন — একই মেমোরি শেয়ার",
+					"content": "ইউনিয়ন (`union`) একাধিক ভেরিয়েবলের জন্য **একই মেমোরি লোকেশন** ব্যবহার করে।\n\n🔹 সবচেয়ে বড় মেম্বারের সাইজ নেয়\n🔹 একসময় শুধু একটি ভ্যালু রাখে\n\n📌 ব্যবহার: মেমোরি সেভ, প্রোটোকল পার্সিং",
+					"code": "#include <stdio.h>\n\nunion Data {\n  int i;\n  float f;\n  char str[20];\n};\n\nint main() {\n  union Data data;\n\n  data.i = 10;\n  printf(\"data.i: %d\\n\", data.i);\n\n  data.f = 220.5;\n  printf(\"data.f: %.1f\\n\", data.f);\n  // data.i এখন ক্ষতিগ্রস্ত!\n\n  strcpy(data.str, \"C Programming\");\n  printf(\"data.str: %s\\n\", data.str);\n  return 0;\n}",
+					"output": "data.i: 10\ndata.f: 220.5\ndata.str: C Programming"
+				},
+				{
+					"step": 55,
+					"title": "বিটওয়াইজ অপারেটর — বিট লেভেল কন্ট্রোল",
+					"content": "বিট লেভেলে কাজ করতে:\n\n🔹 `&` (AND), `|` (OR), `^` (XOR), `~` (NOT)\n🔹 `<<` (লেফট শিফট), `>>` (রাইট শিফট)\n\n📌 উদাহরণ: ইভেন/অড চেক (`n & 1`), পাওয়ার অফ 2 চেক",
+					"code": "#include <stdio.h>\n\nint main() {\n  int n = 6;  // 110 in binary\n\n  // ইভেন? (শেষ বিট 0?)\n  if ((n & 1) == 0) {\n    printf(\"%d is even\\n\", n);\n  }\n\n  // পাওয়ার অফ 2? (একটি বিট সেট?)\n  if (n > 0 && (n & (n - 1)) == 0) {\n    printf(\"%d is power of 2\\n\", n);\n  } else {\n    printf(\"%d is not power of 2\\n\", n);\n  }\n\n  // 3 << 2 = 3 * 4 = 12 (11 → 1100)\n  printf(\"3 << 2 = %d\\n\", 3 << 2);\n  return 0;\n}",
+					"output": "6 is even\n6 is not power of 2\n3 << 2 = 12"
+				},
+				{
+					"step": 56,
+					"title": "#define ম্যাক্রো — প্যারামিটার সহ",
+					"content": "`#define` দিয়ে ফাংশন-লাইক ম্যাক্রো বানানো যায়।\n\n🔹 `#define SQUARE(x) ((x) * (x))`\n\n⚠️ বন্ধনী দিন — না দিলে এক্সপ্রেশন ভুল হতে পারে!\n\n📌 উদাহরণ: `SQUARE(2+3)` = `(2+3)*(2+3)` = 25 (বন্ধনী ছাড়া 2+3*2+3=11 হতো!)",
+					"code": "#include <stdio.h>\n\n#define SQUARE(x) ((x) * (x))\n#define MAX(a, b) ((a) > (b) ? (a) : (b))\n\nint main() {\n  int a = 3, b = 5;\n  printf(\"SQUARE(%d) = %d\\n\", a, SQUARE(a));\n  printf(\"MAX(%d, %d) = %d\\n\", a, b, MAX(a, b));\n  printf(\"SQUARE(2+3) = %d\\n\", SQUARE(2+3)); // 25!\n  return 0;\n}",
+					"output": "SQUARE(3) = 9\nMAX(3, 5) = 5\nSQUARE(2+3) = 25"
+				},
+				{
+					"step": 57,
+					"title": "#include \"header.h\" — কাস্টম হেডার",
+					"content": "বড় প্রোজেক্টে কোড মডুলারাইজ করতে হেডার ফাইল ব্যবহার করুন।\n\nফাইল স্ট্রাকচার:\n```\nmain.c\nmath_utils.h\nmath_utils.c\n```\n\n📌 উদাহরণ: সাম, ফ্যাক্টোরিয়াল ফাংশন",
+					"code": "/* math_utils.h */\n#ifndef MATH_UTILS_H\n#define MATH_UTILS_H\n\nint sum(int a, int b);\nint factorial(int n);\n\n#endif\n\n/* math_utils.c */\n#include \"math_utils.h\"\n\nint sum(int a, int b) {\n  return a + b;\n}\n\nint factorial(int n) {\n  return (n <= 1) ? 1 : n * factorial(n - 1);\n}\n\n/* main.c */\n#include <stdio.h>\n#include \"math_utils.h\"\n\nint main() {\n  printf(\"5 + 3 = %d\\n\", sum(5, 3));\n  printf(\"5! = %d\\n\", factorial(5));\n  return 0;\n}",
+					"output": "5 + 3 = 8\n5! = 120"
+				},
+				{
+					"step": 58,
+					"title": "assert() — ডিবাগিং জন্য শর্ত চেক",
+					"content": "`assert(condition)` — শর্ত মিথ্যা হলে প্রোগ্রাম ক্র্যাশ করে এবং লাইন নম্বর দেখায়।\n\n🔹 `#include <assert.h>`\n🔹 প্রোডাকশনে `-DNDEBUG` দিয়ে ডিসেবল করা যায়\n\n📌 উদাহরণ: পয়েন্টার `NULL` চেক",
+					"code": "#include <stdio.h>\n#include <assert.h>\n#include <stdlib.h>\n\nint main() {\n  int *p = malloc(sizeof(int));\n  assert(p != NULL);  // NULL হলে crash!\n\n  *p = 100;\n  printf(\"*p = %d\\n\", *p);\n\n  free(p);\n  return 0;\n}",
+					"output": "*p = 100"
+				},
+				{
+					"step": 59,
+					"title": "errno ও perror() — সিস্টেম এরর হ্যান্ডলিং",
+					"content": "ফাইল/সিস্টেম কল ফেইল হলে `errno` সেট হয়।\n\n🔹 `#include <errno.h>`\n🔹 `perror(\"msg\")` → এরর মেসেজ প্রিন্ট করে\n\n📌 উদাহরণ: অনুপস্থিত ফাইল ওপেন",
+					"code": "#include <stdio.h>\n#include <errno.h>\n\nint main() {\n  FILE *fp = fopen(\"missing.txt\", \"r\");\n  if (fp == NULL) {\n    perror(\"fopen\");  // prints: fopen: No such file or directory\n    return errno;      // 2 (ENOENT)\n  }\n  fclose(fp);\n  return 0;\n}",
+					"output": "fopen: No such file or directory"
+				},
+				{
+					"step": 60,
+					"title": "time() ও ctime() — সময় নিন",
+					"content": "`time()` দিয়ে কারেন্ট টাইমস্ট্যাম্প (সেকেন্ড), `ctime()` দিয়ে স্ট্রিংয়ে কনভার্ট।\n\n📌 উদাহরণ: প্রোগ্রাম স্টার্ট/এন্ড টাইম",
+					"code": "#include <stdio.h>\n#include <time.h>\n\nint main() {\n  time_t start = time(NULL);\n  printf(\"Started at: %s\", ctime(&start));  // \\n আছে ctime-এ\n\n  // কিছু কাজ...\n  for (int i = 0; i < 1000000; i++);\n\n  time_t end = time(NULL);\n  printf(\"Ended at: %s\", ctime(&end));\n  printf(\"Duration: %ld seconds\\n\", end - start);\n  return 0;\n}",
+					"output": "Started at: Sun Dec 14 10:30:00 2025\nEnded at: Sun Dec 14 10:30:00 2025\nDuration: 0 seconds"
+				},
+				{
+					"step": 61,
+					"title": "rand() — র‍্যান্ডম নম্বর",
+					"content": "`rand()` 0 থেকে `RAND_MAX` পর্যন্ত র‍্যান্ডম নম্বর দেয়।\n\n🔹 `srand(time(NULL))` — সিড দিন, না হলে একই সিকোয়েন্স!\n🔹 `rand() % N` — 0 থেকে N-1 পর্যন্ত\n\n📌 উদাহরণ: 1-100 এর মধ্যে র‍্যান্ডম নম্বর",
+					"code": "#include <stdio.h>\n#include <stdlib.h>\n#include <time.h>\n\nint main() {\n  srand(time(NULL));  // টাইম দিয়ে সিড সেট\n\n  for (int i = 0; i < 5; i++) {\n    int r = rand() % 100 + 1;  // 1 to 100\n    printf(\"%d \", r);\n  }\n  printf(\"\\n\");\n  return 0;\n}",
+					"output": "42 17 89 3 65 "
+				},
+				{
+					"step": 62,
+					"title": "বাংলাদেশি প্রোজেক্ট: NID ভ্যালিডেশন",
+					"content": "বাংলাদেশের NID নম্বর 10/13/17 ডিজিটের হয়। চেক করুন:\n\n🔹 শুধু ডিজিট\n🔹 দৈর্ঘ্য 10, 13 বা 17\n🔹 শেষ 2 ডিজিট চেকসাম (সাধারণ ভার্সন)\n\n📌 উদাহরণ: আনুমানিক ভ্যালিডেশন",
+					"code": "#include <stdio.h>\n#include <string.h>\n#include <ctype.h>\n\nint isValidNID(char *nid) {\n  int len = strlen(nid);\n  // দৈর্ঘ্য চেক\n  if (len != 10 && len != 13 && len != 17) return 0;\n\n  // ডিজিট চেক\n  for (int i = 0; i < len; i++) {\n    if (!isdigit(nid[i])) return 0;\n  }\n\n  return 1; // সাধারণ চেক — প্রকৃত চেকসাম জটিল\n}\n\nint main() {\n  char nid[20];\n  printf(\"Enter NID: \");\n  scanf(\"%s\", nid);\n\n  if (isValidNID(nid)) {\n    printf(\"✅ Valid format\\n\");\n  } else {\n    printf(\"❌ Invalid format\\n\");\n  }\n  return 0;\n}",
+					"output": "Enter NID: 1234567890\n✅ Valid format"
+				},
+				{
+					"step": 63,
+					"title": "বাংলাদেশি প্রোজেক্ট: মোবাইল বিল ক্যালকুলেটর",
+					"content": "প্রি-পেইড মোবাইল বিল ক্যালকুলেট: 1.50 BDT/মিনিট + 0.50 BDT/SMS।\n\n📌 উদাহরণ: 10 মিনিট + 5 SMS = 15 + 2.5 = 17.50 BDT",
+					"code": "#include <stdio.h>\n\nint main() {\n  int minutes, sms;\n  float bill;\n\n  printf(\"Enter talk time (min): \");\n  scanf(\"%d\", &minutes);\n  printf(\"Enter SMS count: \");\n  scanf(\"%d\", &sms);\n\n  bill = minutes * 1.50 + sms * 0.50;\n\n  printf(\"\\n--- Bill Summary ---\\n\");\n  printf(\"Talk: %d min × 1.50 = %.2f BDT\\n\", minutes, minutes * 1.50);\n  printf(\"SMS: %d × 0.50 = %.2f BDT\\n\", sms, sms * 0.50);\n  printf(\"Total: %.2f BDT\\n\", bill);\n  return 0;\n}",
+					"output": "Enter talk time (min): 10\nEnter SMS count: 5\n\n--- Bill Summary ---\nTalk: 10 min × 1.50 = 15.00 BDT\nSMS: 5 × 0.50 = 2.50 BDT\nTotal: 17.50 BDT"
+				},
+				{
+					"step": 64,
+					"title": "বাংলাদেশি: ছুটির দিন চেকার (2025)",
+					"content": "2025-এর কয়েকটি গুরুত্বপূর্ণ ছুটি চেক করুন।\n\n📌 উদাহরণ: 26 March (Independence Day), 16 December (Victory Day)",
+					"code": "#include <stdio.h>\n#include <string.h>\n\nint isHoliday(int day, int month) {\n  if (month == 3 && day == 26) return 1;  // Independence Day\n  if (month == 12 && day == 16) return 1; // Victory Day\n  if (month == 2 && day == 21) return 1;  // Ekushey\n  return 0;\n}\n\nint main() {\n  int d, m;\n  printf(\"Enter date (DD MM): \");\n  scanf(\"%d %d\", &d, &m);\n\n  if (isHoliday(d, m)) {\n    printf(\"🎉 %02d/%02d is a national holiday!\\n\", d, m);\n  } else {\n    printf(\"📅 %02d/%02d is a working day.\\n\", d, m);\n  }\n  return 0;\n}",
+					"output": "Enter date (DD MM): 16 12\n🎉 16/12 is a national holiday!"
+				},
+				{
+					"step": 65,
+					"title": "fgets() ও sscanf() — সেফ ইনপুট পার্সিং",
+					"content": "`fgets()` দিয়ে পুরো লাইন নিন, `sscanf()` দিয়ে পার্স করুন — বাফার ওভারফ্লো এড়াতে।\n\n📌 উদাহরণ: \"5 10\" → দুটি int পার্স",
+					"code": "#include <stdio.h>\n\nint main() {\n  char line[100];\n  int a, b;\n\n  printf(\"Enter two numbers: \");\n  fgets(line, sizeof(line), stdin);\n\n  if (sscanf(line, \"%d %d\", &a, &b) == 2) {\n    printf(\"You entered: %d and %d\\n\", a, b);\n  } else {\n    printf(\"Invalid input!\\n\");\n  }\n  return 0;\n}",
+					"output": "Enter two numbers: 5 10\nYou entered: 5 and 10"
+				},
+				{
+					"step": 66,
+					"title": "snprintf() — সেফ স্ট্রিং ফরম্যাটিং",
+					"content": "`snprintf(dest, size, format, ...)` — বাফার ওভারফ্লো এড়ানোর জন্য বেস্ট!\n\n🔹 সর্বোচ্চ `size-1` ক্যারেক্টার লিখে `\\0` দেয়\n\n📌 উদাহরণ: ফাইল নেম জেনারেট",
+					"code": "#include <stdio.h>\n\nint main() {\n  char filename[20];\n  int id = 101;\n\n  // নিরাপদ: সর্বোচ্চ 19 ক্যারেক্টার\n  snprintf(filename, sizeof(filename), \"user_%d.txt\", id);\n  printf(\"Filename: '%s'\\n\", filename);\n\n  // বড় স্ট্রিং — ট্রানকেট হবে\n  snprintf(filename, 8, \"user_%d.txt\", 9999); // size=8\n  printf(\"Truncated: '%s'\\n\", filename);\n  return 0;\n}",
+					"output": "Filename: 'user_101.txt'\nTruncated: 'user_99'"
+				},
+				{
+					"step": 67,
+					"title": "মিনি প্রোজেক্ট: টেলিফোন ডাইরেক্টরি",
+					"content": "নাম ও নম্বর স্টোর করুন — সর্ট, সার্চ করুন।\n\n📌 ফিচার:\n- 5 জনের ডেটা\n- নাম অনুযায়ী সর্ট\n- নাম দিয়ে সার্চ",
+					"code": "#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\n\nstruct Contact {\n  char name[30];\n  char phone[15];\n};\n\nint compare(const void *a, const void *b) {\n  return strcmp(((struct Contact*)a)->name, ((struct Contact*)b)->name);\n}\n\nint main() {\n  struct Contact dir[5] = {\n    {\"Rakib\", \"01711111111\"},\n    {\"Nusrat\", \"01822222222\"},\n    {\"Tanvir\", \"01933333333\"}\n  };\n  int count = 3;\n\n  // সর্ট\n  qsort(dir, count, sizeof(struct Contact), compare);\n\n  // প্রিন্ট\n  printf(\"--- Contacts ---\\n\");\n  for (int i = 0; i < count; i++) {\n    printf(\"%s: %s\\n\", dir[i].name, dir[i].phone);\n  }\n\n  // সার্চ\n  char search[30];\n  printf(\"\\nSearch name: \");\n  scanf(\"%s\", search);\n\n  for (int i = 0; i < count; i++) {\n    if (strcmp(dir[i].name, search) == 0) {\n      printf(\"📞 %s: %s\\n\", dir[i].name, dir[i].phone);\n      return 0;\n    }\n  }\n  printf(\"Not found.\\n\");\n  return 0;\n}",
+					"output": "--- Contacts ---\nNusrat: 01822222222\nRakib: 01711111111\nTanvir: 01933333333\n\nSearch name: Rakib\n📞 Rakib: 01711111111"
+				},
+				{
+					"step": 68,
+					"title": "মিনি প্রোজেক্ট: কুইজ অ্যাপ",
+					"content": "3টি প্রশ্নের কুইজ — স্কোর ক্যালকুলেট।\n\n📌 উদাহরণ: বাংলাদেশ-সম্পর্কিত প্রশ্ন",
+					"code": "#include <stdio.h>\n#include <string.h>\n\nstruct Question {\n  char q[100];\n  char options[4][50];\n  int correct; // 0-3\n};\n\nint main() {\n  struct Question qs[] = {\n    {\"What is the capital of Bangladesh?\",\n     {\"Chittagong\", \"Sylhet\", \"Dhaka\", \"Khulna\"}, 2},\n    {\"When did Bangladesh gain independence?\",\n     {\"1947\", \"1952\", \"1971\", \"1980\"}, 2},\n    {\"National animal of Bangladesh?\",\n     {\"Tiger\", \"Lion\", \"Elephant\", \"Bear\"}, 0}\n  };\n  int n = 3, score = 0;\n\n  for (int i = 0; i < n; i++) {\n    printf(\"\\nQ%d: %s\\n\", i+1, qs[i].q);\n    for (int j = 0; j < 4; j++) {\n      printf(\"%c) %s\\n\", 'A'+j, qs[i].options[j]);\n    }\n    char ans;\n    printf(\"Your answer (A-D): \");\n    scanf(\" %c\", &ans);\n    int idx = ans - 'A';\n    if (idx == qs[i].correct) {\n      printf(\"✅ Correct!\\n\");\n      score++;\n    } else {\n      printf(\"❌ Wrong! Correct: %c\\n\", 'A' + qs[i].correct);\n    }\n  }\n\n  printf(\"\\nFinal Score: %d/%d\\n\", score, n);\n  return 0;\n}",
+					"output": "Q1: What is the capital of Bangladesh?\nA) Chittagong\nB) Sylhet\nC) Dhaka\nD) Khulna\nYour answer (A-D): C\n✅ Correct!\n\n...\nFinal Score: 3/3"
+				},
+				{
+					"step": 69,
+					"title": "স্ট্যাটিক ভেরিয়েবল — ফাংশনে লোকাল কিন্তু পার্সিস্টেন্ট",
+					"content": "`static int count;` — ফাংশন কলের মধ্যে ভ্যালু রিটেইন করে।\n\n🔹 প্রথমবার ইনিশিয়ালাইজ হয়, পরে হয় না\n\n📌 উদাহরণ: ফাংশন কল কাউন্টার",
+					"code": "#include <stdio.h>\n\nvoid counter() {\n  static int count = 0;  // একবার ইনিশিয়ালাইজ\n  count++;\n  printf(\"Called %d times\\n\", count);\n}\n\nint main() {\n  counter(); // 1\n  counter(); // 2\n  counter(); // 3\n  return 0;\n}",
+					"output": "Called 1 times\nCalled 2 times\nCalled 3 times"
+				},
+				{
+					"step": 70,
+					"title": "রিকার্সিভ বাইনারি সার্চ",
+					"content": "ইটারেটিভ এর বদলে রিকার্শন দিয়ে বাইনারি সার্চ।\n\n📌 উদাহরণ: সর্টেড অ্যারেতে কী খোঁজা",
+					"code": "#include <stdio.h>\n\nint binarySearch(int arr[], int low, int high, int key) {\n  if (low > high) return -1; // বেস কেস: নেই\n\n  int mid = (low + high) / 2;\n  if (arr[mid] == key) return mid;\n  if (key < arr[mid])\n    return binarySearch(arr, low, mid - 1, key);\n  else\n    return binarySearch(arr, mid + 1, high, key);\n}\n\nint main() {\n  int arr[] = {10, 20, 30, 40, 50};\n  int n = 5, key = 40;\n  int pos = binarySearch(arr, 0, n - 1, key);\n  printf(\"%d at index %d\\n\", key, pos);\n  return 0;\n}",
+					"output": "40 at index 3"
+				},
+				{
+					"step": 71,
+					"title": "লিনিয়ার সার্চ — আনসর্টেড অ্যারেতে",
+					"content": "সর্ট না করে সরাসরি সব উপাদান চেক করুন।\n\n🔹 টাইম: O(n)\n\n📌 উদাহরণ: রোল নম্বর খোঁজা",
+					"code": "#include <stdio.h>\n\nint linearSearch(int arr[], int n, int key) {\n  for (int i = 0; i < n; i++) {\n    if (arr[i] == key) return i;\n  }\n  return -1;\n}\n\nint main() {\n  int rolls[] = {101, 105, 103, 107};\n  int n = 4, target = 103;\n  int pos = linearSearch(rolls, n, target);\n  if (pos != -1) {\n    printf(\"Roll %d found at index %d\\n\", target, pos);\n  } else {\n    printf(\"Not found\\n\");\n  }\n  return 0;\n}",
+					"output": "Roll 103 found at index 2"
+				},
+				{
+					"step": 72,
+					"title": "গ্রেড ক্যালকুলেটর — সুইচ কেস দিয়ে",
+					"content": "`switch` দিয়ে গ্রেড চেক করুন — বড় `if-else` এড়াতে।\n\n📌 উদাহরণ: 80-100 → A+, 70-79 → A, ইত্যাদি",
+					"code": "#include <stdio.h>\n\nchar getGrade(int marks) {\n  int range = marks / 10; // 80-89 → 8, 90-100 → 9/10\n  switch (range) {\n    case 10:\n    case 9: return 'A';\n    case 8: return 'B';\n    case 7: return 'C';\n    case 6: return 'D';\n    default: return 'F';\n  }\n}\n\nint main() {\n  int m = 85;\n  printf(\"Marks: %d → Grade: %c\\n\", m, getGrade(m));\n  return 0;\n}",
+					"output": "Marks: 85 → Grade: B"
 				}
 			]
 		},
