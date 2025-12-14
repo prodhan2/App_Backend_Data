@@ -1,0 +1,74 @@
+{
+  "title": "Programming Languages Tutorials (বাংলা)",
+  "level": "Beginner",
+  "tutorials": [
+    {
+      "language": "C",
+      "description": "C একটি Procedural Programming Language যা দ্রুত এবং শক্তিশালী।",
+      "steps": [
+        {
+          "step": 1,
+          "title": "C কী?",
+          "content": "C হলো একটি low-level এর কাছাকাছি প্রোগ্রামিং ভাষা যা Operating System ও Embedded System এ ব্যবহৃত হয়।"
+        },
+        {
+          "step": 2,
+          "title": "Hello World",
+          "code": "#include <stdio.h>\\nint main() {\\n  printf(\\"Hello World\\");\\n  return 0;\\n}",
+          "output": "Hello World"
+        }
+      ]
+    },
+    {
+      "language": "Python",
+      "description": "Python সহজ ও জনপ্রিয় একটি ভাষা।",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Python কী?",
+          "content": "Python ব্যবহার করা হয় AI, Machine Learning, Data Science এবং Automation-এ।"
+        },
+        {
+          "step": 2,
+          "title": "Hello World",
+          "code": "print(\\"Hello World\\")",
+          "output": "Hello World"
+        }
+      ]
+    },
+    {
+      "language": "JavaScript",
+      "description": "JavaScript হলো Web এর প্রধান ভাষা।",
+      "steps": [
+        {
+          "step": 1,
+          "title": "JavaScript কী?",
+          "content": "JavaScript দিয়ে Website Interactive করা হয়।"
+        },
+        {
+          "step": 2,
+          "title": "Hello World",
+          "code": "console.log(\\"Hello World\\");",
+          "output": "Hello World"
+        }
+      ]
+    },
+    {
+      "language": "Dart",
+      "description": "Dart ভাষা Flutter App Development এ ব্যবহৃত হয়।",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Dart কী?",
+          "content": "Dart দিয়ে Android, iOS এবং Web App তৈরি করা যায়।"
+        },
+        {
+          "step": 2,
+          "title": "Hello World",
+          "code": "void main() {\\n  print('Hello World');\\n}",
+          "output": "Hello World"
+        }
+      ]
+    }
+  ]
+}
