@@ -14,7 +14,7 @@
         {
           "step": 2,
           "title": "Hello World",
-          "code": "#include <stdio.h>\\nint main() {\\n  printf(\\"Hello World\\");\\n  return 0;\\n}",
+          "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\");\n  return 0;\n}",
           "output": "Hello World"
         }
       ]
@@ -31,7 +31,7 @@
         {
           "step": 2,
           "title": "Hello World",
-          "code": "print(\\"Hello World\\")",
+          "code": "print(\"Hello World\")",
           "output": "Hello World"
         }
       ]
@@ -48,7 +48,7 @@
         {
           "step": 2,
           "title": "Hello World",
-          "code": "console.log(\\"Hello World\\");",
+          "code": "console.log(\"Hello World\");",
           "output": "Hello World"
         }
       ]
@@ -65,7 +65,7 @@
         {
           "step": 2,
           "title": "Hello World",
-          "code": "void main() {\\n  print('Hello World');\\n}",
+          "code": "void main() {\n  print('Hello World');\n}",
           "output": "Hello World"
         }
       ]
