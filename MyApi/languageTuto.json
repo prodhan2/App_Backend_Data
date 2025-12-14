@@ -1,6 +1,6 @@
 {
   "title": "Programming Languages Tutorials (বাংলা)",
-  "level": "Beginner",
+  "level": "Beginner to Intermediate",
   "tutorials": [
     {
       "language": "C",
@@ -9,13 +9,121 @@
         {
           "step": 1,
           "title": "C কী?",
-          "content": "C হলো একটি low-level এর কাছাকাছি প্রোগ্রামিং ভাষা যা Operating System ও Embedded System এ ব্যবহৃত হয়।"
+          "content": "C হলো একটি low-level এর কাছাকাছি প্রোগ্রামিং ভাষা। এটি OS, Embedded System, এবং সিস্টেম প্রোগ্রামিং-এ ব্যবহৃত হয়।"
         },
         {
           "step": 2,
           "title": "Hello World",
-          "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\");\n  return 0;\n}",
+          "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\\n\");\n  return 0;\n}",
           "output": "Hello World"
+        },
+        {
+          "step": 3,
+          "title": "ভেরিয়েবল ঘোষণা",
+          "code": "#include <stdio.h>\nint main() {\n  int x = 10;\n  float pi = 3.14;\n  char ch = 'A';\n  printf(\"%d, %.2f, %c\\n\", x, pi, ch);\n  return 0;\n}",
+          "output": "10, 3.14, A"
+        },
+        {
+          "step": 4,
+          "title": "ইউজার ইনপুট (scanf)",
+          "code": "#include <stdio.h>\nint main() {\n  int num;\n  printf(\"Enter a number: \");\n  scanf(\"%d\", &num);\n  printf(\"You entered: %d\\n\", num);\n  return 0;\n}",
+          "output": "Enter a number: 42\nYou entered: 42"
+        },
+        {
+          "step": 5,
+          "title": "বিভিন্ন ডেটা টাইপ",
+          "code": "#include <stdio.h>\nint main() {\n  short s = 32767;\n  long l = 1000000L;\n  double d = 123.456;\n  printf(\"%hd, %ld, %.3lf\\n\", s, l, d);\n  return 0;\n}",
+          "output": "32767, 1000000, 123.456"
+        },
+        {
+          "step": 6,
+          "title": "কনস্ট্যান্ট (const & #define)",
+          "code": "#include <stdio.h>\n#define PI 3.1416\nint main() {\n  const int MAX = 100;\n  printf(\"PI = %.4f, MAX = %d\\n\", PI, MAX);\n  return 0;\n}",
+          "output": "PI = 3.1416, MAX = 100"
+        },
+        {
+          "step": 7,
+          "title": "অ্যারিথমেটিক অপারেটর",
+          "code": "#include <stdio.h>\nint main() {\n  int a = 10, b = 3;\n  printf(\"%d + %d = %d\\n\", a, b, a + b);\n  printf(\"%d %% %d = %d\\n\", a, b, a % b);\n  return 0;\n}",
+          "output": "10 + 3 = 13\n10 % 3 = 1"
+        },
+        {
+          "step": 8,
+          "title": "রিলেশনাল ও লজিক্যাল অপারেটর",
+          "code": "#include <stdio.h>\nint main() {\n  int x = 5, y = 10;\n  printf(\"%d < %d && %d > 0 → %d\\n\", x, y, x, (x < y && x > 0));\n  return 0;\n}",
+          "output": "5 < 10 && 5 > 0 → 1"
+        },
+        {
+          "step": 9,
+          "title": "if-else শর্ত",
+          "code": "#include <stdio.h>\nint main() {\n  int age = 17;\n  if (age >= 18) {\n    printf(\"Adult\\n\");\n  } else {\n    printf(\"Minor\\n\");\n  }\n  return 0;\n}",
+          "output": "Minor"
+        },
+        {
+          "step": 10,
+          "title": "else-if ল্যাডার",
+          "code": "#include <stdio.h>\nint main() {\n  int marks = 75;\n  if (marks >= 80) printf(\"A+\");\n  else if (marks >= 70) printf(\"A\");\n  else if (marks >= 60) printf(\"A-\");\n  else printf(\"Fail\");\n  return 0;\n}",
+          "output": "A"
+        },
+        {
+          "step": 11,
+          "title": "switch-case",
+          "code": "#include <stdio.h>\nint main() {\n  char grade = 'B';\n  switch (grade) {\n    case 'A': printf(\"Excellent\"); break;\n    case 'B': printf(\"Good\"); break;\n    default: printf(\"Unknown\");\n  }\n  return 0;\n}",
+          "output": "Good"
+        },
+        {
+          "step": 12,
+          "title": "for লুপ",
+          "code": "#include <stdio.h>\nint main() {\n  for (int i = 1; i <= 5; i++) {\n    printf(\"%d \", i);\n  }\n  return 0;\n}",
+          "output": "1 2 3 4 5"
+        },
+        {
+          "step": 13,
+          "title": "while লুপ",
+          "code": "#include <stdio.h>\nint main() {\n  int n = 3;\n  while (n > 0) {\n    printf(\"Countdown: %d\\n\", n);\n    n--;\n  }\n  return 0;\n}",
+          "output": "Countdown: 3\nCountdown: 2\nCountdown: 1"
+        },
+        {
+          "step": 14,
+          "title": "do-while লুপ",
+          "code": "#include <stdio.h>\nint main() {\n  int x = 5;\n  do {\n    printf(\"x = %d\\n\", x);\n    x += 10;\n  } while (x < 20);\n  return 0;\n}",
+          "output": "x = 5\nx = 15"
+        },
+        {
+          "step": 15,
+          "title": "ফাংশন ঘোষণা ও কল",
+          "code": "#include <stdio.h>\nint add(int a, int b) { return a + b; }\nint main() {\n  printf(\"Sum: %d\\n\", add(10, 20));\n  return 0;\n}",
+          "output": "Sum: 30"
+        },
+        {
+          "step": 16,
+          "title": "void ফাংশন",
+          "code": "#include <stdio.h>\nvoid greet() {\n  printf(\"Hello from C!\\n\");\n}\nint main() {\n  greet();\n  return 0;\n}",
+          "output": "Hello from C!"
+        },
+        {
+          "step": 17,
+          "title": "পয়েন্টার বেসিক",
+          "code": "#include <stdio.h>\nint main() {\n  int num = 42;\n  int *ptr = &num;\n  printf(\"Value: %d, Address: %p, *ptr: %d\\n\", num, (void*)ptr, *ptr);\n  return 0;\n}",
+          "output": "Value: 42, Address: 0x7ffd..., *ptr: 42"
+        },
+        {
+          "step": 18,
+          "title": "1D অ্যারে",
+          "code": "#include <stdio.h>\nint main() {\n  int arr[3] = {10, 20, 30};\n  for (int i = 0; i < 3; i++) {\n    printf(\"%d \", arr[i]);\n  }\n  return 0;\n}",
+          "output": "10 20 30"
+        },
+        {
+          "step": 19,
+          "title": "স্ট্রিং (char array)",
+          "code": "#include <stdio.h>\n#include <string.h>\nint main() {\n  char name[20] = \"রহিম\";\n  printf(\"Hello, %s! Length: %zu\\n\", name, strlen(name));\n  return 0;\n}",
+          "output": "Hello, রহিম! Length: 8"
+        },
+        {
+          "step": 20,
+          "title": "স্ট্রিং কনক্যাটিনেশন",
+          "code": "#include <stdio.h>\n#include <string.h>\nint main() {\n  char msg[50] = \"Hello, \";\n  strcat(msg, \"বাংলাদেশ!\");\n  printf(\"%s\\n\", msg);\n  return 0;\n}",
+          "output": "Hello, বাংলাদেশ!"
         }
       ]
     },
@@ -26,13 +134,121 @@
         {
           "step": 1,
           "title": "Python কী?",
-          "content": "Python ব্যবহার করা হয় AI, Machine Learning, Data Science এবং Automation-এ।"
+          "content": "Python একটি high-level, interpreted ভাষা। AI, Data Science, Web Dev-এ ব্যবহৃত হয়।"
         },
         {
           "step": 2,
           "title": "Hello World",
           "code": "print(\"Hello World\")",
           "output": "Hello World"
+        },
+        {
+          "step": 3,
+          "title": "ভেরিয়েবল ও ডাইনামিক টাইপিং",
+          "code": "x = 5\ny = 3.14\nname = \"সানা\"\nprint(x, type(x))\nprint(y, type(y))\nprint(name, type(name))",
+          "output": "5 <class 'int'>\n3.14 <class 'float'>\nসানা <class 'str'>"
+        },
+        {
+          "step": 4,
+          "title": "ইউজার ইনপুট",
+          "code": "age = input(\"Enter age: \")\nprint(\"You are\", age, \"years old\")",
+          "output": "Enter age: 22\nYou are 22 years old"
+        },
+        {
+          "step": 5,
+          "title": "বুলিয়ান ও None",
+          "code": "is_student = True\ngraduated = None\nprint(is_student, type(is_student))\nprint(graduated, type(graduated))",
+          "output": "True <class 'bool'>\nNone <class 'NoneType'>"
+        },
+        {
+          "step": 6,
+          "title": "f-string ফরম্যাটিং",
+          "code": "name = \"তারেক\"\nyear = 2025\nprint(f\"{name} will graduate in {year}.\")",
+          "output": "তারেক will graduate in 2025."
+        },
+        {
+          "step": 7,
+          "title": "অ্যারিথমেটিক অপারেটর",
+          "code": "a, b = 15, 4\nprint(f\"{a} // {b} = {a//b} (floor div)\")\nprint(f\"{a} ** {b} = {a**b} (power)\")",
+          "output": "15 // 4 = 3 (floor div)\n15 ** 4 = 50625 (power)"
+        },
+        {
+          "step": 8,
+          "title": "মেম্বারশিপ ও আইডেন্টিটি অপারেটর",
+          "code": "fruits = ['আম', 'কলা']\nprint('আম' in fruits)\nprint(fruits is not None)",
+          "output": "True\nTrue"
+        },
+        {
+          "step": 9,
+          "title": "if-else",
+          "code": "temp = 35\nif temp > 30:\n    print(\"গরম\")\nelse:\n    print(\"ঠান্ডা\")",
+          "output": "গরম"
+        },
+        {
+          "step": 10,
+          "title": "elif ল্যাডার",
+          "code": "score = 65\nif score >= 80:\n    print(\"A+\")\nelif score >= 70:\n    print(\"A\")\nelif score >= 60:\n    print(\"A-\")\nelse:\n    print(\"Fail\")",
+          "output": "A-"
+        },
+        {
+          "step": 11,
+          "title": "match-case (Python 3.10+)",
+          "code": "status = 200\nmatch status:\n    case 200:\n        print(\"OK\")\n    case 404:\n        print(\"Not Found\")\n    case _:\n        print(\"Unknown\")",
+          "output": "OK"
+        },
+        {
+          "step": 12,
+          "title": "for লুপ (range)",
+          "code": "for i in range(1, 6):\n    print(i, end=' ')",
+          "output": "1 2 3 4 5"
+        },
+        {
+          "step": 13,
+          "title": "for লুপ (list এর উপর)",
+          "code": "colors = [\"লাল\", \"নীল\", \"সবুজ\"]\nfor c in colors:\n    print(f\"রং: {c}\")",
+          "output": "রং: লাল\nরং: নীল\nরং: সবুজ"
+        },
+        {
+          "step": 14,
+          "title": "while লুপ",
+          "code": "count = 3\nwhile count > 0:\n    print(f\"{count}...\")\n    count -= 1\nprint(\"ধন্যবাদ!\")",
+          "output": "3...\n2...\n1...\nধন্যবাদ!"
+        },
+        {
+          "step": 15,
+          "title": "ফাংশন ডেফিনিশন",
+          "code": "def multiply(a, b):\n    return a * b\n\nprint(\"5 × 6 =\", multiply(5, 6))",
+          "output": "5 × 6 = 30"
+        },
+        {
+          "step": 16,
+          "title": "ডিফল্ট প্যারামিটার",
+          "code": "def greet(name=\"অতিথি\"):\n    print(f\"স্বাগতম, {name}!\")\n\ngreet()\ngreet(\"ফারহানা\")",
+          "output": "স্বাগতম, অতিথি!\nস্বাগতম, ফারহানা!"
+        },
+        {
+          "step": 17,
+          "title": "ল্যাম্বডা ফাংশন",
+          "code": "square = lambda x: x ** 2\ncube = lambda x: x ** 3\nprint(square(4), cube(3))",
+          "output": "16 27"
+        },
+        {
+          "step": 18,
+          "title": "লিস্ট ও ইনডেক্সিং",
+          "code": "nums = [10, 20, 30, 40]\nprint(\"First:\", nums[0])\nprint(\"Last:\", nums[-1])\nprint(\"Slice:\", nums[1:3])",
+          "output": "First: 10\nLast: 40\nSlice: [20, 30]"
+        },
+        {
+          "step": 19,
+          "title": "স্ট্রিং মেথড",
+          "code": "text = \"  বাংলা   ভাষা  \"\nclean = text.strip().replace(' ', '-')\nprint(clean.upper())",
+          "output": "বাংলা-ভাষা"
+        },
+        {
+          "step": 20,
+          "title": "স্ট্রিং জয়েন ও স্প্লিট",
+          "code": "words = [\"আমি\", \"সফটওয়্যার\", \"ইঞ্জিনিয়ার\"]\nsentence = \" \".join(words)\nparts = sentence.split()\nprint(sentence)\nprint(parts)",
+          "output": "আমি সফটওয়্যার ইঞ্জিনিয়ার\n['আমি', 'সফটওয়্যার', 'ইঞ্জিনিয়ার']"
         }
       ]
     },
@@ -43,13 +259,121 @@
         {
           "step": 1,
           "title": "JavaScript কী?",
-          "content": "JavaScript দিয়ে Website Interactive করা হয়।"
+          "content": "JS দিয়ে ওয়েবপেজকে ইন্টারঅ্যাকটিভ করা হয়। ব্রাউজার ও Node.js-এ চলে।"
         },
         {
           "step": 2,
           "title": "Hello World",
           "code": "console.log(\"Hello World\");",
           "output": "Hello World"
+        },
+        {
+          "step": 3,
+          "title": "ভেরিয়েবল (let, const, var)",
+          "code": "let age = 25;\nconst PI = 3.14;\nvar name = \"জাকির\";\nconsole.log(age, PI, name);",
+          "output": "25 3.14 জাকির"
+        },
+        {
+          "step": 4,
+          "title": "ইনপুট (prompt) & আউটপুট (alert/console)",
+          "code": "let mood = prompt(\"আপনার মুড কী?\");\nconsole.log(`Mood: ${mood}`);\n// alert(`ধন্যবাদ! আপনি ${mood} মুডে আছেন।`);",
+          "output": "Mood: ভালো"
+        },
+        {
+          "step": 5,
+          "title": "প্রাইমিটিভ ডেটা টাইপ",
+          "code": "console.log(typeof 42);      // number\nconsole.log(typeof \"hi\");    // string\nconsole.log(typeof true);     // boolean\nconsole.log(typeof null);     // object (bug!)\nconsole.log(typeof undefined); // undefined",
+          "output": "number\nstring\nboolean\nobject\nundefined"
+        },
+        {
+          "step": 6,
+          "title": "টেমপ্লেট লিটারাল",
+          "code": "let city = \"ঢাকা\";\nlet year = 2025;\nconsole.log(`আমি ${year} সালে ${city}-তে থাকব।`);",
+          "output": "আমি 2025 সালে ঢাকা-তে থাকব।"
+        },
+        {
+          "step": 7,
+          "title": "অ্যারিথমেটিক & শর্টহ্যান্ড",
+          "code": "let x = 10;\nx += 5;   // x = 15\nx++;      // x = 16\nconsole.log(x);\nconsole.log(10 / 3); // float",
+          "output": "16\n3.3333333333333335"
+        },
+        {
+          "step": 8,
+          "title": "টাইপ কনভার্শন",
+          "code": "console.log(String(123));      // \"123\"\nconsole.log(Number(\"45\"));      // 45\nconsole.log(Boolean(0));        // false\nconsole.log(Boolean(\"hello\"));  // true",
+          "output": "123\n45\nfalse\ntrue"
+        },
+        {
+          "step": 9,
+          "title": "if-else",
+          "code": "let hour = 14;\nif (hour < 12) {\n  console.log(\"সকাল\");\n} else {\n  console.log(\"বিকাল বা রাত\");\n}",
+          "output": "বিকাল বা রাত"
+        },
+        {
+          "step": 10,
+          "title": "else-if ল্যাডার",
+          "code": "let score = 88;\nlet grade;\nif (score >= 80) grade = 'A';\nelse if (score >= 70) grade = 'B';\nelse if (score >= 60) grade = 'C';\nelse grade = 'F';\nconsole.log(`Grade: ${grade}`);",
+          "output": "Grade: A"
+        },
+        {
+          "step": 11,
+          "title": "Ternary Operator",
+          "code": "let age = 19;\nlet status = (age >= 18) ? \"ভোট দিতে পারবেন\" : \"অপ্রাপ্তবয়স্ক\";\nconsole.log(status);",
+          "output": "ভোট দিতে পারবেন"
+        },
+        {
+          "step": 12,
+          "title": "for লুপ",
+          "code": "for (let i = 1; i <= 3; i++) {\n  console.log(`Step ${i}`);\n}",
+          "output": "Step 1\nStep 2\nStep 3"
+        },
+        {
+          "step": 13,
+          "title": "while লুপ",
+          "code": "let i = 1;\nwhile (i <= 3) {\n  console.log(`Count: ${i}`);\n  i++;\n}",
+          "output": "Count: 1\nCount: 2\nCount: 3"
+        },
+        {
+          "step": 14,
+          "title": "do-while লুপ",
+          "code": "let n = 0;\ndo {\n  console.log(`n = ${n}`);\n  n++;\n} while (n < 3);",
+          "output": "n = 0\nn = 1\nn = 2"
+        },
+        {
+          "step": 15,
+          "title": "ফাংশন ডেফিনিশন",
+          "code": "function add(a, b) {\n  return a + b;\n}\nconsole.log(\"7 + 8 =\", add(7, 8));",
+          "output": "7 + 8 = 15"
+        },
+        {
+          "step": 16,
+          "title": "Arrow Function",
+          "code": "const multiply = (x, y) => x * y;\nconst greet = () => console.log(\"হ্যালো!\");\nconsole.log(multiply(6, 7));\ngreet();",
+          "output": "42\nহ্যালো!"
+        },
+        {
+          "step": 17,
+          "title": "ডিফল্ট প্যারামিটার",
+          "code": "function sayHi(name = \"অজানা\") {\n  return `হ্যালো, ${name}!`;\n}\nconsole.log(sayHi());\nconsole.log(sayHi(\"নুসরাত\"));",
+          "output": "হ্যালো, অজানা!\nহ্যালো, নুসরাত!"
+        },
+        {
+          "step": 18,
+          "title": "অ্যারে বেসিক",
+          "code": "let phones = [\"iPhone\", \"Samsung\", \"Realme\"];\nphones.push(\"Xiaomi\");\nconsole.log(phones[0]); // first\nconsole.log(phones.length); // size",
+          "output": "iPhone\n4"
+        },
+        {
+          "step": 19,
+          "title": "স্ট্রিং মেথড",
+          "code": "let str = \"  জাভাস্ক্রিপ্ট  \";\nlet clean = str.trim();\nconsole.log(clean.toUpperCase());\nconsole.log(clean.includes(\"স্ক্রিপ্ট\"));",
+          "output": "জাভাস্ক্রিপ্ট\ntrue"
+        },
+        {
+          "step": 20,
+          "title": "অ্যারে ম্যাপ ও ফিল্টার",
+          "code": "let nums = [1, 2, 3, 4];\nlet doubled = nums.map(x => x * 2);\nlet evens = nums.filter(x => x % 2 === 0);\nconsole.log(doubled);\nconsole.log(evens);",
+          "output": "[2, 4, 6, 8]\n[2, 4]"
         }
       ]
     },
@@ -60,13 +384,121 @@
         {
           "step": 1,
           "title": "Dart কী?",
-          "content": "Dart দিয়ে Android, iOS এবং Web App তৈরি করা যায়।"
+          "content": "Dart হলো Google-এর ওপেন-সোর্স ভাষা। Flutter দিয়ে cross-platform (Android/iOS/Web) অ্যাপ বানানো যায়।"
         },
         {
           "step": 2,
           "title": "Hello World",
           "code": "void main() {\n  print('Hello World');\n}",
           "output": "Hello World"
+        },
+        {
+          "step": 3,
+          "title": "ভেরিয়েবল ও টাইপ ইনফারেন্স",
+          "code": "void main() {\n  var name = 'রিয়াদ';\n  int age = 30;\n  double height = 5.8;\n  bool isMarried = false;\n  print('$name, $age, $height, $isMarried');\n}",
+          "output": "রিয়াদ, 30, 5.8, false"
+        },
+        {
+          "step": 4,
+          "title": "ইউজার ইনপুট (stdin)",
+          "code": "import 'dart:io';\nvoid main() {\n  stdout.write('Enter phone: ');\n  String? input = stdin.readLineSync();\n  print('Phone: $input');\n}",
+          "output": "Enter phone: 01902338830\nPhone: 01902338830"
+        },
+        {
+          "step": 5,
+          "title": "const ও final",
+          "code": "void main() {\n  const PI = 3.1416; // compile-time\n  final birthday = DateTime(1995, 5, 12); // runtime\n  print('PI: $PI, Birthday: $birthday');\n}",
+          "output": "PI: 3.1416, Birthday: 1995-05-12 00:00:00.000"
+        },
+        {
+          "step": 6,
+          "title": "String Interpolation",
+          "code": "void main() {\n  String product = 'মোবাইল';\n  int price = 25000;\n  print('দাম: ৳${price.toString().replaceAllMapped(RegExp(r'(\\d)(?=(\\d{3})+(?!\\d))'), (m) => '${m[1]},'))}');\n}",
+          "output": "দাম: ৳25,000"
+        },
+        {
+          "step": 7,
+          "title": "অ্যারিথমেটিক & অ্যাসাইনমেন্ট",
+          "code": "void main() {\n  int a = 10, b = 3;\n  a ~/= b; // integer division\n  print('a = $a'); // 3\n  print('10 % 3 = ${10 % 3}'); // 1\n}",
+          "output": "a = 3\n10 % 3 = 1"
+        },
+        {
+          "step": 8,
+          "title": "Null Safety (?., ??, !)",
+          "code": "void main() {\n  String? name;\n  print(name ?? 'অজানা'); // fallback\n  String nick = name ?? 'Guest';\n  print(nick);\n}",
+          "output": "অজানা\nGuest"
+        },
+        {
+          "step": 9,
+          "title": "if-else",
+          "code": "void main() {\n  int time = 20;\n  if (time < 12) {\n    print('সকাল');\n  } else if (time < 18) {\n    print('বিকাল');\n  } else {\n    print('রাত');\n  }\n}",
+          "output": "রাত"
+        },
+        {
+          "step": 10,
+          "title": "else-if ল্যাডার",
+          "code": "void main() {\n  double cgpa = 3.7;\n  String grade = '';\n  if (cgpa >= 3.75) grade = 'A';\n  else if (cgpa >= 3.5) grade = 'B';\n  else grade = 'C';\n  print('Grade: $grade');\n}",
+          "output": "Grade: A"
+        },
+        {
+          "step": 11,
+          "title": "Ternary & Null-aware",
+          "code": "void main() {\n  int? score = null;\n  String result = score != null ? 'Score: $score' : 'No score';\n  print(result);\n}",
+          "output": "No score"
+        },
+        {
+          "step": 12,
+          "title": "for লুপ",
+          "code": "void main() {\n  for (int i = 1; i <= 4; i++) {\n    print('বার $i');\n  }\n}",
+          "output": "বার 1\nবার 2\nবার 3\nবার 4"
+        },
+        {
+          "step": 13,
+          "title": "while লুপ",
+          "code": "void main() {\n  int i = 1;\n  while (i <= 3) {\n    print('ওয়াইল $i');\n    i++;\n  }\n}",
+          "output": "ওয়াইল 1\nওয়াইল 2\nওয়াইল 3"
+        },
+        {
+          "step": 14,
+          "title": "do-while লুপ",
+          "code": "void main() {\n  int n = 1;\n  do {\n    print('ডু-ওয়াইল: $n');\n    n++;\n  } while (n <= 2);\n}",
+          "output": "ডু-ওয়াইল: 1\nডু-ওয়াইল: 2"
+        },
+        {
+          "step": 15,
+          "title": "ফাংশন সিগনেচার",
+          "code": "int add(int a, int b) => a + b;\n\nvoid main() {\n  print('12 + 13 = ${add(12, 13)}');\n}",
+          "output": "12 + 13 = 25"
+        },
+        {
+          "step": 16,
+          "title": "ওপশনাল প্যারামিটার ({})",
+          "code": "String introduce({required String name, int? age}) {\n  return age != null ? '$name ($age বছর)' : name;\n}\n\nvoid main() {\n  print(introduce(name: 'সাবরিনা'));\n  print(introduce(name: 'করিম', age: 28));\n}",
+          "output": "সাবরিনা\nকরিম (28 বছর)"
+        },
+        {
+          "step": 17,
+          "title": "Anonymous (Lambda) Function",
+          "code": "void main() {\n  var greet = (String name) => 'হ্যালো, $name!';\n  print(greet('ফারজানা'));\n}",
+          "output": "হ্যালো, ফারজানা!"
+        },
+        {
+          "step": 18,
+          "title": "List ও মেথড",
+          "code": "void main() {\n  List<String> cities = ['ঢাকা', 'চট্টগ্রাম', 'রাজশাহী'];\n  cities.add('খুলনা');\n  print(cities[0]); // first\n  print(cities.length); // 4\n}",
+          "output": "ঢাকা\n4"
+        },
+        {
+          "step": 19,
+          "title": "String ম্যানিপুলেশন",
+          "code": "void main() {\n  String text = '  ফ্লাটার দিয়ে অ্যাপ বানাই!  ';\n  String clean = text.trim().replaceAll(' ', '-');\n  print(clean.toUpperCase());\n}",
+          "output": "ফ্লাটার-দিয়ে-অ্যাপ-বানাই!"
+        },
+        {
+          "step": 20,
+          "title": "List.map() ও List.where()",
+          "code": "void main() {\n  List<int> nums = [1, 2, 3, 4, 5];\n  var squares = nums.map((x) => x * x).toList();\n  var odds = nums.where((x) => x.isOdd).toList();\n  print(squares);\n  print(odds);\n}",
+          "output": "[1, 4, 9, 16, 25]\n[1, 3, 5]"
         }
       ]
     }
