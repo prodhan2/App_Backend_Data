@@ -1,38 +1,25 @@
 {
-  "title": "Programming Languages Tutorials (বাংলা)",
+  "title": "Programming Tutorials (বাংলা)",
   "level": "Beginner to Intermediate",
   "languages": [
     {
       "name": "C",
-      "description": "C হলো একটি দ্রুত, শক্তিশালী ও প্রসিডিউরাল প্রোগ্রামিং ভাষা।",
+      "description": "C একটি Procedural Language যা দ্রুত এবং শক্তিশালী।",
       "chapters": [
         {
           "chapter_no": 1,
-          "chapter_title": "C পরিচিতি",
+          "chapter_title": "ভূমিকা",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "C কী?",
-              "content": "C একটি প্রোগ্রামিং ভাষা যা OS এবং Embedded System তৈরিতে ব্যবহৃত হয়।"
-            },
-            {
-              "step_no": 2,
-              "title": "C এর ব্যবহার",
-              "content": "Linux Kernel, Microcontroller Programming, Device Driver ইত্যাদিতে C ব্যবহার করা হয়।"
-            }
+            { "step_no": 1, "title": "C কী?", "content": "C একটি প্রোগ্রামিং ভাষা যা OS এবং Embedded System তৈরিতে ব্যবহৃত হয়।" },
+            { "step_no": 2, "title": "Hello World", "content": "C এর সবচেয়ে বেসিক প্রোগ্রাম।", "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\\n\");\n  return 0;\n}", "output": "Hello World" }
           ]
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম প্রোগ্রাম",
+          "chapter_title": "ভেরিয়েবল এবং ডাটা টাইপ",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "Hello World",
-              "content": "C এর সবচেয়ে বেসিক প্রোগ্রাম।",
-              "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\\n\");\n  return 0;\n}",
-              "output": "Hello World"
-            }
+            { "step_no": 1, "title": "ভেরিয়েবল কী?", "content": "ভেরিয়েবল হলো একটি memory location যার মাধ্যমে আমরা data store করি।" },
+            { "step_no": 2, "title": "ডাটা টাইপ", "content": "C-তে বিভিন্ন ধরনের ডাটা টাইপ আছে যেমন int, float, char ইত্যাদি।" }
           ]
         }
       ]
@@ -43,26 +30,18 @@
       "chapters": [
         {
           "chapter_no": 1,
-          "chapter_title": "Java পরিচিতি",
+          "chapter_title": "ভূমিকা",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "Java কী?",
-              "content": "Java একটি high-level ও Object-Oriented প্রোগ্রামিং ভাষা।"
-            }
+            { "step_no": 1, "title": "Java কী?", "content": "Java একটি high-level ও Object-Oriented প্রোগ্রামিং ভাষা।" },
+            { "step_no": 2, "title": "Hello World", "content": "Java এর সবচেয়ে বেসিক প্রোগ্রাম।", "code": "class Main {\n  public static void main(String[] args) {\n    System.out.println(\"Hello World\");\n  }\n}", "output": "Hello World" }
           ]
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম প্রোগ্রাম",
+          "chapter_title": "ভেরিয়েবল এবং ডাটা টাইপ",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "Hello World",
-              "content": "Java এর সবচেয়ে বেসিক প্রোগ্রাম।",
-              "code": "class Main {\n  public static void main(String[] args) {\n    System.out.println(\"Hello World\");\n  }\n}",
-              "output": "Hello World"
-            }
+            { "step_no": 1, "title": "ভেরিয়েবল কী?", "content": "ভেরিয়েবল হলো memory location যেখানে আমরা ডাটা রাখি।" },
+            { "step_no": 2, "title": "ডাটা টাইপ", "content": "Java-তে primitive ডাটা টাইপ আছে যেমন int, float, double, char ইত্যাদি।" }
           ]
         }
       ]
@@ -73,26 +52,18 @@
       "chapters": [
         {
           "chapter_no": 1,
-          "chapter_title": "Python পরিচিতি",
+          "chapter_title": "ভূমিকা",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "Python কী?",
-              "content": "Python একটি high-level, beginner-friendly ভাষা।"
-            }
+            { "step_no": 1, "title": "Python কী?", "content": "Python একটি high-level, beginner-friendly ভাষা।" },
+            { "step_no": 2, "title": "Hello World", "content": "Python এর সবচেয়ে বেসিক প্রোগ্রাম।", "code": "print(\"Hello World\")", "output": "Hello World" }
           ]
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম প্রোগ্রাম",
+          "chapter_title": "ভেরিয়েবল এবং ডাটা টাইপ",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "Hello World",
-              "content": "Python এর সবচেয়ে বেসিক প্রোগ্রাম।",
-              "code": "print(\"Hello World\")",
-              "output": "Hello World"
-            }
+            { "step_no": 1, "title": "ভেরিয়েবল কী?", "content": "Python-এ variable হলো নামের মাধ্যমে value রাখা হয়।" },
+            { "step_no": 2, "title": "ডাটা টাইপ", "content": "Python-এ int, float, str, list, dict ইত্যাদি ডাটা টাইপ আছে।" }
           ]
         }
       ]
@@ -103,26 +74,18 @@
       "chapters": [
         {
           "chapter_no": 1,
-          "chapter_title": "JavaScript পরিচিতি",
+          "chapter_title": "ভূমিকা",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "JavaScript কী?",
-              "content": "JavaScript একটি scripting ভাষা যা browser ও server উভয় জায়গায় কাজ করে।"
-            }
+            { "step_no": 1, "title": "JavaScript কী?", "content": "JavaScript একটি scripting ভাষা যা browser এবং server উভয় জায়গায় ব্যবহার হয়।" },
+            { "step_no": 2, "title": "Hello World", "content": "JavaScript এর সবচেয়ে বেসিক প্রোগ্রাম।", "code": "console.log(\"Hello World\");", "output": "Hello World" }
           ]
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম প্রোগ্রাম",
+          "chapter_title": "ভেরিয়েবল এবং ডাটা টাইপ",
           "steps": [
-            {
-              "step_no": 1,
-              "title": "Hello World",
-              "content": "JavaScript এর সবচেয়ে বেসিক প্রোগ্রাম।",
-              "code": "console.log(\"Hello World\");",
-              "output": "Hello World"
-            }
+            { "step_no": 1, "title": "ভেরিয়েবল কী?", "content": "JavaScript-এ variable হলো named storage যা value রাখে।" },
+            { "step_no": 2, "title": "ডাটা টাইপ", "content": "JavaScript-এ string, number, boolean, object, array ইত্যাদি ডাটা টাইপ আছে।" }
           ]
         }
       ]
