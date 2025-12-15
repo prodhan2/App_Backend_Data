@@ -1,30 +1,35 @@
 {
   "title": "Programming Languages Tutorials (বাংলা)",
   "level": "Beginner to Intermediate",
-  "tutorials": [
+  "languages": [
     {
-      "language": "C",
-      "description": "C হলো একটি দ্রুত, শক্তিশালী ও প্রসিডিউরাল প্রোগ্রামিং ল্যাঙ্গুয়েজ।",
+      "name": "C",
+      "description": "C হলো একটি দ্রুত, শক্তিশালী ও প্রসিডিউরাল প্রোগ্রামিং ভাষা।",
       "chapters": [
         {
           "chapter_no": 1,
           "chapter_title": "C পরিচিতি",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "C কী?",
               "content": "C একটি প্রোগ্রামিং ভাষা যা OS এবং Embedded System তৈরিতে ব্যবহৃত হয়।"
+            },
+            {
+              "step_no": 2,
+              "title": "C এর ব্যবহার",
+              "content": "Linux Kernel, Microcontroller Programming, Device Driver ইত্যাদিতে C ব্যবহার করা হয়।"
             }
           ]
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম C প্রোগ্রাম",
+          "chapter_title": "প্রথম প্রোগ্রাম",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "Hello World",
-              "content": "C এর প্রথম প্রোগ্রাম।",
+              "content": "C এর সবচেয়ে বেসিক প্রোগ্রাম।",
               "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\\n\");\n  return 0;\n}",
               "output": "Hello World"
             }
@@ -32,9 +37,8 @@
         }
       ]
     },
-
     {
-      "language": "Java",
+      "name": "Java",
       "description": "Java একটি Object-Oriented, platform-independent প্রোগ্রামিং ভাষা।",
       "chapters": [
         {
@@ -42,7 +46,7 @@
           "chapter_title": "Java পরিচিতি",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "Java কী?",
               "content": "Java একটি high-level ও Object-Oriented প্রোগ্রামিং ভাষা।"
             }
@@ -50,12 +54,12 @@
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম Java প্রোগ্রাম",
+          "chapter_title": "প্রথম প্রোগ্রাম",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "Hello World",
-              "content": "Java এর প্রথম প্রোগ্রাম।",
+              "content": "Java এর সবচেয়ে বেসিক প্রোগ্রাম।",
               "code": "class Main {\n  public static void main(String[] args) {\n    System.out.println(\"Hello World\");\n  }\n}",
               "output": "Hello World"
             }
@@ -63,9 +67,8 @@
         }
       ]
     },
-
     {
-      "language": "Python",
+      "name": "Python",
       "description": "Python একটি সহজ, readable এবং powerful প্রোগ্রামিং ভাষা।",
       "chapters": [
         {
@@ -73,20 +76,20 @@
           "chapter_title": "Python পরিচিতি",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "Python কী?",
-              "content": "Python একটি high-level ও beginner-friendly ভাষা।"
+              "content": "Python একটি high-level, beginner-friendly ভাষা।"
             }
           ]
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম Python প্রোগ্রাম",
+          "chapter_title": "প্রথম প্রোগ্রাম",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "Hello World",
-              "content": "Python এর প্রথম প্রোগ্রাম।",
+              "content": "Python এর সবচেয়ে বেসিক প্রোগ্রাম।",
               "code": "print(\"Hello World\")",
               "output": "Hello World"
             }
@@ -94,9 +97,8 @@
         }
       ]
     },
-
     {
-      "language": "JavaScript",
+      "name": "JavaScript",
       "description": "JavaScript একটি জনপ্রিয় scripting ভাষা যা Web Development এ ব্যবহৃত হয়।",
       "chapters": [
         {
@@ -104,7 +106,7 @@
           "chapter_title": "JavaScript পরিচিতি",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "JavaScript কী?",
               "content": "JavaScript একটি scripting ভাষা যা browser ও server উভয় জায়গায় কাজ করে।"
             }
@@ -112,12 +114,12 @@
         },
         {
           "chapter_no": 2,
-          "chapter_title": "প্রথম JavaScript প্রোগ্রাম",
+          "chapter_title": "প্রথম প্রোগ্রাম",
           "steps": [
             {
-              "step": 1,
+              "step_no": 1,
               "title": "Hello World",
-              "content": "JavaScript এর প্রথম প্রোগ্রাম।",
+              "content": "JavaScript এর সবচেয়ে বেসিক প্রোগ্রাম।",
               "code": "console.log(\"Hello World\");",
               "output": "Hello World"
             }
