@@ -1,1113 +1,129 @@
 {
-	"title": "Programming Languages Tutorials (বাংলা)",
-	"level": "Beginner to Intermediate",
-	"tutorials": [
-		{
-			"language": "C",
-			"description": "C হলো একটি দ্রুত, শক্তিশালী ও প্রসিডিউরাল প্রোগ্রামিং ল্যাঙ্গুয়েজ। এটি দিয়ে অপারেটিং সিস্টেম (যেমন: Linux), ইমবেডেড সিস্টেম (যেমন: Arduino), এবং পারফরম্যান্স-ক্রিটিকাল সফটওয়্যার তৈরি করা হয়। বিগিনারদের জন্য এটি ভালো স্টার্টিং পয়েন্ট — কারণ C শিখলে অন্য ভাষা (যেমন: C++, Java, Python) বুঝতে সহজ হয়।",
-			"steps": [
-				{
-					"step": 1,
-					"title": "C কী?",
-					"content": "C হলো এমন একটি প্রোগ্রামিং ভাষা যা কম্পিউটারকে নির্দেশ দিতে ব্যবহার হয়। এটি OS ও Embedded System বানাতে সাহায্য করে।"
-				},
-				{
-					"step": 2,
-					"title": "Hello World",
-					"content": "প্রথম প্রোগ্রাম যা আমরা C-তে লিখি। এটি শুধু 'Hello World' প্রিন্ট করে।",
-					"code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\\n\");\n  return 0;\n}",
-					"output": "Hello World"
-				},
-				{
-					"step": 3,
-					"title": "ভেরিয়েবল ঘোষণা",
-					"content": "C-তে ডেটা রাখার জন্য ভেরিয়েবল ব্যবহার করা হয়। int, float, char প্রধান টাইপ। উদাহরণ দেখো:",
-					"code": "#include <stdio.h>\nint main() {\n  int x = 10;\n  float pi = 3.14;\n  char ch = 'A';\n  printf(\"%d, %.2f, %c\\n\", x, pi, ch);\n  return 0;\n}",
-					"output": "10, 3.14, A"
-				},
-				{
-					"step": 4,
-					"title": "ইউজার ইনপুট (scanf)",
-					"content": "ইউজারের কাছ থেকে সংখ্যা বা ডেটা নেয়ার জন্য scanf ব্যবহার করা হয়। উদাহরণ:",
-					"code": "#include <stdio.h>\nint main() {\n  int num;\n  printf(\"Enter a number: \");\n  scanf(\"%d\", &num);\n  printf(\"You entered: %d\\n\", num);\n  return 0;\n}",
-					"output": "Enter a number: 42\nYou entered: 42"
-				},
-				{
-					"step": 5,
-					"title": "বিভিন্ন ডেটা টাইপ",
-					"content": "C-তে short, long, double ইত্যাদি টাইপ ব্যবহার করে বিভিন্ন ধরনের ডেটা রাখা যায়। উদাহরণ:",
-					"code": "#include <stdio.h>\nint main() {\n  short s = 32767;\n  long l = 1000000L;\n  double d = 123.456;\n  printf(\"%hd, %ld, %.3lf\\n\", s, l, d);\n  return 0;\n}",
-					"output": "32767, 1000000, 123.456"
-				},
-				{
-					"step": 6,
-					"title": "কন্ডিশন চেক: if-else",
-					"content": "কোনো শর্ত মেনে কোড চালানোর জন্য `if-else` ব্যবহার করা হয়।\n\n🔹 `if (শর্ত)` — শর্ত সত্য হলে ভিতরের কোড চলবে\n🔹 `else` — শর্ত মিথ্যা হলে এটি চলবে\n\n📌 শর্ত লেখার নিয়ম:\n   - সমান → `==` (একটা `=` নয়!)\n   - বড় → `>`\n   - ছোট বা সমান → `<=`\n\n💡 উদাহরণ: যদি নম্বর 50 এর বেশি হয়, তাহলে 'Pass', না হলে 'Fail'",
-					"code": "#include <stdio.h>\n\nint main() {\n  int marks;\n  printf(\"Enter your marks: \");\n  scanf(\"%d\", &marks);\n\n  if (marks >= 50) {          // 50 বা তার বেশি হলে\n    printf(\"Pass!\\n\");\n  } else {                    // না হলে\n    printf(\"Fail!\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter your marks: 65\nPass!"
-				},
-				{
-					"step": 7,
-					"title": "একাধিক শর্ত: else if",
-					"content": "যখন ২টির বেশি শর্ত চেক করতে হয় — তখন `else if` ব্যবহার করুন।\n\n💡 বাংলাদেশি উদাহরণ: গ্রেড বের করা —\n   - 80+ → A+\n   - 70-79 → A\n   - 60-69 → A-\n   - 50-59 → B\n   - <50 → F",
-					"code": "#include <stdio.h>\n\nint main() {\n  int marks;\n  printf(\"Enter marks (0-100): \");\n  scanf(\"%d\", &marks);\n\n  if (marks >= 80) {\n    printf(\"Grade: A+\\n\");\n  } else if (marks >= 70) {\n    printf(\"Grade: A\\n\");\n  } else if (marks >= 60) {\n    printf(\"Grade: A-\\n\");\n  } else if (marks >= 50) {\n    printf(\"Grade: B\\n\");\n  } else {\n    printf(\"Grade: F\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter marks (0-100): 75\nGrade: A"
-				},
-				{
-					"step": 8,
-					"title": "লজিকাল অপারেটর: &&, ||, !",
-					"content": "একাধিক শর্ত একসাথে চেক করতে:\n\n🔹 `&&` (AND) — সব শর্ত সত্য হতে হবে\n🔹 `||` (OR) — যেকোনো একটি শর্ত সত্য হলেই চলবে\n🔹 `!` (NOT) — শর্ত উল্টো করে (সত্য → মিথ্যা)\n\n📌 উদাহরণ: ড্রাইভিং লাইসেন্সের জন্য বয়স ≥18 এবং ভিজা ≥2 বছর?\n   - `age >= 18 && experience >= 2`",
-					"code": "#include <stdio.h>\n\nint main() {\n  int age, exp;\n  printf(\"Enter age and experience (years): \");\n  scanf(\"%d %d\", &age, &exp);\n\n  if (age >= 18 && exp >= 2) {\n    printf(\"You can apply for license.\\n\");\n  } else if (age >= 18 || exp >= 2) {\n    printf(\"Almost there! Need both.\\n\");\n  } else {\n    printf(\"Too early!\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter age and experience (years): 20 1\nAlmost there! Need both."
-				},
-				{
-					"step": 9,
-					"title": "for লুপ — নির্দিষ্ট বার কাজ করুন",
-					"content": "`for` লুপ ব্যবহার করুন যখন আপনি জানেন কতবার লুপ চালাবেন।\n\nসিনট্যাক্স:\n```c\nfor (শুরু; শর্ত; আপডেট) {\n  // কোড\n}\n```\n\n🔹 `i = 1` — i ভেরিয়েবল 1 থেকে শুরু\n🔹 `i <= 5` — i 5 এর সমান বা ছোট পর্যন্ত চলবে\n🔹 `i++` — প্রতিবার i-এর মান 1 বাড়বে\n\n📌 ব্যবহার: 1 থেকে 5 পর্যন্ত প্রিন্ট করা",
-					"code": "#include <stdio.h>\n\nint main() {\n  for (int i = 1; i <= 5; i++) {  // i=1, 2, 3, 4, 5\n    printf(\"%d\\n\", i);\n  }\n  return 0;\n}",
-					"output": "1\n2\n3\n4\n5"
-				},
-				{
-					"step": 10,
-					"title": "while লুপ — শর্ত সত্য হওয়া পর্যন্ত চলবে",
-					"content": "`while` লুপ চলে যতক্ষণ না শর্ত মিথ্যা হয়।\n\n🔹 প্রথমে শর্ত চেক হয় → তারপর কোড চলে\n🔹 যদি শুরুতেই শর্ত মিথ্যা হয়, লুপ একবারও চলবে না\n\n📌 উদাহরণ: ইউজার যতক্ষণ `0` না দেয়, ততক্ষণ নম্বর নিতে থাকুন",
-					"code": "#include <stdio.h>\n\nint main() {\n  int num;\n  printf(\"Enter numbers (0 to stop):\\n\");\n\n  scanf(\"%d\", &num);\n  while (num != 0) {       // num 0 না হওয়া পর্যন্ত\n    printf(\"You entered: %d\\n\", num);\n    scanf(\"%d\", &num);     // আবার ইনপুট নিন\n  }\n  printf(\"Stopped.\\n\");\n  return 0;\n}",
-					"output": "Enter numbers (0 to stop):\n5\nYou entered: 5\n3\nYou entered: 3\n0\nStopped."
-				},
-				{
-					"step": 11,
-					"title": "do-while লুপ — অন্তত একবার চলবে",
-					"content": "`do-while` লুপ **প্রথমে কোড চালায়**, তারপর শর্ত চেক করে।\n\n🔹 তাই এটি অন্তত **একবার চলবেই** — এমনকি শর্ত মিথ্যা হলেও!\n\n📌 উদাহরণ: PIN ভেরিফাই করা — ইউজারকে অন্তত একবার পিন দিতে হবে",
-					"code": "#include <stdio.h>\n\nint main() {\n  int pin;\n  do {\n    printf(\"Enter PIN (4-digit): \");\n    scanf(\"%d\", &pin);\n  } while (pin != 1234);  // 1234 না হওয়া পর্যন্ত লুপ চলবে\n\n  printf(\"Access granted!\\n\");\n  return 0;\n}",
-					"output": "Enter PIN (4-digit): 0000\nEnter PIN (4-digit): 1111\nEnter PIN (4-digit): 1234\nAccess granted!"
-				},
-				{
-					"step": 12,
-					"title": "break ও continue — লুপ কন্ট্রোল",
-					"content": "🔹 `break` — লুপ থেকে সরাসরি বেরিয়ে যায়\n🔹 `continue` — বর্তমান ইটারেশন স্কিপ করে, পরের ইটারেশনে যায়\n\n📌 উদাহরণ: 1 থেকে 10 পর্যন্ত প্রিন্ট করুন, কিন্তু 5 প্রিন্ট করবেন না এবং 7 এ থেমে যাবেন",
-					"code": "#include <stdio.h>\n\nint main() {\n  for (int i = 1; i <= 10; i++) {\n    if (i == 5) {\n      continue;   // 5 স্কিপ করুন\n    }\n    if (i == 7) {\n      break;      // 7 এ লুপ থামান\n    }\n    printf(\"%d \", i);\n  }\n  printf(\"\\nDone.\\n\");\n  return 0;\n}",
-					"output": "1 2 3 4 6 \nDone."
-				},
-				{
-					"step": 13,
-					"title": "অ্যারে — একই টাইপের অনেক ডেটা",
-					"content": "অ্যারে হলো একই টাইপের ভেরিয়েবলগুলোর একটি লিস্ট।\n\n🔹 `int marks[5];` — 5টি integer নম্বর রাখবে\n🔹 ইনডেক্স 0 থেকে শুরু হয় → প্রথম উপাদান `marks[0]`\n\n📌 উদাহরণ: 5 জন শিক্ষার্থীর নম্বর নিয়ে যোগফল বের করা",
-					"code": "#include <stdio.h>\n\nint main() {\n  int marks[5];\n  int sum = 0;\n\n  printf(\"Enter 5 marks:\\n\");\n  for (int i = 0; i < 5; i++) {\n    scanf(\"%d\", &marks[i]);  // marks[0], marks[1], ... marks[4]\n    sum += marks[i];\n  }\n\n  printf(\"Total: %d\\n\", sum);\n  return 0;\n}",
-					"output": "Enter 5 marks:\n80 75 90 85 70\nTotal: 400"
-				},
-				{
-					"step": 14,
-					"title": "স্ট্রিং — বাক্য বা শব্দ রাখার জন্য",
-					"content": "C-তে স্ট্রিং হলো `char` অ্যারে + শেষে `\\0` (নাল ক্যারেক্টার)।\n\n🔹 `char name[50];` — সর্বোচ্চ 49 অক্ষর + 1 নাল ক্যারেক্টার\n🔹 `scanf(\"%s\", name);` — এক শব্দ নেয় (স্পেস পর্যন্ত)\n🔹 `fgets(name, 50, stdin);` — পুরো লাইন (স্পেস সহ) নেয়\n\n⚠️ সতর্কতা: `scanf`-এ `&` লাগে না স্ট্রিংয়ের ক্ষেত্রে — `name` ইতিমধ্যে অ্যাড্রেস!\n\n📌 উদাহরণ: নাম নিয়ে 'Hello, [নাম]!' প্রিন্ট করা",
-					"code": "#include <stdio.h>\n\nint main() {\n  char name[50];\n  printf(\"Enter your name: \");\n  scanf(\"%s\", name);  // & ছাড়া! name ইতিমধ্যে অ্যাড্রেস\n\n  printf(\"Hello, %s!\\n\", name);\n  return 0;\n}",
-					"output": "Enter your name: Rakib\nHello, Rakib!"
-				},
-				{
-					"step": 15,
-					"title": "স্ট্রিং ইনপুটে fgets() — স্পেস সহ নাম",
-					"content": "`scanf(\"%s\")` স্পেস পর্যন্ত পড়ে। পুরো নাম (যেমন: 'MD Rakib') নিতে `fgets()` ব্যবহার করুন।\n\n🔹 `fgets(name, 50, stdin)` — সর্বোচ্চ 49 ক্যারেক্টার নেবে\n🔹 এটি শেষে `\\n` ক্যারেক্টারও নেয় — তাই সেটা বাদ দিতে হয়।\n\n📌 টিপ: `name[strcspn(name, \"\\n\")] = '\\0';` দিয়ে `\\n` রিপ্লেস করুন",
-					"code": "#include <stdio.h>\n#include <string.h>  // strcspn() এর জন্য\n\nint main() {\n  char name[50];\n  printf(\"Enter full name: \");\n  fgets(name, 50, stdin);  // স্পেস সহ পুরো নাম নেয়\n\n  // \\n কে \\0 দিয়ে রিপ্লেস করুন\n  name[strcspn(name, \"\\n\")] = '\\0';\n\n  printf(\"Hello, %s!\\n\", name);\n  return 0;\n}",
-					"output": "Enter full name: MD Rakib Hasan\nHello, MD Rakib Hasan!"
-				},
-				{
-					"step": 16,
-					"title": "ফাংশন — কোড রিইউজেবল করুন",
-					"content": "ফাংশন হলো একটি ছোট প্রোগ্রাম যা বারবার কল করা যায়।\n\n🔹 `void greet()` — কিছু রিটার্ন করে না (void)\n🔹 `int add(int a, int b)` — দুটি int নেয়, int রিটার্ন করে\n\n📌 উদাহরণ: গ্রিটিং ফাংশন বানানো",
-					"code": "#include <stdio.h>\n\n// ফাংশন ডিক্লারেশন (প্রোটোটাইপ)\nvoid greet();\n\nint main() {\n  greet();  // ফাংশন কল\n  greet();\n  return 0;\n}\n\n// ফাংশন ডেফিনিশন\nvoid greet() {\n  printf(\"Assalamu Alaikum!\\n\");\n}",
-					"output": "Assalamu Alaikum!\nAssalamu Alaikum!"
-				},
-				{
-					"step": 17,
-					"title": "ফাংশনে ইনপুট ও আউটপুট",
-					"content": "ফাংশনে ডেটা পাঠানো ও ফলাফল ফেরত আনা যায়।\n\n🔹 প্যারামিটার → ফাংশনে ইনপুট\n🔹 `return` → ফলাফল ফেরত দেয়\n\n📌 উদাহরণ: দুটি সংখ্যা যোগ করে ফেরত দেওয়া",
-					"code": "#include <stdio.h>\n\nint add(int a, int b) {  // a, b = প্যারামিটার\n  return a + b;         // যোগফল ফেরত\n}\n\nint main() {\n  int x = 10, y = 20;\n  int result = add(x, y);  // x, y = আর্গুমেন্ট\n  printf(\"%d + %d = %d\\n\", x, y, result);\n  return 0;\n}",
-					"output": "10 + 20 = 30"
-				},
-				{
-					"step": 18,
-					"title": "ফাংশনে ভেরিয়েবল পাস — Call by Value",
-					"content": "C-তে **Call by Value** হয় — মানে ফাংশনে মূল ভেরিয়েবল না পাঠিয়ে তার কপি পাঠানো হয়।\n\n🔹 ফাংশনে যদি কপি পরিবর্তন করেন, মূল ভেরিয়েবল অপরিবর্তিত থাকে\n\n📌 উদাহরণ: দেখুন — `x`-এর মান ফাংশনে পরিবর্তন হলেও মূল `x` একই থাকে",
-					"code": "#include <stdio.h>\n\nvoid change(int a) {\n  a = 99;  // শুধু কপি পরিবর্তন হয়\n  printf(\"Inside function: %d\\n\", a);\n}\n\nint main() {\n  int x = 5;\n  printf(\"Before: %d\\n\", x);\n  change(x);\n  printf(\"After: %d\\n\", x);  // x এখনও 5!\n  return 0;\n}",
-					"output": "Before: 5\nInside function: 99\nAfter: 5"
-				},
-				{
-					"step": 19,
-					"title": "পয়েন্টার — মেমোরি অ্যাড্রেস নিয়ন্ত্রণ",
-					"content": "পয়েন্টার হলো এমন ভেরিয়েবল যা **অন্য ভেরিয়েবলের মেমোরি অ্যাড্রেস** রাখে।\n\n🔹 `int *p;` — p হলো integer পয়েন্টার\n🔹 `&x` — x এর অ্যাড্রেস\n🔹 `*p` — p যে অ্যাড্রেস রাখে, সেখানকার ভ্যালু\n\n📌 উদাহরণ: x-এর অ্যাড্রেস ও ভ্যালু প্রিন্ট",
-					"code": "#include <stdio.h>\n\nint main() {\n  int x = 100;\n  int *p = &x;  // p = x এর অ্যাড্রেস\n\n  printf(\"Value of x: %d\\n\", x);\n  printf(\"Address of x: %p\\n\", &x);\n  printf(\"p stores: %p\\n\", p);       // p = অ্যাড্রেস\n  printf(\"Value at p: %d\\n\", *p);    // *p = x এর ভ্যালু\n  return 0;\n}",
-					"output": "Value of x: 100\nAddress of x: 0x7ffd1234\np stores: 0x7ffd1234\nValue at p: 100"
-				},
-				{
-					"step": 20,
-					"title": "পয়েন্টার দিয়ে ভেরিয়েবল পরিবর্তন — Call by Reference",
-					"content": "পয়েন্টার ব্যবহার করে ফাংশনে **Call by Reference** করা যায় — মানে মূল ভেরিয়েবল পরিবর্তন করা যায়!\n\n📌 উদাহরণ: `swap()` ফাংশন দিয়ে দুটি ভেরিয়েবল সোয়াপ করা",
-					"code": "#include <stdio.h>\n\nvoid swap(int *a, int *b) {  // a, b হলো অ্যাড্রেস\n  int temp = *a;\n  *a = *b;   // *a = a এর অ্যাড্রেসে যে ভ্যালু, তা পরিবর্তন\n  *b = temp;\n}\n\nint main() {\n  int x = 5, y = 10;\n  printf(\"Before: x=%d, y=%d\\n\", x, y);\n  swap(&x, &y);  // অ্যাড্রেস পাঠানো হচ্ছে\n  printf(\"After: x=%d, y=%d\\n\", x, y);\n  return 0;\n}",
-					"output": "Before: x=5, y=10\nAfter: x=10, y=5"
-				},
-				{
-					"step": 21,
-					"title": "অ্যারে ও পয়েন্টার — অ্যারে নাম ইতিমধ্যে পয়েন্টার!",
-					"content": "C-তে অ্যারের নাম ইতিমধ্যে প্রথম উপাদানের অ্যাড্রেস।\n\n🔹 `arr` এবং `&arr[0]` একই জিনিস!\n🔹 `arr[i]` = `*(arr + i)`\n\n📌 উদাহরণ: অ্যারে প্রিন্ট করা পয়েন্টার দিয়ে",
-					"code": "#include <stdio.h>\n\nint main() {\n  int arr[3] = {10, 20, 30};\n\n  // সাধারণ উপায়\n  for (int i = 0; i < 3; i++) {\n    printf(\"%d \", arr[i]);\n  }\n  printf(\"\\n\");\n\n  // পয়েন্টার উপায়\n  for (int *p = arr; p < arr + 3; p++) {  // p = arr[0] এর অ্যাড্রেস\n    printf(\"%d \", *p);\n  }\n  printf(\"\\n\");\n  return 0;\n}",
-					"output": "10 20 30 \n10 20 30 "
-				},
-				{
-					"step": 22,
-					"title": "স্ট্রাকচার — বিভিন্ন টাইপের ডেটা একসাথে",
-					"content": "স্ট্রাকচার দিয়ে আপনি স্টুডেন্ট, প্রোডাক্ট ইত্যাদির মতো জটিল ডেটা তৈরি করতে পারেন।\n\n🔹 `struct Student { … };` — ডেটা টাইপ ডিফাইন\n🔹 `struct Student s1;` — ভেরিয়েবল ডিক্লেয়ার\n🔹 `s1.id = 101;` — ডট অপারেটর দিয়ে অ্যাক্সেস\n\n📌 উদাহরণ: একজন শিক্ষার্থীর তথ্য",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nstruct Student {\n  int id;\n  char name[30];\n  float cgpa;\n};\n\nint main() {\n  struct Student s1;\n  s1.id = 101;\n  strcpy(s1.name, \"Rakib\");  // স্ট্রিং কপি\n  s1.cgpa = 3.75;\n\n  printf(\"ID: %d\\nName: %s\\nCGPA: %.2f\\n\", s1.id, s1.name, s1.cgpa);\n  return 0;\n}",
-					"output": "ID: 101\nName: Rakib\nCGPA: 3.75"
-				},
-				{
-					"step": 23,
-					"title": "স্ট্রাকচার অ্যারে — অনেকজন শিক্ষার্থী",
-					"content": "স্ট্রাকচারের অ্যারে দিয়ে অনেকগুলো অবজেক্ট একসাথে রাখা যায়।\n\n📌 উদাহরণ: 3 জন শিক্ষার্থীর তালিকা তৈরি ও প্রিন্ট",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nstruct Student {\n  int id;\n  char name[20];\n};\n\nint main() {\n  struct Student students[3];\n\n  // ডেটা ইনপুট\n  for (int i = 0; i < 3; i++) {\n    printf(\"Student %d ID: \", i+1);\n    scanf(\"%d\", &students[i].id);\n    printf(\"Name: \");\n    scanf(\"%s\", students[i].name);\n  }\n\n  // ডেটা প্রিন্ট\n  printf(\"\\n--- Student List ---\\n\");\n  for (int i = 0; i < 3; i++) {\n    printf(\"%d. %s (ID: %d)\\n\", i+1, students[i].name, students[i].id);\n  }\n  return 0;\n}",
-					"output": "Student 1 ID: 101\nName: Rakib\nStudent 2 ID: 102\nName: Nusrat\nStudent 3 ID: 103\nName: Tanvir\n\n--- Student List ---\n1. Rakib (ID: 101)\n2. Nusrat (ID: 102)\n3. Tanvir (ID: 103)"
-				},
-				{
-					"step": 24,
-					"title": "ফাইল অপারেশন — ডেটা সেভ/লোড",
-					"content": "ফাইল দিয়ে ডেটা পার্মানেন্টলি সেভ করা যায়।\n\n🔹 `FILE *fp;` — ফাইল পয়েন্টার\n🔹 `fopen(\"data.txt\", \"w\")` — ফাইল ওপেন (w = লেখা, r = পড়া)\n🔹 `fprintf(fp, \"...\")` — ফাইলে লিখুন\n🔹 `fclose(fp)` — ফাইল বন্ধ করুন\n\n📌 উদাহরণ: ইউজারের নাম ফাইলে সেভ করা",
-					"code": "#include <stdio.h>\n\nint main() {\n  FILE *fp;\n  char name[30];\n\n  printf(\"Enter your name: \");\n  scanf(\"%s\", name);\n\n  fp = fopen(\"user.txt\", \"w\");  // ফাইল ওপেন (লেখার জন্য)\n  if (fp == NULL) {\n    printf(\"Error creating file!\\n\");\n    return 1;\n  }\n\n  fprintf(fp, \"Name: %s\\n\", name);  // ফাইলে লিখুন\n  fclose(fp);  // ফাইল বন্ধ করুন\n\n  printf(\"Saved to user.txt\\n\");\n  return 0;\n}",
-					"output": "Enter your name: Rakib\nSaved to user.txt"
-				},
-				{
-					"step": 25,
-					"title": "ফাইল থেকে ডেটা পড়া",
-					"content": "ফাইল থেকে ডেটা পড়তে `fopen(..., \"r\")` ও `fscanf()` ব্যবহার করুন।\n\n📌 উদাহরণ: `user.txt` থেকে নাম পড়ে প্রিন্ট করা",
-					"code": "#include <stdio.h>\n\nint main() {\n  FILE *fp;\n  char buffer[100];\n\n  fp = fopen(\"user.txt\", \"r\");  // r = read mode\n  if (fp == NULL) {\n    printf(\"File not found!\\n\");\n    return 1;\n  }\n\n  // এক লাইন পড়ুন\n  fgets(buffer, 100, fp);\n  printf(\"Saved data: %s\", buffer);\n\n  fclose(fp);\n  return 0;\n}",
-					"output": "Saved data: Name: Rakib"
-				},
-				{
-					"step": 26,
-					"title": "typedef — নিজের ডেটা টাইপ বানান",
-					"content": "`typedef` দিয়ে নতুন নাম দিয়ে টাইপ তৈরি করুন — কোড পড়তে সহজ হয়।\n\n🔹 `typedef int Marks;` → এখন `Marks m = 85;` লিখতে পারবেন\n\n📌 উদাহরণ: শিক্ষার্থী স্ট্রাকচারের জন্য শর্টকাট",
-					"code": "#include <stdio.h>\n\ntypedef struct {\n  int id;\n  char name[20];\n} Student;  // এখন 'struct Student' না লিখে 'Student' লিখুন\n\nint main() {\n  Student s1;\n  s1.id = 201;\n  strcpy(s1.name, \"Tasnim\");\n\n  printf(\"ID: %d, Name: %s\\n\", s1.id, s1.name);\n  return 0;\n}",
-					"output": "ID: 201, Name: Tasnim"
-				},
-				{
-					"step": 27,
-					"title": "enum — নামযুক্ত কনস্ট্যান্ট",
-					"content": "`enum` দিয়ে গ্রুপড কনস্ট্যান্ট বানান — কোড পড়তে সহজ ও ভুল কম হয়।\n\n🔹 `enum Month { JAN, FEB, MAR };` — JAN=0, FEB=1, MAR=2\n🔹 ম্যানুয়ালি ভ্যালু দিতে পারবেন: `JAN = 1`\n\n📌 উদাহরণ: দিনের নাম",
-					"code": "#include <stdio.h>\n\nenum Day { SAT, SUN, MON, TUE, WED, THU, FRI };\n\nint main() {\n  enum Day today = MON;\n\n  if (today == SAT || today == SUN) {\n    printf(\"Weekend!\\n\");\n  } else {\n    printf(\"Working day.\\n\");\n  }\n  return 0;\n}",
-					"output": "Working day."
-				},
-				{
-					"step": 28,
-					"title": "কনস্ট্যান্ট — #define ও const",
-					"content": "অপরিবর্তনীয় ভ্যালু রাখতে:\n\n🔹 `#define PI 3.1416` — প্রি-প্রসেসর ডিরেকটিভ (কম্পাইল আগে রিপ্লেস হয়)\n🔹 `const float pi = 3.1416;` — রানটাইম কনস্ট্যান্ট\n\n📌 পার্থক্য: `#define`-এ টাইপ চেক নেই, `const`-এ আছে",
-					"code": "#include <stdio.h>\n\n#define PI 3.1416\nconst float E = 2.718;\n\nint main() {\n  float radius = 5.0;\n  float area = PI * radius * radius;\n\n  printf(\"Circle area: %.2f\\n\", area);\n  printf(\"Euler's number: %.3f\\n\", E);\n  return 0;\n}",
-					"output": "Circle area: 78.54\nEuler's number: 2.718"
-				},
-				{
-					"step": 29,
-					"title": "কমন এরর — সেগমেন্টেশন ফল্ট",
-					"content": "সেগমেন্টেশন ফল্ট হয় যখন আপনি অনুমতিহীন মেমোরি অ্যাক্সেস করেন।\n\nসবচেয়ে কমন কারণ:\n⚠️ পয়েন্টার `NULL` হলে `*p` অ্যাক্সেস করা\n⚠️ অ্যারে আউট অফ বাউন্ডস (যেমন: `arr[5]` যদি সাইজ 5 হয়)\n⚠️ ভুল `scanf`: `scanf(\"%d\", num)` এর বদলে `scanf(\"%d\", &num)`\n\n📌 উদাহরণ: NULL পয়েন্টার ডিরেফারেন্স",
-					"code": "#include <stdio.h>\n\nint main() {\n  int *p = NULL;  // p কোনো অ্যাড্রেস পয়েন্ট করে না\n  // printf(\"%d\\n\", *p);  // ❌ এটি কমেন্ট আউট করুন — রান করলে crash!\n  printf(\"p is NULL. Don't dereference!\\n\");\n  return 0;\n}",
-					"output": "p is NULL. Don't dereference!"
-				},
-				{
-					"step": 30,
-					"title": "ডিবাগিং টিপস — printf দিয়ে ট্রেস করুন",
-					"content": "কোড কাজ না করলে `printf` দিয়ে মাঝখানে ভ্যালু প্রিন্ট করুন — দেখুন কোথায় ভুল।\n\n📌 উদাহরণ: লুপে ভ্যারিয়েবলের মান চেক করা",
-					"code": "#include <stdio.h>\n\nint factorial(int n) {\n  int result = 1;\n  for (int i = 1; i <= n; i++) {\n    result *= i;\n    printf(\"i=%d, result=%d\\n\", i, result);  // ডিবাগ লাইন\n  }\n  return result;\n}\n\nint main() {\n  int f = factorial(4);\n  printf(\"4! = %d\\n\", f);\n  return 0;\n}",
-					"output": "i=1, result=1\ni=2, result=2\ni=3, result=6\ni=4, result=24\n4! = 24"
-				},
-				{
-					"step": 31,
-					"title": "বাংলাদেশি উদাহরণ: মোবাইল ব্যালেন্স চেক",
-					"content": "ইউজারের ব্যালেন্স ও খরচ নিয়ে আপডেটেড ব্যালেন্স দেখানো।\n\n📌 শর্ত: যদি ব্যালেন্স < 10 হয়, 'Low balance!' মেসেজ দেখান",
-					"code": "#include <stdio.h>\n\nint main() {\n  float balance, spend;\n\n  printf(\"Enter current balance: \");\n  scanf(\"%f\", &balance);\n  printf(\"Enter amount spent: \");\n  scanf(\"%f\", &spend);\n\n  balance -= spend;\n  printf(\"New balance: %.2f BDT\\n\", balance);\n\n  if (balance < 10.0) {\n    printf(\"⚠️ Low balance! Recharge soon.\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter current balance: 50.50\nEnter amount spent: 45.00\nNew balance: 5.50 BDT\n⚠️ Low balance! Recharge soon."
-				},
-				{
-					"step": 32,
-					"title": "বাংলাদেশি উদাহরণ: সিম রিচার্জ ক্যালকুলেটর",
-					"content": "রিচার্জ অফারের উপর ভিত্তি করে অতিরিক্ত বোনাস যোগ করা।\n\n📌 অফার:\n- 30 BDT → 5 BDT বোনাস\n- 50 BDT → 10 BDT বোনাস\n- 100+ BDT → 20% বোনাস",
-					"code": "#include <stdio.h>\n\nint main() {\n  float amount, bonus = 0;\n\n  printf(\"Enter recharge amount (BDT): \");\n  scanf(\"%f\", &amount);\n\n  if (amount == 30) {\n    bonus = 5;\n  } else if (amount == 50) {\n    bonus = 10;\n  } else if (amount >= 100) {\n    bonus = amount * 0.2;\n  }\n\n  printf(\"Recharged: %.2f BDT\\n\", amount);\n  printf(\"Bonus: %.2f BDT\\n\", bonus);\n  printf(\"Total: %.2f BDT\\n\", amount + bonus);\n  return 0;\n}",
-					"output": "Enter recharge amount (BDT): 100\nRecharged: 100.00 BDT\nBonus: 20.00 BDT\nTotal: 120.00 BDT"
-				},
-				{
-					"step": 33,
-					"title": "বাইনারি সার্চ — সর্টেড অ্যারেতে দ্রুত খোঁজা",
-					"content": "বাইনারি সার্চ লগারিদমিক টাইমে (O(log n)) ডেটা খুঁজে — কিন্তু অ্যারে সর্টেড হতে হবে।\n\n📌 কৌশল: মাঝখানের এলিমেন্ট চেক → বাম/ডান অর্ধেকে যান",
-					"code": "#include <stdio.h>\n\nint binarySearch(int arr[], int n, int key) {\n  int low = 0, high = n - 1;\n\n  while (low <= high) {\n    int mid = (low + high) / 2;\n    if (arr[mid] == key) return mid;  // পেয়ে গেলে ইনডেক্স রিটার্ন\n    if (arr[mid] < key) low = mid + 1; // ডান দিকে\n    else high = mid - 1;              // বাম দিকে\n  }\n  return -1;  // পাওয়া যায়নি\n}\n\nint main() {\n  int arr[] = {10, 20, 30, 40, 50};\n  int n = 5, key = 30;\n\n  int pos = binarySearch(arr, n, key);\n  if (pos != -1) {\n    printf(\"%d found at index %d\\n\", key, pos);\n  } else {\n    printf(\"%d not found.\\n\", key);\n  }\n  return 0;\n}",
-					"output": "30 found at index 2"
-				},
-				{
-					"step": 34,
-					"title": "বাবল সর্ট — সহজ সর্টিং",
-					"content": "বাবল সর্ট পাশাপাশি দুটি উপাদান তুলনা করে সর্ট করে।\n\n🔹 n উপাদানের জন্য ≈ n² কম্প্যারিজন — ছোট অ্যারের জন্য ভালো\n\n📌 উদাহরণ: নম্বর ছোট থেকে বড় ক্রমে",
-					"code": "#include <stdio.h>\n\nvoid bubbleSort(int arr[], int n) {\n  for (int i = 0; i < n-1; i++) {\n    for (int j = 0; j < n-1-i; j++) {\n      if (arr[j] > arr[j+1]) {\n        // swap\n        int temp = arr[j];\n        arr[j] = arr[j+1];\n        arr[j+1] = temp;\n      }\n    }\n  }\n}\n\nint main() {\n  int arr[] = {64, 34, 25, 12, 22};\n  int n = 5;\n\n  bubbleSort(arr, n);\n\n  printf(\"Sorted: \");\n  for (int i = 0; i < n; i++) {\n    printf(\"%d \", arr[i]);\n  }\n  printf(\"\\n\");\n  return 0;\n}",
-					"output": "Sorted: 12 22 25 34 64 "
-				},
-				{
-					"step": 35,
-					"title": "প্রোজেক্ট আইডিয়া: সিম্পল ক্যালকুলেটর",
-					"content": "এখন পর্যন্ত যা শিখলেন — সব মিলিয়ে একটি ক্যালকুলেটর বানান!\n\n📌 ফিচার:\n- +, -, *, / অপারেশন\n- ইউজার চাইলে আবার চালাতে পারবে\n- ভাগে 0 দিলে এরর দেখাবে",
-					"code": "#include <stdio.h>\n\nint main() {\n  char op;\n  float a, b, result;\n  char again;\n\n  do {\n    printf(\"\\n--- Simple Calculator ---\\n\");\n    printf(\"Enter operation (+, -, *, /): \");\n    scanf(\" %c\", &op);  // %c এর আগে স্পেস দিন — আগের \\n ইগনোর করবে\n\n    printf(\"Enter two numbers: \");\n    scanf(\"%f %f\", &a, &b);\n\n    switch (op) {\n      case '+': result = a + b; break;\n      case '-': result = a - b; break;\n      case '*': result = a * b; break;\n      case '/': \n        if (b == 0) {\n          printf(\"Error: Division by zero!\\n\");\n          continue;  // এই ইটারেশন স্কিপ\n        }\n        result = a / b;\n        break;\n      default:\n        printf(\"Invalid operator!\\n\");\n        continue;\n    }\n\n    printf(\"%.2f %c %.2f = %.2f\\n\", a, op, b, result);\n\n    printf(\"Calculate again? (y/n): \");\n    scanf(\" %c\", &again);\n  } while (again == 'y' || again == 'Y');\n\n  printf(\"Thanks for using!\\n\");\n  return 0;\n}",
-					"output": "\n--- Simple Calculator ---\nEnter operation (+, -, *, /): +\nEnter two numbers: 10.5 4.2\n10.50 + 4.20 = 14.70\nCalculate again? (y/n): n\nThanks for using!"
-				},
-				{
-					"step": 36,
-					"title": "রিকার্শন — ফাংশন নিজেকে কল করে",
-					"content": "রিকার্শন মানে একটি ফাংশন নিজেকেই কল করে।\n\n🔹 দুটি জিনিস জরুরি:\n   1. **বেস কেস** — রিকার্শন থামানোর শর্ত (না থাকলে ইনফিনিট লুপ!)\n   2. **রিকার্সিভ কেস** — নিজেকে কল করা\n\n📌 উদাহরণ: ফ্যাক্টোরিয়াল বের করা — `5! = 5 × 4 × 3 × 2 × 1`",
-					"code": "#include <stdio.h>\n\nint factorial(int n) {\n  // বেস কেস: 0! = 1, 1! = 1\n  if (n == 0 || n == 1) {\n    return 1;\n  }\n  // রিকার্সিভ কেস: n! = n × (n-1)!\n  return n * factorial(n - 1);\n}\n\nint main() {\n  int n = 5;\n  printf(\"%d! = %d\\n\", n, factorial(n));\n  return 0;\n}",
-					"output": "5! = 120"
-				},
-				{
-					"step": 37,
-					"title": "রিকার্শন ভিজুয়ালাইজেশন — কল স্ট্যাক",
-					"content": "রিকার্শন কল স্ট্যাকে পুশ হয় — তাই মেমোরি বেশি খরচ হয়।\n\n📌 উদাহরণ: `factorial(3)` কল করলে স্ট্যাক হবে:\n```\nfactorial(3)\n  → factorial(2)\n    → factorial(1) → return 1\n    → return 2 × 1 = 2\n  → return 3 × 2 = 6\n```\n⚠️ সতর্কতা: বড় `n` (যেমন: 10000) দিলে **স্ট্যাক ওভারফ্লো** হতে পারে।",
-					"code": "#include <stdio.h>\n\nint factorial(int n) {\n  printf(\"Calling factorial(%d)\\n\", n);\n  if (n <= 1) {\n    printf(\"Base case: %d\\n\", n);\n    return 1;\n  }\n  int result = n * factorial(n - 1);\n  printf(\"factorial(%d) = %d\\n\", n, result);\n  return result;\n}\n\nint main() {\n  factorial(3);\n  return 0;\n}",
-					"output": "Calling factorial(3)\nCalling factorial(2)\nCalling factorial(1)\nBase case: 1\nfactorial(2) = 2\nfactorial(3) = 6"
-				},
-				{
-					"step": 38,
-					"title": "ফিবোনাচ্চি সিরিজ — রিকার্শন দিয়ে",
-					"content": "ফিবোনাচ্চি সিরিজ: 0, 1, 1, 2, 3, 5, 8, ...\nপ্রতিটি সংখ্যা = আগের দুটি যোগফল।\n\n🔹 `fib(0) = 0`, `fib(1) = 1` → বেস কেস\n🔹 `fib(n) = fib(n-1) + fib(n-2)` → রিকার্সিভ কেস\n\n⚠️ সতর্কতা: এই ভার্সন O(2ⁿ) — বড় `n`-এ খুব ধীর। পরে ডাইনামিক প্রোগ্রামিং দিয়ে অপ্টিমাইজ করবেন।",
-					"code": "#include <stdio.h>\n\nint fib(int n) {\n  if (n == 0) return 0;\n  if (n == 1) return 1;\n  return fib(n - 1) + fib(n - 2);\n}\n\nint main() {\n  for (int i = 0; i < 8; i++) {\n    printf(\"%d \", fib(i));\n  }\n  printf(\"\\n\");\n  return 0;\n}",
-					"output": "0 1 1 2 3 5 8 13 "
-				},
-				{
-					"step": 39,
-					"title": "পয়েন্টার টু পয়েন্টার — ডাবল পয়েন্টার",
-					"content": "ডাবল পয়েন্টার (`**`) হলো পয়েন্টারের অ্যাড্রেস রাখে।\n\n🔹 `int x = 10;`\n🔹 `int *p = &x;` → p = x এর অ্যাড্রেস\n🔹 `int **pp = &p;` → pp = p এর অ্যাড্রেস\n\n📌 ব্যবহার: ফাংশনে পয়েন্টার পরিবর্তন করতে (যেমন: `malloc` দিয়ে মেমোরি অ্যালোকেট)",
-					"code": "#include <stdio.h>\n\nint main() {\n  int x = 42;\n  int *p = &x;    // p → x\n  int **pp = &p;  // pp → p → x\n\n  printf(\"x = %d\\n\", x);\n  printf(\"*p = %d\\n\", *p);\n  printf(\"**pp = %d\\n\", **pp);\n  printf(\"Address chain: %p → %p → %p\\n\", (void*)pp, (void*)p, (void*)&x);\n  return 0;\n}",
-					"output": "x = 42\n*p = 42\n**pp = 42\nAddress chain: 0x7ffd... → 0x7ffd... → 0x7ffd..."
-				},
-				{
-					"step": 40,
-					"title": "ফাংশন পয়েন্টার — ফাংশনকে ভেরিয়েবল হিসেবে",
-					"content": "ফাংশন পয়েন্টার দিয়ে ফাংশনকে পাস/স্টোর করা যায়।\n\nসিনট্যাক্স:\n```c\nreturn_type (*ptr)(arg_types);\n```\n\n📌 ব্যবহার: ক্যালকুলেটরে অপারেশন ফাংশন পাস করা, কলব্যাকস",
-					"code": "#include <stdio.h>\n\nint add(int a, int b) { return a + b; }\nint mul(int a, int b) { return a * b; }\n\nint main() {\n  // ফাংশন পয়েন্টার ডিক্লেয়ার\n  int (*op)(int, int);\n\n  op = add;\n  printf(\"5 + 3 = %d\\n\", op(5, 3));  // add কল\n\n  op = mul;\n  printf(\"5 * 3 = %d\\n\", op(5, 3));  // mul কল\n  return 0;\n}",
-					"output": "5 + 3 = 8\n5 * 3 = 15"
-				},
-				{
-					"step": 41,
-					"title": "qsort() — বিল্ট-ইন সর্টিং",
-					"content": "`qsort()` হলো C স্ট্যান্ডার্ড লাইব্রেরির দ্রুত সর্ট ফাংশন।\n\n🔹 কাস্টম কম্পেয়ার ফাংশন লাগে\n🔹 সব টাইপের অ্যারে সর্ট করে\n\n📌 উদাহরণ: ইন্টিজার অ্যারে সর্ট",
-					"code": "#include <stdio.h>\n#include <stdlib.h>  // qsort() এর জন্য\n\n// কম্পেয়ার ফাংশন: ছোট→বড়\nint compare(const void *a, const void *b) {\n  return (*(int*)a - *(int*)b);\n}\n\nint main() {\n  int arr[] = {64, 34, 25, 12, 22};\n  int n = 5;\n\n  qsort(arr, n, sizeof(int), compare);\n\n  for (int i = 0; i < n; i++) {\n    printf(\"%d \", arr[i]);\n  }\n  printf(\"\\n\");\n  return 0;\n}",
-					"output": "12 22 25 34 64 "
-				},
-				{
-					"step": 42,
-					"title": "qsort() কাস্টম ডেটা — স্ট্রাকচার সর্ট",
-					"content": "স্ট্রাকচার অ্যারে সর্ট করতে `qsort()` ব্যবহার করুন।\n\n📌 উদাহরণ: শিক্ষার্থীদের CGPA অনুযায়ী সর্ট",
-					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nstruct Student {\n  char name[20];\n  float cgpa;\n};\n\nint compareCGPA(const void *a, const void *b) {\n  struct Student *s1 = (struct Student*)a;\n  struct Student *s2 = (struct Student*)b;\n  // বড়→ছোট ক্রমে\n  if (s1->cgpa < s2->cgpa) return 1;\n  if (s1->cgpa > s2->cgpa) return -1;\n  return 0;\n}\n\nint main() {\n  struct Student students[] = {\n    {\"Rakib\", 3.75},\n    {\"Nusrat\", 3.90},\n    {\"Tanvir\", 3.50}\n  };\n  int n = 3;\n\n  qsort(students, n, sizeof(struct Student), compareCGPA);\n\n  for (int i = 0; i < n; i++) {\n    printf(\"%s: %.2f\\n\", students[i].name, students[i].cgpa);\n  }\n  return 0;\n}",
-					"output": "Nusrat: 3.90\nRakib: 3.75\nTanvir: 3.50"
-				},
-				{
-					"step": 43,
-					"title": "malloc() — রানটাইমে মেমোরি অ্যালোকেট",
-					"content": "`malloc()` দিয়ে রানটাইমে মেমোরি নিন — যখন সাইজ আগে থেকে জানা নেই।\n\n🔹 `void *malloc(size_t size)` → বাইট সংখ্যা দিতে হয়\n🔹 কাস্ট করে নিন: `(int*)malloc(n * sizeof(int))`\n🔹 `NULL` চেক করুন — মেমোরি না পেলে `NULL` রিটার্ন করে\n\n📌 উদাহরণ: ইউজারের ইচ্ছামতো সাইজের অ্যারে",
-					"code": "#include <stdio.h>\n#include <stdlib.h>  // malloc, free\n\nint main() {\n  int n;\n  printf(\"Enter array size: \");\n  scanf(\"%d\", &n);\n\n  // মেমোরি অ্যালোকেট\n  int *arr = (int*)malloc(n * sizeof(int));\n  if (arr == NULL) {\n    printf(\"Memory allocation failed!\\n\");\n    return 1;\n  }\n\n  // ডেটা ইনপুট\n  for (int i = 0; i < n; i++) {\n    arr[i] = i + 1;\n  }\n\n  // প্রিন্ট\n  for (int i = 0; i < n; i++) {\n    printf(\"%d \", arr[i]);\n  }\n\n  free(arr);  // মেমোরি ফ্রি করুন!\n  return 0;\n}",
-					"output": "Enter array size: 4\n1 2 3 4 "
-				},
-				{
-					"step": 44,
-					"title": "calloc() vs malloc() — পার্থক্য",
-					"content": "🔹 `malloc(size)` — কেবল মেমোরি অ্যালোকেট, ভ্যালু আনডিফাইন্ড\n🔹 `calloc(n, size)` — মেমোরি অ্যালোকেট + **সব জিরো দিয়ে ইনিশিয়ালাইজ**\n\n📌 কখন ব্যবহার করবেন?\n- `malloc` → অ্যারে পরে ফিল করবেন\n- `calloc` → জিরো দিয়ে শুরু করতে চাইলে (যেমন: কাউন্টার অ্যারে)",
-					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n  // malloc: ভ্যালু গ্যারবেজ!\n  int *a = (int*)malloc(3 * sizeof(int));\n  printf(\"malloc: %d %d %d\\n\", a[0], a[1], a[2]);\n\n  // calloc: সব 0\n  int *b = (int*)calloc(3, sizeof(int));\n  printf(\"calloc: %d %d %d\\n\", b[0], b[1], b[2]);\n\n  free(a); free(b);\n  return 0;\n}",
-					"output": "malloc: -123456789 0 32767  // (গ্যারবেজ ভ্যালু)\ncalloc: 0 0 0"
-				},
-				{
-					"step": 45,
-					"title": "realloc() — মেমোরি সাইজ পরিবর্তন",
-					"content": "`realloc()` দিয়ে আগে অ্যালোকেটেড মেমোরির সাইজ বাড়ানো/কমানো যায়।\n\n🔹 নতুন সাইজ ছোট হলে ডেটা কাটা যায় না\n🔹 নতুন সাইজ বড় হলে এক্সট্রা স্পেস আনইনিশিয়ালাইজড\n\n📌 উদাহরণ: অ্যারে সাইজ বাড়িয়ে 2টি নতুন ভ্যালু যোগ",
-					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n  int *arr = (int*)malloc(2 * sizeof(int));\n  arr[0] = 10; arr[1] = 20;\n\n  // সাইজ 2 → 4\n  arr = (int*)realloc(arr, 4 * sizeof(int));\n  if (arr == NULL) {\n    printf(\"Realloc failed!\\n\");\n    return 1;\n  }\n\n  arr[2] = 30; arr[3] = 40;\n\n  for (int i = 0; i < 4; i++) {\n    printf(\"%d \", arr[i]);\n  }\n\n  free(arr);\n  return 0;\n}",
-					"output": "10 20 30 40 "
-				},
-				{
-					"step": 46,
-					"title": "মেমোরি লিক — কীভাবে এড়াবেন?",
-					"content": "মেমোরি লিক হয় যখন `malloc` করে `free` করা হয় না।\n\n✅ ভালো অভ্যাস:\n- প্রতিটি `malloc/calloc/realloc`-এর জন্য একটি `free`\n- পয়েন্টার `NULL` করুন পরে — ডাবল ফ্রি এড়াতে\n\n📌 উদাহরণ: মেমোরি লিক ডিটেকশন টুল — `valgrind ./a.out` (Linux)",
-					"code": "#include <stdio.h>\n#include <stdlib.h>\n\nint *createArray(int n) {\n  int *arr = (int*)malloc(n * sizeof(int));\n  for (int i = 0; i < n; i++) arr[i] = i + 1;\n  return arr;  // মেমোরি রিটার্ন করা হচ্ছে — কলারকে free করতে হবে\n}\n\nint main() {\n  int *a = createArray(3);\n  printf(\"%d %d %d\\n\", a[0], a[1], a[2]);\n  free(a);  // ✅ অবশ্যই ফ্রি করুন\n  a = NULL; // ✅ নিরাপত্তা জন্য\n  return 0;\n}",
-					"output": "1 2 3"
-				},
-				{
-					"step": 47,
-					"title": "strlen() — স্ট্রিং-এর দৈর্ঘ্য",
-					"content": "`strlen(s)` রিটার্ন করে স্ট্রিংয়ের দৈর্ঘ্য — কিন্তু `\\0` গণনা করে না।\n\n🔹 `#include <string.h>` লাগে\n🔹 টাইম কম্প্লেক্সিটি: O(n)\n\n⚠️ সতর্কতা: আনটারমিনেটেড স্ট্রিং দিলে ইনফিনিট লুপ!",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char s1[] = \"Hello\";       // অটোমেটিক \\0 যোগ হয়\n  char s2[10] = {'H','i'};  // বাকি জিরো — \\0 আছে\n\n  printf(\"'%s' length = %zu\\n\", s1, strlen(s1));\n  printf(\"'%s' length = %zu\\n\", s2, strlen(s2));\n  return 0;\n}",
-					"output": "'Hello' length = 5\n'Hi' length = 2"
-				},
-				{
-					"step": 48,
-					"title": "strcpy() ও strncpy() — স্ট্রিং কপি",
-					"content": "🔹 `strcpy(dest, src)` — সোর্স স্ট্রিং ডেস্টিনেশনে কপি করে\n🔹 `strncpy(dest, src, n)` — সর্বোচ্চ `n` ক্যারেক্টার কপি করে\n\n⚠️ বাফার ওভারফ্লো এড়াতে `strncpy` বা `snprintf` ব্যবহার করুন!",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char src[] = \"Bangladesh\";\n  char dest1[20], dest2[5];\n\n  // নিরাপদ: dest1 বড়\n  strcpy(dest1, src);\n  printf(\"dest1: '%s'\\n\", dest1);\n\n  // ঝুঁকিপূর্ণ: dest2 ছোট — বাফার ওভারফ্লো!\n  // strcpy(dest2, src);  // ❌\n\n  // নিরাপদ বিকল্প:\n  strncpy(dest2, src, sizeof(dest2) - 1);\n  dest2[sizeof(dest2) - 1] = '\\0';  // ম্যানুয়ালি \\0 দিন\n  printf(\"dest2: '%s'\\n\", dest2);\n  return 0;\n}",
-					"output": "dest1: 'Bangladesh'\ndest2: 'Bang'"
-				},
-				{
-					"step": 49,
-					"title": "strcat() — স্ট্রিং জোড়া দিন",
-					"content": "`strcat(dest, src)` ডেস্টিনেশনের শেষে সোর্স যোগ করে।\n\n⚠️ ডেস্টিনেশন বাফার যথেষ্ট বড় হতে হবে!\n\n📌 নিরাপদ বিকল্প: `strncat(dest, src, n)`",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char dest[50] = \"Hello\";  // শুরুতে \\0 আছে\n  char src[] = \" World!\";\n\n  strcat(dest, src);  // dest = \"Hello World!\"\n  printf(\"%s\\n\", dest);\n\n  strncat(dest, \" - C\", 4);  // সর্বোচ্চ 4 ক্যারেক্টার\n  printf(\"%s\\n\", dest);\n  return 0;\n}",
-					"output": "Hello World!\nHello World! - C"
-				},
-				{
-					"step": 50,
-					"title": "strcmp() — স্ট্রিং তুলনা",
-					"content": "`strcmp(s1, s2)` দুটি স্ট্রিং তুলনা করে:\n\n- `0` → সমান\n- `<0` → s1 < s2 (অক্ষরের ASCII অনুযায়ী)\n- `>0` → s1 > s2\n\n📌 উদাহরণ: ইউজার লগিন — পাসওয়ার্ড চেক",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char pass[20];\n  printf(\"Enter password: \");\n  scanf(\"%s\", pass);\n\n  if (strcmp(pass, \"secret123\") == 0) {\n    printf(\"✅ Login successful!\\n\");\n  } else {\n    printf(\"❌ Wrong password!\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter password: secret123\n✅ Login successful!"
-				},
-				{
-					"step": 51,
-					"title": "2D অ্যারে — ম্যাট্রিক্স তৈরি",
-					"content": "`int matrix[3][3];` — 3×3 ম্যাট্রিক্স।\n\n🔹 মেমোরিতে রো-মেজর অর্ডারে স্টোর হয়\n🔹 ইনিশিয়ালাইজ: `int m[2][2] = {{1,2},{3,4}};`\n\n📌 উদাহরণ: 2×2 ম্যাট্রিক্স ইনপুট ও প্রিন্ট",
-					"code": "#include <stdio.h>\n\nint main() {\n  int m[2][2];\n\n  printf(\"Enter 2x2 matrix:\\n\");\n  for (int i = 0; i < 2; i++) {\n    for (int j = 0; j < 2; j++) {\n      scanf(\"%d\", &m[i][j]);\n    }\n  }\n\n  printf(\"Matrix:\\n\");\n  for (int i = 0; i < 2; i++) {\n    for (int j = 0; j < 2; j++) {\n      printf(\"%d \", m[i][j]);\n    }\n    printf(\"\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter 2x2 matrix:\n1 2 3 4\nMatrix:\n1 2 \n3 4 "
-				},
-				{
-					"step": 52,
-					"title": "2D অ্যারে সাম — সব উপাদান যোগ",
-					"content": "2D অ্যারের সব এলিমেন্ট যোগ করতে নেস্টেড লুপ ব্যবহার করুন।\n\n📌 উদাহরণ: 3×3 ম্যাট্রিক্সের সাম",
-					"code": "#include <stdio.h>\n\nint main() {\n  int m[3][3] = {\n    {1, 2, 3},\n    {4, 5, 6},\n    {7, 8, 9}\n  };\n  int sum = 0;\n\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      sum += m[i][j];\n    }\n  }\n\n  printf(\"Sum of all elements: %d\\n\", sum);\n  return 0;\n}",
-					"output": "Sum of all elements: 45"
-				},
-				{
-					"step": 53,
-					"title": "ম্যাট্রিক্স ট্রান্সপোজ — সারি-কলাম সোয়াপ",
-					"content": "ট্রান্সপোজ মানে সারি ও কলাম সোয়াপ করা।\n`A[i][j] ↔ A[j][i]`\n\n📌 উদাহরণ: 3×3 ম্যাট্রিক্সের ট্রান্সপোজ",
-					"code": "#include <stdio.h>\n\nint main() {\n  int m[3][3] = {{1,2,3},{4,5,6},{7,8,9}};\n\n  printf(\"Original:\\n\");\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      printf(\"%d \", m[i][j]);\n    }\n    printf(\"\\n\");\n  }\n\n  // ট্রান্সপোজ (শুধু উপরের ট্রায়াঙ্গেল)\n  for (int i = 0; i < 3; i++) {\n    for (int j = i + 1; j < 3; j++) {\n      int temp = m[i][j];\n      m[i][j] = m[j][i];\n      m[j][i] = temp;\n    }\n  }\n\n  printf(\"Transposed:\\n\");\n  for (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n      printf(\"%d \", m[i][j]);\n    }\n    printf(\"\\n\");\n  }\n  return 0;\n}",
-					"output": "Original:\n1 2 3 \n4 5 6 \n7 8 9 \nTransposed:\n1 4 7 \n2 5 8 \n3 6 9 "
-				},
-				{
-					"step": 54,
-					"title": "ইউনিয়ন — একই মেমোরি শেয়ার",
-					"content": "ইউনিয়ন (`union`) একাধিক ভেরিয়েবলের জন্য **একই মেমোরি লোকেশন** ব্যবহার করে।\n\n🔹 সবচেয়ে বড় মেম্বারের সাইজ নেয়\n🔹 একসময় শুধু একটি ভ্যালু রাখে\n\n📌 ব্যবহার: মেমোরি সেভ, প্রোটোকল পার্সিং",
-					"code": "#include <stdio.h>\n\nunion Data {\n  int i;\n  float f;\n  char str[20];\n};\n\nint main() {\n  union Data data;\n\n  data.i = 10;\n  printf(\"data.i: %d\\n\", data.i);\n\n  data.f = 220.5;\n  printf(\"data.f: %.1f\\n\", data.f);\n  // data.i এখন ক্ষতিগ্রস্ত!\n\n  strcpy(data.str, \"C Programming\");\n  printf(\"data.str: %s\\n\", data.str);\n  return 0;\n}",
-					"output": "data.i: 10\ndata.f: 220.5\ndata.str: C Programming"
-				},
-				{
-					"step": 55,
-					"title": "বিটওয়াইজ অপারেটর — বিট লেভেল কন্ট্রোল",
-					"content": "বিট লেভেলে কাজ করতে:\n\n🔹 `&` (AND), `|` (OR), `^` (XOR), `~` (NOT)\n🔹 `<<` (লেফট শিফট), `>>` (রাইট শিফট)\n\n📌 উদাহরণ: ইভেন/অড চেক (`n & 1`), পাওয়ার অফ 2 চেক",
-					"code": "#include <stdio.h>\n\nint main() {\n  int n = 6;  // 110 in binary\n\n  // ইভেন? (শেষ বিট 0?)\n  if ((n & 1) == 0) {\n    printf(\"%d is even\\n\", n);\n  }\n\n  // পাওয়ার অফ 2? (একটি বিট সেট?)\n  if (n > 0 && (n & (n - 1)) == 0) {\n    printf(\"%d is power of 2\\n\", n);\n  } else {\n    printf(\"%d is not power of 2\\n\", n);\n  }\n\n  // 3 << 2 = 3 * 4 = 12 (11 → 1100)\n  printf(\"3 << 2 = %d\\n\", 3 << 2);\n  return 0;\n}",
-					"output": "6 is even\n6 is not power of 2\n3 << 2 = 12"
-				},
-				{
-					"step": 56,
-					"title": "#define ম্যাক্রো — প্যারামিটার সহ",
-					"content": "`#define` দিয়ে ফাংশন-লাইক ম্যাক্রো বানানো যায়।\n\n🔹 `#define SQUARE(x) ((x) * (x))`\n\n⚠️ বন্ধনী দিন — না দিলে এক্সপ্রেশন ভুল হতে পারে!\n\n📌 উদাহরণ: `SQUARE(2+3)` = `(2+3)*(2+3)` = 25 (বন্ধনী ছাড়া 2+3*2+3=11 হতো!)",
-					"code": "#include <stdio.h>\n\n#define SQUARE(x) ((x) * (x))\n#define MAX(a, b) ((a) > (b) ? (a) : (b))\n\nint main() {\n  int a = 3, b = 5;\n  printf(\"SQUARE(%d) = %d\\n\", a, SQUARE(a));\n  printf(\"MAX(%d, %d) = %d\\n\", a, b, MAX(a, b));\n  printf(\"SQUARE(2+3) = %d\\n\", SQUARE(2+3)); // 25!\n  return 0;\n}",
-					"output": "SQUARE(3) = 9\nMAX(3, 5) = 5\nSQUARE(2+3) = 25"
-				},
-				{
-					"step": 57,
-					"title": "#include \"header.h\" — কাস্টম হেডার",
-					"content": "বড় প্রোজেক্টে কোড মডুলারাইজ করতে হেডার ফাইল ব্যবহার করুন।\n\nফাইল স্ট্রাকচার:\n```\nmain.c\nmath_utils.h\nmath_utils.c\n```\n\n📌 উদাহরণ: সাম, ফ্যাক্টোরিয়াল ফাংশন",
-					"code": "/* math_utils.h */\n#ifndef MATH_UTILS_H\n#define MATH_UTILS_H\n\nint sum(int a, int b);\nint factorial(int n);\n\n#endif\n\n/* math_utils.c */\n#include \"math_utils.h\"\n\nint sum(int a, int b) {\n  return a + b;\n}\n\nint factorial(int n) {\n  return (n <= 1) ? 1 : n * factorial(n - 1);\n}\n\n/* main.c */\n#include <stdio.h>\n#include \"math_utils.h\"\n\nint main() {\n  printf(\"5 + 3 = %d\\n\", sum(5, 3));\n  printf(\"5! = %d\\n\", factorial(5));\n  return 0;\n}",
-					"output": "5 + 3 = 8\n5! = 120"
-				},
-				{
-					"step": 58,
-					"title": "assert() — ডিবাগিং জন্য শর্ত চেক",
-					"content": "`assert(condition)` — শর্ত মিথ্যা হলে প্রোগ্রাম ক্র্যাশ করে এবং লাইন নম্বর দেখায়।\n\n🔹 `#include <assert.h>`\n🔹 প্রোডাকশনে `-DNDEBUG` দিয়ে ডিসেবল করা যায়\n\n📌 উদাহরণ: পয়েন্টার `NULL` চেক",
-					"code": "#include <stdio.h>\n#include <assert.h>\n#include <stdlib.h>\n\nint main() {\n  int *p = malloc(sizeof(int));\n  assert(p != NULL);  // NULL হলে crash!\n\n  *p = 100;\n  printf(\"*p = %d\\n\", *p);\n\n  free(p);\n  return 0;\n}",
-					"output": "*p = 100"
-				},
-				{
-					"step": 59,
-					"title": "errno ও perror() — সিস্টেম এরর হ্যান্ডলিং",
-					"content": "ফাইল/সিস্টেম কল ফেইল হলে `errno` সেট হয়।\n\n🔹 `#include <errno.h>`\n🔹 `perror(\"msg\")` → এরর মেসেজ প্রিন্ট করে\n\n📌 উদাহরণ: অনুপস্থিত ফাইল ওপেন",
-					"code": "#include <stdio.h>\n#include <errno.h>\n\nint main() {\n  FILE *fp = fopen(\"missing.txt\", \"r\");\n  if (fp == NULL) {\n    perror(\"fopen\");  // prints: fopen: No such file or directory\n    return errno;      // 2 (ENOENT)\n  }\n  fclose(fp);\n  return 0;\n}",
-					"output": "fopen: No such file or directory"
-				},
-				{
-					"step": 60,
-					"title": "time() ও ctime() — সময় নিন",
-					"content": "`time()` দিয়ে কারেন্ট টাইমস্ট্যাম্প (সেকেন্ড), `ctime()` দিয়ে স্ট্রিংয়ে কনভার্ট।\n\n📌 উদাহরণ: প্রোগ্রাম স্টার্ট/এন্ড টাইম",
-					"code": "#include <stdio.h>\n#include <time.h>\n\nint main() {\n  time_t start = time(NULL);\n  printf(\"Started at: %s\", ctime(&start));  // \\n আছে ctime-এ\n\n  // কিছু কাজ...\n  for (int i = 0; i < 1000000; i++);\n\n  time_t end = time(NULL);\n  printf(\"Ended at: %s\", ctime(&end));\n  printf(\"Duration: %ld seconds\\n\", end - start);\n  return 0;\n}",
-					"output": "Started at: Sun Dec 14 10:30:00 2025\nEnded at: Sun Dec 14 10:30:00 2025\nDuration: 0 seconds"
-				},
-				{
-					"step": 61,
-					"title": "rand() — র‍্যান্ডম নম্বর",
-					"content": "`rand()` 0 থেকে `RAND_MAX` পর্যন্ত র‍্যান্ডম নম্বর দেয়।\n\n🔹 `srand(time(NULL))` — সিড দিন, না হলে একই সিকোয়েন্স!\n🔹 `rand() % N` — 0 থেকে N-1 পর্যন্ত\n\n📌 উদাহরণ: 1-100 এর মধ্যে র‍্যান্ডম নম্বর",
-					"code": "#include <stdio.h>\n#include <stdlib.h>\n#include <time.h>\n\nint main() {\n  srand(time(NULL));  // টাইম দিয়ে সিড সেট\n\n  for (int i = 0; i < 5; i++) {\n    int r = rand() % 100 + 1;  // 1 to 100\n    printf(\"%d \", r);\n  }\n  printf(\"\\n\");\n  return 0;\n}",
-					"output": "42 17 89 3 65 "
-				},
-				{
-					"step": 62,
-					"title": "বাংলাদেশি প্রোজেক্ট: NID ভ্যালিডেশন",
-					"content": "বাংলাদেশের NID নম্বর 10/13/17 ডিজিটের হয়। চেক করুন:\n\n🔹 শুধু ডিজিট\n🔹 দৈর্ঘ্য 10, 13 বা 17\n🔹 শেষ 2 ডিজিট চেকসাম (সাধারণ ভার্সন)\n\n📌 উদাহরণ: আনুমানিক ভ্যালিডেশন",
-					"code": "#include <stdio.h>\n#include <string.h>\n#include <ctype.h>\n\nint isValidNID(char *nid) {\n  int len = strlen(nid);\n  // দৈর্ঘ্য চেক\n  if (len != 10 && len != 13 && len != 17) return 0;\n\n  // ডিজিট চেক\n  for (int i = 0; i < len; i++) {\n    if (!isdigit(nid[i])) return 0;\n  }\n\n  return 1; // সাধারণ চেক — প্রকৃত চেকসাম জটিল\n}\n\nint main() {\n  char nid[20];\n  printf(\"Enter NID: \");\n  scanf(\"%s\", nid);\n\n  if (isValidNID(nid)) {\n    printf(\"✅ Valid format\\n\");\n  } else {\n    printf(\"❌ Invalid format\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter NID: 1234567890\n✅ Valid format"
-				},
-				{
-					"step": 63,
-					"title": "বাংলাদেশি প্রোজেক্ট: মোবাইল বিল ক্যালকুলেটর",
-					"content": "প্রি-পেইড মোবাইল বিল ক্যালকুলেট: 1.50 BDT/মিনিট + 0.50 BDT/SMS।\n\n📌 উদাহরণ: 10 মিনিট + 5 SMS = 15 + 2.5 = 17.50 BDT",
-					"code": "#include <stdio.h>\n\nint main() {\n  int minutes, sms;\n  float bill;\n\n  printf(\"Enter talk time (min): \");\n  scanf(\"%d\", &minutes);\n  printf(\"Enter SMS count: \");\n  scanf(\"%d\", &sms);\n\n  bill = minutes * 1.50 + sms * 0.50;\n\n  printf(\"\\n--- Bill Summary ---\\n\");\n  printf(\"Talk: %d min × 1.50 = %.2f BDT\\n\", minutes, minutes * 1.50);\n  printf(\"SMS: %d × 0.50 = %.2f BDT\\n\", sms, sms * 0.50);\n  printf(\"Total: %.2f BDT\\n\", bill);\n  return 0;\n}",
-					"output": "Enter talk time (min): 10\nEnter SMS count: 5\n\n--- Bill Summary ---\nTalk: 10 min × 1.50 = 15.00 BDT\nSMS: 5 × 0.50 = 2.50 BDT\nTotal: 17.50 BDT"
-				},
-				{
-					"step": 64,
-					"title": "বাংলাদেশি: ছুটির দিন চেকার (2025)",
-					"content": "2025-এর কয়েকটি গুরুত্বপূর্ণ ছুটি চেক করুন।\n\n📌 উদাহরণ: 26 March (Independence Day), 16 December (Victory Day)",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nint isHoliday(int day, int month) {\n  if (month == 3 && day == 26) return 1;  // Independence Day\n  if (month == 12 && day == 16) return 1; // Victory Day\n  if (month == 2 && day == 21) return 1;  // Ekushey\n  return 0;\n}\n\nint main() {\n  int d, m;\n  printf(\"Enter date (DD MM): \");\n  scanf(\"%d %d\", &d, &m);\n\n  if (isHoliday(d, m)) {\n    printf(\"🎉 %02d/%02d is a national holiday!\\n\", d, m);\n  } else {\n    printf(\"📅 %02d/%02d is a working day.\\n\", d, m);\n  }\n  return 0;\n}",
-					"output": "Enter date (DD MM): 16 12\n🎉 16/12 is a national holiday!"
-				},
-				{
-					"step": 65,
-					"title": "fgets() ও sscanf() — সেফ ইনপুট পার্সিং",
-					"content": "`fgets()` দিয়ে পুরো লাইন নিন, `sscanf()` দিয়ে পার্স করুন — বাফার ওভারফ্লো এড়াতে।\n\n📌 উদাহরণ: \"5 10\" → দুটি int পার্স",
-					"code": "#include <stdio.h>\n\nint main() {\n  char line[100];\n  int a, b;\n\n  printf(\"Enter two numbers: \");\n  fgets(line, sizeof(line), stdin);\n\n  if (sscanf(line, \"%d %d\", &a, &b) == 2) {\n    printf(\"You entered: %d and %d\\n\", a, b);\n  } else {\n    printf(\"Invalid input!\\n\");\n  }\n  return 0;\n}",
-					"output": "Enter two numbers: 5 10\nYou entered: 5 and 10"
-				},
-				{
-					"step": 66,
-					"title": "snprintf() — সেফ স্ট্রিং ফরম্যাটিং",
-					"content": "`snprintf(dest, size, format, ...)` — বাফার ওভারফ্লো এড়ানোর জন্য বেস্ট!\n\n🔹 সর্বোচ্চ `size-1` ক্যারেক্টার লিখে `\\0` দেয়\n\n📌 উদাহরণ: ফাইল নেম জেনারেট",
-					"code": "#include <stdio.h>\n\nint main() {\n  char filename[20];\n  int id = 101;\n\n  // নিরাপদ: সর্বোচ্চ 19 ক্যারেক্টার\n  snprintf(filename, sizeof(filename), \"user_%d.txt\", id);\n  printf(\"Filename: '%s'\\n\", filename);\n\n  // বড় স্ট্রিং — ট্রানকেট হবে\n  snprintf(filename, 8, \"user_%d.txt\", 9999); // size=8\n  printf(\"Truncated: '%s'\\n\", filename);\n  return 0;\n}",
-					"output": "Filename: 'user_101.txt'\nTruncated: 'user_99'"
-				},
-				{
-					"step": 67,
-					"title": "মিনি প্রোজেক্ট: টেলিফোন ডাইরেক্টরি",
-					"content": "নাম ও নম্বর স্টোর করুন — সর্ট, সার্চ করুন।\n\n📌 ফিচার:\n- 5 জনের ডেটা\n- নাম অনুযায়ী সর্ট\n- নাম দিয়ে সার্চ",
-					"code": "#include <stdio.h>\n#include <string.h>\n#include <stdlib.h>\n\nstruct Contact {\n  char name[30];\n  char phone[15];\n};\n\nint compare(const void *a, const void *b) {\n  return strcmp(((struct Contact*)a)->name, ((struct Contact*)b)->name);\n}\n\nint main() {\n  struct Contact dir[5] = {\n    {\"Rakib\", \"01711111111\"},\n    {\"Nusrat\", \"01822222222\"},\n    {\"Tanvir\", \"01933333333\"}\n  };\n  int count = 3;\n\n  // সর্ট\n  qsort(dir, count, sizeof(struct Contact), compare);\n\n  // প্রিন্ট\n  printf(\"--- Contacts ---\\n\");\n  for (int i = 0; i < count; i++) {\n    printf(\"%s: %s\\n\", dir[i].name, dir[i].phone);\n  }\n\n  // সার্চ\n  char search[30];\n  printf(\"\\nSearch name: \");\n  scanf(\"%s\", search);\n\n  for (int i = 0; i < count; i++) {\n    if (strcmp(dir[i].name, search) == 0) {\n      printf(\"📞 %s: %s\\n\", dir[i].name, dir[i].phone);\n      return 0;\n    }\n  }\n  printf(\"Not found.\\n\");\n  return 0;\n}",
-					"output": "--- Contacts ---\nNusrat: 01822222222\nRakib: 01711111111\nTanvir: 01933333333\n\nSearch name: Rakib\n📞 Rakib: 01711111111"
-				},
-				{
-					"step": 68,
-					"title": "মিনি প্রোজেক্ট: কুইজ অ্যাপ",
-					"content": "3টি প্রশ্নের কুইজ — স্কোর ক্যালকুলেট।\n\n📌 উদাহরণ: বাংলাদেশ-সম্পর্কিত প্রশ্ন",
-					"code": "#include <stdio.h>\n#include <string.h>\n\nstruct Question {\n  char q[100];\n  char options[4][50];\n  int correct; // 0-3\n};\n\nint main() {\n  struct Question qs[] = {\n    {\"What is the capital of Bangladesh?\",\n     {\"Chittagong\", \"Sylhet\", \"Dhaka\", \"Khulna\"}, 2},\n    {\"When did Bangladesh gain independence?\",\n     {\"1947\", \"1952\", \"1971\", \"1980\"}, 2},\n    {\"National animal of Bangladesh?\",\n     {\"Tiger\", \"Lion\", \"Elephant\", \"Bear\"}, 0}\n  };\n  int n = 3, score = 0;\n\n  for (int i = 0; i < n; i++) {\n    printf(\"\\nQ%d: %s\\n\", i+1, qs[i].q);\n    for (int j = 0; j < 4; j++) {\n      printf(\"%c) %s\\n\", 'A'+j, qs[i].options[j]);\n    }\n    char ans;\n    printf(\"Your answer (A-D): \");\n    scanf(\" %c\", &ans);\n    int idx = ans - 'A';\n    if (idx == qs[i].correct) {\n      printf(\"✅ Correct!\\n\");\n      score++;\n    } else {\n      printf(\"❌ Wrong! Correct: %c\\n\", 'A' + qs[i].correct);\n    }\n  }\n\n  printf(\"\\nFinal Score: %d/%d\\n\", score, n);\n  return 0;\n}",
-					"output": "Q1: What is the capital of Bangladesh?\nA) Chittagong\nB) Sylhet\nC) Dhaka\nD) Khulna\nYour answer (A-D): C\n✅ Correct!\n\n...\nFinal Score: 3/3"
-				},
-				{
-					"step": 69,
-					"title": "স্ট্যাটিক ভেরিয়েবল — ফাংশনে লোকাল কিন্তু পার্সিস্টেন্ট",
-					"content": "`static int count;` — ফাংশন কলের মধ্যে ভ্যালু রিটেইন করে।\n\n🔹 প্রথমবার ইনিশিয়ালাইজ হয়, পরে হয় না\n\n📌 উদাহরণ: ফাংশন কল কাউন্টার",
-					"code": "#include <stdio.h>\n\nvoid counter() {\n  static int count = 0;  // একবার ইনিশিয়ালাইজ\n  count++;\n  printf(\"Called %d times\\n\", count);\n}\n\nint main() {\n  counter(); // 1\n  counter(); // 2\n  counter(); // 3\n  return 0;\n}",
-					"output": "Called 1 times\nCalled 2 times\nCalled 3 times"
-				},
-				{
-					"step": 70,
-					"title": "রিকার্সিভ বাইনারি সার্চ",
-					"content": "ইটারেটিভ এর বদলে রিকার্শন দিয়ে বাইনারি সার্চ।\n\n📌 উদাহরণ: সর্টেড অ্যারেতে কী খোঁজা",
-					"code": "#include <stdio.h>\n\nint binarySearch(int arr[], int low, int high, int key) {\n  if (low > high) return -1; // বেস কেস: নেই\n\n  int mid = (low + high) / 2;\n  if (arr[mid] == key) return mid;\n  if (key < arr[mid])\n    return binarySearch(arr, low, mid - 1, key);\n  else\n    return binarySearch(arr, mid + 1, high, key);\n}\n\nint main() {\n  int arr[] = {10, 20, 30, 40, 50};\n  int n = 5, key = 40;\n  int pos = binarySearch(arr, 0, n - 1, key);\n  printf(\"%d at index %d\\n\", key, pos);\n  return 0;\n}",
-					"output": "40 at index 3"
-				},
-				{
-					"step": 71,
-					"title": "লিনিয়ার সার্চ — আনসর্টেড অ্যারেতে",
-					"content": "সর্ট না করে সরাসরি সব উপাদান চেক করুন।\n\n🔹 টাইম: O(n)\n\n📌 উদাহরণ: রোল নম্বর খোঁজা",
-					"code": "#include <stdio.h>\n\nint linearSearch(int arr[], int n, int key) {\n  for (int i = 0; i < n; i++) {\n    if (arr[i] == key) return i;\n  }\n  return -1;\n}\n\nint main() {\n  int rolls[] = {101, 105, 103, 107};\n  int n = 4, target = 103;\n  int pos = linearSearch(rolls, n, target);\n  if (pos != -1) {\n    printf(\"Roll %d found at index %d\\n\", target, pos);\n  } else {\n    printf(\"Not found\\n\");\n  }\n  return 0;\n}",
-					"output": "Roll 103 found at index 2"
-				},
-				{
-					"step": 72,
-					"title": "গ্রেড ক্যালকুলেটর — সুইচ কেস দিয়ে",
-					"content": "`switch` দিয়ে গ্রেড চেক করুন — বড় `if-else` এড়াতে।\n\n📌 উদাহরণ: 80-100 → A+, 70-79 → A, ইত্যাদি",
-					"code": "#include <stdio.h>\n\nchar getGrade(int marks) {\n  int range = marks / 10; // 80-89 → 8, 90-100 → 9/10\n  switch (range) {\n    case 10:\n    case 9: return 'A';\n    case 8: return 'B';\n    case 7: return 'C';\n    case 6: return 'D';\n    default: return 'F';\n  }\n}\n\nint main() {\n  int m = 85;\n  printf(\"Marks: %d → Grade: %c\\n\", m, getGrade(m));\n  return 0;\n}",
-					"output": "Marks: 85 → Grade: B"
-				}
-			]
-		},
-		{
-			"language": "Python",
-			"description": "Python সহজ, শক্তিশালী এবং বহুমুখী একটি প্রোগ্রামিং ভাষা। ডেটা সায়েন্স, AI, ওয়েব ডেভেলপমেন্ট, অটোমেশন — সবকিছুতে ব্যবহার করা যায়। এটি পড়তে প্রায় ইংরেজির মতো, তাই শিখতে অনেক সহজ।",
-			"steps": [
-				{
-					"step": 1,
-					"title": "Python কী?",
-					"content": "Python একটি high-level, interpreted প্রোগ্রামিং ভাষা। অর্থাৎ, আপনি লিখলেন — সরাসরি রান হয়, কম্পাইল করার দরকার নেই। এটি খুব পঠনযোগ্য, সহজ সিনট্যাক্সের জন্য বিশ্বব্যাপী জনপ্রিয়। ডেটা সায়েন্স, AI (যেমন: TensorFlow, PyTorch), ওয়েব ডেভ (Django, Flask), অটোমেশন সবখানেই Python ব্যবহার হয়।",
-					"code": "",
-					"output": ""
-				},
-				{
-					"step": 2,
-					"title": "Hello World",
-					"content": "প্রোগ্রামিং শেখার প্রথম ধাপ হলো 'Hello World' প্রিন্ট করা। Python-এ এটি খুব সহজ: `print()` ফাংশন দিয়ে যেকোনো টেক্সট আউটপুট দেওয়া যায়। কোটেশন মার্কের ভিতরে যা লিখবেন, তাই প্রিন্ট হবে।",
-					"code": "print(\"Hello World\")",
-					"output": "Hello World"
-				},
-				{
-					"step": 3,
-					"title": "ভেরিয়েবল ও ডাইনামিক টাইপিং",
-					"content": "Python-এ ভেরিয়েবল ডিক্লেয়ার করতে কোনো টাইপ লিখতে হয় না। যেমন: `x = 5` লিখলেই x একটি integer ভেরিয়েবল হয়ে যায়। পরে `x = \"সানা\"` লিখলে এটি অটোমেটিক string-এ পরিবর্তিত হয় — এটাই হলো *Dynamic Typing*। `type()` দিয়ে বর্তমান ডেটা টাইপ চেক করা যায়।",
-					"code": "x = 5\ny = 3.14\nname = \"সানা\"\nprint(x, type(x))\nprint(y, type(y))\nprint(name, type(name))",
-					"output": "5 <class 'int'>\n3.14 <class 'float'>\nসানা <class 'str'>"
-				},
-				{
-					"step": 4,
-					"title": "ইউজার ইনপুট",
-					"content": "`input()` ফাংশন ব্যবহার করে ইউজারের কাছ থেকে ডেটা নেওয়া যায়। এটি সবসময় string হিসেবে আসে। `input(\"Enter age: \")` লিখলে প্রোগ্রাম থেমে যাবে, এবং ইউজার কীবোর্ড থেকে কিছু লিখলে সেটা `age` ভেরিয়েবলে জমা হবে।",
-					"code": "age = input(\"Enter age: \")\nprint(\"You are\", age, \"years old\")",
-					"output": "Enter age: 22\nYou are 22 years old"
-				},
-				{
-					"step": 5,
-					"title": "বুলিয়ান ও None",
-					"content": "বুলিয়ান (`bool`) ডেটা টাইপের মাত্র দুটি মান থাকে: `True` বা `False` (প্রথম অক্ষর বড় হতে হবে!)। `None` হলো একটি বিশেষ মান যা ‘কিছু না’ বোঝায় — অর্থাৎ, ভেরিয়েবলে এখনো কোনো ডেটা দেওয়া হয়নি। এটি প্রায়ই ডিফল্ট ভ্যালু বা ফাংশন রিটার্নে ব্যবহৃত হয়।",
-					"code": "is_student = True\ngraduated = None\nprint(is_student, type(is_student))\nprint(graduated, type(graduated))",
-					"output": "True <class 'bool'>\nNone <class 'NoneType'>"
-				},
-				{
-					"step": 6,
-					"title": "f-string ফরম্যাটিং",
-					"content": "f-string (formatted string literal) হলো ভ্যারিয়েবল দিয়ে টেক্সট বানানোর সবচেয়ে সহজ উপায়। স্ট্রিংয়ের শুরুতে `f` লিখুন, তারপর `{}`-এর ভিতরে ভ্যারিয়েবল লিখুন। যেমন: `f\"{name} will graduate in {year}.\"` — এখানে `name` ও `year`-এর মান স্বয়ংক্রিয়ভাবে বসে যাবে।",
-					"code": "name = \"তারেক\"\nyear = 2025\nprint(f\"{name} will graduate in {year}.\")",
-					"output": "তারেক will graduate in 2025."
-				},
-				{
-					"step": 7,
-					"title": "অ্যারিথমেটিক অপারেটর",
-					"content": "`//` হলো floor division — ভাগফলের দশমিক অংশ ছাড়া শুধু পূর্ণসংখ্যা অংশ দেয়। যেমন: `15 // 4 = 3`। `**` হলো exponentiation — অর্থাৎ ঘাত বের করা। যেমন: `15 ** 4 = 15×15×15×15 = 50625`।",
-					"code": "a, b = 15, 4\nprint(f\"{a} // {b} = {a//b} (floor div)\")\nprint(f\"{a} ** {b} = {a**b} (power)\")",
-					"output": "15 // 4 = 3 (floor div)\n15 ** 4 = 50625 (power)"
-				},
-				{
-					"step": 8,
-					"title": "মেম্বারশিপ ও আইডেন্টিটি অপারেটর",
-					"content": "`in` অপারেটর চেক করে একটি আইটেম লিস্ট/স্ট্রিং/সেটে আছে কিনা। `'আম' in fruits` সত্য হবে যদি `fruits` লিস্টে `'আম'` থাকে। `is` বা `is not` চেক করে দুটি ভেরিয়েবল *একই অবজেক্ট* কিনা — মেমরি লেভেলে। `fruits is not None` মানে: `fruits` যদি `None` না হয়, তবে `True`।",
-					"code": "fruits = ['আম', 'কলা']\nprint('আম' in fruits)\nprint(fruits is not None)",
-					"output": "True\nTrue"
-				},
-				{
-					"step": 9,
-					"title": "if-else",
-					"content": "`if-else` দিয়ে শর্তসাপেক্ষে কোড রান করা হয়। `if`-এর পরে যে শর্ত (`temp > 30`) সত্য হবে, তার নিচের ব্লক (ইনডেন্টেড কোড) চলবে। না হলে `else` ব্লক চলবে। ইনডেন্টেশন (স্পেস/ট্যাব) Python-এ অত্যন্ত গুরুত্বপূর্ণ — এটি ব্লক চিহ্নিত করে।",
-					"code": "temp = 35\nif temp > 30:\n    print(\"গরম\")\nelse:\n    print(\"ঠান্ডা\")",
-					"output": "গরম"
-				},
-				{
-					"step": 10,
-					"title": "elif ল্যাডার",
-					"content": "অনেকগুলো শর্ত চেক করার জন্য `elif` (else if) ব্যবহার করা হয়। Python উপর থেকে নিচে প্রতিটি শর্ত চেক করে। যেটা প্রথম সত্য হয়, সেটা চলে এবং বাকি এড়িয়ে যায়। যদি কোনোটাই সত্য না হয়, তবে `else` ব্লক চলবে।",
-					"code": "score = 65\nif score >= 80:\n    print(\"A+\")\nelif score >= 70:\n    print(\"A\")\nelif score >= 60:\n    print(\"A-\")\nelse:\n    print(\"Fail\")",
-					"output": "A-"
-				},
-				{
-					"step": 11,
-					"title": "match-case (Python 3.10+)",
-					"content": "`match-case` হলো আরও পঠনযোগ্য `switch`-এর মতো কনস্ট্রাক্ট। `match` করা ভ্যালু (`status`) কোন `case`-এর সাথে মিলছে কিনা চেক করে। `_` হলো ডিফল্ট কেস — যখন কোনো মিল নেই। এটি Python 3.10 বা তার উপরের ভার্সনে কাজ করবে।",
-					"code": "status = 200\nmatch status:\n    case 200:\n        print(\"OK\")\n    case 404:\n        print(\"Not Found\")\n    case _:\n        print(\"Unknown\")",
-					"output": "OK"
-				},
-				{
-					"step": 12,
-					"title": "for লুপ (range)",
-					"content": "`range(start, stop)` একটি সিকোয়েন্স তৈরি করে (শেষ সংখ্যা বাদে)। `range(1,6)` মানে 1,2,3,4,5। `for i in range(1,6):` মানে i = 1 থেকে 5 পর্যন্ত প্রতিবার লুপ চলবে। `end=' '` দিলে প্রিন্টের শেষে নতুন লাইন না দিয়ে স্পেস দেবে।",
-					"code": "for i in range(1, 6):\n    print(i, end=' ')",
-					"output": "1 2 3 4 5"
-				},
-				{
-					"step": 13,
-					"title": "for লুপ (list এর উপর)",
-					"content": "Python-এ আপনি সরাসরি লিস্টের উপর লুপ চালাতে পারেন — ইনডেক্স ছাড়াই! `for c in colors:` মানে `colors` লিস্টের প্রতিটি আইটেম পরপর `c`-এ আসবে। এটি খুব পাঠযোগ্য এবং পাইথনিক উপায়।",
-					"code": "colors = [\"লাল\", \"নীল\", \"সবুজ\"]\nfor c in colors:\n    print(f\"রং: {c}\")",
-					"output": "রং: লাল\nরং: নীল\nরং: সবুজ"
-				},
-				{
-					"step": 14,
-					"title": "while লুপ",
-					"content": "`while` লুপ তখন চলে যতক্ষণ না শর্ত (`count > 0`) মিথ্যা হয়। এখানে `count -= 1` হলো ডিক্রিমেন্ট — প্রতিবার লুপে `count` 1 কমে। লুপ থেকে বের হওয়ার পর `print(\"ধন্যবাদ!\")` চলবে। সতর্ক থাকুন: যদি কাউন্টার আপডেট না করেন, লুপ অসীম চলবে!",
-					"code": "count = 3\nwhile count > 0:\n    print(f\"{count}...\")\n    count -= 1\nprint(\"ধন্যবাদ!\")",
-					"output": "3...\n2...\n1...\nধন্যবাদ!"
-				},
-				{
-					"step": 15,
-					"title": "ফাংশন ডেফিনিশন",
-					"content": "`def` কীওয়ার্ড দিয়ে ফাংশন তৈরি করা হয়। `def multiply(a, b):` মানে `multiply` নামে একটি ফাংশন যা দুটি প্যারামিটার (`a`, `b`) নেয়। `return` দিয়ে ফাংশন থেকে মান ফেরত দেওয়া হয়। ফাংশন কোড রিইউজ ও অর্গানাইজ করতে সাহায্য করে।",
-					"code": "def multiply(a, b):\n    return a * b\n\nprint(\"5 × 6 =\", multiply(5, 6))",
-					"output": "5 × 6 = 30"
-				},
-				{
-					"step": 16,
-					"title": "ডিফল্ট প্যারামিটার",
-					"content": "ফাংশনের প্যারামিটারে ডিফল্ট ভ্যালু দেওয়া যায়। যদি কল করার সময় কোনো আর্গুমেন্ট না দেন, তবে ডিফল্ট ভ্যালু ব্যবহৃত হবে। এখানে `greet()` কল করলে `name=\"অতিথি\"` ব্যবহৃত হবে, আর `greet(\"ফারহানা\")` কল করলে `\"ফারহানা\"` ব্যবহৃত হবে।",
-					"code": "def greet(name=\"অতিথি\"):\n    print(f\"স্বাগতম, {name}!\")\n\ngreet()\ngreet(\"ফারহানা\")",
-					"output": "স্বাগতম, অতিথি!\nস্বাগতম, ফারহানা!"
-				},
-				{
-					"step": 17,
-					"title": "ল্যাম্বডা ফাংশন",
-					"content": "ল্যাম্বডা হলো এক-লাইনের ছোট ফাংশন। সিনট্যাক্স: `lambda arguments: expression`। এগুলো নাম ছাড়া তৈরি হয় এবং প্রায়ই `map()`, `filter()`-এ ব্যবহৃত হয়। এখানে `square = lambda x: x**2` মানে: `x` ইনপুট নিয়ে `x²` রিটার্ন করবে।",
-					"code": "square = lambda x: x ** 2\ncube = lambda x: x ** 3\nprint(square(4), cube(3))",
-					"output": "16 27"
-				},
-				{
-					"step": 18,
-					"title": "লিস্ট ও ইনডেক্সিং",
-					"content": "লিস্ট হলো অর্ডার্ড, মিউটেবল কালেকশন। `nums[0]` দিয়ে প্রথম আইটেম, `nums[-1]` দিয়ে শেষ আইটেম পাওয়া যায়। স্লাইসিং (`nums[1:3]`) দিয়ে একটি রেঞ্জ (1 থেকে 2, অর্থাৎ ইনডেক্স 1 ও 2) পাওয়া যায় — শেষ ইনডেক্স অন্তর্ভুক্ত হয় না।",
-					"code": "nums = [10, 20, 30, 40]\nprint(\"First:\", nums[0])\nprint(\"Last:\", nums[-1])\nprint(\"Slice:\", nums[1:3])",
-					"output": "First: 10\nLast: 40\nSlice: [20, 30]"
-				},
-				{
-					"step": 19,
-					"title": "স্ট্রিং মেথড",
-					"content": "`strip()` স্ট্রিংয়ের শুরু ও শেষের স্পেস বা নিউলাইন মুছে দেয়। `replace(' ', '-')` সব স্পেসকে `-` দিয়ে রিপ্লেস করে। `upper()` সব অক্ষর বড় হাতের করে। এই মেথডগুলো চেইন করে দেওয়া যায় (`text.strip().replace(...).upper()`), কারণ প্রতিটি মেথড একটি নতুন স্ট্রিং রিটার্ন করে।",
-					"code": "text = \"  বাংলা   ভাষা  \"\nclean = text.strip().replace(' ', '-')\nprint(clean.upper())",
-					"output": "বাংলা-ভাষা"
-				},
-				{
-					"step": 21,
-					"title": "List Comprehension",
-					"content": "লিস্ট কম্প্রিহেনশন দিয়ে লিস্ট তৈরি করা খুব সংক্ষিপ্ত হয়। সিনট্যাক্স: `[expression for item in iterable]`। অপশনালি `if` শর্ত যোগ করা যায়। এটি `for` লুপ + `append()`-এর চেয়ে দ্রুত এবং পাঠযোগ্য। উদাহরণ: `[x**2 for x in range(1,6)]` → 1² থেকে 5² পর্যন্ত বর্গের লিস্ট।",
-					"code": "squares = [x**2 for x in range(1, 6)]\nprint(squares)",
-					"output": "[1, 4, 9, 16, 25]"
-				},
-				{
-					"step": 22,
-					"title": "Dictionary তৈরি ও প্রিন্ট",
-					"content": "ডিকশনারি হলো key-value জোড়ার কালেকশন। কী দিয়ে ভ্যালু একসেস করা যায় — সরাসরি ইনডেক্স নয়। `student[\"name\"]` দিয়ে `'রিয়া'` পাওয়া যাবে। ডিকশনারি ক্রম (order) মেনে চলে (Python 3.7+), এবং মিউটেবল — অর্থাৎ পরে আইটেম যোগ/মুছা যায়।",
-					"code": "student = {\"name\": \"রিয়া\", \"age\": 21, \"dept\": \"CSE\"}\nprint(student[\"name\"])\nprint(student)",
-					"output": "রিয়া\n{'name': 'রিয়া', 'age': 21, 'dept': 'CSE'}"
-				},
-				{
-					"step": 23,
-					"title": "Dictionary এ আইটেম যোগ/পরিবর্তন",
-					"content": "ডিকশনারিতে নতুন কী-ভ্যালু যোগ করতে সরাসরি অ্যাসাইন করুন: `car[\"year\"] = 2020`। যদি কী আগে থেকে থাকে, তবে ভ্যালু আপডেট হবে (`car[\"model\"] = \"Camry\"`)। এছাড়া `car.update({\"color\": \"red\"})` দিয়েও যোগ করা যায়।",
-					"code": "car = {\"brand\": \"Toyota\", \"model\": \"Corolla\"}\ncar[\"year\"] = 2020\ncar[\"model\"] = \"Camry\"\nprint(car)",
-					"output": "{'brand': 'Toyota', 'model': 'Camry', 'year': 2020}"
-				},
-				{
-					"step": 24,
-					"title": "Dictionary Comprehension",
-					"content": "ডিকশনারি কম্প্রিহেনশন দিয়ে দুটি লিস্ট থেকে ডিকশনারি তৈরি করা যায়। `zip(keys, vals)` জোড়া বানায়: `('a',1), ('b',2)...`। তারপর `{k: v for k, v in zip(...)}` এই জোড়াগুলোকে কী-ভ্যালু হিসেবে নেয়।",
-					"code": "keys = ['a', 'b', 'c']\nvals = [1, 2, 3]\nd = {k: v for k, v in zip(keys, vals)}\nprint(d)",
-					"output": "{'a': 1, 'b': 2, 'c': 3}"
-				},
-				{
-					"step": 25,
-					"title": "Set অপারেশন",
-					"content": "`set` হলো অর্ডারহীন, ইউনিক আইটেমের কালেকশন। `{1,2,3}` দিয়ে লেখা হয়। `|` (union) দুটি সেটের সব ইউনিক আইটেম দেয়। `&` (intersection) শুধু কমন আইটেম দেয়। সেট মেম্বারশিপ চেক (`in`) খুব দ্রুত — O(1) টাইম কমপ্লেক্সিটি।",
-					"code": "a = {1, 2, 3}\nb = {3, 4, 5}\nprint(\"Union:\", a | b)\nprint(\"Intersection:\", a & b)",
-					"output": "Union: {1, 2, 3, 4, 5}\nIntersection: {3}"
-				},
-				{
-					"step": 26,
-					"title": "Tuple এবং আনপ্যাকিং",
-					"content": "টাপল হলো অর্ডার্ড, **ইমিউটেবল** (পরিবর্তনযোগ্য নয়) কালেকশন। `(10, 20)` একটি টাপল। আনপ্যাকিং মানে টাপলের ভ্যালুগুলোকে একাধিক ভেরিয়েবলে আলাদা করা: `x, y = point`। এটি ফাংশন থেকে একাধিক ভ্যালু রিটার্ন করার জন্য ব্যবহৃত হয়।",
-					"code": "point = (10, 20)\nx, y = point\nprint(f\"x={x}, y={y}\")",
-					"output": "x=10, y=20"
-				},
-				{
-					"step": 27,
-					"title": "Try-Except (Error Handling)",
-					"content": "প্রোগ্রামে এরর হলে ক্র্যাশ না করে সুন্দরভাবে হ্যান্ডেল করার জন্য `try-except` ব্যবহার করা হয়। `try` ব্লকে ঝুঁকিপূর্ণ কোড লিখুন। যদি `ValueError` (যেমন: `int('abc')`) হয়, তবে `except` ব্লক চলবে। এতে প্রোগ্রাম ক্র্যাশ করবে না।",
-					"code": "try:\n    num = int('abc')\nexcept ValueError:\n    print(\"Invalid number format!\")",
-					"output": "Invalid number format!"
-				},
-				{
-					"step": 28,
-					"title": "Multiple Exception Handling",
-					"content": "একাধিক ধরনের এরর আলাদা ভাবে হ্যান্ডেল করা যায়। `ZeroDivisionError` শুধুমাত্র 0 দিয়ে ভাগের ক্ষেত্রে আসে। `Exception as e` দিয়ে অজানা এররগুলো ধরা যায় — `e` এরর মেসেজ দেখায়। সবচেয়ে নির্দিষ্ট এক্সেপশন আগে লিখুন।",
-					"code": "try:\n    a = 10 / 0\nexcept ZeroDivisionError:\n    print(\"কোনো সংখ্যাকে 0 দিয়ে ভাগ করা যায় না!\")\nexcept Exception as e:\n    print(\"Error:\", e)",
-					"output": "কোনো সংখ্যাকে 0 দিয়ে ভাগ করা যায় না!"
-				},
-				{
-					"step": 29,
-					"title": "File Write (UTF-8 with Bangla)",
-					"content": "`with open(...)` দিয়ে ফাইল ওপেন করলে অটোমেটিক ক্লোজ হয় — এমনকি এরর হলেও। `'w'` মোড মানে write mode — ফাইল ওভাররাইট হবে। `encoding='utf-8'` দিলে বাংলা এবং অন্যান্য ইউনিকোড ক্যারেক্টার নিরাপদে লেখা যায়। `\\n` নতুন লাইন দেয়।",
-					"code": "with open('note.txt', 'w', encoding='utf-8') as f:\n    f.write(\"আমি পাইথন শিখছি।\\nভালো লাগছে!\")",
-					"output": ""
-				},
-				{
-					"step": 30,
-					"title": "File Read (UTF-8 with Bangla)",
-					"content": "ফাইল পড়ার জন্য `'r'` (read) মোড ব্যবহার করুন। `f.read()` সম্পূর্ণ ফাইল কন্টেন্ট এক স্ট্রিংয়ে রিটার্ন করে। UTF-8 এনকোডিং না দিলে বাংলা গার্বেজ চিহ্ন দেখাতে পারে। এটি নিশ্চিত করে যে বাংলা ঠিকমতো পড়া হবে।",
-					"code": "with open('note.txt', 'r', encoding='utf-8') as f:\n    print(f.read())",
-					"output": "আমি পাইথন শিখছি।\nভালো লাগছে!"
-				},
-				{
-					"step": 31,
-					"title": "Global vs Local Variable",
-					"content": "ফাংশনের ভিতরের ভেরিয়েবল হলো *local* — শুধু ফাংশনের ভিতরে পাওয়া যায়। বাইরের ভেরিয়েবল *global*। ফাংশনের ভিতর যদি একই নামে নতুন ভেরিয়েবল বানান (`x = \"local\"`), তবে গ্লোবাল `x`-এর সাথে কোনো সম্পর্ক থাকে না।",
-					"code": "x = \"global\"\ndef test():\n    x = \"local\"\n    print(x)\ntest()\nprint(x)",
-					"output": "local\nglobal"
-				},
-				{
-					"step": 32,
-					"title": "global কীওয়ার্ড ব্যবহার",
-					"content": "ফাংশনের ভিতর থেকে গ্লোবাল ভেরিয়েবল পরিবর্তন করতে `global` কীওয়ার্ড ব্যবহার করুন। `global counter` লিখলে Python বুঝবে যে আপনি বাইরের `counter`-কেই মডিফাই করতে চান। না লিখলে নতুন লোকাল ভেরিয়েবল তৈরি হবে।",
-					"code": "counter = 0\ndef increment():\n    global counter\n    counter += 1\nincrement()\nprint(counter)",
-					"output": "1"
-				},
-				{
-					"step": 33,
-					"title": "enumerate() ব্যবহার",
-					"content": "`enumerate(iterable, start=0)` প্রতিটি আইটেমের সাথে তার ইনডেক্স জোড়া দেয়। `for i, f in enumerate(fruits, 1)` মানে: i = 1,2,3... এবং f = লিস্টের প্রতিটি আইটেম। এটি লুপে নাম্বারিং দেখানোর জন্য পারফেক্ট।",
-					"code": "fruits = [\"আম\", \"কলা\", \"কমলা\"]\nfor i, f in enumerate(fruits, 1):\n    print(f\"{i}. {f}\")",
-					"output": "1. আম\n2. কলা\n3. কমলা"
-				},
-				{
-					"step": 34,
-					"title": "zip() দিয়ে একাধিক লিস্ট লুপ",
-					"content": "`zip()` একাধিক ইটারেবলকে জোড়া জোড়া করে দেয়। `zip(names, ages)` → `('করিম',25)`, `('জামাল',30)`। এটি একই সাইজের ডেটা একসাথে প্রসেস করতে খুব কাজে লাগে — যেমন এক্সেল ডেটা, CSV পার্সিং।",
-					"code": "names = [\"করিম\", \"জামাল\"]\nages = [25, 30]\nfor name, age in zip(names, ages):\n    print(f\"{name} is {age} years old\")",
-					"output": "করিম is 25 years old\nজামাল is 30 years old"
-				},
-				{
-					"step": 35,
-					"title": "map() ফাংশন",
-					"content": "`map(function, iterable)` প্রতিটি আইটেমে একটি ফাংশন অ্যাপ্লাই করে এবং ম্যাপ অবজেক্ট রিটার্ন করে। `list()` দিয়ে লিস্টে কনভার্ট করতে হয়। এখানে `lambda x: x**2` প্রতিটি সংখ্যার বর্গ বানাচ্ছে। `map()` লিস্ট কম্প্রিহেনশনের চেয়ে মেমরি-ইফিসিয়েন্ট (lazy evaluation)।",
-					"code": "nums = [1, 2, 3, 4]\nsquares = list(map(lambda x: x**2, nums))\nprint(squares)",
-					"output": "[1, 4, 9, 16]"
-				},
-				{
-					"step": 36,
-					"title": "filter() ফাংশন",
-					"content": "`filter(function, iterable)` শুধু সেই আইটেমগুলো রাখে যেগুলোর জন্য ফাংশন `True` রিটার্ন করে। এখানে `lambda x: x % 2 == 0` শুধু জোড় সংখ্যা চিহ্নিত করে। `filter()` ও `map()` একসাথে ব্যবহার করা যায় — যেমন: প্রথমে ফিল্টার করুন, তারপর ম্যাপ করুন।",
-					"code": "nums = [1, 2, 3, 4, 5, 6]\nevens = list(filter(lambda x: x % 2 == 0, nums))\nprint(evens)",
-					"output": "[2, 4, 6]"
-				},
-				{
-					"step": 37,
-					"title": "অ্যানোনিমাস ফাংশন ও sorted()",
-					"content": "`sorted()` একটি লিস্ট বা ইটারেবলকে সর্ট করে নতুন লিস্ট রিটার্ন করে। `key` প্যারামিটারে ফাংশন দিয়ে কীভাবে সর্ট করবে তা নির্দিষ্ট করা যায়। এখানে `lambda x: len(x)` দিয়ে শব্দের দৈর্ঘ্য অনুযায়ী সর্ট হয়। ‘কমলা’ (3) < ‘কলা’ (4) < ‘আম’ (5)? না — ‘আম’ = 2 অক্ষর! (‘আ’,‘ম’) — তাই আগে।",
-					"code": "words = [\"আম\", \"কলা\", \"কমলা\"]\nsorted_words = sorted(words, key=lambda x: len(x))\nprint(sorted_words)",
-					"output": "['আম', 'কলা', 'কমলা']"
-				},
-				{
-					"step": 38,
-					"title": "ক্লাস ও অবজেক্ট",
-					"content": "OOP (Object-Oriented Programming)-এ ডেটা ও ফাংশনকে একসাথে রাখা হয়। `class` দিয়ে ব্লুপ্রিন্ট তৈরি করা হয়। `__init__` হলো কনস্ট্রাক্টর — অবজেক্ট তৈরির সময় অটো কল হয়। `self.name` দিয়ে ইনস্ট্যান্স ভেরিয়েবল ডিফাইন করা হয়। `p1.name` দিয়ে অ্যাক্সেস করা যায়।",
-					"code": "class Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n\np1 = Person(\"রহিম\", 28)\nprint(p1.name, p1.age)",
-					"output": "রহিম 28"
-				},
-				{
-					"step": 39,
-					"title": "মেথড ও self",
-					"content": "ক্লাসের ভিতরের ফাংশনকে মেথড বলে। প্রতিটি মেথডের প্রথম প্যারামিটার `self` হতে হয় — যা বর্তমান অবজেক্টকে রেফার করে। `self.name`, `self.age` দিয়ে অবজেক্টের ডেটা পাওয়া যায়। `p1.greet()` কল করলে Python অটোমেটিক `p1`-কে `self` হিসেবে পাস করে।",
-					"code": "class Person:\n    def __init__(self, name):\n        self.name = name\n    \n    def greet(self):\n        return f\"Hello, I'm {self.name}!\"\n\np = Person(\"সাবরিনা\")\nprint(p.greet())",
-					"output": "Hello, I'm সাবরিনা!"
-				},
-				{
-					"step": 40,
-					"title": "ইনহেরিটেন্স",
-					"content": "ইনহেরিটেন্স দিয়ে একটি ক্লাস অন্য ক্লাসের প্রোপার্টি ও মেথড পায়। `Student(Person)` মানে `Student` ক্লাস `Person`-এর সবকিছু পাবে। `super().__init__(...)` দিয়ে প্যারেন্ট ক্লাসের কনস্ট্রাক্টর কল করা হয়। এখানে `Student` নতুন প্রোপার্টি `id` যোগ করেছে।",
-					"code": "class Person:\n    def __init__(self, name):\n        self.name = name\n\nclass Student(Person):\n    def __init__(self, name, id):\n        super().__init__(name)\n        self.id = id\n\ns = Student(\"জাকির\", \"CSE101\")\nprint(s.name, s.id)",
-					"output": "জাকির CSE101"
-				},
-				{
-					"step": 41,
-					"title": "__str__ মেথড (প্রিন্ট কাস্টমাইজ)",
-					"content": "যখন আপনি `print(obj)` করেন, Python `obj.__str__()` কল করে। ডিফল্ট আউটপুট (`<__main__.Person object at 0x...>`) বদলে আপনি নিজের মতো করে কাস্টম স্ট্রিং দিতে পারেন। `__str__` হিউম্যান-রিডেবল রিপ্রেজেন্টেশনের জন্য — `__repr__` ডিবাগিংয়ের জন্য।",
-					"code": "class Book:\n    def __init__(self, title, author):\n        self.title = title\n        self.author = author\n    \n    def __str__(self):\n        return f\"'{self.title}' by {self.author}\"\n\nb = Book(\"বস্তু\", \"হুমায়ূন আহমেদ\")\nprint(b)",
-					"output": "'বস্তু' by হুমায়ূন আহমেদ"
-				},
-				{
-					"step": 42,
-					"title": "প্রোপার্টি ডেকোরেটর (@property)",
-					"content": "প্রোপার্টি দিয়ে ফাংশনকে ভেরিয়েবলের মতো ব্যবহার করা যায়। `@property` লিখলে `p.full_name` দিয়ে ফাংশন কল করা যায় — কোনো ব্র্যাকেট ছাড়াই। এটি ভ্যালিডেশন, ক্যালকুলেশন, বা কম্পোজিট ভ্যালু দেখানোর জন্য ভালো।",
-					"code": "class Person:\n    def __init__(self, first, last):\n        self.first = first\n        self.last = last\n    \n    @property\n    def full_name(self):\n        return f\"{self.first} {self.last}\"\n\np = Person(\"জামিলা\", \"খান\")\nprint(p.full_name)",
-					"output": "জামিলা খান"
-				},
-				{
-					"step": 43,
-					"title": "মডিউল ইম্পোর্ট ও ব্যবহার",
-					"content": "Python-এ অনেক বিল্ট-ইন মডিউল আছে। `math` মডিউলে গাণিতিক ফাংশন আছে। `import math` করলে পুরো মডিউল ইম্পোর্ট হয়, তখন `math.sqrt()` ব্যবহার করতে হয়। `from math import sqrt` করলে শুধু `sqrt()` ইম্পোর্ট হবে।",
-					"code": "import math\nprint(math.sqrt(16))\nprint(math.pi)",
-					"output": "4.0\n3.141592653589793"
-				},
-				{
-					"step": 44,
-					"title": "Datetime মডিউল",
-					"content": "`datetime` মডিউল দিয়ে তারিখ-সময় নিয়ে কাজ করা যায়। `datetime.now()` বর্তমান তারিখ ও সময় দেয়। `.strftime()` দিয়ে কাস্টম ফরম্যাটে প্রিন্ট করা যায় — `%d` = দিন, `%B` = মাসের নাম (ইংরেজি), `%Y` = 4-ডিজিট বছর।",
-					"code": "from datetime import datetime\nnow = datetime.now()\nprint(\"Now:\", now)\nprint(\"Formatted:\", now.strftime(\"%d %B %Y\"))",
-					"output": "Now: 2025-12-14 15:30:45.123456\nFormatted: 14 December 2025"
-				},
-				{
-					"step": 45,
-					"title": "Random মডিউল",
-					"content": "`random` মডিউল দিয়ে র‍্যান্ডম সংখ্যা/আইটেম জেনারেট করা যায়। `random.randint(a,b)` দিয়ে a থেকে b পর্যন্ত ইন্টিজার (উভয় প্রান্ত অন্তর্ভুক্ত)। `random.choice(list)` লিস্ট থেকে একটি র‍্যান্ডম আইটেম নেয়। গেম, সিমুলেশনে কাজে লাগে।",
-					"code": "import random\nprint(\"Dice:\", random.randint(1, 6))\ncolors = [\"লাল\", \"নীল\", \"সবুজ\"]\nprint(\"Random color:\", random.choice(colors))",
-					"output": "Dice: 4\nRandom color: নীল"
-				},
-				{
-					"step": 46,
-					"title": "JSON ডেটা লোড/ডাম্প",
-					"content": "`json` মডিউল দিয়ে Python ডেটা (dict, list) কে JSON স্ট্রিংয়ে কনভার্ট (`json.dumps()`) অথবা JSON স্ট্রিংকে Python অবজেক্টে (`json.loads()`) নিয়ে আসা যায়। API, কনফিগ ফাইলে কাজে লাগে। UTF-8 সাপোর্ট করে — বাংলা ঠিক থাকে।",
-					"code": "import json\ndata = {\"name\": \"ফারজানা\", \"city\": \"ঢাকা\"}\njson_str = json.dumps(data, ensure_ascii=False)\nprint(json_str)\n\nobj = json.loads(json_str)\nprint(obj[\"city\"])",
-					"output": "{\"name\": \"ফারজানা\", \"city\": \"ঢাকা\"}\nঢাকা"
-				},
-				{
-					"step": 47,
-					"title": "HTTP Request (Requests মডিউল)",
-					"content": "বাহিরের API থেকে ডেটা নেওয়ার জন্য `requests` মডিউল ব্যবহার করা হয় (তবে ইনস্টল করতে হয়: `pip install requests`)। `requests.get(url).json()` দিয়ে JSON ডেটা পাওয়া যায়। এটি ওয়েব স্ক্রেপিং, অটোমেশনে কাজে লাগে। (দ্রষ্টব্য: ডেমো উদ্দেশ্যে — আসল API হতে পারে না)",
-					"code": "# এটি শুধু উদাহরণ — রান করলে এরর হতে পারে\n# import requests\n# response = requests.get(\"https://api.example.com/user/1\")\n# print(response.json())",
-					"output": "# API response not executed (requires internet & valid endpoint)"
-				},
-				{
-					"step": 48,
-					"title": "ভার্চুয়াল এনভায়রনমেন্ট (venv)",
-					"content": "প্রতিটি প্রজেক্টের জন্য আলাদা প্যাকেজ ইনস্টল করা ভালো। `python -m venv myenv` একটি ভার্চুয়াল এনভায়রনমেন্ট তৈরি করে। `myenv\\Scripts\\activate` (Windows) বা `source myenv/bin/activate` (Mac/Linux) দিয়ে একটিভেট করুন। তখন `pip install` শুধু এই এনভায়রনমেন্টে প্যাকেজ ইনস্টল করবে।",
-					"code": "# Terminal commands (not Python code):\n# python -m venv myenv\n# source myenv/bin/activate   # Linux/Mac\n# myenv\\Scripts\\activate     # Windows\n# pip install flask",
-					"output": "# Virtual environment setup (run in terminal, not in Python)"
-				},
-				{
-					"step": 49,
-					"title": "pip ও requirements.txt",
-					"content": "`pip` হলো Python প্যাকেজ ম্যানেজার। `pip install numpy` দিয়ে NumPy ইনস্টল হবে। `pip freeze > requirements.txt` দিয়ে সব ইনস্টলড প্যাকেজের নাম ও ভার্সন ফাইলে সেভ করা যায়। অন্য কম্পিউটারে `pip install -r requirements.txt` দিয়ে একই এনভায়রনমেন্ট রিক্রিয়েট করা যায়।",
-					"code": "# Terminal commands:\n# pip install requests pandas\n# pip freeze > requirements.txt\n# cat requirements.txt",
-					"output": "# requests==2.31.0\n# pandas==2.1.4\n# numpy==1.26.2"
-				},
-				{
-					"step": 50,
-					"title": "পাইথনে অটোমেশন — উদাহরণ: ফাইল রিনেম",
-					"content": "Python দিয়ে রুটিন কাজ অটোমেট করা যায়। `os.listdir()` দিয়ে ফোল্ডারের সব ফাইল পাওয়া যায়। `os.rename(old, new)` দিয়ে ফাইলের নাম পরিবর্তন করা যায়। এখানে সব `.txt` ফাইলের শুরুতে `বাংলা_` যোগ করা হচ্ছে। এটি বাল্ক রিনেম, ডেটা প্রসেসিংয়ে কাজে লাগে।",
-					"code": "import os\n# উদাহরণ: শুধু ডেমো — আসলে ফাইল থাকা লাগে\n# for filename in os.listdir('.'): \n#     if filename.endswith('.txt'):\n#         new_name = \"বাংলা_\" + filename\n#         os.rename(filename, new_name)\nprint(\"ফাইলগুলোতে 'বাংলা_' প্রিফিক্স যোগ করা হবে\")",
-					"output": "ফাইলগুলোতে 'বাংলা_' প্রিফিক্স যোগ করা হবে"
-				}
-			]
-		},
-		{
-			"language": "JavaScript",
-			"description": "JavaScript হলো Web এর প্রধান ভাষা।",
-			"steps": [
-				{
-					"step": 1,
-					"title": "JavaScript কী?",
-					"content": "JS দিয়ে ওয়েবপেজকে ইন্টারঅ্যাকটিভ করা হয়। ব্রাউজার ও Node.js-এ চলে।"
-				},
-				{
-					"step": 2,
-					"title": "Hello World",
-					"code": "console.log(\"Hello World\");",
-					"output": "Hello World"
-				},
-				{
-					"step": 3,
-					"title": "ভেরিয়েবল (let, const, var)",
-					"code": "let age = 25;\nconst PI = 3.14;\nvar name = \"জাকির\";\nconsole.log(age, PI, name);",
-					"output": "25 3.14 জাকির"
-				},
-				{
-					"step": 4,
-					"title": "ইনপুট (prompt) & আউটপুট (alert/console)",
-					"code": "let mood = prompt(\"আপনার মুড কী?\");\nconsole.log(`Mood: ${mood}`);\n// alert(`ধন্যবাদ! আপনি ${mood} মুডে আছেন।`);",
-					"output": "Mood: ভালো"
-				},
-				{
-					"step": 5,
-					"title": "প্রাইমিটিভ ডেটা টাইপ",
-					"code": "console.log(typeof 42);      // number\nconsole.log(typeof \"hi\");    // string\nconsole.log(typeof true);     // boolean\nconsole.log(typeof null);     // object (bug!)\nconsole.log(typeof undefined); // undefined",
-					"output": "number\nstring\nboolean\nobject\nundefined"
-				},
-				{
-					"step": 6,
-					"title": "টেমপ্লেট লিটারাল",
-					"code": "let city = \"ঢাকা\";\nlet year = 2025;\nconsole.log(`আমি ${year} সালে ${city}-তে থাকব।`);",
-					"output": "আমি 2025 সালে ঢাকা-তে থাকব।"
-				},
-				{
-					"step": 7,
-					"title": "অ্যারিথমেটিক & শর্টহ্যান্ড",
-					"code": "let x = 10;\nx += 5;   // x = 15\nx++;      // x = 16\nconsole.log(x);\nconsole.log(10 / 3); // float",
-					"output": "16\n3.3333333333333335"
-				},
-				{
-					"step": 8,
-					"title": "টাইপ কনভার্শন",
-					"code": "console.log(String(123));      // \"123\"\nconsole.log(Number(\"45\"));      // 45\nconsole.log(Boolean(0));        // false\nconsole.log(Boolean(\"hello\"));  // true",
-					"output": "123\n45\nfalse\ntrue"
-				},
-				{
-					"step": 9,
-					"title": "if-else",
-					"code": "let hour = 14;\nif (hour < 12) {\n  console.log(\"সকাল\");\n} else {\n  console.log(\"বিকাল বা রাত\");\n}",
-					"output": "বিকাল বা রাত"
-				},
-				{
-					"step": 10,
-					"title": "else-if ল্যাডার",
-					"code": "let score = 88;\nlet grade;\nif (score >= 80) grade = 'A';\nelse if (score >= 70) grade = 'B';\nelse if (score >= 60) grade = 'C';\nelse grade = 'F';\nconsole.log(`Grade: ${grade}`);",
-					"output": "Grade: A"
-				},
-				{
-					"step": 11,
-					"title": "Ternary Operator",
-					"code": "let age = 19;\nlet status = (age >= 18) ? \"ভোট দিতে পারবেন\" : \"অপ্রাপ্তবয়স্ক\";\nconsole.log(status);",
-					"output": "ভোট দিতে পারবেন"
-				},
-				{
-					"step": 12,
-					"title": "for লুপ",
-					"code": "for (let i = 1; i <= 3; i++) {\n  console.log(`Step ${i}`);\n}",
-					"output": "Step 1\nStep 2\nStep 3"
-				},
-				{
-					"step": 13,
-					"title": "while লুপ",
-					"code": "let i = 1;\nwhile (i <= 3) {\n  console.log(`Count: ${i}`);\n  i++;\n}",
-					"output": "Count: 1\nCount: 2\nCount: 3"
-				},
-				{
-					"step": 14,
-					"title": "do-while লুপ",
-					"code": "let n = 0;\ndo {\n  console.log(`n = ${n}`);\n  n++;\n} while (n < 3);",
-					"output": "n = 0\nn = 1\nn = 2"
-				},
-				{
-					"step": 15,
-					"title": "ফাংশন ডেফিনিশন",
-					"code": "function add(a, b) {\n  return a + b;\n}\nconsole.log(\"7 + 8 =\", add(7, 8));",
-					"output": "7 + 8 = 15"
-				},
-				{
-					"step": 16,
-					"title": "Arrow Function",
-					"code": "const multiply = (x, y) => x * y;\nconst greet = () => console.log(\"হ্যালো!\");\nconsole.log(multiply(6, 7));\ngreet();",
-					"output": "42\nহ্যালো!"
-				},
-				{
-					"step": 17,
-					"title": "ডিফল্ট প্যারামিটার",
-					"code": "function sayHi(name = \"অজানা\") {\n  return `হ্যালো, ${name}!`;\n}\nconsole.log(sayHi());\nconsole.log(sayHi(\"নুসরাত\"));",
-					"output": "হ্যালো, অজানা!\nহ্যালো, নুসরাত!"
-				},
-				{
-					"step": 18,
-					"title": "অ্যারে বেসিক",
-					"code": "let phones = [\"iPhone\", \"Samsung\", \"Realme\"];\nphones.push(\"Xiaomi\");\nconsole.log(phones[0]); // first\nconsole.log(phones.length); // size",
-					"output": "iPhone\n4"
-				},
-				{
-					"step": 19,
-					"title": "স্ট্রিং মেথড",
-					"code": "let str = \"  জাভাস্ক্রিপ্ট  \";\nlet clean = str.trim();\nconsole.log(clean.toUpperCase());\nconsole.log(clean.includes(\"স্ক্রিপ্ট\"));",
-					"output": "জাভাস্ক্রিপ্ট\ntrue"
-				},
-				{
-					"step": 20,
-					"title": "অ্যারে ম্যাপ ও ফিল্টার",
-					"code": "let nums = [1, 2, 3, 4];\nlet doubled = nums.map(x => x * 2);\nlet evens = nums.filter(x => x % 2 === 0);\nconsole.log(doubled);\nconsole.log(evens);",
-					"output": "[2, 4, 6, 8]\n[2, 4]"
-				}
-			]
-		},
-		{
-			"language": "Dart",
-			"description": "Dart ভাষা Flutter App Development এ ব্যবহৃত হয়।",
-			"steps": [
-				{
-					"step": 1,
-					"title": "Dart কী?",
-					"content": "Dart হলো Google-এর ওপেন-সোর্স ভাষা। Flutter দিয়ে cross-platform (Android/iOS/Web) অ্যাপ বানানো যায়।"
-				},
-				{
-					"step": 2,
-					"title": "Hello World",
-					"code": "void main() {\n  print('Hello World');\n}",
-					"output": "Hello World"
-				},
-				{
-					"step": 3,
-					"title": "ভেরিয়েবল ও টাইপ ইনফারেন্স",
-					"code": "void main() {\n  var name = 'রিয়াদ';\n  int age = 30;\n  double height = 5.8;\n  bool isMarried = false;\n  print('$name, $age, $height, $isMarried');\n}",
-					"output": "রিয়াদ, 30, 5.8, false"
-				},
-				{
-					"step": 4,
-					"title": "ইউজার ইনপুট (stdin)",
-					"code": "import 'dart:io';\nvoid main() {\n  stdout.write('Enter phone: ');\n  String? input = stdin.readLineSync();\n  print('Phone: $input');\n}",
-					"output": "Enter phone: 01902338830\nPhone: 01902338830"
-				},
-				{
-					"step": 5,
-					"title": "const ও final",
-					"code": "void main() {\n  const PI = 3.1416; // compile-time\n  final birthday = DateTime(1995, 5, 12); // runtime\n  print('PI: $PI, Birthday: $birthday');\n}",
-					"output": "PI: 3.1416, Birthday: 1995-05-12 00:00:00.000"
-				},
-				{
-					"step": 6,
-					"title": "String Interpolation",
-					"code": "void main() {\n  String product = 'মোবাইল';\n  int price = 25000;\n  print('দাম: ৳${price.toString().replaceAllMapped(RegExp(r'(\\d)(?=(\\d{3})+(?!\\d))'), (m) => '${m[1]},'))}');\n}",
-					"output": "দাম: ৳25,000"
-				},
-				{
-					"step": 7,
-					"title": "অ্যারিথমেটিক & অ্যাসাইনমেন্ট",
-					"code": "void main() {\n  int a = 10, b = 3;\n  a ~/= b; // integer division\n  print('a = $a'); // 3\n  print('10 % 3 = ${10 % 3}'); // 1\n}",
-					"output": "a = 3\n10 % 3 = 1"
-				},
-				{
-					"step": 8,
-					"title": "Null Safety (?., ??, !)",
-					"code": "void main() {\n  String? name;\n  print(name ?? 'অজানা'); // fallback\n  String nick = name ?? 'Guest';\n  print(nick);\n}",
-					"output": "অজানা\nGuest"
-				},
-				{
-					"step": 9,
-					"title": "if-else",
-					"code": "void main() {\n  int time = 20;\n  if (time < 12) {\n    print('সকাল');\n  } else if (time < 18) {\n    print('বিকাল');\n  } else {\n    print('রাত');\n  }\n}",
-					"output": "রাত"
-				},
-				{
-					"step": 10,
-					"title": "else-if ল্যাডার",
-					"code": "void main() {\n  double cgpa = 3.7;\n  String grade = '';\n  if (cgpa >= 3.75) grade = 'A';\n  else if (cgpa >= 3.5) grade = 'B';\n  else grade = 'C';\n  print('Grade: $grade');\n}",
-					"output": "Grade: A"
-				},
-				{
-					"step": 11,
-					"title": "Ternary & Null-aware",
-					"code": "void main() {\n  int? score = null;\n  String result = score != null ? 'Score: $score' : 'No score';\n  print(result);\n}",
-					"output": "No score"
-				},
-				{
-					"step": 12,
-					"title": "for লুপ",
-					"code": "void main() {\n  for (int i = 1; i <= 4; i++) {\n    print('বার $i');\n  }\n}",
-					"output": "বার 1\nবার 2\nবার 3\nবার 4"
-				},
-				{
-					"step": 13,
-					"title": "while লুপ",
-					"code": "void main() {\n  int i = 1;\n  while (i <= 3) {\n    print('ওয়াইল $i');\n    i++;\n  }\n}",
-					"output": "ওয়াইল 1\nওয়াইল 2\nওয়াইল 3"
-				},
-				{
-					"step": 14,
-					"title": "do-while লুপ",
-					"code": "void main() {\n  int n = 1;\n  do {\n    print('ডু-ওয়াইল: $n');\n    n++;\n  } while (n <= 2);\n}",
-					"output": "ডু-ওয়াইল: 1\nডু-ওয়াইল: 2"
-				},
-				{
-					"step": 15,
-					"title": "ফাংশন সিগনেচার",
-					"code": "int add(int a, int b) => a + b;\n\nvoid main() {\n  print('12 + 13 = ${add(12, 13)}');\n}",
-					"output": "12 + 13 = 25"
-				},
-				{
-					"step": 16,
-					"title": "ওপশনাল প্যারামিটার ({})",
-					"code": "String introduce({required String name, int? age}) {\n  return age != null ? '$name ($age বছর)' : name;\n}\n\nvoid main() {\n  print(introduce(name: 'সাবরিনা'));\n  print(introduce(name: 'করিম', age: 28));\n}",
-					"output": "সাবরিনা\nকরিম (28 বছর)"
-				},
-				{
-					"step": 17,
-					"title": "Anonymous (Lambda) Function",
-					"code": "void main() {\n  var greet = (String name) => 'হ্যালো, $name!';\n  print(greet('ফারজানা'));\n}",
-					"output": "হ্যালো, ফারজানা!"
-				},
-				{
-					"step": 18,
-					"title": "List ও মেথড",
-					"code": "void main() {\n  List<String> cities = ['ঢাকা', 'চট্টগ্রাম', 'রাজশাহী'];\n  cities.add('খুলনা');\n  print(cities[0]); // first\n  print(cities.length); // 4\n}",
-					"output": "ঢাকা\n4"
-				},
-				{
-					"step": 19,
-					"title": "String ম্যানিপুলেশন",
-					"code": "void main() {\n  String text = '  ফ্লাটার দিয়ে অ্যাপ বানাই!  ';\n  String clean = text.trim().replaceAll(' ', '-');\n  print(clean.toUpperCase());\n}",
-					"output": "ফ্লাটার-দিয়ে-অ্যাপ-বানাই!"
-				},
-				{
-					"step": 20,
-					"title": "List.map() ও List.where()",
-					"code": "void main() {\n  List<int> nums = [1, 2, 3, 4, 5];\n  var squares = nums.map((x) => x * x).toList();\n  var odds = nums.where((x) => x.isOdd).toList();\n  print(squares);\n  print(odds);\n}",
-					"output": "[1, 4, 9, 16, 25]\n[1, 3, 5]"
-				}
-			]
-		}
-	]
+  "title": "Programming Languages Tutorials (বাংলা)",
+  "level": "Beginner to Intermediate",
+  "tutorials": [
+    {
+      "language": "C",
+      "description": "C হলো একটি দ্রুত, শক্তিশালী ও প্রসিডিউরাল প্রোগ্রামিং ল্যাঙ্গুয়েজ।",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "chapter_title": "C পরিচিতি",
+          "steps": [
+            {
+              "step": 1,
+              "title": "C কী?",
+              "content": "C একটি প্রোগ্রামিং ভাষা যা OS এবং Embedded System তৈরিতে ব্যবহৃত হয়।"
+            }
+          ]
+        },
+        {
+          "chapter_no": 2,
+          "chapter_title": "প্রথম C প্রোগ্রাম",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Hello World",
+              "content": "C এর প্রথম প্রোগ্রাম।",
+              "code": "#include <stdio.h>\nint main() {\n  printf(\"Hello World\\n\");\n  return 0;\n}",
+              "output": "Hello World"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "language": "Java",
+      "description": "Java একটি Object-Oriented, platform-independent প্রোগ্রামিং ভাষা।",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "chapter_title": "Java পরিচিতি",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Java কী?",
+              "content": "Java একটি high-level ও Object-Oriented প্রোগ্রামিং ভাষা।"
+            }
+          ]
+        },
+        {
+          "chapter_no": 2,
+          "chapter_title": "প্রথম Java প্রোগ্রাম",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Hello World",
+              "content": "Java এর প্রথম প্রোগ্রাম।",
+              "code": "class Main {\n  public static void main(String[] args) {\n    System.out.println(\"Hello World\");\n  }\n}",
+              "output": "Hello World"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "language": "Python",
+      "description": "Python একটি সহজ, readable এবং powerful প্রোগ্রামিং ভাষা।",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "chapter_title": "Python পরিচিতি",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Python কী?",
+              "content": "Python একটি high-level ও beginner-friendly ভাষা।"
+            }
+          ]
+        },
+        {
+          "chapter_no": 2,
+          "chapter_title": "প্রথম Python প্রোগ্রাম",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Hello World",
+              "content": "Python এর প্রথম প্রোগ্রাম।",
+              "code": "print(\"Hello World\")",
+              "output": "Hello World"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "language": "JavaScript",
+      "description": "JavaScript একটি জনপ্রিয় scripting ভাষা যা Web Development এ ব্যবহৃত হয়।",
+      "chapters": [
+        {
+          "chapter_no": 1,
+          "chapter_title": "JavaScript পরিচিতি",
+          "steps": [
+            {
+              "step": 1,
+              "title": "JavaScript কী?",
+              "content": "JavaScript একটি scripting ভাষা যা browser ও server উভয় জায়গায় কাজ করে।"
+            }
+          ]
+        },
+        {
+          "chapter_no": 2,
+          "chapter_title": "প্রথম JavaScript প্রোগ্রাম",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Hello World",
+              "content": "JavaScript এর প্রথম প্রোগ্রাম।",
+              "code": "console.log(\"Hello World\");",
+              "output": "Hello World"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
