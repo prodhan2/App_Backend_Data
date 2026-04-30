@@ -31,7 +31,7 @@
         "urdu": { "name": "بادشاہ", "meaning": "وہ جو کامل اختیار والا ہے، جس کی بادشاہت میں کوئی کمی نہیں۔", "details": "پاک ہے وہ حقیقی بادشاہ، اس کے سوا کوئی معبود نہیں، وہ عزت والی بادشاہی کا مالک ہے (قرآن، ۲۳:۱۱۶)۔\n**قرآن میں:** روزِ جزا کا مالک (۱:۴)۔ صاحبِ عزت بادشاہ کے پاس (۵۴:۵۵)۔ کہہ دو: اے اللہ! سلطنت کے مالک! (۳:۲۶)۔\n**فضیلت:** جو اس نام کی تلاوت کرے گا، لوگ اس کی عزت کریں گے۔" },
         "indonesian": { "name": "Maha Merajai", "meaning": "Yang memiliki kekuasaan mutlak dan sempurna.", "details": "Maha Suci Allah, Raja yang sebenarnya; tidak ada tuhan selain Dia, Tuhan yang memiliki kerajaan yang mulia (QS 23:116).\n**Referensi Al-Quran:** Yang Menguasai hari Pembalasan (1:4). Di tempat yang mulia di sisi Raja Yang Maha Kuasa (54:55). Katakanlah: Wahai Allah, Pemilik kerajaan (3:26).\n**Manfaat:** Barangsiapa mengulang nama ini, ia akan dihormati oleh orang lain." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/003.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/3.mp3"
     },
     {
       "number": 4,
@@ -42,7 +42,7 @@
         "urdu": { "name": "نہایت پاک", "meaning": "جو ہر عیب سے پاک ہے اور اولاد اور حریف سے منزہ ہے۔", "details": "القدوس 'قدس' (پاکیزگی) سے ماخوذ ہے۔ یہ بتاتا ہے کہ اللہ ہر عیب سے پاک ہے، اس کی ذات، صفات اور افعال سب پاک و صاف ہیں۔\n**قرآن میں:** 'وہی اللہ ہے، اس کے سوا کوئی معبود نہیں، وہ بادشاہ، نہایت پاک (القدوس) ہے' (۵۹:۲۳)۔\n**فضیلت:** اس نام کا ورد دل کو شکوک سے پاک کرتا ہے اور اسے نور ایمان سے منور کرتا ہے۔" },
         "indonesian": { "name": "Maha Suci", "meaning": "Yang Maha Suci dari segala kekurangan dan tidak beranak serta tidak memiliki sekutu.", "details": "Al-Quddus berasal dari kata 'quds' yang berarti kesucian. Ini menunjukkan bahwa Allah Maha Sempurna, bebas dari segala kekurangan dan kelemahan. Dzat, sifat, dan perbuatan-Nya murni dan sempurna.\n**Referensi Al-Quran:** 'Dialah Allah, tidak ada Tuhan selain Dia, Raja, Yang Maha Suci (Al-Quddus)' (59:23).\n**Manfaat:** Membaca Al-Quddus membersihkan hati dari keraguan dan meneranginya dengan cahaya iman." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/004.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/4.mp3"
     },
     {
       "number": 5,
@@ -53,18 +53,18 @@
         "urdu": { "name": "سلامتی والا", "meaning": "جو ہر عیب سے پاک ہے۔", "details": "السلام کے معنی 'سلامتی کا سرچشمہ' یا 'بے عیب' ہے۔ یہ بتاتا ہے کہ اللہ تمام سلامتی و امن کا منبع ہے۔ وہ ہر عیب سے پاک ہے۔\n**قرآن میں:** 'وہی اللہ ہے، اس کے سوا کوئی معبود نہیں، وہ بادشاہ، نہایت پاک، سلامتی والا (السلام) ہے' (۵۹:۲۳)۔\n**فضیلت:** اس نام کا ورد دل کو سکون دیتا ہے، آفات سے حفاظت کرتا ہے اور امن و سلامتی عطا کرتا ہے۔" },
         "indonesian": { "name": "Maha Sejahtera", "meaning": "Yang Maha Memberi keselamatan dan kesejahteraan.", "details": "As-Salam berarti 'Sumber Kedamaian' atau 'Yang Maha Sempurna'. Ini menunjukkan bahwa Allah adalah sumber segala kedamaian, keamanan, dan keselamatan. Dia bebas dari segala kekurangan.\n**Referensi Al-Quran:** 'Dialah Allah, tidak ada Tuhan selain Dia, Raja, Yang Maha Suci, Yang Maha Sejahtera (As-Salam)' (59:23).\n**Manfaat:** Membaca As-Salam membawa ketenangan hati, melindungi dari bencana, dan memberikan keamanan." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/005.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/5.mp3"
     },
     {
       "number": 6,
-      "name": { "arabic": "الْمُؤْمِنُ", "transliteration": "Al-Mu’min" },
+      "name": { "arabic": "الْمُؤْمِنُ", "transliteration": "Al-Mu'min" },
       "translations": {
         "english": { "name": "The Infuser of Faith", "meaning": "The One who witnessed for Himself that no one is God but Him. And He witnessed for His believers that they are truthful in their belief that no one is God but Him.", "details": "Al-Mu'min means 'The Granter of Security' or 'The Faithful Guardian'. It signifies that Allah is the One who grants security and peace to His servants. He protects His believers from fear and danger, both in this world and the Hereafter. He confirms the truth in the hearts of His servants and gives them faith. He is the One who is secure from any change or deficiency, and He is the Witness to everything.\n**Quran References:** 'He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Source of Peace, the Granter of Security (Al-Mu'min)' (59:23). 'And Allah is the Guardian of the believers' (2:257).\n**Hadith:** The Prophet Muhammad (peace be upon him) said: 'Allah is the Granter of Security, and He loves security and safety.'\n**Benefit:** Reciting Al-Mu'min frequently protects from harm, increases faith, and brings inner peace and security. Those who recite it with sincerity will be granted safety from calamities." },
         "bangla": { "name": "ঈমানদাতা", "meaning": "যিনি নিজের সাক্ষ্য দিয়েছেন যে তিনি ছাড়া কোনো উপাস্য নেই এবং মুমিনদের সাক্ষ্য দিয়েছেন যে তারা সত্যবাদী।", "details": "আল-মু'মিন অর্থ 'নিরাপত্তাদাতা' বা 'ঈমানদাতা'। এটি নির্দেশ করে যে আল্লাহ তাঁর বান্দাদের নিরাপত্তা ও শান্তি দান করেন। তিনি মুমিনদের দুনিয়া ও আখিরাতে ভয় ও বিপদ থেকে রক্ষা করেন। তিনি তাঁর বান্দাদের অন্তরে সত্য প্রতিষ্ঠিত করেন এবং তাদের ঈমান দান করেন। তিনি নিজেও সকল প্রকার পরিবর্তন ও ত্রুটি থেকে নিরাপদ।\n**কুরআনের উল্লেখ:** 'তিনি আল্লাহ, তিনি ছাড়া কোনো উপাস্য নেই, তিনি পবিত্র, শান্তির উৎস, নিরাপত্তাদাতা (আল-মু'মিন)' (৫৯:২৩)। 'আর আল্লাহ মুমিনদের অভিভাবক' (২:২৫৭)।\n**হাদিস:** নবী করীম (সা.) বলেছেন: 'আল্লাহ হলেন নিরাপত্তাদাতা, তিনি নিরাপত্তা ও শান্তিকে ভালোবাসেন।'\n**ফজিলত:** আল-মু'মিন বেশি বেশি পাঠ করলে ক্ষতি থেকে রক্ষা পাওয়া যায়, ঈমান বৃদ্ধি পায় এবং অন্তরে শান্তি আসে। যে ব্যক্তি একনিষ্ঠভাবে এটি পাঠ করবে, সে সকল বিপদ-আপদ থেকে নিরাপদ থাকবে।" },
         "urdu": { "name": "ایمان دینے والا", "meaning": "جس نے اپنی گواہی دی کہ اس کے سوا کوئی معبود نہیں اور مومنوں کی گواہی دی کہ وہ اپنے عقیدے میں سچے ہیں۔", "details": "المؤمن کے معنی 'امن دینے والا' یا 'ایمان عطا کرنے والا' ہے۔ یہ بتاتا ہے کہ اللہ اپنے بندوں کو امن و سلامتی عطا فرماتا ہے۔ وہ مومنین کو دنیا و آخرت میں خوف اور خطرات سے محفوظ رکھتا ہے۔ وہ بندوں کے دلوں میں حق کو جما دیتا ہے اور ایمان عطا فرماتا ہے۔\n**قرآن میں:** 'وہی اللہ ہے، اس کے سوا کوئی معبود نہیں، وہ بادشاہ، نہایت پاک، سلامتی والا، امن دینے والا (المؤمن) ہے' (۵۹:۲۳)۔\n**فضیلت:** المؤمن کا ورد کرنے سے نقصانات سے حفاظت ہوتی ہے، ایمان بڑھتا ہے اور دل میں سکون پیدا ہوتا ہے۔ مخلصانہ تلاوت کرنے والا آفات سے محفوظ رہتا ہے۔" },
         "indonesian": { "name": "Maha Memberi Keamanan", "meaning": "Yang memberikan keamanan dan ketenangan kepada hamba-Nya yang beriman.", "details": "Al-Mu'min berarti 'Pemberi Keamanan' atau 'Pemberi Iman'. Ini menunjukkan bahwa Allah memberikan keamanan dan ketenangan kepada hamba-hamba-Nya. Dia melindungi orang-orang beriman dari ketakutan dan bahaya, baik di dunia maupun di akhirat. Dia menegakkan kebenaran dalam hati hamba-Nya dan memberi mereka iman.\n**Referensi Al-Quran:** 'Dialah Allah, tidak ada Tuhan selain Dia, Raja, Yang Maha Suci, Yang Maha Sejahtera, Yang Maha Memberi Keamanan (Al-Mu'min)' (59:23).\n**Manfaat:** Membaca Al-Mu'min melindungi dari bahaya, meningkatkan iman, dan memberikan ketenangan batin. Orang yang membacanya dengan ikhlas akan mendapat keselamatan dari segala bencana." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/006.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/6.mp3"
     },
     {
       "number": 7,
@@ -75,7 +75,7 @@
         "urdu": { "name": "نگران", "meaning": "جو اپنی مخلوق کے اقوال و افعال کا مشاہدہ فرماتا ہے۔", "details": "المہیمن کے معنی 'نگہبان' یا 'گواہ' ہیں۔ یہ بتاتا ہے کہ اللہ ہر چیز کی نگرانی فرماتا ہے، ان کی حفاظت کرتا ہے اور جو کچھ ہوتا ہے اس کا گواہ ہوتا ہے۔ وہ سب سے اعلیٰ محافظ ہے جو تمام معاملات کی نگرانی فرماتا ہے اور انصاف قائم کرتا ہے۔\n**قرآن میں:** 'وہی اللہ ہے، اس کے سوا کوئی معبود نہیں، وہ بادشاہ، نہایت پاک، سلامتی والا، امن دینے والا، نگہبان (المہیمن) ہے' (۵۹:۲۳)۔\n**فضیلت:** المہیمن کا ورد اللہ کی نگرانی کا شعور دلاتا ہے، اس کی موجودگی کا احساس بڑھاتا ہے اور گناہوں سے بچاتا ہے۔" },
         "indonesian": { "name": "Maha Memelihara", "meaning": "Yang mengawasi dan memelihara segala sesuatu.", "details": "Al-Muhaymin berarti 'Pemelihara' atau 'Saksi'. Ini menunjukkan bahwa Allah mengawasi segala sesuatu, melindunginya, dan menjadi saksi atas segala yang terjadi. Dia adalah Pelindung Tertinggi yang mengawasi semua urusan dan menegakkan keadilan.\n**Referensi Al-Quran:** 'Dialah Allah, tidak ada Tuhan selain Dia, Raja, Yang Maha Suci, Yang Maha Sejahtera, Yang Maha Memberi Keamanan, Yang Maha Memelihara (Al-Muhaymin)' (59:23).\n**Manfaat:** Membaca Al-Muhaymin meningkatkan kesadaran akan pengawasan Allah, melindungi dari dosa, dan memberikan ketenangan hati." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/007.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/7.mp3"
     },
     {
       "number": 8,
@@ -86,7 +86,7 @@
         "urdu": { "name": "غالب", "meaning": "زبردست، جو ہمیشہ غالب رہتا ہے اور کبھی مغلوب نہیں ہوتا۔", "details": "العزیز کے معنی 'زبردست' یا 'غالب' ہیں۔ یہ بتاتا ہے کہ اللہ کامل قدرت و طاقت والا ہے۔ وہ بے مثل طاقتور ہے، کوئی اس پر غالب نہیں آ سکتا۔ وہ جسے چاہے عزت و قدرت عطا فرماتا ہے اور جسے چاہے ذلیل کرتا ہے۔\n**قرآن میں:** 'بے شک اللہ غالب، حکمت والا ہے' (۲:۱۲۹)۔\n**فضیلت:** العزیز کا ورد عزت و وقار عطا کرتا ہے، ہمت و استقلال بڑھاتا ہے اور دشمنوں سے حفاظت کرتا ہے۔" },
         "indonesian": { "name": "Maha Perkasa", "meaning": "Yang Maha Kuat dan tidak terkalahkan.", "details": "Al-Aziz berarti 'Maha Perkasa' atau 'Maha Kuat'. Ini menunjukkan bahwa Allah memiliki kekuatan dan kekuasaan mutlak. Tidak ada yang dapat mengalahkan-Nya. Dia memberikan kemuliaan kepada siapa yang Dia kehendaki dan menghinakan siapa yang Dia kehendaki.\n**Referensi Al-Quran:** 'Sesungguhnya Allah Maha Perkasa lagi Maha Bijaksana' (2:129).\n**Manfaat:** Membaca Al-Aziz membawa kehormatan, menguatkan tekad, dan melindungi dari musuh." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/008.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/8.mp3"
     },
     {
       "number": 9,
@@ -97,7 +97,7 @@
         "urdu": { "name": "زبردست", "meaning": "جس کی بادشاہت میں اس کی مرضی کے بغیر کچھ نہیں ہوتا۔", "details": "الجبار کے معنی 'زبردست' یا 'غالب' ہیں۔ یہ بتاتا ہے کہ اللہ تمام مخلوق کو اپنی مرضی کے تابع رکھتا ہے۔ وہ اعلیٰ ترین حاکم ہے جس کا حکم ناقابل مزاحمت ہے۔\n**قرآن میں:** 'وہی اللہ ہے، اس کے سوا کوئی معبود نہیں، وہ بادشاہ، نہایت پاک، سلامتی والا، امن دینے والا، نگہبان، غالب، زبردست (الجبار) ہے' (۵۹:۲۳)۔\n**فضیلت:** الجبار کا ورد ظلم کے خلاف دل کو مضبوط کرتا ہے، ٹوٹے دلوں کو سکون دیتا ہے۔" },
         "indonesian": { "name": "Maha Memaksa", "meaning": "Yang segala sesuatu terjadi sesuai dengan kehendak-Nya.", "details": "Al-Jabbar berarti 'Yang Memaksa' atau 'Yang Perkasa'. Ini menunjukkan bahwa Allah memaksa semua makhluk untuk tunduk pada kehendak-Nya. Dia adalah Penguasa Tertinggi yang keputusan-Nya tidak dapat ditolak.\n**Referensi Al-Quran:** 'Dialah Allah, tidak ada Tuhan selain Dia, Raja, Yang Maha Suci, Yang Maha Sejahtera, Yang Maha Memberi Keamanan, Yang Maha Memelihara, Yang Maha Perkasa, Yang Maha Memaksa (Al-Jabbar)' (59:23).\n**Manfaat:** Membaca Al-Jabbar menguatkan hati melawan kezaliman, menghibur hati yang patah, dan menumbuhkan ketergantungan kepada kekuasaan Allah." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/009.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/9.mp3"
     },
     {
       "number": 10,
@@ -108,7 +108,7 @@
         "urdu": { "name": "بڑائی والا", "meaning": "جو مخلوق کی صفات اور ان سے مشابہت سے پاک ہے۔", "details": "المتکبر کے معنی 'بزرگ' یا 'بڑائی والا' ہیں۔ یہ بتاتا ہے کہ اللہ مخلوق کی صفات اور ان سے مشابہت سے پاک ہے۔ وہ تمام مخلوق سے بالا ہے۔\n**قرآن میں:** 'وہی اللہ ہے، اس کے سوا کوئی معبود نہیں، وہ بادشاہ، نہایت پاک، سلامتی والا، امن دینے والا، نگہبان، غالب، زبردست، بڑائی والا (المتکبر) ہے' (۵۹:۲۳)۔\n**فضیلت:** المتکبر کا ورد بندے میں عاجزی پیدا کرتا ہے، تکبر سے بچاتا ہے اور اللہ کی عظمت کا شعور دلاتا ہے۔" },
         "indonesian": { "name": "Maha Megah", "meaning": "Yang Maha Agung dan tidak ada yang menyerupai-Nya.", "details": "Al-Mutakabbir berarti 'Maha Megah' atau 'Maha Agung'. Ini menunjukkan bahwa Allah Maha Tinggi di atas segala ciptaan dalam kebesaran, keagungan, dan kesempurnaan. Dia jauh lebih tinggi dari sifat-sifat makhluk-Nya.\n**Referensi Al-Quran:** 'Dialah Allah, tidak ada Tuhan selain Dia, Raja, Yang Maha Suci, Yang Maha Sejahtera, Yang Maha Memberi Keamanan, Yang Maha Memelihara, Yang Maha Perkasa, Yang Maha Memaksa, Yang Maha Megah (Al-Mutakabbir)' (59:23).\n**Manfaat:** Membaca Al-Mutakabbir menumbuhkan kerendahan hati, melindungi dari kesombongan, dan meningkatkan kesadaran akan keagungan Allah." }
       },
-      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/010.mp3"
+      "audio_url": "https://raw.githubusercontent.com/soachishti/Asma-ul-Husna/master/audio/10.mp3"
     }
   ]
 }
