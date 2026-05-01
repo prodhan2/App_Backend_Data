@@ -1,0 +1,32 @@
+{
+  "arabic_alphabets": [
+    {"letter":"ا","name":"Alif","bangla":"আলিফ","pronunciation":"আ","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/alif.mp3"},
+    {"letter":"ب","name":"Ba","bangla":"বা","pronunciation":"বা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/baa.mp3"},
+    {"letter":"ت","name":"Ta","bangla":"তা","pronunciation":"তা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/taa.mp3"},
+    {"letter":"ث","name":"Tha","bangla":"থা","pronunciation":"থা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/thaa.mp3"},
+    {"letter":"ج","name":"Jeem","bangla":"জীম","pronunciation":"জী","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/jeem.mp3"},
+    {"letter":"ح","name":"Haa","bangla":"হা (গলা)","pronunciation":"হা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/haa.mp3"},
+    {"letter":"خ","name":"Khaa","bangla":"খা (গলা)","pronunciation":"খা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/khaa.mp3"},
+    {"letter":"د","name":"Dal","bangla":"দাল","pronunciation":"দা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/dal.mp3"},
+    {"letter":"ذ","name":"Thal","bangla":"যাল","pronunciation":"যা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/thal.mp3"},
+    {"letter":"ر","name":"Raa","bangla":"রা","pronunciation":"রা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/raa.mp3"},
+    {"letter":"ز","name":"Zayn","bangla":"যাইন","pronunciation":"যা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/zayn.mp3"},
+    {"letter":"س","name":"Seen","bangla":"সীন","pronunciation":"সী","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/seen.mp3"},
+    {"letter":"ش","name":"Sheen","bangla":"শীন","pronunciation":"শী","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/sheen.mp3"},
+    {"letter":"ص","name":"Saad","bangla":"সাদ (ভারী)","pronunciation":"সা (heavy)","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/saad.mp3"},
+    {"letter":"ض","name":"Daad","bangla":"দাদ (ভারী)","pronunciation":"দা (heavy)","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/daad.mp3"},
+    {"letter":"ط","name":"Taa (Emphatic)","bangla":"ত্বা (ভারী)","pronunciation":"তা (heavy)","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/taa_emphatic.mp3"},
+    {"letter":"ظ","name":"Zaa","bangla":"যা (ভারী)","pronunciation":"যা (heavy)","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/zaa.mp3"},
+    {"letter":"ع","name":"Ayn","bangla":"আইন","pronunciation":"আ' (গলা)","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/ayn.mp3"},
+    {"letter":"غ","name":"Ghayn","bangla":"গইন","pronunciation":"ঘা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/ghayn.mp3"},
+    {"letter":"ف","name":"Faa","bangla":"ফা","pronunciation":"ফা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/faa.mp3"},
+    {"letter":"ق","name":"Qaaf","bangla":"ক্বাফ","pronunciation":"ক্বা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/qaaf.mp3"},
+    {"letter":"ك","name":"Kaaf","bangla":"কাফ","pronunciation":"কা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/kaaf.mp3"},
+    {"letter":"ل","name":"Laam","bangla":"লাম","pronunciation":"লা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/laam.mp3"},
+    {"letter":"م","name":"Meem","bangla":"মীম","pronunciation":"মী","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/meem.mp3"},
+    {"letter":"ن","name":"Noon","bangla":"নূন","pronunciation":"নূ","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/noon.mp3"},
+    {"letter":"ه","name":"Haa (Final)","bangla":"হা","pronunciation":"হা","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/haa_final.mp3"},
+    {"letter":"و","name":"Waaw","bangla":"ওয়াও","pronunciation":"ওয়া/উ","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/waaw.mp3"},
+    {"letter":"ي","name":"Yaa","bangla":"ইয়া","pronunciation":"ইয়া/ঈ","audio_link":"https://raw.githubusercontent.com/ottsme/arabic_alphabet/main/yaa.mp3"}
+  ]
+}
