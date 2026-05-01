@@ -1,1 +1,91 @@
-ss
+{
+  "boys": [
+    {"arabic":"مُحَمَّد","pronunciation":"মুহাম্মাদ","meaning":"প্রশংসিত","why_good":"নবী (সা.)-এর নাম","first_letter":"ম"},
+    {"arabic":"أَحْمَد","pronunciation":"আহমাদ","meaning":"অত্যন্ত প্রশংসিত","why_good":"নবী (সা.)-এর নাম","first_letter":"আ"},
+    {"arabic":"عَلِيّ","pronunciation":"আলী","meaning":"উচ্চ","why_good":"চতুর্থ খলিফা","first_letter":"আ"},
+    {"arabic":"عُمَر","pronunciation":"উমার","meaning":"দীর্ঘজীবী","why_good":"দ্বিতীয় খলিফা","first_letter":"উ"},
+    {"arabic":"عُثْمَان","pronunciation":"উসমান","meaning":"শক্তিশালী","why_good":"তৃতীয় খলিফা","first_letter":"উ"},
+    {"arabic":"يُوسُف","pronunciation":"ইউসুফ","meaning":"আল্লাহ বৃদ্ধি করেন","why_good":"নবী","first_letter":"ই"},
+    {"arabic":"مُوسَى","pronunciation":"মুসা","meaning":"উদ্ধারপ্রাপ্ত","why_good":"নবী","first_letter":"ম"},
+    {"arabic":"عِيسَى","pronunciation":"ঈসা","meaning":"আল্লাহর বান্দা","why_good":"নবী","first_letter":"আ"},
+    {"arabic":"إِبْرَاهِيم","pronunciation":"ইবরাহিম","meaning":"জাতির পিতা","why_good":"নবী","first_letter":"ই"},
+    {"arabic":"إِسْمَاعِيل","pronunciation":"ইসমাঈল","meaning":"আল্লাহ শুনেছেন","why_good":"নবী","first_letter":"ই"},
+    {"arabic":"إِسْحَاق","pronunciation":"ইসহাক","meaning":"হাসি","why_good":"নবী","first_letter":"ই"},
+    {"arabic":"دَاوُود","pronunciation":"দাউদ","meaning":"প্রিয়","why_good":"নবী","first_letter":"দ"},
+    {"arabic":"سُلَيْمَان","pronunciation":"সুলাইমান","meaning":"শান্তি","why_good":"নবী","first_letter":"স"},
+    {"arabic":"زَكَرِيَّا","pronunciation":"যাকারিয়া","meaning":"আল্লাহকে স্মরণকারী","why_good":"নবী","first_letter":"য"},
+    {"arabic":"يَحْيَى","pronunciation":"ইয়াহইয়া","meaning":"জীবন","why_good":"নবী","first_letter":"ই"},
+    {"arabic":"حَسَن","pronunciation":"হাসান","meaning":"সুন্দর","why_good":"নবী পরিবারের সদস্য","first_letter":"হ"},
+    {"arabic":"حُسَيْن","pronunciation":"হুসাইন","meaning":"ছোট সুন্দর","why_good":"কারবালার শহীদ","first_letter":"হ"},
+    {"arabic":"طَارِق","pronunciation":"তারিক","meaning":"রাতের আগন্তুক","why_good":"সাহসী নাম","first_letter":"ত"},
+    {"arabic":"مَالِك","pronunciation":"মালিক","meaning":"মালিক","why_good":"আল্লাহর গুণ","first_letter":"ম"},
+    {"arabic":"فَارُوق","pronunciation":"ফারুক","meaning":"সত্য-মিথ্যার পার্থক্যকারী","why_good":"উমার (রা.) উপাধি","first_letter":"ফ"},
+
+    {"arabic":"سَعْد","pronunciation":"সাদ","meaning":"সুখ","why_good":"সাহাবী নাম","first_letter":"স"},
+    {"arabic":"خَالِد","pronunciation":"খালিদ","meaning":"চিরস্থায়ী","why_good":"সাহাবী সেনাপতি","first_letter":"খ"},
+    {"arabic":"عَبْدُاللّٰه","pronunciation":"আব্দুল্লাহ","meaning":"আল্লাহর বান্দা","why_good":"নবীর পিতা","first_letter":"আ"},
+    {"arabic":"عَبْدُالرَّحْمٰن","pronunciation":"আব্দুর রহমান","meaning":"করুণাময়ের বান্দা","why_good":"ইসলামিক নাম","first_letter":"আ"},
+    {"arabic":"عَبْدُاللَّطِيف","pronunciation":"আব্দুল লতিফ","meaning":"দয়ালু আল্লাহর বান্দা","why_good":"ইসলামিক নাম","first_letter":"আ"},
+
+    {"arabic":"يَاسِر","pronunciation":"ইয়াসির","meaning":"সহজ","why_good":"সাহাবী","first_letter":"ই"},
+    {"arabic":"سُلَيْم","pronunciation":"সুলাইম","meaning":"নিরাপদ","why_good":"ইসলামিক নাম","first_letter":"স"},
+    {"arabic":"نُوح","pronunciation":"নূহ","meaning":"নবী নাম","why_good":"নবী","first_letter":"ন"},
+    {"arabic":"إِدْرِيس","pronunciation":"ইদরিস","meaning":"জ্ঞানী","why_good":"নবী","first_letter":"ই"},
+    {"arabic":"صَالِح","pronunciation":"সালেহ","meaning":"সৎ","why_good":"নবী","first_letter":"স"},
+
+    {"arabic":"مُعَاذ","pronunciation":"মুআয","meaning":"আশ্রয়প্রাপ্ত","why_good":"সাহাবী","first_letter":"ম"},
+    {"arabic":"حَمْزَة","pronunciation":"হামজা","meaning":"সিংহ","why_good":"সাহাবী","first_letter":"হ"},
+    {"arabic":"عِمْرَان","pronunciation":"ইমরান","meaning":"সমৃদ্ধ","why_good":"নবী পরিবারের নাম","first_letter":"ই"},
+    {"arabic":"جَعْفَر","pronunciation":"জাফর","meaning":"নদী","why_good":"সাহাবী","first_letter":"জ"},
+    {"arabic":"بِلال","pronunciation":"বিলাল","meaning":"পানির আর্দ্রতা","why_good":"প্রথম মুয়াজ্জিন","first_letter":"ব"},
+
+    {"arabic":"رَاشِد","pronunciation":"রাশিদ","meaning":"সঠিক পথপ্রাপ্ত","why_good":"ইসলামিক নাম","first_letter":"র"},
+    {"arabic":"سَارِم","pronunciation":"সারিম","meaning":"তলোয়ার","why_good":"সাহসী নাম","first_letter":"স"},
+    {"arabic":"فَضْل","pronunciation":"ফজল","meaning":"অনুগ্রহ","why_good":"ইসলামিক নাম","first_letter":"ফ"},
+    {"arabic":"نَصِير","pronunciation":"নাসির","meaning":"সহায়ক","why_good":"ইসলামিক নাম","first_letter":"ন"},
+    {"arabic":"مُنِير","pronunciation":"মুনির","meaning":"আলোকিত","why_good":"ইসলামিক নাম","first_letter":"ম"},
+
+    {"arabic":"حَفْص","pronunciation":"হাফস","meaning":"সিংহ শাবক","why_good":"সাহাবী","first_letter":"হ"},
+    {"arabic":"سَعِيد","pronunciation":"সাঈদ","meaning":"সুখী","why_good":"ইসলামিক নাম","first_letter":"স"},
+    {"arabic":"رِضْوَان","pronunciation":"রিদওয়ান","meaning":"সন্তুষ্টি","why_good":"জান্নাতের দারোয়ান","first_letter":"র"},
+    {"arabic":"يَحْيَى","pronunciation":"ইয়াহইয়া","meaning":"জীবন","why_good":"নবী","first_letter":"ই"},
+    {"arabic":"صِدِّيق","pronunciation":"সিদ্দিক","meaning":"সত্যবাদী","why_good":"আবু বকর (রা.) উপাধি","first_letter":"স"}
+  ],
+
+  "girls": [
+    {"arabic":"فَاطِمَة","pronunciation":"ফাতিমা","meaning":"পবিত্র","why_good":"নবী কন্যা","first_letter":"ফ"},
+    {"arabic":"عَائِشَة","pronunciation":"আইশা","meaning":"জীবনপূর্ণ","why_good":"নবীর স্ত্রী","first_letter":"আ"},
+    {"arabic":"خَدِيجَة","pronunciation":"খাদিজা","meaning":"প্রথম স্ত্রী","why_good":"প্রথম মুসলিমা","first_letter":"খ"},
+    {"arabic":"مَرْيَم","pronunciation":"মারইয়াম","meaning":"উচ্চ মর্যাদা","why_good":"ঈসা (আ.) এর মা","first_letter":"ম"},
+    {"arabic":"زَيْنَب","pronunciation":"যাইনাব","meaning":"সুগন্ধি","why_good":"নবী পরিবারের নাম","first_letter":"য"},
+    {"arabic":"رُقَيَّة","pronunciation":"রুকাইয়া","meaning":"উন্নতি","why_good":"নবী কন্যা","first_letter":"র"},
+    {"arabic":"أُمّ كُلْثُوم","pronunciation":"উম্মে কুলসুম","meaning":"স্নেহপূর্ণ","why_good":"নবী কন্যা","first_letter":"উ"},
+    {"arabic":"سُكَيْنَة","pronunciation":"সুকাইনা","meaning":"শান্তি","why_good":"নবী পরিবারের সদস্য","first_letter":"স"},
+    {"arabic":"حَفْصَة","pronunciation":"হাফসা","meaning":"সিংহ শাবক","why_good":"নবীর স্ত্রী","first_letter":"হ"},
+    {"arabic":"نُور","pronunciation":"নূর","meaning":"আলো","why_good":"ইসলামিক নাম","first_letter":"ন"},
+
+    {"arabic":"رَيْحَانَة","pronunciation":"রাইহানা","meaning":"সুগন্ধি ফুল","why_good":"সৌন্দর্যের প্রতীক","first_letter":"র"},
+    {"arabic":"جَمِيلَة","pronunciation":"জামিলা","meaning":"সুন্দর","why_good":"ইসলামিক নাম","first_letter":"জ"},
+    {"arabic":"سَلْمَى","pronunciation":"সালমা","meaning":"নিরাপদ","why_good":"শান্তির নাম","first_letter":"স"},
+    {"arabic":"فَرِيدَة","pronunciation":"ফারিদা","meaning":"অদ্বিতীয়","why_good":"বিশেষ নাম","first_letter":"ফ"},
+    {"arabic":"لَيْلَى","pronunciation":"লায়লা","meaning":"রাত","why_good":"ক্লাসিক নাম","first_letter":"ল"},
+
+    {"arabic":"صَفِيَّة","pronunciation":"সাফিয়া","meaning":"বিশুদ্ধ","why_good":"নবীর স্ত্রী","first_letter":"স"},
+    {"arabic":"حَسَنَة","pronunciation":"হাসানা","meaning":"ভালো কাজ","why_good":"ইসলামিক নাম","first_letter":"হ"},
+    {"arabic":"رُقْيَة","pronunciation":"রুকইয়া","meaning":"উন্নতি","why_good":"নবী কন্যা","first_letter":"র"},
+    {"arabic":"أَسْمَاء","pronunciation":"আসমা","meaning":"উচ্চ নাম","why_good":"সাহাবিয়া","first_letter":"আ"},
+    {"arabic":"خَوْلَة","pronunciation":"খাওলা","meaning":"হরিণী","why_good":"সাহাবিয়া","first_letter":"খ"},
+
+    {"arabic":"رَاحَة","pronunciation":"রাহা","meaning":"আরাম","why_good":"শান্তির নাম","first_letter":"র"},
+    {"arabic":"سُهَا","pronunciation":"সুহা","meaning":"তারকা","why_good":"সৌন্দর্য নাম","first_letter":"স"},
+    {"arabic":"مُزَن","pronunciation":"মুযান","meaning":"মেঘ","why_good":"প্রকৃতি নাম","first_letter":"ম"},
+    {"arabic":"يُمْنَى","pronunciation":"ইউমনা","meaning":"আশীর্বাদ","why_good":"বরকতের নাম","first_letter":"ই"},
+    {"arabic":"رِفْعَة","pronunciation":"রিফা","meaning":"উচ্চতা","why_good":"ইসলামিক নাম","first_letter":"র"},
+
+    {"arabic":"فِضَّة","pronunciation":"ফিদ্দা","meaning":"রূপা","why_good":"সুন্দর নাম","first_letter":"ফ"},
+    {"arabic":"نَجْمَة","pronunciation":"নাজমা","meaning":"তারা","why_good":"আলোকিত নাম","first_letter":"ন"},
+    {"arabic":"دُعَاء","pronunciation":"দোয়া","meaning":"প্রার্থনা","why_good":"ইসলামিক নাম","first_letter":"দ"},
+    {"arabic":"رَضِيَة","pronunciation":"রাদিয়া","meaning":"সন্তুষ্ট","why_good":"ইসলামিক নাম","first_letter":"র"},
+    {"arabic":"صَبْرِيَة","pronunciation":"সাবরিয়া","meaning":"ধৈর্যশীলা","why_good":"ইসলামিক নাম","first_letter":"স"}
+  ]
+}
