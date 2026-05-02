@@ -11,6 +11,10 @@
       "website": "noorvia.app",
       "avatar": null,
       "isOnline": true,
+      "university": {
+        "name": "University of Dhaka",
+        "icon": "🎓"
+      },
       "stats": {
         "projects": 28,
         "rating": 4.9,
@@ -34,6 +38,10 @@
       "website": "noorvia.app",
       "avatar": null,
       "isOnline": true,
+      "university": {
+        "name": "Chittagong University",
+        "icon": "🎓"
+      },
       "stats": {
         "projects": 19,
         "rating": 4.8,
