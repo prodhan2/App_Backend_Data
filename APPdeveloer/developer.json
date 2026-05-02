@@ -5,11 +5,11 @@
       "name": "Md.Sujan Prodhan",
       "role": "Lead Flutter Developer",
       "location": "Rajshahi, Bangladesh",
-      "email": "Prodhan238@gmail.com",
+      "email": "sujan@noorvia.app",
       "phone": "+8801902383808",
-      "github": null,
-      "website": null,
-      "avatar": "https://ibb.co.com/zVJpmycG",
+      "github": "github.com/profhan2",
+      "website": "noorvia.app",
+      "avatar": null,
       "isOnline": true,
       "university": {
         "name": "University of Rajshahi",
@@ -17,7 +17,7 @@
       },
       "socials": {
         "facebook": {
-          "url": "https://www.facebook.com/prodhan24",
+          "url": "https://facebook.com/prodhan24",
           "icon": "facebook"
         },
         "telegram": {
@@ -55,7 +55,7 @@
       "location": "Rajshahi, Bangladesh",
       "email": "nazmul7762@gmail.com",
       "phone": "+8801580302857",
-      "github": null,
+      "github": "https://github.com/nazmulhasan77",
       "website": "https://nazmulhasan77.github.io",
       "avatar": null,
       "isOnline": true,
@@ -94,8 +94,8 @@
         }
       },
       "stats": {
-        "projects": 25,
-        "rating": 4.8,
+        "projects": 10,
+        "rating": 5.0,
         "ratingCount": 50,
         "experience": "৩+",
         "downloads": "১০K+"
