@@ -45,49 +45,122 @@
       "profileUrl": "https://i.postimg.cc/BnQQmZ13/IMG-20260422-152819-046.jpg"
     },
 
-    {
-      "id": 2,
-      "name": "Md. Sabbir Ahmed",
-      "role": "UI/UX & Backend Developer",
-      "location": "Chittagong, Bangladesh",
-      "email": "sabbir@noorvia.app",
-      "phone": "+8801700000002",
-      "github": "github.com/sabbir-dev",
-      "website": "noorvia.app",
-      "avatar": null,
-      "isOnline": true,
+        {
+      "id": 2,
+      "name": "Md Nazmul Hasan Nayeem",
+      "role": "Flutter Developer • CEO & Founder",
+      "location": "Rajshahi, Bangladesh",
+      "email": "nazmul7762@gmail.com",
+      "phone": "+8801580302857",
+      "github": "https://github.com/nazmulhasan77",
+      "website": "https://nazmulhasan77.github.io",
+      "avatar": null,
+      "isOnline": true,
 
-      "university": {
-        "name": "Chittagong University",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chittagong_University_logo.svg/512px-Chittagong_University_logo.svg.png"
-      },
+      "university": {
+        "name": "University of Rajshahi",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/University_of_Rajshahi_logo.svg/512px-University_of_Rajshahi_logo.svg.png"
+      },
 
-      "socials": {
-        "facebook": {
-          "url": "https://facebook.com/sabbir.dev",
-          "icon": "facebook"
-        },
-        "telegram": {
-          "url": "https://t.me/sabbir_dev",
-          "icon": "telegram"
-        },
-        "whatsapp": {
-          "url": "https://wa.me/8801700000002",
-          "icon": "whatsapp"
-        }
-      },
+      "socials": {
+        "facebook": {
+          "url": "https://www.facebook.com/nayeem7762/",
+          "icon": "facebook"
+        },
+        "linkedin": {
+          "url": "https://www.linkedin.com/in/nazmulhasan77/",
+          "icon": "linkedin"
+        },
+        "github": {
+          "url": "https://github.com/nazmulhasan77",
+          "icon": "github"
+        },
+        "telegram": {
+          "url": "https://t.me/nazmulnayeem",
+          "icon": "telegram"
+        },
+        "whatsapp": {
+          "url": "https://wa.me/message/RVESQWOEYJV4G1",
+          "icon": "whatsapp"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/",
+          "icon": "instagram"
+        },
+        "x": {
+          "url": "https://x.com/",
+          "icon": "x"
+        }
+      },
 
-      "stats": {
-        "projects": 19,
-        "rating": 4.8,
-        "ratingCount": 96,
-        "experience": "৩+",
-        "downloads": "৪.২K"
-      },
+      "stats": {
+        "projects": 10,
+        "rating": 5.0,
+        "ratingCount": 50,
+        "experience": "৩+",
+        "downloads": "১০K+"
+      },
 
-      "skills": ["Figma", "Firebase", "Node.js", "Git", "Android", "iOS", "UI/UX"],
-      "bio": "UI/UX Designer & Backend Developer focused on creating responsive, accessible and beautiful Islamic app interfaces.",
-      "profileUrl": "https://noorvia.app/sabbir"
-    }
+      "skills": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "REST API",
+        "Node.js",
+        "Android",
+        "Web Development",
+        "UI/UX",
+        "Git"
+      ],
+
+      "bio": "Passionate Flutter developer and founder of Butterfly Devs. Currently studying CSE at University of Rajshahi and building scalable mobile & web applications. Loves clean code, meaningful products and exploring new places.",
+
+      "projects": [
+        "Money Manager App",
+        "Inventory Management System",
+        "Pharmacy Management App",
+        "RU CSE Hub",
+        "BD Dinajpur Platform"
+      ],
+
+      "experienceDetails": [
+        {
+          "role": "CEO & Founder",
+          "organization": "Butterfly Devs",
+          "duration": "April 2025 – Present"
+        },
+        {
+          "role": "CEO",
+          "organization": "AnNikah.net",
+          "duration": "March 2023 – Present"
+        },
+        {
+          "role": "Secretary",
+          "organization": "FK Foundation",
+          "duration": "January 2021 – Present"
+        },
+        {
+          "role": "Vice President",
+          "organization": "HAT (Help for Animals & Tree Plantation)",
+          "duration": "August 2023 – Present"
+        }
+      ],
+
+      "education": [
+        {
+          "degree": "BSc in Computer Science & Engineering",
+          "institution": "University of Rajshahi",
+          "duration": "2020 – Present"
+        },
+        {
+          "degree": "HSC - Science",
+          "institution": "Carmichael College, Rangpur",
+          "duration": "2020"
+        }
+      ],
+
+      "profileUrl": "https://nazmulhasan77.github.io"
+    }
+ 
   ]
 }
