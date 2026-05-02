@@ -8,7 +8,7 @@
       "email": "sujan@noorvia.app",
       "phone": "+8801902383808",
       "github": "github.com/prodhan24",
-      "website": "noorvia.app",
+      "website": "sujanpro.netlify.app",
       "avatar": null,
       "isOnline": true,
       "university": {
@@ -29,13 +29,7 @@
           "icon": "whatsapp"
         }
       },
-      "stats": {
-        "projects": 28,
-        "rating": 4.9,
-        "ratingCount": 128,
-        "experience": "৫+",
-        "downloads": "৮.৬K"
-      },
+
       "skills": [
         "Flutter",
         "Dart",
@@ -93,13 +87,6 @@
           "icon": "x"
         }
       },
-      "stats": {
-        "projects": 10,
-        "rating": 5.0,
-        "ratingCount": 50,
-        "experience": "৩+",
-        "downloads": "১০K+"
-      },
       "skills": [
         "Flutter",
         "Dart",
@@ -108,8 +95,7 @@
         "Node.js",
         "Android",
         "Web Development",
-        "UI/UX",
-        "Git"
+        "UI/UX"
       ],
       "bio": "Passionate Flutter developer and founder of Butterfly Devs. Currently studying CSE at University of Rajshahi and building scalable mobile & web applications. Loves clean code, meaningful products and exploring new places.",
       "projects": [
