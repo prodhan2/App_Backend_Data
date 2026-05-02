@@ -2,32 +2,32 @@
   "developers": [
     {
       "id": 1,
-      "name": "Md. Rakibul Islam",
+      "name": "Md.Sujan Prodhan",
       "role": "Lead Flutter Developer",
-      "location": "Dhaka, Bangladesh",
-      "email": "rakibul@noorvia.app",
-      "phone": "+8801700000001",
-      "github": "github.com/rakibul-dev",
+      "location": "Rajshahi, Bangladesh",
+      "email": "sujan@noorvia.app",
+      "phone": "+8801902383808",
+      "github": "github.com/profhan2",
       "website": "noorvia.app",
       "avatar": null,
       "isOnline": true,
 
       "university": {
-        "name": "University of Dhaka",
+        "name": "University of Rajshahi",
         "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/University_of_Dhaka_logo.svg/512px-University_of_Dhaka_logo.svg.png"
       },
 
       "socials": {
         "facebook": {
-          "url": "https://facebook.com/rakibul.dev",
+          "url": "https://facebook.com/prodhan2",
           "icon": "facebook"
         },
         "telegram": {
-          "url": "https://t.me/rakibul_dev",
+          "url": "https://t.me/Sujanprodhan",
           "icon": "telegram"
         },
         "whatsapp": {
-          "url": "https://wa.me/8801700000001",
+          "url": "https://wa.me/01751032769",
           "icon": "whatsapp"
         }
       },
@@ -42,7 +42,7 @@
 
       "skills": ["Flutter", "Dart", "Firebase", "REST API", "Provider", "Git", "UI/UX"],
       "bio": "Passionate Flutter Developer with 5+ years of experience building scalable and user-friendly Islamic mobile applications.",
-      "profileUrl": "https://noorvia.app/rakibul"
+      "profileUrl": "https://noorvia.app/rakib"
     },
 
     {
