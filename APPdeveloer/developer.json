@@ -29,7 +29,13 @@
           "icon": "whatsapp"
         }
       },
-
+        "stats": {
+        "projects": 10,
+        "rating": 5.0,
+        "ratingCount": 50,
+        "experience": "৩+",
+        "downloads": "১০K+"
+      },
       "skills": [
         "Flutter",
         "Dart",
@@ -86,6 +92,13 @@
           "url": "https://x.com/",
           "icon": "x"
         }
+      },
+        "stats": {
+        "projects": 10,
+        "rating": 5.0,
+        "ratingCount": 50,
+        "experience": "৩+",
+        "downloads": "১০K+"
       },
       "skills": [
         "Flutter",
