@@ -1,0 +1,36 @@
+
+{
+  "banners": [
+    {
+      "id": 1,
+      "title": "Mega Quiz #29",
+      "description": "বিশেষ মেগা কুইজ প্রতিযোগিতা",
+      "imageUrl": "https://i.ibb.co.com/1fDKn2pQ/546920346-1741846050078387-6395574068466367809-n.jpg",
+      "link": "https://www.facebook.com/profile.php?id=100027590273747"
+    },
+    {
+      "id": 2,
+      "title": "Mega Quiz #30",
+      "description": "বিশেষ মেগা কুইজ প্রতিযোগিতা",
+      "imageUrl": "https://example.com/banner2.jpg",
+      "link": "https://www.iqcbd.org/quiz/mega-30"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "সাপ্তাহিক কুইজ #61",
+      "description": "ইসলাম সম্পর্কিত ২০টি প্রশ্ন",
+      "imageUrl": "https://example.com/quiz1.jpg",
+      "quizLink": "https://www.iqcbd.org/quiz/weekly-61",
+      "type": "weekly",
+      "date": "2024-01-15"
+    }
+  ],
+  "stats": {
+    "totalWeeklyQuizzes": 61,
+    "totalMegaQuizzes": 30,
+    "totalRamadanProjects": 5,
+    "totalParticipants": 15000
+  }
+}
