@@ -1,0 +1,26 @@
+{
+  "name": "Tashfiya - Center for Ruqyah Shariyah",
+  "type": "Ruqyah Center",
+  "banners": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/q3LV3y61/384735439-122123722412028173-9175367317546788393-n.jpg"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/5gbtfyf7/image.png"
+    }
+  ],
+  "description": "Tashfiya - Center for Ruqyah Shariyah একটি শরিয়তসম্মত রুকইয়াহ সেন্টার। পরামর্শ ও রুকইয়ার প্রয়োজনে কল করুন।",
+  "contact": {
+    "phone": "01829-114729",
+    "whatsapp": "+8801969690566"
+  },
+  "location": {
+    "address": "Tashfiya - Center for Ruqyah Shariyah, Northern Mor, Adorsho School থেকে (ভদ্রার দিকে যেতে) 100m উত্তরে বাস গ্যারেজের পিছনে, Rajshahi, Bangladesh, 6000",
+    "google_map": "https://maps.app.goo.gl/khaNve5rdaTiViJZ6"
+  },
+  "social_links": {
+    "facebook_page": "https://www.facebook.com/tashfiya.ruqyah"
+  }
+}
