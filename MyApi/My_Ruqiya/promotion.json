@@ -1,27 +1,23 @@
 {
-  "name": "Tashfiya - Center for Ruqyah Shariyah",
+  "name": "মাকনুন রুকইয়াহ - Maqnun Ruqyah",
   "type": "Ruqyah Center",
   "banners": [
     {
       "id": 1,
-      "image": "https://i.ibb.co.com/q3LV3y61/384735439-122123722412028173-9175367317546788393-n.jpg"
-    },
-    {
-      "id": 2,
-      "image": "https://i.ibb.co.com/5gbtfyf7/image.png"
+      "image": "https://i.ibb.co.com/QFF78Ln4/image.png"
     }
   ],
-  "description": "Tashfiya - Center for Ruqyah Shariyah একটি শরিয়তসম্মত রুকইয়াহ সেন্টার। পরামর্শ ও রুকইয়ার প্রয়োজনে কল করুন। রাজশাহীতে সরাসরি সেন্টারে রুকইয়াহ সার্ভিস, দেশের যেকোনো স্থানে রুকইয়াহ হোম সার্ভিস এবং পুরুষদের জন্য হিজামা/কাপিং থেরাপি সার্ভিস প্রদান করা হয়।",
+  "description": "মাকনুন রুকইয়াহ - Maqnun Ruqyah একটি শরিয়তসম্মত রুকইয়াহ সেন্টার। পরামর্শ ও রুকইয়ার প্রয়োজনে কল করুন। রাজশাহীতে সরাসরি সেন্টারে রুকইয়াহ সার্ভিস, দেশের যেকোনো স্থানে রুকইয়াহ হোম সার্ভিস এবং পুরুষদের জন্য হিজামা/কাপিং থেরাপি সার্ভিস প্রদান করা হয়।",
   "contact": {
     "phone": "01829-114729",
     "whatsapp": "+8801829114729"
   },
   "location": {
-    "address": "Tashfiya - Center for Ruqyah Shariyah, Northern Mor, Adorsho School থেকে (ভদ্রার দিকে যেতে) 100m উত্তরে বাস গ্যারেজের পিছনে, Rajshahi, Bangladesh, 6000",
+    "address": "মাকনুন রুকইয়াহ - Maqnun Ruqyah, Northern Mor, Adorsho School থেকে (ভদ্রার দিকে যেতে) 100m উত্তরে বাস গ্যারেজের পিছনে, Rajshahi, Bangladesh, 6000",
     "google_map": "https://maps.app.goo.gl/khaNve5rdaTiViJZ6"
   },
   "social_links": {
-    "facebook_page": "https://www.facebook.com/tashfiya.ruqyah"
+    "facebook_page": "https://www.facebook.com/Almaqnunruqyah"
   },
   "services": [
     "সেন্টারে সরাসরি রুকইয়াহ সার্ভিস",
@@ -34,6 +30,7 @@
       "name": "রাকি ফাহাদ",
       "designation": "সিনিয়র রাকি এন্ড কনসালটেন্ট",
       "current_roles": [
+        "ফাউন্ডার : মাকনুন রুকইয়াহ - Maqnun Ruqyah",
         "সিনিয়র রাকি এন্ড কনসালটেন্ট, তাশফিয়া সেন্টার ফর রুকইয়াহ, রাজশাহী",
         "সিনিয়র রাকি, সুকুন হেলথ কেয়ার, ঢাকা",
         "সিনিয়র রাকি এন্ড কনসালটেন্ট, আশ্বাস হেলথ, ঢাকা"
