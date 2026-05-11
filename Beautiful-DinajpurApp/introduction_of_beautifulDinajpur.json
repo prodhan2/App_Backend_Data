@@ -1,72 +1,275 @@
 {
-	"organization": {
-		"name": "Beautiful Dinajpur",
-		"tagline": "একটি স্বপ্ন, একটি সংগঠন",
-		"description": "Beautiful Dinajpur হলো দিনাজপুর জেলার হৃদয় থেকে উঠে আসা একটি মানবিক ও সচেতন স্বেচ্ছাসেবী সংগঠন। আমরা বিশ্বাস করি, সমাজের প্রতিটি মানুষের পাশে দাঁড়ানোই প্রকৃত সমাজসেবা।",
-		"mission": "সবার জন্য সুন্দর দিনাজপুর",
-		"vision": "মানবতা, সহযোগিতা ও ইতিবাচক চিন্তাধারায় গড়ে উঠুক একটি সুন্দর সমাজ।"
-	},
-	"activities": [
-		{
-			"title": "শীতবস্ত্র বিতরণ",
-			"icon": "🧥",
-			"details": "শীতের কঠিন দিনগুলোতে অসহায় মানুষ ও শিশুদের মাঝে উষ্ণ পোশাক বিতরণ করা।"
-		},
-		{
-			"title": "শিক্ষা সহায়তা",
-			"icon": "📚",
-			"details": "দরিদ্র ও মেধাবী শিক্ষার্থীদের পড়াশোনার ব্যয়ভার গ্রহণ এবং প্রয়োজনীয় শিক্ষা সামগ্রী প্রদান।"
-		},
-		{
-			"title": "সংবাদ প্রচার",
-			"icon": "📰",
-			"details": "দিনাজপুর জেলার প্রতিদিনের সংবাদ ও গুরুত্বপূর্ণ ঘটনাবলি সংগ্রহ ও প্রচার করা।"
-		},
-		{
-			"title": "উপজেলা প্রতিনিধি দল",
-			"icon": "👥",
-			"details": "প্রত্যেক উপজেলার তরুণদের নিয়ে প্রতিনিধি দল গঠন এবং স্থানীয় সমস্যা সমাধানে কাজ করা।"
-		},
-		{
-			"title": "সচেতনতা কার্যক্রম",
-			"icon": "📢",
-			"details": "সামাজিক, স্বাস্থ্য, পরিবেশ, শিশু অধিকার ও নারী ক্ষমতায়ন বিষয়ে জনসচেতনতা বৃদ্ধি করা।",
-			"subActivities": [
-				"লিফলেট, পোস্টার ও ভিডিও কনটেন্ট তৈরি",
-				"কর্মশালা ও সেমিনারের আয়োজন",
-				"সামাজিক সমস্যার ব্যাখ্যামূলক প্রচারণা",
-				"শিক্ষামূলক ক্যাম্পেইন পরিচালনা"
-			]
-		},
-		{
-			"title": "বৃক্ষরোপণ কর্মসূচি",
-			"icon": "🌱",
-			"details": "পরিবেশ সংরক্ষণ, সবুজায়ন ও বায়ু দূষণ কমাতে নিয়মিত বৃক্ষরোপণ কার্যক্রম পরিচালনা।"
-		}
-	],
-	"platforms": {
-		"facebookPage": "https://www.facebook.com/BeautifulDinajpur",
-		"facebookGroup": "https://www.facebook.com/groups/beautifuldinajpur",
-		"website": "https://beautifuldinajpur.com/",
-		"youtube": "YouTube Channel",
-		"mobileApps": [
-			"Android App",
-			"iOS App"
-		]
-	},
-	"contact": {
-		"phone": "01712-421463",
-		"email": "beautifuldinajpur5200@gmail.com",
-		"supportMessage": "আমাদের কার্যক্রম সফলভাবে পরিচালনার জন্য আপনার মূল্যবান আর্থিক সহায়তা ও অনুদান অত্যন্ত প্রয়োজন।"
-	},
-	"goals": {
-		"mainGoal": "সবার জন্য সুন্দর দিনাজপুর",
-		"details": "দিনাজপুর জেলার প্রতিটি উপজেলা থেকেই আমাদের স্বেচ্ছাসেবকরা একযোগে সমাজ উন্নয়নের জন্য কাজ করছে।"
-	},
-	"metadata": {
-		"district": "Dinajpur",
-		"country": "Bangladesh",
-		"type": "Volunteer Organization",
-		"foundedPurpose": "মানবিক সহায়তা, শিক্ষা, সচেতনতা ও পরিবেশ সংরক্ষণ"
-	}
+  "organization": {
+    "name": "Beautiful Dinajpur",
+    "tagline": "একটি স্বপ্ন, একটি সংগঠন",
+    "logo": "https://example.com/logo.png",
+    "coverImage": "https://example.com/cover.jpg",
+    "description": "Beautiful Dinajpur হলো দিনাজপুর জেলার হৃদয় থেকে উঠে আসা একটি মানবিক ও সচেতন স্বেচ্ছাসেবী সংগঠন। আমরা বিশ্বাস করি, সমাজের প্রতিটি মানুষের পাশে দাঁড়ানোই প্রকৃত সমাজসেবা।",
+    "mission": "সবার জন্য সুন্দর দিনাজপুর",
+    "vision": "মানবতা, সহযোগিতা ও ইতিবাচক চিন্তাধারায় গড়ে উঠুক একটি সুন্দর সমাজ।"
+  },
+
+  "sliderImages": [
+    {
+      "id": 1,
+      "imageUrl": "https://example.com/slider1.jpg",
+      "title": "শীতবস্ত্র বিতরণ",
+      "description": "অসহায় মানুষের মাঝে শীতবস্ত্র বিতরণ কার্যক্রম।"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://example.com/slider2.jpg",
+      "title": "শিক্ষা সহায়তা",
+      "description": "শিক্ষার্থীদের বই ও শিক্ষা উপকরণ প্রদান।"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://example.com/slider3.jpg",
+      "title": "সংবাদ প্রচার",
+      "description": "দিনাজপুর জেলার সংবাদ প্রচার কার্যক্রম।"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://example.com/slider4.jpg",
+      "title": "সচেতনতা কার্যক্রম",
+      "description": "সামাজিক সচেতনতা বৃদ্ধির ক্যাম্পেইন।"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://example.com/slider5.jpg",
+      "title": "বৃক্ষরোপণ",
+      "description": "পরিবেশ রক্ষায় বৃক্ষরোপণ কর্মসূচি।"
+    }
+  ],
+
+  "activities": [
+    {
+      "id": 1,
+      "title": "শীতবস্ত্র বিতরণ",
+      "icon": "🧥",
+      "shortDescription": "অসহায় মানুষের মাঝে শীতবস্ত্র বিতরণ।",
+      "details": "শীতের কঠিন দিনগুলোতে বস্ত্রহীন, অসহায় মানুষ ও শিশুদের হাতে উষ্ণ পোশাক তুলে দিয়ে তাদের জীবনকে স্বস্তিদায়ক করা।",
+      "images": [
+        {
+          "imageUrl": "https://example.com/winter1.jpg",
+          "description": "স্বেচ্ছাসেবকদের শীতবস্ত্র বিতরণ।"
+        },
+        {
+          "imageUrl": "https://example.com/winter2.jpg",
+          "description": "অসহায় শিশুদের মাঝে কম্বল বিতরণ।"
+        },
+        {
+          "imageUrl": "https://example.com/winter3.jpg",
+          "description": "গ্রামের শীতকালীন সহায়তা কার্যক্রম।"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "শিক্ষা সহায়তা",
+      "icon": "📚",
+      "shortDescription": "দরিদ্র শিক্ষার্থীদের শিক্ষা সহায়তা।",
+      "details": "দরিদ্র ও মেধাবী শিক্ষার্থীদের পড়াশোনার জন্য অর্থ সাহায্য ও প্রয়োজনীয় শিক্ষা সামগ্রী প্রদান।",
+      "images": [
+        {
+          "imageUrl": "https://example.com/education1.jpg",
+          "description": "শিক্ষার্থীদের বই বিতরণ।"
+        },
+        {
+          "imageUrl": "https://example.com/education2.jpg",
+          "description": "মেধাবী শিক্ষার্থীদের সহায়তা।"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "title": "সংবাদ প্রচার",
+      "icon": "📰",
+      "shortDescription": "দিনাজপুর জেলার সংবাদ প্রচার।",
+      "details": "জেলার সামাজিক, অর্থনৈতিক ও সাংস্কৃতিক খবর দ্রুত জনগণের মাঝে পৌঁছে দেওয়া।",
+      "images": [
+        {
+          "imageUrl": "https://example.com/news1.jpg",
+          "description": "সংবাদ সংগ্রহ কার্যক্রম।"
+        },
+        {
+          "imageUrl": "https://example.com/news2.jpg",
+          "description": "মোবাইল অ্যাপে সংবাদ প্রকাশ।"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "title": "উপজেলা প্রতিনিধি দল",
+      "icon": "👥",
+      "shortDescription": "প্রত্যেক উপজেলায় প্রতিনিধি দল গঠন।",
+      "details": "প্রত্যেক উপজেলার তরুণদের নিয়ে প্রতিনিধি দল তৈরি করে স্থানীয় সমস্যা সমাধানে কাজ করা।",
+      "images": [
+        {
+          "imageUrl": "https://example.com/team1.jpg",
+          "description": "প্রতিনিধিদের সভা।"
+        },
+        {
+          "imageUrl": "https://example.com/team2.jpg",
+          "description": "স্বেচ্ছাসেবকদের প্রশিক্ষণ।"
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "title": "সচেতনতা কার্যক্রম",
+      "icon": "📢",
+      "shortDescription": "জনসচেতনতা বৃদ্ধি কার্যক্রম।",
+      "details": "সামাজিক, স্বাস্থ্য, পরিবেশ, শিশু অধিকার ও নারী ক্ষমতায়ন বিষয়ে সচেতনতা বৃদ্ধি।",
+      "subActivities": [
+        "লিফলেট ও পোস্টার বিতরণ",
+        "ভিডিও কনটেন্ট তৈরি",
+        "কর্মশালা ও সেমিনারের আয়োজন",
+        "সামাজিক সমস্যার ব্যাখ্যামূলক প্রচারণা",
+        "শিক্ষামূলক ক্যাম্পেইন"
+      ],
+      "images": [
+        {
+          "imageUrl": "https://example.com/awareness1.jpg",
+          "description": "সচেতনতামূলক সেমিনার।"
+        },
+        {
+          "imageUrl": "https://example.com/awareness2.jpg",
+          "description": "পোস্টার ক্যাম্পেইন।"
+        },
+        {
+          "imageUrl": "https://example.com/awareness3.jpg",
+          "description": "নারী ক্ষমতায়ন আলোচনা।"
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "title": "বৃক্ষরোপণ কর্মসূচি",
+      "icon": "🌱",
+      "shortDescription": "পরিবেশ সংরক্ষণে বৃক্ষরোপণ।",
+      "details": "সবুজায়ন, বায়ু দূষণ কমানো এবং পরিবেশ সুন্দর রাখতে বিভিন্ন স্থানে গাছ লাগানো।",
+      "images": [
+        {
+          "imageUrl": "https://example.com/tree1.jpg",
+          "description": "বৃক্ষরোপণ কার্যক্রম।"
+        },
+        {
+          "imageUrl": "https://example.com/tree2.jpg",
+          "description": "বিদ্যালয়ে গাছ লাগানো।"
+        },
+        {
+          "imageUrl": "https://example.com/tree3.jpg",
+          "description": "পরিবেশ সচেতনতা প্রচারণা।"
+        }
+      ]
+    }
+  ],
+
+  "gallery": [
+    {
+      "id": 1,
+      "title": "মানবিক সহায়তা",
+      "imageUrl": "https://example.com/gallery1.jpg",
+      "description": "মানুষের পাশে দাঁড়ানোর কিছু মুহূর্ত।"
+    },
+    {
+      "id": 2,
+      "title": "শিক্ষা কার্যক্রম",
+      "imageUrl": "https://example.com/gallery2.jpg",
+      "description": "শিক্ষার্থীদের সহায়তা প্রদান।"
+    },
+    {
+      "id": 3,
+      "title": "পরিবেশ রক্ষা",
+      "imageUrl": "https://example.com/gallery3.jpg",
+      "description": "বৃক্ষরোপণ ও সবুজায়ন কার্যক্রম।"
+    },
+    {
+      "id": 4,
+      "title": "স্বেচ্ছাসেবক টিম",
+      "imageUrl": "https://example.com/gallery4.jpg",
+      "description": "Beautiful Dinajpur স্বেচ্ছাসেবক দল।"
+    }
+  ],
+
+  "platforms": {
+    "facebookPage": "https://www.facebook.com/BeautifulDinajpur",
+    "facebookGroup": "https://www.facebook.com/groups/beautifuldinajpur",
+    "website": "https://beautifuldinajpur.com/",
+    "youtubeChannel": "https://youtube.com/@beautifuldinajpur",
+    "mobileApps": {
+      "android": "https://play.google.com/store/apps/details?id=com.beautifuldinajpur",
+      "ios": "https://apps.apple.com/app/beautiful-dinajpur/id000000"
+    }
+  },
+
+  "contact": {
+    "phone": "01712-421463",
+    "email": "beautifuldinajpur5200@gmail.com",
+    "address": "Dinajpur, Bangladesh",
+    "supportMessage": "আমাদের কার্যক্রম সফলভাবে পরিচালনার জন্য আপনার মূল্যবান আর্থিক সহায়তা ও অনুদান অত্যন্ত প্রয়োজন।"
+  },
+
+  "donation": {
+    "enabled": true,
+    "methods": [
+      {
+        "type": "Bkash",
+        "number": "01712421463"
+      },
+      {
+        "type": "Nagad",
+        "number": "01712421463"
+      }
+    ]
+  },
+
+  "goals": {
+    "mainGoal": "সবার জন্য সুন্দর দিনাজপুর",
+    "details": "দিনাজপুর জেলার প্রতিটি উপজেলা থেকেই আমাদের স্বেচ্ছাসেবকরা একযোগে সমাজ উন্নয়নের জন্য কাজ করছে।"
+  },
+
+  "team": [
+    {
+      "id": 1,
+      "name": "জন ডো",
+      "role": "Founder",
+      "imageUrl": "https://example.com/team-founder.jpg"
+    },
+    {
+      "id": 2,
+      "name": "রহিম উদ্দিন",
+      "role": "Coordinator",
+      "imageUrl": "https://example.com/team-coordinator.jpg"
+    },
+    {
+      "id": 3,
+      "name": "করিম হাসান",
+      "role": "Volunteer",
+      "imageUrl": "https://example.com/team-volunteer.jpg"
+    }
+  ],
+
+  "statistics": {
+    "totalVolunteers": 250,
+    "totalBranches": 13,
+    "totalEvents": 120,
+    "totalTreesPlanted": 5000,
+    "studentsSupported": 350
+  },
+
+  "metadata": {
+    "district": "Dinajpur",
+    "country": "Bangladesh",
+    "organizationType": "Volunteer Organization",
+    "foundedYear": 2022,
+    "appVersion": "1.0.0",
+    "lastUpdated": "2026-05-11"
+  }
 }
