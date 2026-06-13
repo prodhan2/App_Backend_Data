@@ -2,7 +2,7 @@
   "app": {
     "name": "RU Connect",
     "subtitle": "Rajshahi University Family App",
-    "logo": "assets/images/logo.webp",
+    "logo": "https://i.postimg.cc/fbmF7ZB8/image.png",
     "version": "3.0.3",
     "description": "RU Connect হল রাজশাহী বিশ্ববিদ্যালয়ের ছাত্র-ছাত্রীদের জন্য তৈরি একটি কমিউনিটি অ্যাপ। এখানে আপনি একে অপরের সাথে সংযুক্ত হতে পারবেন, বিভিন্ন তথ্য পেতে পারবেন।"
   },
@@ -14,7 +14,7 @@
       "session": "2021-22",
       "phone": "01580302857",
       "facebook": "https://facebook.com/sujanprodhan",
-      "image": "https://yourdomain.com/images/sujan.jpg"
+      "image": "https://i.postimg.cc/fbmF7ZB8/image.png"
     },
     {
       "name": "Nazmul Hasan",
@@ -23,7 +23,7 @@
       "session": "2021-22",
       "phone": "01XXXXXXXXX",
       "facebook": "https://facebook.com/nazmulhasan",
-      "image": "https://yourdomain.com/images/nazmul.jpg"
+      "image": "https://i.postimg.cc/fbmF7ZB8/image.png"
     }
   ],
   "contact": {
