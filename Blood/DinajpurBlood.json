@@ -1,0 +1,90 @@
+{
+  "district": "Dinajpur",
+  "country": "Bangladesh",
+  "bloodBanks": [
+    {
+      "id": 1,
+      "name": "Dinajpur Blood Bank & Transfusion Center",
+      "type": "Blood Bank",
+      "address": "Mohila College Road, Nimnagor, Dinajpur",
+      "phone": "+8801717870950",
+      "website": "https://www.roktospondon.com",
+      "facebook": null,
+      "open24Hours": true,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "Pure Blood Bank & Transfusion Center",
+      "type": "Blood Bank",
+      "address": "MS Tower, Medical College Hospital Mor, Dinajpur",
+      "phone": "+8801915776600",
+      "website": null,
+      "facebook": null,
+      "workingHours": "09:00 - 22:00",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "name": "SANDHANI Medical College Unit",
+      "type": "Volunteer Blood Organization",
+      "address": "M Abdur Rahim Medical College Hospital, Dinajpur",
+      "phone": "+8801796164210",
+      "website": "https://sandhani.org",
+      "facebook": null,
+      "open24Hours": true,
+      "verified": true
+    },
+    {
+      "id": 4,
+      "name": "BADHAN Office, Dinajpur Government College",
+      "type": "Volunteer Blood Organization",
+      "address": "Dinajpur Government College, Dinajpur",
+      "phone": "+8801786310323",
+      "website": "https://badhan.org",
+      "facebook": "https://www.facebook.com/BADHAN.BD",
+      "verified": true
+    },
+    {
+      "id": 5,
+      "name": "RBDC Dinajpur Medical College Unit",
+      "type": "Blood Donation Center",
+      "address": "Ground Floor, Dinajpur Medical College & Hospital",
+      "phone": "+8801601619391",
+      "website": null,
+      "facebook": null,
+      "verified": true
+    },
+    {
+      "id": 6,
+      "name": "Medinet Trust Blood Bank",
+      "type": "Blood Bank",
+      "address": "Dinajpur-Phulbari Road, Dinajpur",
+      "phone": "+8801714130111",
+      "website": "https://www.roktospondon.com",
+      "facebook": null,
+      "open24Hours": true,
+      "verified": true
+    },
+    {
+      "id": 7,
+      "name": "Medicine Club, MARMCU",
+      "type": "Blood Donation Center",
+      "address": "Dinajpur Medical College Area",
+      "phone": "+8801303713680",
+      "website": null,
+      "facebook": null,
+      "verified": true
+    },
+    {
+      "id": 8,
+      "name": "CEG Blood Bank",
+      "type": "Volunteer Blood Group",
+      "address": "Dinajpur",
+      "phone": "+8801839374055",
+      "website": "https://www.findhealthclinics.com/BD/Dinajpur/110473786950717/CEG-Blood-Bank",
+      "facebook": "https://www.facebook.com/cegbloodbank",
+      "verified": false
+    }
+  ]
+}
