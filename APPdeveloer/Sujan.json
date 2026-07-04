@@ -1,0 +1,254 @@
+{
+  "developers": [
+    {
+      "id": 1,
+      "developerId": "DEV-RU-0001",
+      "username": "prodhan24",
+      "name": "Md. Sujan Prodhan",
+      "tagline": "Flutter • Firebase • Full Stack App Developer",
+      "role": "Lead Flutter Developer",
+      "bio": "Passionate Flutter developer with 5+ years of experience building scalable, secure and user-friendly mobile applications. Specialized in Flutter, Firebase, REST APIs, offline-first architecture and modern UI/UX.",
+      "avatar": "https://i.postimg.cc/W33kwnt5/photo-2026-01-29-10-05-54-(2).jpg",
+      "coverImage": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "location": {
+        "city": "Rajshahi",
+        "country": "Bangladesh"
+      },
+      "verified": true,
+      "availableForHire": true,
+      "isOnline": true,
+      "joinedDate": "2023-01-15",
+      "lastUpdated": "2026-07-04",
+
+      "contact": {
+        "email": "prodhan238@gmail.com",
+        "phone": "+8801902383808",
+        "website": "https://sujanpro.netlify.app",
+        "portfolio": "https://sujanpro.web.app"
+      },
+
+      "university": {
+        "name": "University of Rajshahi",
+        "department": "Computer Science & Engineering",
+        "degree": "B.Sc. in Computer Science & Engineering",
+        "session": "2022-Present",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/University_of_Rajshahi_logo.svg/512px-University_of_Rajshahi_logo.svg.png"
+      },
+
+      "socials": {
+        "github": {
+          "url": "https://github.com/prodhan24",
+          "icon": "github"
+        },
+        "facebook": {
+          "url": "https://facebook.com/prodhan24",
+          "icon": "facebook"
+        },
+        "telegram": {
+          "url": "https://t.me/Sujanprodhan",
+          "icon": "telegram"
+        },
+        "whatsapp": {
+          "url": "https://wa.me/8801751032769",
+          "icon": "whatsapp"
+        },
+        "linkedin": {
+          "url": "",
+          "icon": "linkedin"
+        },
+        "youtube": {
+          "url": "",
+          "icon": "youtube"
+        },
+        "x": {
+          "url": "",
+          "icon": "x"
+        }
+      },
+
+      "stats": {
+        "projects": 15,
+        "completedProjects": 15,
+        "experienceYears": 5,
+        "downloads": "10K+",
+        "users": "20K+",
+        "rating": 5.0,
+        "ratingCount": 50,
+        "githubRepositories": 40,
+        "githubStars": 100,
+        "commits": 2000
+      },
+
+      "skills": [
+        {
+          "name": "Flutter",
+          "level": 98
+        },
+        {
+          "name": "Dart",
+          "level": 97
+        },
+        {
+          "name": "Firebase",
+          "level": 95
+        },
+        {
+          "name": "REST API",
+          "level": 94
+        },
+        {
+          "name": "Git",
+          "level": 90
+        },
+        {
+          "name": "Provider",
+          "level": 95
+        },
+        {
+          "name": "Hive",
+          "level": 90
+        },
+        {
+          "name": "SQLite",
+          "level": 88
+        },
+        {
+          "name": "UI/UX",
+          "level": 92
+        }
+      ],
+
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Cloud Firestore",
+        "Firebase Auth",
+        "Firebase Storage",
+        "Firebase Messaging",
+        "REST API",
+        "Git",
+        "GitHub",
+        "Provider",
+        "Hive",
+        "SQLite",
+        "SharedPreferences",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+
+      "services": [
+        "Flutter App Development",
+        "Firebase Integration",
+        "REST API Integration",
+        "App UI/UX Design",
+        "Bug Fixing",
+        "Performance Optimization",
+        "App Publishing",
+        "Database Design"
+      ],
+
+      "experience": [
+        {
+          "company": "Freelance",
+          "position": "Flutter Developer",
+          "duration": "2021 - Present",
+          "location": "Remote"
+        }
+      ],
+
+      "projects": [
+        {
+          "name": "Beautiful Dinajpur",
+          "description": "Digital platform for Dinajpur district with news, marketplace, blood donation, emergency services and local businesses.",
+          "downloads": "10K+",
+          "status": "Published",
+          "github": "",
+          "playStore": "",
+          "website": ""
+        },
+        {
+          "name": "UniNest",
+          "description": "Campus marketplace connecting students with products, study materials and services.",
+          "status": "In Development"
+        },
+        {
+          "name": "Attendance Management System",
+          "description": "Flutter + Firebase attendance application."
+        },
+        {
+          "name": "Expense Tracker",
+          "description": "Offline-first expense management application."
+        }
+      ],
+
+      "achievements": [
+        "10K+ App Downloads",
+        "Built 15+ Flutter Projects",
+        "Flutter & Firebase Specialist",
+        "Open Source Contributor"
+      ],
+
+      "certificates": [
+        {
+          "title": "Flutter Development",
+          "issuer": "Google",
+          "year": "2024"
+        }
+      ],
+
+      "languages": [
+        "Bangla",
+        "English"
+      ],
+
+      "tools": [
+        "Android Studio",
+        "VS Code",
+        "Git",
+        "GitHub",
+        "Figma",
+        "Postman",
+        "Firebase Console"
+      ],
+
+      "apps": [
+        {
+          "name": "Beautiful Dinajpur",
+          "icon": "",
+          "playStore": "",
+          "website": ""
+        }
+      ],
+
+      "testimonials": [
+        {
+          "name": "Anonymous Client",
+          "rating": 5,
+          "comment": "Professional Flutter developer with excellent communication and clean coding practices."
+        }
+      ],
+
+      "openSource": {
+        "repositories": 40,
+        "contributions": 250,
+        "stars": 100,
+        "followers": 50
+      },
+
+      "status": {
+        "online": true,
+        "lastSeen": "2026-07-04T12:00:00Z",
+        "currentActivity": "Building Flutter Apps 🚀"
+      },
+
+      "theme": {
+        "primaryColor": "#2E7D32",
+        "secondaryColor": "#4CAF50",
+        "accentColor": "#81C784"
+      }
+    }
+  ]
+}
