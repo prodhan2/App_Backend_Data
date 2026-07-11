@@ -51,8 +51,8 @@
 		{
 			"id": 2,
 			"name": "Md Nazmul Hasan Nayeem",
-			"role": "Flutter Developer ",
-			"location": "Rajshahi, Bangladesh",
+			"role": "Android & iOS Developer , Founder , CEO",
+			"location": "Rangpur, Bangladesh",
 			"email": "nazmul7762@gmail.com",
 			"phone": "+8801580302857",
 			"github": "https://github.com/nazmulhasan77",
@@ -87,10 +87,6 @@
 				"instagram": {
 					"url": "https://www.instagram.com/",
 					"icon": "instagram"
-				},
-				"x": {
-					"url": "https://x.com/",
-					"icon": "x"
 				}
 			},
 			"stats": {
@@ -110,7 +106,7 @@
 				"Web Development",
 				"UI/UX"
 			],
-			"bio": "Passionate Flutter developer and founder of Butterfly Devs. Currently studying CSE at University of Rajshahi and building scalable mobile & web applications. Loves clean code, meaningful products and exploring new places.",
+			"bio": "Passionate Android & iOS developer and founder of Butterfly Devs. Currently studying CSE at University of Rajshahi and building scalable mobile & web applications. Loves clean code, meaningful products and exploring new places.",
 			"projects": [
 				"Money Manager App",
 				"Inventory Management System",
