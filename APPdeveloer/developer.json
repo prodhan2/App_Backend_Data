@@ -1,54 +1,63 @@
 {
 	"developers": [
 		{
-			"id": 1,
-			"name": "Md.Sujan Prodhan",
-			"role": "Lead Flutter Developer",
-			"location": "Rajshahi, Bangladesh",
-			"email": "https://prodhan238@gmail.com",
-			"phone": "+8801902383808",
-			"github": "https://github.com/prodhan24",
-			"website": "https://sujanpro.netlify.app",
-			"avatar": "https://i.postimg.cc/W33kwnt5/photo-2026-01-29-10-05-54-(2).jpg",
-			"isOnline": true,
-			"university": {
-				"name": "University of Rajshahi",
-				"logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/University_of_Dhaka_logo.svg/512px-University_of_Dhaka_logo.svg.png"
-			},
-			"socials": {
-				"facebook": {
-					"url": "https://facebook.com/prodhan24",
-					"icon": "facebook"
-				},
-				"telegram": {
-					"url": "https://t.me/Sujanprodhan",
-					"icon": "telegram"
-				},
-				"whatsapp": {
-					"url": "https://wa.me/+8801751032769",
-					"icon": "whatsapp"
-				}
-			},
-			"stats": {
-				"projects": 10,
-				"rating": 5,
-				"ratingCount": 50,
-				"experience": "৩+",
-				"downloads": "১০K+"
-			},
-			"skills": [
-				"Flutter",
-				"Dart",
-				"Firebase",
-				"REST API",
-				"Provider",
-				"Git",
-				"UI/UX"
-			],
-			"bio": "Passionate Flutter Developer with 5+ years of experience building scalable and user-friendly Islamic mobile applications.",
-			"profileUrl": "https://sujanpro.netlify.app"
-		},
-		{
+  "id": 1,
+  "name": "Md. Sahanur Alam Prodhan Sujan",
+  "role": "Flutter Developer",
+  "location": "Rajshahi, Bangladesh",
+  "email": "mailto:prodhan238@gmail.com",
+  "phone": "+8801902383808",
+  "github": "https://github.com/prodhan24",
+  "website": "https://sujanpro.netlify.app",
+  "avatar": "https://i.postimg.cc/W33kwnt5/photo-2026-01-29-10-05-54-(2).jpg",
+  "isOnline": true,
+  "university": {
+    "name": "University of Rajshahi",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/University_of_Rajshahi_Monogram.svg/512px-University_of_Rajshahi_Monogram.svg.png"
+  },
+  "socials": {
+    "facebook": {
+      "url": "https://facebook.com/prodhan24",
+      "icon": "facebook"
+    },
+    "telegram": {
+      "url": "https://t.me/Sujanprodhan",
+      "icon": "telegram"
+    },
+    "whatsapp": {
+      "url": "https://wa.me/8801902383808",
+      "icon": "whatsapp"
+    }
+  },
+  "stats": {
+    "projects": 10,
+    "rating": 5,
+    "ratingCount": 50,
+    "experience": "3+",
+    "downloads": "10K+"
+  },
+  "skills": [
+    "Flutter",
+    "Dart",
+    "Firebase",
+    "REST API",
+    "Provider",
+    "Riverpod",
+    "SQLite",
+    "Hive",
+    "Git",
+    "GitHub",
+    "UI/UX",
+    "Material Design",
+    "Google Maps",
+    "Firebase Authentication",
+    "Cloud Firestore",
+    "Firebase Storage",
+    "Push Notifications"
+  ],
+  "bio": "Flutter Developer and Computer Science & Engineering student at the University of Rajshahi. Developer of Rangpur Connect, Beautiful Dinajpur, RU Connect, and Rukaiya Solutions applications. Experienced in building scalable, high-performance, and user-friendly mobile applications using Flutter, Dart, Firebase, REST APIs, and modern UI/UX principles. Passionate about creating real-world digital solutions that deliver excellent user experiences.",
+  "profileUrl": "https://sujanpro.netlify.app"
+},		{
 			"id": 2,
 			"name": "Md Nazmul Hasan Nayeem",
 			"role": "Android & iOS Developer",
