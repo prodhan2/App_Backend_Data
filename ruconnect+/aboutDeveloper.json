@@ -1,29 +1,28 @@
 {
   "app": {
     "name": "RU Connect",
-    "subtitle": "Rajshahi University Family App",
-    "logo": "https://i.postimg.cc/fbmF7ZB8/image.png",
-    "version": "3.0.3",
-    "description": "RU Connect হল রাজশাহী বিশ্ববিদ্যালয়ের ছাত্র-ছাত্রীদের জন্য তৈরি একটি কমিউনিটি অ্যাপ। এখানে আপনি একে অপরের সাথে সংযুক্ত হতে পারবেন, বিভিন্ন তথ্য পেতে পারবেন।"
+    "subtitle": "A Digital Hub for Rajshahi University Family",
+    "logo": "https://i.ibb.co.com/99yP5Yyw/image.png",
+    "description": "RU Connect is an all-in-one digital platform for the University of Rajshahi community, helping students, alumni, teachers, and staff stay connected with campus information, resources, services, communities, and opportunities."
   },
   "developers": [
     {
       "name": "Sujan Prodhan",
       "department": "Computer Science and Engineering",
       "university": "University of Rajshahi",
-      "session": "2021-22",
+      "session": "2020-21",
       "phone": "01580302857",
       "facebook": "https://facebook.com/sujanprodhan",
-      "image": "https://i.postimg.cc/fbmF7ZB8/image.png"
+      "image": "https://i.ibb.co.com/JjSShT7n/image.png"
     },
     {
-      "name": "Nazmul Hasan",
+      "name": "MD Nazmul Hasan",
       "department": "Computer Science and Engineering",
       "university": "University of Rajshahi",
-      "session": "2021-22",
-      "phone": "01XXXXXXXXX",
-      "facebook": "https://facebook.com/nazmulhasan",
-      "image": "https://i.postimg.cc/fbmF7ZB8/image.png"
+      "session": "2020-21",
+      "phone": "+8801580302857",
+      "facebook": "https://facebook.com/nayeem7762",
+      "image": "https://i.ibb.co.com/k21jGRnQ/image.png"
     }
   ],
   "contact": {
