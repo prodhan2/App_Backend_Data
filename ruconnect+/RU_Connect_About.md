@@ -25,7 +25,6 @@ Our mission is to make university life easier by providing reliable, organized, 
 ## App Information
 
 **App Name:** RU Connect  
-**Version:** 1.0.0  
 **Platform:** Android  
 **Developed By:** Butterfly Devs
 
