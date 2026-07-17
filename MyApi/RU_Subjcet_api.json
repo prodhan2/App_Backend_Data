@@ -41,6 +41,7 @@
   { "code": 59, "name": "Zoology" },
   { "code": 60, "name": "Geology and Mining" },
   { "code": 61, "name": "Genetic Engineering and Biotechnology" },
+  { "code": 63, "name": "Microbiology" },
   { "code": 66, "name": "Agronomy and Agricultural Extension" },
   { "code": 67, "name": "Fisheries" },
   { "code": 68, "name": "Animal Husbandry and Veterinary Science" },
