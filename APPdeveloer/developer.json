@@ -2,14 +2,14 @@
 	"developers": [
 		{
   "id": 1,
-  "name": "Md. Sahanur Alam Prodhan Sujan",
-  "role": "Flutter Developer",
+  "name": "Md.Sujan Prodhan",
+  "role": "Lead Flutter Developer",
   "location": "Rajshahi, Bangladesh",
   "email": "mailto:prodhan238@gmail.com",
   "phone": "+8801902383808",
   "github": "https://github.com/prodhan24",
   "website": "https://sujanpro.netlify.app",
-  "avatar": "https://i.postimg.cc/W33kwnt5/photo-2026-01-29-10-05-54-(2).jpg",
+  "avatar": "https://i.postimg.cc/8ctNMC6w/1-(4).webp",
   "isOnline": true,
   "university": {
     "name": "University of Rajshahi",
@@ -25,7 +25,7 @@
       "icon": "telegram"
     },
     "whatsapp": {
-      "url": "https://wa.me/8801902383808",
+      "url": "https://wa.me/01902383808",
       "icon": "whatsapp"
     }
   },
