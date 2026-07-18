@@ -13,15 +13,15 @@
   },
   {
     "hallCode": 104,
-    "hallName": "Syed Amer Ali Hall"
+    "hallName": "Syed Ameer Ali Hall"
   },
   {
     "hallCode": 105,
-    "hallName": "Shaheed Shamsuzzoha Hall"
+    "hallName": "Shahid Shamsuzzoha Hall"
   },
   {
     "hallCode": 106,
-    "hallName": "Shaheed Habibur Rahman Hall"
+    "hallName": "Shahid Habibur Rahman Hall"
   },
   {
     "hallCode": 107,
@@ -33,15 +33,19 @@
   },
   {
     "hallCode": 109,
-    "hallName": "Shaheed Suhrawardy Hall"
+    "hallName": "Huseyn Shaheed Suhrawardy Hall"
   },
   {
     "hallCode": 110,
-    "hallName": "Shaheed Ziaur Rahman Hall"
+    "hallName": "Shahid Ziaur Rahman Hall"
   },
   {
     "hallCode": 111,
-    "hallName": "Bijoy 24 Hall"
+    "hallName": "Bangabandhu Sheikh Mujibur Rahman Hall"
+  },
+  {
+    "hallCode": 112,
+    "hallName": "Bijoy-24 Hall"
   },
   {
     "hallCode": 120,
@@ -53,7 +57,7 @@
   },
   {
     "hallCode": 122,
-    "hallName": "Taposhi Rabeya Hall"
+    "hallName": "Tapashi Rabeya Hall"
   },
   {
     "hallCode": 123,
@@ -61,7 +65,15 @@
   },
   {
     "hallCode": 124,
-    "hallName": "July 36 Hall"
+    "hallName": "Rahamatunnesa Hall"
+  },
+  {
+    "hallCode": 125,
+    "hallName": "Bangamata Sheikh Fazilatunnesa Hall"
+  },
+  {
+    "hallCode": 126,
+    "hallName": "July-36 Hall"
   },
   {
     "hallCode": 130,
@@ -70,5 +82,9 @@
   {
     "hallCode": 131,
     "hallName": "IBS Dormitory"
+  },
+  {
+    "hallCode": 132,
+    "hallName": "( IBA )"
   }
 ]
