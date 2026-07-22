@@ -940,8 +940,15 @@
   {
     "id": "134",
     "district_id": "15",
-    "name": "মতিহার",
-    "bn_name": "মতিহার",
+    "name": "সদর",
+    "bn_name": "সদর",
+    "url": "sadar.rajshahi.gov.bd"
+  },
+  {
+    "id": "500",
+    "district_id": "15",
+    "name": "পবা",
+    "bn_name": "পবা",
     "url": "paba.rajshahi.gov.bd"
   },
   {
