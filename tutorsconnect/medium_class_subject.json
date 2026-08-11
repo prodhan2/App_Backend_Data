@@ -1,0 +1,1012 @@
+{
+	"Bangla Medium": {
+		"Play": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"Nursery": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"KG": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"Class 1": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Class 2": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Class 3": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS"
+		],
+		"Class 4": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS"
+		],
+		"Class 5": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"Religion"
+		],
+		"Class 6": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"ICT",
+			"Religion"
+		],
+		"Class 7": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"ICT",
+			"Religion"
+		],
+		"Class 8": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"ICT",
+			"Religion"
+		],
+		"Class 9": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Higher Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"BGS",
+			"ICT",
+			"Religion",
+			"Accounting",
+			"Finance & Banking",
+			"Business Entrepreneurship"
+		],
+		"Class 10": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Higher Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"BGS",
+			"ICT",
+			"Religion",
+			"Accounting",
+			"Finance & Banking",
+			"Business Entrepreneurship"
+		],
+		"SSC": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Higher Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"BGS",
+			"ICT",
+			"Accounting",
+			"Finance & Banking",
+			"Business Entrepreneurship"
+		],
+		"HSC-1st YEAR": [
+			"All",
+			"Bangla",
+			"English",
+			"ICT",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Higher Mathematics",
+			"Mathematics",
+			"Accounting",
+			"Finance & Banking",
+			"Management",
+			"Marketing",
+			"Economics",
+			"Statistics"
+		],
+		"HSC-2nd YEAR": [
+			"All",
+			"Bangla",
+			"English",
+			"ICT",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Higher Mathematics",
+			"Mathematics",
+			"Accounting",
+			"Finance & Banking",
+			"Management",
+			"Marketing",
+			"Economics",
+			"Statistics"
+		]
+	},
+	"English Version": {
+		"Play": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"Pre-Schooling": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"Nursery": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"KG": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"Class 1": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Class 2": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Class 3": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS"
+		],
+		"Class 4": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS"
+		],
+		"Class 5": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"Religion"
+		],
+		"Class 6": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"ICT"
+		],
+		"Class 7": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"ICT"
+		],
+		"Class 8": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"BGS",
+			"ICT"
+		],
+		"Class 9": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Higher Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"BGS",
+			"ICT",
+			"Accounting",
+			"Finance & Banking",
+			"Business Entrepreneurship"
+		],
+		"Class 10": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Higher Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"BGS",
+			"ICT",
+			"Accounting",
+			"Finance & Banking",
+			"Business Entrepreneurship"
+		],
+		"SSC": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Higher Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"BGS",
+			"ICT",
+			"Accounting",
+			"Finance & Banking",
+			"Business Entrepreneurship"
+		],
+		"HSC-1st YEAR": [
+			"All",
+			"Bangla",
+			"English",
+			"ICT",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Higher Mathematics",
+			"Mathematics",
+			"Accounting",
+			"Finance & Banking",
+			"Management",
+			"Marketing",
+			"Economics",
+			"Statistics"
+		],
+		"HSC-2nd YEAR": [
+			"All",
+			"Bangla",
+			"English",
+			"ICT",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Higher Mathematics",
+			"Mathematics",
+			"Accounting",
+			"Finance & Banking",
+			"Management",
+			"Marketing",
+			"Economics",
+			"Statistics"
+		]
+	},
+	"English Medium": {
+		"Play": [
+			"All",
+			"English",
+			"Mathematics"
+		],
+		"Pre-Schooling": [
+			"All",
+			"English",
+			"Mathematics"
+		],
+		"Nursery": [
+			"All",
+			"English",
+			"Mathematics"
+		],
+		"KG": [
+			"All",
+			"English",
+			"Mathematics"
+		],
+		"Standard 1": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Standard 2": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Standard 3": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Standard 4": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Standard 5": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science"
+		],
+		"Standard 6": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science",
+			"ICT"
+		],
+		"Standard 7": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science",
+			"ICT"
+		],
+		"Standard 8": [
+			"All",
+			"English",
+			"Mathematics",
+			"Science",
+			"ICT"
+		],
+		"Standard 9": [
+			"All",
+			"English",
+			"Mathematics",
+			"Additional Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Computer Science",
+			"Accounting",
+			"Economics",
+			"Business Studies"
+		],
+		"O Level": [
+			"All",
+			"English Language",
+			"Mathematics",
+			"Additional Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Computer Science",
+			"Accounting",
+			"Economics",
+			"Business Studies",
+			"ICT"
+		],
+		"A Level (AS)": [
+			"All",
+			"English",
+			"Mathematics",
+			"Further Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Computer Science",
+			"Accounting",
+			"Economics",
+			"Business Studies"
+		],
+		"A Level (A2)": [
+			"All",
+			"English",
+			"Mathematics",
+			"Further Mathematics",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Computer Science",
+			"Accounting",
+			"Economics",
+			"Business Studies"
+		]
+	},
+	"Religious Studies": {
+		"Islamic studies": [
+			"All",
+			"Quran",
+			"Hadith",
+			"Aqidah",
+			"Fiqh",
+			"Islamic History",
+			"Arabic"
+		],
+		"Hinduism Studies": [
+			"All",
+			"Hindu Religious Studies",
+			"Sanskrit",
+			"Hindu Philosophy",
+			"Hindu History"
+		]
+	},
+	"Admission Test": {
+		"School Admission Test": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"General Knowledge"
+		],
+		"Cadet Admission": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Science",
+			"General Knowledge"
+		],
+		"College Admission Test": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"General Knowledge"
+		],
+		"Medical College Admission": [
+			"All",
+			"Biology",
+			"Chemistry",
+			"Physics",
+			"English",
+			"General Knowledge"
+		],
+		"Engineering University Admission": [
+			"All",
+			"Mathematics",
+			"Physics",
+			"Chemistry",
+			"English"
+		],
+		"Public University Admission Test": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"General Knowledge",
+			"Physics",
+			"Chemistry",
+			"Biology"
+		],
+		"Private University Admission Test": [
+			"All",
+			"English",
+			"Mathematics",
+			"General Knowledge",
+			"Analytical Ability"
+		]
+	},
+	"Professional skill Development": {
+		"Adobe Illustrator": [
+			"All",
+			"Adobe Illustrator",
+			"Graphic Design"
+		],
+		"Adobe Photoshop": [
+			"All",
+			"Adobe Photoshop",
+			"Photo Editing",
+			"Graphic Design"
+		],
+		"Computer Programming": [
+			"All",
+			"C",
+			"C++",
+			"Java",
+			"Python",
+			"Dart",
+			"JavaScript"
+		],
+		"Digital Marketing": [
+			"All",
+			"SEO",
+			"Social Media Marketing",
+			"Google Ads",
+			"Facebook Ads",
+			"Content Marketing"
+		],
+		"HandWriting": [
+			"All",
+			"Bangla Handwriting",
+			"English Handwriting"
+		],
+		"Microsoft Office": [
+			"All",
+			"Microsoft Word",
+			"Microsoft Excel",
+			"Microsoft PowerPoint",
+			"Microsoft Access"
+		],
+		"Web Design": [
+			"All",
+			"HTML",
+			"CSS",
+			"Bootstrap",
+			"UI/UX Design"
+		],
+		"Web Programming": [
+			"All",
+			"JavaScript",
+			"PHP",
+			"Python",
+			"React",
+			"Node.js"
+		]
+	},
+	"Expert skill Development": {
+		"Cooking": [
+			"All",
+			"Bangladeshi Cooking",
+			"Chinese Cooking",
+			"Baking",
+			"Dessert"
+		],
+		"Driving": [
+			"All",
+			"Car Driving",
+			"Motorcycle Driving",
+			"Driving Theory"
+		],
+		"Gym": [
+			"All",
+			"Fitness",
+			"Weight Training",
+			"Bodybuilding"
+		],
+		"Karate": [
+			"All",
+			"Karate"
+		],
+		"Kung Fu": [
+			"All",
+			"Kung Fu"
+		],
+		"music": [
+			"All",
+			"Vocal",
+			"Guitar",
+			"Piano",
+			"Keyboard",
+			"Tabla",
+			"Drums"
+		],
+		"Photography": [
+			"All",
+			"Photography",
+			"Portrait Photography",
+			"Landscape Photography",
+			"Photo Editing"
+		],
+		"Yoga": [
+			"All",
+			"Yoga",
+			"Meditation",
+			"Flexibility"
+		]
+	},
+	"Arts": {
+		"Art and Craft": [
+			"All",
+			"Paper Craft",
+			"Handicraft",
+			"Creative Art"
+		],
+		"Drawing": [
+			"All",
+			"Drawing",
+			"Sketching"
+		],
+		"Drawing & Painting": [
+			"All",
+			"Drawing",
+			"Sketching",
+			"Painting",
+			"Watercolor"
+		],
+		"Music": [
+			"All",
+			"Vocal",
+			"Guitar",
+			"Piano",
+			"Keyboard",
+			"Tabla"
+		]
+	},
+	"Uni Help": {
+		"BA-Bangla": [
+			"All",
+			"Bangla Literature",
+			"Bangla Language"
+		],
+		"BA-English": [
+			"All",
+			"English Literature",
+			"English Language"
+		],
+		"BA-Social Work": [
+			"All",
+			"Social Work"
+		],
+		"BBA": [
+			"All",
+			"Business Studies",
+			"Management"
+		],
+		"BBA-Management": [
+			"All",
+			"Management"
+		],
+		"BBA-Accounting": [
+			"All",
+			"Accounting"
+		],
+		"BBA-Finance": [
+			"All",
+			"Finance"
+		],
+		"BBA-Marketing": [
+			"All",
+			"Marketing"
+		],
+		"BBA-Economics": [
+			"All",
+			"Economics"
+		],
+		"BSC-CSE": [
+			"All",
+			"Programming",
+			"Data Structure",
+			"Algorithm",
+			"Database",
+			"Computer Networks",
+			"Operating System",
+			"Software Engineering",
+			"Artificial Intelligence",
+			"Machine Learning"
+		],
+		"BSC-EEE": [
+			"All",
+			"Circuit Analysis",
+			"Electronics",
+			"Electrical Machines",
+			"Power System",
+			"Digital Electronics"
+		],
+		"BSC-Maths": [
+			"All",
+			"Calculus",
+			"Algebra",
+			"Geometry",
+			"Statistics",
+			"Differential Equation"
+		],
+		"BSC-Physics": [
+			"All",
+			"Mechanics",
+			"Electromagnetism",
+			"Thermodynamics",
+			"Quantum Physics",
+			"Mathematical Physics"
+		],
+		"MBBS": [
+			"All",
+			"Anatomy",
+			"Physiology",
+			"Biochemistry",
+			"Pharmacology",
+			"Pathology",
+			"Microbiology"
+		]
+	},
+	"Language Learning": {
+		"Arabic": [
+			"All",
+			"Arabic Speaking",
+			"Arabic Grammar",
+			"Arabic Reading"
+		],
+		"Bangla": [
+			"All",
+			"Bangla Speaking",
+			"Bangla Grammar",
+			"Bangla Writing"
+		],
+		"English": [
+			"All",
+			"English Speaking",
+			"English Grammar",
+			"English Writing",
+			"Spoken English"
+		],
+		"French": [
+			"All",
+			"French Speaking",
+			"French Grammar",
+			"French Reading"
+		],
+		"Japanese": [
+			"All",
+			"Japanese Speaking",
+			"Japanese Grammar",
+			"JLPT"
+		]
+	},
+	"Test Preparation": {
+		"Bank Job Preparation": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"General Knowledge",
+			"ICT"
+		],
+		"GED": [
+			"All",
+			"Mathematics",
+			"Reasoning",
+			"Science",
+			"Social Studies",
+			"Language Arts"
+		],
+		"GMAT": [
+			"All",
+			"Quantitative Reasoning",
+			"Verbal Reasoning",
+			"Data Insights"
+		],
+		"GRE": [
+			"All",
+			"Quantitative Reasoning",
+			"Verbal Reasoning",
+			"Analytical Writing"
+		],
+		"IELTS": [
+			"All",
+			"Listening",
+			"Reading",
+			"Writing",
+			"Speaking"
+		],
+		"IBA": [
+			"All",
+			"Mathematics",
+			"English",
+			"Analytical Ability"
+		],
+		"NTRCA Job Preparation": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"General Knowledge",
+			"Subject Related"
+		],
+		"Olympiad": [
+			"All",
+			"Mathematics Olympiad",
+			"Physics Olympiad",
+			"Chemistry Olympiad",
+			"Biology Olympiad",
+			"Informatics Olympiad"
+		],
+		"SAT": [
+			"All",
+			"Reading & Writing",
+			"Mathematics"
+		]
+	},
+	"Madrasa Medium": {
+		"Play": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"Nursery": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"KG": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics"
+		],
+		"Class 1": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic"
+		],
+		"Class 2": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic"
+		],
+		"Class 3": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"Science"
+		],
+		"Class 4": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"Science"
+		],
+		"Class 5": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"Science"
+		],
+		"Class 6": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"Science",
+			"ICT"
+		],
+		"Class 7": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"Science",
+			"ICT"
+		],
+		"Class 8": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"Science",
+			"ICT"
+		],
+		"Class 9": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"ICT",
+			"Physics",
+			"Chemistry",
+			"Biology"
+		],
+		"Class- Dakhil": [
+			"All",
+			"Bangla",
+			"English",
+			"Mathematics",
+			"Arabic",
+			"ICT",
+			"Physics",
+			"Chemistry",
+			"Biology",
+			"Hadith",
+			"Fiqh"
+		],
+		"Alim 1st Year": [
+			"All",
+			"Bangla",
+			"English",
+			"ICT",
+			"Arabic",
+			"Hadith",
+			"Fiqh",
+			"Islamic Studies",
+			"Physics",
+			"Chemistry",
+			"Biology"
+		],
+		"Alim 2nd Year": [
+			"All",
+			"Bangla",
+			"English",
+			"ICT",
+			"Arabic",
+			"Hadith",
+			"Fiqh",
+			"Islamic Studies",
+			"Physics",
+			"Chemistry",
+			"Biology"
+		]
+	},
+	"Special Child Education": {
+		"Basic Education": [
+			"All",
+			"Basic Communication",
+			"Basic Mathematics",
+			"Basic English",
+			"Daily Living Skills"
+		],
+		"Arts": [
+			"All",
+			"Drawing",
+			"Painting",
+			"Craft"
+		]
+	}
+}
