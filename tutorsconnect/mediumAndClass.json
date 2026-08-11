@@ -1,0 +1,163 @@
+{
+  "Bangla Medium": [
+    "Play",
+    "Nursery",
+    "KG",
+    "Class 1",
+    "Class 2",
+    "Class 3",
+    "Class 4",
+    "Class 5",
+    "Class 6",
+    "Class 7",
+    "Class 8",
+    "Class 9",
+    "Class 10",
+    "SSC",
+    "HSC-1st YEAR",
+    "HSC-2nd YEAR"
+  ],
+
+  "English Version": [
+    "Play",
+    "Pre- Schooling",
+    "Nursery",
+    "KG",
+    "Class 1",
+    "Class 2",
+    "Class 3",
+    "Class 4",
+    "Class 5",
+    "Class 6",
+    "Class 7",
+    "Class 8",
+    "Class 9",
+    "Class 10",
+    "SSC",
+    "HSC-1st YEAR",
+    "HSC-2nd YEAR"
+  ],
+
+  "English Medium": [
+    "Play",
+    "Pre- Schooling",
+    "Nursery",
+    "KG",
+    "Standard 1",
+    "Standard 2",
+    "Standard 3",
+    "Standard 4",
+    "Standard 5",
+    "Standard 6",
+    "Standard 7",
+    "Standard 8",
+    "Standard 9",
+    "O Level",
+    "A Level (AS)",
+    "A Level (A2)"
+  ],
+
+  "Religious Studies": [
+    "Islamic studies",
+    "Hinduism Studies"
+  ],
+
+  "Admission Test": [
+    "School Admission Test",
+    "Cadet Admission",
+    "College Admission Test",
+    "Medical College Admission",
+    "Engineering University Admission",
+    "Public University Admission Test",
+    "Private University Admission Test"
+  ],
+
+  "Professional skill Development": [
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "Computer Programming",
+    "Digital Marketing",
+    "HandWriting",
+    "Microsoft Office",
+    "Web Design",
+    "Web Programming"
+  ],
+
+  "Expert skill Development": [
+    "Cooking",
+    "Driving",
+    "Gym",
+    "Karate",
+    "Kung Fu",
+    "music",
+    "Photography",
+    "Yoga"
+  ],
+
+  "Arts": [
+    "Art and Craft",
+    "Drawing",
+    "Drawing & Painting",
+    "Music"
+  ],
+
+  "Uni Help": [
+    "BA-Bangla",
+    "BA-English",
+    "BA-Social Work",
+    "BBA",
+    "BBA-Management",
+    "BBA-Accounting",
+    "BBA-Finance",
+    "BBA-Marketing",
+    "BBA-Economics",
+    "BSC-CSE",
+    "BSC-EEE",
+    "BSC-Maths",
+    "BSC-Physics",
+    "MBBS"
+  ],
+
+  "Language Learning": [
+    "Arabic",
+    "Bangla",
+    "English",
+    "French",
+    "Japanese"
+  ],
+
+  "Test Preparation": [
+    "Bank Job Preparation",
+    "GED",
+    "GMAT",
+    "GRE",
+    "IELTS",
+    "IBA",
+    "NTRCA Job Preparation",
+    "Olympiad",
+    "SAT"
+  ],
+
+  "Madrasa Medium": [
+    "Play",
+    "Nursery",
+    "KG",
+    "Class 1",
+    "Class 2",
+    "Class 3",
+    "Class 4",
+    "Class 5",
+    "Class 6",
+    "Class 7",
+    "Class 8",
+    "Class 9",
+    "Class- Dakhil",
+    "Alim 1st Year",
+    "Alim 2nd Year"
+  ],
+
+  "Special Child Education": [
+    "Basic Education",
+    "Arts"
+  ]
+}
