@@ -631,7 +631,7 @@
         "ayah_arabic": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_1",
         "group_id": 4
       },
@@ -641,7 +641,7 @@
         "ayah_arabic": "قُلْنَا اهْبِطُوا مِنْهَا جَمِيعًا",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_2",
         "group_id": 4
       },
@@ -651,7 +651,7 @@
         "ayah_arabic": "قَالَ فَاهْبِطْ مِنْهَا فَمَا يَكُونُ لَكَ أَنْ تَتَكَبَّرَ فِيهَا فَاخْرُجْ إِنَّكَ مِنَ الصَّاغِرِينَ",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_3",
         "group_id": 4
       },
@@ -661,7 +661,7 @@
         "ayah_arabic": "فَتَخْطَفُهُ الطَّيْرُ أَوْ تَهْوِي بِهِ الرِّيحُ فِي مَكَانٍ سَحِيقٍ",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_4",
         "group_id": 4
       },
@@ -671,7 +671,7 @@
         "ayah_arabic": "وَبِالْحَقِّ أَنْزَلْنَاهُ وَبِالْحَقِّ نَزَلَ",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_5",
         "group_id": 4
       },
@@ -681,7 +681,7 @@
         "ayah_arabic": "وَنَزَّلْنَاهُ تَنْزِيلًا",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_6",
         "group_id": 4
       },
@@ -691,7 +691,7 @@
         "ayah_arabic": "خَاشِعًا مُتَصَدِّعًا مِنْ خَشْيَةِ اللَّهِ",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_7",
         "group_id": 4
       },
@@ -701,7 +701,7 @@
         "ayah_arabic": "يَهْبِطُ مِنْ خَشْيَةِ اللَّهِ",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": 7,
+        "ayah_note": null,
         "audiopath": "4_8",
         "group_id": 4
       }
@@ -718,7 +718,7 @@
         "ayah_arabic": "ذَٰلِكَ تَخْفِيفٌ مِنْ رَبِّكُمْ وَرَحْمَةٌ ۚ فَمَنِ اعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُ عَذَابٌ أَلِيمٌ",
         "ayah_bangla": "",
         "ayah_title": null,
-        "ayah_note": "বেজোড় সংখ্যক বার পড়বে",
+        "ayah_note": "null",
         "audiopath": "5_1",
         "group_id": 5
       },
